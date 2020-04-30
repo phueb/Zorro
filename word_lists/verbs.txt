@@ -11,6 +11,7 @@ tug
 blame
 appreciate
 loading
+wins
 view
 breath
 slice
