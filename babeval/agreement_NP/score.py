@@ -1,6 +1,8 @@
 """
 Score predictions made by language model.
 """
+
+
 class Test_Sentence:
 	def __init__(self, test_sentence_list, nouns_list, singular_list, plural_list, start_words_singular,
 				 start_words_plural):
@@ -12,12 +14,16 @@ class Test_Sentence:
 		self.start_words_plural = start_words_plural
 		self.template_1_list = None
 		self.template_2_list = None
+		self.template_3_list = None
 		self.sentence_1_complete = None
 		self.sentence_2_complete = None
+		self.sentence_3_complete = None
 		self.accurate_pred_1 = None
 		self.accurate_pred_2 = None
+		self.accurate_pred_3 = None
 		self.accurate_sentence_1 = None
 		self.accurate_sentence_2 = None
+		self.accurate_sentence_3 = None
 		self.accuracy = None
 		self.total_test_sentence = None
 		self.accuracy_proportion = None
@@ -25,13 +31,18 @@ class Test_Sentence:
 	def differentiate_templates(self):
 		self.template_1_list = []
 		self.template_2_list = []
+		self.template_3_list = []
+
 		for test_sentence in self.test_sentence_list:
 			if len(test_sentence.split(' ')) == 3:
 				template_1_sentence = test_sentence
 				self.template_1_list.append(template_1_sentence)
-			else:
+			elif len(test_sentence.split(' ')) == 4:
 				template_2_sentence = test_sentence
 				self.template_2_list.append(template_2_sentence)
+			else:
+				template_3_sentence = test_sentence
+				self.template_3_list.append(template_3_sentence)
 
 	def replace_masks_for_template_1(self):
 		self.sentence_1_complete = []
@@ -50,6 +61,15 @@ class Test_Sentence:
 				words[3] = noun
 				complete_test_sentence = " ".join(words)
 				self.sentence_2_complete.append(complete_test_sentence)
+
+	def replace_masks_for_template_3(self):
+		self.sentence_3_complete = []
+		for noun in self.nouns_list:
+			for sentence_3 in self.template_3_list:
+				words = sentence_3.split(" ")
+				words[1] = noun
+				complete_test_sentence = " ".join(words)
+				self.sentence_3_complete.append(complete_test_sentence)
 
 	def count_template_1_accuracy(self):
 		self.accurate_pred_1 = 0
@@ -77,17 +97,33 @@ class Test_Sentence:
 				if words[3] in self.singular_list:
 					self.accurate_pred_2 += 1
 					self.accurate_sentence_2.append(complete_sentence)
-
 			elif words[0] in self.start_words_plural:
 				if words[3] in self.plural_list:
 					self.accurate_pred_2 += 1
 					self.accurate_sentence_2.append(complete_sentence)
 
+	def count_template_3_accuracy(self):
+		self.accurate_pred_3 = 0
+		self.accurate_sentence_3 = []
+
+		for complete_sentence in self.sentence_3_complete:
+			words = complete_sentence.split(" ")
+			if words[0] in self.start_words_singular:
+				if words[1] in self.singular_list:
+					self.accurate_pred_3 += 1
+					self.accurate_sentence_3.append(complete_sentence)
+
+			elif words[0] in self.start_words_plural:
+				if words[1] in self.plural_list:
+					self.accurate_pred_3 += 1
+					self.accurate_sentence_3.append(complete_sentence)
+
 	def count_accuracy(self):
-		self.accuracy = self.accurate_pred_1 + self.accurate_pred_2
+		self.accuracy = self.accurate_pred_1 + self.accurate_pred_2 + self.accurate_pred_3
 
 	def count_proportion(self):
-		self.total_test_sentence = len(self.sentence_1_complete) + len(self.sentence_2_complete)
+		self.total_test_sentence = len(self.sentence_1_complete) + len(self.sentence_2_complete) + len(
+			self.sentence_3_complete)
 		self.proportion = self.accuracy / self.total_test_sentence
 
 	def print_output(self):
@@ -124,11 +160,17 @@ def main(sentence_file_name):
 	test_sentence.differentiate_templates()
 	test_sentence.replace_masks_for_template_1()
 	test_sentence.replace_masks_for_template_2()
+	test_sentence.replace_masks_for_template_3()
 	test_sentence.count_template_1_accuracy()
 	test_sentence.count_template_2_accuracy()
+	test_sentence.count_template_3_accuracy()
 	test_sentence.count_accuracy()
 	test_sentence.count_proportion()
 	test_sentence.print_output()
 
 
 main(sentence_file_name="")  # enter text_file name in .txt form here
+
+
+
+
