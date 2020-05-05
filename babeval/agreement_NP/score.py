@@ -1,7 +1,6 @@
 """
 Score predictions made by language model.
 """
-
 class Test_Sentence:
 	def __init__(self, test_sentence_list, nouns_list, singular_list, plural_list, start_words_singular,
 				 start_words_plural):
