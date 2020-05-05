@@ -49,12 +49,15 @@ with open("adjectives.txt") as f:
     list_length = len(adjectives_words_list)
     start_words = ['this', 'these', 'that', 'those']
     template_1_list = []
+
+#generate template_1 test sentences
     for start_word in start_words:
         for adjective in adjectives_words_list:
             masked = "[MASKED]"
             template_1 = start_word + " " + adjective + " " + masked
             template_1_list.append(template_1)
 
+#generate template_2 test sentences
     for start_word in start_words:
         for i in range(list_length):
             for j in range(list_length):
@@ -62,3 +65,8 @@ with open("adjectives.txt") as f:
                 template_2 = start_word + " " + adjectives_words_list[i] + " " + adjectives_words_list[j] + " " + masked
                 if adjectives_words_list[j] == adjectives_words_list[i]:
                     template_2 = ""
+#generate template_3 test sentences
+    for start_word in start_words:
+        masked = "[MASKED]"
+        template_3 = start_word + " " +  masked
+
