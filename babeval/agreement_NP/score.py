@@ -128,7 +128,6 @@ class Test_Sentence:
 		print("This is the accuracy {}".format(self.accuracy))
 		print("This is the proportion of correct predictions {}".format(self.proportion))
 
-
 def main(sentence_file_name):
 	# basic setup
 	file_name_1 = sentence_file_name
@@ -165,7 +164,6 @@ def main(sentence_file_name):
 	test_sentence.count_accuracy()
 	test_sentence.count_proportion()
 	test_sentence.print_output()
-
 
 main(sentence_file_name="")  # enter text_file name in .txt form here
 

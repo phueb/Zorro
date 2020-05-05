@@ -1,7 +1,6 @@
 """
 Generate noun phrases for evaluating number agreement Between a demonstrative and a noun
 """
-
 #open and read file
 with open('childes-20191206_mlm.txt') as f:
     text_string = f.read()
