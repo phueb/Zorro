@@ -5,9 +5,7 @@ funniest
 growling
 remote
 underwater
-sizzle
 smashed
-blown
 smelly
 friendly
 sorta
@@ -52,6 +50,7 @@ outside
 cuddly
 useful
 sailed
+exciting
 loading
 tumbled
 slimy
@@ -70,7 +69,6 @@ bitter
 slipping
 mushed
 connected
-grate
 lower
 burning
 sixth
@@ -88,7 +86,6 @@ tender
 untied
 shorter
 recorded
-meanwhile
 invisible
 fabulous
 Happy
@@ -131,6 +128,7 @@ correct
 stuffy
 south
 mushy
+ducky
 north
 nasty
 particular
@@ -181,8 +179,6 @@ damn
 bitsy
 fishy
 clever
-afterwards
-alrightie
 bumpy
 squeaky
 spicy
@@ -204,7 +200,6 @@ crowded
 crooked
 grey
 biggest
-sang
 amazing
 married
 fourth
@@ -253,7 +248,6 @@ harder
 eaten
 ought
 upon
-sometime
 ugly
 beside
 lonely
@@ -335,7 +329,6 @@ own
 high
 dear
 few
-twenty
 full
 sick
 interesting
@@ -346,7 +339,6 @@ true
 delicious
 busy
 sweet
-upside
 quiet
 able
 heavy
@@ -389,10 +381,7 @@ plenty
 wild
 awful
 wide
-suppose
 safe
-least
-seem
 dead
 extra
 dangerous
@@ -418,7 +407,6 @@ fair
 strange
 cross
 higher
-bend
 naughty
 upset
 comfortable
@@ -433,7 +421,6 @@ forever
 earlier
 less
 teeny
-twice
 smily
 neither
 alike
@@ -441,7 +428,6 @@ uniform
 naked
 scratchy
 excited
-kinda
 cute
 surprise
 separate
@@ -468,6 +454,9 @@ broken
 fine
 living
 underneath
+Dutch
+Woody
+melted
 super
 upstairs
 everyday
@@ -480,6 +469,7 @@ rush
 mixing
 Big
 front
+Hungarian
 half
 mixed
 preschool
