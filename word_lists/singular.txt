@@ -13,8 +13,8 @@ luggage
 twenty
 Lion
 sleeper
-bow+tie
 Tyranosaurus
+bow+tie
 cellar
 upside
 mosquito
@@ -23,7 +23,6 @@ plumber
 heater
 bun
 win
-putcher
 ape
 cross
 vigor
@@ -47,19 +46,15 @@ mouthful
 Bandors
 spear
 girl+friend
-R_two_D_two
 joey
-budleyleys
 batter
 Disney
 hazel
 gasoline
 orange+juice
 Smurf
-moomilk
 tornado
 scotch
-pj
 Spinosaurus
 godmother
 material
@@ -113,17 +108,14 @@ meadow
 math
 shine
 daisy
-moo+cow
 Chicken
 coop
 pterodactyl
-Wellfleet
 vote
 Inc
 dutch
 ferry
 Mars
-Soopers
 beaver
 dice
 safety
@@ -161,7 +153,6 @@ volcano
 onion
 label
 chief
-shishi
 Coke
 search
 cliff
@@ -220,7 +211,6 @@ crow
 farther
 collection
 pokey
-goo
 silverware
 protein
 play+pen
@@ -249,13 +239,11 @@ ant
 cleaner
 yes
 pine
-Doggie_Woggie
 North
 deal
 factory
 cricket
 war
-Googey
 area
 collar
 March
@@ -264,7 +252,6 @@ conversation
 giggle
 path
 Count
-puttaputta
 maker
 freeze
 Dean
@@ -318,7 +305,6 @@ November
 lotion
 ballet
 cane
-clickety+clack
 Duck
 system
 film
@@ -338,8 +324,6 @@ mummie
 crank
 cluck
 jaguar
-tractorsmiles
-Jo
 wig
 ruler
 Chinese
@@ -372,7 +356,6 @@ mane
 energy
 marmalade
 fighter
-The_great_cat_chase
 bomber
 Legos
 sunshine
@@ -515,7 +498,6 @@ fan
 raccoon
 cart
 carpet
-fishies
 tricycle
 market
 diamond
@@ -609,7 +591,6 @@ newspaper
 freight
 hate
 hose
-sings
 weasel
 curtain
 flag
@@ -644,7 +625,6 @@ bowling
 slippery
 horsies
 language
-baba
 trailer
 van
 earth
@@ -719,7 +699,6 @@ memory
 pineapple
 Bunny
 baker
-Don
 elevator
 jeep
 Lady
@@ -821,8 +800,6 @@ hip
 babysitter
 August
 forehead
-Old
-dum
 thunder
 truth
 palace
@@ -855,7 +832,6 @@ grey
 vanilla
 helmet
 lollipop
-achoo
 aquarium
 pudding
 drill
@@ -1026,7 +1002,6 @@ snort
 pardon
 notice
 hall
-NAME
 way
 car
 time
@@ -1061,7 +1036,6 @@ dog
 day
 Laura
 throw
-yep
 paper
 juice
 minute
@@ -1069,7 +1043,6 @@ truck
 bit
 room
 work
-kittie
 story
 draw
 night
@@ -1102,7 +1075,6 @@ stop
 store
 apple
 cow
-enough
 money
 page
 idea
@@ -1110,9 +1082,7 @@ coffee
 bite
 stand
 shirt
-somebody
 microphone
-dirty
 pig
 bus
 lunch
@@ -1128,7 +1098,6 @@ brush
 lady
 mother
 tea
-start
 set
 matter
 airplane
@@ -1157,7 +1126,6 @@ camera
 oink
 dinosaur
 circle
-nothing
 cream
 ice
 hole
@@ -1191,9 +1159,7 @@ bottom
 wipe
 tv
 mess
-wee
 wheel
-meow
 dance
 flower
 person
@@ -1207,7 +1173,6 @@ crayon
 park
 taste
 bug
-yeh
 telephone
 half
 soup
@@ -1252,7 +1217,6 @@ press
 bridge
 grass
 glass
-vroom
 butterfly
 road
 triangle
@@ -1368,7 +1332,6 @@ God
 gas
 world
 sea
-men
 Mister
 kitty+cat
 knee
@@ -1441,7 +1404,6 @@ size
 bath+tub
 merry+go+round
 bath+room
-heh
 splash
 case
 rubber
@@ -1519,7 +1481,6 @@ barrel
 order
 radio
 broccoli
-dya
 fact
 spring
 race
@@ -1582,10 +1543,8 @@ snow+man
 play+ground
 shovel
 tape+recorder
-night+night
 mud
 tomato
-pottie
 kitten
 desk
 seesaw
@@ -1616,7 +1575,6 @@ toy
 teeth
 bottle
 monkey
-chickennelephant
 puppy
 frog
 toast
@@ -1659,7 +1617,6 @@ raisin
 breakfast
 spoon
 hundred
-welcome
 sound
 tongue
 tie

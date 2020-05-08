@@ -208,6 +208,7 @@ hug
 mail
 stop
 drop
+sings
 porch
 beep
 shut
@@ -968,6 +969,7 @@ cause
 broken
 change
 boom
+balance
 hope
 chew
 care
