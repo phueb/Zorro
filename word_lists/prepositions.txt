@@ -2,11 +2,7 @@ above
 below
 beneath
 toward
-<<<<<<< HEAD
 towards
-=======
-Towards
->>>>>>> origin/master
 about
 across
 against
