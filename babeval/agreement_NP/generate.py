@@ -67,3 +67,34 @@ with open("adjectives.txt") as f:
         masked = "[MASKED]"
         template_3 = start_word + " " +  masked
 
+# Read in file
+file_name_1 = "nouns.txt"
+file_name_2 = "prepositions.txt"
+file_name_3 = "adjectives.txt"
+input_directory = 'word_lists/'
+
+with open(input_directory + file_name_1) as nouns_file:
+	nouns_list = nouns_file.read().lower().split("\n")
+
+with open(input_directory + file_name_2) as prepositions_file:
+	prepositions_list = prepositions_file.read().lower().split("\n")
+
+with open(input_directory + file_name_3) as adjectives_file:
+	adjectives_list = adjectives_file.read().lower().split("\n")
+
+# Generate PP templates
+PP_list = []
+for preposition in prepositions_list:
+	for noun in nouns_list:
+		PP = preposition + ' ' + 'the' + ' ' + noun
+		PP_list.append(PP)
+
+# Generate Prepositions_Sentences
+for noun in nouns_list:
+	for PP in PP_list:
+		for adjective in adjectives_list:
+			Prepositions_Sentences = 'the' + ' ' + noun + ' ' + PP + ' ' + "[MASKED]" + ' ' + adjective
+			print(Prepositions_Sentences, file = open("agreement_NP_1.txt","a"))
+
+
+
