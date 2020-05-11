@@ -34,7 +34,6 @@ enough
 frying
 grownup
 simple
-main
 marvelous
 disappeared
 terrific
@@ -94,7 +93,6 @@ Happy
 eighth
 glory
 warmer
-cardinal
 similar
 Japanese
 North
@@ -106,7 +104,6 @@ Salty
 cheesy
 fussy
 rash
-clam
 pointy
 hairy
 fluffy
@@ -130,7 +127,6 @@ correct
 stuffy
 south
 mushy
-ducky
 north
 nasty
 particular
@@ -157,7 +153,6 @@ brick
 icky
 tickly
 tumble
-sloth
 gorgeous
 younger
 colorful
@@ -166,7 +161,6 @@ stable
 evil
 blonde
 odd
-indeed
 wiggly
 chilly
 blind
@@ -189,7 +183,6 @@ needed
 squishy
 swinging
 brave
-vanilla
 colored
 attached
 cozy
@@ -207,7 +200,6 @@ married
 fourth
 gracious
 healthy
-further
 curious
 worse
 certain
@@ -248,10 +240,7 @@ smallest
 awesome
 harder
 eaten
-ought
-upon
 ugly
-beside
 lonely
 silver
 ninety
@@ -269,12 +258,9 @@ sorry
 fast
 sticky
 straight
-camel
 little
-more
 big
 alright
-other
 pretty
 sure
 ready
@@ -283,7 +269,6 @@ mean
 green
 new
 funny
-many
 hard
 great
 careful
@@ -293,7 +278,6 @@ old
 clean
 different
 cold
-nighttime
 real
 light
 happy
@@ -312,7 +296,6 @@ hungry
 wrong
 purple
 favorite
-pop
 small
 second
 yummy
@@ -327,7 +310,6 @@ sad
 dry
 bigger
 best
-own
 high
 dear
 few
@@ -347,7 +329,6 @@ heavy
 loud
 soft
 empty
-middle
 asleep
 hurry
 scary
@@ -396,7 +377,6 @@ older
 perfect
 deep
 center
-master
 free
 frozen
 third
@@ -407,14 +387,11 @@ smaller
 smooth
 fair
 strange
-cross
 higher
 naughty
 upset
 comfortable
-past
 decided
-flip
 soggy
 cleaner
 salty
@@ -434,30 +411,21 @@ cute
 surprise
 separate
 straight
-outer
 commercial
 Chinese
-chief
 juicy
 floating
 wrapped
 frightened
 resting
 rolling
-following
-losing
-falling
 dancing
 flying
 singing
-given
-walking
 broken
 fine
 living
-underneath
 Dutch
-Woody
 melted
 super
 upstairs
@@ -476,5 +444,4 @@ half
 mixed
 preschool
 orange
-top
 awake
