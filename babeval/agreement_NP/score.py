@@ -29,8 +29,8 @@ class Test_Sentence:
 		self.accurate_sentence_2 = None
 		self.accurate_sentence_3 = None
 		self.accurate_sentence_prep = None
-		self.accuracy = None
-		self.total_test_sentence = None
+		self.accuracy_1_2 = None
+		self.total_test_sentence_1_2 = None
 		self.accuracy_proportion = None
 		self.proportion_prep = None
 
@@ -154,22 +154,41 @@ class Test_Sentence:
 					self.accurate_sentence_prep.append(complete_sentence)
 
 	def count_accuracy(self):
-		self.accuracy = self.accurate_pred_1 + self.accurate_pred_2 + self.accurate_pred_3
+		self.accuracy_1_2 = int(self.accurate_pred_1) + int(self.accurate_pred_2)
+		self.total_test_sentence_1_2 = len(self.sentence_1_complete) + len(self.sentence_2_complete)
 
 	def count_proportion(self):
-		self.total_test_sentence = len(self.sentence_1_complete) + len(self.sentence_2_complete) + len(self.sentence_3_complete)
-		self.proportion = self.accuracy / self.total_test_sentence
-		self.proportion_prep = self.accurate_pred_prep / len(self.prep_complete)
+		try:
+			self.proportion_1_2 = int(self.accuracy_1_2) / self.total_test_sentence_1_2
+		except ZeroDivisionError:
+			self.proportion_1_2 = 0
+
+		try:
+			self.proportion_3 = int(self.accurate_pred_3) / len(self.sentence_3_complete)
+		except ZeroDivisionError:
+			self.proportion_3 = 0
+
+		try:
+			self.proportion_prep = self.accurate_pred_prep / len(self.prep_complete)
+		except ZeroDivisionError:
+			self.proportion_prep = 0
 
 	def print_output(self):
-		print("This is the accuracy {}".format(self.accuracy))
-		print("This is the proportion of correct predictions {}".format(self.proportion))
-		print(self.accurate_pred_prep)
-		print(self.proportion_prep)
+		print("This is the accuracy for template_1 and template_2: {}".format(self.accuracy_1_2))
+		print("This is the proportion of correct predictions for template_1 and template_2: {}".format(
+			self.proportion_1_2))
+
+		print("This is the accuracy for template_3: {}".format(self.accurate_pred_3))
+		print("This is the proportion of correct predictions for template_3: {}".format(self.proportion_3))
+
+		# print(self.prep_complete)
+		# print(self.accurate_sentence_prep)
+		print("This is the accuracy for prep_sentences: {}".format(self.accurate_pred_prep))
+		print("This is the proportion of correct predictions for prep_sentences: {}".format(self.proportion_prep))
 
 
 def main(sentence_file_name):
-	input_directory = 'word_lists/'
+	input_directory = 'word_list/'
 	file_name_1 = sentence_file_name
 	file_name_2 = input_directory + 'nouns.txt'
 	file_name_3 = input_directory + 'singular.txt'
@@ -210,5 +229,6 @@ def main(sentence_file_name):
 
 
 main(sentence_file_name="")  # enter text_file name in .txt form here
+
 
 
