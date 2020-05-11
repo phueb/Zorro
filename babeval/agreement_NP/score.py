@@ -160,17 +160,11 @@ class Test_Sentence:
 	def count_proportion(self):
 		try:
 			self.proportion_1_2 = int(self.accuracy_1_2) / self.total_test_sentence_1_2
-		except ZeroDivisionError:
-			self.proportion_1_2 = 0
-
-		try:
 			self.proportion_3 = int(self.accurate_pred_3) / len(self.sentence_3_complete)
-		except ZeroDivisionError:
-			self.proportion_3 = 0
-
-		try:
 			self.proportion_prep = self.accurate_pred_prep / len(self.prep_complete)
 		except ZeroDivisionError:
+			self.proportion_1_2 = 0
+			self.proportion_3 = 0
 			self.proportion_prep = 0
 
 	def print_output(self):
