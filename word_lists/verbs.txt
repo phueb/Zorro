@@ -395,7 +395,6 @@ hiking
 hit
 hits
 hitting
-hm
 hold
 holding
 holds
@@ -467,7 +466,6 @@ learning
 leave
 leaving
 led
-led
 left
 let
 letting
@@ -501,7 +499,6 @@ loved
 loves
 lying
 made
-mail
 mail
 make
 make+believe
