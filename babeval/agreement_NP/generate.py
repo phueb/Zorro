@@ -5,7 +5,7 @@ file_name_2 = "adjectives.txt"
 file_name_3 = "prepositions.txt"
 file_name_4 = "pronouns.txt"
 file_name_5 = "pronoun_third_person.txt"
-input_directory = "sorted_word_list/"
+input_directory = "word_lists/"
 
 start_words = ['this', 'these', 'that', 'those']
 mask = "[MASK]"
