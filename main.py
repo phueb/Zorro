@@ -1,32 +1,32 @@
-
+from pathlib import Path
 import sys
 sys.path.insert(1, 'babeval/agreement_NP/')
 import generate
 
-file_name_1 = "nouns.txt"
-file_name_2 = "adjectives.txt"
-file_name_3 = "prepositions.txt"
-file_name_4 = "pronouns.txt"
-file_name_5 = "pronoun_third_person.txt"
-input_directory = "word_lists/"
+data_folder = Path("/Users/vivianyu/Desktop/Babeval-master/word_lists")
+file_name_1 = data_folder /"nouns.txt"
+file_name_2 = data_folder /"adjectives.txt"
+file_name_3 = data_folder /"prepositions.txt"
+file_name_4 = data_folder /"pronouns.txt"
+file_name_5 = data_folder /"pronoun_third_person.txt"
 
 start_words = ['this', 'these', 'that', 'those']
 mask = "[MASK]"
 
 #open and read word_lists
-with open(input_directory + file_name_1) as f:
+with open(file_name_1) as f:
     nouns_list = f.read().lower().split("\n")
 
-with open(input_directory + file_name_2) as f:
+with open(file_name_2) as f:
     adjectives_list = f.read().lower().split("\n")
 
-with open(input_directory + file_name_3) as f:
+with open(file_name_3) as f:
     prepositions_list = f.read().lower().split("\n")
 
-with open(input_directory + file_name_4) as f:
+with open(file_name_4) as f:
     pronouns_list = f.read().lower().split("\n")
 
-with open(input_directory + file_name_5) as f:
+with open(file_name_5) as f:
     pronouns_third_person_list = f.read().lower().split("\n")
 
 generate.get_agreement_across_adjectives(start_words, adjectives_list)

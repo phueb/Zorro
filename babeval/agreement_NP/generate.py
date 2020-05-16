@@ -4,7 +4,7 @@ def get_agreement_across_adjectives(start_words, adjectives_list):
         print(template_3, file = open("agreement_across_adjectives.txt","a"))
         for adjective in adjectives_list:
             template_1 = start_word + " " + adjective + " " + "[MASK]" + " " + "."
-            # print(template_1, file = open("agreement_across_adjectives.txt","a"))
+            print(template_1, file = open("agreement_across_adjectives.txt","a"))
             list_length = len(adjectives_list)
             for i in range(list_length):
                 if adjective != adjectives_list[i]:
@@ -33,7 +33,7 @@ def get_agreement_across_RC(nouns_list, pronouns_list, adjectives_list, pronouns
         for pronoun in pronouns_list:
             for adjective in adjectives_list:
                 pronoun_sentence = "the" + " " + noun + " " + "that" + " " + pronoun + " " + "like" + " " + "[MASK]" + " " + adjective + " " + "."
-                # print(pronoun_sentence, file = open("agreement_across_RC.txt","a")) 
+                print(pronoun_sentence, file = open("agreement_across_RC.txt","a")) 
 
     for noun in nouns_list:
         for pronoun in pronouns_third_person_list:

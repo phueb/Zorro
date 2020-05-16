@@ -1,7 +1,7 @@
 """
 Score predictions made by language model.
 """
-
+from pathlib import Path
 
 class Test_Sentence:
 	def __init__(self, test_sentence_list, nouns_list, singular_list, plural_list, start_words_singular,
@@ -182,11 +182,11 @@ class Test_Sentence:
 
 
 def main(sentence_file_name):
-	input_directory = 'word_list/'
-	file_name_1 = sentence_file_name
-	file_name_2 = input_directory + 'nouns.txt'
-	file_name_3 = input_directory + 'singular.txt'
-	file_name_4 = input_directory + 'plural.txt'
+	data_folder = Path("/Users/vivianyu/Desktop/Babeval-master/word_lists")
+	file_name_1 = sentence_file_name # this should be one of the file from the output folder
+	file_name_2 = data_folder + 'nouns.txt'
+	file_name_3 = data_folder + 'singular.txt'
+	file_name_4 = data_folder + 'plural.txt'
 
 	# open and read files
 	with open(file_name_1) as sentence_file:
