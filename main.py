@@ -1,15 +1,19 @@
 from pathlib import Path
+# import sys
+# sys.path.insert(1, 'babeval/agreement_NP/')
+# import generate
 
 from babeval.agreement_across_adjectives import generate1
 from babeval.agreement_across_PP import generate2
 from babeval.agreement_across_RC import generate3
+from babeval.agreement_across_verbs import generate4
 
 data_folder = Path("/Users/vivianyu/Desktop/Babeval-master/word_lists")
 file_name_1 = data_folder /"nouns.txt"
 file_name_2 = data_folder /"adjectives.txt"
 file_name_3 = data_folder /"prepositions.txt"
 file_name_4 = data_folder /"pronouns.txt"
-file_name_5 = data_folder /"pronoun_third_person.txt"
+file_name_5 = data_folder /"pronouns_third_person.txt"
 
 start_words = ['this', 'these', 'that', 'those']
 mask = "[MASK]"
@@ -30,9 +34,10 @@ with open(file_name_4) as f:
 with open(file_name_5) as f:
     pronouns_third_person_list = f.read().lower().split("\n")
 
-generate1.get_agreement_across_adjectives(start_words, adjectives_list)
-generate2.get_agreement_across_PP(prepositions_list, nouns_list, adjectives_list)
-generate3.get_agreement_across_RC(nouns_list, pronouns_list, adjectives_list, pronouns_third_person_list)
+# generate1.get_agreement_across_adjectives(start_words, adjectives_list)
+# generate2.get_agreement_across_PP(prepositions_list, nouns_list, adjectives_list)
+# generate3.get_agreement_across_RC(nouns_list, pronouns_list, adjectives_list, pronouns_third_person_list)
+generate4.get_agreement_across_verbs(verbs, nouns_list)
 
 # To randomly select test_sentences to print out:
 
