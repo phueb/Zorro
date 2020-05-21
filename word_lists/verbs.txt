@@ -42,6 +42,7 @@ believe
 belong
 belongs
 bend
+bet
 bib
 bite
 biting
@@ -62,6 +63,7 @@ bonk
 born
 borrow
 bothering
+bother
 bought
 bouncing
 break
@@ -99,6 +101,7 @@ carries
 carry
 carrying
 catch
+care
 catches
 catching
 caught
@@ -341,6 +344,7 @@ grill
 grouch
 grow
 growing
+grows
 guard
 guess
 had
@@ -721,6 +725,7 @@ shaped
 share
 sharing
 shave
+shaving
 shed
 shine
 shining
@@ -1005,6 +1010,7 @@ whistle
 whoop
 wig
 wiggle
+wiggles
 wiggling
 win
 winding

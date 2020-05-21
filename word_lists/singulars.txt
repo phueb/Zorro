@@ -51,7 +51,6 @@ ax
 axe
 babe
 baby
-baby
 babysitter
 back+pack
 backhoe
@@ -194,7 +193,6 @@ bucket
 buckle
 bud
 buddy
-buddy
 buffalo
 bug
 buggy
@@ -210,7 +208,6 @@ bumpity
 bun
 bunch
 bunk
-bunny
 bunny
 bunny+rabbit
 bus
@@ -298,7 +295,6 @@ cinnamon
 circle
 circus
 city
-city
 clam
 clap
 class
@@ -323,7 +319,6 @@ cock
 cocoa
 coconut
 coffee
-coke
 coke
 collar
 collection
@@ -397,7 +392,6 @@ curve
 cutie
 cutter
 dadadada
-daisy
 daisy
 dakota
 dale
@@ -475,10 +469,8 @@ drum
 dryer
 dub
 duck
-duck
 duckie
 duckling
-dump
 dump
 dump+truck
 dumper
@@ -489,7 +481,6 @@ dutch
 eagle
 ear
 ear+rings
-earth
 earth
 easter
 eater
@@ -559,7 +550,6 @@ fireplace
 firetruck
 fish
 fishie
-fishies
 fishing
 five
 flag
@@ -626,7 +616,6 @@ glue
 glug
 goat
 god
-god
 godmother
 gold
 goldfish
@@ -653,7 +642,6 @@ grouch
 ground
 group
 grownup
-grows
 guacamole
 guard
 guest
@@ -743,8 +731,6 @@ ice+cream
 idea
 iguana
 imagination
-inc
-indians
 ink
 inside
 instrument
@@ -800,7 +786,6 @@ kittie
 kitty+cat
 kiwi
 kleenex
-kleenex
 knack
 knee
 knife
@@ -830,7 +815,6 @@ leaning
 leash
 leg
 lego
-legos
 lemon
 lemonade
 leopard
@@ -882,7 +866,6 @@ map
 maple
 marble
 march
-march
 margie
 marker
 market
@@ -915,7 +898,6 @@ merry
 merry+go+round
 mess
 message
-messy
 mic
 microphone
 microwave
@@ -949,7 +931,6 @@ moose
 mop
 morning
 mosquito
-mother
 mother
 motor
 motorcycle
@@ -1017,7 +998,6 @@ number
 nurse
 nursery
 nursie
-nursies
 nut
 oatmeal
 ocean
@@ -1057,7 +1037,6 @@ pancake
 panda
 paper
 parade
-park
 park
 parlor
 parrot
@@ -1119,7 +1098,6 @@ pirate
 pitcher
 pizza
 place
-place
 plan
 plane
 planet
@@ -1144,7 +1122,6 @@ pole
 police
 policeman
 polish
-polite
 polka
 pond
 pony
@@ -1322,8 +1299,9 @@ shadow
 shame
 shampoo
 shape
+share
 shark
-shaving
+shave
 sheep
 sheet
 shelf
@@ -1398,7 +1376,6 @@ someplace
 somersault
 son
 song
-soopers
 sort
 sound
 soup
@@ -1458,7 +1435,6 @@ strap
 straw
 strawberry
 street
-street
 string
 stroller
 study
@@ -1512,7 +1488,6 @@ teddy
 teddy+bear
 tee
 teeny
-teetee
 teeth
 telephone
 telescope
@@ -1674,7 +1649,6 @@ wedding
 wednesday
 week
 weekend
-wellfleet
 whale
 wheat
 wheel
@@ -1682,7 +1656,6 @@ wheelbarrow
 whistle
 whoop
 wife
-wiggles
 win
 wind
 windmill

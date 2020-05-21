@@ -5,7 +5,6 @@ achoo
 acorn
 act
 action
-adadada
 adventure
 afternoon
 afterwards
@@ -62,7 +61,6 @@ axe
 babe
 babies
 baby
-baby
 babysitter
 back+pack
 backhoe
@@ -73,7 +71,6 @@ bag
 bagel
 bagels
 bags
-bake
 baker
 bakery
 baking
@@ -166,7 +163,6 @@ bikes
 bill
 bin
 bird
-bird
 birdie
 birdies
 birds
@@ -187,7 +183,6 @@ blood
 blouse
 blow
 blows
-blue
 blue
 blueberries
 blueberry
@@ -258,7 +253,6 @@ bucket
 buckle
 bud
 buddy
-buddy
 buffalo
 bug
 buggy
@@ -277,7 +271,6 @@ bun
 bunch
 bunk
 bunnies
-bunny
 bunny
 bunny+rabbit
 bus
@@ -333,7 +326,6 @@ case
 cash
 castle
 cat
-cat
 caterpillar
 caterpillars
 cats
@@ -384,14 +376,12 @@ chocolate
 choice
 choices
 christmas
-christmas
 church
 cigarette
 cinnamon
 circle
 circles
 circus
-city
 city
 clam
 clap
@@ -423,7 +413,6 @@ cocoa
 coconut
 coffee
 coins
-coke
 coke
 collar
 collection
@@ -518,7 +507,6 @@ cutter
 dadadada
 daddies
 daisy
-daisy
 dakota
 dale
 dance
@@ -529,7 +517,6 @@ darling
 darn
 date
 daughter
-day
 day
 days
 deal
@@ -619,13 +606,11 @@ drums
 dryer
 dub
 duck
-duck
 duckie
 duckies
 duckling
 ducklings
 ducks
-dump
 dump
 dump+truck
 dumper
@@ -638,7 +623,6 @@ eagle
 ear
 ear+rings
 ears
-earth
 earth
 easter
 eater
@@ -780,7 +764,6 @@ fruit
 fruits
 frumble
 fudge
-fun
 fur
 furniture
 fuzz
@@ -818,7 +801,6 @@ glug
 goat
 goats
 god
-god
 godmother
 gold
 goldfish
@@ -849,7 +831,6 @@ grouch
 ground
 group
 grownup
-grows
 guacamole
 guard
 guest
@@ -962,7 +943,6 @@ idea
 ideas
 iguana
 imagination
-inc
 inches
 indians
 ink
@@ -1016,6 +996,7 @@ keys
 kid
 kiddo
 kids
+kill
 kind
 kindergarten
 kinds
@@ -1031,7 +1012,6 @@ kittie
 kitties
 kitty+cat
 kiwi
-kleenex
 kleenex
 knack
 knee
@@ -1069,7 +1049,6 @@ leash
 leaves
 leg
 lego
-legos
 legos
 lemon
 lemonade
@@ -1135,7 +1114,6 @@ maple
 marble
 marbles
 march
-march
 margie
 marker
 markers
@@ -1174,7 +1152,6 @@ merry
 merry+go+round
 mess
 message
-messy
 mic
 mice
 microphone
@@ -1191,6 +1168,7 @@ mine
 minute
 minutes
 mirror
+miss
 missus
 mistake
 mistakes
@@ -1217,7 +1195,6 @@ moose
 mop
 morning
 mosquito
-mother
 mother
 mothers
 motor
@@ -1363,7 +1340,6 @@ papers
 parade
 parents
 park
-park
 parlor
 parrot
 parrots
@@ -1456,7 +1432,6 @@ pirates
 pitcher
 pizza
 place
-place
 places
 plan
 plane
@@ -1491,7 +1466,6 @@ pole
 police
 policeman
 polish
-polite
 polka
 pond
 ponies
@@ -1712,9 +1686,10 @@ shame
 shampoo
 shape
 shapes
+share
 shark
 sharks
-shaving
+shave
 sheep
 sheet
 sheets
@@ -1750,7 +1725,6 @@ silverware
 sink
 sip
 sir
-sir
 siren
 sister
 sisters
@@ -1766,7 +1740,6 @@ skeleton
 skin
 skirt
 skunk
-sky
 sky
 sled
 sledding
@@ -1816,7 +1789,6 @@ somersault
 son
 song
 songs
-soopers
 sort
 sorts
 sound
@@ -1900,7 +1872,6 @@ straw
 strawberries
 strawberry
 street
-street
 streets
 string
 strings
@@ -1970,7 +1941,7 @@ teddy
 teddy+bear
 tee
 teeny
-teetee
+teeth
 teeth
 telephone
 telescope
@@ -2178,7 +2149,6 @@ weeds
 week
 weekend
 weeks
-wellfleet
 whale
 whales
 wheat
@@ -2189,8 +2159,6 @@ whiskers
 whistle
 whoop
 wife
-wiggles
-wiggles
 win
 wind
 windmill
