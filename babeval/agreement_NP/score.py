@@ -1,7 +1,108 @@
 """
 Score predictions made by language model.
+The agreement_across_adjectives task should not just calcualte a single accuracy measure, but calculate 5 measures, each quantifying the proportion of model-predictions that correspond to a particular kind of answer:
+1. correct noun number
+2. incorrect noun number
+3. ambiguous noun number ("sheep", "fish")
+4. non-noun
+5. [UNK] (this means "unknown", which means the model doesn't want to commit to an answer)
 """
 from pathlib import Path
+
+import matplotlib.pyplot as plt; plt.rcdefaults()
+import numpy as np
+import matplotlib.pyplot as plt
+
+# ie. "look at these pretty girls" "look at these mean [UNK]"
+
+class Agreement_Across_Adjectives:
+	def __init__(self, test_sentence_list, ambiguous_nouns_list, plural_list, singular_list, start_words_plural, start_words_singular):
+
+		self.test_sentence_list = test_sentence_list
+		self.ambiguous_nouns_list = ambiguous_nouns_list
+		self.plural_list = plural_list
+		self.singular_list = singular_list
+		self.start_words_plural = start_words_plural
+		self.start_words_singular = start_words_singular
+
+		self.UNK_list = None
+		self.correct_list = None
+		self.incorrect_list = None
+		self.ambiguous_list = None
+		self.non_noun_list = None
+
+		self.UNK_pred = None
+		self.correct_pred = None
+		self.incorrect_pred = None
+		self.ambiguous_pred = None
+		self.non_noun_pred = None
+
+		self.UNK_proportion = None
+		self.correct_proportion = None
+		self.incorrect_proportion = None
+		self.ambiguous_proportion = None
+		self.non_noun_proportion = None
+
+	def define_measure(self):
+		self.UNK_list = []
+		self.correct_list = []
+		self.incorrect_list = []
+		self.ambiguous_list =[]
+		self.non_noun_list = []
+
+		for sentence in self.test_sentence_list:
+			#[UNK] CONDITION
+			if sentence.split(' ')[4] == "[UNK]":
+				self.UNK_list.append(sentence)
+
+			#Correct Noun Number
+			elif sentence.split(' ')[4] in self.plural_list and sentence.split(' ')[2] in self.start_words_plural:
+				self.correct_list.append(sentence)
+
+			elif sentence.split(' ')[4] in self.singular_list and sentence.split(' ')[2] in self.start_words_singular:
+				self.correct_list.append(sentence)
+
+			#Incorrect Noun Number
+			elif sentence.split(' ')[4] in self.plural_list and sentence.split(' ')[2] in self.start_words_singular:
+				self.incorrect_list.append(sentence)
+
+			elif sentence.split(' ')[4] in self.singular_list and sentence.split(' ')[2] in self.start_words_plural:
+				self.incorrect_list.append(sentence)
+
+			#Ambiguous Noun
+			elif sentence.split(' ')[4] in self.ambiguous_nouns_list:
+				self.ambiguous_list.append(sentence)
+
+			#Non_Noun
+			else:
+				self.non_noun_list.append(sentence)
+
+	def calculate_proportion(self):
+		total_sentence = len(self.test_sentence_list)
+
+		self.UNK_pred = len(self.UNK_list)
+		self.correct_pred = len(self.correct_list)
+		self.incorrect_pred = len(self.incorrect_list)
+		self.ambiguous_pred = len(self.ambiguous_list)
+		self.non_noun_pred = len(self.non_noun_list)
+
+		self.UNK_proportion = self.UNK_pred / total_sentence 
+		self.correct_proportion = self.correct_pred / total_sentence 
+		self.incorrect_proportion = self.incorrect_pred / total_sentence 
+		self.ambiguous_proportion = self.ambiguous_pred / total_sentence
+		self.non_noun_proportion = self.non_noun_pred / total_sentence
+
+	def visualize_proportion(self):
+		objects = ("correct noun", "incorrect noun", "ambiguous noun", "non-noun", "[UNK]")
+		y_pos = np.arange(len(objects))
+		y_bar = [self.correct_proportion, self.incorrect_proportion, self.ambiguous_proportion, self.non_noun_proportion, self.UNK_proportion]
+
+		plt.bar(y_pos, y_bar, align='center', alpha=0.5)
+		plt.xticks(y_pos, objects)
+		plt.ylabel('proportion of total predictions that are in the category')
+		plt.title('overview of five categories of agreement_across_adjectives')
+		# plt.savefig('figure1.png', dpi=700)
+		plt.show()
 
 class Test_Sentence:
 	def __init__(self, test_sentence_list, nouns_list, singular_list, plural_list, start_words_singular,
@@ -65,13 +166,12 @@ class Test_Sentence:
 
 		#get accuracy (when a file contains multiple sentence structures)
 
-		self.accuracy_1_2 = None
+		self.accuracy_adj  = None
 		self.accuracy_question = None
 		
 		#get proportion
 
-		self.proportion_1_2 = None
-		self.proportion_3 = None
+		self.proportion_adj = None
 		self.proportion_prep = None
 		self.proportion_RC = None
 		self.proportion_question = None
@@ -179,7 +279,6 @@ class Test_Sentence:
 				words[1] = prep_verb
 				complete_test_sentence = " ".join(words)
 				self.question_1_complete.append(complete_test_sentence)
-		print(self.question_1_complete)
 
 		# question_2
 
@@ -189,7 +288,6 @@ class Test_Sentence:
 				words[1] = verb
 				complete_test_sentence = " ".join(words)
 				self.question_2_complete.append(complete_test_sentence)
-		print(self.question_2_complete)
 
 	def count_template_1_accuracy(self):
 		self.accurate_pred_1 = 0
@@ -303,8 +401,8 @@ class Test_Sentence:
 
 	def count_accuracy(self):
 
-		self.accuracy_1_2 = int(self.accurate_pred_1) + int(self.accurate_pred_2)
-		self.total_test_sentence_1_2 = len(self.sentence_1_complete) + len(self.sentence_2_complete)
+		self.accuracy_adj = int(self.accurate_pred_1) + int(self.accurate_pred_2) + int(self.accurate_pred_3)
+		self.total_test_sentence_adjectives = len(self.sentence_1_complete) + len(self.sentence_2_complete) + len(self.sentence_3_complete)
 
 		self.accuracy_question = int(self.accurate_pred_question_1) + int(self.accurate_pred_question_2)
 		self.total_question = len(self.question_1_complete) + len(self.question_2_complete)
@@ -312,14 +410,12 @@ class Test_Sentence:
 	def count_proportion(self):
 
 		try:
-			self.proportion_1_2 = int(self.accuracy_1_2) / self.total_test_sentence_1_2
-			self.proportion_3 = int(self.accurate_pred_3) / len(self.sentence_3_complete)
+			self.proportion_adj = int(self.accuracy_adj) / self.total_test_sentence_adjectives
 			self.proportion_prep = int(self.accurate_pred_prep) / len(self.prep_complete)
 			self.proportion_RC = int(self.accurate_pred_RC) / len(self.RC_complete)
 
 		except ZeroDivisionError:
-			self.proportion_1_2 = 0
-			self.proportion_3 = 0
+			self.proportion_adj = 0
 			self.proportion_prep = 0
 			self.proportion_RC = 0
 
@@ -330,22 +426,17 @@ class Test_Sentence:
 
 
 	def print_output(self):
-		print("This is the accuracy for template_1 & template_2/ agreement_across_adjectives: {}".format(self.accuracy_1_2))
-		print("This is the proportion of correct predictions for template_1 & template_2/ agreement_across_adjectives: {}".format(self.proportion_1_2))
+		print("Accuracy (agreement_across_adjectives) : {}".format(self.accuracy_adj))
+		print("Proportion of correct predictions (agreement_across_adjectives) : {}".format(self.proportion_adj))
 
-		print("This is the accuracy for template_3/ agreement_across_adjectives: {}".format(self.accurate_pred_3))
-		print("This is the proportion of correct predictions for template_3/ agreement_across_adjectives: {}".format(self.proportion_3))
+		print("Accuracy (agreement_across_PP): {}".format(self.accurate_pred_prep))
+		print("Proportion of correct predictions (agreement_across_PP): {}".format(self.proportion_prep))
 
-		print("This is the accuracy for agreement_across_adjectives: {}".format(self.accurate_pred_prep))
-		print("This is the proportion of correct predictions for agreement_across_adjectives: {}".format(self.proportion_prep))
+		print("Accuracy (agreement_across_RC): {}".format(self.accurate_pred_RC))
+		print("Proportion of correct predictions (agreement_across_RC): {}".format(self.proportion_RC))
 
-		print("This is the accuracy for agreement_across_RC: {}".format(self.accurate_pred_RC))
-		print("This is the proportion of correct predictions for agreement_across_RC: {}".format(self.proportion_RC))
-
-		print("This is the accuracy for agreement_in_question: {}".format(self.accuracy_question))
-		print("This is the proportion of correct predictions for agreement_in_question: {}".format(self.proportion_question))
-
-		# print(self.accurate_sentence_RC)
+		print("Accuracy (agreement_in_question): {}".format(self.accuracy_question))
+		print("Proportion of correct predictions (agreement_in_question): {}".format(self.proportion_question))
 
 
 def main(sentence_file_name):
@@ -356,7 +447,11 @@ def main(sentence_file_name):
 	file_name_3 = data_folder_2 / 'singulars.txt'
 	file_name_4 = data_folder_2 / 'plurals.txt'
 
+	file_name_5 = data_folder_2 / 'ambiguous_nouns.txt'
+
 	# open and read files
+
+	# for Test_Sentence
 	with open(file_name_1) as sentence_file:
 		test_sentence_list = sentence_file.read().split("\n")
 
@@ -369,6 +464,10 @@ def main(sentence_file_name):
 	with open(file_name_4) as plural_file:
 		plural_list = plural_file.read().lower().split("\n")
 
+	# for Agreement_Across_Adjectives:
+	with open(file_name_5) as ambiguous_nouns:
+		ambiguous_nouns_list = ambiguous_nouns.read().lower().split("\n")
+
 	# separate start words
 	start_words_singular = ["this", "that"]
 	start_words_plural = ["these", "those"]
@@ -376,27 +475,37 @@ def main(sentence_file_name):
 	prep_verbs = ["is", "are"]
 	verbs = ["does", "do"]
 
-	test_sentence = Test_Sentence(test_sentence_list, nouns_list, singular_list, plural_list, start_words_singular,
-								  start_words_plural, start_words, prep_verbs, verbs)
-	test_sentence.differentiate_templates()
+	#Counting number agreements for agreement_across_adjectives:
+	agreement_across_adj = Agreement_Across_Adjectives(test_sentence_list, ambiguous_nouns_list, plural_list, singular_list, start_words_plural, start_words_singular)
+	agreement_across_adj.define_measure()
+	agreement_across_adj.calculate_proportion()
+	agreement_across_adj.visualize_proportion()
 
-	test_sentence.replace_mask_for_template_1()
-	test_sentence.replace_mask_for_template_2()
-	test_sentence.replace_mask_for_template_3()
-	test_sentence.replace_mask_for_template_prep()
-	test_sentence.replace_mask_for_template_RC()
-	test_sentence.replace_mask_for_template_question()
 
-	test_sentence.count_template_1_accuracy()
-	test_sentence.count_template_2_accuracy()
-	test_sentence.count_template_3_accuracy()
-	test_sentence.count_prep_accuracy()
-	test_sentence.count_RC_accuracy()
-	test_sentence.count_question_accuracy()
+	#Counting number agreements based on single/plural word_lists
 
-	test_sentence.count_accuracy()
-	test_sentence.count_proportion()
-	test_sentence.print_output()
+	# test_sentence = Test_Sentence(test_sentence_list, nouns_list, singular_list, plural_list, start_words_singular,
+	# 							  start_words_plural, start_words, prep_verbs, verbs)
+
+	# test_sentence.differentiate_templates()
+
+	# test_sentence.replace_mask_for_template_1()
+	# test_sentence.replace_mask_for_template_2()
+	# test_sentence.replace_mask_for_template_3()
+	# test_sentence.replace_mask_for_template_prep()
+	# test_sentence.replace_mask_for_template_RC()
+	# test_sentence.replace_mask_for_template_question()
+
+	# test_sentence.count_template_1_accuracy()
+	# test_sentence.count_template_2_accuracy()
+	# test_sentence.count_template_3_accuracy()
+	# test_sentence.count_prep_accuracy()
+	# test_sentence.count_RC_accuracy()
+	# test_sentence.count_question_accuracy()
+
+	# test_sentence.count_accuracy()
+	# test_sentence.count_proportion()
+	# test_sentence.print_output()
 
 
 main(sentence_file_name = "dummy_file.txt")  # enter one of the text_file name from output folder in .txt form here
