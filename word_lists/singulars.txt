@@ -263,7 +263,6 @@ center
 cereal
 chain
 chair
-chalk
 chance
 charge
 chatty_baby
@@ -308,7 +307,6 @@ clock
 closet
 cloth
 clothes
-clothing
 cloud
 clown
 club
@@ -409,7 +407,6 @@ dean
 dear
 december
 deck
-deer
 delivery
 den
 dentist
@@ -420,7 +417,6 @@ desk
 dessert
 diamond
 diaper
-dice
 difference
 digger
 dime
@@ -548,7 +544,6 @@ firefighter
 fireman
 fireplace
 firetruck
-fish
 fishie
 fishing
 five
@@ -560,11 +555,9 @@ flavor
 flip
 float
 floor
-flour
 flower
 flute
 fog
-food
 fool
 football
 forehead
@@ -586,11 +579,9 @@ frisbee
 frog
 froggie
 front
-fruit
 frumble
 fudge
 fur
-furniture
 fuzz
 game
 garage
@@ -618,7 +609,6 @@ goat
 god
 godmother
 gold
-goldfish
 golf
 goodbye
 goodness
@@ -632,7 +622,6 @@ grain
 grandmother
 granola
 grape
-grapefruit
 grass
 grasshopper
 grate
@@ -679,7 +668,6 @@ heck
 heel
 helicopter
 helmet
-help
 helper
 hen
 hero
@@ -697,7 +685,6 @@ holder
 hole
 holiday
 home
-homework
 honey
 honey
 honk
@@ -814,7 +801,6 @@ lean
 leaning
 leash
 leg
-lego
 lemon
 lemonade
 leopard
@@ -846,7 +832,6 @@ lot
 lotion
 lotta
 luck
-luggage
 lunch
 lunchtime
 macaroni
@@ -927,7 +912,6 @@ monster
 month
 mood
 moon
-moose
 mop
 morning
 mosquito
@@ -974,7 +958,6 @@ needle
 neighborhood
 nest
 net
-news
 newspaper
 nickel
 night
@@ -1119,7 +1102,6 @@ pocketbook
 point
 pokey
 pole
-police
 policeman
 polish
 polka
@@ -1203,7 +1185,6 @@ recorder
 rectangle
 refrigerator
 register
-reindeer
 rest
 restaurant
 rhinoceros
@@ -1243,7 +1224,6 @@ safety
 sail
 sailboat
 salad
-salmon
 salt
 sand
 sandbox
@@ -1260,7 +1240,6 @@ scarf
 school
 school+bus
 schoolbus
-scissors
 scoop
 scoot
 scooter
@@ -1302,7 +1281,6 @@ shape
 share
 shark
 shave
-sheep
 sheet
 shelf
 shell
@@ -1403,7 +1381,6 @@ spy
 square
 squash
 squeak
-squid
 squirrel
 stack
 stage
@@ -1440,7 +1417,6 @@ stroller
 study
 stuff
 subway
-sugar
 suit
 suitcase
 summer
@@ -1585,7 +1561,6 @@ tuesday
 tug
 tugboat
 tummy
-tuna
 tune
 tunnel
 turkey
@@ -1650,7 +1625,6 @@ wednesday
 week
 weekend
 whale
-wheat
 wheel
 wheelbarrow
 whistle
@@ -1670,7 +1644,6 @@ wire
 witch
 wolf
 woman
-wood
 woof
 wool
 word
