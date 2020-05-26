@@ -1,4 +1,4 @@
-def get_agreement_across_PP(prepositions_list, nouns_list, adjectives_list):
+def main(prepositions_list, nouns_list, adjectives_list):
     PP_list = []
     for preposition in prepositions_list:
         for noun in nouns_list:

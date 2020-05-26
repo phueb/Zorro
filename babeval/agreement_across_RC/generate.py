@@ -1,4 +1,4 @@
-def get_agreement_across_RC(nouns_list, pronouns_list, adjectives_list, pronouns_third_person_list):
+def main(nouns_list, pronouns_list, adjectives_list, pronouns_third_person_list):
     for noun in nouns_list:
         for pronoun in pronouns_list:
             for adjective in adjectives_list:

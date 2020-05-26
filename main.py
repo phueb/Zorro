@@ -1,43 +1,53 @@
 from pathlib import Path
-# import sys
-# sys.path.insert(1, 'babeval/agreement_NP/')
-# import generate
 
-from babeval.agreement_across_adjectives import generate1
-from babeval.agreement_across_PP import generate2
-from babeval.agreement_across_RC import generate3
-from babeval.agreement_across_verbs import generate4
+from babeval.agreement_across_adjectives.generate import main as generate_agreement_across_adjectives
+from babeval.agreement_across_PP.generate import main as generate_agreement_across_pp
+from babeval.agreement_across_RC.generate import main as generate_agreement_across_rc
+from babeval.agreement_in_question.generate import main as generate_agreement_in_question
 
-data_folder = Path("/Users/vivianyu/Desktop/Babeval-master/word_lists")
-file_name_1 = data_folder /"nouns.txt"
-file_name_2 = data_folder /"adjectives.txt"
-file_name_3 = data_folder /"prepositions.txt"
-file_name_4 = data_folder /"pronouns.txt"
-file_name_5 = data_folder /"pronouns_third_person.txt"
+data_folder = Path("word_lists")
+output_folder = Path("output")
 
-start_words = ['this', 'these', 'that', 'those']
-mask = "[MASK]"
-
-#open and read word_lists
-with open(file_name_1) as f:
-    nouns_list = f.read().lower().split("\n")
-
-with open(file_name_2) as f:
-    adjectives_list = f.read().lower().split("\n")
-
-with open(file_name_3) as f:
+# open and read word_lists
+with open(data_folder / "nouns.txt") as f:
+    nouns = f.read().lower().split("\n")
+with open(data_folder / "adjectives.txt") as f:
+    adjectives = f.read().lower().split("\n")
+with open(data_folder / "prepositions.txt") as f:
     prepositions_list = f.read().lower().split("\n")
+with open(data_folder / "pronouns.txt") as f:
+    pronouns = f.read().lower().split("\n")
+with open(data_folder / "pronouns_third_person.txt") as f:
+    pronouns_3p = f.read().lower().split("\n")
 
-with open(file_name_4) as f:
-    pronouns_list = f.read().lower().split("\n")
+# agreement_across_adjectives
+out_path = output_folder / 'agreement_across_adjectives.txt'
+with open(out_path, 'w') as f:
+    for n, sentence in enumerate(generate_agreement_across_adjectives(adjectives)):
+        f.write(sentence + '\n')
+    print(f'Saved {n:,} sentences to {out_path}')
 
-with open(file_name_5) as f:
-    pronouns_third_person_list = f.read().lower().split("\n")
+# agreement_across_PP
+out_path = output_folder / 'agreement_across_PP.txt'
+with open(out_path, 'w') as f:
+    for n, sentence in enumerate(generate_agreement_across_pp(prepositions_list, nouns, adjectives)):
+        f.write(sentence + '\n')
+    print(f'Saved {n:,} sentences to {out_path}')
 
-# generate1.get_agreement_across_adjectives(start_words, adjectives_list)
-# generate2.get_agreement_across_PP(prepositions_list, nouns_list, adjectives_list)
-# generate3.get_agreement_across_RC(nouns_list, pronouns_list, adjectives_list, pronouns_third_person_list)
-generate4.get_agreement_across_verbs(verbs, nouns_list)
+# agreement_across_RC
+out_path = output_folder / 'agreement_across_RC.txt'
+with open(out_path, 'w') as f:
+    for n, sentence in enumerate(generate_agreement_across_rc(nouns, pronouns, adjectives, pronouns_3p)):
+        f.write(sentence + '\n')
+    print(f'Saved {n:,} sentences to {out_path}')
+
+# agreement_in_question
+out_path = output_folder / 'agreement_in_question.txt'
+with open(out_path, 'w') as f:
+    for n, sentence in enumerate(generate_agreement_in_question(nouns)):
+        f.write(sentence + '\n')
+    print(f'Saved {n:,} sentences to {out_path}')
+
 
 # To randomly select test_sentences to print out:
 

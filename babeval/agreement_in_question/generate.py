@@ -1,4 +1,4 @@
-def get_agreement_in_question(nouns_list):
+def main(nouns_list):
     for noun in nouns_list:
         sentence_1 = "where" + " " + "[MASK]" + " " + "the" + " " + noun + " " + "go" + " " + "?"
         print(sentence_1, file = open("agreement_in_question.txt","a"))
