@@ -12,15 +12,15 @@ output_folder = Path("output")
 
 # open and read word_lists
 with open(data_folder / "nouns.txt") as f:
-    nouns = f.read().lower().split("\n")
+    nouns = f.read().split("\n")
 with open(data_folder / "adjectives.txt") as f:
-    adjectives = f.read().lower().split("\n")
+    adjectives = f.read().split("\n")
 with open(data_folder / "prepositions.txt") as f:
-    prepositions_list = f.read().lower().split("\n")
+    prepositions_list = f.read().split("\n")
 with open(data_folder / "pronouns.txt") as f:
-    pronouns = f.read().lower().split("\n")
+    pronouns = f.read().split("\n")
 with open(data_folder / "pronouns_third_person.txt") as f:
-    pronouns_3p = f.read().lower().split("\n")
+    pronouns_3p = f.read().split("\n")
 
 # agreement_across_adjectives
 out_path = output_folder / 'agreement_across_adjectives.txt'
@@ -28,6 +28,8 @@ with open(out_path, 'w') as f:
     for n, sentence in enumerate(generate_agreement_across_adjectives(adjectives)):
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
+
+raise SystemExit('User exit')
 
 # agreement_across_PP
 out_path = output_folder / 'agreement_across_PP.txt'

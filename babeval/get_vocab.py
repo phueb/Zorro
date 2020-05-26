@@ -74,7 +74,7 @@ file1 = open(completeName, "a")
 
 file_to_open_2 = data_folder_1 / file_name
 with open(file_to_open_2) as f:
-    f = f.read().lower().split("\n")
+    f = f.read().split("\n")
     word_list = sorted(f)
     # for word in word_list:
     #     print(word, file = file1) 

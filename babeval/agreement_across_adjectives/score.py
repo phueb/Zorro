@@ -128,17 +128,17 @@ def main(sentence_file_name):
 		test_sentence_list = sentence_file.read().split("\n")
 
 	with open(file_name_2) as nouns_file:
-		nouns_list = nouns_file.read().lower().split("\n")
+		nouns_list = nouns_file.read().split("\n")
 
 	with open(file_name_3) as singular_file:
-		singular_list = singular_file.read().lower().split("\n")
+		singular_list = singular_file.read().split("\n")
 
 	with open(file_name_4) as plural_file:
-		plural_list = plural_file.read().lower().split("\n")
+		plural_list = plural_file.read().split("\n")
 
 	# for Agreement_Across_Adjectives:
 	with open(file_name_5) as ambiguous_nouns:
-		ambiguous_nouns_list = ambiguous_nouns.read().lower().split("\n")
+		ambiguous_nouns_list = ambiguous_nouns.read().split("\n")
 
 	# separate start words
 	start_words_singular = ["this", "that"]
