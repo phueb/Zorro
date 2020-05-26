@@ -131,7 +131,7 @@ def format_BERT_output(sentence_file_name):
 
 	n = 6
 	test_sentence_list = []
-	x = [lst_2[i:i + n] for i in range(0, len(lst_2), n)]  
+	x = [lst_2[i:i + n] for i in range(0, len(lst_2), n)]
 	for i in x:
 		x = " ".join(i)
 		test_sentence_list.append(x)
@@ -139,28 +139,28 @@ def format_BERT_output(sentence_file_name):
 	return test_sentence_list
 
 def main(sentence_file_name):
-	data_folder_1 = Path("/Users/vivianyu/Desktop/Babeval-master/word_lists")
+	data_folder_1 = Path("/Users/vivianyu/Desktop/Babeval-master/output")
 	file_name_1 = data_folder_1 / 'nouns.txt'
-	file_name_2 = data_folder_1 / 'singulars.txt'
-	file_name_3 = data_folder_1 / 'plurals.txt'
-	file_name_4 = data_folder_1 / 'ambiguous_nouns.txt'
+	file_name_2 = data_folder_1 / 'nouns_singular_annotator1.txt'
+	file_name_3 = data_folder_1 / 'nouns_plural_annotator1.txt'
+	file_name_4 = data_folder_1 / 'nouns_ambiguous_number_annotator1.txt'
 	
 	# for Test_Sentence
 
 	with open(file_name_1) as nouns_file:
-		nouns_list = nouns_file.read().lower().split("\n")
+		nouns_list = nouns_file.read().split("\n")
 
 	with open(file_name_2) as singular_file:
-		singular_list = singular_file.read().lower().split("\n")
+		singular_list = singular_file.read().split("\n")
 
 	with open(file_name_3) as plural_file:
-		plural_list = plural_file.read().lower().split("\n")
+		plural_list = plural_file.read().split("\n")
 
 	# for Agreement_Across_Adjectives:
 	with open(file_name_4) as ambiguous_nouns:
-		ambiguous_nouns_list = ambiguous_nouns.read().lower().split("\n")
+		ambiguous_nouns_list = ambiguous_nouns.read().split("\n")
 
-	test_sentence_list = format_BERT_output(sentence_file_name)
+    test_sentence_list = format_BERT_output(sentence_file_name)
 
 	# separate start words
 	start_words_singular = ["this", "that"]
