@@ -5,6 +5,8 @@ from babeval.agreement_across_PP.generate import main as generate_agreement_acro
 from babeval.agreement_across_RC.generate import main as generate_agreement_across_rc
 from babeval.agreement_in_question.generate import main as generate_agreement_in_question
 
+VOCAB_SIZE = 4096  # TODO verify that word lists contents are in vocab
+
 data_folder = Path("word_lists")
 output_folder = Path("output")
 
