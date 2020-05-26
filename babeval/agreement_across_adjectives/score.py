@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt; plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # ie. "look at these pretty girls" "look at these mean [UNK]"
 
 class Agreement_Across_Adjectives:
@@ -113,32 +114,53 @@ class Agreement_Across_Adjectives:
 		print("non-noun: {}".format(self.non_noun_proportion))
 		print("[UNK]: {}".format(self.UNK_proportion))
 
-def main(sentence_file_name):
-	data_folder_1 = Path("/Users/vivianyu/Desktop/Babeval-master/output")
-	data_folder_2 = Path("/Users/vivianyu/Desktop/Babeval-master/word_lists")
-	file_name_1 = data_folder_1 / sentence_file_name # this should be one of the file from the output folder
-	file_name_2 = data_folder_2 / 'nouns.txt'
-	file_name_3 = data_folder_2 / 'singulars.txt'
-	file_name_4 = data_folder_2 / 'plurals.txt'
+def format_BERT_output(sentence_file_name):
+	file = open(sentence_file_name, "r")
+	lines = file.readlines()
+	file.close()
 
-	file_name_5 = data_folder_2 / 'ambiguous_nouns.txt'
+	lst_1 = []
+	for line in lines:
+		parts = line.split()
+		if len(parts) == 2:
+			lst_1.append(parts)
+
+	lst_2 = []
+	for i in lst_1:
+		lst_2.append(i[0])
+
+	n = 6
+	test_sentence_list = []
+	x = [lst_2[i:i + n] for i in range(0, len(lst_2), n)]  
+	for i in x:
+		x = " ".join(i)
+		test_sentence_list.append(x)
+
+	return test_sentence_list
+
+def main(sentence_file_name):
+	data_folder_1 = Path("/Users/vivianyu/Desktop/Babeval-master/word_lists")
+	file_name_1 = data_folder_1 / 'nouns.txt'
+	file_name_2 = data_folder_1 / 'singulars.txt'
+	file_name_3 = data_folder_1 / 'plurals.txt'
+	file_name_4 = data_folder_1 / 'ambiguous_nouns.txt'
 	
 	# for Test_Sentence
-	with open(file_name_1) as sentence_file:
-		test_sentence_list = sentence_file.read().split("\n")
 
-	with open(file_name_2) as nouns_file:
-		nouns_list = nouns_file.read().split("\n")
+	with open(file_name_1) as nouns_file:
+		nouns_list = nouns_file.read().lower().split("\n")
 
-	with open(file_name_3) as singular_file:
-		singular_list = singular_file.read().split("\n")
+	with open(file_name_2) as singular_file:
+		singular_list = singular_file.read().lower().split("\n")
 
-	with open(file_name_4) as plural_file:
-		plural_list = plural_file.read().split("\n")
+	with open(file_name_3) as plural_file:
+		plural_list = plural_file.read().lower().split("\n")
 
 	# for Agreement_Across_Adjectives:
-	with open(file_name_5) as ambiguous_nouns:
-		ambiguous_nouns_list = ambiguous_nouns.read().split("\n")
+	with open(file_name_4) as ambiguous_nouns:
+		ambiguous_nouns_list = ambiguous_nouns.read().lower().split("\n")
+
+	test_sentence_list = format_BERT_output(sentence_file_name)
 
 	# separate start words
 	start_words_singular = ["this", "that"]
@@ -147,15 +169,14 @@ def main(sentence_file_name):
 	prep_verbs = ["is", "are"]
 	verbs = ["does", "do"]
 
-	#Counting number agreements for agreement_across_adjectives:
+	# Counting number agreements for agreement_across_adjectives:
 	agreement_across_adj = Agreement_Across_Adjectives(test_sentence_list, ambiguous_nouns_list, plural_list, singular_list, start_words_plural, start_words_singular)
 	agreement_across_adj.define_measure()
 	agreement_across_adj.calculate_proportion()
 	agreement_across_adj.visualize_proportion()
 	agreement_across_adj.print_output()
 
-
-main(sentence_file_name = "")  # enter the BERT ouput file here to score accuracy
+main("probing_dummy_results_17000.txt")  # enter the BERT ouput file here to score accuracy
 
 
 
