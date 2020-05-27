@@ -25,7 +25,7 @@ class Agreement_Across_Adjectives:
 		self.test_sentence_list = test_sentence_list
 		self.ambiguous_nouns_list = ambiguous_nouns_list
 		self.plural_list = plural_list
-		self.singular_list = singular_list + ['[NAME]']
+		self.singular_list = singular_list + ['[NAME]', 'one']
 		self.start_words_plural = start_words_plural
 		self.start_words_singular = start_words_singular
 
@@ -55,8 +55,15 @@ class Agreement_Across_Adjectives:
 		self.non_noun_list = []
 
 		for sentence in self.test_sentence_list:
-			predicted_noun = sentence.split(' ')[4]  # TODO get index by checking where [MASK] is in input sentence
-			start_word = sentence.split(' ')[2]  # TODO do not hard-code this index
+			# sentence is a list
+
+			print(sentence)
+			predicted_noun = sentence[-2]  # TODO get index by checking where [MASK] is in input sentence
+			start_word = [w for w in sentence if w in self.start_words_plural + self.start_words_singular][0]
+
+			print(predicted_noun)
+
+			assert start_word in self.start_words_plural + self.start_words_singular
 
 			# [UNK] CONDITION
 			if predicted_noun == "[UNK]":
@@ -99,7 +106,7 @@ class Agreement_Across_Adjectives:
 		self.ambiguous_proportion = self.ambiguous_pred / total_sentence
 		self.non_noun_proportion = self.non_noun_pred / total_sentence
 
-	def visualize_proportion(self):
+	def visualize_proportion(self, sentence_file_name):
 		objects = ("correct\nnoun", "incorrect\nnoun", "ambiguous\nnoun", "non-noun", "[UNK]")
 		y_pos = np.arange(len(objects))
 		y_bar = [self.correct_proportion, self.incorrect_proportion, self.ambiguous_proportion,
@@ -108,7 +115,7 @@ class Agreement_Across_Adjectives:
 		plt.bar(y_pos, y_bar, align='center', alpha=0.5)
 		plt.xticks(y_pos, objects)
 		plt.ylabel('proportion of total predictions that are in the category')
-		plt.title(f'Agreement_Across_Adjectives\nn={len(self.test_sentence_list)}')
+		plt.title(f'Agreement_Across_Adjectives\nn={len(self.test_sentence_list)}\n{sentence_file_name}')
 		mng = plt.get_current_fig_manager()
 		mng.full_screen_toggle()
 		# plt.savefig('figure1.png', dpi=700)
@@ -127,22 +134,20 @@ def format_BERT_output(sentence_file_name):
 	lines = file.readlines()
 	file.close()
 
-	lst_1 = []
+	col2 = []
 	for line in lines:
 		parts = line.split()
 		if len(parts) == 2:
-			lst_1.append(parts)
+			col2.append(parts[-1])
 
-	lst_2 = []
-	for i in lst_1:
-		lst_2.append(i[1])
+	test_sentence_list = [[]]
+	for w in col2:
+		test_sentence_list[-1].append(w)
+		if w == '.':
+			test_sentence_list.append([])
 
-	n = 6
-	test_sentence_list = []
-	x = [lst_2[i:i + n] for i in range(0, len(lst_2), n)]
-	for i in x:
-		x = " ".join(i)
-		test_sentence_list.append(x)
+	if not test_sentence_list[-1]:
+		del test_sentence_list[-1]
 
 	return test_sentence_list
 
@@ -183,8 +188,8 @@ def main(sentence_file_name):
 													   singular_list, start_words_plural, start_words_singular)
 	agreement_across_adj.define_measure()
 	agreement_across_adj.calculate_proportion()
-	agreement_across_adj.visualize_proportion()
+	agreement_across_adj.visualize_proportion(sentence_file_name)
 	agreement_across_adj.print_output()
 
 
-main("probing_dummy_results_17000.txt")  # enter the BERT ouput file here to score accuracy
+main("probing_dummy_results_79000.txt")  # enter the BERT ouput file here to score accuracy
