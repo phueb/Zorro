@@ -138,8 +138,9 @@ def format_BERT_output(sentence_file_name):
 
 	return test_sentence_list
 
+
 def main(sentence_file_name):
-	data_folder_1 = Path("/Users/vivianyu/Desktop/Babeval-master/output")
+	data_folder_1 = Path("../../word_lists/4096")
 	file_name_1 = data_folder_1 / 'nouns.txt'
 	file_name_2 = data_folder_1 / 'nouns_singular_annotator1.txt'
 	file_name_3 = data_folder_1 / 'nouns_plural_annotator1.txt'
@@ -160,7 +161,7 @@ def main(sentence_file_name):
 	with open(file_name_4) as ambiguous_nouns:
 		ambiguous_nouns_list = ambiguous_nouns.read().split("\n")
 
-    test_sentence_list = format_BERT_output(sentence_file_name)
+	test_sentence_list = format_BERT_output(sentence_file_name)
 
 	# separate start words
 	start_words_singular = ["this", "that"]
