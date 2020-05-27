@@ -9,7 +9,9 @@ The agreement_across_adjectives task should not just calcualte a single accuracy
 """
 from pathlib import Path
 
-import matplotlib.pyplot as plt; plt.rcdefaults()
+import matplotlib.pyplot as plt;
+
+plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -17,12 +19,13 @@ import matplotlib.pyplot as plt
 # ie. "look at these pretty girls" "look at these mean [UNK]"
 
 class Agreement_Across_Adjectives:
-	def __init__(self, test_sentence_list, ambiguous_nouns_list, plural_list, singular_list, start_words_plural, start_words_singular):
+	def __init__(self, test_sentence_list, ambiguous_nouns_list, plural_list, singular_list, start_words_plural,
+				 start_words_singular):
 
 		self.test_sentence_list = test_sentence_list
 		self.ambiguous_nouns_list = ambiguous_nouns_list
 		self.plural_list = plural_list
-		self.singular_list = singular_list
+		self.singular_list = singular_list + ['[NAME]']
 		self.start_words_plural = start_words_plural
 		self.start_words_singular = start_words_singular
 
@@ -48,33 +51,36 @@ class Agreement_Across_Adjectives:
 		self.UNK_list = []
 		self.correct_list = []
 		self.incorrect_list = []
-		self.ambiguous_list =[]
+		self.ambiguous_list = []
 		self.non_noun_list = []
 
 		for sentence in self.test_sentence_list:
-			#[UNK] CONDITION
-			if sentence.split(' ')[4] == "[UNK]":
+			predicted_noun = sentence.split(' ')[4]  # TODO get index by checking where [MASK] is in input sentence
+			start_word = sentence.split(' ')[2]  # TODO do not hard-code this index
+
+			# [UNK] CONDITION
+			if predicted_noun == "[UNK]":
 				self.UNK_list.append(sentence)
 
-			#Correct Noun Number
-			elif sentence.split(' ')[4] in self.plural_list and sentence.split(' ')[2] in self.start_words_plural:
+			# Correct Noun Number
+			elif predicted_noun in self.plural_list and start_word in self.start_words_plural:
 				self.correct_list.append(sentence)
 
-			elif sentence.split(' ')[4] in self.singular_list and sentence.split(' ')[2] in self.start_words_singular:
+			elif predicted_noun in self.singular_list and start_word in self.start_words_singular:
 				self.correct_list.append(sentence)
 
-			#Incorrect Noun Number
-			elif sentence.split(' ')[4] in self.plural_list and sentence.split(' ')[2] in self.start_words_singular:
+			# Incorrect Noun Number
+			elif predicted_noun in self.plural_list and start_word in self.start_words_singular:
 				self.incorrect_list.append(sentence)
 
-			elif sentence.split(' ')[4] in self.singular_list and sentence.split(' ')[2] in self.start_words_plural:
+			elif predicted_noun in self.singular_list and start_word in self.start_words_plural:
 				self.incorrect_list.append(sentence)
 
-			#Ambiguous Noun
-			elif sentence.split(' ')[4] in self.ambiguous_nouns_list:
+			# Ambiguous Noun
+			elif predicted_noun in self.ambiguous_nouns_list:
 				self.ambiguous_list.append(sentence)
 
-			#Non_Noun
+			# Non_Noun
 			else:
 				self.non_noun_list.append(sentence)
 
@@ -87,21 +93,22 @@ class Agreement_Across_Adjectives:
 		self.ambiguous_pred = len(self.ambiguous_list)
 		self.non_noun_pred = len(self.non_noun_list)
 
-		self.UNK_proportion = self.UNK_pred / total_sentence 
-		self.correct_proportion = self.correct_pred / total_sentence 
-		self.incorrect_proportion = self.incorrect_pred / total_sentence 
+		self.UNK_proportion = self.UNK_pred / total_sentence
+		self.correct_proportion = self.correct_pred / total_sentence
+		self.incorrect_proportion = self.incorrect_pred / total_sentence
 		self.ambiguous_proportion = self.ambiguous_pred / total_sentence
 		self.non_noun_proportion = self.non_noun_pred / total_sentence
 
 	def visualize_proportion(self):
-		objects = ("correct noun", "incorrect noun", "ambiguous noun", "non-noun", "[UNK]")
+		objects = ("correct\nnoun", "incorrect\nnoun", "ambiguous\nnoun", "non-noun", "[UNK]")
 		y_pos = np.arange(len(objects))
-		y_bar = [self.correct_proportion, self.incorrect_proportion, self.ambiguous_proportion, self.non_noun_proportion, self.UNK_proportion]
+		y_bar = [self.correct_proportion, self.incorrect_proportion, self.ambiguous_proportion,
+				 self.non_noun_proportion, self.UNK_proportion]
 
 		plt.bar(y_pos, y_bar, align='center', alpha=0.5)
 		plt.xticks(y_pos, objects)
 		plt.ylabel('proportion of total predictions that are in the category')
-		plt.title('Overview of Five Categories of Agreement_Across_Adjectives')
+		plt.title(f'Agreement_Across_Adjectives\nn={len(self.test_sentence_list)}')
 		mng = plt.get_current_fig_manager()
 		mng.full_screen_toggle()
 		# plt.savefig('figure1.png', dpi=700)
@@ -113,6 +120,7 @@ class Agreement_Across_Adjectives:
 		print("ambiguous noun: {}".format(self.ambiguous_proportion))
 		print("non-noun: {}".format(self.non_noun_proportion))
 		print("[UNK]: {}".format(self.UNK_proportion))
+
 
 def format_BERT_output(sentence_file_name):
 	file = open(sentence_file_name, "r")
@@ -127,7 +135,7 @@ def format_BERT_output(sentence_file_name):
 
 	lst_2 = []
 	for i in lst_1:
-		lst_2.append(i[0])
+		lst_2.append(i[1])
 
 	n = 6
 	test_sentence_list = []
@@ -145,7 +153,7 @@ def main(sentence_file_name):
 	file_name_2 = data_folder_1 / 'nouns_singular_annotator1.txt'
 	file_name_3 = data_folder_1 / 'nouns_plural_annotator1.txt'
 	file_name_4 = data_folder_1 / 'nouns_ambiguous_number_annotator1.txt'
-	
+
 	# for Test_Sentence
 
 	with open(file_name_1) as nouns_file:
@@ -171,13 +179,12 @@ def main(sentence_file_name):
 	verbs = ["does", "do"]
 
 	# Counting number agreements for agreement_across_adjectives:
-	agreement_across_adj = Agreement_Across_Adjectives(test_sentence_list, ambiguous_nouns_list, plural_list, singular_list, start_words_plural, start_words_singular)
+	agreement_across_adj = Agreement_Across_Adjectives(test_sentence_list, ambiguous_nouns_list, plural_list,
+													   singular_list, start_words_plural, start_words_singular)
 	agreement_across_adj.define_measure()
 	agreement_across_adj.calculate_proportion()
 	agreement_across_adj.visualize_proportion()
 	agreement_across_adj.print_output()
 
+
 main("probing_dummy_results_17000.txt")  # enter the BERT ouput file here to score accuracy
-
-
-
