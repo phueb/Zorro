@@ -1,13 +1,16 @@
+from pathlib import Path
 import random
 
-template = '{} {} [MASK] .'
+template = 'look at {} {} [MASK] .'
 
 start_words = ['this', 'these', 'that', 'those']
 
+adjectives_list = (Path(__file__).parent / 'adjectives_annotator1.txt').open().read().split()
 
-def main(adjectives_list):
+
+def main():
     """
-    number of sentences = # start-words * # adjectives * 3
+    use adjectives specifically selected for this task
     """
     for start_word in start_words:
 
