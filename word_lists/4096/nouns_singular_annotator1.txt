@@ -483,14 +483,10 @@ eater
 edge
 egg
 eggnog
-eight
-eighteen
-eighty
 elbow
 electricity
 elephant
 elevator
-eleven
 emergency
 end
 energy
@@ -529,8 +525,6 @@ ferry
 fever
 fiddle
 field
-fifteen
-fifty
 fight
 fighter
 figure
@@ -546,7 +540,6 @@ fireplace
 firetruck
 fishie
 fishing
-five
 flag
 flamingo
 flap
@@ -564,9 +557,6 @@ forehead
 forest
 forget
 fork
-forty
-four
-fourteen
 fox
 frame
 freeze
@@ -707,7 +697,6 @@ hulk
 hum
 human
 hummus
-hundred
 hurrah
 hurry
 husband
@@ -964,9 +953,6 @@ night
 night+night
 nightgown
 nighttime
-nine
-nineteen
-ninety
 nipple
 nobody
 noise
@@ -990,7 +976,6 @@ octopus
 office
 officer
 oil
-one
 onion
 opossum
 orange
@@ -1270,9 +1255,6 @@ sesame
 session
 set
 setting
-seven
-seventeen
-seventy
 shade
 shadow
 shame
@@ -1308,9 +1290,6 @@ sir
 siren
 sister
 situation
-six
-sixteen
-sixty
 size
 sizzle
 skate
@@ -1469,7 +1448,6 @@ telephone
 telescope
 television
 temperature
-ten
 tennis
 tent
 test
@@ -1477,11 +1455,7 @@ thanks
 thanksgiving
 theater
 thing
-thirteen
-thirty
-thousand
 thread
-three
 throat
 thumb
 thump
@@ -1569,8 +1543,6 @@ turtle
 tushie
 tv
 tweet
-twelve
-twenty
 twerp
 type
 tyranosaurus
