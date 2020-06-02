@@ -7,6 +7,11 @@ The agreement_across_adjectives task should not just calcualte a single accuracy
 4. non-noun
 5. [UNK] (this means "unknown", which means the model doesn't want to commit to an answer)
 
+Can you make it work so that it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) ?
+And sentences with "look at ..." and without.
+
+You can further improve score.py by reading in 2 BERT prediciton files, 
+and showing the same bar plots, but where there are 2 bars for each category, one for each BERT model.
 """
 from pathlib import Path
 
@@ -15,16 +20,25 @@ import matplotlib.pyplot as plt;
 plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import matplotlib as mpl
 
 # ie. "look at these pretty girls" "look at these mean [UNK]"
 
 class Agreement_Across_Adjectives:
-	def __init__(self, sentence_file_name, test_sentence_list, ambiguous_nouns_list, plural_list, singular_list, start_words_plural,
+	def __init__(self, sentence_file_name_1, sentence_file_name_2, test_sentence_list_1, test_sentence_list_2, ambiguous_nouns_list, plural_list, singular_list, start_words_plural,
 				 start_words_singular):
 
 		#basic setup
-		self.sentence_file_name = sentence_file_name
-		self.test_sentence_list = test_sentence_list
+
+		#deal with multiple sentence lists
+		if test_sentence_list_2 is None:
+			self.test_sentence_list = test_sentence_list_1
+			self.sentence_file_name = sentence_file_name_1
+		else:
+			self.test_sentence_list = test_sentence_list_1 + test_sentence_list_2
+			self.sentence_file_name = sentence_file_name_1 + "," + " " + sentence_file_name_2
+
 		self.ambiguous_nouns_list = ambiguous_nouns_list
 		self.plural_list = plural_list
 		self.singular_list = singular_list + ['[NAME]']
@@ -51,6 +65,12 @@ class Agreement_Across_Adjectives:
 		self.single_ambiguous = None
 		self.single_non_noun = None
 
+		self.single_UNK_1 = None
+		self.single_correct_1 = None
+		self.single_incorrect_1 = None
+		self.single_ambiguous_1 = None
+		self.single_non_noun_1 = None
+
 		# sentence with double adjectives
 		self.double_UNK = None
 		self.double_correct = None
@@ -58,12 +78,24 @@ class Agreement_Across_Adjectives:
 		self.double_ambiguous = None
 		self.double_non_noun = None
 
+		self.double_UNK_1 = None
+		self.double_correct_1 = None
+		self.double_incorrect_1 = None
+		self.double_ambiguous_1 = None
+		self.double_non_noun_1 = None
+
 		#sentence with three adjectives
 		self.three_UNK = None
 		self.three_correct = None
 		self.three_incorrect = None
 		self.three_ambiguous = None
 		self.three_non_noun = None
+
+		self.three_UNK_1 = None
+		self.three_correct_1 = None
+		self.three_incorrect_1 = None
+		self.three_ambiguous_1 = None
+		self.three_non_noun_1 = None
 
 		#proportion for different sentence type
 
@@ -74,6 +106,12 @@ class Agreement_Across_Adjectives:
 		self.single_ambiguous_prop = None
 		self.single_non_noun_prop = None
 
+		self.single_UNK_prop_1 = None
+		self.single_correct_prop_1 = None
+		self.single_incorrect_prop_1 = None
+		self.single_ambiguous_prop_1 = None
+		self.single_non_noun_prop_1 = None
+
 		#double
 
 		self.double_UNK_prop = None
@@ -82,6 +120,12 @@ class Agreement_Across_Adjectives:
 		self.double_ambiguous_prop = None
 		self.double_non_noun_prop = None
 
+		self.double_UNK_prop_1 = None
+		self.double_correct_prop_1 = None
+		self.double_incorrect_prop_1 = None
+		self.double_ambiguous_prop_1 = None
+		self.double_non_noun_prop_1 = None
+
 		#three
 
 		self.three_UNK_prop = None
@@ -89,6 +133,21 @@ class Agreement_Across_Adjectives:
 		self.three_incorrect_prop = None
 		self.three_ambiguous_prop = None
 		self.three_non_noun_prop = None
+
+
+		self.three_UNK_prop_1 = None
+		self.three_correct_prop_1 = None
+		self.three_incorrect_prop_1 = None
+		self.three_ambiguous_prop_1 = None
+		self.three_non_noun_prop_1 = None
+
+		self.single_look = None
+		self.double_look = None
+		self.three_look = None
+
+		self.single_no_look = None
+		self.double_no_look = None
+		self.three_no_look = None
 
 		#total prediction and proportion
 		self.UNK_pred = None
@@ -167,12 +226,15 @@ class Agreement_Across_Adjectives:
 
 	def finding_different_sentence_type(self):
 		
+		# for sentences with "look at"
 		# sentence with single adjective
 		self.single_UNK = []
 		self.single_correct = []
 		self.single_incorrect = []
 		self.single_ambiguous = []
 		self.single_non_noun = []
+
+		self.single_look = []
 
 		# sentence with double adjectives
 		self.double_UNK = []
@@ -181,6 +243,8 @@ class Agreement_Across_Adjectives:
 		self.double_ambiguous = []
 		self.double_non_noun = []
 
+		self.double_look = []
+
 		#sentence with three adjectives
 		self.three_UNK = []
 		self.three_correct = []
@@ -188,46 +252,144 @@ class Agreement_Across_Adjectives:
 		self.three_ambiguous = []
 		self.three_non_noun = []
 
+		self.three_look = []
+
+		# for sentences without "look at"
+		# sentence with single adjective
+		self.single_UNK_1 = []
+		self.single_correct_1 = []
+		self.single_incorrect_1 = []
+		self.single_ambiguous_1 = []
+		self.single_non_noun_1 = []
+
+		self.single_no_look = []
+
+		# sentence with double adjectives
+		self.double_UNK_1 = []
+		self.double_correct_1 = []
+		self.double_incorrect_1 = []
+		self.double_ambiguous_1 = []
+		self.double_non_noun_1 = []
+
+		self.double_no_look = []
+
+		#sentence with three adjectives
+		self.three_UNK_1 = []
+		self.three_correct_1 = []
+		self.three_incorrect_1 = []
+		self.three_ambiguous_1 = []
+		self.three_non_noun_1 = []
+
+		self.three_no_look = []
+
 		for sentence in self.single_adj:
-			if sentence in self.UNK_list:
-				self.single_UNK.append(sentence)
-			elif sentence in self.correct_list:
-				self.single_correct.append(sentence)
-			elif sentence in self.incorrect_list:
-				self.single_incorrect.append(sentence)
-			elif sentence in self.ambiguous_list:
-				self.single_ambiguous.append(sentence)
+			if sentence[0] == "look":
+				self.single_look.append(sentence)
+				if sentence in self.UNK_list:
+					self.single_UNK.append(sentence)
+
+				elif sentence in self.correct_list:
+					self.single_correct.append(sentence)
+
+				elif sentence in self.incorrect_list:
+					self.single_incorrect.append(sentence)
+
+				elif sentence in self.ambiguous_list:
+					self.single_ambiguous.append(sentence)
+
+				else:
+					self.single_non_noun.append(sentence)
 			else:
-				self.single_non_noun.append(sentence)
+				self.single_no_look.append(sentence)
+				if sentence in self.UNK_list:
+					self.single_UNK_1.append(sentence)
+
+				elif sentence in self.correct_list:
+					self.single_correct_1.append(sentence)
+
+				elif sentence in self.incorrect_list:
+					self.single_incorrect_1.append(sentence)
+
+				elif sentence in self.ambiguous_list:
+					self.single_ambiguous_1.append(sentence)
+
+				else:
+					self.single_non_noun_1.append(sentence)
 
 		for sentence in self.double_adj:
-			if sentence in self.UNK_list:
-				self.double_UNK.append(sentence)
-			elif sentence in self.correct_list:
-				self.double_correct.append(sentence)
-			elif sentence in self.incorrect_list:
-				self.double_incorrect.append(sentence)
-			elif sentence in self.ambiguous_list:
-				self.double_ambiguous.append(sentence)
+			if sentence[0] == "look":
+				self.double_look.append(sentence)
+				if sentence in self.UNK_list:
+					self.double_UNK.append(sentence)
+
+				elif sentence in self.correct_list:
+					self.double_correct.append(sentence)
+
+				elif sentence in self.incorrect_list:
+					self.double_incorrect.append(sentence)
+
+				elif sentence in self.ambiguous_list:
+					self.double_ambiguous.append(sentence)
+
+				else:
+					self.double_non_noun.append(sentence)
 			else:
-				self.double_non_noun.append(sentence)
+				self.double_no_look.append(sentence)
+				if sentence in self.UNK_list:
+					self.double_UNK_1.append(sentence)
+
+				elif sentence in self.correct_list:
+					self.double_correct_1.append(sentence)
+
+				elif sentence in self.incorrect_list:
+					self.double_incorrect_1.append(sentence)
+
+				elif sentence in self.ambiguous_list:
+					self.double_ambiguous_1.append(sentence)
+
+				else:
+					self.double_non_noun_1.append(sentence)
 
 		for sentence in self.three_adj:
-			if sentence in self.UNK_list:
-				self.three_UNK.append(sentence)
-			elif sentence in self.correct_list:
-				self.three_correct.append(sentence)
-			elif sentence in self.incorrect_list:
-				self.three_incorrect.append(sentence)
-			elif sentence in self.ambiguous_list:
-				self.three_ambiguous.append(sentence)
+			if sentence[0] == "look":
+				self.three_look.append(sentence)
+				if sentence in self.UNK_list:
+					self.three_UNK.append(sentence)
+				elif sentence in self.correct_list:
+					self.three_correct.append(sentence)
+				elif sentence in self.incorrect_list:
+					self.three_incorrect.append(sentence)
+				elif sentence in self.ambiguous_list:
+					self.three_ambiguous.append(sentence)
+				else:
+					self.three_non_noun.append(sentence)
 			else:
-				self.three_non_noun.append(sentence)
+				self.three_no_look.append(sentence)
+				if sentence in self.UNK_list:
+					self.three_UNK_1.append(sentence)
+				elif sentence in self.correct_list:
+					self.three_correct_1.append(sentence)
+				elif sentence in self.incorrect_list:
+					self.three_incorrect_1.append(sentence)
+				elif sentence in self.ambiguous_list:
+					self.three_ambiguous_1.append(sentence)
+				else:
+					self.three_non_noun_1.append(sentence)
+
 
 	def calculate_proportion_for_different_sentence_type(self):
-		#single adj
-		total_single = len(self.single_adj)
 
+		total_single = len(self.single_look)
+		total_double = len(self.double_look)
+		total_three = len(self.three_look)
+
+		total_single_1 = len(self.single_no_look)
+		total_double_1 = len(self.double_no_look)
+		total_three_1 = len(self.three_no_look)
+
+		#with "look at" 
+
+		#single adj
 		self.single_UNK_prop = len(self.single_UNK)/total_single
 		self.single_correct_prop = len(self.single_correct)/total_single
 		self.single_incorrect_prop = len(self.single_incorrect)/total_single
@@ -235,7 +397,6 @@ class Agreement_Across_Adjectives:
 		self.single_non_noun_prop = len(self.single_non_noun)/total_single
 
 		#double adj
-		total_double = len(self.double_adj)
 
 		self.double_UNK_prop = len(self.double_UNK)/total_double
 		self.double_correct_prop = len(self.double_correct)/total_double
@@ -244,7 +405,6 @@ class Agreement_Across_Adjectives:
 		self.double_non_noun_prop = len(self.double_non_noun)/total_double
 
 		#three adj
-		total_three = len(self.three_adj)
 
 		self.three_UNK_prop = len(self.three_UNK)/total_three
 		self.three_correct_prop = len(self.three_correct)/total_three
@@ -252,30 +412,79 @@ class Agreement_Across_Adjectives:
 		self.three_ambiguous_prop = len(self.three_ambiguous)/total_three
 		self.three_non_noun_prop = len(self.three_non_noun)/total_three
 
+		#without look at
+
+		#single adj
+
+		self.single_UNK_prop_1 = len(self.single_UNK_1)/total_single_1
+		self.single_correct_prop_1 = len(self.single_correct_1)/total_single_1
+		self.single_incorrect_prop_1 = len(self.single_incorrect_1)/total_single_1
+		self.single_ambiguous_prop_1 = len(self.single_ambiguous_1)/total_single_1
+		self.single_non_noun_prop_1 = len(self.single_non_noun_1)/total_single_1
+
+		#double adj
+
+		self.double_UNK_prop_1 = len(self.double_UNK_1)/total_double_1
+		self.double_correct_prop_1= len(self.double_correct_1)/total_double_1
+		self.double_incorrect_prop_1 = len(self.double_incorrect_1)/total_double_1
+		self.double_ambiguous_prop_1 = len(self.double_ambiguous_1)/total_double_1
+		self.double_non_noun_prop_1 = len(self.double_non_noun_1)/total_double_1
+
+		#three adj
+
+		self.three_UNK_prop_1 = len(self.three_UNK_1)/total_three_1
+		self.three_correct_prop_1 = len(self.three_correct_1)/total_three_1
+		self.three_incorrect_prop_1 = len(self.three_incorrect_1)/total_three_1
+		self.three_ambiguous_prop_1 = len(self.three_ambiguous_1)/total_three_1
+		self.three_non_noun_prop_1 = len(self.three_non_noun_1)/total_three_1
 
 	def visualize_each_sentence_type(self):
+		N = 5
+		ind = np.arange(5)
+		width = 0.4
+
 		x = ("[UNK]","correct\nnoun", "incorrect\nnoun", "ambiguous\nnoun", "non-noun")
 		y_1 = [self.single_UNK_prop,self.single_correct_prop,self.single_incorrect_prop,self.single_ambiguous_prop,self.single_non_noun_prop]
 		y_2 = [self.double_UNK_prop,self.double_correct_prop,self.double_incorrect_prop,self.double_ambiguous_prop,self.double_non_noun_prop]
 		y_3 = [self.three_UNK_prop,self.three_correct_prop,self.three_incorrect_prop,self.three_ambiguous_prop,self.three_non_noun_prop]
 
-		fig, axs = plt.subplots(3, sharex=True, sharey=True)
-		fig.suptitle(f'Proportion of Five Measures for Different Sentence Types\nFile Name: {self.sentence_file_name}', fontsize = 10)
-		axs[0].bar(x, y_1)
-		axs[1].bar(x, y_2)
-		axs[2].bar(x, y_3)
+		z_1 = [self.single_UNK_prop_1,self.single_correct_prop_1,self.single_incorrect_prop_1,self.single_ambiguous_prop_1,self.single_non_noun_prop_1]
+		z_2 = [self.double_UNK_prop_1,self.double_correct_prop_1,self.double_incorrect_prop_1,self.double_ambiguous_prop_1,self.double_non_noun_prop_1]
+		z_3 = [self.three_UNK_prop_1,self.three_correct_prop_1,self.three_incorrect_prop_1,self.three_ambiguous_prop_1,self.three_non_noun_prop_1]
 
+		fig, axs = plt.subplots(3, sharex=True, sharey=True)
+		fig.suptitle(f'Proportion of Five Measures for Different Sentence Types\n file_name = {self.sentence_file_name}', fontsize = 10)
+
+		for i in range(3):
+			axs[i].set_xticks(ind + width)
+			axs[i].set_xticklabels(x)
+
+		#for axs[0]
+		axs[0].bar(ind, y_1, width, color = 'xkcd:tomato', align = 'center')
+		axs[0].bar(ind + (width/2), z_1, width, color = 'xkcd:darkblue', align = 'edge')
+		#for axs[1]
+		axs[1].bar(ind, y_2, width, color = 'xkcd:tomato', align = 'center')
+		axs[1].bar(ind + (width/2), z_2, width, color = 'xkcd:darkblue', align = 'edge')
+		#for axs[2]
+		axs[2].bar(ind, y_3, width, color = 'xkcd:tomato', align = 'center')
+		axs[2].bar(ind + (width/2), z_2, width, color = 'xkcd:darkblue', align = 'edge')
+		#set titles
 		axs[0].set_title('Sentence with Single Adjective',fontweight="bold", size=8)
 		axs[1].set_title('Sentence with Two Adjectives',fontweight="bold", size=8)
 		axs[2].set_title('Sentence with Three Adjectives',fontweight="bold", size=8)
 
-		# fig.text(0.5, 0.04, 'types of measures', ha='center', va='center', size = 'small')
+
+		blue_patch = mpatches.Patch(color='xkcd:tomato', label='With Look At')
+		green_patch = mpatches.Patch(color='xkcd:darkblue', label='Without Look At')
+		fig.legend(handles=[blue_patch, green_patch], prop={'size': 6})
+
+
 		fig.text(0.06, 0.5, 'proportion of total predictions that are in the category', ha='center', va='center', rotation='vertical', size = 'small')
 
 		mng = plt.get_current_fig_manager()
 		mng.full_screen_toggle()
 
-		plt.savefig(self.sentence_file_name[:-4] + '.png', dpi=700)
+		plt.savefig("agreement_across_adjectives" + '.png', dpi=700)
 
 		plt.show()
 
@@ -303,7 +512,7 @@ class Agreement_Across_Adjectives:
 
 		plt.bar(y_pos, y_bar, align='center', alpha=0.5)
 		plt.xticks(y_pos, objects)
-		plt.ylabel('proportion of total predictions that are in the category')
+		plt.ylabel('Proportions')
 		plt.title(f'Agreement_Across_Adjectives\nn={len(self.test_sentence_list)}')
 		mng = plt.get_current_fig_manager()
 		mng.full_screen_toggle()
@@ -312,29 +521,47 @@ class Agreement_Across_Adjectives:
 
 	def print_output(self):
 
+		y_1 = [self.single_UNK_prop,self.single_correct_prop,self.single_incorrect_prop,self.single_ambiguous_prop,self.single_non_noun_prop]
+		y_2 = [self.double_UNK_prop,self.double_correct_prop,self.double_incorrect_prop,self.double_ambiguous_prop,self.double_non_noun_prop]
+		y_3 = [self.three_UNK_prop,self.three_correct_prop,self.three_incorrect_prop,self.three_ambiguous_prop,self.three_non_noun_prop]
+
+		z_1 = [self.single_UNK_prop_1,self.single_correct_prop_1,self.single_incorrect_prop_1,self.single_ambiguous_prop_1,self.single_non_noun_prop_1]
+		z_2 = [self.double_UNK_prop_1,self.double_correct_prop_1,self.double_incorrect_prop_1,self.double_ambiguous_prop_1,self.double_non_noun_prop_1]
+		z_3 = [self.three_UNK_prop_1,self.three_correct_prop_1,self.three_incorrect_prop_1,self.three_ambiguous_prop_1,self.three_non_noun_prop_1]
+
+		labels = ["UNK", "Correct", "Incorrect", "Ambiguous", "Non-Noun"]
+
+		print("\nWith 'look-at' Sentences:")
 		print("\nSingle Adjective: ")
-		print("[UNK]: {}".format(self.single_UNK_prop))
-		print("correct noun: {}".format(self.single_correct_prop))
-		print("incorrect noun: {}".format(self.single_incorrect_prop))
-		print("ambiguous noun: {}".format(self.single_ambiguous_prop))
-		print("non_noun: {}".format(self.single_non_noun_prop))
+
+		for l, y in zip(labels, y_1):
+			print("{}: {}".format(l, y))
 
 		print("\nTwo Adjectives: ")
-		print("[UNK]: {}".format(self.double_UNK_prop))
-		print("correct noun: {}".format(self.double_correct_prop))
-		print("incorrect noun: {}".format(self.double_incorrect_prop))
-		print("ambiguous noun: {}".format(self.double_ambiguous_prop))
-		print("non_noun: {}".format(self.double_non_noun_prop))
+
+		for l, y in zip(labels, y_2):
+			print("{}: {}".format(l, y))
 
 		print("\nThree Adjectives: ")
-		print("[UNK]: {}".format(self.three_UNK_prop))
-		print("correct noun: {}".format(self.three_correct_prop))
-		print("incorrect noun: {}".format(self.three_incorrect_prop))
-		print("ambiguous noun: {}".format(self.three_ambiguous_prop))
-		print("non_noun: {}\n".format(self.three_non_noun_prop))
 
+		for l, y in zip(labels, y_3):
+			print("{}: {}".format(l, y))
 
+		print("\nWithout 'look-at' Sentences")
+		print("\nSingle Adjective: ")
 
+		for l, z in zip(labels, z_1):
+			print("{}: {}".format(l, z))
+
+		print("\nTwo Adjectives: ")
+
+		for l, z in zip(labels, z_2):
+			print("{}: {}".format(l, z))
+
+		print("\nThree Adjectives: ")
+
+		for l, z in zip(labels, z_3):
+			print("{}: {}".format(l, z))
 
 def format_BERT_output(sentence_file_name):
 	file = open(sentence_file_name, "r")
@@ -359,7 +586,7 @@ def format_BERT_output(sentence_file_name):
 	return test_sentence_list
 
 
-def main(sentence_file_name):
+def main(sentence_file_name_1, sentence_file_name_2):
 	data_folder_1 = Path("../../word_lists/4096")
 	file_name_1 = data_folder_1 / 'nouns.txt'
 	file_name_2 = data_folder_1 / 'nouns_singular_annotator1.txt'
@@ -381,7 +608,12 @@ def main(sentence_file_name):
 	with open(file_name_4) as ambiguous_nouns:
 		ambiguous_nouns_list = ambiguous_nouns.read().split("\n")
 
-	test_sentence_list = format_BERT_output(sentence_file_name)
+	if sentence_file_name_2 is None:
+		test_sentence_list_1 = format_BERT_output(sentence_file_name_1)
+		test_sentence_list_2 = None
+	else:
+		test_sentence_list_1 = format_BERT_output(sentence_file_name_1)
+		test_sentence_list_2 = format_BERT_output(sentence_file_name_2)
 
 	# separate start words
 	start_words_singular = ["this", "that"]
@@ -390,7 +622,7 @@ def main(sentence_file_name):
 	verbs = ["does", "do"]
 
 	# Counting number agreements for agreement_across_adjectives:
-	agreement_across_adj = Agreement_Across_Adjectives(sentence_file_name, test_sentence_list, ambiguous_nouns_list, plural_list,
+	agreement_across_adj = Agreement_Across_Adjectives(sentence_file_name_1, sentence_file_name_2, test_sentence_list_1, test_sentence_list_2, ambiguous_nouns_list, plural_list,
 													   singular_list, start_words_plural, start_words_singular)
 	agreement_across_adj.identify_numbers_of_adj()
 	agreement_across_adj.define_measure()
@@ -402,4 +634,8 @@ def main(sentence_file_name):
 	agreement_across_adj.print_output()
 
 
-main("look-at-the_47000.txt")  # enter the BERT ouput file here to score accuracy
+main(sentence_file_name_1 = "look-at-the_47000.txt", sentence_file_name_2 = "47000.txt")  
+# enter the both BERT ouput file here to score accuracy  
+
+
+
