@@ -6,9 +6,6 @@ from babeval.agreement_across_RC.generate import main as generate_agreement_acro
 from babeval.agreement_in_question.generate import main as generate_agreement_in_question
 
 
-VOCAB_NAME = "childes-20191206_vocab.txt"
-VOCAB_SIZE = 4096
-
 output_folder = Path("output")
 
 

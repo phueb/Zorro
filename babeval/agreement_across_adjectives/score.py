@@ -7,15 +7,12 @@ The agreement_across_adjectives task should not just calcualte a single accuracy
 4. non-noun
 5. [UNK] (this means "unknown", which means the model doesn't want to commit to an answer)
 
-Can you make it work so that it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) ?
+it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) ?
 And sentences with "look at ..." and without.
-
-You can further improve score.py by reading in 2 BERT prediciton files, 
-and showing the same bar plots, but where there are 2 bars for each category, one for each BERT model.
 """
 from pathlib import Path
 
-import matplotlib.pyplot as plt;
+import matplotlib.pyplot as plt
 
 plt.rcdefaults()
 import numpy as np
@@ -225,7 +222,7 @@ class Agreement_Across_Adjectives:
 				self.non_noun_list.append(sentence)
 
 	def finding_different_sentence_type(self):
-		
+
 		# for sentences with "look at"
 		# sentence with single adjective
 		self.single_UNK = []
@@ -387,7 +384,7 @@ class Agreement_Across_Adjectives:
 		total_double_1 = len(self.double_no_look)
 		total_three_1 = len(self.three_no_look)
 
-		#with "look at" 
+		#with "look at"
 
 		#single adj
 		self.single_UNK_prop = len(self.single_UNK)/total_single
@@ -586,9 +583,10 @@ def format_BERT_output(sentence_file_name):
 	return test_sentence_list
 
 
+
 def main(sentence_file_name_1, sentence_file_name_2):
 	data_folder_1 = Path("../../word_lists/4096")
-	file_name_1 = data_folder_1 / 'nouns.txt'
+	file_name_1 = data_folder_1 / 'nouns_annotator2.txt'
 	file_name_2 = data_folder_1 / 'nouns_singular_annotator1.txt'
 	file_name_3 = data_folder_1 / 'nouns_plural_annotator1.txt'
 	file_name_4 = data_folder_1 / 'nouns_ambiguous_number_annotator1.txt'
@@ -634,8 +632,8 @@ def main(sentence_file_name_1, sentence_file_name_2):
 	agreement_across_adj.print_output()
 
 
-main(sentence_file_name_1 = "look-at-the_47000.txt", sentence_file_name_2 = "47000.txt")  
-# enter the both BERT ouput file here to score accuracy  
+main(sentence_file_name_1 = "look-at-the_47000.txt", sentence_file_name_2 = "47000.txt")
+# enter the both BERT ouput file here to score accuracy
 
 
 
