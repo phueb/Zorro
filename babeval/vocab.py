@@ -34,7 +34,6 @@ def classify_vocab(vocab):
         tag = nltk.pos_tag([w])[0][1]
 
         if w in excluded_words:
-            print(w)
             num_excluded += 1
             continue
 

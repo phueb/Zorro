@@ -598,9 +598,9 @@ def format_BERT_output(sentence_file_name):
 def main(sentence_file_name_1, sentence_file_name_2):
     data_folder_1 = Path().cwd()
     file_name_1 = data_folder_1 / 'nouns_annotator2.txt'
-    file_name_2 = data_folder_1 / 'nouns_singular_annotator1.txt'
-    file_name_3 = data_folder_1 / 'nouns_plural_annotator1.txt'
-    file_name_4 = data_folder_1 / 'nouns_ambiguous_number_annotator1.txt'
+    file_name_2 = data_folder_1 / 'nouns_singular_annotator2.txt'
+    file_name_3 = data_folder_1 / 'nouns_plural_annotator2.txt'
+    file_name_4 = data_folder_1 / 'nouns_ambiguous_number_annotator2.txt'
 
     # for Test_Sentence
 

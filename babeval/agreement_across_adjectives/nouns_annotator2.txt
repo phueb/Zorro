@@ -134,16 +134,13 @@ Y
 [MISC]
 [NAME]
 [PLACE]
-aboard
 accident
 ache
-achoo
 acorn
 act
 action
 adventure
 afternoon
-afterwards
 age
 air
 airplane
@@ -166,7 +163,6 @@ answer
 ant
 antenna
 ants
-anybody
 apartment
 apple
 apple+sauce
@@ -480,7 +476,6 @@ cheetah
 cherries
 cherry
 chest
-chew
 chick
 chickadee
 chicken
@@ -693,7 +688,6 @@ dough
 doughnut
 doughnuts
 dove
-downstairs
 dozen
 dragon
 drain
@@ -747,7 +741,6 @@ envelope
 equipment
 eraser
 escalator
-everyone
 excuse
 exercise
 eye
@@ -884,8 +877,6 @@ gold
 goldfish
 golf
 goo
-goodbye
-goodness
 goose
 gorilla
 gown
@@ -996,7 +987,6 @@ hula
 hulk
 hum
 human
-hurrah
 hurry
 husband
 hydrant
@@ -1124,7 +1114,6 @@ lip
 lips
 lipstick
 list
-littler
 living+room
 lizard
 lizards
@@ -1283,7 +1272,6 @@ night+night
 nights
 nighttime
 nipple
-nobody
 noise
 noises
 noodle
@@ -1318,7 +1306,6 @@ orange+juice
 oranges
 order
 ostrich
-outdoors
 outfit
 overalls
 owl
@@ -1356,13 +1343,9 @@ parents
 park
 parlor
 parrot
-parrots
 part
-parties
-parts
 party
 passenger
-passengers
 past
 pasta
 paste
@@ -1372,19 +1355,13 @@ patient
 patty
 pause
 paw
-paws
 pay
 pea
 peach
-peaches
 peacock
 peanut
 peanut+butter
-peanuts
 pear
-pears
-peas
-peekaboo
 peel
 pencil
 pencils
@@ -1402,7 +1379,6 @@ person
 pet
 pets
 phone
-phooey
 piano
 pickle
 pickles
@@ -1702,7 +1678,6 @@ shower
 side
 sides
 sidewalk
-sideways
 sign
 signs
 silence
@@ -1714,8 +1689,6 @@ siren
 sister
 sisters
 situation
-sixteen
-sixty
 size
 skate
 skates
@@ -1758,8 +1731,6 @@ soda
 sofa
 soldier
 soldiers
-someone
-someplace
 somersault
 son
 song
@@ -1887,7 +1858,6 @@ tapes
 tapioca
 target
 taste
-tasty
 taxi
 tea
 tea+party
@@ -1905,11 +1875,9 @@ telephone
 telescope
 television
 temperature
-ten
 tennis
 tent
 test
-thanks
 theater
 thing
 thread
@@ -1934,7 +1902,6 @@ tissues
 toad
 toast
 toaster
-today
 toddler
 toe
 toes
@@ -1942,9 +1909,7 @@ tofu
 toilet
 tomato
 tomatoes
-tomorrow
 tongue
-tonight
 tool
 toolbox
 tools
@@ -2017,8 +1982,6 @@ turns
 turtle
 turtles
 tweet
-twelve
-twenty
 twerp
 twinkle
 type
@@ -2138,7 +2101,6 @@ yarn
 yawn
 year
 years
-yesterday
 yoga
 yoghurt
 yogurt

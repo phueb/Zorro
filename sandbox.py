@@ -7,19 +7,16 @@ this script is used as a general workspace for loading or saving files, inspecti
 from babeval.vocab import get_vocab, classify_vocab, save_to_txt
 
 
-save_to_txt(classify_vocab(get_vocab())['nouns'], file_name='nouns_nltk.txt')
 
 
-# quick way to load words
-nouns_vivianna = open('word_lists/nouns_annotator1.txt', 'r').read().split()
+nouns_annotator2 = open('babeval/agreement_across_adjectives/nouns_annotator2.txt', 'r').read().split()
 
-nouns_nltk = open('word_lists/nouns_nltk.txt', 'r').read().split()
-# for w in nouns_nltk:
-#     print(f'{w:<16} {"Vivianna" if w in nouns_vivianna else ""}')
+nouns_singular_ann2 = open('babeval/agreement_across_adjectives/nouns_singular_annotator2.txt', 'r').read().split()
+nouns_ambiguou_ann2 = open('babeval/agreement_across_adjectives/nouns_ambiguous_number_annotator2.txt', 'r').read().split()
 
-print()
-# print([w for w in nouns_vivianna if w not in nouns_nltk])
-# print(len([w for w in nouns_vivianna if w not in nouns_nltk]))
-# print([w for w in nouns_vivianna if w not in nouns_nltk and w in get_vocab()])
-print(len([w for w in nouns_vivianna if w not in nouns_nltk and w in get_vocab()]))
+plurals = [w for w in nouns_annotator2 if w not in nouns_singular_ann2 and w not in nouns_ambiguou_ann2]
+save_to_txt(plurals, file_name='nouns_plural_annotator2.txt')
+
+
+
 
