@@ -3,7 +3,6 @@ this script is used as a general workspace for loading or saving files, inspecti
 
 """
 
-import nltk
 
 from babeval.vocab import get_vocab, classify_vocab, save_to_txt
 

@@ -1,8 +1,6 @@
 import nltk
-import re
 from pathlib import Path
 from nltk.stem.wordnet import WordNetLemmatizer
-from nltk.corpus import words as nltk_words
 
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
