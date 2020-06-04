@@ -1,13 +1,14 @@
 """
-Score predictions made by language model.
-The agreement_across_adjectives task should not just calcualte a 1 accuracy measure, but calculate 5 measures, each quantifying the proportion of model-predictions that correspond to a particular kind of answer:
-1. c noun number
-2. f noun number
+Score predictions made by BERT.
+calculate 5 measures,
+ each quantifying the proportion of model-predictions that correspond to a particular kind of answer:
+1. correct noun number
+2. false noun number
 3. ambiguous noun number ("sheep", "fish")
 4. non-noun
 5. [UNK] (this means "unknown", which means the model doesn't want to commit to an answer)
 
-it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) ?
+it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) .
 And sentences with "look at ..." and without.
 """
 from pathlib import Path
@@ -63,7 +64,7 @@ def categorize_sentences(test_sentence_list):
 
 def categorize_predictions(test_sentence_list):
 
-    res = {}
+    res = {'u': [], 'c': [], 'f': [], 'a': []}
 
     for sentence in test_sentence_list:
         predicted_noun = sentence[-2]
@@ -99,61 +100,32 @@ def categorize_predictions(test_sentence_list):
 
 
 def main(*sentence_file_names):
+    """
+    works with arbitrary number of files, for maximal flexibility
+    """
     
-    data = {}
-    
+    adj_nums = ['1', '2', '3']
+    fig_data = {na: {fn: [] for fn in sentence_file_names} for na in adj_nums}
+
     for sentence_file_name in sentence_file_names:
         reader = Reader(sentence_file_name)
-        sentences = categorize_sentences(reader.test_sentence_list)  # into num adjectives
-    
-        for num_adjectives in ['1', '2', '3']:
-            predictions = categorize_predictions(sentences[num_adjectives])  # into 5 categories
+        sentences = categorize_sentences(reader.test_sentence_list)  # categorize into 3 adjective conditions
+
+        for num_adjectives in adj_nums:
+            predictions = categorize_predictions(sentences[num_adjectives])  # categorize into 5 categories
 
             for category, sentences_in_category in predictions.items():
-                key = f'{num_adjectives}_{category}'
-                print(key)
                 prop = len(sentences_in_category) / len(sentences[num_adjectives])
-                data.setdefault(key, []).append(prop)
+
+                fig_data[num_adjectives][sentence_file_name].append(prop)
     
-    # prepare data for plotting bars
-    xtick_labels = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
-    y1 = [data.get('1_u', [0.0] * len(sentence_file_names))[0],
-          data.get('1_c', [0.0] * len(sentence_file_names))[0],
-          data.get('1_f', [0.0] * len(sentence_file_names))[0],
-          data.get('1_a', [0.0] * len(sentence_file_names))[0],
-          data.get('1_n', [0.0] * len(sentence_file_names))[0]]
-    y2 = [data.get('2_u', [0.0] * len(sentence_file_names))[0],
-          data.get('2_c', [0.0] * len(sentence_file_names))[0],
-          data.get('2_f', [0.0] * len(sentence_file_names))[0],
-          data.get('2_a', [0.0] * len(sentence_file_names))[0],
-          data.get('2_n', [0.0] * len(sentence_file_names))[0]]
-    y3 = [data.get('3_u', [0.0] * len(sentence_file_names))[0],
-          data.get('3_c', [0.0] * len(sentence_file_names))[0],
-          data.get('3_f', [0.0] * len(sentence_file_names))[0],
-          data.get('3_a', [0.0] * len(sentence_file_names))[0],
-          data.get('3_n', [0.0] * len(sentence_file_names))[0]]
-
-    z1 = [data.get('1_u', [0.0] * len(sentence_file_names))[1],
-          data.get('1_c', [0.0] * len(sentence_file_names))[1],
-          data.get('1_f', [0.0] * len(sentence_file_names))[1],
-          data.get('1_a', [0.0] * len(sentence_file_names))[1],
-          data.get('1_n', [0.0] * len(sentence_file_names))[1]]
-    z2 = [data.get('2_u', [0.0] * len(sentence_file_names))[1],
-          data.get('2_c', [0.0] * len(sentence_file_names))[1],
-          data.get('2_f', [0.0] * len(sentence_file_names))[1],
-          data.get('2_a', [0.0] * len(sentence_file_names))[1],
-          data.get('2_n', [0.0] * len(sentence_file_names))[1]]
-    z3 = [data.get('3_u', [0.0] * len(sentence_file_names))[1],
-          data.get('3_c', [0.0] * len(sentence_file_names))[1],
-          data.get('3_f', [0.0] * len(sentence_file_names))[1],
-          data.get('3_a', [0.0] * len(sentence_file_names))[1],
-          data.get('3_n', [0.0] * len(sentence_file_names))[1]]
-
     # plot
     visualizer = Visualizer()
-    visualizer.make_barplot(xtick_labels, y1, y2, y3, z1, z2, z3, sentence_file_names)
+    xtick_labels = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
+    visualizer.make_barplot(xtick_labels, fig_data, sentence_file_names)
 
 
+main('probing_agreement_across_adjectives_results_100000_no_srl.txt')
 
 main('probing_agreement_across_adjectives_results_100000_no_srl.txt',
      'probing_agreement_across_adjectives_results_100000_with_srl.txt')
