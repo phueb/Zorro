@@ -14,8 +14,12 @@ And sentences with "look at ..." and without.
 from pathlib import Path
 import matplotlib.pyplot as plt
 
-from babeval.reader import Reader
-from babeval.visualizer import Visualizer
+import sys, os
+sys.path.append(os.path.abspath(os.path.join('..'))) 
+
+from reader import Reader
+from visualizer import Visualizer
+from random_prediction import Random_Predictions
 
 plt.rcdefaults()
 
@@ -35,6 +39,7 @@ with (Path().cwd() / 'nouns_ambiguous_number_annotator2.txt').open() as f:
     ambiguous_nouns = f.read().split("\n")
 
 assert '[NAME]' in nouns_singular
+
 
 
 def categorize_sentences(test_sentence_list):
@@ -99,33 +104,56 @@ def categorize_predictions(test_sentence_list):
     return res
 
 
+
 def main(*sentence_file_names):
     """
     works with arbitrary number of files, for maximal flexibility
     """
     
     adj_nums = ['1', '2', '3']
-    fig_data = {na: {fn: [] for fn in sentence_file_names} for na in adj_nums}
+
+    complete_sentence_file_names = (*sentence_file_names, "random_predictions")
+    fig_data = {na: {fn: [] for fn in complete_sentence_file_names} for na in adj_nums}
+
+    #for random predictions 
+    # random_file_name = "random_predictions"
+
 
     for sentence_file_name in sentence_file_names:
         reader = Reader(sentence_file_name)
         sentences = categorize_sentences(reader.test_sentence_list)  # categorize into 3 adjective conditions
 
-        for num_adjectives in adj_nums:
-            predictions = categorize_predictions(sentences[num_adjectives])  # categorize into 5 categories
+        for num_adjectives in adj_nums: 
+            predictions = categorize_predictions(sentences[num_adjectives]) # categorize into 5 categories
 
             for category, sentences_in_category in predictions.items():
                 prop = len(sentences_in_category) / len(sentences[num_adjectives])
-
                 fig_data[num_adjectives][sentence_file_name].append(prop)
-    
+
+
+    # for random predictions 
+
+    # I have no idea why when I generate random predictions in the previous for loop, 
+    # it will automatically cover the original sentence list
+
+    for sentence_file_name in sentence_file_names:
+        reader = Reader(sentence_file_name)
+        random_predictions = Random_Predictions(reader.test_sentence_list)
+        categorized_predictions = categorize_predictions(random_predictions.random_predictions_list)
+
+    for num_adjectives in adj_nums: 
+        predictions = categorize_predictions(sentences[num_adjectives]) # categorize into 5 categories
+        for category, sentences_in_category in predictions.items():
+            prop = len(sentences_in_category) / len(sentences[num_adjectives])
+            fig_data[num_adjectives][list(complete_sentence_file_names)[2]].append(prop)
+
     # plot
     visualizer = Visualizer()
     xtick_labels = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
-    visualizer.make_barplot(xtick_labels, fig_data, sentence_file_names)
+    visualizer.make_barplot(xtick_labels, fig_data, complete_sentence_file_names)
 
 
-main('probing_agreement_across_adjectives_results_100000_no_srl.txt')
+# main('probing_agreement_across_adjectives_results_100000_no_srl.txt')
 
 main('probing_agreement_across_adjectives_results_100000_no_srl.txt',
      'probing_agreement_across_adjectives_results_100000_with_srl.txt')
