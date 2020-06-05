@@ -8,7 +8,7 @@ nltk.download('words')
 
 wnl = WordNetLemmatizer()
 
-excluded_words = open("excluded_words.txt", "r").read().split()
+excluded_words = (Path(__file__).parent / "excluded_words.txt").open().read().split()
 
 VOCAB_NAME = "childes-20191206_vocab.txt"  # fixed
 VOCAB_SIZE = 4000  # fixed

@@ -1,27 +1,65 @@
+import numpy as np
+
+from babeval.vocab import get_vocab
+
+
 
 class Reader:
     def __init__(self, predictions_file_name):
 
-        self.test_sentence_list = self.reformat_BERT_output(predictions_file_name)
+        self.predictions_file_name = predictions_file_name
+        self.col1, self.col2 = self.get_columns()
 
-    def reformat_BERT_output(self, sentence_file_name):
-        file = open(sentence_file_name, "r")
+        self.bert_predictions = self.get_bert_predictions()
+        self.rand_predictions = self.get_random_predictions()
+
+    def get_columns(self):
+        file = open(self.predictions_file_name, "r")
         lines = file.readlines()
         file.close()
 
+        col1 = []
         col2 = []
         for line in lines:
             parts = line.split()
             if len(parts) == 2:
-                col2.append(parts[-1])
+                col1.append(parts[0])
+                col2.append(parts[1])
 
-        test_sentence_list = [[]]
-        for w in col2:
-            test_sentence_list[-1].append(w)
+        return col1, col2
+
+    def get_bert_predictions(self):
+
+        result = [[]]
+        for w in self.col2:
+            result[-1].append(w)
             if w == '.':
-                test_sentence_list.append([])
+                result.append([])
 
-        if not test_sentence_list[-1]:
-            del test_sentence_list[-1]
+        if not result[-1]:
+            del result[-1]
 
-        return test_sentence_list
+        return result
+
+    def get_random_predictions(self):
+
+        vocab = get_vocab()
+        vocab.remove('.')
+
+        result = [[]]
+        for w in self.col1:
+
+            if w == '[MASK]':
+                w = np.random.choice(vocab)  # TODO implement frequency-weighted sampling
+
+
+
+            result[-1].append(w)
+
+            if w == '.':
+                result.append([])
+
+        if not result[-1]:
+            del result[-1]
+
+        return result
