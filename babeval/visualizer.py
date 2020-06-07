@@ -17,6 +17,7 @@ class Visualizer:
         for ax, ax_data in zip(axs, [fig_data[i] for i in ['1', '2', '3']]):
             ax.set_xticks(num_categories + width)
             ax.set_xticklabels(xtick_labels)
+            ax.set_ylabel('Proportion')
 
             for edge, color, label in zip(edges, colors, legend_labels):
                 ax.bar(num_categories + edge, ax_data[label], width, color=color, label=label)
@@ -24,9 +25,5 @@ class Visualizer:
 
         # legend
         plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.5), loc='upper left', frameon=False)
-
-        fig.text(0.06, 0.5, 'proportion of total predictions that are in the category', ha='center', va='center',
-                 rotation='vertical', size='small')
-
 
         plt.show()

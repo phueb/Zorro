@@ -40,26 +40,18 @@ class Reader:
 
         return result
 
-
     def get_random_predictions(self):
         vocab = get_vocab()
         freq = get_frequency()
-        lst = list(zip(vocab, freq))
-        clean_freq_lst = [ele2 for ele1, ele2 in lst if ele1 != "."]
-        freq_sum = sum(clean_freq_lst)
-
-        weights_lst = []
-        for f in clean_freq_lst:
-            weights = f/freq_sum
-            weights_lst.append(weights)
+        freq[vocab.index('.')] = 0
+        weights = np.array(freq) / sum(freq)
 
         result = [[]]
         for w in self.col1:
 
             if w == '[MASK]':
-                w = np.random.choice([i for i in vocab if i != "."], p = weights_lst)
+                w = np.random.choice(vocab, p=weights)
             result[-1].append(w)
-            #ValueError: a must be 1-dimensional or an integer
 
             if w == '.':
                 result.append([])
