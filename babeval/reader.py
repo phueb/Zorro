@@ -1,6 +1,7 @@
 import numpy as np
-from babeval.vocab import get_vocab
+import sys, os
 
+from babeval.vocab import get_vocab, get_frequency
 
 class Reader:
     def __init__(self, predictions_file_name):
@@ -41,25 +42,24 @@ class Reader:
 
 
     def get_random_predictions(self):
-
-        vocab, freq = get_vocab()
-        freq.remove(freq[vocab.index('.')])
-        vocab.remove('.')
+        vocab = get_vocab()
+        freq = get_frequency()
+        lst = list(zip(vocab, freq))
+        clean_freq_lst = [ele2 for ele1, ele2 in lst if ele1 != "."]
+        freq_sum = sum(clean_freq_lst)
 
         weights_lst = []
-        freq_sum = sum([int(i) for i in freq if type(i)== int or i.isdigit()]) 
-        for f in freq:
-            weights = int(f)/freq_sum
+        for f in clean_freq_lst:
+            weights = f/freq_sum
             weights_lst.append(weights)
-
-        # cum_weights = [0] + list(np.cumsum(weights_lst)).
 
         result = [[]]
         for w in self.col1:
 
             if w == '[MASK]':
-                w = np.random.choice(vocab, p = weights_lst)  # FIXED
+                w = np.random.choice([i for i in vocab if i != "."], p = weights_lst)
             result[-1].append(w)
+            #ValueError: a must be 1-dimensional or an integer
 
             if w == '.':
                 result.append([])
