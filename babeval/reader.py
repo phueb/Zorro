@@ -1,7 +1,5 @@
 import numpy as np
-
 from babeval.vocab import get_vocab
-
 
 
 class Reader:
@@ -41,19 +39,26 @@ class Reader:
 
         return result
 
+
     def get_random_predictions(self):
 
-        vocab = get_vocab()
+        vocab, freq = get_vocab()
+        freq.remove(freq[vocab.index('.')])
         vocab.remove('.')
+
+        weights_lst = []
+        freq_sum = sum([int(i) for i in freq if type(i)== int or i.isdigit()]) 
+        for f in freq:
+            weights = int(f)/freq_sum
+            weights_lst.append(weights)
+
+        # cum_weights = [0] + list(np.cumsum(weights_lst)).
 
         result = [[]]
         for w in self.col1:
 
             if w == '[MASK]':
-                w = np.random.choice(vocab)  # TODO implement frequency-weighted sampling
-
-
-
+                w = np.random.choice(vocab, p = weights_lst)  # FIXED
             result[-1].append(w)
 
             if w == '.':
