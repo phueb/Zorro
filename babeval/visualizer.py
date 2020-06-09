@@ -12,6 +12,9 @@ class Visualizer:
         width = 0.2
 
         fig, axs = plt.subplots(len(title2file_name2props), sharex='all', sharey='all')
+
+        # axes is not iterable when making single plot (without any sublot)
+
         for ax, ax_title in zip(axs, title2file_name2props.keys()):
             ax.set_xticks(x + width)
             ax.set_xticklabels(x_tick_labels)

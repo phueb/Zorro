@@ -81,7 +81,7 @@ def main(*sentence_file_names):
     control_name = '_frequency-based control'
     sentence_file_names = list(sentence_file_names) + \
                           [name + control_name for name in sentence_file_names]
-    fig_data = {fn: [] for fn in sentence_file_names} 
+    fig_data = {fn: [] for fn in sentence_file_names}
 
     for sentence_file_name in sentence_file_names:
         print(f'Scoring {sentence_file_name}')
@@ -107,11 +107,10 @@ def main(*sentence_file_names):
     xtick_labels = ("[UNK]", "correct\nprep_verbs", "false\nprep_verbs", "non-prep_verbs")
     visualizer.make_barplot(xtick_labels, fig_data)
 
-    #TODO: visualizer not applicable because fig_data was composed of list
-
+    #visualizer is not applicable to fig_data with single key
 
 # main('probing_agreement_across_adjectives_results_100000_no_srl.txt')
 
-main("","") # Two agreement_across_PP files 
+main("(dummy)with-clause.txt","(dummy)without-clause.txt") # Two agreement_across_PP files 
 
 
