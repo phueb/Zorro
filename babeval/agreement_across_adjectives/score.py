@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from babeval.reader import Reader
 from babeval.visualizer import Visualizer
 
-plt.rcdefaults()
+# plt.rcdefaults()
 
 # start words
 start_words_singular = ["this", "that"]
