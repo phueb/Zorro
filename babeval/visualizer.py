@@ -11,7 +11,11 @@ class Visualizer:
         x = np.arange(len(x_tick_labels))
         width = 0.2
 
-        fig, axs = plt.subplots(len(title2file_name2props), sharex='all', sharey='all')
+        num_axes = len(title2file_name2props)
+        fig, axs = plt.subplots(num_axes, sharex='all', sharey='all')
+        if num_axes == 1:
+            # make axes iterable when there is only one axis only
+            axs = [axs]
 
         # axes is not iterable when making single plot (without any sublot)
 
