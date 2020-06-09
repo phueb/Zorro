@@ -133,11 +133,12 @@ def main(*sentence_file_names):
     """
 
     adj_nums = ['1', '2', '3']
+    title_template = 'Sentence with {} Adjective(s)'
 
     control_name = '_frequency-based control'
     sentence_file_names = list(sentence_file_names) + \
                           [name + control_name for name in sentence_file_names]
-    fig_data = {na: {fn: [] for fn in sentence_file_names} for na in adj_nums}
+    title2file_name2props = {title_template.format(na): {fn: [] for fn in sentence_file_names} for na in adj_nums}
 
     for sentence_file_name in sentence_file_names:
         print(f'Scoring {sentence_file_name}')
@@ -151,17 +152,18 @@ def main(*sentence_file_names):
             print_stats(reader.bert_predictions)
             sentences = categorize_sentences(reader.bert_predictions)  # categorize into 3 adjective conditions
 
-        for num_adjectives in adj_nums:
-            predictions = categorize_predictions(sentences[num_adjectives])  # categorize into 5 categories
+        for na in adj_nums:
+            predictions = categorize_predictions(sentences[na])  # categorize into 5 categories
 
             for category, sentences_in_category in predictions.items():
-                prop = len(sentences_in_category) / len(sentences[num_adjectives])
-                fig_data[num_adjectives][sentence_file_name].append(prop)
+                prop = len(sentences_in_category) / len(sentences[na])
+                title = title_template.format(na)
+                title2file_name2props[title][sentence_file_name].append(prop)
 
     # plot
     visualizer = Visualizer()
     xtick_labels = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
-    visualizer.make_barplot(xtick_labels, fig_data, sentence_file_names)
+    visualizer.make_barplot(xtick_labels, title2file_name2props)
 
 
 # main('probing_agreement_across_adjectives_results_100000_no_srl.txt')
