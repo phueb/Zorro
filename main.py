@@ -16,14 +16,15 @@ with open(out_path, 'w') as f:
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
 
-raise SystemExit('Just working on above task for now.')
 
 # agreement_across_PP
 out_path = output_folder / 'agreement_across_PP.txt'
 with open(out_path, 'w') as f:
-    for n, sentence in enumerate(generate_agreement_across_pp(prepositions, nouns, adjectives)):
+    for n, sentence in enumerate(generate_agreement_across_pp()):
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
+
+raise SystemExit
 
 # agreement_across_RC
 out_path = output_folder / 'agreement_across_RC.txt'
