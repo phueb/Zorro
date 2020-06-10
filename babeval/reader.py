@@ -1,5 +1,6 @@
 import numpy as np
-from vocab import get_vocab, get_frequency
+from babeval.vocab import get_vocab, get_frequency
+
 
 class Reader:
     def __init__(self, predictions_file_name):

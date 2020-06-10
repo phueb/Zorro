@@ -12,15 +12,24 @@ it can handle a file that has sentences with different amounts of adjectives (1,
 And sentences with "look at ..." and without.
 """
 from pathlib import Path
-import matplotlib.pyplot as plt
 
-from babeval.reader import Reader
 from babeval.visualizer import Visualizer
+from babeval.scoring import score_predictions
 
-# start words
+
+prediction_file_names = ['probing_agreement_across_adjectives_results_100000_no_srl.txt',
+                         'probing_agreement_across_adjectives_results_100000_with_srl.txt']
+
 start_words_singular = ["this", "that"]
 start_words_plural = ["these", "those"]
 start_words = start_words_singular + start_words_plural
+
+templates = ['Sentence with 1 Adjective(s)',
+             'Sentence with 2 Adjective(s)',
+             'Sentence with 3 Adjective(s)',
+             ]
+
+prediction_categories = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
 
 # load word lists
 with (Path().cwd() / 'nouns_annotator2.txt').open() as f:
@@ -41,8 +50,7 @@ for w in nouns_plural:
     assert w not in nouns_singular
 
 
-
-def categorize_sentences(test_sentence_list):
+def categorize_templates(test_sentence_list):
 
     res = {}
 
@@ -54,13 +62,13 @@ def categorize_sentences(test_sentence_list):
                 adj = sentence[sentence.index(start_word) + 1:sentence.index(predicted_noun)]
 
                 if len(adj) == 1:  # 1 adjective
-                    res.setdefault('1', []).append(sentence)
+                    res.setdefault(templates[0], []).append(sentence)
 
                 if len(adj) == 2:  # 2 adjectives
-                    res.setdefault('2', []).append(sentence)
+                    res.setdefault(templates[1], []).append(sentence)
 
                 if len(adj) == 3:  # 3 adjectives
-                    res.setdefault('3', []).append(sentence)
+                    res.setdefault(templates[2], []).append(sentence)
 
                 break  # exit inner for loop
 
@@ -68,38 +76,37 @@ def categorize_sentences(test_sentence_list):
 
 
 def categorize_predictions(test_sentence_list):
-
-    res = {'u': [], 'c': [], 'f': [], 'a': []}
+    res = {'u': [], 'c': [], 'f': [], 'a': [], 'n': []}
 
     for sentence in test_sentence_list:
         predicted_word = sentence[-2]
         start_word = [w for w in sentence if w in start_words][0]
 
-        # [UNK] CONDITION
+        # [UNK]
         if predicted_word == "[UNK]":
-            res.setdefault('u', []).append(sentence)
+            res['u'].append(sentence)
 
         # correct Noun Number
         elif predicted_word in nouns_plural and start_word in start_words_plural:
-            res.setdefault('c', []).append(sentence)
+            res['c'].append(sentence)
 
         elif predicted_word in nouns_singular and start_word in start_words_singular:
-            res.setdefault('c', []).append(sentence)
+            res['c'].append(sentence)
 
         # false Noun Number
         elif predicted_word in nouns_plural and start_word in start_words_singular:
-            res.setdefault('f', []).append(sentence)
+            res['f'].append(sentence)
 
         elif predicted_word in nouns_singular and start_word in start_words_plural:
-            res.setdefault('f', []).append(sentence)
+            res['f'].append(sentence)
 
         # Ambiguous Noun
         elif predicted_word in ambiguous_nouns:
-            res.setdefault('a', []).append(sentence)
+            res['a'].append(sentence)
 
         # Non_Noun
         else:
-            res.setdefault('n', []).append(sentence)
+            res['n'].append(sentence)
 
     return res
 
@@ -124,23 +131,13 @@ def print_stats(sentences):
     print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
 
 
-def main(*sentence_file_names):
-    """
-    works with arbitrary number of files, for maximal flexibility.
-    for each file name, a frequency-based random control is automatically added to bar plot
-    """
+# score
+template2file_name2props = score_predictions(prediction_file_names,
+                                             templates,
+                                             categorize_templates,
+                                             categorize_predictions,
+                                             print_stats)
 
-    adj_nums = ['1', '2', '3']
-    title_template = 'Sentence with {} Adjective(s)'
-    title2file_name2props =  score_prediction(sentence_file_names, adj_nums, title_template, print_stats, categorize_sentences, categorize_predictions)
-    
-    # plot
-    visualizer = Visualizer()
-    xtick_labels = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
-    visualizer.make_barplot(xtick_labels, title2file_name2props)
-
-
-# main('probing_agreement_across_adjectives_results_100000_no_srl.txt')
-
-main('probing_agreement_across_adjectives_results_100000_no_srl.txt',
-     'probing_agreement_across_adjectives_results_100000_with_srl.txt')
+# plot
+visualizer = Visualizer()
+visualizer.make_barplot(prediction_categories, template2file_name2props)
