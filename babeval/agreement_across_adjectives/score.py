@@ -17,8 +17,6 @@ import matplotlib.pyplot as plt
 from babeval.reader import Reader
 from babeval.visualizer import Visualizer
 
-# plt.rcdefaults()
-
 # start words
 start_words_singular = ["this", "that"]
 start_words_plural = ["these", "those"]
@@ -134,32 +132,8 @@ def main(*sentence_file_names):
 
     adj_nums = ['1', '2', '3']
     title_template = 'Sentence with {} Adjective(s)'
-
-    control_name = '_frequency-based control'
-    sentence_file_names = list(sentence_file_names) + \
-                          [name + control_name for name in sentence_file_names]
-    title2file_name2props = {title_template.format(na): {fn: [] for fn in sentence_file_names} for na in adj_nums}
-
-    for sentence_file_name in sentence_file_names:
-        print(f'Scoring {sentence_file_name}')
-
-        if sentence_file_name.endswith(control_name):
-            reader = Reader(sentence_file_name.replace(control_name, ''))
-            print_stats(reader.rand_predictions)
-            sentences = categorize_sentences(reader.rand_predictions)
-        else:
-            reader = Reader(sentence_file_name)
-            print_stats(reader.bert_predictions)
-            sentences = categorize_sentences(reader.bert_predictions)  # categorize into 3 adjective conditions
-
-        for na in adj_nums:
-            predictions = categorize_predictions(sentences[na])  # categorize into 5 categories
-
-            for category, sentences_in_category in predictions.items():
-                prop = len(sentences_in_category) / len(sentences[na])
-                title = title_template.format(na)
-                title2file_name2props[title][sentence_file_name].append(prop)
-
+    title2file_name2props =  score_prediction(sentence_file_names, adj_nums, title_template, print_stats, categorize_sentences, categorize_predictions)
+    
     # plot
     visualizer = Visualizer()
     xtick_labels = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
