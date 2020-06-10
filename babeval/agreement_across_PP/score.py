@@ -9,10 +9,13 @@ from pathlib import Path
 from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 
-prediction_file_names = ['(dummy)with-clause.txt',
-                         '(dummy)without-clause.txt']
+prediction_file_names = [
+    'probing_agreement_across_PP_results_80000_with_srl.txt',
+    'probing_agreement_across_PP_results_80000_no_srl.txt'
+]
 
-copulas = ["is", "are"]
+copulas_singular = ["is", "'s"]
+copulas_plural = ["are", "'re"]
 
 templates = ['default',
              ]
@@ -57,17 +60,17 @@ def categorize_predictions(test_sentence_list):
             res['u'].append(sentence)
 
         # correct copula
-        elif targeted_noun in nouns_plural and predicted_word == "are":
+        elif targeted_noun in nouns_plural and predicted_word in copulas_plural:
             res['c'].append(sentence)
 
-        elif targeted_noun in nouns_singular and predicted_word == "is":
+        elif targeted_noun in nouns_singular and predicted_word in copulas_singular:
             res['c'].append(sentence)
 
         # false copula
-        elif targeted_noun in nouns_plural and predicted_word == "is":
+        elif targeted_noun in nouns_plural and predicted_word in copulas_singular:
             res['f'].append(sentence)
 
-        elif targeted_noun in nouns_singular and predicted_word == "are":
+        elif targeted_noun in nouns_singular and predicted_word in copulas_plural:
             res['f'].append(sentence)
 
         # Non-copula
