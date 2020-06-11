@@ -10,8 +10,8 @@ from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 
 prediction_file_names = [
-    'probing_agreement_across_PP_results_80000_with_srl.txt',
-    'probing_agreement_across_PP_results_80000_no_srl.txt'
+    'probing_agreement_across_PP_results_100000_with_srl.txt',
+    'probing_agreement_across_PP_results_100000_no_srl.txt'
 ]
 
 copulas_singular = ["is", "'s"]

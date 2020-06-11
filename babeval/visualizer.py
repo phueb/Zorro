@@ -3,8 +3,8 @@ from matplotlib import pyplot as plt
 
 
 class Visualizer:
-    def __init__(self):
-        pass
+    def __init__(self, dpi=192):
+        self.dpi = dpi
 
     def make_barplot(self, x_tick_labels, title2file_name2props):
 
@@ -12,12 +12,10 @@ class Visualizer:
         width = 0.2
 
         num_axes = len(title2file_name2props)
-        fig, axs = plt.subplots(num_axes, sharex='all', sharey='all')
+        fig, axs = plt.subplots(num_axes, sharex='all', sharey='all', dpi=self.dpi)
         if num_axes == 1:
             # make axes iterable when there is only one axis only
             axs = [axs]
-
-        # axes is not iterable when making single plot (without any sublot)
 
         for ax, ax_title in zip(axs, title2file_name2props.keys()):
             ax.set_xticks(x + width)
