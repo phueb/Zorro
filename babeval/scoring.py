@@ -1,6 +1,5 @@
 from babeval.reader import Reader
 
-
 def score_predictions(sentence_file_names, templates, categorize_templates, categorize_predictions, print_stats):
     """
 

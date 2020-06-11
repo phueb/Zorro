@@ -16,7 +16,6 @@ from pathlib import Path
 from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 
-
 prediction_file_names = ['probing_agreement_across_adjectives_results_100000_no_srl.txt',
                          'probing_agreement_across_adjectives_results_100000_with_srl.txt']
 
@@ -53,7 +52,6 @@ for w in nouns_plural:
 def categorize_templates(test_sentence_list):
 
     res = {}
-
     for sentence in test_sentence_list:
         predicted_noun = sentence[-2]
         for word in sentence:
