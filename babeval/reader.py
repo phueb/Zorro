@@ -1,4 +1,6 @@
 import numpy as np
+import sys, os
+
 from babeval.vocab import get_vocab, get_frequency
 
 
@@ -8,8 +10,11 @@ class Reader:
         self.predictions_file_name = predictions_file_name
         self.col1, self.col2 = self.get_columns()
 
+        self.punctuation = [".", "?"] #add "?" for agreement_in_question
+
         self.bert_predictions = self.get_bert_predictions()
         self.rand_predictions = self.get_random_predictions()
+
 
     def get_columns(self):
         file = open(self.predictions_file_name, "r")
@@ -31,7 +36,7 @@ class Reader:
         result = [[]]
         for w in self.col2:
             result[-1].append(w)
-            if w == '.':
+            if w in self.punctuation:
                 result.append([])
 
         if not result[-1]:
@@ -52,7 +57,7 @@ class Reader:
                 w = np.random.choice(vocab, p=weights)
             result[-1].append(w)
 
-            if w == '.':
+            if w in self.punctuation:
                 result.append([])
 
         if not result[-1]:
