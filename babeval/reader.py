@@ -1,8 +1,7 @@
 import numpy as np
-import sys, os
+from pathlib import Path
 
 from babeval.vocab import get_vocab, get_frequency
-
 
 class Reader:
     def __init__(self, predictions_file_name):
@@ -14,7 +13,12 @@ class Reader:
         self.rand_predictions = self.get_random_predictions()
 
     def get_columns(self):
-        file = open(self.predictions_file_name, "r")
+        #reading files from the folder of prediction files
+        file_path = "(dummy)prediction_files/"
+        file = open(file_path + self.predictions_file_name, "r")
+
+        # file = open(self.predictions_file_name, "r")
+
         lines = file.readlines()
         file.close()
 
@@ -44,7 +48,7 @@ class Reader:
     def get_random_predictions(self):
         vocab = get_vocab()
         freq = get_frequency()
-        freq[vocab.index('.')] = 0
+        freq[vocab.index('.')] = 0 # ?
         weights = np.array(freq) / sum(freq)
 
         result = []

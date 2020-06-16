@@ -7,7 +7,6 @@ calculate 5 measures,
 3. ambiguous noun number ("sheep", "fish")
 4. non-noun
 5. [UNK] (this means "unknown", which means the model doesn't want to commit to an answer)
-
 it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) .
 And sentences with "look at ..." and without.
 """
