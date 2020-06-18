@@ -9,39 +9,17 @@ In the end, each bar should represent an average proportion (average of the prop
 That said, it would be useful to add error bars, indicating the standard deviation, for each bar in the graph. 
 Take your time with this one.
 """
+import numpy as np
 from babeval.reader import Reader
 
-def score_predictions(sentence_file_names, templates, categorize_templates, categorize_predictions, print_stats):
-    """
+def score_multiple_models(divide_chunks, templates, categorize_templates, categorize_predictions, sentence_file_names):
 
-    :param sentence_file_names: list of file names containing predictions
-    :param templates: list of names for templates, one for each subplot
-    :param categorize_templates: function for separating sentences by template
-    :param categorize_predictions: function for scoring
-    :param print_stats: function to print basic information about sentences (optional)
-    :return: double-embedded dict, which can be input to barplot function
-
-    how it works: for each prediction file:
-    1. a frequency-control is added
-    2. the predictions are read and categorized by template and production category (eg. false, correct, etc)
-    3. information is stored in double-embedded dict, which can be input to barplot function
-    """
-    control_name = '_frequency-based control'
-    sentence_file_names = list(sentence_file_names) + \
-                          [name + control_name for name in sentence_file_names]
     title2file_name2props = {template: {fn: [] for fn in sentence_file_names} for template in templates}
 
     for sentence_file_name in sentence_file_names:
-        print(f'Scoring {sentence_file_name}')
-
-        if sentence_file_name.endswith(control_name):
-            reader = Reader(sentence_file_name.replace(control_name, ''))
-            print_stats(reader.rand_predictions)
-            template2sentences = categorize_templates(reader.rand_predictions)
-        else:
-            reader = Reader(sentence_file_name)
-            print_stats(reader.bert_predictions)
-            template2sentences = categorize_templates(reader.bert_predictions)
+        reader = Reader(sentence_file_name)
+        test_sentence_list = reader.bert_predictions
+        template2sentences = categorize_templates(test_sentence_list)
 
         for template in templates:
             predictions = categorize_predictions(template2sentences[template])
@@ -50,19 +28,33 @@ def score_predictions(sentence_file_names, templates, categorize_templates, cate
                 prop = len(sentences_in_category) / len(template2sentences[template])
                 title2file_name2props[template][sentence_file_name].append(prop)
 
-    return title2file_name2props
+    """
+    Add up all values of proportions of the second layer of the dict based on index
+    Get averages and standard deviations and store values into two separate lists
+    """
 
-def score_multiple_models(sentence_file_names, categorize_templates_calculate_avg_std):
+    lst = []
+    for template in templates:
+        for name in sentence_file_names:  
+            lst.append(title2file_name2props[template][name])
 
-    for sentence_file_name in sentence_file_names:
-        reader = Reader(sentence_file_name)
-        test_sentence_list = reader.bert_predictions
-        average_dict, std_dict = categorize_templates_calculate_avg_std(sentence_file_names, sentence_file_name, test_sentence_list)
+    keys = ["average", "standard deviation"]
 
-    return average_dict, std_dict 
+    average_dict = {keys[0]:{i: [] for i in range(len(title2file_name2props))}}
+    std_dict = {keys[1]:{i: [] for i in range(len(title2file_name2props))}}
 
+    n = len(sentence_file_names)
+    #length of sentence_file_names = number of models
 
+    value_lst = divide_chunks(lst,n) 
 
+    for value, i in zip(value_lst, range(len(title2file_name2props))):
+        value_array = np.array(value)
+        avg = np.mean(value_array, axis=0)
+        std = np.std(value_array, axis=0)
+        average_dict[keys[0]][i].append(avg)
+        std_dict[keys[1]][i].append(std)
 
+    return average_dict, std_dict
 
 

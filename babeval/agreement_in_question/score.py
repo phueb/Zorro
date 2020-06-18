@@ -8,13 +8,8 @@
 
 from pathlib import Path
 
-# from babeval.visualizer import Visualizer
-# from babeval.scoring import score_predictions
-
-import sys, os
-sys.path.append(os.path.abspath(os.path.join('..'))) 
-from visualizer import Visualizer
-from scoring import score_predictions
+from babeval.visualizer import Visualizer
+from babeval.scoring import score_predictions
 
 prediction_file_names = [
     '(dummy)probing_agreement_in_question_results_80000_with_srl.txt',

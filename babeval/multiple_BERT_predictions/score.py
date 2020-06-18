@@ -14,6 +14,7 @@ import numpy as np
 
 from babeval.visualizer import Visualizer
 from babeval.scoring_multiple import score_multiple_models
+from babeval.reader import Reader
 
 #ONE PREDICTIN FILE = ONE ADDITIONAL MODEL
 #AVERAGE PROPORTION SHOULD BE DISPLAYED AS SINGLE BAR
@@ -28,64 +29,42 @@ for (dirpath, dirnames, filenames) in walk(my_path):
     break
 
 #key words to locate different templates 
-key_word = ["look", "?"] 
+key_word = ["look", "?", "the", "that"] 
 
-def categorize_templates_calculate_avg_std(sentence_file_names, sentence_file_name, test_sentence_list):
-    """
-    Categorize files into different templates
-    Call functions from corresponding script if the file belongs to the template
-    """
+#TODO: try think of a better way to call corresponding script
+
+#call different scripts based on structures of test sentences
+
+for sentence_file_name in prediction_file_names:
+    reader = Reader(sentence_file_name)
+    test_sentence_list = reader.bert_predictions
+
     for sentence in test_sentence_list:
-        #TODO: try think of a better way to categorize
-
         if sentence[0] == key_word[0]: #adj
-            from agreement_across_adjectives import score
+            from agreement_across_adjectives.score import categorize_templates, categorize_predictions
             from agreement_across_adjectives.score import templates
 
-        if sentence[-1] == key_word[1]: #question
-            from agreement_in_question import score
+        elif sentence[-1] == key_word[1]: #question
+            from agreement_in_question.score import categorize_templates, categorize_predictions
             from agreement_in_question.score import templates
 
-    template2sentences = score.categorize_templates(test_sentence_list)
-    title2file_name2props = {template: {fn: [] for fn in sentence_file_names} for template in templates}
+        elif sentence[0] == key_word[2] and sentence[3] == key_word[2]: #PP
+            from agreement_across_PP.score import categorize_templates, categorize_predictions
+            from agreement_across_PP.score import templates
 
-    for template in templates:
-            predictions = score.categorize_predictions(template2sentences[template])
+        elif sentence[0] == key_word[2] and sentence[2] == key_word[3]: #RC
+            from agreement_across_RC.score import categorize_templates, categorize_predictions
+            from agreement_across_RC.score import templates
 
-            for category, sentences_in_category in predictions.items():
-                prop = len(sentences_in_category) / len(template2sentences[template])
-                title2file_name2props[template][sentence_file_name].append(prop)
-
-    """
-    Add up all values of proportions of the second layer of the dict based on index
-    Get averages and standard deviations and store values into two separate lists
-    """
-    lst = []
-    for template in templates:
-        for name in prediction_file_names:  
-            lst.append(title2file_name2props[template][name])
-
-    keys = ["average", "standard deviation"]
-
-    average_dict = {keys[0]:{i: [] for i in range(len(title2file_name2props))}}
-    std_dict = {keys[1]:{i: [] for i in range(len(title2file_name2props))}}
-
-    for i in range(len(title2file_name2props)):
-        value_lst = [lst[i], lst[i + len(title2file_name2props)]]
-        value_array = [np.array(x) for x in value_lst]
-        avg = [np.mean(k) for k in zip(*value_array)] 
-        std = [np.std(k) for k in zip(*value_array)]
-
-        average_dict[keys[0]][i].append(avg)
-        std_dict[keys[1]][i].append(std)
-
-    return average_dict, std_dict
+def divide_chunks(l, n): 
+    for i in range(0, len(l), n):  
+        yield l[i:i + n] 
 
 # score
-average_dict, std_dict = score_multiple_models(prediction_file_names, categorize_templates_calculate_avg_std)
+average_dict, std_dict = score_multiple_models(divide_chunks, templates, categorize_templates, categorize_predictions, prediction_file_names)
 
 x_tick_labels = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
 
 # plot
-visualizer = Visualizer()
-visualizer.make_barplot_for_multiple_models(x_tick_labels, average_dict, std_dict)
+# visualizer = Visualizer()
+# visualizer.make_barplot_for_multiple_models(x_tick_labels, average_dict, std_dict)

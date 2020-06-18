@@ -109,23 +109,24 @@ def categorize_predictions(test_sentence_list):
 
 
 def print_stats(sentences):
-    num_singular = 0
-    num_plural = 0
-    num_ambiguous = 0
-    num_total = 0
-    for s in sentences:
-        for w in s:
-            if w in nouns_list:
-                num_total += 1
-                if w in nouns_singular:
-                    num_singular += 1
-                elif w in nouns_plural:
-                    num_plural += 1
-                elif w in ambiguous_nouns:
-                    num_ambiguous += 1
-                else:
-                    raise RuntimeError(f'{w} is neither in plural or singular or ambiguous nouns list')
-    print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
+    pass
+    # num_singular = 0
+    # num_plural = 0
+    # num_ambiguous = 0
+    # num_total = 0
+    # for s in sentences:
+    #     for w in s:
+    #         if w in nouns_list:
+    #             num_total += 1
+    #             if w in nouns_singular:
+    #                 num_singular += 1
+    #             elif w in nouns_plural:
+    #                 num_plural += 1
+    #             elif w in ambiguous_nouns:
+    #                 num_ambiguous += 1
+    #             else:
+    #                 raise RuntimeError(f'{w} is neither in plural or singular or ambiguous nouns list')
+    # print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
 
 
 # score
@@ -136,5 +137,5 @@ template2file_name2props = score_predictions(prediction_file_names,
                                              print_stats)
 
 # plot
-visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2file_name2props)
+# visualizer = Visualizer()
+# visualizer.make_barplot(prediction_categories, template2file_name2props)
