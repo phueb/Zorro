@@ -14,14 +14,8 @@ class Reader:
         self.rand_predictions = self.get_random_predictions()
 
     def get_columns(self):
-        #reading files from the folder of prediction files
-        file_path = "(dummy)prediction_files/"
-        file = open(file_path + self.predictions_file_name, "r")
-
-        # file = open(self.predictions_file_name, "r")
-
-        lines = file.readlines()
-        file.close()
+        path = Path(__file__).parent.parent / 'prediction_files' / self.predictions_file_name
+        lines = path.open().readlines()
 
         col1 = [[]]
         col2 = [[]]
@@ -49,7 +43,7 @@ class Reader:
     def get_random_predictions(self):
         vocab = get_vocab()
         freq = get_frequency()
-        freq[vocab.index('.')] = 0 # ?
+        freq[vocab.index('.')] = 0  # tell random sampler to never sample a period
         weights = np.array(freq) / sum(freq)
 
         result = []

@@ -15,8 +15,12 @@ from pathlib import Path
 from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 
-prediction_file_names = ['probing_agreement_across_adjectives_results_100000_no_srl.txt',
-                         'probing_agreement_across_adjectives_results_100000_with_srl.txt']
+group2sentence_file_names = {'no_srl': ['probing_agreement_across_adjectives_results_100000_no_srl_0.txt',
+                                        'probing_agreement_across_adjectives_results_100000_no_srl_1.txt'],
+                             'with_srl':
+                                 ['probing_agreement_across_adjectives_results_100000_with_srl_0.txt',
+                                  'probing_agreement_across_adjectives_results_100000_with_srl_0.txt',
+                                  ]}
 
 start_words_singular = ["this", "that"]
 start_words_plural = ["these", "those"]
@@ -109,33 +113,32 @@ def categorize_predictions(test_sentence_list):
 
 
 def print_stats(sentences):
-    pass
-    # num_singular = 0
-    # num_plural = 0
-    # num_ambiguous = 0
-    # num_total = 0
-    # for s in sentences:
-    #     for w in s:
-    #         if w in nouns_list:
-    #             num_total += 1
-    #             if w in nouns_singular:
-    #                 num_singular += 1
-    #             elif w in nouns_plural:
-    #                 num_plural += 1
-    #             elif w in ambiguous_nouns:
-    #                 num_ambiguous += 1
-    #             else:
-    #                 raise RuntimeError(f'{w} is neither in plural or singular or ambiguous nouns list')
-    # print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
+    num_singular = 0
+    num_plural = 0
+    num_ambiguous = 0
+    num_total = 0
+    for s in sentences:
+        for w in s:
+            if w in nouns_list:
+                num_total += 1
+                if w in nouns_singular:
+                    num_singular += 1
+                elif w in nouns_plural:
+                    num_plural += 1
+                elif w in ambiguous_nouns:
+                    num_ambiguous += 1
+                else:
+                    raise RuntimeError(f'{w} is neither in plural or singular or ambiguous nouns list')
+    print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
 
 
 # score
-template2file_name2props = score_predictions(prediction_file_names,
-                                             templates,
-                                             categorize_templates,
-                                             categorize_predictions,
-                                             print_stats)
+template2group_name2props = score_predictions(group2sentence_file_names,
+                                              templates,
+                                              categorize_templates,
+                                              categorize_predictions,
+                                              print_stats)
 
 # plot
-# visualizer = Visualizer()
-# visualizer.make_barplot(prediction_categories, template2file_name2props)
+visualizer = Visualizer()
+visualizer.make_barplot(prediction_categories, template2group_name2props)

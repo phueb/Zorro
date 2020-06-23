@@ -12,8 +12,8 @@ from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 
 prediction_file_names = [
-    '(dummy)probing_agreement_in_question_results_80000_with_srl.txt',
-    '(dummy)probing_agreement_in_question_results_80000_no_srl.txt'
+    'probing_agreement_in_question_results_80000_with_srl.txt',
+    'probing_agreement_in_question_results_80000_no_srl.txt'
 ]
 
 subjective_copula_singular = ["does", "is", "'s"]
@@ -111,7 +111,7 @@ def print_stats(sentences):
 
 
 # score
-template2file_name2props = score_predictions(prediction_file_names,
+template2group_name2props = score_predictions(prediction_file_names,
                                              templates,
                                              categorize_templates,
                                              categorize_predictions,
@@ -119,4 +119,4 @@ template2file_name2props = score_predictions(prediction_file_names,
 
 # plot
 visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2file_name2props)
+visualizer.make_barplot(prediction_categories, template2group_name2props)

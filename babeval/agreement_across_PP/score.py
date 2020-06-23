@@ -9,10 +9,12 @@ from pathlib import Path
 from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 
-prediction_file_names = [
-    'probing_agreement_across_PP_results_100000_with_srl.txt',
-    'probing_agreement_across_PP_results_100000_no_srl.txt'
-]
+group2sentence_file_names = {'no_srl': ['probing_agreement_across_PP_results_100000_no_srl_0.txt',
+                                        'probing_agreement_across_PP_results_100000_no_srl_1.txt'],
+                             'with_srl':
+                                 ['probing_agreement_across_PP_results_100000_with_srl_0.txt',
+                                  'probing_agreement_across_PP_results_100000_with_srl_0.txt',
+                                  ]}
 
 copulas_singular = ["is", "'s"]
 copulas_plural = ["are", "'re"]
@@ -85,12 +87,12 @@ def print_stats(sentences):
 
 
 # score
-template2file_name2props = score_predictions(prediction_file_names,
-                                             templates,
-                                             categorize_templates,
-                                             categorize_predictions,
-                                             print_stats)
+template2group_name2props = score_predictions(group2sentence_file_names,
+                                              templates,
+                                              categorize_templates,
+                                              categorize_predictions,
+                                              print_stats)
 
 # plot
 visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2file_name2props)
+visualizer.make_barplot(prediction_categories, template2group_name2props)

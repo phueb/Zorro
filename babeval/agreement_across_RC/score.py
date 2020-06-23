@@ -82,7 +82,7 @@ def print_stats(sentences):
 
 
 # score
-template2file_name2props = score_predictions(prediction_file_names,
+template2group_name2props = score_predictions(prediction_file_names,
                                              templates,
                                              categorize_templates,
                                              categorize_predictions,
@@ -90,4 +90,4 @@ template2file_name2props = score_predictions(prediction_file_names,
 
 # plot
 visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2file_name2props)
+visualizer.make_barplot(prediction_categories, template2group_name2props)
