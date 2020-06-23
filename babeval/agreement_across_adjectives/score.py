@@ -14,13 +14,12 @@ from pathlib import Path
 
 from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
+from babeval.io import get_group2predictions_file_paths
 
-group2sentence_file_names = {'no_srl': ['probing_agreement_across_adjectives_results_100000_no_srl_0.txt',
-                                        'probing_agreement_across_adjectives_results_100000_no_srl_1.txt'],
-                             'with_srl':
-                                 ['probing_agreement_across_adjectives_results_100000_with_srl_0.txt',
-                                  'probing_agreement_across_adjectives_results_100000_with_srl_0.txt',
-                                  ]}
+DUMMY = True
+
+task_name = Path(__file__).parent.name
+group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
 
 start_words_singular = ["this", "that"]
 start_words_plural = ["these", "those"]
@@ -133,7 +132,7 @@ def print_stats(sentences):
 
 
 # score
-template2group_name2props = score_predictions(group2sentence_file_names,
+template2group_name2props = score_predictions(group2predictions_file_paths,
                                               templates,
                                               categorize_templates,
                                               categorize_predictions,

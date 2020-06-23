@@ -1,15 +1,13 @@
-# the corn that they like [MASK] sixth .
-# the noise that you like [MASK] far .
-
-# Same as agreement_across_PP except for prediction_file_name
+from pathlib import Path
 
 from babeval.visualizer import Visualizer
-from babeval.scoring import score_prediction
+from babeval.scoring import score_predictions
+from babeval.io import get_group2predictions_file_paths
 
-prediction_file_names = [
- 'probing_agreement_across_RC_results_80000_with_srl.txt',
- 'probing_agreement_across_RC_results_80000_no_srl.txt'
-]
+DUMMY = False
+
+task_name = Path(__file__).parent.name
+group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
 
 copulas_singular = ["is", "'s"]
 copulas_plural = ["are", "'re"]
@@ -82,12 +80,11 @@ def print_stats(sentences):
 
 
 # score
-template2group_name2props = score_predictions(prediction_file_names,
-                                             templates,
-                                             categorize_templates,
-                                             categorize_predictions,
-                                             print_stats)
-
+template2group_name2props = score_predictions(group2predictions_file_paths,
+                                              templates,
+                                              categorize_templates,
+                                              categorize_predictions,
+                                              print_stats)
 # plot
 visualizer = Visualizer()
 visualizer.make_barplot(prediction_categories, template2group_name2props)

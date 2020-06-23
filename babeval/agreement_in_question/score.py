@@ -1,20 +1,24 @@
-# where [MASK] the afternoon go ? do/does
-# where [MASK] the alouette ? is/are
+"""
+Example sentences in task:
+where [MASK] the afternoon go ? do/does
+where [MASK] the alouette ? is/are
 
-# [UNK]: BERT gives [UNK] as prediction to [MASK]
-# Correct Verb: number agreement between [MASK] and targeted noun
-# Incorrect Verb: number disagreement between [MASK] and targeted noun
-# Non-verb: prediction given by BERT is not in targeted verb
-
+Predictions are categorized as follows:
+[UNK]: BERT gives [UNK] as prediction to [MASK]
+Correct Verb: number agreement between [MASK] and targeted noun
+Incorrect Verb: number disagreement between [MASK] and targeted noun
+Non-verb: prediction given by BERT is not in targeted verb
+"""
 from pathlib import Path
 
 from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
+from babeval.io import get_group2predictions_file_paths
 
-prediction_file_names = [
-    'probing_agreement_in_question_results_80000_with_srl.txt',
-    'probing_agreement_in_question_results_80000_no_srl.txt'
-]
+DUMMY = False
+
+task_name = Path(__file__).parent.name
+group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
 
 subjective_copula_singular = ["does", "is", "'s"]
 subjective_copula_plural = ["do", "are", "'re"]
@@ -92,6 +96,7 @@ def categorize_predictions(test_sentence_list):
 
     return res
 
+
 def print_stats(sentences):
     num_singular = 0
     num_plural = 0
@@ -111,11 +116,11 @@ def print_stats(sentences):
 
 
 # score
-template2group_name2props = score_predictions(prediction_file_names,
-                                             templates,
-                                             categorize_templates,
-                                             categorize_predictions,
-                                             print_stats)
+template2group_name2props = score_predictions(group2predictions_file_paths,
+                                              templates,
+                                              categorize_templates,
+                                              categorize_predictions,
+                                              print_stats)
 
 # plot
 visualizer = Visualizer()

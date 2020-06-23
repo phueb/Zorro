@@ -1,21 +1,19 @@
 import numpy as np
-from pathlib import Path
 
 from babeval.vocab import get_vocab, get_frequency
 
 
 class Reader:
-    def __init__(self, predictions_file_name):
+    def __init__(self, predictions_file_path):
 
-        self.predictions_file_name = predictions_file_name
+        self.predictions_file_path = predictions_file_path
         self.col1, self.col2 = self.get_columns()
 
         self.bert_predictions = self.get_bert_predictions()
         self.rand_predictions = self.get_random_predictions()
 
     def get_columns(self):
-        path = Path(__file__).parent.parent / 'prediction_files' / self.predictions_file_name
-        lines = path.open().readlines()
+        lines = self.predictions_file_path.open().readlines()
 
         col1 = [[]]
         col2 = [[]]
