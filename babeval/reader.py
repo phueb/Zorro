@@ -7,10 +7,10 @@ class Reader:
     def __init__(self, predictions_file_path):
 
         self.predictions_file_path = predictions_file_path
-        self.col1, self.col2 = self.get_columns()
+        self.sentences_in, self.sentences_out = self.get_columns()
+        self.sentences_out_random_control = self.get_sentences_out_random_control()
 
-        self.bert_predictions = self.get_bert_predictions()
-        self.rand_predictions = self.get_random_predictions()
+        print(f'Found {len(self.sentences_out)} lines in file.')
 
     def get_columns(self):
         lines = self.predictions_file_path.open().readlines()
@@ -33,22 +33,22 @@ class Reader:
 
         return col1, col2
 
-    def get_bert_predictions(self):
-
-        result = self.col2
-        return result
-
-    def get_random_predictions(self):
+    def get_sentences_out_random_control(self, not_sampled=None):
+        """
+        :param not_sampled: st, a word that should not be sampled from vocabulary
+        :return: list of test sentences with MASK symbol replaced with random word from vocab
+         sampled based on frequency in corpus
+        """
         vocab = get_vocab()
         freq = get_frequency()
-        freq[vocab.index('.')] = 0  # tell random sampler to never sample a period
+        if not_sampled is not None:
+            freq[vocab.index(not_sampled)] = 0  # tell random sampler to never sample something
         weights = np.array(freq) / sum(freq)
 
         result = []
-        for s in self.col1:
-            for n, w in enumerate(s):
-                if w == '[MASK]':
-                    s[n] = np.random.choice(vocab, p=weights)
-            result.append(s)
+        for s in self.sentences_in:
+            assert '[MASK]' in s, s
+            s_new = [np.random.choice(vocab, p=weights) if w == '[MASK]' else w for w in s]
+            result.append(s_new)
 
         return result

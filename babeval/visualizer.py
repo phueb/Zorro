@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 class Visualizer:
     def __init__(self, dpi=192):
         self.dpi = dpi
+        self.figsize = (10, 10)
 
     def make_barplot(self, x_tick_labels, template2group_name2props):
 
@@ -12,7 +13,8 @@ class Visualizer:
         width = 0.2
 
         num_axes = len(template2group_name2props)
-        fig, axs = plt.subplots(num_axes, sharex='all', sharey='all', dpi=self.dpi)
+        fig, axs = plt.subplots(num_axes, sharex='all', sharey='all',
+                                dpi=self.dpi, figsize=self.figsize)
         if num_axes == 1:
             # make axes iterable when there is only one axis only
             axs = [axs]
@@ -21,6 +23,7 @@ class Visualizer:
             ax.set_xticks(x + width)
             ax.set_xticklabels(x_tick_labels)
             ax.set_ylabel('Proportion')
+            ax.axhline(y=0.5, linestyle=':', color='grey')
 
             file_name2props = template2group_name2props[ax_title]
             num_models = len(file_name2props)
@@ -34,6 +37,10 @@ class Visualizer:
                 print(f'Plotting avg={avg}')
                 print(f'Plotting std={std}')
                 print()
+
+                for i in range(std.shape[-1]):
+                    if std[i] > avg[i]:
+                        std[i] = avg[i]  # prevents space between bars and x-axis in figure
 
                 ax.bar(x + edge, avg, width, yerr=std, color=color, label=file_name)
                 ax.set_title(ax_title, fontweight="bold", size=8)

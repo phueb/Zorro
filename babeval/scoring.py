@@ -3,11 +3,11 @@ import numpy as np
 from babeval.reader import Reader
 
 
-def score_predictions(group2predictions_file_paths, templates, categorize_templates, categorize_predictions, print_stats):
+def score_predictions(group2predictions_file_paths, templates, categorize_by_template, categorize_predictions, print_stats):
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param templates: list of names for templates, one for each subplot
-    :param categorize_templates: function for separating sentences by template
+    :param categorize_by_template: function for separating sentences by template
     :param categorize_predictions: function for scoring
     :param print_stats: function to print basic information about sentences (optional)
     :return: double-embedded dict, which can be input to barplot function
@@ -37,16 +37,19 @@ def score_predictions(group2predictions_file_paths, templates, categorize_templa
             for row_id, predictions_file_path in enumerate(predictions_file_paths):
                 print(predictions_file_path)
 
+                # read test sentences file with input and output in column1 and column 2 respectively
                 if group_name.endswith(control_name):
-
                     reader = Reader(predictions_file_path)
-                    print_stats(reader.rand_predictions)
-                    template2sentences = categorize_templates(reader.rand_predictions)
+                    print_stats(reader.sentences_out_random_control)
+                    template2sentences = categorize_by_template(reader.sentences_in,
+                                                                reader.sentences_out_random_control)
                 else:
                     reader = Reader(predictions_file_path)
-                    print_stats(reader.bert_predictions)
-                    template2sentences = categorize_templates(reader.bert_predictions)
+                    print_stats(reader.sentences_out)
+                    template2sentences = categorize_by_template(reader.sentences_in,
+                                                                reader.sentences_out)
 
+                # organize by sentence template
                 category2sentences = categorize_predictions(template2sentences[template])
 
                 # calc proportion and store in matrix

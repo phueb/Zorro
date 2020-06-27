@@ -34,12 +34,11 @@ for w in nouns_plural:
     assert w not in nouns_singular
 
 
-def categorize_templates(test_sentence_list):
+def categorize_by_template(sentences_in, sentences_out):
 
     res = {}
-
-    for sentence in test_sentence_list:
-        res.setdefault(templates[0], []).append(sentence)
+    for s1, s2 in zip(sentences_in, sentences_out):
+        res.setdefault(templates[0], []).append(s2)
     return res
 
 
@@ -82,7 +81,7 @@ def print_stats(sentences):
 # score
 template2group_name2props = score_predictions(group2predictions_file_paths,
                                               templates,
-                                              categorize_templates,
+                                              categorize_by_template,
                                               categorize_predictions,
                                               print_stats)
 # plot

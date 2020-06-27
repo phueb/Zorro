@@ -46,20 +46,23 @@ for w in nouns_plural:
     assert w not in nouns_singular
 
 
-def categorize_templates(test_sentence_list):
-    # differentiate sentences with or without "go"
+def categorize_by_template(sentences_in, sentences_out):
+    """
+    differentiate sentences with or without "go"
+    :param sentences_in:
+    :param sentences_out:
+    :return:
+    """
 
     res = {}
-    go = ['go']
-
-    for sentence in test_sentence_list:
-        for w in sentence:
-            if w in go:
-                res.setdefault(templates[0], []).append(sentence)
+    for s1, s2 in zip(sentences_in, sentences_out):
+        for w in s1:
+            if w == 'go':
+                res.setdefault(templates[0], []).append(s2)
             else:
-                res.setdefault(templates[1], []).append(sentence)
-
-        # break  # exit inner for loop
+                res.setdefault(templates[1], []).append(s2)
+        else:
+            raise RuntimeError('Failed to categorize sentence into template')
 
     return res
 
@@ -98,27 +101,12 @@ def categorize_predictions(test_sentence_list):
 
 
 def print_stats(sentences):
-    num_singular = 0
-    num_plural = 0
-    num_ambiguous = 0
-    num_total = 0
-    for s in sentences:
-        for w in s:
-            if w in nouns_list:
-                num_total += 1
-                if w in nouns_singular:
-                    num_singular += 1
-                elif w in nouns_plural:
-                    num_plural += 1
-                else:
-                    raise RuntimeError(f'{w} is neither in plural or singular or ambiguous nouns list')
-    print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
-
+    pass
 
 # score
 template2group_name2props = score_predictions(group2predictions_file_paths,
                                               templates,
-                                              categorize_templates,
+                                              categorize_by_template,
                                               categorize_predictions,
                                               print_stats)
 

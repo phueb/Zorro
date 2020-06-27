@@ -6,7 +6,7 @@ calculate 5 measures,
 2. false noun number
 3. ambiguous noun number ("sheep", "fish")
 4. non-noun
-5. [UNK] (this means "unknown", which means the model doesn't want to commit to an answer)
+5. non-start wordpiece  (e.g. ##s)
 it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) .
 And sentences with "look at ..." and without.
 """
@@ -16,31 +16,28 @@ from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 from babeval.io import get_group2predictions_file_paths
 
-DUMMY = True
+DUMMY = False
+PRINT_STATS = False
 
 task_name = Path(__file__).parent.name
 group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
 
 start_words_singular = ["this", "that"]
 start_words_plural = ["these", "those"]
-start_words = start_words_singular + start_words_plural
+start_words = set(start_words_singular + start_words_plural)
 
 templates = ['Sentence with 1 Adjective(s)',
              'Sentence with 2 Adjective(s)',
              'Sentence with 3 Adjective(s)',
              ]
 
-prediction_categories = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
+prediction_categories = ("non-start\nword-piece", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
 
 # load word lists
-with (Path().cwd() / 'nouns_annotator2.txt').open() as f:
-    nouns_list = f.read().split("\n")
-with (Path().cwd() / 'nouns_singular_annotator2.txt').open() as f:
-    nouns_singular = f.read().split("\n")
-with (Path().cwd() / 'nouns_plural_annotator2.txt').open() as f:
-    nouns_plural = f.read().split("\n")
-with (Path().cwd() / 'nouns_ambiguous_number_annotator2.txt').open() as f:
-    ambiguous_nouns = f.read().split("\n")
+nouns_list = (Path().cwd() / 'nouns_annotator2.txt').open().read().split("\n")
+nouns_singular = (Path().cwd() / 'nouns_singular_annotator2.txt').open().read().split("\n")
+nouns_plural = (Path().cwd() / 'nouns_plural_annotator2.txt').open().read().split("\n")
+ambiguous_nouns = (Path().cwd() / 'nouns_ambiguous_number_annotator2.txt').open().read().split("\n")
 
 assert '[NAME]' in nouns_singular
 
@@ -50,40 +47,38 @@ for w in nouns_singular:
 for w in nouns_plural:
     assert w not in nouns_singular
 
+nouns_plural += [n + '##s' for n in nouns_singular]  # account for wordpiece tokenization
 
-def categorize_templates(test_sentence_list):
+
+def categorize_by_template(sentences_in, sentences_out):
 
     res = {}
-    for sentence in test_sentence_list:
-        predicted_noun = sentence[-2]
-        for word in sentence:
-            if word in start_words:
-                start_word = word
-                adj = sentence[sentence.index(start_word) + 1:sentence.index(predicted_noun)]
-
-                if len(adj) == 1:  # 1 adjective
-                    res.setdefault(templates[0], []).append(sentence)
-
-                if len(adj) == 2:  # 2 adjectives
-                    res.setdefault(templates[1], []).append(sentence)
-
-                if len(adj) == 3:  # 3 adjectives
-                    res.setdefault(templates[2], []).append(sentence)
-
-                break  # exit inner for loop
+    for s1, s2 in zip(sentences_in, sentences_out):
+        try:
+            start_word = [w for w in s1 if w in start_words][0]
+        except IndexError:  # no start word
+            raise RuntimeError('Failed to categorize sentence into template')
+        else:
+            num_adjectives = len(s1[s1.index(start_word) + 1:s1.index('[MASK]')])
+            if num_adjectives == 1:  # 1 adjective
+                res.setdefault(templates[0], []).append(s2)
+            elif num_adjectives == 2:  # 2 adjectives
+                res.setdefault(templates[1], []).append(s2)
+            elif num_adjectives == 3:  # 3 adjectives
+                res.setdefault(templates[2], []).append(s2)
 
     return res
 
 
-def categorize_predictions(test_sentence_list):
+def categorize_predictions(sentences_out):
     res = {'u': [], 'c': [], 'f': [], 'a': [], 'n': []}
 
-    for sentence in test_sentence_list:
+    for sentence in sentences_out:
         predicted_word = sentence[-2]
         start_word = [w for w in sentence if w in start_words][0]
 
-        # [UNK]
-        if predicted_word == "[UNK]":
+        # non-start wordpiece
+        if predicted_word.startswith("##"):
             res['u'].append(sentence)
 
         # correct Noun Number
@@ -112,6 +107,10 @@ def categorize_predictions(test_sentence_list):
 
 
 def print_stats(sentences):
+
+    if not PRINT_STATS:
+        return
+
     num_singular = 0
     num_plural = 0
     num_ambiguous = 0
@@ -134,7 +133,7 @@ def print_stats(sentences):
 # score
 template2group_name2props = score_predictions(group2predictions_file_paths,
                                               templates,
-                                              categorize_templates,
+                                              categorize_by_template,
                                               categorize_predictions,
                                               print_stats)
 

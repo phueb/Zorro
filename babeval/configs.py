@@ -12,4 +12,4 @@ class Dirs:
 
 
 class Eval:
-    step = 100_000
+    step = 200_000
