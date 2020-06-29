@@ -32,11 +32,10 @@ with open(out_path, 'w') as f:
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
 
-raise SystemExit
 
 # agreement_in_question
 out_path = output_folder / 'agreement_in_question.txt'
 with open(out_path, 'w') as f:
-    for n, sentence in enumerate(generate_agreement_in_question(nouns)):
+    for n, sentence in enumerate(generate_agreement_in_question()):
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
