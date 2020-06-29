@@ -7,7 +7,7 @@ template = 'look at {} {} [MASK] .'
 
 start_words = ['this', 'these', 'that', 'those']
 
-adjectives_list = (Path(__file__).parent / 'adjectives_annotator1.txt').open().read().split()
+adjectives_list = (Path(__file__).parent / 'word_lists' / 'adjectives_annotator1.txt').open().read().split()
 adjectives_list = [w for w in adjectives_list if w in get_vocab()]
 
 

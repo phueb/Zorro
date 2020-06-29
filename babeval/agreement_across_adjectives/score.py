@@ -17,7 +17,11 @@ from babeval.scoring import score_predictions
 from babeval.io import get_group2predictions_file_paths
 
 DUMMY = False
-PRINT_STATS = False
+PRINT_STATS = True
+CONDITION = 'google_vocab_rule'
+
+if DUMMY:
+    CONDITION = None
 
 task_name = Path(__file__).parent.name
 group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
@@ -39,14 +43,13 @@ nouns_singular = (Path().cwd() / 'nouns_singular_annotator2.txt').open().read().
 nouns_plural = (Path().cwd() / 'nouns_plural_annotator2.txt').open().read().split("\n")
 ambiguous_nouns = (Path().cwd() / 'nouns_ambiguous_number_annotator2.txt').open().read().split("\n")
 
-assert '[NAME]' in nouns_singular
-
+# check for list overlap
 for w in nouns_singular:
     assert w not in nouns_plural
-
 for w in nouns_plural:
     assert w not in nouns_singular
 
+nouns_singular += ['one', '[NAME]']
 nouns_plural += [n + '##s' for n in nouns_singular]  # account for wordpiece tokenization
 
 
@@ -139,4 +142,4 @@ template2group_name2props = score_predictions(group2predictions_file_paths,
 
 # plot
 visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2group_name2props)
+visualizer.make_barplot(prediction_categories, template2group_name2props, CONDITION)

@@ -12,4 +12,5 @@ class Dirs:
 
 
 class Eval:
-    step = 200_000
+    step = 180_000
+    param_names = ['param_001', 'param_002', 'param_003']

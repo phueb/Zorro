@@ -72,7 +72,7 @@ def classify_vocab(vocab):
 
 
 def save_to_txt(words, file_name):
-    output_folder = Path(__file__).parent.parent / "word_lists"
+    output_folder = Path(__file__).parent.parent / "nltk_results"
     out_path = output_folder / file_name
     with open(out_path, 'w') as f:
         for n, w in enumerate(words):

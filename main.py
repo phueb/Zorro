@@ -24,14 +24,15 @@ with open(out_path, 'w') as f:
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
 
-raise SystemExit
 
 # agreement_across_RC
 out_path = output_folder / 'agreement_across_RC.txt'
 with open(out_path, 'w') as f:
-    for n, sentence in enumerate(generate_agreement_across_rc(nouns, pronouns, adjectives, pronouns_3p)):
+    for n, sentence in enumerate(generate_agreement_across_rc()):
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
+
+raise SystemExit
 
 # agreement_in_question
 out_path = output_folder / 'agreement_in_question.txt'
