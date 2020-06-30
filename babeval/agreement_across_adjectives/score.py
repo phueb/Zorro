@@ -38,10 +38,10 @@ templates = ['Sentence with 1 Adjective(s)',
 prediction_categories = ("non-start\nword-piece", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
 
 # load word lists
-nouns_list = (Path().cwd() / 'nouns_annotator2.txt').open().read().split("\n")
-nouns_singular = (Path().cwd() / 'nouns_singular_annotator2.txt').open().read().split("\n")
-nouns_plural = (Path().cwd() / 'nouns_plural_annotator2.txt').open().read().split("\n")
-ambiguous_nouns = (Path().cwd() / 'nouns_ambiguous_number_annotator2.txt').open().read().split("\n")
+nouns_list = (Path(__file__).parent / 'word_lists' / 'nouns_annotator2.txt').open().read().split("\n")
+nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split("\n")
+nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split("\n")
+ambiguous_nouns = (Path(__file__).parent / 'word_lists' / 'nouns_ambiguous_number_annotator2.txt').open().read().split("\n")
 
 # check for list overlap
 for w in nouns_singular:

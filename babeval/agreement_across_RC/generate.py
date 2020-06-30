@@ -3,7 +3,8 @@ from pathlib import Path
 
 from babeval.vocab import get_vocab
 
-NUM_NOUNS_FROM_EACH_LIST = 400  # there are only 414 plurals
+NUM_NOUNS_FROM_EACH_LIST = 50  # there are 414 plurals
+NUM_ADJECTIVES = 10
 
 template1 = 'the {} that {} like [MASK] {} .'
 template2 = 'the {} that {} likes [MASK] {} .'
@@ -33,12 +34,14 @@ def main():
     nouns_balanced = random.sample(nouns_singular, k=NUM_NOUNS_FROM_EACH_LIST) + \
                      random.sample(nouns_plural, k=NUM_NOUNS_FROM_EACH_LIST)
 
+    adjectives_sample = random.sample(adjectives, k=NUM_ADJECTIVES)
+
     for noun in nouns_balanced:
         for pronoun in pronouns_1p_2p:
-            for adjective in adjectives:
+            for adjective in adjectives_sample:
                 yield template1.format(noun, pronoun, adjective)
 
     for noun in nouns_balanced:
         for pronoun in pronouns_3p:
-            for adjective in adjectives:
+            for adjective in adjectives_sample:
                 yield template2.format(noun, pronoun, adjective)

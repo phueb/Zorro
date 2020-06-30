@@ -30,11 +30,11 @@ templates = ['Sentence with go',
 prediction_categories = ("[UNK]", "correct\nverb", "false\nverb", "non-verb")
 
 # load word lists
-with (Path().cwd() / 'nouns_annotator2.txt').open() as f:
+with (Path(__file__).parent / 'word_lists' / 'nouns_annotator2.txt').open() as f:
     nouns_list = f.read().split("\n")
-with (Path().cwd() / 'nouns_singular_annotator2.txt').open() as f:
+with (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open() as f:
     nouns_singular = f.read().split("\n")
-with (Path().cwd() / 'nouns_plural_annotator2.txt').open() as f:
+with (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open() as f:
     nouns_plural = f.read().split("\n")
 
 assert '[NAME]' in nouns_singular
