@@ -13,7 +13,8 @@ mpl.rcParams['axes.spines.top'] = False
 class Visualizer:
     def __init__(self, dpi=192):
         self.dpi = dpi
-        self.figsize = (10, 10)
+        self.figsize = (8, 8)
+        self.ax_title_size = 10
 
     @staticmethod
     def get_legend_name(param_name, key):
@@ -31,8 +32,12 @@ class Visualizer:
     def make_barplot(self,
                      x_tick_labels: Tuple,
                      template2group_name2props: Dict[str, Dict[str, np.array]],
+                     task_name: Optional[str] = None,
                      condition: Optional[str] = None,
                      verbose: bool = False):
+
+        if condition is None:
+            condition = configs.Eval.condition
 
         x = np.arange(len(x_tick_labels))
         width = 0.2
@@ -49,6 +54,8 @@ class Visualizer:
             ax.set_xticklabels(x_tick_labels)
             ax.set_ylabel('Proportion')
             ax.axhline(y=0.5, linestyle=':', color='grey')
+            ax.set_title(f'{task_name}: {ax_title}' if task_name else ax_title,
+                         fontweight="bold", size=self.ax_title_size)
 
             group_name2props = template2group_name2props[ax_title]
             num_models = len(group_name2props)
@@ -75,11 +82,10 @@ class Visualizer:
                        width,
                        yerr=std,
                        color=color,
-                       label=self.get_legend_name(group_name, condition))
-                ax.set_title(ax_title, fontweight="bold", size=8)
+                       label=self.get_legend_name(group_name, condition) if condition else group_name)
 
         # legend
-        plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.2), loc='upper left', frameon=False)
+        plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.4), loc='upper left', frameon=False)
 
         # Hide x labels and tick labels for all but bottom plot.
         for ax in axs:

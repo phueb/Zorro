@@ -11,39 +11,36 @@ Non-verb: prediction given by BERT is not in targeted verb
 """
 from pathlib import Path
 
-from babeval.visualizer import Visualizer
 from babeval.scoring import score_predictions
 from babeval.io import get_group2predictions_file_paths
 
-DUMMY = False
 
 task_name = Path(__file__).parent.name
-group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
+group2predictions_file_paths = get_group2predictions_file_paths(task_name)
 
 subjective_copula_singular = ["does", "is", "'s"]
 subjective_copula_plural = ["do", "are", "'re"]
 
-templates = ['Sentence with go',
-             'Sentence without go',
+templates = ['main verb',
+             'auxiliary verb',
              ]
 
-prediction_categories = ("[UNK]", "correct\nverb", "false\nverb", "non-verb")
+prediction_categories = ("non-start\nword-piece\nor\n[UNK]", "correct\nverb", "false\nverb", "non-verb")
 
 # load word lists
-with (Path(__file__).parent / 'word_lists' / 'nouns_annotator2.txt').open() as f:
-    nouns_list = f.read().split("\n")
-with (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open() as f:
-    nouns_singular = f.read().split("\n")
-with (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open() as f:
-    nouns_plural = f.read().split("\n")
+nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split("\n")
+nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split("\n")
 
-assert '[NAME]' in nouns_singular
-
+# check for list overlap
 for w in nouns_singular:
     assert w not in nouns_plural
-
 for w in nouns_plural:
     assert w not in nouns_singular
+
+nouns_singular += ['one', '[NAME]']
+
+nouns_plural = set(nouns_plural)
+nouns_singular = set(nouns_singular)
 
 
 def categorize_by_template(sentences_in, sentences_out):
@@ -56,46 +53,41 @@ def categorize_by_template(sentences_in, sentences_out):
 
     res = {}
     for s1, s2 in zip(sentences_in, sentences_out):
-        for w in s1:
-            if w == 'go':
-                res.setdefault(templates[0], []).append(s2)
-            else:
-                res.setdefault(templates[1], []).append(s2)
+        if set(s1).intersection(['go', 'do']):
+            res.setdefault(templates[0], []).append(s2)
         else:
-            raise RuntimeError('Failed to categorize sentence into template')
+            res.setdefault(templates[1], []).append(s2)
 
     return res
 
 
-def categorize_predictions(test_sentence_list):
-    res = {}
+def categorize_predictions(sentences_out):
+    res = {'u': 0, 'c': 0, 'f': 0, 'n': 0}
 
-    for sentence in test_sentence_list:
-        predicted_verb = sentence[1] #[MASK]
-        targeted_noun = sentence[3] #noun from test sentence
-        res = {'u': [], 'c': [], 'f': [], 'n': []}
+    for sentence in sentences_out:
+        predicted_word = sentence[1]
+        targeted_noun = sentence[3]
 
         # [UNK]
-        if predicted_verb == "[UNK]":
-            res['u'].append(sentence)
+        if predicted_word.startswith('##') or predicted_word == "[UNK]":
+            res['u'] += 1
 
-        # correct Noun Number
-        elif targeted_noun in nouns_plural and predicted_verb in subjective_copula_plural:
-            res['c'].append(sentence)
+        # correct
+        elif targeted_noun in nouns_plural and predicted_word in subjective_copula_plural:
+            res['c'] += 1
 
-        elif targeted_noun in nouns_singular and predicted_verb in subjective_copula_singular:
-            res['c'].append(sentence)
+        elif targeted_noun in nouns_singular and predicted_word in subjective_copula_singular:
+            res['c'] += 1
 
-        # false Noun Number
-        elif targeted_noun in nouns_plural and predicted_verb in subjective_copula_singular:
-            res['f'].append(sentence)
+        # false
+        elif targeted_noun in nouns_plural and predicted_word in subjective_copula_singular:
+            res['f'] += 1
 
-        elif targeted_noun in nouns_singular and predicted_verb in subjective_copula_plural:
-            res['f'].append(sentence)
+        elif targeted_noun in nouns_singular and predicted_word in subjective_copula_plural:
+            res['f'] += 1
 
-        # Non_Noun
         else:
-            res['n'].append(sentence)
+            res['n'] += 1
 
     return res
 
@@ -103,13 +95,10 @@ def categorize_predictions(test_sentence_list):
 def print_stats(sentences):
     pass
 
+
 # score
 template2group_name2props = score_predictions(group2predictions_file_paths,
                                               templates,
                                               categorize_by_template,
                                               categorize_predictions,
                                               print_stats)
-
-# plot
-visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2group_name2props)

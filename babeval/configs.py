@@ -12,5 +12,8 @@ class Dirs:
 
 
 class Eval:
+    dummy = False  # use files containing dummy predictions not on lab server
     step = 180_000
-    param_names = ['param_001', 'param_002', 'param_003']
+    param_names = ['param_002', 'param_004']
+    condition = 'srl_interleaved'
+    max_reps = 100

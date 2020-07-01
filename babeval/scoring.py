@@ -60,15 +60,15 @@ def score_predictions(group2predictions_file_paths: Dict[str, List[str]],
                                                                 reader.sentences_out)
 
                 # organize by sentence template
-                category2sentences = categorize_predictions(template2sentences[template])
+                category2num_in_category = categorize_predictions(template2sentences[template])
 
                 # calc proportion and store in matrix
-                for col_id, (category, sentences) in enumerate(category2sentences.items()):
-                    prop = len(sentences) / len(template2sentences[template])
+                for col_id, (category, num_in_category) in enumerate(category2num_in_category.items()):
+                    prop = num_in_category / len(template2sentences[template])
                     # initialize matrix for storing proportions
                     if template2group_name2props[template][group_name] is None:
                         num_rows = len(predictions_file_paths)
-                        num_cols = len(category2sentences)
+                        num_cols = len(category2num_in_category)
                         template2group_name2props[template][group_name] = np.zeros((num_rows, num_cols))
                     # populate matrix
                     template2group_name2props[template][group_name][row_id][col_id] = prop
