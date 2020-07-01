@@ -1,4 +1,4 @@
-from typing import Dict, List, Callable
+from typing import Dict, List, Callable, Tuple
 import numpy as np
 
 from babeval.reader import Reader
@@ -6,12 +6,14 @@ from babeval.reader import Reader
 
 def score_predictions(group2predictions_file_paths: Dict[str, List[str]],
                       templates: List[str],
+                      prediction_categories: Tuple,
                       categorize_by_template: Callable,
                       categorize_predictions: Callable,
                       print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param templates: list of names for templates, one for each subplot
+    :param prediction_categories: categories for classifying productions made by model
     :param categorize_by_template: function for separating sentences by template
     :param categorize_predictions: function for scoring
     :param print_stats: function to print basic information about sentences (optional)
@@ -63,8 +65,8 @@ def score_predictions(group2predictions_file_paths: Dict[str, List[str]],
                 category2num_in_category = categorize_predictions(template2sentences[template])
 
                 # calc proportion and store in matrix
-                for col_id, (category, num_in_category) in enumerate(category2num_in_category.items()):
-                    prop = num_in_category / len(template2sentences[template])
+                for col_id, category in enumerate(prediction_categories):
+                    prop = category2num_in_category[category] / len(template2sentences[template])
                     # initialize matrix for storing proportions
                     if template2group_name2props[template][group_name] is None:
                         num_rows = len(predictions_file_paths)

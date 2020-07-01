@@ -4,8 +4,8 @@ from babeval import configs
 def get_group2predictions_file_paths(task_name):
     # get prediction file paths from this repository (dummies)
     if configs.Eval.dummy:
-        group2pattern = {g: f'probing_{task_name}_results_{configs.Eval.step}_{g}_*.txt'
-                         for g in ['with_srl', 'no_srl']}
+        group2pattern = {g: f'probing_{task_name}_results_{configs.Eval.step}_{g}*.txt'
+                         for g in ['dummy0', 'dummy1']}
         group2predictions_file_paths = {g: [p for p in configs.Dirs.dummy_predictions.glob(pattern)]
                                         for g, pattern in group2pattern.items()}
 

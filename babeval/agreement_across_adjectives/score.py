@@ -1,14 +1,5 @@
 """
-Score predictions made by BERT.
-calculate 5 measures,
- each quantifying the proportion of model-predictions that correspond to a particular kind of answer:
-1. correct noun number
-2. false noun number
-3. ambiguous noun number ("sheep", "fish")
-4. non-noun
-5. non-start wordpiece  (e.g. ##s)
-it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) .
-And sentences with "look at ..." and without.
+Score predictions made by BERT on agreement across adjectives task.
 """
 from pathlib import Path
 
@@ -29,11 +20,14 @@ templates = ['1 Adjective(s)',
              '3 Adjective(s)',
              ]
 
-prediction_categories = ("non-start\nword-piece\nor\n[UNK]",
-                         "noun +\ncorrect number",
-                         "noun +\nfalse number",
-                         "ambiguous\nnoun",
-                         "non-noun")
+prediction_categories = (
+    "noun +\ncorrect number",
+    "noun +\nfalse number",
+    "noun +\n ambiguous number",
+    "noun\nproper",
+    "non-start\nword-piece\nor\n[UNK]",
+    "non-noun",
+)
 
 # load word lists
 nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split("\n")
@@ -46,7 +40,13 @@ for w in nouns_singular:
 for w in nouns_plural:
     assert w not in nouns_singular
 
-nouns_singular += ['one', '[NAME]']
+nouns_singular += ['one']
+
+# move proper nouns to separate set
+nouns_proper = set([n for n in nouns_singular if n.istitle()])
+nouns_proper.add('[NAME]')
+nouns_singular = [n for n in nouns_singular if n not in nouns_proper]
+
 
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
@@ -74,7 +74,7 @@ def categorize_by_template(sentences_in, sentences_out):
 
 
 def categorize_predictions(sentences_out):
-    res = {'u': 0, 'c': 0, 'f': 0, 'a': 0, 'n': 0}
+    res = {k: 0 for k in prediction_categories}
 
     # TODO: score correct when start word is plural and predicted ##s turns a preceding word into a plural noun
 
@@ -84,29 +84,33 @@ def categorize_predictions(sentences_out):
 
         # non-start wordpiece
         if predicted_word.startswith("##") or predicted_word == '[UNK]':
-            res['u'] += 1
+            res["non-start\nword-piece\nor\n[UNK]"] += 1
+
+        # proper noun
+        if predicted_word in nouns_proper:
+            res["noun\nproper"] += 1
 
         # correct Noun Number
         elif predicted_word in nouns_plural and start_word in start_words_plural:
-            res['c'] += 1
+            res["noun +\ncorrect number"] += 1
 
         elif predicted_word in nouns_singular and start_word in start_words_singular:
-            res['c'] += 1
+            res["noun +\ncorrect number"] += 1
 
         # false Noun Number
         elif predicted_word in nouns_plural and start_word in start_words_singular:
-            res['f'] += 1
+            res["noun +\nfalse number"] += 1
 
         elif predicted_word in nouns_singular and start_word in start_words_plural:
-            res['f'] += 1
+            res["noun +\nfalse number"] += 1
 
         # Ambiguous Noun
         elif predicted_word in nouns_ambiguous:
-            res['a'] += 1
+            res["noun +\n ambiguous number"] += 1
 
         # Non_Noun
         else:
-            res['n'] += 1
+            res["non-noun"] += 1
 
     return res
 
@@ -137,6 +141,7 @@ def print_stats(sentences):
 # score
 template2group_name2props = score_predictions(group2predictions_file_paths,
                                               templates,
+                                              prediction_categories,
                                               categorize_by_template,
                                               categorize_predictions,
                                               print_stats)

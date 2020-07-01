@@ -25,7 +25,12 @@ templates = ['main verb',
              'auxiliary verb',
              ]
 
-prediction_categories = ("non-start\nword-piece\nor\n[UNK]", "correct\nverb", "false\nverb", "non-verb")
+prediction_categories = (
+    "non-start\nword-piece\nor\n[UNK]",
+    "correct\nverb",
+    "false\nverb",
+    "non-verb",
+)
 
 # load word lists
 nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split("\n")
@@ -62,7 +67,7 @@ def categorize_by_template(sentences_in, sentences_out):
 
 
 def categorize_predictions(sentences_out):
-    res = {'u': 0, 'c': 0, 'f': 0, 'n': 0}
+    res = {k: 0 for k in prediction_categories}
 
     for sentence in sentences_out:
         predicted_word = sentence[1]
@@ -70,24 +75,24 @@ def categorize_predictions(sentences_out):
 
         # [UNK]
         if predicted_word.startswith('##') or predicted_word == "[UNK]":
-            res['u'] += 1
+            res["non-start\nword-piece\nor\n[UNK]"] += 1
 
         # correct
         elif targeted_noun in nouns_plural and predicted_word in subjective_copula_plural:
-            res['c'] += 1
+            res["correct\nverb"] += 1
 
         elif targeted_noun in nouns_singular and predicted_word in subjective_copula_singular:
-            res['c'] += 1
+            res["correct\nverb"] += 1
 
         # false
         elif targeted_noun in nouns_plural and predicted_word in subjective_copula_singular:
-            res['f'] += 1
+            res["false\nverb"] += 1
 
         elif targeted_noun in nouns_singular and predicted_word in subjective_copula_plural:
-            res['f'] += 1
+            res["false\nverb"] += 1
 
         else:
-            res['n'] += 1
+            res["non-verb"] += 1
 
     return res
 
@@ -99,6 +104,7 @@ def print_stats(sentences):
 # score
 template2group_name2props = score_predictions(group2predictions_file_paths,
                                               templates,
+                                              prediction_categories,
                                               categorize_by_template,
                                               categorize_predictions,
                                               print_stats)

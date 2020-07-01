@@ -19,7 +19,13 @@ class Visualizer:
     @staticmethod
     def get_legend_name(param_name, key):
 
+        if key is None:
+            return param_name
+
         if 'control' in param_name:
+            return param_name
+
+        if 'dummy' in param_name:
             return param_name
 
         path = configs.Dirs.predictions / param_name / 'param2val.yaml'
@@ -82,7 +88,7 @@ class Visualizer:
                        width,
                        yerr=std,
                        color=color,
-                       label=self.get_legend_name(group_name, condition) if condition else group_name)
+                       label=self.get_legend_name(group_name, condition))
 
         # legend
         plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.4), loc='upper left', frameon=False)
