@@ -11,7 +11,7 @@ Non-verb: prediction given by BERT is not in targeted verb
 """
 from pathlib import Path
 
-from babeval.scoring import score_predictions
+from babeval.prepare import prepare_data_for_plotting
 from babeval.io import get_group2predictions_file_paths
 
 
@@ -99,12 +99,3 @@ def categorize_predictions(sentences_out):
 
 def print_stats(sentences):
     pass
-
-
-# score
-template2group_name2props = score_predictions(group2predictions_file_paths,
-                                              templates,
-                                              prediction_categories,
-                                              categorize_by_template,
-                                              categorize_predictions,
-                                              print_stats)

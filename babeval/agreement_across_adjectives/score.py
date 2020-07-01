@@ -3,7 +3,6 @@ Score predictions made by BERT on agreement across adjectives task.
 """
 from pathlib import Path
 
-from babeval.scoring import score_predictions
 from babeval.io import get_group2predictions_file_paths
 
 PRINT_STATS = False
@@ -138,10 +137,4 @@ def print_stats(sentences):
     print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
 
 
-# score
-template2group_name2props = score_predictions(group2predictions_file_paths,
-                                              templates,
-                                              prediction_categories,
-                                              categorize_by_template,
-                                              categorize_predictions,
-                                              print_stats)
+

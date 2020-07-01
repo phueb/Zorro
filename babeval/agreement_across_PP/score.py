@@ -6,7 +6,7 @@
 """
 from pathlib import Path
 
-from babeval.scoring import score_predictions
+from babeval.prepare import prepare_data_for_plotting
 from babeval.io import get_group2predictions_file_paths
 
 task_name = Path(__file__).parent.name
@@ -82,12 +82,3 @@ def categorize_predictions(test_sentence_list):
 
 def print_stats(sentences):
     print('Done')
-
-
-# score
-template2group_name2props = score_predictions(group2predictions_file_paths,
-                                              templates,
-                                              prediction_categories,
-                                              categorize_by_template,
-                                              categorize_predictions,
-                                              print_stats)

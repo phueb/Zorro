@@ -4,12 +4,12 @@ import numpy as np
 from babeval.reader import Reader
 
 
-def score_predictions(group2predictions_file_paths: Dict[str, List[str]],
-                      templates: List[str],
-                      prediction_categories: Tuple,
-                      categorize_by_template: Callable,
-                      categorize_predictions: Callable,
-                      print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
+def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[str]],
+                              templates: List[str],
+                              prediction_categories: Tuple,
+                              categorize_by_template: Callable,
+                              categorize_predictions: Callable,
+                              print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param templates: list of names for templates, one for each subplot
