@@ -7,9 +7,6 @@ class Dirs:
     predictions = Path('/') / 'media' / 'research_data' / 'BabyBertSRL' / 'runs'
     dummy_predictions = root / 'prediction_files'
 
-    assert predictions.is_dir()
-    assert dummy_predictions.is_dir()
-
 
 class Eval:
     dummy = False  # use files containing dummy predictions not on lab server

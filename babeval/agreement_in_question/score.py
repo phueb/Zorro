@@ -10,8 +10,8 @@ Incorrect Verb: number disagreement between [MASK] and targeted noun
 Non-verb: prediction given by BERT is not in targeted verb
 """
 from pathlib import Path
+from typing import List
 
-from babeval.prepare import prepare_data_for_plotting
 from babeval.io import get_group2predictions_file_paths
 
 
@@ -47,8 +47,10 @@ nouns_singular += ['one', '[NAME]']
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
 
+mask_index = 1
 
-def categorize_by_template(sentences_in, sentences_out):
+
+def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
     """
     differentiate sentences with or without "go"
     :param sentences_in:
@@ -66,11 +68,11 @@ def categorize_by_template(sentences_in, sentences_out):
     return res
 
 
-def categorize_predictions(sentences_out):
+def categorize_predictions(sentences_out: List[List[str]]):
     res = {k: 0 for k in prediction_categories}
 
     for sentence in sentences_out:
-        predicted_word = sentence[1]
+        predicted_word = sentence[mask_index]
         targeted_noun = sentence[3]
 
         # [UNK]

@@ -9,6 +9,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[str]]
                               prediction_categories: Tuple,
                               categorize_by_template: Callable,
                               categorize_predictions: Callable,
+                              mask_index: int,
                               print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
@@ -16,6 +17,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[str]]
     :param prediction_categories: categories for classifying productions made by model
     :param categorize_by_template: function for separating sentences by template
     :param categorize_predictions: function for scoring
+    :param mask_index: index of word in sentence that is predicted
     :param print_stats: function to print basic information about sentences (optional)
     :return: double-embedded dict, which can be input to barplot function
     how it works: for each group of prediction files:
@@ -62,7 +64,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[str]]
                                                                 reader.sentences_out)
 
                 # organize by sentence template
-                category2num_in_category = categorize_predictions(template2sentences[template])
+                category2num_in_category = categorize_predictions(template2sentences[template], mask_index)
 
                 # calc proportion and store in matrix
                 for col_id, category in enumerate(prediction_categories):

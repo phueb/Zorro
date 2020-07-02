@@ -2,13 +2,15 @@ import nltk
 from pathlib import Path
 from nltk.stem.wordnet import WordNetLemmatizer
 
+from babeval import configs
+
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('words')
 
 wnl = WordNetLemmatizer()
 
-excluded_words = (Path(__file__).parent / "excluded_words.txt").open().read().split()
+excluded_words = (configs.Dirs.root / 'word_lists' / "excluded_words.txt").open().read().split()
 
 VOCAB_NAME = "childes-20191206_vocab.txt"  # fixed
 VOCAB_SIZE = 4000  # fixed

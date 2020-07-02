@@ -1,6 +1,6 @@
 from pathlib import Path
+from typing import List
 
-from babeval.prepare import prepare_data_for_plotting
 from babeval.io import get_group2predictions_file_paths
 
 
@@ -35,8 +35,10 @@ nouns_singular += ['one', '[NAME]']
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
 
+mask_index = -3
 
-def categorize_by_template(sentences_in, sentences_out):
+
+def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 
     res = {}
     for s1, s2 in zip(sentences_in, sentences_out):
@@ -44,11 +46,11 @@ def categorize_by_template(sentences_in, sentences_out):
     return res
 
 
-def categorize_predictions(test_sentence_list):
+def categorize_predictions(sentences_out: List[List[str]]):
     res = {k: 0 for k in prediction_categories}
 
-    for sentence in test_sentence_list:
-        predicted_word = sentence[-3] 
+    for sentence in sentences_out:
+        predicted_word = sentence[mask_index]
         targeted_noun = sentence[1]
 
         # [UNK]

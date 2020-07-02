@@ -2,6 +2,7 @@
 Score predictions made by BERT on agreement across adjectives task.
 """
 from pathlib import Path
+from typing import List
 
 from babeval.io import get_group2predictions_file_paths
 
@@ -51,8 +52,10 @@ nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
 nouns_ambiguous = set(nouns_ambiguous)
 
+mask_index = -2  # TODO get this from Reader
 
-def categorize_by_template(sentences_in, sentences_out):
+
+def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 
     res = {}
     for s1, s2 in zip(sentences_in, sentences_out):
@@ -72,13 +75,13 @@ def categorize_by_template(sentences_in, sentences_out):
     return res
 
 
-def categorize_predictions(sentences_out):
+def categorize_predictions(sentences_out: List[List[str]]):
     res = {k: 0 for k in prediction_categories}
 
     # TODO: score correct when start word is plural and predicted ##s turns a preceding word into a plural noun
 
     for sentence in sentences_out:
-        predicted_word = sentence[-2]
+        predicted_word = sentence[mask_index]
         start_word = [w for w in sentence if w in start_words][0]
 
         # non-start wordpiece
