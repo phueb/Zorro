@@ -4,8 +4,8 @@ from pathlib import Path
 class Dirs:
     src = Path(__file__).parent
     root = src.parent
-    predictions = Path('/') / 'media' / 'research_data' / 'BabyBertSRL' / 'runs'
-    dummy_predictions = root / 'prediction_files'
+    runs_server = Path('/') / 'media' / 'research_data' / 'BabyBertSRL' / 'runs'
+    runs_dummy = root / 'runs'
 
 
 class Eval:

@@ -7,11 +7,11 @@ from babeval.bigrams import bigram_frequency_percentiles, bigram2f
 from babeval.bigrams import w2max_left_bigram_f, w2max_right_bigram_f
 from babeval.io import get_group2predictions_file_paths
 
-ANALYZE_PREDICTION_CATEGORIES = False
-ANALYZE_LEFT_BIGRAM_FREQUENCY_PERCENTILES = False
-ANALYZE_RIGHT_BIGRAM_FREQUENCY_PERCENTILES = False
-ANALYZE_MAX_VS_PREDICTED_LEFT_BIGRAM_FREQUENCY = True
-ANALYZE_MAX_VS_PREDICTED_RIGHT_BIGRAM_FREQUENCY = False
+ANALYZE_PREDICTION_CATEGORIES = 1
+ANALYZE_LEFT_BIGRAM_FREQUENCY_PERCENTILES = 0
+ANALYZE_RIGHT_BIGRAM_FREQUENCY_PERCENTILES = 0
+ANALYZE_MAX_VS_PREDICTED_LEFT_BIGRAM_FREQUENCY = 0
+ANALYZE_MAX_VS_PREDICTED_RIGHT_BIGRAM_FREQUENCY = 0
 
 STEPS = [0, 20_000, 40_000, 60_000, 80_000, 100_000, 120_000, 140_000, 160_000, 180_000]
 
@@ -40,7 +40,6 @@ for task_name in task_names:
                                                                  s.prediction_categories,
                                                                  s.categorize_by_template,
                                                                  s.categorize_predictions,
-                                                                 s.mask_index,  # TODO
                                                                  s.print_stats)
             # plot
             v.make_barplot(s.prediction_categories, template2group_name2props, task_name)
@@ -52,7 +51,6 @@ for task_name in task_names:
                                                                  bigram_frequency_percentiles,
                                                                  s.categorize_by_template,
                                                                  categorize_left_bigrams,
-                                                                 s.mask_index,  # TODO
                                                                  s.print_stats)
             # plot
             v.make_barplot(bigram_frequency_percentiles, template2group_name2props, task_name,
@@ -65,7 +63,6 @@ for task_name in task_names:
                                                                  bigram_frequency_percentiles,
                                                                  s.categorize_by_template,
                                                                  categorize_right_bigrams,
-                                                                 s.mask_index,  # TODO
                                                                  s.print_stats)
             # plot
             v.make_barplot(bigram_frequency_percentiles, template2group_name2props, task_name,
@@ -76,7 +73,6 @@ for task_name in task_names:
             group2xy = prepare_data_for_scatterplot(group2predictions_file_paths,
                                                     w2max_left_bigram_f,
                                                     bigram2f,
-                                                    s.mask_index,
                                                     direction
                                                     )
             # plot
@@ -91,7 +87,6 @@ for task_name in task_names:
             group2xy = prepare_data_for_scatterplot(group2predictions_file_paths,
                                                     w2max_right_bigram_f,
                                                     bigram2f,
-                                                    s.mask_index,
                                                     direction
                                                     )
             # plot

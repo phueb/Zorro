@@ -1,6 +1,7 @@
 import numpy as np
 
 from babeval.vocab import get_vocab, get_frequency
+from babeval.bigrams import right_w2_left_w2f, left_w2right_w2f
 
 
 class Reader:
@@ -8,9 +9,20 @@ class Reader:
 
         self.predictions_file_path = predictions_file_path
         self.sentences_in, self.sentences_out = self.get_columns()
-        self.sentences_out_random_control = self.get_sentences_out_random_control()
 
-        print(f'Found {len(self.sentences_out)} lines in file.')
+        print(f'Initialized reader. Found {len(self.sentences_out)} lines in file.')
+
+    @property
+    def sentences_out_unigram_distribution_control(self):
+        return self.get_sentences_out_unigram_distribution_control()
+
+    @property
+    def sentences_out_left_bigram_distribution_control(self):
+        return self.get_sentences_out_left_bigram_distribution_control()
+
+    @property
+    def sentences_out_right_bigram_distribution_control(self):
+        return self.get_sentences_out_right_bigram_distribution_control()
 
     def get_columns(self):
         lines = self.predictions_file_path.open().readlines()
@@ -33,12 +45,14 @@ class Reader:
 
         return col1, col2
 
-    def get_sentences_out_random_control(self, not_sampled=None):
+    def get_sentences_out_unigram_distribution_control(self, not_sampled=None):
         """
         :param not_sampled: st, a word that should not be sampled from vocabulary
         :return: list of test sentences with MASK symbol replaced with random word from vocab
          sampled based on frequency in corpus
         """
+        print('Making 1-gram distribution control')
+
         vocab = get_vocab()
         freq = get_frequency()
         if not_sampled is not None:
@@ -49,6 +63,48 @@ class Reader:
         for s in self.sentences_in:
             assert '[MASK]' in s, s
             s_new = [np.random.choice(vocab, p=weights) if w == '[MASK]' else w for w in s]
+            result.append(s_new)
+
+        return result
+
+    def get_sentences_out_left_bigram_distribution_control(self):
+        """
+        :return: list of test sentences with MASK symbol replaced with random word from bigram distribution
+         sampled based on frequency in corpus
+        """
+        print('Making left 2-gram distribution control')
+
+        result = []
+        for s in self.sentences_in:
+            left_word = s[s.index('[MASK]') - 1]
+            choices, fs = zip(*[(rw, f) for rw, f in left_w2right_w2f[left_word].items()])
+            weights = np.array(fs) / sum(fs)
+            s_new = [np.random.choice(choices, p=weights) if w == '[MASK]' else w for w in s]
+            result.append(s_new)
+
+        return result
+
+    def get_sentences_out_right_bigram_distribution_control(self):
+        """
+        :return: list of test sentences with MASK symbol replaced with random word from bigram distribution
+         sampled based on frequency in corpus
+        """
+        print('Making right 2-gram distribution control')
+
+        # pre-computation
+        choices_p, fs_p = zip(*[(lw, f) for lw, f in right_w2_left_w2f['.'].items()])
+        weights_p = np.array(fs_p) / sum(fs_p)
+
+        result = []
+        for s in self.sentences_in:
+            right_word = s[s.index('[MASK]') + 1]
+            if right_word == '.':  # do not compute this at each loop iteration
+                choices, fs = choices_p, fs_p
+                weights = weights_p
+            else:
+                choices, fs = zip(*[(lw, f) for lw, f in right_w2_left_w2f[right_word].items()])
+                weights = np.array(fs) / sum(fs)
+            s_new = [np.random.choice(choices, p=weights) if w == '[MASK]' else w for w in s]
             result.append(s_new)
 
         return result

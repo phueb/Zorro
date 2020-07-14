@@ -10,7 +10,6 @@ def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]]
                              prediction_categories: Tuple,
                              categorize_by_template: Callable,
                              categorize_predictions: Callable,
-                             mask_index: int,
                              print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
@@ -18,30 +17,33 @@ def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]]
     :param prediction_categories: categories for classifying productions made by model
     :param categorize_by_template: function for separating sentences by template
     :param categorize_predictions: function for scoring
-    :param mask_index: index of word in sentence that is predicted
     :param print_stats: function to print basic information about sentences (optional)
     :return: double-embedded dict, which can be input to barplot function
     how it works: for each group of prediction files:
     1. the prediction files are read and categorized by template and production category (eg. false, correct, etc)
     2. scores (proportions) are stored in a matrix inside a double-embedded dict, ready for plotting
 
-    A frequency-control group is added
+    Multiple frequency-control groups are added.
 
     this functions scores all prediction files associated with a single task,
     and produces all results necessary to plot a single figure.
 
     'props' is a 2D array (matrix) containing proportions organized by category (in rows) and replications (in columns)
     """
-    control_name = 'frequency-based control'
+    control_name_1gram = '1-gram-distribution control'
+    control_name_left_2gram = 'left 2-gram-distribution control'
+    control_name_right_2gram = 'right 2-gram-distribution control'
+
     group_names = list(group2predictions_file_paths.keys())
-    group_names_with_controls = group_names + [control_name]
+    control_group_names = [control_name_1gram, control_name_left_2gram, control_name_right_2gram]
+    group_names_with_controls = group_names + control_group_names
     template2group_name2props = {template: {gn: None for gn in group_names_with_controls}
                                  for template in templates}
 
     for group_name in group_names_with_controls:
         print(f'===============\nScoring {group_name}\n===============')
 
-        if group_name == control_name:
+        if group_name in control_group_names:
             predictions_file_paths = group2predictions_file_paths[group_names[0]]
         else:
             predictions_file_paths = group2predictions_file_paths[group_name]
@@ -53,23 +55,27 @@ def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]]
                 print(predictions_file_path)
 
                 # read test sentences file with input and output in column1 and column 2 respectively
-                if group_name == control_name:
-                    reader = Reader(predictions_file_path)
-                    print_stats(reader.sentences_out_random_control)
-                    template2sentences = categorize_by_template(reader.sentences_in,
-                                                                reader.sentences_out_random_control)
+                reader = Reader(predictions_file_path)
+                if group_name == control_name_1gram:
+                    sentences_out = reader.sentences_out_unigram_distribution_control
+                elif group_name == control_name_left_2gram:
+                    sentences_out = reader.sentences_out_left_bigram_distribution_control
+                elif group_name == control_name_right_2gram:
+                    sentences_out = reader.sentences_out_right_bigram_distribution_control
                 else:
-                    reader = Reader(predictions_file_path)
-                    print_stats(reader.sentences_out)
-                    template2sentences = categorize_by_template(reader.sentences_in,
-                                                                reader.sentences_out)
+                    sentences_out = reader.sentences_out
+
+                print_stats(sentences_out)
+                template2sentences_out, template2mask_index = categorize_by_template(reader.sentences_in,
+                                                                                     sentences_out)
 
                 # organize by sentence template
-                category2num_in_category = categorize_predictions(template2sentences[template], mask_index)
+                category2num_in_category = categorize_predictions(template2sentences_out[template],
+                                                                  template2mask_index[template])
 
                 # calc proportion and store in matrix
                 for col_id, category in enumerate(prediction_categories):
-                    prop = category2num_in_category[category] / len(template2sentences[template])
+                    prop = category2num_in_category[category] / len(template2sentences_out[template])
                     # initialize matrix for storing proportions
                     if template2group_name2props[template][group_name] is None:
                         num_rows = len(predictions_file_paths)
@@ -87,18 +93,18 @@ def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]]
 def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Path]],
                                  w2max_bigram_f: Dict[str, int],
                                  bigram2f: Dict[str, int],
-                                 mask_index: int,
                                  direction: str,
-                                 exclude_zeros: bool = True,
+                                 replace_zeros_with_one: bool = True,
                                  ) -> Dict[str, Tuple[List[int], List[int]]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param w2max_bigram_f: dict mapping word to frequency of most frequent bigram in which word participates
     :param bigram2f: dict mapping bigram to frequency in corpus
-    :param mask_index: index of word in sentence that is predicted
     :param direction: "left" or "right"
+    :param replace_zeros_with_one: when True, replace yi = 0 with yi = 1 to prevent log(yi) = -inf
     :return: x, y - the coordinates for a scatterplot
     """
+
     group_names = list(group2predictions_file_paths.keys())
 
     res = {g: ([], []) for g in group_names}
@@ -114,15 +120,16 @@ def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Pa
             # read test sentences file with input and output in column1 and column 2 respectively
             reader = Reader(predictions_file_path)
 
-            for sentence in reader.sentences_out:
+            for s1, s2 in zip(reader.sentences_in, reader.sentences_out):
+                mask_index = s1.index('[MASK]')
 
                 # xi
                 if direction == 'left':
-                    bigram = (sentence[mask_index - 1], sentence[mask_index])
-                    xi = w2max_bigram_f[sentence[mask_index - 1]]
+                    bigram = (s2[mask_index - 1], s2[mask_index])
+                    xi = w2max_bigram_f[s2[mask_index - 1]]
                 elif direction == 'right':
-                    bigram = (sentence[mask_index], sentence[mask_index + 1])
-                    xi = w2max_bigram_f[sentence[mask_index + 1]]
+                    bigram = (s2[mask_index], s2[mask_index + 1])
+                    xi = w2max_bigram_f[s2[mask_index + 1]]
                 else:
                     raise AttributeError('Invalid arg to "direction"')
 
@@ -130,8 +137,8 @@ def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Pa
                 try:
                     yi = bigram2f[bigram]
                 except KeyError:  # dict does not have word pieces
-                    if exclude_zeros:
-                        continue
+                    if replace_zeros_with_one:
+                        yi = 1  # technically incorrect, but prevents log(0) = -inf
                     else:
                         yi = 0
 

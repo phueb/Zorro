@@ -49,12 +49,11 @@ nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
 nouns_ambiguous = set(nouns_ambiguous)
 
-mask_index = -2  # TODO get this from Reader
-
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 
-    res = {}
+    template2sentences_out = {}
+    template2mask_index = {}
     for s1, s2 in zip(sentences_in, sentences_out):
         try:
             start_word = [w for w in s1 if w in start_words][0]
@@ -63,16 +62,22 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
         else:
             num_adjectives = len(s1[s1.index(start_word) + 1:s1.index('[MASK]')])
             if num_adjectives == 1:  # 1 adjective
-                res.setdefault(templates[0], []).append(s2)
+                template2sentences_out.setdefault(templates[0], []).append(s2)
+                if templates[0] not in template2mask_index:
+                    template2mask_index[templates[0]] = s1.index('[MASK]')
             elif num_adjectives == 2:  # 2 adjectives
-                res.setdefault(templates[1], []).append(s2)
+                template2sentences_out.setdefault(templates[1], []).append(s2)
+                if templates[1] not in template2mask_index:
+                    template2mask_index[templates[1]] = s1.index('[MASK]')
             elif num_adjectives == 3:  # 3 adjectives
-                res.setdefault(templates[2], []).append(s2)
+                template2sentences_out.setdefault(templates[2], []).append(s2)
+                if templates[2] not in template2mask_index:
+                    template2mask_index[templates[2]] = s1.index('[MASK]')
 
-    return res
+    return template2sentences_out, template2mask_index
 
 
-def categorize_predictions(sentences_out: List[List[str]]):
+def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
     res = {k: 0 for k in prediction_categories}
 
     # TODO: score correct when start word is plural and predicted ##s turns a preceding word into a plural noun

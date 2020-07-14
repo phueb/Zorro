@@ -35,18 +35,19 @@ nouns_singular += ['one', '[NAME]']
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
 
-mask_index = -3
-
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 
-    res = {}
+    template2sentences_out = {}
+    template2mask_index = {}
     for s1, s2 in zip(sentences_in, sentences_out):
-        res.setdefault(templates[0], []).append(s2)
-    return res
+        template2sentences_out.setdefault(templates[0], []).append(s2)
+        if templates[0] not in template2mask_index:
+            template2mask_index[templates[0]] = s1.index('[MASK]')
+    return template2sentences_out, template2mask_index
 
 
-def categorize_predictions(sentences_out: List[List[str]]):
+def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
     res = {k: 0 for k in prediction_categories}
 
     for sentence in sentences_out:

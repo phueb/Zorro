@@ -15,6 +15,8 @@ bigram2percentile = {}
 bigram2f = {}
 w2max_left_bigram_f = {}
 w2max_right_bigram_f = {}
+left_w2right_w2f = {}
+right_w2_left_w2f = {}
 with (configs.Dirs.root / 'word_lists' / 'bi-grams.txt').open() as f:
     for line in f.readlines():
         frequency, w1, w2, percent = line.split()
@@ -26,6 +28,10 @@ with (configs.Dirs.root / 'word_lists' / 'bi-grams.txt').open() as f:
             w2max_left_bigram_f[w1] = frequency
         if frequency > w2max_right_bigram_f.setdefault(w2, 0):
             w2max_right_bigram_f[w2] = frequency
+
+        # TODO
+        left_w2right_w2f.setdefault(w1, {})[w2] = frequency
+        right_w2_left_w2f.setdefault(w2, {})[w1] = frequency
 
 bigram_frequency_percentiles = (0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
     

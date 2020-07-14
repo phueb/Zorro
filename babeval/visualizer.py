@@ -39,7 +39,7 @@ class Visualizer:
         if 'dummy' in param_name:
             return param_name
 
-        path = configs.Dirs.predictions / param_name / 'param2val.yaml'
+        path = configs.Dirs.runs_server / param_name / 'param2val.yaml'
         with path .open('r') as f:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
@@ -60,7 +60,6 @@ class Visualizer:
             condition = configs.Eval.condition
 
         x = np.arange(len(x_tick_labels))
-        width = 0.2
 
         num_axes = len(template2group_name2props)
         fig, axs = plt.subplots(num_axes, sharex='all', sharey='all',
@@ -70,7 +69,14 @@ class Visualizer:
             axs = [axs]
 
         for ax, ax_title in zip(axs, template2group_name2props.keys()):
-            ax.set_xticks(x + width)
+            group_name2props = template2group_name2props[ax_title]
+            num_models = len(group_name2props)
+            space = 0.1  # between bars belonging to a single production category
+            width = (1 / num_models) - (space / num_models)  # all bars in one category must fit within 1 x-axis unit
+            edges = [width * i for i in range(num_models)]  # distances between x-ticks and bar-center
+            colors = [f'C{i}' for i in range(num_models)]
+
+            ax.set_xticks(x + (width * num_models / 2) - (width / 2))  # set tick exactly at center of a group of bars
             ax.set_xticklabels(x_tick_labels)
             ax.set_xlabel(xlabel)
             ax.set_ylabel('Proportion', fontsize=self.ax_label_size)
@@ -79,18 +85,12 @@ class Visualizer:
             ax.set_title(f'{task_name}: {ax_title}' if task_name else ax_title,
                          fontweight="bold", size=self.ax_title_size)
 
-            group_name2props = template2group_name2props[ax_title]
-            num_models = len(group_name2props)
-            edges = [width * i for i in range(num_models)]
-            colors = [f'C{i}' for i in range(num_models)]
-
             for edge, color, group_name in zip(edges, colors, group_name2props.keys()):
                 avg = np.mean(group_name2props[group_name], axis=0).round(2)  # take average across rows
                 std = np.std(group_name2props[group_name], axis=0).round(2)
 
-                print(group_name)
-
                 if verbose:
+                    print(group_name)
                     print(f'Plotting avg={avg}')
                     print(f'Plotting std={std}')
                     print()
@@ -99,6 +99,7 @@ class Visualizer:
                     if std[i] > avg[i]:
                         std[i] = avg[i]  # prevents space between bars and x-axis in figure
 
+                # plot all bars belonging to a single model group (same color)
                 ax.bar(x + edge,
                        avg,
                        width,
@@ -120,7 +121,7 @@ class Visualizer:
                          group2xy: dict,
                          xlabel: str,
                          ylabel: str,
-                         logscale: bool = True,
+                         log_ten_scale: bool = True,
                          condition: Optional[str] = None,
                          ):
 
@@ -131,8 +132,8 @@ class Visualizer:
         num_groups = len(group_names)
 
         max_val = max([max(x) for x, y in group2xy.values()])
-        if logscale:
-            max_val = np.log(max_val)
+        if log_ten_scale:
+            max_val = np.log10(max_val)
 
         # fig
         fig, axes = plt.subplots(1, num_groups, sharex='all', sharey='all',
@@ -150,8 +151,8 @@ class Visualizer:
             ax.set_xlim(left=0)
             ax.set_ylim(bottom=0)
 
-            ax.hist2d(np.log(x) if logscale else x,
-                      np.log(y) if logscale else y,
+            ax.hist2d(np.log10(x) if log_ten_scale else x,
+                      np.log10(y) if log_ten_scale else y,
                       range=[[0, max_val], [0, max_val]],
                       bins=100,
                       cmap=plt.cm.Greys)
