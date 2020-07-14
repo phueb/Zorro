@@ -41,33 +41,33 @@ def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]]
                                  for template in templates}
 
     for group_name in group_names_with_controls:
-        print(f'===============\nScoring {group_name}\n===============')
+        print(f'===============\n{group_name}\n===============')
 
         if group_name in control_group_names:
             predictions_file_paths = group2predictions_file_paths[group_names[0]]
         else:
             predictions_file_paths = group2predictions_file_paths[group_name]
 
-        for template in templates:
-            print(template)
+        for row_id, predictions_file_path in enumerate(predictions_file_paths):
+            print(predictions_file_path)
 
-            for row_id, predictions_file_path in enumerate(predictions_file_paths):
-                print(predictions_file_path)
+            # read test sentences file with input and output in column1 and column 2 respectively
+            reader = Reader(predictions_file_path)
+            if group_name == control_name_1gram:
+                sentences_out = reader.sentences_out_unigram_distribution_control
+            elif group_name == control_name_left_2gram:
+                sentences_out = reader.sentences_out_left_bigram_distribution_control
+            elif group_name == control_name_right_2gram:
+                sentences_out = reader.sentences_out_right_bigram_distribution_control
+            else:
+                sentences_out = reader.sentences_out
 
-                # read test sentences file with input and output in column1 and column 2 respectively
-                reader = Reader(predictions_file_path)
-                if group_name == control_name_1gram:
-                    sentences_out = reader.sentences_out_unigram_distribution_control
-                elif group_name == control_name_left_2gram:
-                    sentences_out = reader.sentences_out_left_bigram_distribution_control
-                elif group_name == control_name_right_2gram:
-                    sentences_out = reader.sentences_out_right_bigram_distribution_control
-                else:
-                    sentences_out = reader.sentences_out
+            print_stats(sentences_out)
+            template2sentences_out, template2mask_index = categorize_by_template(reader.sentences_in,
+                                                                                 sentences_out)
 
-                print_stats(sentences_out)
-                template2sentences_out, template2mask_index = categorize_by_template(reader.sentences_in,
-                                                                                     sentences_out)
+            for template in templates:
+                print(template)
 
                 # organize by sentence template
                 category2num_in_category = categorize_predictions(template2sentences_out[template],
@@ -83,9 +83,6 @@ def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]]
                         template2group_name2props[template][group_name] = np.zeros((num_rows, num_cols))
                     # populate matrix
                     template2group_name2props[template][group_name][row_id][col_id] = prop
-
-            print(template2group_name2props[template][group_name].round(2))
-            print()
 
     return template2group_name2props
 
@@ -110,7 +107,7 @@ def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Pa
     res = {g: ([], []) for g in group_names}
 
     for group_name in group_names:
-        print(f'===============\nScoring {group_name}\n===============')
+        print(f'===============\n{group_name}\n===============')
 
         predictions_file_paths = group2predictions_file_paths[group_name]
 

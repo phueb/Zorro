@@ -45,9 +45,8 @@ class Reader:
 
         return col1, col2
 
-    def get_sentences_out_unigram_distribution_control(self, not_sampled=None):
+    def get_sentences_out_unigram_distribution_control(self):
         """
-        :param not_sampled: st, a word that should not be sampled from vocabulary
         :return: list of test sentences with MASK symbol replaced with random word from vocab
          sampled based on frequency in corpus
         """
@@ -55,14 +54,13 @@ class Reader:
 
         vocab = get_vocab()
         freq = get_frequency()
-        if not_sampled is not None:
-            freq[vocab.index(not_sampled)] = 0  # tell random sampler to never sample something
         weights = np.array(freq) / sum(freq)
+        sampled_words = iter(np.random.choice(vocab, size=len(self.sentences_in), p=weights))
 
         result = []
         for s in self.sentences_in:
             assert '[MASK]' in s, s
-            s_new = [np.random.choice(vocab, p=weights) if w == '[MASK]' else w for w in s]
+            s_new = [next(sampled_words) if w == '[MASK]' else w for w in s]
             result.append(s_new)
 
         return result
@@ -94,17 +92,19 @@ class Reader:
         # pre-computation
         choices_p, fs_p = zip(*[(lw, f) for lw, f in right_w2_left_w2f['.'].items()])
         weights_p = np.array(fs_p) / sum(fs_p)
+        sampled_words_p = iter(np.random.choice(choices_p, size=len(self.sentences_in), p=weights_p))
+        print('Finished pre-computation')
 
         result = []
         for s in self.sentences_in:
             right_word = s[s.index('[MASK]') + 1]
             if right_word == '.':  # do not compute this at each loop iteration
-                choices, fs = choices_p, fs_p
-                weights = weights_p
+                sampled_word = next(sampled_words_p)
             else:
                 choices, fs = zip(*[(lw, f) for lw, f in right_w2_left_w2f[right_word].items()])
                 weights = np.array(fs) / sum(fs)
-            s_new = [np.random.choice(choices, p=weights) if w == '[MASK]' else w for w in s]
+                sampled_word = np.random.choice(choices, p=weights)
+            s_new = [sampled_word if w == '[MASK]' else w for w in s]
             result.append(s_new)
 
         return result
