@@ -32,7 +32,7 @@ class Visualizer:
         with path .open('r') as f:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
-        res = f'{key}={param2val[key]}'
+        res = f'step={configs.Eval.step} | n={configs.Eval.max_reps} | {key}={param2val[key]}'
         return res
 
     def make_barplot(self,

@@ -3,7 +3,6 @@ from typing import List
 from babeval import configs
 
 
-
 def to_percentile(val: float):
     return int(val - (val % 10) + 10)
 
@@ -13,10 +12,7 @@ bigram2percentile = {}
 with (configs.Dirs.root / 'word_lists' / 'bi-grams.txt').open() as f:
     for line in f.readlines():
         frequency, w1, w2, percent = line.split()
-        print(frequency, percent)
         bigram2percentile[(w1, w2)] = to_percentile(float(percent))
-
-raise NotImplementedError('bigrams incomplete')
 
 bigram_frequency_percentiles = (0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
     

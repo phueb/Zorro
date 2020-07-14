@@ -13,4 +13,4 @@ class Eval:
     step = 180_000
     param_names = ['param_002', 'param_004']
     condition = 'srl_interleaved'
-    max_reps = 100
+    max_reps = 2
