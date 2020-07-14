@@ -12,18 +12,16 @@ def get_group2predictions_file_paths(task_name: str,
 
     # get prediction file paths from this repository (dummies)
     if configs.Eval.dummy:
-        group2pattern = {g: f'probing_{task_name}_results_{step}_{g}*.txt'
-                         for g in ['dummy0', 'dummy1']}
-        group2predictions_file_paths = {g: [p for p in configs.Dirs.dummy_predictions.glob(pattern)]
-                                        for g, pattern in group2pattern.items()}
-
+        runs_path = configs.Dirs.dummy_predictions
     # get prediction file paths from lab server
     else:
-        group2pattern = {g: f'{g}/**/saves/probing_{task_name}_results_{step}.txt'
-                         for g in configs.Eval.param_names}
-        print(group2pattern)
-        group2predictions_file_paths = {g: [p for p in configs.Dirs.predictions.rglob(pattern)][:configs.Eval.max_reps]
-                                        for g, pattern in group2pattern.items()}
+        runs_path = configs.Dirs.predictions
+
+    group2pattern = {g: f'{g}/**/saves/probing_{task_name}_results_{step}.txt'
+                     for g in configs.Eval.param_names}
+    print(group2pattern)
+    group2predictions_file_paths = {g: [p for p in runs_path.rglob(pattern)][:configs.Eval.max_reps]
+                                    for g, pattern in group2pattern.items()}
 
     # check paths
     for k, v in group2predictions_file_paths.items():

@@ -26,6 +26,7 @@ def get_vocab():
 
     return my_list[:VOCAB_SIZE]
 
+
 def get_frequency():
     path = Path(__file__).parent.parent / VOCAB_NAME
     with open(path) as f:
@@ -79,9 +80,3 @@ def save_to_txt(words, file_name):
     with open(out_path, 'w') as f:
         for n, w in enumerate(words):
             f.write(w + '\n')
-
-
-# TODO need native speaker
-
-# TODO document dictonairy-based decisions
-

@@ -1,23 +1,38 @@
-from typing import List
+from typing import List, Dict
 
 from babeval import configs
+from babeval.vocab import get_vocab
 
 
 def to_percentile(val: float):
     return int(val - (val % 10) + 10)
 
 
+vocab = get_vocab()
+
 # load bigrams
 bigram2percentile = {}
+bigram2f = {}
+w2max_left_bigram_f = {}
+w2max_right_bigram_f = {}
 with (configs.Dirs.root / 'word_lists' / 'bi-grams.txt').open() as f:
     for line in f.readlines():
         frequency, w1, w2, percent = line.split()
+        frequency = int(frequency)
         bigram2percentile[(w1, w2)] = to_percentile(float(percent))
+        bigram2f[(w1, w2)] = frequency
+        #
+        if frequency > w2max_left_bigram_f.setdefault(w1, 0):
+            w2max_left_bigram_f[w1] = frequency
+        if frequency > w2max_right_bigram_f.setdefault(w2, 0):
+            w2max_right_bigram_f[w2] = frequency
 
 bigram_frequency_percentiles = (0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
     
 
-def categorize_left_bigrams(sentences_out: List[List[str]], mask_index: int):
+def categorize_left_bigrams(sentences_out: List[List[str]],
+                            mask_index: int,
+                            ) -> Dict[int, int]:
     res = {k: 0 for k in bigram_frequency_percentiles}
 
     for sentence in sentences_out:
@@ -27,12 +42,15 @@ def categorize_left_bigrams(sentences_out: List[List[str]], mask_index: int):
         except KeyError:
             percentile = 0
 
+        assert percentile in bigram_frequency_percentiles
         res[percentile] += 1
 
     return res
 
 
-def categorize_right_bigrams(sentences_out: List[List[str]], mask_index: int):
+def categorize_right_bigrams(sentences_out: List[List[str]],
+                             mask_index: int,
+                             ) -> Dict[int, int]:
     res = {k: 0 for k in bigram_frequency_percentiles}
 
     for sentence in sentences_out:
@@ -43,8 +61,5 @@ def categorize_right_bigrams(sentences_out: List[List[str]], mask_index: int):
             percentile = 0
 
         res[percentile] += 1
-
-        print(bigram)
-        print(percentile)
 
     return res

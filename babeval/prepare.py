@@ -5,13 +5,13 @@ from pathlib import Path
 from babeval.reader import Reader
 
 
-def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]],
-                              templates: List[str],
-                              prediction_categories: Tuple,
-                              categorize_by_template: Callable,
-                              categorize_predictions: Callable,
-                              mask_index: int,
-                              print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
+def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]],
+                             templates: List[str],
+                             prediction_categories: Tuple,
+                             categorize_by_template: Callable,
+                             categorize_predictions: Callable,
+                             mask_index: int,
+                             print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param templates: list of names for templates, one for each subplot
@@ -82,3 +82,61 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
             print()
 
     return template2group_name2props
+
+
+def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Path]],
+                                 w2max_bigram_f: Dict[str, int],
+                                 bigram2f: Dict[str, int],
+                                 mask_index: int,
+                                 direction: str,
+                                 exclude_zeros: bool = True,
+                                 ) -> Dict[str, Tuple[List[int], List[int]]]:
+    """
+    :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
+    :param w2max_bigram_f: dict mapping word to frequency of most frequent bigram in which word participates
+    :param bigram2f: dict mapping bigram to frequency in corpus
+    :param mask_index: index of word in sentence that is predicted
+    :param direction: "left" or "right"
+    :return: x, y - the coordinates for a scatterplot
+    """
+    group_names = list(group2predictions_file_paths.keys())
+
+    res = {g: ([], []) for g in group_names}
+
+    for group_name in group_names:
+        print(f'===============\nScoring {group_name}\n===============')
+
+        predictions_file_paths = group2predictions_file_paths[group_name]
+
+        for row_id, predictions_file_path in enumerate(predictions_file_paths):
+            print(predictions_file_path)
+
+            # read test sentences file with input and output in column1 and column 2 respectively
+            reader = Reader(predictions_file_path)
+
+            for sentence in reader.sentences_out:
+
+                # xi
+                if direction == 'left':
+                    bigram = (sentence[mask_index - 1], sentence[mask_index])
+                    xi = w2max_bigram_f[sentence[mask_index - 1]]
+                elif direction == 'right':
+                    bigram = (sentence[mask_index], sentence[mask_index + 1])
+                    xi = w2max_bigram_f[sentence[mask_index + 1]]
+                else:
+                    raise AttributeError('Invalid arg to "direction"')
+
+                # yi
+                try:
+                    yi = bigram2f[bigram]
+                except KeyError:  # dict does not have word pieces
+                    if exclude_zeros:
+                        continue
+                    else:
+                        yi = 0
+
+                res[group_name][0].append(xi)
+                res[group_name][1].append(yi)
+
+    return res
+

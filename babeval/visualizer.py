@@ -3,6 +3,7 @@ import yaml
 import numpy as np
 import matplotlib as mpl
 from matplotlib import pyplot as plt
+from pathlib import Path
 
 from babeval import configs
 
@@ -12,11 +13,15 @@ mpl.rcParams['axes.spines.top'] = False
 
 class Visualizer:
     def __init__(self,
+                 group2predictions_file_paths: Dict[str, List[Path]],
                  step: Optional[int] = None,
                  dpi=192):
+
         self.dpi = dpi
-        self.figsize = (8, 8)
         self.ax_title_size = 10
+        self.ax_label_size = 10
+
+        self.group2predictions_file_paths = group2predictions_file_paths  # used to get number of reps
 
         if step is None:
             self.step = configs.Eval.step
@@ -38,7 +43,9 @@ class Visualizer:
         with path .open('r') as f:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
-        res = f'step={self.step} | n={configs.Eval.max_reps} | {key}={param2val[key]}'
+        reps = len(self.group2predictions_file_paths[param_name])
+
+        res = f'step={self.step} | n={reps} | {key}={param2val[key]}'
         return res
 
     def make_barplot(self,
@@ -57,7 +64,7 @@ class Visualizer:
 
         num_axes = len(template2group_name2props)
         fig, axs = plt.subplots(num_axes, sharex='all', sharey='all',
-                                dpi=self.dpi, figsize=self.figsize)
+                                dpi=self.dpi, figsize=(8, 8))
         if num_axes == 1:
             # make axes iterable when there is only one axis only
             axs = [axs]
@@ -66,7 +73,7 @@ class Visualizer:
             ax.set_xticks(x + width)
             ax.set_xticklabels(x_tick_labels)
             ax.set_xlabel(xlabel)
-            ax.set_ylabel('Proportion')
+            ax.set_ylabel('Proportion', fontsize=self.ax_label_size)
             ax.set_ylim([0, 1.0])
             ax.axhline(y=0.5, linestyle=':', color='grey')
             ax.set_title(f'{task_name}: {ax_title}' if task_name else ax_title,
@@ -105,5 +112,53 @@ class Visualizer:
         # Hide x labels and tick labels for all but bottom plot.
         for ax in axs:
             ax.label_outer()
+
+        plt.show()
+
+    def make_scatterplot(self,
+                         task_name: str,
+                         group2xy: dict,
+                         xlabel: str,
+                         ylabel: str,
+                         logscale: bool = True,
+                         condition: Optional[str] = None,
+                         ):
+
+        if condition is None:
+            condition = configs.Eval.condition
+
+        group_names = list(group2xy.keys())
+        num_groups = len(group_names)
+
+        max_val = max([max(x) for x, y in group2xy.values()])
+        if logscale:
+            max_val = np.log(max_val)
+
+        # fig
+        fig, axes = plt.subplots(1, num_groups, sharex='all', sharey='all',
+                                 figsize=(10, 6), dpi=self.dpi)
+
+        for group_name, (x, y) in group2xy.items():
+            label = self.get_legend_name(group_name, condition)
+
+            ax = axes[group_names.index(group_name)]
+            ax.spines['right'].set_visible(False)
+            ax.spines['top'].set_visible(False)
+            ax.set_xlabel(xlabel, fontsize=self.ax_label_size)
+            ax.set_ylabel(ylabel, fontsize=self.ax_label_size)
+            ax.set_title(f'{task_name}\n{label}', size=self.ax_title_size)
+            ax.set_xlim(left=0)
+            ax.set_ylim(bottom=0)
+
+            ax.hist2d(np.log(x) if logscale else x,
+                      np.log(y) if logscale else y,
+                      range=[[0, max_val], [0, max_val]],
+                      bins=100,
+                      cmap=plt.cm.Greys)
+
+            # plot identity line
+            xl = [0, max_val]
+            yl = [0, max_val]
+            ax.plot(xl, yl, linestyle=':', c='black', zorder=3)
 
         plt.show()
