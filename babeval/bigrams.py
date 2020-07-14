@@ -29,10 +29,22 @@ def categorize_left_bigrams(sentences_out: List[List[str]], mask_index: int):
 
         res[percentile] += 1
 
+    return res
+
+
+def categorize_right_bigrams(sentences_out: List[List[str]], mask_index: int):
+    res = {k: 0 for k in bigram_frequency_percentiles}
+
+    for sentence in sentences_out:
+        bigram = (sentence[mask_index], sentence[mask_index + 1])
+        try:
+            percentile = bigram2percentile[bigram]
+        except KeyError:
+            percentile = 0
+
+        res[percentile] += 1
+
         print(bigram)
         print(percentile)
-
-
-
 
     return res

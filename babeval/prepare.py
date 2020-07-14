@@ -1,10 +1,11 @@
 from typing import Dict, List, Callable, Tuple
 import numpy as np
+from pathlib import Path
 
 from babeval.reader import Reader
 
 
-def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[str]],
+def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]],
                               templates: List[str],
                               prediction_categories: Tuple,
                               categorize_by_template: Callable,

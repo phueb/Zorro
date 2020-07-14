@@ -7,13 +7,9 @@
 from pathlib import Path
 from typing import List
 
-from babeval.io import get_group2predictions_file_paths
 
-task_name = Path(__file__).parent.name
-group2predictions_file_paths = get_group2predictions_file_paths(task_name)
-
-copulas_singular = ["is", "'s"]
-copulas_plural = ["are", "'re"]
+copulas_singular = ["is", "'s", "was"]
+copulas_plural = ["are", "'re", "were"]
 
 templates = ['default',
              ]

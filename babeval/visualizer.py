@@ -11,13 +11,19 @@ mpl.rcParams['axes.spines.top'] = False
 
 
 class Visualizer:
-    def __init__(self, dpi=192):
+    def __init__(self,
+                 step: Optional[int] = None,
+                 dpi=192):
         self.dpi = dpi
         self.figsize = (8, 8)
         self.ax_title_size = 10
 
-    @staticmethod
-    def get_legend_name(param_name, key):
+        if step is None:
+            self.step = configs.Eval.step
+        else:
+            self.step = step
+
+    def get_legend_name(self, param_name, key):
 
         if key is None:
             return param_name
@@ -32,7 +38,7 @@ class Visualizer:
         with path .open('r') as f:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
-        res = f'step={configs.Eval.step} | n={configs.Eval.max_reps} | {key}={param2val[key]}'
+        res = f'step={self.step} | n={configs.Eval.max_reps} | {key}={param2val[key]}'
         return res
 
     def make_barplot(self,
@@ -40,6 +46,7 @@ class Visualizer:
                      template2group_name2props: Dict[str, Dict[str, np.array]],
                      task_name: Optional[str] = None,
                      condition: Optional[str] = None,
+                     xlabel: str = '',
                      verbose: bool = False):
 
         if condition is None:
@@ -58,7 +65,9 @@ class Visualizer:
         for ax, ax_title in zip(axs, template2group_name2props.keys()):
             ax.set_xticks(x + width)
             ax.set_xticklabels(x_tick_labels)
+            ax.set_xlabel(xlabel)
             ax.set_ylabel('Proportion')
+            ax.set_ylim([0, 1.0])
             ax.axhline(y=0.5, linestyle=':', color='grey')
             ax.set_title(f'{task_name}: {ax_title}' if task_name else ax_title,
                          fontweight="bold", size=self.ax_title_size)

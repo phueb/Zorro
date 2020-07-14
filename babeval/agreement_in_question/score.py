@@ -12,12 +12,6 @@ Non-verb: prediction given by BERT is not in targeted verb
 from pathlib import Path
 from typing import List
 
-from babeval.io import get_group2predictions_file_paths
-
-
-task_name = Path(__file__).parent.name
-group2predictions_file_paths = get_group2predictions_file_paths(task_name)
-
 subjective_copula_singular = ["does", "is", "'s"]
 subjective_copula_plural = ["do", "are", "'re"]
 

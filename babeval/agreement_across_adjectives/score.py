@@ -4,12 +4,9 @@ Score predictions made by BERT on agreement across adjectives task.
 from pathlib import Path
 from typing import List
 
-from babeval.io import get_group2predictions_file_paths
-
 PRINT_STATS = False
 
-task_name = Path(__file__).parent.name
-group2predictions_file_paths = get_group2predictions_file_paths(task_name)
+
 
 start_words_singular = ["this", "that"]
 start_words_plural = ["these", "those"]
