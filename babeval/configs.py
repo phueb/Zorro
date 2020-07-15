@@ -4,12 +4,13 @@ from pathlib import Path
 class Dirs:
     src = Path(__file__).parent
     root = src.parent
-    predictions = Path('/') / 'media' / 'research_data' / 'BabyBertSRL' / 'runs'
-    dummy_predictions = root / 'prediction_files'
-
-    assert predictions.is_dir()
-    assert dummy_predictions.is_dir()
+    runs_server = Path('/') / 'media' / 'research_data' / 'BabyBertSRL' / 'runs'
+    runs_dummy = root / 'runs'
 
 
 class Eval:
-    step = 100_000
+    dummy = True  # use files containing dummy predictions not on lab server
+    step = 180_000
+    param_names = ['param_002', 'param_004']
+    condition = 'srl_interleaved'
+    max_reps = 10

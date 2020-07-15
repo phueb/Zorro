@@ -1,143 +1,145 @@
 """
-Score predictions made by BERT.
-calculate 5 measures,
- each quantifying the proportion of model-predictions that correspond to a particular kind of answer:
-1. correct noun number
-2. false noun number
-3. ambiguous noun number ("sheep", "fish")
-4. non-noun
-5. [UNK] (this means "unknown", which means the model doesn't want to commit to an answer)
-it can handle a file that has sentences with different amounts of adjectives (1, 2, 3) .
-And sentences with "look at ..." and without.
+Score predictions made by BERT on agreement across adjectives task.
 """
 from pathlib import Path
+from typing import List
 
-from babeval.visualizer import Visualizer
-from babeval.scoring import score_predictions
-from babeval.io import get_group2predictions_file_paths
+PRINT_STATS = False
 
-DUMMY = True
 
-task_name = Path(__file__).parent.name
-group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
 
 start_words_singular = ["this", "that"]
 start_words_plural = ["these", "those"]
-start_words = start_words_singular + start_words_plural
+start_words = set(start_words_singular + start_words_plural)
 
-templates = ['Sentence with 1 Adjective(s)',
-             'Sentence with 2 Adjective(s)',
-             'Sentence with 3 Adjective(s)',
+templates = ['1 Adjective(s)',
+             '2 Adjective(s)',
+             '3 Adjective(s)',
              ]
 
-prediction_categories = ("[UNK]", "correct\nnoun", "false\nnoun", "ambiguous\nnoun", "non-noun")
+prediction_categories = (
+    "noun +\ncorrect number",
+    "noun +\nfalse number",
+    "noun +\n ambiguous number",
+    "noun\nproper",
+    "non-start\nword-piece\nor\n[UNK]",
+    "non-noun",
+)
 
 # load word lists
-with (Path().cwd() / 'nouns_annotator2.txt').open() as f:
-    nouns_list = f.read().split("\n")
-with (Path().cwd() / 'nouns_singular_annotator2.txt').open() as f:
-    nouns_singular = f.read().split("\n")
-with (Path().cwd() / 'nouns_plural_annotator2.txt').open() as f:
-    nouns_plural = f.read().split("\n")
-with (Path().cwd() / 'nouns_ambiguous_number_annotator2.txt').open() as f:
-    ambiguous_nouns = f.read().split("\n")
+nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split("\n")
+nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split("\n")
+nouns_ambiguous = (Path(__file__).parent / 'word_lists' / 'nouns_ambiguous_number_annotator2.txt').open().read().split("\n")
 
-assert '[NAME]' in nouns_singular
-
+# check for list overlap
 for w in nouns_singular:
     assert w not in nouns_plural
-
 for w in nouns_plural:
     assert w not in nouns_singular
 
+nouns_singular += ['one']
 
-def categorize_templates(test_sentence_list):
-
-    res = {}
-    for sentence in test_sentence_list:
-        predicted_noun = sentence[-2]
-        for word in sentence:
-            if word in start_words:
-                start_word = word
-                adj = sentence[sentence.index(start_word) + 1:sentence.index(predicted_noun)]
-
-                if len(adj) == 1:  # 1 adjective
-                    res.setdefault(templates[0], []).append(sentence)
-
-                if len(adj) == 2:  # 2 adjectives
-                    res.setdefault(templates[1], []).append(sentence)
-
-                if len(adj) == 3:  # 3 adjectives
-                    res.setdefault(templates[2], []).append(sentence)
-
-                break  # exit inner for loop
-
-    return res
+# move proper nouns to separate set
+nouns_proper = set([n for n in nouns_singular if n.istitle()])
+nouns_proper.add('[NAME]')
+nouns_singular = [n for n in nouns_singular if n not in nouns_proper]
 
 
-def categorize_predictions(test_sentence_list):
-    res = {'u': [], 'c': [], 'f': [], 'a': [], 'n': []}
+nouns_plural = set(nouns_plural)
+nouns_singular = set(nouns_singular)
+nouns_ambiguous = set(nouns_ambiguous)
 
-    for sentence in test_sentence_list:
-        predicted_word = sentence[-2]
+
+def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
+
+    template2sentences_out = {}
+    template2mask_index = {}
+    for s1, s2 in zip(sentences_in, sentences_out):
+        try:
+            start_word = [w for w in s1 if w in start_words][0]
+        except IndexError:  # no start word
+            raise RuntimeError('Failed to categorize sentence into template')
+        else:
+            num_adjectives = len(s1[s1.index(start_word) + 1:s1.index('[MASK]')])
+            if num_adjectives == 1:  # 1 adjective
+                template2sentences_out.setdefault(templates[0], []).append(s2)
+                if templates[0] not in template2mask_index:
+                    template2mask_index[templates[0]] = s1.index('[MASK]')
+            elif num_adjectives == 2:  # 2 adjectives
+                template2sentences_out.setdefault(templates[1], []).append(s2)
+                if templates[1] not in template2mask_index:
+                    template2mask_index[templates[1]] = s1.index('[MASK]')
+            elif num_adjectives == 3:  # 3 adjectives
+                template2sentences_out.setdefault(templates[2], []).append(s2)
+                if templates[2] not in template2mask_index:
+                    template2mask_index[templates[2]] = s1.index('[MASK]')
+
+    return template2sentences_out, template2mask_index
+
+
+def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
+    res = {k: 0 for k in prediction_categories}
+
+    # TODO: score correct when start word is plural and predicted ##s turns a preceding word into a plural noun
+
+    for sentence in sentences_out:
+        predicted_word = sentence[mask_index]
         start_word = [w for w in sentence if w in start_words][0]
 
-        # [UNK]
-        if predicted_word == "[UNK]":
-            res['u'].append(sentence)
+        # non-start wordpiece
+        if predicted_word.startswith("##") or predicted_word == '[UNK]':
+            res["non-start\nword-piece\nor\n[UNK]"] += 1
+
+        # proper noun
+        if predicted_word in nouns_proper:
+            res["noun\nproper"] += 1
 
         # correct Noun Number
         elif predicted_word in nouns_plural and start_word in start_words_plural:
-            res['c'].append(sentence)
+            res["noun +\ncorrect number"] += 1
 
         elif predicted_word in nouns_singular and start_word in start_words_singular:
-            res['c'].append(sentence)
+            res["noun +\ncorrect number"] += 1
 
         # false Noun Number
         elif predicted_word in nouns_plural and start_word in start_words_singular:
-            res['f'].append(sentence)
+            res["noun +\nfalse number"] += 1
 
         elif predicted_word in nouns_singular and start_word in start_words_plural:
-            res['f'].append(sentence)
+            res["noun +\nfalse number"] += 1
 
         # Ambiguous Noun
-        elif predicted_word in ambiguous_nouns:
-            res['a'].append(sentence)
+        elif predicted_word in nouns_ambiguous:
+            res["noun +\n ambiguous number"] += 1
 
         # Non_Noun
         else:
-            res['n'].append(sentence)
+            res["non-noun"] += 1
 
     return res
 
 
 def print_stats(sentences):
+
+    if not PRINT_STATS:
+        return
+
     num_singular = 0
     num_plural = 0
     num_ambiguous = 0
     num_total = 0
     for s in sentences:
         for w in s:
-            if w in nouns_list:
-                num_total += 1
-                if w in nouns_singular:
-                    num_singular += 1
-                elif w in nouns_plural:
-                    num_plural += 1
-                elif w in ambiguous_nouns:
-                    num_ambiguous += 1
-                else:
-                    raise RuntimeError(f'{w} is neither in plural or singular or ambiguous nouns list')
+            if w in nouns_singular:
+                num_singular += 1
+            elif w in nouns_plural:
+                num_plural += 1
+            elif w in nouns_ambiguous:
+                num_ambiguous += 1
+            else:
+                raise RuntimeError(f'{w} is neither in plural or singular or ambiguous nouns list')
+            num_total += 1
     print(f'Sing: {num_singular / num_total:.2f} Plural: {num_plural / num_total:.2f}')
 
 
-# score
-template2group_name2props = score_predictions(group2predictions_file_paths,
-                                              templates,
-                                              categorize_templates,
-                                              categorize_predictions,
-                                              print_stats)
 
-# plot
-visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2group_name2props)
