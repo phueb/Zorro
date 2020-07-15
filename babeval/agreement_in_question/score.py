@@ -3,11 +3,6 @@ Example sentences in task:
 where [MASK] the afternoon go ? do/does
 where [MASK] the alouette ? is/are
 
-Predictions are categorized as follows:
-[UNK]: BERT gives [UNK] as prediction to [MASK]
-Correct Verb: number agreement between [MASK] and targeted noun
-Incorrect Verb: number disagreement between [MASK] and targeted noun
-Non-verb: prediction given by BERT is not in targeted verb
 """
 from pathlib import Path
 from typing import List
@@ -21,9 +16,9 @@ templates = ['main verb',
 
 prediction_categories = (
     "non-start\nword-piece\nor\n[UNK]",
-    "correct\nverb",
-    "false\nverb",
-    "non-verb",
+    "copula\ncorrect",
+    "copula\nfalse",
+    "non-copula",
 )
 
 # load word lists
@@ -65,6 +60,10 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
     res = {k: 0 for k in prediction_categories}
 
+    raise NotImplementedError
+    # TODO correct answer depends on template - "do" should not be correct when predicting main verb
+    # TODO this task should be split up into 2 different tasks
+
     for sentence in sentences_out:
         predicted_word = sentence[mask_index]
         targeted_noun = sentence[3]
@@ -75,20 +74,20 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
 
         # correct
         elif targeted_noun in nouns_plural and predicted_word in subjective_copula_plural:
-            res["correct\nverb"] += 1
+            res["copula\ncorrect"] += 1
 
         elif targeted_noun in nouns_singular and predicted_word in subjective_copula_singular:
-            res["correct\nverb"] += 1
+            res["copula\ncorrect"] += 1
 
         # false
         elif targeted_noun in nouns_plural and predicted_word in subjective_copula_singular:
-            res["false\nverb"] += 1
+            res["copula\nfalse"] += 1
 
         elif targeted_noun in nouns_singular and predicted_word in subjective_copula_plural:
-            res["false\nverb"] += 1
+            res["copula\nfalse"] += 1
 
         else:
-            res["non-verb"] += 1
+            res["non-copula"] += 1
 
     return res
 

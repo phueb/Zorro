@@ -7,26 +7,29 @@ from babeval.bigrams import bigram_frequency_percentiles, bigram2f
 from babeval.bigrams import w2max_left_bigram_f, w2max_right_bigram_f
 from babeval.io import get_group2predictions_file_paths
 
-ANALYZE_PREDICTION_CATEGORIES = 1
-ANALYZE_LEFT_BIGRAM_FREQUENCY_PERCENTILES = 0
+# chose one
+ANALYZE_PREDICTION_CATEGORIES = 0
+ANALYZE_LEFT_BIGRAM_FREQUENCY_PERCENTILES = 1
 ANALYZE_RIGHT_BIGRAM_FREQUENCY_PERCENTILES = 0
 ANALYZE_MAX_VS_PREDICTED_LEFT_BIGRAM_FREQUENCY = 0
 ANALYZE_MAX_VS_PREDICTED_RIGHT_BIGRAM_FREQUENCY = 0
 
-STEPS = [0, 20_000, 40_000, 60_000, 80_000, 100_000, 120_000, 140_000, 160_000, 180_000]
+STEP_SIZE = 10_000
+MAX_STEP = 180_000
 
-task_names = [
+# chose one
+TASK_NAMES = [
     'agreement_across_adjectives',
     # 'agreement_across_PP',
     # 'agreement_across_RC',
     # 'agreement_in_question',
 ]
 
-for task_name in task_names:
+for task_name in TASK_NAMES:
     # load module containing task-relevant objects
     s = importlib.import_module(f'babeval.{task_name}.score')
 
-    for step in STEPS:
+    for step in list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
 
         # load prediction files
         group2predictions_file_paths = get_group2predictions_file_paths(task_name, step)
