@@ -11,17 +11,16 @@ NUM_PREPOSITIONS = 2
 
 template = 'the {} {} [MASK] {} .'
 
-nouns_plural = (Path(__file__).parent / 'nouns_plural_annotator2.txt').open().read().split()
+nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split()
 nouns_plural = [w for w in nouns_plural if w in get_vocab()]
 
-nouns_singular = (Path(__file__).parent / 'nouns_singular_annotator2.txt').open().read().split()
+nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split()
 nouns_singular = [w for w in nouns_singular if w in get_vocab()]
 
-prepositions = (Path(__file__).parent / 'prepositions_annotator2.txt').open().read().split()
+prepositions = (Path(__file__).parent / 'word_lists' / 'prepositions_annotator2.txt').open().read().split()
 prepositions = [w for w in prepositions if w in get_vocab()]
 
-
-adjectives = (Path(__file__).parent / 'adjectives_annotator2.txt').open().read().split()
+adjectives = (Path(__file__).parent / 'word_lists' / 'adjectives_annotator2.txt').open().read().split()
 adjectives = [w for w in adjectives if w in get_vocab()]
 
 

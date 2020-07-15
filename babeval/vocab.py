@@ -2,13 +2,15 @@ import nltk
 from pathlib import Path
 from nltk.stem.wordnet import WordNetLemmatizer
 
+from babeval import configs
+
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('words')
 
 wnl = WordNetLemmatizer()
 
-excluded_words = (Path(__file__).parent / "excluded_words.txt").open().read().split()
+excluded_words = (configs.Dirs.root / 'word_lists' / "excluded_words.txt").open().read().split()
 
 VOCAB_NAME = "childes-20191206_vocab.txt"  # fixed
 VOCAB_SIZE = 4000  # fixed
@@ -23,6 +25,7 @@ def get_vocab():
         my_list = [t[1::2] for t in text_string_list][0]
 
     return my_list[:VOCAB_SIZE]
+
 
 def get_frequency():
     path = Path(__file__).parent.parent / VOCAB_NAME
@@ -72,14 +75,8 @@ def classify_vocab(vocab):
 
 
 def save_to_txt(words, file_name):
-    output_folder = Path(__file__).parent.parent / "word_lists"
+    output_folder = Path(__file__).parent.parent / "nltk_results"
     out_path = output_folder / file_name
     with open(out_path, 'w') as f:
         for n, w in enumerate(words):
             f.write(w + '\n')
-
-
-# TODO need native speaker
-
-# TODO document dictonairy-based decisions
-

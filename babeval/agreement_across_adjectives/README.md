@@ -22,3 +22,43 @@
 2. Plural nouns were removed manually by American-English native speaker. 
 Annotators were given the instruction: "Does the word fit the slot in Look at these _ ?"
 
+## Scoring edge cases:
+
+- Should be scored as correct, but currently is not:
+
+                look                 look
+                  at                   at
+                that                 that
+              smooth               smooth
+              [MASK]                 ##ie
+
+                look                 look
+                  at                   at
+                this                 this
+              secret               secret
+              [MASK]                  ##s
+              
+                look                 look
+                  at                   at
+               those                those
+           expensive            expensive
+                wild                 wild
+             musical              musical
+              [MASK]                  ##s
+                   .                    .
+                   
+                look                 look
+                  at                   at
+               those                those
+              stable               stable
+              [MASK]                  ##s
+                   .                    .  
+                   
+                look                 look
+                  at                   at
+               these                these
+                dear                 dear
+             patient              patient
+              [MASK]                  ##s
+                   .                    .
+                                          

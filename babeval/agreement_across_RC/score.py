@@ -1,90 +1,77 @@
 from pathlib import Path
+from typing import List
 
-from babeval.visualizer import Visualizer
-from babeval.scoring import score_predictions
-from babeval.io import get_group2predictions_file_paths
-
-DUMMY = False
-
-task_name = Path(__file__).parent.name
-group2predictions_file_paths = get_group2predictions_file_paths(DUMMY, task_name)
-
-copulas_singular = ["is", "'s"]
-copulas_plural = ["are", "'re"]
+copulas_singular = ["is", "'s", "was"]
+copulas_plural = ["are", "'re", "were"]
 
 templates = ['default',
              ]
 
-prediction_categories = ("[UNK]", "correct\ncopula", "false\ncopula", "non-copula")
+prediction_categories = (
+    "non-start\nword-piece\nor\n[UNK]",
+    "correct\ncopula",
+    "false\ncopula",
+    "non-copula",
+)
 
 # load word lists
-with (Path().cwd() / 'nouns_annotator2.txt').open() as f:
-    nouns_list = f.read().split("\n")
-with (Path().cwd() / 'nouns_singular_annotator2.txt').open() as f:
-    nouns_singular = f.read().split("\n")
-with (Path().cwd() / 'nouns_plural_annotator2.txt').open() as f:
-    nouns_plural = f.read().split("\n")
+nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split("\n")
+nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split("\n")
 
-assert '[NAME]' in nouns_singular
-
+# check for list overlap
 for w in nouns_singular:
     assert w not in nouns_plural
-
 for w in nouns_plural:
     assert w not in nouns_singular
 
+nouns_singular += ['one', '[NAME]']
 
-def categorize_templates(test_sentence_list):
-
-    res = {}
-
-    for sentence in test_sentence_list:
-        res.setdefault(templates[0], []).append(sentence)
-    return res
+nouns_plural = set(nouns_plural)
+nouns_singular = set(nouns_singular)
 
 
-def categorize_predictions(test_sentence_list):
-    res = {'u': [], 'c': [], 'f': [], 'n': []}
+def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 
-    for sentence in test_sentence_list:
-        predicted_word = sentence[-3] 
+    template2sentences_out = {}
+    template2mask_index = {}
+    for s1, s2 in zip(sentences_in, sentences_out):
+        template2sentences_out.setdefault(templates[0], []).append(s2)
+        if templates[0] not in template2mask_index:
+            template2mask_index[templates[0]] = s1.index('[MASK]')
+    return template2sentences_out, template2mask_index
+
+
+def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
+    res = {k: 0 for k in prediction_categories}
+
+    for sentence in sentences_out:
+        predicted_word = sentence[mask_index]
         targeted_noun = sentence[1]
 
         # [UNK]
-        if predicted_word == "[UNK]":
-            res['u'].append(sentence)
+        if predicted_word.startswith('##') or predicted_word == "[UNK]":
+            res["non-start\nword-piece\nor\n[UNK]"] += 1
 
         # correct copula
         elif targeted_noun in nouns_plural and predicted_word in copulas_plural:
-            res['c'].append(sentence)
+            res["correct\ncopula"] += 1
 
         elif targeted_noun in nouns_singular and predicted_word in copulas_singular:
-            res['c'].append(sentence)
+            res["correct\ncopula"] += 1
 
         # false copula
         elif targeted_noun in nouns_plural and predicted_word in copulas_singular:
-            res['f'].append(sentence)
+            res["false\ncopula"] += 1
 
         elif targeted_noun in nouns_singular and predicted_word in copulas_plural:
-            res['f'].append(sentence)
+            res["false\ncopula"] += 1
 
         # Non-copula
         else:
-            res['n'].append(sentence)
+            res["non-copula"] += 1
 
     return res
 
 
 def print_stats(sentences):
     print('Done')
-
-
-# score
-template2group_name2props = score_predictions(group2predictions_file_paths,
-                                              templates,
-                                              categorize_templates,
-                                              categorize_predictions,
-                                              print_stats)
-# plot
-visualizer = Visualizer()
-visualizer.make_barplot(prediction_categories, template2group_name2props)
