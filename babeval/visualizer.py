@@ -36,10 +36,12 @@ class Visualizer:
         if 'control' in param_name:
             return param_name
 
-        if 'dummy' in param_name:
-            return param_name
+        if configs.Eval.dummy:
+            runs_path = configs.Dirs.runs_dummy
+        else:
+            runs_path = configs.Dirs.runs_server
 
-        path = configs.Dirs.runs_server / param_name / 'param2val.yaml'
+        path = runs_path / param_name / 'param2val.yaml'
         with path .open('r') as f:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
