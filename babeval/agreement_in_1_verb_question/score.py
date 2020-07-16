@@ -34,9 +34,7 @@ nouns_singular = set(nouns_singular)
 
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
-    """
-    Delete differentiation because we are spliting it into separate tasks
-    """
+
     template2sentences_out = {}
     template2mask_index = {}
     for s1, s2 in zip(sentences_in, sentences_out):
@@ -45,11 +43,10 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
             template2mask_index[templates[0]] = s1.index('[MASK]')
     return template2sentences_out, template2mask_index
 
+
 def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
     res = {k: 0 for k in prediction_categories}
 
-    raise NotImplementedError
-    
     for sentence in sentences_out:
         predicted_word = sentence[mask_index]
         targeted_noun = sentence[3]

@@ -4,8 +4,10 @@ from typing import List
 copulas_singular = ["is", "'s", "was"]
 copulas_plural = ["are", "'re", "were"]
 
-templates = ['default',
-             ]
+templates = [
+    'object-relative',
+    'subject-relative',
+]
 
 prediction_categories = (
     "non-start\nword-piece\nor\n[UNK]",
@@ -35,9 +37,14 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
     template2sentences_out = {}
     template2mask_index = {}
     for s1, s2 in zip(sentences_in, sentences_out):
-        template2sentences_out.setdefault(templates[0], []).append(s2)
-        if templates[0] not in template2mask_index:
-            template2mask_index[templates[0]] = s1.index('[MASK]')
+        if s1[4] in {'like', 'likes'}:
+            template2sentences_out.setdefault(templates[0], []).append(s2)
+            if templates[0] not in template2mask_index:
+                template2mask_index[templates[0]] = s1.index('[MASK]')
+        else:
+            template2sentences_out.setdefault(templates[1], []).append(s2)
+            if templates[1] not in template2mask_index:
+                template2mask_index[templates[1]] = s1.index('[MASK]')
     return template2sentences_out, template2mask_index
 
 
