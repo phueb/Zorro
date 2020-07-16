@@ -3,8 +3,8 @@
 from pathlib import Path
 from typing import List
 
-subjective_copula_singular = ["is", "'s"]  #"do" and "does" should not be considered correct answers
-subjective_copula_plural = ["are", "'re"]
+subjective_copula_singular = ["is", "'s", "was"]  # "do" and "does" should not be considered correct answers
+subjective_copula_plural = ["are", "'re", "were"]
 
 
 templates = ['default',

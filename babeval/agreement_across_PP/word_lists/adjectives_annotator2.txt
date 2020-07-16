@@ -2,6 +2,7 @@ afraid
 alive
 allergic
 alone
+alright
 amazing
 american
 angry
@@ -43,7 +44,6 @@ bumpy
 buried
 burning
 busy
-called
 calm
 camel
 careful

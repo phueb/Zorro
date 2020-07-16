@@ -17,7 +17,7 @@ nouns_singular = [w for w in nouns_singular if w in get_vocab()]
 
 
 def main():
-    random.seed(2)
+    random.seed(3)
 
     nouns_balanced = random.sample(nouns_singular, k=NUM_NOUNS_FROM_EACH_LIST) + \
                      random.sample(nouns_plural, k=NUM_NOUNS_FROM_EACH_LIST)

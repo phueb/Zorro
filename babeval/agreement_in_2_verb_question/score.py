@@ -3,8 +3,9 @@
 from pathlib import Path
 from typing import List
 
-subjective_copula_singular = ["does"] #only "do" and does should be considered answers
+subjective_copula_singular = ["does"]  # only "do" and does should be considered answers
 subjective_copula_plural = ["do"]
+subjective_copula_ambiguous = ["did"]
 
 templates = ['default',
              ]
@@ -13,6 +14,7 @@ prediction_categories = (
     "non-start\nword-piece\nor\n[UNK]",
     "copula\ncorrect",
     "copula\nfalse",
+    "copula\nambiguous",
     "non-copula",
 )
 
@@ -45,10 +47,9 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
             template2mask_index[templates[0]] = s1.index('[MASK]')
     return template2sentences_out, template2mask_index
 
+
 def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
     res = {k: 0 for k in prediction_categories}
-
-    raise NotImplementedError
 
     for sentence in sentences_out:
         predicted_word = sentence[mask_index]
@@ -71,6 +72,10 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
 
         elif targeted_noun in nouns_singular and predicted_word in subjective_copula_plural:
             res["copula\nfalse"] += 1
+
+        # ambiguous
+        elif predicted_word in subjective_copula_ambiguous:
+            res["copula\nambiguous"] += 1
 
         else:
             res["non-copula"] += 1
