@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import List
 
 PRINT_STATS = False
-
+SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = True
 
 
 start_words_singular = ["this", "that"]
@@ -38,6 +38,10 @@ for w in nouns_plural:
     assert w not in nouns_singular
 
 nouns_singular += ['one']
+
+# score correct when start word is plural and predicted ##s turns adjective into a plural noun
+if SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
+    nouns_plural.append('##s')
 
 # move proper nouns to separate set
 nouns_proper = set([n for n in nouns_singular if n.istitle()])
@@ -80,15 +84,16 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
     res = {k: 0 for k in prediction_categories}
 
-    # TODO: score correct when start word is plural and predicted ##s turns a preceding word into a plural noun
-
     for sentence in sentences_out:
         predicted_word = sentence[mask_index]
         start_word = [w for w in sentence if w in start_words][0]
 
         # non-start wordpiece
         if predicted_word.startswith("##") or predicted_word == '[UNK]':
-            res["non-start\nword-piece\nor\n[UNK]"] += 1
+            if predicted_word != '##s':
+                res["non-start\nword-piece\nor\n[UNK]"] += 1
+            elif not SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
+                res["non-start\nword-piece\nor\n[UNK]"] += 1
 
         # proper noun
         if predicted_word in nouns_proper:
