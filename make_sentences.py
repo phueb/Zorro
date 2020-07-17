@@ -35,14 +35,14 @@ with open(out_path, 'w') as f:
 
 
 # generate_agreement_in_1_verb_question
-out_path = output_folder / 'generate_agreement_in_1_verb_question.txt'
+out_path = output_folder / 'agreement_in_1_verb_question.txt'
 with open(out_path, 'w') as f:
     for n, sentence in enumerate(generate_agreement_in_1_verb_question()):
         f.write(sentence + '\n')
     print(f'Saved {n:,} sentences to {out_path}')
 
 # generate_agreement_in_2_verb_question
-out_path = output_folder / 'generate_agreement_in_2_verb_question.txt'
+out_path = output_folder / 'agreement_in_2_verb_question.txt'
 with open(out_path, 'w') as f:
     for n, sentence in enumerate(generate_agreement_in_2_verb_question()):
         f.write(sentence + '\n')
