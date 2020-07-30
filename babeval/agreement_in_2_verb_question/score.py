@@ -15,13 +15,12 @@ prediction_categories = (
     "copula\ncorrect",
     "copula\nfalse",
     "copula\nambiguous",
-    "non-copula",
+    "other",  # can be a different copula or any other word
 )
 
 # load word lists
 nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split("\n")
 nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split("\n")
-
 
 # check for list overlap
 for w in nouns_singular:
@@ -36,9 +35,7 @@ nouns_singular = set(nouns_singular)
 
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
-    """
-    Delete differentiation because we are spliting it into separate tasks
-    """
+
     template2sentences_out = {}
     template2mask_index = {}
     for s1, s2 in zip(sentences_in, sentences_out):
@@ -81,3 +78,7 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
             res["non-copula"] += 1
 
     return res
+
+
+def print_stats(sentences):
+    pass
