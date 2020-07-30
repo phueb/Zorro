@@ -65,7 +65,7 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
 
             # num_adjectives: the number of words in between [MASK] and noun
 
-            num_adjectives = len(s1[s1.index('[MASK]'):s1.index(noun) + 1])
+            num_adjectives = len(s1[s1.index('[MASK]')+1:s1.index(noun)])
             if num_adjectives == 1:  # 1 adjective
                 template2sentences_out.setdefault(templates[0], []).append(s2)
                 if templates[0] not in template2mask_index:
@@ -101,7 +101,7 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
             res["start_word +\ncorrect number"] += 1
 
         # false start_word
-        elif predicted_word in tart_words_plural and noun in nouns_singular:
+        elif predicted_word in start_words_plural and noun in nouns_singular:
             res["start_word +\nfalse number"] += 1
 
         elif predicted_word in start_words_singular and noun in nouns_plural:
