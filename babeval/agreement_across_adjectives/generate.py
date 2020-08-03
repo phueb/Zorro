@@ -16,7 +16,7 @@ def main():
     use adjectives specifically selected for this task
     """
 
-    random.seed(2)
+    random.seed(3)
 
     for start_word in start_words:
 

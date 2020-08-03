@@ -8,8 +8,8 @@ from babeval.bigrams import w2max_left_bigram_f, w2max_right_bigram_f
 from babeval.io import get_group2predictions_file_paths
 
 # chose one
-ANALYZE_PREDICTION_CATEGORIES = 0
-ANALYZE_LEFT_BIGRAM_FREQUENCY_PERCENTILES = 1
+ANALYZE_PREDICTION_CATEGORIES = 1
+ANALYZE_LEFT_BIGRAM_FREQUENCY_PERCENTILES = 0
 ANALYZE_RIGHT_BIGRAM_FREQUENCY_PERCENTILES = 0
 ANALYZE_MAX_VS_PREDICTED_LEFT_BIGRAM_FREQUENCY = 0
 ANALYZE_MAX_VS_PREDICTED_RIGHT_BIGRAM_FREQUENCY = 0
@@ -20,9 +20,10 @@ MAX_STEP = 180_000
 # chose one
 TASK_NAMES = [
     # 'agreement_across_adjectives',
-    'agreement_across_PP',
+    # 'agreement_across_PP',
     # 'agreement_across_RC',
-    # 'agreement_in_question',
+    # 'agreement_in_1_verb_question',
+    'agreement_in_2_verb_question',
 ]
 
 for task_name in TASK_NAMES:
