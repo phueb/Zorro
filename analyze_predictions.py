@@ -20,10 +20,11 @@ MAX_STEP = 180_000
 # chose one
 TASK_NAMES = [
     # 'agreement_across_adjectives',
-    # 'agreement_across_PP',
+    # 'agreement_across_adjectives_2',
+    'agreement_across_PP',
     # 'agreement_across_RC',
     # 'agreement_in_1_verb_question',
-    'agreement_in_2_verb_question',
+    # 'agreement_in_2_verb_question',
 ]
 
 for task_name in TASK_NAMES:

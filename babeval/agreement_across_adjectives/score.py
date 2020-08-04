@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import List
 
 PRINT_STATS = False
-SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = False
+SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = 1
 
 
 start_words_singular = ["this", "that"]

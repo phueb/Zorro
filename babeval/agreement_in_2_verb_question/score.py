@@ -75,7 +75,7 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
             res["copula\nambiguous"] += 1
 
         else:
-            res["non-copula"] += 1
+            res["other"] += 1
 
     return res
 
