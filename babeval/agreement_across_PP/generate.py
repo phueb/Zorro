@@ -26,6 +26,9 @@ adjectives = [w for w in adjectives if w in get_vocab()]
 
 def main():
     """
+    example:
+    "the dog on the mat [MASK] brown"
+
     considerations:
     1. use equal proportion of sentences containing plural vs. singular subject nouns
     2. use equal proportion of plural vs. singular object nouns n singular vs. plural sentences

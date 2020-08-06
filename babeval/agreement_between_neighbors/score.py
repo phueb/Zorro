@@ -12,9 +12,7 @@ pre_nominals_singular = ["this", "that"]
 pre_nominals_plural = ["these", "those"]
 pre_nominals = set(pre_nominals_singular + pre_nominals_plural)
 
-templates = ['1 Adjective(s)',
-             '2 Adjective(s)',
-             '3 Adjective(s)',
+templates = ['default',
              ]
 
 prediction_categories = (
@@ -37,10 +35,6 @@ for w in nouns_singular:
 for w in nouns_plural:
     assert w not in nouns_singular
 
-# score correct when start word is plural and predicted ##s turns adjective into a plural noun
-if SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
-    nouns_plural.append('##s')
-
 # move proper nouns to separate set
 nouns_proper = [n for n in nouns_singular if n.istitle()]
 nouns_singular = [n for n in nouns_singular if n not in nouns_proper]
@@ -56,29 +50,12 @@ nouns_ambiguous = set(nouns_ambiguous)
 
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
-
     template2sentences_out = {}
     template2mask_index = {}
     for s1, s2 in zip(sentences_in, sentences_out):
-        try:
-            pre_nominal = [w for w in s1 if w in pre_nominals][0]
-        except IndexError:  # no start word
-            raise RuntimeError('Failed to categorize sentence into template')
-        else:
-            num_adjectives = len(s1[s1.index(pre_nominal) + 1:s1.index('[MASK]')])
-            if num_adjectives == 1:  # 1 adjective
-                template2sentences_out.setdefault(templates[0], []).append(s2)
-                if templates[0] not in template2mask_index:
-                    template2mask_index[templates[0]] = s1.index('[MASK]')
-            elif num_adjectives == 2:  # 2 adjectives
-                template2sentences_out.setdefault(templates[1], []).append(s2)
-                if templates[1] not in template2mask_index:
-                    template2mask_index[templates[1]] = s1.index('[MASK]')
-            elif num_adjectives == 3:  # 3 adjectives
-                template2sentences_out.setdefault(templates[2], []).append(s2)
-                if templates[2] not in template2mask_index:
-                    template2mask_index[templates[2]] = s1.index('[MASK]')
-
+        template2sentences_out.setdefault(templates[0], []).append(s2)
+        if templates[0] not in template2mask_index:
+            template2mask_index[templates[0]] = s1.index('[MASK]')
     return template2sentences_out, template2mask_index
 
 
@@ -91,10 +68,7 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
 
         # non-start wordpiece
         if predicted_word.startswith("##") or predicted_word == '[UNK]':
-            if predicted_word != '##s':
-                res["non-start\nword-piece\nor\n[UNK]"] += 1
-            elif not SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
-                res["non-start\nword-piece\nor\n[UNK]"] += 1
+            res["non-start\nword-piece\nor\n[UNK]"] += 1
 
         # proper noun
         if predicted_word in nouns_proper:

@@ -32,6 +32,10 @@ assert len(pronouns_3p) == len(pronouns_1p_2p)
 
 
 def main():
+    """
+    example:
+    "the dog that I like [MASK] lazy"
+    """
 
     random.seed(3)
 

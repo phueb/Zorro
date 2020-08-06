@@ -21,7 +21,8 @@ nouns_singular = [w for w in nouns_singular if w in get_vocab()]
 
 def main():
     """
-    use adjectives specifically selected for this task
+    example:
+    "look at [MASK] green sock"
     """
 
     random.seed(3)
