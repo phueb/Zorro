@@ -37,18 +37,19 @@ for w in nouns_singular:
 for w in nouns_plural:
     assert w not in nouns_singular
 
-nouns_singular += ['one']
-
 # score correct when start word is plural and predicted ##s turns adjective into a plural noun
 if SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
     nouns_plural.append('##s')
 
 # move proper nouns to separate set
-nouns_proper = set([n for n in nouns_singular if n.istitle()])
-nouns_proper.add('[NAME]')
+nouns_proper = [n for n in nouns_singular if n.istitle()]
 nouns_singular = [n for n in nouns_singular if n not in nouns_proper]
 
+# add words
+nouns_proper += ['[NAME]', '[PLACE]', '[MISC]']
+nouns_singular += ['one']
 
+nouns_proper = set(nouns_proper)
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
 nouns_ambiguous = set(nouns_ambiguous)
