@@ -14,7 +14,7 @@ prediction_categories = (
     "non-start\nword-piece\nor\n[UNK]",
     "copula\ncorrect",
     "copula\nfalse",
-    "non-copula",
+    "other",
 )
 
 # load word lists
@@ -70,7 +70,7 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
             res["copula\nfalse"] += 1
 
         else:
-            res["non-copula"] += 1
+            res["other"] += 1
 
     return res
 

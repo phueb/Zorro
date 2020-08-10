@@ -1,15 +1,10 @@
 afraid
 alive
 allergic
-alone
-alright
 amazing
 american
 angry
-another
-apart
 asleep
-associated
 attached
 awake
 awesome
@@ -25,7 +20,6 @@ big
 bigger
 biggest
 bitter
-bitty
 black
 blind
 blue
@@ -37,7 +31,6 @@ brave
 bright
 broken
 brown
-buggy
 bumble
 bumped
 bumpy
@@ -86,7 +79,6 @@ dead
 dear
 deep
 delicious
-devil
 different
 difficult
 dirty
@@ -238,7 +230,6 @@ loose
 lost
 loud
 louder
-loved
 lovely
 low
 lower
@@ -302,7 +293,6 @@ picked
 pink
 plain
 plastic
-please
 pleased
 plenty
 plus

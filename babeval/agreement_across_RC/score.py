@@ -13,7 +13,7 @@ prediction_categories = (
     "non-start\nword-piece\nor\n[UNK]",
     "correct\ncopula",
     "false\ncopula",
-    "non-copula",
+    "other",
 )
 
 # load word lists
@@ -73,9 +73,9 @@ def categorize_predictions(sentences_out: List[List[str]], mask_index: int):
         elif targeted_noun in nouns_singular and predicted_word in copulas_plural:
             res["false\ncopula"] += 1
 
-        # Non-copula
+        # other
         else:
-            res["non-copula"] += 1
+            res["other"] += 1
 
     return res
 
