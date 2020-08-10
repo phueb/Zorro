@@ -9,7 +9,7 @@ NUM_ADJECTIVES = 20
 
 template = 'look at [MASK] {} {} .'
 
-adjectives = (Path(__file__).parent / 'word_lists' / 'adjectives_annotator1.txt').open().read().split()
+adjectives = (Path(__file__).parent / 'word_lists' / 'adjectives_annotator2.txt').open().read().split()
 adjectives = [w for w in adjectives if w in get_vocab()]
 
 nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split()
