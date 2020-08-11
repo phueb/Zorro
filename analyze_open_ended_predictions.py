@@ -29,7 +29,7 @@ TASK_NAMES = [
 
 for task_name in TASK_NAMES:
     # load module containing task-relevant objects
-    s = importlib.import_module(f'babeval.{task_name}.score')
+    s = importlib.import_module(f'babeval.{task_name}.score_open_ended')
 
     for step in list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
 
