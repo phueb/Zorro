@@ -51,7 +51,7 @@ def prepare_data_for_barplot(group2predictions_file_paths: Dict[str, List[Path]]
         for row_id, predictions_file_path in enumerate(predictions_file_paths):
             print(predictions_file_path)
 
-            # read test sentences file with input and output in column1 and column 2 respectively
+            # read test sentences file with input and sentences in column1 and column 2 respectively
             reader = Reader(predictions_file_path)
             if group_name == control_name_1gram:
                 sentences_out = reader.sentences_out_unigram_distribution_control
@@ -114,7 +114,7 @@ def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Pa
         for row_id, predictions_file_path in enumerate(predictions_file_paths):
             print(predictions_file_path)
 
-            # read test sentences file with input and output in column1 and column 2 respectively
+            # read test sentences file with input and sentences in column1 and column 2 respectively
             reader = Reader(predictions_file_path)
 
             for s1, s2 in zip(reader.sentences_in, reader.sentences_out):

@@ -34,7 +34,7 @@ for task_name in TASK_NAMES:
     for step in list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
 
         # load prediction files
-        group2predictions_file_paths = get_group2predictions_file_paths(task_name, step)
+        group2predictions_file_paths = get_group2predictions_file_paths(task_name, 'open_ended', step)
 
         v = Visualizer(group2predictions_file_paths, step)
 

@@ -5,6 +5,7 @@ from babeval import configs
 
 
 def get_group2predictions_file_paths(task_name: str,
+                                     task_type: str,
                                      step: Optional[int] = None,
                                      ) -> Dict[str, List[Path]]:
     if step is None:
@@ -17,7 +18,7 @@ def get_group2predictions_file_paths(task_name: str,
     else:
         runs_path = configs.Dirs.runs_server
 
-    group2pattern = {g: f'{g}/**/saves/probing_{task_name}_results_{step}.txt'
+    group2pattern = {g: f'{g}/**/saves/{task_type}/probing_{task_name}_results_{step}.txt'
                      for g in configs.Eval.param_names}
     print(group2pattern)
     group2predictions_file_paths = {g: [p for p in runs_path.rglob(pattern)][:configs.Eval.max_reps]
