@@ -1,7 +1,7 @@
 import importlib
 
 from babeval.visualizer import Visualizer
-from babeval.prepare import prepare_data_for_barplot, prepare_data_for_scatterplot
+from babeval.prepare import prepare_data_for_barplot_open_ended, prepare_data_for_scatterplot
 from babeval.bigrams import categorize_left_bigrams, categorize_right_bigrams
 from babeval.bigrams import bigram_frequency_percentiles, bigram2f
 from babeval.bigrams import w2max_left_bigram_f, w2max_right_bigram_f
@@ -40,35 +40,35 @@ for task_name in TASK_NAMES:
 
         if ANALYZE_PREDICTION_CATEGORIES:
             # categorize productions into production categories
-            template2group_name2props = prepare_data_for_barplot(group2predictions_file_paths,
-                                                                 s.templates,
-                                                                 s.prediction_categories,
-                                                                 s.categorize_by_template,
-                                                                 s.categorize_predictions,
-                                                                 s.print_stats)
+            template2group_name2props = prepare_data_for_barplot_open_ended(group2predictions_file_paths,
+                                                                            s.templates,
+                                                                            s.prediction_categories,
+                                                                            s.categorize_by_template,
+                                                                            s.categorize_predictions,
+                                                                            s.print_stats)
             # plot
             v.make_barplot(s.prediction_categories, template2group_name2props, task_name)
 
         if ANALYZE_LEFT_BIGRAM_FREQUENCY_PERCENTILES:
             # categorize productions into bi-gram percentile categories
-            template2group_name2props = prepare_data_for_barplot(group2predictions_file_paths,
-                                                                 s.templates,
-                                                                 bigram_frequency_percentiles,
-                                                                 s.categorize_by_template,
-                                                                 categorize_left_bigrams,
-                                                                 s.print_stats)
+            template2group_name2props = prepare_data_for_barplot_open_ended(group2predictions_file_paths,
+                                                                            s.templates,
+                                                                            bigram_frequency_percentiles,
+                                                                            s.categorize_by_template,
+                                                                            categorize_left_bigrams,
+                                                                            s.print_stats)
             # plot
             v.make_barplot(bigram_frequency_percentiles, template2group_name2props, task_name,
                            xlabel='left bi-gram frequency percentile')
 
         if ANALYZE_RIGHT_BIGRAM_FREQUENCY_PERCENTILES:
             # categorize productions into bi-gram percentile categories
-            template2group_name2props = prepare_data_for_barplot(group2predictions_file_paths,
-                                                                 s.templates,
-                                                                 bigram_frequency_percentiles,
-                                                                 s.categorize_by_template,
-                                                                 categorize_right_bigrams,
-                                                                 s.print_stats)
+            template2group_name2props = prepare_data_for_barplot_open_ended(group2predictions_file_paths,
+                                                                            s.templates,
+                                                                            bigram_frequency_percentiles,
+                                                                            s.categorize_by_template,
+                                                                            categorize_right_bigrams,
+                                                                            s.print_stats)
             # plot
             v.make_barplot(bigram_frequency_percentiles, template2group_name2props, task_name,
                            xlabel='right bi-gram frequency percentile')

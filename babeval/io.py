@@ -26,7 +26,7 @@ def get_group2predictions_file_paths(task_name: str,
 
     # check paths
     for k, v in group2predictions_file_paths.items():
-        assert v, f'Did not find prediction files for group ={k}'
+        assert v, f'Did not find prediction files for group={k}'
         print(k)
         print(v)
 

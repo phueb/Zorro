@@ -4,13 +4,13 @@ from babeval.vocab import get_vocab, get_frequency
 from babeval.bigrams import right_w2_left_w2f, left_w2right_w2f
 
 
-class Reader:
+class ReaderOpenEnded:
     def __init__(self, predictions_file_path):
 
         self.predictions_file_path = predictions_file_path
         self.sentences_in, self.sentences_out = self.get_columns()
 
-        print(f'Initialized reader. Found {len(self.sentences_out)} lines in file.')
+        print(f'Initialized reader for open_ended predictions. Found {len(self.sentences_out)} lines in file.')
 
     @property
     def sentences_out_unigram_distribution_control(self):
@@ -108,3 +108,28 @@ class Reader:
             result.append(s_new)
 
         return result
+
+
+class ReaderForcedChoice:
+    def __init__(self, predictions_file_path):
+
+        self.predictions_file_path = predictions_file_path
+        self.sentences_in, self.cross_entropies = self.get_columns()
+
+        print(f'Initialized reader for open_ended predictions. Found {len(self.sentences_in)} lines in file.')
+
+        print()
+
+    def get_columns(self):
+        lines = self.predictions_file_path.open().readlines()
+
+        col1 = []
+        col2 = []
+        for line in lines:
+            parts = line.split()
+            sentence_in = parts[:-1]
+            xe = float(parts[-1])
+            col1.append(sentence_in)
+            col2.append(xe)
+
+        return col1, col2
