@@ -10,14 +10,13 @@ def prepare_data_for_barplot_open_ended(group2predictions_file_paths: Dict[str, 
                                         prediction_categories: Tuple,
                                         categorize_by_template: Callable,
                                         categorize_predictions: Callable,
-                                        print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
+                                        ) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param templates: list of names for templates, one for each subplot
     :param prediction_categories: categories for classifying productions made by model
     :param categorize_by_template: function for separating sentences by template
     :param categorize_predictions: function for scoring
-    :param print_stats: function to print basic information about sentences (optional)
     :return: double-embedded dict, which can be input to barplot function
     how it works: for each group of prediction files:
     1. the prediction files are read and categorized by template and production category (eg. false, correct, etc)
@@ -62,7 +61,6 @@ def prepare_data_for_barplot_open_ended(group2predictions_file_paths: Dict[str, 
             else:
                 sentences_out = reader.sentences_out
 
-            print_stats(sentences_out)
             template2sentences_out, template2mask_index = categorize_by_template(reader.sentences_in,
                                                                                  sentences_out)
 
@@ -92,14 +90,13 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
                                            prediction_categories: Tuple,
                                            categorize_by_template: Callable,
                                            categorize_predictions: Callable,
-                                           print_stats: Callable) -> Dict[str, Dict[str, np.array]]:
+                                           ) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param templates: list of names for templates, one for each subplot
     :param prediction_categories: categories for classifying productions made by model
     :param categorize_by_template: function for separating sentences by template
     :param categorize_predictions: function for scoring
-    :param print_stats: function to print basic information about sentences (optional)
     :return: double-embedded dict, which can be input to barplot function
     how it works: for each group of prediction files:
     1. the prediction files are read and categorized by template and production category (eg. false, correct, etc)
@@ -138,7 +135,6 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
 
             # read test sentences file with input sentences and cross-entropies in column1 and column 2 respectively
             reader = ReaderForcedChoice(predictions_file_path)
-            print_stats(reader.sentences_in)
 
             # TODO use bi-grams to score which choice (which bi-gram) is more frequent in corpus
             if group_name in control_group_names:

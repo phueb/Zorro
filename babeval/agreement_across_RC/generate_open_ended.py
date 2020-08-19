@@ -1,7 +1,6 @@
 import random
-from pathlib import Path
 
-from babeval.vocab import get_vocab
+from babeval.agreement_across_RC import *
 
 NUM_NOUNS_FROM_EACH_LIST = 50  # there are 414 plurals
 NUM_ADJECTIVES = 10
@@ -12,23 +11,6 @@ template1b = 'the {} that {} likes [MASK] {} .'
 # subject-relative clause - contains hint about number in relative clause
 template2a = 'the {} that is there [MASK] {} .'
 template2b = 'the {} that are there [MASK] {} .'
-
-nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split()
-nouns_plural = [w for w in nouns_plural if w in get_vocab()]
-
-nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split()
-nouns_singular = [w for w in nouns_singular if w in get_vocab()]
-
-adjectives = (Path(__file__).parent / 'word_lists' / 'adjectives_annotator2.txt').open().read().split()
-adjectives = [w for w in adjectives if w in get_vocab()]
-
-pronouns_1p_2p = ['I', 'you', 'we']
-pronouns_1p_2p = [w for w in pronouns_1p_2p if w in get_vocab()]
-
-pronouns_3p = ['he', 'she', 'it']
-pronouns_3p = [w for w in pronouns_3p if w in get_vocab()]
-
-assert len(pronouns_3p) == len(pronouns_1p_2p)
 
 
 def main():

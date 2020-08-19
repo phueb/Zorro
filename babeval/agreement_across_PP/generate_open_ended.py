@@ -1,7 +1,6 @@
-from pathlib import Path
 import random
 
-from babeval.vocab import get_vocab
+from babeval.agreement_across_PP import *
 
 
 NUM_SUBJECT_NOUNS_FROM_EACH_LIST = 50  # some number smaller than length of both singular and plural noun lists
@@ -9,19 +8,7 @@ NUM_OBJECT_NOUNS_FROM_EACH_LIST = 8  # some number smaller than length of both s
 NUM_ADJECTIVES = 4
 NUM_PREPOSITIONS = 2
 
-template = 'the {} {} [MASK] {} .'
-
-nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split()
-nouns_plural = [w for w in nouns_plural if w in get_vocab()]
-
-nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split()
-nouns_singular = [w for w in nouns_singular if w in get_vocab()]
-
-prepositions = (Path(__file__).parent / 'word_lists' / 'prepositions_annotator2.txt').open().read().split()
-prepositions = [w for w in prepositions if w in get_vocab()]
-
-adjectives = (Path(__file__).parent / 'word_lists' / 'adjectives_annotator2.txt').open().read().split()
-adjectives = [w for w in adjectives if w in get_vocab()]
+template1 = 'the {} {} [MASK] {} .'
 
 
 def main():
@@ -62,4 +49,4 @@ def main():
     for noun_subject in nouns_subject_balanced:
         for pp in prepositional_phrases:
             for adjective in adjectives_sample:
-                yield template.format(noun_subject, pp, adjective)
+                yield template1.format(noun_subject, pp, adjective)

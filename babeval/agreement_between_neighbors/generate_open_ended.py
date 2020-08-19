@@ -1,8 +1,8 @@
 
 
-template = 'look at {} [MASK] .'
+from babeval.agreement_between_neighbors import *
 
-pre_nominals = ['this', 'these', 'that', 'those']
+template = 'look at {} [MASK] .'
 
 
 def main():

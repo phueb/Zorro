@@ -8,9 +8,13 @@ class Dirs:
     runs_dummy = root / 'runs'
 
 
+class Data:
+    annotator = 'annotator_2'
+
+
 class Eval:
     dummy = True  # use files containing dummy predictions not on lab server
     step = 180_000
-    param_names = ['param_003', 'param_002']
+    param_names = ['param_001', 'param_002']
     condition = 'srl_interleaved'
     max_reps = 10

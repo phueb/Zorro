@@ -1,18 +1,15 @@
 import random
 from pathlib import Path
 
-from babeval.vocab import get_vocab
+from babeval import configs
 
 NUM_NOUNS_FROM_EACH_LIST = 400  # there are only 414 plurals
 
 template1 = 'where [MASK] the {} go ?'
 template2 = 'what [MASK] the {} do ?'
 
-nouns_plural = (Path(__file__).parent / 'word_lists' / 'nouns_plural_annotator2.txt').open().read().split()
-nouns_plural = [w for w in nouns_plural if w in get_vocab()]
-
-nouns_singular = (Path(__file__).parent / 'word_lists' / 'nouns_singular_annotator2.txt').open().read().split()
-nouns_singular = [w for w in nouns_singular if w in get_vocab()]
+nouns_plural = (Path(__file__).parent / configs.Data.annotator / 'nouns_plural.txt').open().read().split()
+nouns_singular = (Path(__file__).parent / configs.Data.annotator / 'nouns_singular.txt').open().read().split()
 
 
 def main():
