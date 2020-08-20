@@ -13,7 +13,7 @@ def main():
     "these green [MASK] went there .
     """
 
-    random.seed(3)
+    random.seed(configs.Data.seed)
 
     for pre_nominal in pre_nominals:
 

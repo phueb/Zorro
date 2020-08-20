@@ -13,11 +13,11 @@ def main():
     "these green [MASK] went there .
     """
 
-    random.seed(3)
+    random.seed(configs.Data.seed)
+
+    adjectives_sample = random.sample(adjectives, k=len(adjectives))
 
     for pre_nominal in pre_nominals:
-
-        adjectives_sample = random.sample(adjectives, k=len(adjectives))
 
         for adj in adjectives_sample:
             yield template1.format(pre_nominal, ' '.join([adj]))

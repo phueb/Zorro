@@ -2,7 +2,9 @@ from typing import Dict, List, Callable, Tuple
 import numpy as np
 from pathlib import Path
 
-from babeval.readers import ReaderOpenEnded, ReaderForcedChoice
+from babeval.data import DataExpOpenEnded, DataCtlOpenEnded
+from babeval.data import DataExpForcedChoice, DataCtlForcedChoice
+from babeval import configs
 
 
 def prepare_data_for_barplot_open_ended(group2predictions_file_paths: Dict[str, List[Path]],
@@ -29,43 +31,32 @@ def prepare_data_for_barplot_open_ended(group2predictions_file_paths: Dict[str, 
 
     'props' is a 2D array (matrix) containing proportions organized by category (in rows) and replications (in columns)
     """
-    control_name_1gram = '1-gram-distribution control'
-    control_name_left_2gram = 'left 2-gram-distribution control'
-    control_name_right_2gram = 'right 2-gram-distribution control'
-
     group_names = list(group2predictions_file_paths.keys())
-    control_group_names = [control_name_1gram, control_name_left_2gram, control_name_right_2gram]
-    group_names_with_controls = group_names + control_group_names
-    template2group_name2props = {template: {gn: None for gn in group_names_with_controls}
-                                 for template in templates}
+    group_names_with_controls = group_names + configs.Data.control_names
+
+    # get a path to experimental data file so that control data can be generated based on experimental data format
+    control_fp = group2predictions_file_paths[group_names[0]][0]
+
+    res = {template: {gn: None for gn in group_names_with_controls}
+           for template in templates}
 
     for group_name in group_names_with_controls:
         print(f'===============\n{group_name}\n===============')
 
-        if group_name in control_group_names:
-            predictions_file_paths = group2predictions_file_paths[group_names[0]]
+        # read experimental, or generate control data
+        if group_name in configs.Data.control_names:
+            data_instances = [DataCtlOpenEnded(control_fp, group_name) for _ in range(configs.Data.num_control_reps)]
         else:
-            predictions_file_paths = group2predictions_file_paths[group_name]
+            data_instances = [DataExpOpenEnded(fp) for fp in group2predictions_file_paths[group_name]]
 
-        for row_id, predictions_file_path in enumerate(predictions_file_paths):
-            print(predictions_file_path)
+        for row_id, data in enumerate(data_instances):
 
-            # read test sentences file with input and output sentences in column1 and column 2 respectively
-            reader = ReaderOpenEnded(predictions_file_path)
-            if group_name == control_name_1gram:
-                sentences_out = reader.sentences_out_unigram_distribution_control
-            elif group_name == control_name_left_2gram:
-                sentences_out = reader.sentences_out_left_bigram_distribution_control
-            elif group_name == control_name_right_2gram:
-                sentences_out = reader.sentences_out_right_bigram_distribution_control
-            else:
-                sentences_out = reader.sentences_out
-
-            template2sentences_out, template2mask_index = categorize_by_template(reader.sentences_in,
-                                                                                 sentences_out)
+            template2sentences_out, template2mask_index = categorize_by_template(data.sentences_in,
+                                                                                 data.sentences_out)
 
             for template in templates:
-                print(template)
+                assert template2sentences_out[template]
+                assert template2mask_index[template]
 
                 # organize by sentence template
                 category2num_in_category = categorize_predictions(template2sentences_out[template],
@@ -75,17 +66,18 @@ def prepare_data_for_barplot_open_ended(group2predictions_file_paths: Dict[str, 
                 for col_id, category in enumerate(prediction_categories):
                     prop = category2num_in_category[category] / len(template2sentences_out[template])
                     # initialize matrix for storing proportions
-                    if template2group_name2props[template][group_name] is None:
-                        num_rows = len(predictions_file_paths)
+                    if res[template][group_name] is None:
+                        num_rows = len(data_instances)
                         num_cols = len(category2num_in_category)
-                        template2group_name2props[template][group_name] = np.zeros((num_rows, num_cols))
+                        res[template][group_name] = np.zeros((num_rows, num_cols))
                     # populate matrix
-                    template2group_name2props[template][group_name][row_id][col_id] = prop
+                    res[template][group_name][row_id][col_id] = prop
 
-    return template2group_name2props
+    return res
 
 
 def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[str, List[Path]],
+                                           task_name: str,
                                            templates: List[str],
                                            prediction_categories: Tuple,
                                            categorize_by_template: Callable,
@@ -93,6 +85,7 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
                                            ) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
+    :param task_name: name of task, used to make control data
     :param templates: list of names for templates, one for each subplot
     :param prediction_categories: categories for classifying productions made by model
     :param categorize_by_template: function for separating sentences by template
@@ -109,42 +102,31 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
 
     'props' is a 2D array (matrix) containing proportions organized by category (in rows) and replications (in columns)
     """
-    control_name_1gram = '1-gram-distribution control'
-    control_name_left_2gram = 'left 2-gram-distribution control'
-    control_name_right_2gram = 'right 2-gram-distribution control'
 
     group_names = list(group2predictions_file_paths.keys())
-    control_group_names = [control_name_1gram, control_name_left_2gram, control_name_right_2gram]
+    group_names_with_controls = group_names + configs.Data.control_names
 
-    # group_names_with_controls = group_names + control_group_names
-    group_names_with_controls = group_names  # TODO use controls
-
-    template2group_name2props = {template: {gn: None for gn in group_names_with_controls}
-                                 for template in templates}
+    # result - template2group_name2props
+    res = {template: {gn: None for gn in group_names_with_controls}
+           for template in templates}
 
     for group_name in group_names_with_controls:
         print(f'===============\n{group_name}\n===============')
 
-        if group_name in control_group_names:
-            predictions_file_paths = group2predictions_file_paths[group_names[0]]
+        # read experimental, or generate control data
+        if group_name in configs.Data.control_names:
+            data_instances = [DataCtlForcedChoice(task_name, group_name) for _ in range(configs.Data.num_control_reps)]
         else:
-            predictions_file_paths = group2predictions_file_paths[group_name]
+            data_instances = [DataExpForcedChoice(fp) for fp in group2predictions_file_paths[group_name]]
 
-        for row_id, predictions_file_path in enumerate(predictions_file_paths):
-            print(predictions_file_path)
+        for row_id, data in enumerate(data_instances):
 
-            # read test sentences file with input sentences and cross-entropies in column1 and column 2 respectively
-            reader = ReaderForcedChoice(predictions_file_path)
-
-            # TODO use bi-grams to score which choice (which bi-gram) is more frequent in corpus
-            if group_name in control_group_names:
-                pass
-
-            template2sentences_in, template2xes = categorize_by_template(reader.sentences_in,
-                                                                         reader.cross_entropies)
+            template2sentences_in, template2xes = categorize_by_template(data.sentences_in,
+                                                                         data.cross_entropies)
 
             for template in templates:
-                print(template)
+                assert template2xes[template]
+                assert template2sentences_in[template]
 
                 assert len(template2sentences_in[template]) == len(template2xes[template])
 
@@ -156,14 +138,14 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
                 for col_id, category in enumerate(prediction_categories):
                     prop = category2num_in_category[category] / len(template2sentences_in[template])
                     # initialize matrix for storing proportions
-                    if template2group_name2props[template][group_name] is None:
-                        num_rows = len(predictions_file_paths)
+                    if res[template][group_name] is None:
+                        num_rows = len(data_instances)
                         num_cols = len(category2num_in_category)
-                        template2group_name2props[template][group_name] = np.zeros((num_rows, num_cols))
+                        res[template][group_name] = np.zeros((num_rows, num_cols))
                     # populate matrix
-                    template2group_name2props[template][group_name][row_id][col_id] = prop
+                    res[template][group_name][row_id][col_id] = prop
 
-    return template2group_name2props
+    return res
 
 
 def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Path]],
@@ -194,7 +176,7 @@ def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Pa
             print(predictions_file_path)
 
             # read test sentences file with input and sentences in column1 and column 2 respectively
-            reader = ReaderOpenEnded(predictions_file_path)
+            reader = DataExpOpenEnded(predictions_file_path)
 
             for s1, s2 in zip(reader.sentences_in, reader.sentences_out):
                 mask_index = s1.index('[MASK]')

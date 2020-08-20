@@ -22,7 +22,7 @@ def main():
     3. use the same prepositional phrases for sentences with singular and plural subject nouns
     """
 
-    random.seed(3)
+    random.seed(configs.Data.seed)
 
     assert NUM_ADJECTIVES <= len(adjectives)
     assert NUM_PREPOSITIONS <= len(prepositions)

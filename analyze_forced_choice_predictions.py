@@ -31,10 +31,11 @@ for task_name in TASK_NAMES:
 
         # categorize productions into production categories
         template2group_name2props = prepare_data_for_barplot_forced_choice(group2predictions_file_paths,
+                                                                           task_name,
                                                                            s.templates,
                                                                            s.prediction_categories,
                                                                            s.categorize_by_template,
                                                                            s.categorize_predictions,
-                                                                           s.print_stats)
+                                                                           )
         # plot
         v.make_barplot(s.prediction_categories, template2group_name2props, task_name)

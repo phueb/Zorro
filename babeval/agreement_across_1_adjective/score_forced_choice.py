@@ -21,7 +21,7 @@ def categorize_by_template(sentences_in: List[List[str]],
             template2sentences_in.setdefault(templates[1], []).append(s)
             template2xes.setdefault(templates[1], []).append(xe)
         else:
-            raise ValueError(f'Failed to categorize template')
+            raise ValueError(f'Failed to categorize "{s}" to template.')
 
     return template2sentences_in, template2xes
 
@@ -98,5 +98,7 @@ def categorize_predictions(sentences_in: List[List[str]],
 
     print(f'correct={res["correct"]:>9,}')
     print(f'false  ={res["false"]:>9,}')
+    print(f'total  ={res["false"] + res["correct"]:>9,}')  # TODO this number does not match between experimental vs control data (some experimental data is missing)
+    print()
 
     return res

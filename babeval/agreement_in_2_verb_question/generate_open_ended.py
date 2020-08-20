@@ -13,7 +13,7 @@ nouns_singular = (Path(__file__).parent / configs.Data.annotator / 'nouns_singul
 
 
 def main():
-    random.seed(3)
+    random.seed(configs.Data.seed)
 
     nouns_balanced = random.sample(nouns_singular, k=NUM_NOUNS_FROM_EACH_LIST) + \
                      random.sample(nouns_plural, k=NUM_NOUNS_FROM_EACH_LIST)

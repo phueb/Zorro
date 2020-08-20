@@ -98,5 +98,7 @@ def categorize_predictions(sentences_in: List[List[str]],
 
     print(f'correct={res["correct"]:>9,}')
     print(f'false  ={res["false"]:>9,}')
+    print(f'total  ={res["false"] + res["correct"]:>9,}')
+    print()
 
     return res

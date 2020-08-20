@@ -15,11 +15,11 @@ def main():
     "this green house went there ." vs. "this green houses went there."
     """
 
-    random.seed(3)
+    random.seed(configs.Data.seed)
+
+    adjectives_sample = random.sample(adjectives, k=NUM_ADJECTIVES)  # TODO re-generate sentences with this line outside outer loop
 
     for pre_nominal in pre_nominals:
-
-        adjectives_sample = random.sample(adjectives, k=NUM_ADJECTIVES)
 
         for adj in adjectives_sample:
 

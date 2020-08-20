@@ -45,7 +45,7 @@ for task_name in TASK_NAMES:
                                                                             s.prediction_categories,
                                                                             s.categorize_by_template,
                                                                             s.categorize_predictions,
-                                                                            s.print_stats)
+                                                                            )
             # plot
             v.make_barplot(s.prediction_categories, template2group_name2props, task_name)
 
@@ -56,7 +56,7 @@ for task_name in TASK_NAMES:
                                                                             bigram_frequency_percentiles,
                                                                             s.categorize_by_template,
                                                                             categorize_left_bigrams,
-                                                                            s.print_stats)
+                                                                            )
             # plot
             v.make_barplot(bigram_frequency_percentiles, template2group_name2props, task_name,
                            xlabel='left bi-gram frequency percentile')
@@ -68,7 +68,7 @@ for task_name in TASK_NAMES:
                                                                             bigram_frequency_percentiles,
                                                                             s.categorize_by_template,
                                                                             categorize_right_bigrams,
-                                                                            s.print_stats)
+                                                                            )
             # plot
             v.make_barplot(bigram_frequency_percentiles, template2group_name2props, task_name,
                            xlabel='right bi-gram frequency percentile')

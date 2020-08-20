@@ -19,7 +19,7 @@ def main():
     "the dog that I like [MASK] lazy"
     """
 
-    random.seed(3)
+    random.seed(configs.Data.seed)
 
     nouns_sample_singular = random.sample(nouns_singular, k=NUM_NOUNS_FROM_EACH_LIST)
     nouns_sample_plural = random.sample(nouns_plural, k=NUM_NOUNS_FROM_EACH_LIST)

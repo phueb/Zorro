@@ -15,7 +15,7 @@ def main():
     "this green red house went there ." vs. "this green red houses went there."
     """
 
-    random.seed(3)
+    random.seed(configs.Data.seed)
 
     for pre_nominal in pre_nominals:
 
