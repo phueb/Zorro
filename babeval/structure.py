@@ -115,28 +115,28 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
 
         # read experimental, or generate control data
         if group_name in configs.Data.control_names:
-            data_instances = [DataCtlForcedChoice(task_name, group_name) for _ in range(configs.Data.num_control_reps)]
+            data_instances = [DataCtlForcedChoice(group_name, task_name) for _ in range(configs.Data.num_control_reps)]
         else:
-            data_instances = [DataExpForcedChoice(fp) for fp in group2predictions_file_paths[group_name]]
+            data_instances = [DataExpForcedChoice(fp, task_name) for fp in group2predictions_file_paths[group_name]]
 
         for row_id, data in enumerate(data_instances):
 
-            template2sentences_in, template2xes = categorize_by_template(data.sentences_in,
-                                                                         data.cross_entropies)
+            # organize sentence pairs by template
+            template2s2s = categorize_by_template(data.pairs)
 
             for template in templates:
-                assert template2xes[template]
-                assert template2sentences_in[template]
+                print(template)
+                print()
 
-                assert len(template2sentences_in[template]) == len(template2xes[template])
+                assert template2s2s[template]
 
-                # organize by sentence template
-                category2num_in_category = categorize_predictions(template2sentences_in[template],
-                                                                  template2xes[template])
+                # categorize sentence pairs in template as "correct" or "false"
+                category2num_in_category = categorize_predictions(template2s2s[template],
+                                                                  data.s2cross_entropies)
 
                 # calc proportion and store in matrix
                 for col_id, category in enumerate(prediction_categories):
-                    prop = category2num_in_category[category] / len(template2sentences_in[template])
+                    prop = category2num_in_category[category] / len(template2s2s[template])
                     # initialize matrix for storing proportions
                     if res[template][group_name] is None:
                         num_rows = len(data_instances)

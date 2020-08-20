@@ -1,7 +1,7 @@
 import importlib
 
 from babeval.visualizer import Visualizer
-from babeval.prepare import prepare_data_for_barplot_open_ended, prepare_data_for_scatterplot
+from babeval.structure import prepare_data_for_barplot_open_ended, prepare_data_for_scatterplot
 from babeval.bigrams import categorize_left_bigrams, categorize_right_bigrams
 from babeval.bigrams import bigram_frequency_percentiles, bigram2f
 from babeval.bigrams import w2max_left_bigram_f, w2max_right_bigram_f

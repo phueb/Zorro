@@ -1,7 +1,7 @@
 import importlib
 
 from babeval.visualizer import Visualizer
-from babeval.prepare import prepare_data_for_barplot_forced_choice
+from babeval.structure import prepare_data_for_barplot_forced_choice
 from babeval.io import get_group2predictions_file_paths
 
 
@@ -10,8 +10,8 @@ MAX_STEP = 180_000
 
 # chose one
 TASK_NAMES = [
-    'agreement_across_1_adjective',
-    # 'agreement_across_2_adjectives',
+    # 'agreement_across_1_adjective',
+    'agreement_across_2_adjectives',
     # 'agreement_across_PP',
     # 'agreement_across_RC',
     # 'agreement_in_1_verb_question',

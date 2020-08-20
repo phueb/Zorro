@@ -1,6 +1,7 @@
 import numpy as np
 from pathlib import Path
 import random
+from typing import List, Dict, Tuple
 
 from babeval.vocab import get_vocab, get_frequency
 from babeval.bigrams import right_w2_left_w2f, left_w2right_w2f
@@ -135,68 +136,79 @@ class DataCtlOpenEnded(DataExpOpenEnded):
 
 
 class DataExpForcedChoice:
-    def __init__(self, predictions_file_path: Path) -> None:
+    def __init__(self,
+                 predictions_file_path: Path,
+                 task_name: str) -> None:
         """
-        read predictions made by model to-be-evaluated on some forced-choice task
+        contrary to open-ended reader, control condition data in the forced-choice setting relies on ordered data in
+        sentences/forced-choice where sentence pairs are guaranteed to be in consecutive lines.
+        this means, this class relies on order in original sentences file to correctly pair sentences,
+        to correctly read experimental data.
         """
 
-        self.predictions_file_path = predictions_file_path
-        self.sentences_in, self.cross_entropies = self.get_columns()
+        # load ordered sentences - the only way to know which sentences are paired (answer: consecutive sentences)
+        path = configs.Dirs.root / 'sentences' / 'forced_choice' / f'{task_name}.txt'
+        sentences_ordered = [s.split() for s in path.open().read().split('\n')]
+        self.pairs = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2], sentences_ordered[1::2])]
+
+        # load unordered sentences to which cross entropies are assigned by to-be-evaluated model
+        self.s2cross_entropies = self.make_s2cross_entropies(predictions_file_path)
 
         print(f'Initialized reader for forced-choice experimental predictions.'
-              f'Found {len(self.sentences_in)} lines in file.')
+              f'Found {len(self.s2cross_entropies)} lines in file.')
         print()
 
-    def get_columns(self):
-        lines = self.predictions_file_path.open().readlines()
+    @staticmethod
+    def make_s2cross_entropies(predictions_file_path: Path,
+                               ) -> Dict[Tuple[str], float]:
+        lines = predictions_file_path.open().readlines()
 
-        col1 = []
-        col2 = []
+        res = {}
         for line in lines:
             parts = line.split()
-            sentence_in = parts[:-1]
+            s = parts[:-1]
             xe = float(parts[-1])
-            col1.append(sentence_in)
-            col2.append(xe)
+            res[tuple(s)] = xe
 
-        return col1, col2
+        return res
 
 
 class DataCtlForcedChoice:
     def __init__(self,
+                 control_name: str,
                  task_name: str,
-                 control_name: str) -> None:
+                 ) -> None:
         """
         contrary to open-ended reader, control condition data in the forced-choice setting relies on ordered data in
-        Babeval/sentences/forced-choice where sentence pairs are guaranteed to be in consecutive lines.
-        this means, this class does and cannot use experimentally produced data to generate control data.
+        sentences/forced-choice where sentence pairs are guaranteed to be in consecutive lines.
+        this means, this class relies on order in original sentences file to correctly pair sentences,
+        to produce control condition data.
         """
 
         # load ordered sentences - the only way to know which sentences are paired (answer: consecutive sentences)
-        self.task_name = task_name
         path = configs.Dirs.root / 'sentences' / 'forced_choice' / f'{task_name}.txt'
-        self.sentences_in = [s.split() for s in path.open().read().split('\n')]
-        self.s2s = {tuple(s1): s2 for s1, s2 in zip(self.sentences_in[0::2], self.sentences_in[1::2])}
+        sentences_ordered = [s.split() for s in path.open().read().split('\n')]
+        self.pairs = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2], sentences_ordered[1::2])]
 
         if control_name == configs.Data.control_name_1gram:
-            self.cross_entropies = self.make_cross_entropies_unigram_distribution_control()
+            self.s2cross_entropies = self.make_cross_entropies_unigram_distribution_control()
         elif control_name == configs.Data.control_name_left_2gram:
-            self.cross_entropies = self.make_cross_entropies_left_2gram_distribution_control()
+            self.s2cross_entropies = self.make_cross_entropies_left_2gram_distribution_control()
         elif control_name == configs.Data.control_name_right_2gram:
-            self.cross_entropies = self.make_cross_entropies_right_2gram_distribution_control()
+            self.s2cross_entropies = self.make_cross_entropies_right_2gram_distribution_control()
         else:
             raise AttributeError('Invalid arg to "control_name".')
 
         print(f'Initialized reader for forced-choice control predictions.'
-              f'Found {len(self.cross_entropies)} lines in file.')
+              f'Found {len(self.s2cross_entropies)} lines in file.')
         print()
 
     def make_cross_entropies_unigram_distribution_control(self):
         print('Making 1-gram distribution control')
 
-        res = []
+        res = {}
 
-        for s1, s2 in self.s2s.items():
+        for s1, s2 in self.pairs:
             for w1, w2 in zip(s1, s2):
                 if w1 != w2:
                     if w2p[w1] > w2p[w2]:
@@ -207,16 +219,17 @@ class DataCtlForcedChoice:
             else:
                 raise RuntimeError('Sentence Pair has identical sentences')
 
-            res += [xe1, xe2]  # loop is only over each 2nd, so we need to add 2 values
+            res[tuple(s1)] = xe1
+            res[tuple(s2)] = xe2
 
         return res
 
     def make_cross_entropies_left_2gram_distribution_control(self):
         print('Making left 2-gram distribution control')
 
-        res = []
+        res = {}
 
-        for s1, s2 in self.s2s.items():
+        for s1, s2 in self.pairs:
             assert len(s1) == len(s2)
             for i in range(len(s1)):
                 if s1[i] != s2[i]:
@@ -239,16 +252,17 @@ class DataCtlForcedChoice:
             else:
                 raise RuntimeError('Sentence Pair has identical sentences')
 
-            res += [xe1, xe2]  # loop is only over each 2nd, so we need to add 2 values
+            res[tuple(s1)] = xe1
+            res[tuple(s2)] = xe2
 
         return res
 
     def make_cross_entropies_right_2gram_distribution_control(self):
         print('Making right 2-gram distribution control')
 
-        res = []
+        res = {}
 
-        for s1, s2 in self.s2s.items():
+        for s1, s2 in self.pairs:
             assert len(s1) == len(s2)
             for i in range(len(s1)):
                 if s1[i] != s2[i]:
@@ -266,6 +280,7 @@ class DataCtlForcedChoice:
             else:
                 raise RuntimeError('Sentence Pair has identical sentences')
 
-            res += [xe1, xe2]  # loop is only over each 2nd, so we need to add 2 values
+            res[tuple(s1)] = xe1
+            res[tuple(s2)] = xe2
 
         return res

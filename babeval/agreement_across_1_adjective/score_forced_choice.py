@@ -1,104 +1,86 @@
 from typing import List, Tuple, Dict
 
+from babeval.utils import check_agreement_between_pre_nominal_and_noun
 from babeval.agreement_across_1_adjective import *
 
 
 prediction_categories = ('false', 'correct')
 
 
-def categorize_by_template(sentences_in: List[List[str]],
-                           cross_entropies: List[float],
-                           ):
+def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
+                           ) -> Dict[str, List[Tuple[List[str], List[str]]]]:
 
-    template2sentences_in = {}
-    template2xes = {}
+    template2pairs = {}
 
-    for s, xe in zip(sentences_in, cross_entropies):
-        if s[0] == 'look':
-            template2sentences_in.setdefault(templates[0], []).append(s)
-            template2xes.setdefault(templates[0], []).append(xe)
-        elif s[-2] == 'there':
-            template2sentences_in.setdefault(templates[1], []).append(s)
-            template2xes.setdefault(templates[1], []).append(xe)
+    for pair in pairs:
+        s1, s2 = pair
+        if s1[0] == 'look' and s2[0] == 'look':
+            template2pairs.setdefault(templates[0], []).append(pair)
+        elif s1[-2] == 'there' and s2[-2] == 'there':
+            template2pairs.setdefault(templates[1], []).append(pair)
         else:
-            raise ValueError(f'Failed to categorize "{s}" to template.')
+            raise ValueError(f'Failed to categorize "{pair}" to template.')
 
-    return template2sentences_in, template2xes
+    return template2pairs
 
 
-def categorize_predictions(sentences_in: List[List[str]],
-                           cross_entropies: List[float]) -> Dict[str, float]:
+def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
+                           s2cross_entropies: Dict[Tuple[str], float]) -> Dict[str, float]:
     """
-    for each sentence, an entry in a dict is made, keeping track of:
-     1) the cross entropy of the sentence, and
-     2) some syntactic phenomenon (e.g. agreement = True or agreement = False).
-    When the sentence's alternative choice is detected, the two dict entries are compared.
+    for each sentence pair in the original, ordered file of test sentences,
+     1) the cross entropy assigned to each by a to-be-evaluated model is retrieved
+     2) some syntactic phenomenon (e.g. agreement = True or agreement = False) is evaluated
     When the cross-entropy assigned to the correct choice is higher,
      a value representing "correct" is incremented by one.
 
     """
     res = {k: 0 for k in prediction_categories}
 
-    def find_target_words(s: List[str]) -> Tuple[str, str, str, str]:
-        """
-        find two words in sentence which must agree (e.g. "this" and "dog") in single for loop.
-        of the three returned objects, only 2 are defined, while the other are of NoneType.
-        in theory, this prevents need to search through nouns and pre-nominals again, to determine their number.
-        """
-        w1s = None
-        w1p = None
-        w2s = None
-        w2p = None
-        for w_forward, w_backward in zip(s, reversed(s)):
-            if w1s is None and w_forward in pre_nominals_singular:
-                w1s = w_forward
-            elif w1p is None and w_forward in pre_nominals_plural:
-                w1p = w_forward
-            if w2s is None and w_backward in nouns_singular:
-                w2s = w_backward
-            elif w2p is None and w_backward in nouns_plural:
-                w2p = w_backward
-        return w1s, w1p, w2s, w2p
+    # loop over all possible sentence pairs with all possible templates
+    num_skipped = 0
+    for s1, s2 in pairs:
 
-    noun_s2info = {}  # temporary data structures to speed computation
-    noun_p2info = {}
+        # check agreement
+        is_agreement1 = check_agreement_between_pre_nominal_and_noun(s1,
+                                                                     pre_nominals_singular,
+                                                                     pre_nominals_plural,
+                                                                     nouns_singular,
+                                                                     nouns_plural,
+                                                                     )
+        is_agreement2 = check_agreement_between_pre_nominal_and_noun(s2,
+                                                                     pre_nominals_singular,
+                                                                     pre_nominals_plural,
+                                                                     nouns_singular,
+                                                                     nouns_plural,
+                                                                     )
+        if len({is_agreement1, is_agreement2}) != 2:  # check that only 1 but not both are True
+            raise ValueError('Only one sentence per pair can be correct/agree in number.')
 
-    noun_s_probe = None
-    noun_p_probe = None
-
-    for sentence, xe in zip(sentences_in, cross_entropies):
-        # get words that either agree or don't, and check if  they do
-        pre_nominal_s, pre_nominal_p, noun_s, noun_p = find_target_words(sentence)
-        is_agreement = True if (pre_nominal_s and noun_s) or (pre_nominal_p and noun_p) else False
-
-        # add dict entry
-        if noun_s:
-            noun_s2info[noun_s] = (xe, is_agreement)  # order matters
-            noun_s_probe = noun_s
-            noun_p_probe = noun_s + 's'
-        elif noun_p:
-            noun_p2info[noun_p] = (xe, is_agreement)
-            noun_s_probe = noun_p[:-1]
-            noun_p_probe = noun_p
-
-        # check if match is found
+        # get cross-entropies
         try:
-            tmp = [noun_s2info[noun_s_probe], noun_p2info[noun_p_probe]]  # order matters
-        except KeyError:  # match is not found
+            xe1 = s2cross_entropies[tuple(s1)]
+            xe2 = s2cross_entropies[tuple(s2)]
+        except KeyError:  # original test sentences are different than what model was tested with
+            num_skipped += 1
             continue
 
-        # if match is found, increment "correct" or "false" counter depending on cross-entropy
+        is_correct1 = is_agreement1 and xe1 < xe2
+        is_correct2 = is_agreement2 and xe1 > xe2
+        if is_correct1 or is_correct2:  # two ways to be correct
+            res["correct"] += 1
         else:
-            is_correct_s = tmp[0][0] < tmp[1][0] and tmp[0][1]  # xe is lower when pre-nominal and noun are singular
-            is_correct_p = tmp[1][0] < tmp[0][0] and tmp[1][1]  # xe is lower when pre-nominal and noun are plural
-            if is_correct_s or is_correct_p:  # two ways to be correct
-                res["correct"] += 1
-            else:
-                res["false"] += 1
+            res["false"] += 1
+
+    num_scored = res["false"] + res["correct"]
+    num_expected_scores = len(pairs)
+
+    # TODO
+    # assert num_scored == num_expected_scores, (num_scored, num_expected_scores)  # TODO
 
     print(f'correct={res["correct"]:>9,}')
     print(f'false  ={res["false"]:>9,}')
-    print(f'total  ={res["false"] + res["correct"]:>9,}')  # TODO this number does not match between experimental vs control data (some experimental data is missing)
+    print(f'total  ={num_scored :>9,}')
+    print(f'skipped={num_skipped :>9,}')
     print()
 
     return res
