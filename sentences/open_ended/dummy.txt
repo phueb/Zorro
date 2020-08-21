@@ -1,0 +1,4 @@
+[MASK] two three four .
+one [MASK] three four .
+one two [MASK] four .
+one two three [MASK] .

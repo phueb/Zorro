@@ -1,5 +1,6 @@
 import importlib
 
+from babeval import configs
 from babeval.visualizer import Visualizer
 from babeval.structure import prepare_data_for_barplot_open_ended, prepare_data_for_scatterplot
 from babeval.bigrams import categorize_left_bigrams, categorize_right_bigrams
@@ -31,7 +32,7 @@ for task_name in TASK_NAMES:
     # load module containing task-relevant objects
     s = importlib.import_module(f'babeval.{task_name}.score_open_ended')
 
-    for step in list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
+    for step in configs.Eval.custom_steps or list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
 
         # load prediction files
         group2predictions_file_paths = get_group2predictions_file_paths(task_name, 'open_ended', step)

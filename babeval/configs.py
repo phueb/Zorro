@@ -20,7 +20,7 @@ class Data:
 
 class Eval:
     dummy = True  # use files containing dummy predictions not on lab server
-    step = 180_000
-    param_names = ['param_001', 'param_002']
-    condition = 'srl_interleaved'
+    custom_steps = [100_000]  # used for external bert models  # or NOne
+    param_names = ['BERT_MINI_CHILDES']  #['param_001', 'param_002']
+    condition = 'architecture'
     max_reps = 10

@@ -23,10 +23,7 @@ class Visualizer:
 
         self.group2predictions_file_paths = group2predictions_file_paths  # used to get number of reps
 
-        if step is None:
-            self.step = configs.Eval.step
-        else:
-            self.step = step
+        self.step = step
 
     def get_legend_name(self, param_name, key):
 
