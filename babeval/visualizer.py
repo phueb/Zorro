@@ -34,7 +34,7 @@ class Visualizer:
             return param_name
 
         if configs.Eval.dummy:
-            runs_path = configs.Dirs.runs_dummy
+            runs_path = configs.Dirs.runs_local
         else:
             runs_path = configs.Dirs.runs_server
 
@@ -44,7 +44,11 @@ class Visualizer:
 
         reps = len(self.group2predictions_file_paths[param_name])
 
-        res = f'step={self.step} | n={reps} | {key}={param2val[key]}'
+        try:
+            val = param2val[key]
+        except KeyError:
+            val = '/'
+        res = f'step={self.step} | n={reps} | {key}={val}'
         return res
 
     def make_barplot(self,

@@ -5,7 +5,7 @@ class Dirs:
     src = Path(__file__).parent
     root = src.parent
     runs_server = Path('/') / 'media' / 'research_data' / 'BabyBertSRL' / 'runs'
-    runs_dummy = root / 'runs'
+    runs_local = root / 'runs'
 
 
 class Data:
@@ -21,6 +21,7 @@ class Data:
 class Eval:
     dummy = True  # use files containing dummy predictions not on lab server
     custom_steps = [100_000]  # used for external bert models  # or NOne
-    param_names = ['BERT_MINI_CHILDES']  #['param_001', 'param_002']
+    param_names = ['BERT_MINI_CHILDES', 'BERT_MEDIUM_CHILDES', 'BERT_BASE_CHILDES'] + ['param_001', 'param_002']
+    raise_error_on_missing_group = False
     condition = 'architecture'
     max_reps = 10

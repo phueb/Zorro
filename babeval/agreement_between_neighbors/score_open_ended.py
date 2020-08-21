@@ -8,7 +8,7 @@ SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = 1
 prediction_categories = (
     "noun +\ncorrect number",
     "noun +\nfalse number",
-    "noun +\n ambiguous number",
+    "noun +\n no number",
     "noun\nproper",
     "non-start\nword-piece\nor\n[UNK]",
     "non-noun",
@@ -58,7 +58,7 @@ def categorize_predictions(sentences_out: List[List[str]],
 
         # Ambiguous Noun
         elif predicted_word in nouns_ambiguous:
-            res["noun +\n ambiguous number"] += 1
+            res["noun +\n no number"] += 1
 
         # Non_Noun
         else:
