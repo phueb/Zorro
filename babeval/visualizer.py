@@ -36,7 +36,7 @@ class Visualizer:
         if configs.Eval.dummy:
             runs_path = configs.Dirs.runs_local
         else:
-            runs_path = configs.Dirs.runs_server
+            runs_path = configs.Dirs.runs_remote
 
         path = runs_path / param_name / 'param2val.yaml'
         with path .open('r') as f:
@@ -47,7 +47,7 @@ class Visualizer:
         try:
             val = param2val[key]
         except KeyError:
-            val = '/'
+            val = 'BabyBERT-ph'
         res = f'step={self.step} | n={reps} | {key}={val}'
         return res
 

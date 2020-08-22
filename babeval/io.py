@@ -14,7 +14,7 @@ def get_group2predictions_file_paths(task_name: str,
         runs_path = configs.Dirs.runs_local
     # get prediction file paths from lab server
     else:
-        runs_path = configs.Dirs.runs_server
+        runs_path = configs.Dirs.runs_remote
 
     group2pattern = {g: f'{g}/**/saves/{task_type}/probing_{task_name}_results_{step}.txt'
                      for g in configs.Eval.param_names}
