@@ -28,12 +28,14 @@ def get_group2predictions_file_paths(task_name: str,
 
         # if requested, find last step
         if step == -1:
-            print(f'Finding last step for group={group_name}')
+            print(f'Finding last step for group={group_name}...')
             p = [p for p in sorted(runs_path.rglob(pattern.format(group_name, task_type, task_name, '*')))][-1]
-            step = int(p.stem.split('_')[-1])
-            print(f'Last step={step}')
+            effective_step = int(p.stem.split('_')[-1])
+            print(f'Last step={step:,}')
+        else:
+            effective_step = step
 
-        all_paths = [p for p in runs_path.rglob(pattern.format(group_name, task_type, task_name, step))]
+        all_paths = [p for p in runs_path.rglob(pattern.format(group_name, task_type, task_name, effective_step))]
         group2predictions_file_paths[group_name] = all_paths[:configs.Eval.max_reps]
 
     # copy only those groups for which files exist
