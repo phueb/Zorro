@@ -33,7 +33,7 @@ class Visualizer:
         if 'control' in param_name:
             return param_name
 
-        if configs.Eval.dummy:
+        if configs.Eval.local_runs:
             runs_path = configs.Dirs.runs_local
         else:
             runs_path = configs.Dirs.runs_remote
@@ -47,7 +47,11 @@ class Visualizer:
         try:
             val = param2val[key]
         except KeyError:
-            val = 'BabyBERT-ph'
+            if key == 'architecture':
+                val = 'BabyBERT'
+            else:
+                val = 'n/a'
+
         res = f'step={self.step} | n={reps} | {key}={val}'
         return res
 

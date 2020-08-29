@@ -4,7 +4,7 @@ from pathlib import Path
 class Dirs:
     src = Path(__file__).parent
     root = src.parent
-    runs_remote = Path('/') / 'media' / 'research_data' / 'BabyBertSRL' / 'runs'
+    runs_remote = Path('/') / 'media' / 'research_data' / 'BabyBert' / 'runs'
     runs_local = root / 'runs'
 
 
@@ -19,9 +19,9 @@ class Data:
 
 
 class Eval:
-    dummy = True  # use files containing dummy predictions not on lab server
-    custom_steps = [180_000]  # used for external bert models  # or NOne
-    param_names = ['BERT_MINI_CHILDES', 'BERT_MEDIUM_CHILDES', 'BERT_BASE_CHILDES'] + ['param_001', 'param_002']
-    raise_error_on_missing_group = False
-    condition = 'srl_interleaved'
+    local_runs = False  # use prediction files fom this repository
+    custom_steps = [-1]  # or None  or [-1] to indicate last available step
+    param_names = None  # ['BERT_MEDIUM_AUG24', 'BERT_MEDIUM_WWM', 'param_001']
+    raise_error_on_missing_group = True
+    condition = 'num_utterances_per_input'
     max_reps = 10
