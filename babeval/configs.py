@@ -23,5 +23,5 @@ class Eval:
     custom_steps = [-1]  # or None  or [-1] to indicate last available step
     param_names = None  # ['BERT_MEDIUM_AUG24', 'BERT_MEDIUM_WWM', 'param_001']
     raise_error_on_missing_group = True
-    condition = 'num_utterances_per_input'
+    condition = 'num_warmup_steps'
     max_reps = 10
