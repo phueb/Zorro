@@ -60,9 +60,14 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
         try:
             xe1 = s2cross_entropies[tuple(s1)]
             xe2 = s2cross_entropies[tuple(s2)]
-        except KeyError:  # original test sentences are different than what model was tested with
-            num_skipped += 1
-            continue
+        except KeyError:  # happens when original test sentences are different than what model was tested with
+            # try sentences without punctuation (if model was probed with sentences stripped of punctuation)
+            try:
+                xe1 = s2cross_entropies[tuple(s1[:-1])]
+                xe2 = s2cross_entropies[tuple(s2[:-1])]
+            except KeyError:
+                num_skipped += 1
+                continue
 
         is_correct1 = is_agreement1 and xe1 < xe2
         is_correct2 = is_agreement2 and xe1 > xe2
@@ -74,8 +79,8 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
     num_scored = res["false"] + res["correct"]
     num_expected_scores = len(pairs)
 
-    # TODO
-    # assert num_scored == num_expected_scores, (num_scored, num_expected_scores)  # TODO
+    if num_scored != num_expected_scores:
+        raise RuntimeError(f'Expected {num_expected_scores:,} but got {num_scored:,} scores')
 
     print(f'correct={res["correct"]:>9,}')
     print(f'false  ={res["false"]:>9,}')
