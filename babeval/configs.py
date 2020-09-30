@@ -20,8 +20,8 @@ class Data:
 
 class Eval:
     local_runs = False  # use prediction files fom this repository
-    custom_steps = [-1]  # or None  or [-1] to indicate last available step
-    param_names = None  # ['BERT_MEDIUM_AUG24', 'BERT_MEDIUM_WWM', 'param_001']
+    custom_steps = [120_000]  # or None  or [-1] to indicate last available step
+    param_names = None
     raise_error_on_missing_group = True
-    condition = 'include_punctuation'
+    conditions = ['corpus_name', 'input_vocab_size']  # can be empty list
     max_reps = 10

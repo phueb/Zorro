@@ -17,7 +17,7 @@ def get_group2predictions_file_paths(task_name: str,
 
     # group_names
     if configs.Eval.param_names is None:
-        group_names = [p.name for p in runs_path.glob('*')]
+        group_names = sorted([p.name for p in runs_path.glob('*')])
     else:
         group_names = configs.Eval.param_names
 

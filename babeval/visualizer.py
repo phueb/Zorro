@@ -25,10 +25,7 @@ class Visualizer:
 
         self.step = step
 
-    def get_legend_name(self, param_name, key):
-
-        if key is None:
-            return param_name
+    def get_legend_label(self, param_name):
 
         if 'control' in param_name:
             return param_name
@@ -44,27 +41,28 @@ class Visualizer:
 
         reps = len(self.group2predictions_file_paths[param_name])
 
-        try:
-            val = param2val[key]
-        except KeyError:
-            if key == 'architecture':
-                val = 'BabyBERT'
-            else:
-                val = 'n/a'
+        # add info about conditions
+        info = ''
+        conditions = configs.Eval.conditions or ['param_name']
+        for c in conditions:
+            try:
+                val = param2val[c]
+            except KeyError:
+                if c == 'architecture':
+                    val = 'BabyBERT'
+                else:
+                    val = 'n/a'
+            info += f'{c}={val} '
 
-        res = f'step={self.step} | n={reps} | {key}={val}'
+        res = f'step={self.step} | n={reps} | {info}'
         return res
 
     def make_barplot(self,
                      x_tick_labels: Tuple,
                      template2group_name2props: Dict[str, Dict[str, np.array]],
                      task_name: Optional[str] = None,
-                     condition: Optional[str] = None,
                      xlabel: str = '',
                      verbose: bool = False):
-
-        if condition is None:
-            condition = configs.Eval.condition
 
         x = np.arange(len(x_tick_labels))
 
@@ -112,7 +110,7 @@ class Visualizer:
                        width,
                        yerr=std,
                        color=color,
-                       label=self.get_legend_name(group_name, condition))
+                       label=self.get_legend_label(group_name))
 
         # legend
         plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.4), loc='upper left', frameon=False)
@@ -147,7 +145,7 @@ class Visualizer:
                                  figsize=(10, 6), dpi=self.dpi)
 
         for group_name, (x, y) in group2xy.items():
-            label = self.get_legend_name(group_name, condition)
+            label = self.get_legend_label(group_name, condition)
 
             ax = axes[group_names.index(group_name)]
             ax.spines['right'].set_visible(False)
