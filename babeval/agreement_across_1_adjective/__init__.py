@@ -28,13 +28,11 @@ assert not [n for n in nouns_singular if n.istitle()]
 
 # new nouns lists
 nouns = nouns_singular + nouns_plural
-nouns_proper = ['[NAME]', '[PLACE]', '[MISC]']
 
 # add words
 nouns_singular += ['one']
 
 nouns = set(nouns)
-nouns_proper = set(nouns_proper)
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
 nouns_ambiguous = set(nouns_ambiguous)

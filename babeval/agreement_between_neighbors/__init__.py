@@ -25,7 +25,6 @@ assert not [n for n in nouns_singular if n.istitle()]
 
 # new nouns lists
 nouns = nouns_singular + nouns_plural
-nouns_proper = ['[NAME]', '[PLACE]', '[MISC]']
 
 # add words
 nouns_singular += ['one']

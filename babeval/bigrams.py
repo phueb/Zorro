@@ -1,14 +1,14 @@
 from typing import List, Dict
 
 from babeval import configs
-from babeval.vocab import get_vocab
+from babeval.whole_words import get_whole_words
 
 
 def to_percentile(val: float):
     return int(val - (val % 10) + 10)
 
 
-vocab = get_vocab()
+whole_words = get_whole_words()
 
 # load bigrams
 bigram2percentile = {}
@@ -18,7 +18,7 @@ w2max_right_bigram_f = {}
 left_w2right_w2f = {}
 right_w2_left_w2f = {}
 
-with (configs.Dirs.root / 'word_lists' / 'bi-grams.txt').open() as f:
+with (configs.Dirs.word_lists / 'bi-grams.txt').open() as f:
     for line in f.readlines():
         frequency, w1, w2, percent = line.split()
         frequency = int(frequency)

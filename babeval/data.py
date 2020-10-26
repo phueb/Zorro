@@ -3,14 +3,14 @@ from pathlib import Path
 import random
 from typing import List, Dict, Tuple
 
-from babeval.vocab import get_vocab, get_frequency
+from babeval.whole_words import get_whole_words, get_frequency
 from babeval.bigrams import right_w2_left_w2f, left_w2right_w2f
 from babeval import configs
 
-vocab = get_vocab()
+whole_words = get_whole_words()
 freq = get_frequency()
 unigram_probabilities = np.array(freq) / sum(freq)
-w2p = {w: p for w, p in zip(vocab, unigram_probabilities)}
+w2p = {w: p for w, p in zip(whole_words, unigram_probabilities)}
 
 
 
@@ -75,12 +75,12 @@ class DataCtlOpenEnded(DataExpOpenEnded):
 
     def make_sentences_out_unigram_distribution_control(self):
         """
-        :return: list of test sentences with MASK symbol replaced with random word from vocab
+        :return: list of test sentences with MASK symbol replaced with random word from whole_words
          sampled based on frequency in corpus
         """
         print('Making 1-gram distribution control')
 
-        sampled_words = iter(np.random.choice(vocab, size=len(self.sentences_in), p=unigram_probabilities))
+        sampled_words = iter(np.random.choice(whole_words, size=len(self.sentences_in), p=unigram_probabilities))
 
         result = []
         for s in self.sentences_in:

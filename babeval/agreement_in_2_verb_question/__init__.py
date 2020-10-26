@@ -19,7 +19,7 @@ for w in nouns_singular:
 for w in nouns_plural:
     assert w not in nouns_singular
 
-nouns_singular += ['one', '[NAME]', '[PLACE]', '[MISC]']
+nouns_singular += ['one']
 
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)

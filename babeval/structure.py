@@ -45,7 +45,7 @@ def prepare_data_for_barplot_open_ended(group2predictions_file_paths: Dict[str, 
 
         # read experimental, or generate control data
         if group_name in configs.Data.control_names:
-            data_instances = [DataCtlOpenEnded(control_fp, group_name) for _ in range(configs.Data.num_control_reps)]
+            data_instances = [DataCtlOpenEnded(control_fp, group_name) for _ in range(configs.Eval.num_control_reps)]
         else:
             data_instances = [DataExpOpenEnded(fp) for fp in group2predictions_file_paths[group_name]]
 
@@ -115,7 +115,7 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
 
         # read experimental, or generate control data
         if group_name in configs.Data.control_names:
-            data_instances = [DataCtlForcedChoice(group_name, task_name) for _ in range(configs.Data.num_control_reps)]
+            data_instances = [DataCtlForcedChoice(group_name, task_name) for _ in range(configs.Eval.num_control_reps)]
         else:
             data_instances = [DataExpForcedChoice(fp, task_name) for fp in group2predictions_file_paths[group_name]]
 

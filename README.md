@@ -3,8 +3,7 @@ Generate test sentences for evaluating NLP system trained on masked language mod
 
 ## Test sentences
 
-Sentences are created using templates, filled with words from the 4K most frequent words in a custom version of
-the American-English CHILDES corpus. 
+Sentences are created using templates, filled with custom, human-curated word lists.
 
 
 ## Organization
@@ -18,10 +17,11 @@ Each task flavor is associated with 2 files, one for generating, and another for
 
 ## How words were chosen
 
-Words that make up test sentences are all derived from a list that was made in the following manner:
+Words that make up test sentences are all derived from whole words in a BPE encoding vocab file:
 
-1. Started with words in 4K vocab that are
-- in English dictionary
+1. Removed words
+- not in original corpus files (e.g. sub-words)
+- not in English dictionary
 - not title-cased
 
 2. removed  the following kinds of words manually:
