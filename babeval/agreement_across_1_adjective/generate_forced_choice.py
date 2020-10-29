@@ -3,8 +3,8 @@ from babeval import configs
 from babeval.task_words import get_task_word_combo
 from babeval.whole_words import get_whole_words
 
-NUM_ADJECTIVES = 10
-NUM_NOUNS  = 10
+NUM_ADJECTIVES = 2
+NUM_NOUNS  = 2
 
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'
@@ -35,13 +35,14 @@ def main():
             noun_plural = f'{words[1]}s'  # TODO also handle irregular plurals
             if noun_plural not in get_whole_words(tag='NNS'):
                 continue
+            words2 = [words[0], noun_plural]
 
             yield template1.format(pre_nominal, *words)
-            yield template1.format(pre_nominal, *words)
+            yield template1.format(pre_nominal, *words2)
 
             yield template2.format(pre_nominal, *words)
-            yield template2.format(pre_nominal, *words)
+            yield template2.format(pre_nominal, *words2)
 
 
-# for i in main():
-#     print(i)
+for i in main():
+    print(i)
