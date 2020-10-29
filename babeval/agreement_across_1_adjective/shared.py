@@ -1,6 +1,9 @@
 from pathlib import Path
+import inflect
 
+plural = inflect.engine()
 
+task_name = Path(__file__).parent.stem
 
 pre_nominals_singular = ["this", "that"]
 pre_nominals_plural = ["these", "those"]
@@ -10,5 +13,3 @@ templates = [
     'look at ...',
     '... went there',
 ]
-
-task_name = Path(__file__).parent.stem

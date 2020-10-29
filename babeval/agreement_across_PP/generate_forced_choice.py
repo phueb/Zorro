@@ -23,7 +23,7 @@ rules = {
 def main():
     """
     example:
-    "the dog on the mat [MASK] brown"
+    "the dog on the mat is brown" vs "are brown"
 
     considerations:
     1. use equal proportion of sentences containing plural vs. singular subject nouns

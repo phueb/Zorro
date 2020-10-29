@@ -1,6 +1,6 @@
 from typing import List, Dict
 
-from babeval.agreement_across_1_adjective.common import *
+from babeval.agreement_across_1_adjective.shared import *
 
 SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. #bear", "##s"
 SCORE_NOUN_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. "smooth", "##ie"

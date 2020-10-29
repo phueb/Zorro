@@ -6,11 +6,11 @@ NUM_NOUNS_FROM_EACH_LIST = 50  # there are 414 plurals
 NUM_ADJECTIVES = 10
 
 # object-relative clause
-template1a = 'the {} that {} like [MASK] {} .'
-template1b = 'the {} that {} likes [MASK] {} .'
+template1a = 'the {} that {} like' + f' {configs.Data.mask_symbol} ' + '{} .'
+template1b = 'the {} that {} likes' + f' {configs.Data.mask_symbol} ' + '{} .'
 # subject-relative clause - contains hint about number in relative clause
-template2a = 'the {} that is there [MASK] {} .'
-template2b = 'the {} that are there [MASK] {} .'
+template2a = 'the {} that is there' + f' {configs.Data.mask_symbol} ' + '{} .'
+template2b = 'the {} that are there' + f' {configs.Data.mask_symbol} ' + '{} .'
 
 
 def main():

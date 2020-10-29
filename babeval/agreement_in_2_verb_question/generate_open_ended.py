@@ -5,8 +5,8 @@ from babeval import configs
 
 NUM_NOUNS_FROM_EACH_LIST = 400  # there are only 414 plurals
 
-template1 = 'where [MASK] the {} go ?'
-template2 = 'what [MASK] the {} do ?'
+template1 = 'where' + f' {configs.Data.mask_symbol} ' + 'the {} go ?'
+template2 = 'what' + f' {configs.Data.mask_symbol} ' + 'the {} do ?'
 
 
 

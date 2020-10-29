@@ -15,6 +15,7 @@ class Data:
     vocab_path = '/home/ph/BabyBERT/data/tokenizers/c-n-w-8192/vocab.json'
     corpora_path = '/home/ph/BabyBERT/data/corpora'
     seed = 3
+    mask_symbol = '<mask>'
     space_symbol = 'Ġ'
     ww_name = 'c-w-n'
 

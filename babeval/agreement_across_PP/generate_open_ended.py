@@ -8,7 +8,7 @@ NUM_OBJECT_NOUNS_FROM_EACH_LIST = 8  # some number smaller than length of both s
 NUM_ADJECTIVES = 4
 NUM_PREPOSITIONS = 2
 
-template1 = 'the {} {} [MASK] {} .'
+template1 = 'the {} {}' + f' {configs.Data.mask_symbol} ' + '{} .'
 
 
 def main():

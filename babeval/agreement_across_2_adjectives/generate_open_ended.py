@@ -1,9 +1,12 @@
-import random
 
-from babeval.agreement_across_2_adjectives import *
+from babeval import configs
+from babeval.agreement_across_2_adjectives.shared import task_name, pre_nominals
+from babeval.task_words import get_task_word_combo
 
-template1 = 'look at {} {} [MASK] .'
-template2 = '{} {} [MASK] went there .'
+NUM_ADJECTIVES = 2
+
+template1 = 'look at {} {} {}' + f' {configs.Data.mask_symbol} ' + '.'
+template2 = '{} {} {}' + f' {configs.Data.mask_symbol} ' + 'went there .'
 
 
 def main():
@@ -13,16 +16,14 @@ def main():
     "these green [MASK] went there .
     """
 
-    random.seed(configs.Data.seed)
-
     for pre_nominal in pre_nominals:
 
-        al1 = random.sample(adjectives, k=len(adjectives))
-        al2 = random.sample(adjectives, k=len(adjectives))
+        for words in get_task_word_combo(task_name, (('JJ', 0, NUM_ADJECTIVES),
+                                                     ('JJ', 1, NUM_ADJECTIVES),)):
+            yield template1.format(pre_nominal, *words)
+            yield template2.format(pre_nominal, *words)
 
-        for adj1, adj2 in zip(al1, al2):
-            yield template1.format(pre_nominal, ' '.join([adj1]))
-            yield template1.format(pre_nominal, ' '.join([adj1, adj2]))
 
-            yield template2.format(pre_nominal, ' '.join([adj1]))
-            yield template2.format(pre_nominal, ' '.join([adj1, adj2]))
+if __name__ == '__main__':
+    for s in main():
+        print(s)

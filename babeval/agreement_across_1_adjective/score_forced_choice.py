@@ -1,7 +1,7 @@
 from typing import List, Tuple, Dict
 
 from babeval.utils import check_agreement_between_pre_nominal_and_noun
-from babeval.agreement_across_1_adjective import *
+from babeval.agreement_across_1_adjective.shared import templates
 
 
 prediction_categories = ('false', 'correct')

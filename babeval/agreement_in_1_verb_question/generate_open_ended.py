@@ -4,8 +4,8 @@ from babeval.agreement_in_1_verb_question import *
 
 NUM_NOUNS_FROM_EACH_LIST = 400  # there are only 414 plurals
 
-template1 = 'where [MASK] the {} ?'
-template2 = 'what [MASK] the {} ?'
+template1 = 'where' + f' {configs.Data.mask_symbol} ' + 'the {} ?'
+template2 = 'what' + f' {configs.Data.mask_symbol} ' + 'the {} ?'
 
 
 def main():

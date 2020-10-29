@@ -2,7 +2,7 @@
 
 from babeval.agreement_between_neighbors import *
 
-template = 'look at {} [MASK] .'
+template = 'look at {}' + f' {configs.Data.mask_symbol} ' + '.'
 
 
 def main():
