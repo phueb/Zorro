@@ -15,6 +15,12 @@ for task_type in ['forced_choice', 'open_ended']:
         task_name = path.parent.name
         generate = importlib.import_module(f'babeval.{task_name}.generate_{task_type}')
 
+        # check for list overlap
+        for w in generate.nouns_singular:
+            assert w not in generate.nouns_plural
+        for w in generate.nouns_plural:
+            assert w not in generate.nouns_singular
+
         # save each file in repository, and also on shared drive
         for out_path in [
             Path("../sentences") / task_type / f'{task_name}.txt',
@@ -28,7 +34,7 @@ for task_type in ['forced_choice', 'open_ended']:
                     # check
                     words_to_check = sentence.split() if CHECK_IN_VOCAB else []
                     for w in words_to_check:
-                        if w == '[MASK]':
+                        if w == configs.Data.mask_symbol:
                             continue
                         if w not in whole_words:
                             print(f'WARNING: Not in whole_words: "{w}"')

@@ -1,6 +1,6 @@
 import random
-from pathlib import Path
 
+from babeval.agreement_in_2_verb_question import *
 from babeval import configs
 
 NUM_NOUNS_FROM_EACH_LIST = 400  # there are only 414 plurals
@@ -8,8 +8,6 @@ NUM_NOUNS_FROM_EACH_LIST = 400  # there are only 414 plurals
 template1 = 'where [MASK] the {} go ?'
 template2 = 'what [MASK] the {} do ?'
 
-nouns_plural = (Path(__file__).parent / configs.Data.annotator / 'nouns_plural.txt').open().read().split()
-nouns_singular = (Path(__file__).parent / configs.Data.annotator / 'nouns_singular.txt').open().read().split()
 
 
 def main():

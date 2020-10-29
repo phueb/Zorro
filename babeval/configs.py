@@ -7,14 +7,16 @@ class Dirs:
     runs_remote = Path('/') / 'media' / 'research_data' / 'BabyBert' / 'runs'
     runs_local = root / 'runs'
     data = root / 'data'
-    word_lists = data / 'word_lists'
+    external_words = data / 'external_words'
+    task_words = data / 'task_words'
 
 
 class Data:
     vocab_path = '/home/ph/BabyBERT/data/tokenizers/c-n-w-8192/vocab.json'
     corpora_path = '/home/ph/BabyBERT/data/corpora'
-    annotator = 'annotator_2'
     seed = 3
+    space_symbol = 'Ġ'
+    ww_name = 'c-w-n'
 
     control_name_1gram = '1-gram-distribution control'
     control_name_left_2gram = 'left 2-gram-distribution control'

@@ -9,16 +9,12 @@ subjective_copula_plural = ["are", "'re", "were"]
 templates = ['template1',
              ]
 
-# load word lists
-nouns_singular = (Path(__file__).parent / configs.Data.annotator / 'nouns_singular.txt').open().read().split("\n")
-nouns_plural = (Path(__file__).parent / configs.Data.annotator / 'nouns_plural.txt').open().read().split("\n")
+# load task words
+task_df = pd.read_csv(configs.Dirs.task_words / f'{Path(__file__).parent.stem}.csv')
+nouns_singular = task_df[].tolist()
+nouns_plural = task_df[].tolist()
 
-# check for list overlap
-for w in nouns_singular:
-    assert w not in nouns_plural
-for w in nouns_plural:
-    assert w not in nouns_singular
-
+# add words
 nouns_singular += ['one']
 
 nouns_plural = set(nouns_plural)

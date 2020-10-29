@@ -5,19 +5,22 @@ import string
 import spacy
 import json
 from pathlib import Path
+
 from babeval import configs
 
-SPACE_TOKEN = 'Ġ'
 
 with open(configs.Data.vocab_path) as f:
     w2id = json.load(f)
-vocab = [w[1:] for w, i in w2id.items() if w.startswith(SPACE_TOKEN)]
+vocab = [w[1:] for w, i in w2id.items() if w.startswith(configs.Data.space_symbol)]
 
 # exclude words
 included = set()
-excluded_words = (configs.Dirs.word_lists / "excluded_words.txt").open().read().split()
+nds = (configs.Dirs.external_words / "non-dictionary.txt").open().read().split()
+nws = (configs.Dirs.external_words / "numbers.txt").open().read().split()
 for w in vocab:
-    if w in excluded_words:
+    if w in nds:
+        continue
+    if w in nws:
         continue
     if w.isdigit():
         continue

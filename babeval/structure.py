@@ -179,7 +179,7 @@ def prepare_data_for_scatterplot(group2predictions_file_paths: Dict[str, List[Pa
             reader = DataExpOpenEnded(predictions_file_path)
 
             for s1, s2 in zip(reader.sentences_in, reader.sentences_out):
-                mask_index = s1.index('[MASK]')
+                mask_index = s1.index(configs.Data.mask_symbol)
 
                 # xi
                 if direction == 'left':

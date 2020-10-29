@@ -5,7 +5,7 @@ from babeval import configs
 copulas_singular = ["is", "'s", "was"]
 copulas_plural = ["are", "'re", "were"]
 
-pronouns_1p_2p = ['I', 'you', 'we']
+pronouns_1p_2p = ['i', 'you', 'we']
 pronouns_3p = ['he', 'she', 'it']
 assert len(pronouns_3p) == len(pronouns_1p_2p)
 
@@ -14,19 +14,12 @@ templates = [
     'subject-relative',
 ]
 
-nouns_plural = (Path(__file__).parent / configs.Data.annotator / 'nouns_plural.txt').open().read().split()
-nouns_singular = (Path(__file__).parent / configs.Data.annotator / 'nouns_singular.txt').open().read().split()
-adjectives = (Path(__file__).parent / configs.Data.annotator / 'adjectives.txt').open().read().split()
+nouns_plural = (configs.Dirs.task_words / Path(__file__).stem / 'nouns_plural.txt').open().read().split()
+nouns_singular = (configs.Dirs.task_words / f'{Path(__file__).stem}.csv').open().read().split()
+adjectives = (configs.Dirs.task_words / Path(__file__).stem / 'adjectives.txt').open().read().split()
 
-# check for list overlap
-for w in nouns_singular:
-    assert w not in nouns_plural
-for w in nouns_plural:
-    assert w not in nouns_singular
-
+# add words
 nouns_singular += ['one']
 
 nouns_plural = set(nouns_plural)
 nouns_singular = set(nouns_singular)
-
-

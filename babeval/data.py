@@ -84,8 +84,8 @@ class DataCtlOpenEnded(DataExpOpenEnded):
 
         result = []
         for s in self.sentences_in:
-            assert '[MASK]' in s, s
-            s_new = [next(sampled_words) if w == '[MASK]' else w for w in s]
+            assert configs.Data.mask_symbol in s, s
+            s_new = [next(sampled_words) if w == configs.Data.mask_symbol else w for w in s]
             result.append(s_new)
 
         return result
@@ -99,10 +99,10 @@ class DataCtlOpenEnded(DataExpOpenEnded):
 
         result = []
         for s in self.sentences_in:
-            left_word = s[s.index('[MASK]') - 1]
+            left_word = s[s.index(configs.Data.mask_symbol) - 1]
             choices, fs = zip(*[(rw, f) for rw, f in left_w2right_w2f[left_word].items()])
             weights = np.array(fs) / sum(fs)
-            s_new = [np.random.choice(choices, p=weights) if w == '[MASK]' else w for w in s]
+            s_new = [np.random.choice(choices, p=weights) if w == configs.Data.mask_symbol else w for w in s]
             result.append(s_new)
 
         return result
@@ -122,14 +122,14 @@ class DataCtlOpenEnded(DataExpOpenEnded):
 
         result = []
         for s in self.sentences_in:
-            right_word = s[s.index('[MASK]') + 1]
+            right_word = s[s.index(configs.Data.mask_symbol) + 1]
             if right_word == '.':  # do not compute this at each loop iteration
                 sampled_word = next(sampled_words_p)
             else:
                 choices, fs = zip(*[(lw, f) for lw, f in right_w2_left_w2f[right_word].items()])
                 weights = np.array(fs) / sum(fs)
                 sampled_word = np.random.choice(choices, p=weights)
-            s_new = [sampled_word if w == '[MASK]' else w for w in s]
+            s_new = [sampled_word if w == configs.Data.mask_symbol else w for w in s]
             result.append(s_new)
 
         return result

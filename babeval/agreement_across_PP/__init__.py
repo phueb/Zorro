@@ -9,17 +9,12 @@ templates = [
     'template1',
              ]
 
-nouns_plural = (Path(__file__).parent / configs.Data.annotator / 'nouns_plural.txt').open().read().split()
-nouns_singular = (Path(__file__).parent / configs.Data.annotator / 'nouns_singular.txt').open().read().split()
-prepositions = (Path(__file__).parent / configs.Data.annotator / 'prepositions.txt').open().read().split()
-adjectives = (Path(__file__).parent / configs.Data.annotator / 'adjectives.txt').open().read().split()
+nouns_plural = (configs.Dirs.task_words / Path(__file__).stem / 'nouns_plural.txt').open().read().split()
+nouns_singular = (configs.Dirs.task_words / f'{Path(__file__).stem}.csv').open().read().split()
+prepositions = (configs.Dirs.task_words / Path(__file__).stem / 'prepositions.txt').open().read().split()
+adjectives = (configs.Dirs.task_words / Path(__file__).stem / 'adjectives.txt').open().read().split()
 
-# check for list overlap
-for w in nouns_singular:
-    assert w not in nouns_plural
-for w in nouns_plural:
-    assert w not in nouns_singular
-
+# add words
 nouns_singular += ['one']
 
 nouns_plural = set(nouns_plural)

@@ -18,7 +18,7 @@ w2max_right_bigram_f = {}
 left_w2right_w2f = {}
 right_w2_left_w2f = {}
 
-with (configs.Dirs.word_lists / 'bi-grams.txt').open() as f:
+with (configs.Dirs.external_words / 'bi-grams.txt').open() as f:
     for line in f.readlines():
         frequency, w1, w2, percent = line.split()
         frequency = int(frequency)

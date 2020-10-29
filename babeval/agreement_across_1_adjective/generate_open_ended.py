@@ -1,6 +1,7 @@
 import random
 
-from babeval.agreement_across_1_adjective import *
+from babeval import configs
+
 
 template1 = 'look at {} {} [MASK] .'
 template2 = '{} {} [MASK] went there .'
@@ -12,6 +13,8 @@ def main():
     "look at this green [MASK] .
     "these green [MASK] went there .
     """
+
+    from babeval.agreement_across_1_adjective import adjectives, pre_nominals
 
     random.seed(configs.Data.seed)
 

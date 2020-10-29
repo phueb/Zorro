@@ -1,30 +1,29 @@
-import spacy
-import json
-from pathlib import Path
+from typing import Optional, List, Dict, Tuple
+from collections import OrderedDict
 
 from babeval import configs
 
 
+def get_whole_words(ww_name: str = configs.Data.ww_name,
+                    tag: Optional[str] = None,
+                    ) -> List[str]:
+    ww2info = get_ww2info(ww_name)
+    res = []
+    for w, info in ww2info.items():
+        if tag in info[1] or tag is None:
+            res.append(w)
 
-def get_whole_words():
-    path = Path(__file__).parent.parent / VOCAB_NAME
-    with open(path) as f:
-        text_string_list = []
-        text_string = f.read().split()
-        text_string_list.append(text_string)
-        my_list = [t[1::2] for t in text_string_list][0]
-
-    return my_list[:VOCAB_SIZE]
+    return res
 
 
-def get_frequency():
-    path = Path(__file__).parent.parent / VOCAB_NAME
-    with open(path) as f:
-        text_string_list = []
-        text_string = f.read().split()
-        text_string_list.append(text_string)
-        freq = [t[::2] for t in text_string_list][0]
-        my_freq = [int(i) for i in freq if i.isdigit()]
-
-    return my_freq[:VOCAB_SIZE]
+def get_ww2info(ww_name: str = configs.Data.ww_name) -> Dict[str, Tuple[int, List[str]]]:
+    lines = (configs.Dirs.data / 'whole_words' / f'{ww_name}.txt').open().read().split("\n")
+    res = OrderedDict()
+    for line in lines:
+        if line == '':
+            continue  # last line
+        w, f = line.split()[:2]
+        tags = line.split()[2:]
+        res[w] = (f, tags)
+    return res
 

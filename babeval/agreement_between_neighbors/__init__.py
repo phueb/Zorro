@@ -1,4 +1,5 @@
 from pathlib import Path
+import pandas as pd
 
 from babeval import configs
 
@@ -9,22 +10,13 @@ pre_nominals = set(pre_nominals_singular + pre_nominals_plural)
 templates = ['template1',
              ]
 
-# load word lists
-nouns_singular = (Path(__file__).parent / configs.Data.annotator / 'nouns_singular.txt').open().read().split("\n")
-nouns_plural = (Path(__file__).parent / configs.Data.annotator / 'nouns_plural.txt').open().read().split("\n")
-nouns_ambiguous = (Path(__file__).parent / configs.Data.annotator / 'nouns_ambiguous_number.txt').open().read().split("\n")
-
-# check for list overlap
-for w in nouns_singular:
-    assert w not in nouns_plural
-for w in nouns_plural:
-    assert w not in nouns_singular
-
-# make sure no title-cased words are in nouns
-assert not [n for n in nouns_singular if n.istitle()]
-
-# new nouns lists
-nouns = nouns_singular + nouns_plural
+# load task words
+task_df = pd.read_csv(configs.Dirs.task_words / f'{Path(__file__).parent.stem}.csv')
+nouns_singular = task_df['NN'].tolist()
+nouns_plural = task_df['NNS'].tolist()
+# external
+nouns_ambiguous = (configs.Dirs.external_words / 'nouns_ambiguous_number.txt').open().read().split("\n")
+nouns_proper = (configs.Dirs.external_words / 'nouns_proper.txt').open().read().split("\n")
 
 # add words
 nouns_singular += ['one']

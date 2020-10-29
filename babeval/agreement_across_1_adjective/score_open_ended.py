@@ -1,6 +1,6 @@
 from typing import List, Dict
 
-from babeval.agreement_across_1_adjective import *
+from babeval.agreement_across_1_adjective.common import *
 
 SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. #bear", "##s"
 SCORE_NOUN_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. "smooth", "##ie"
@@ -9,16 +9,19 @@ SCORE_NOUN_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. "smooth", "##ie"
 prediction_categories = (
     "noun +\ncorrect number",
     "noun +\nfalse number",
-    "noun +\n no number",
-    "noun\nproper",
-    "non-start\nword-piece\nor\n[UNK]",
+    "noun +\n no number",   # todo get this from shared folder
+    "noun\nproper",  # todo get this from shared folder
+    'non-start\nsub-token\nor\n[UNK]',
     "non-noun",
 )
 
+# external
+nouns_ambiguous = (configs.Dirs.external_words / 'nouns_ambiguous_number.txt').open().read().split("\n")
+nouns_proper = (configs.Dirs.external_words / 'nouns_proper.txt').open().read().split("\n")
 
-# score correct when start word is plural and predicted ##s turns adjective into a plural noun
+# score correct when start word is plural and predicted ##s turns adjective into a plural noun  # todo - is this still relevant with bbpe?
 if SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
-    nouns_plural.add('##s')
+    nouns_plural.add('s')
 
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
@@ -30,11 +33,11 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
         if s1[0] == 'look':
             template2sentences_out.setdefault(templates[0], []).append(s2)
             if templates[0] not in template2mask_index:
-                template2mask_index[templates[0]] = s1.index('[MASK]')
+                template2mask_index[templates[0]] = s1.index(configs.Data.mask_symbol)
         elif s1[-2] == 'there':
             template2sentences_out.setdefault(templates[1], []).append(s2)
             if templates[1] not in template2mask_index:
-                template2mask_index[templates[1]] = s1.index('[MASK]')
+                template2mask_index[templates[1]] = s1.index(configs.Data.mask_symbol)
         else:
             raise ValueError(f'Failed to categorize template')
 
@@ -51,11 +54,11 @@ def categorize_predictions(sentences_out: List[List[str]],
         pre_nominal = [w for w in sentence if w in pre_nominals][0]
 
         # non-start wordpiece
-        if predicted_word.startswith("##") or predicted_word == '[UNK]':
-            if predicted_word != '##s':
-                res["non-start\nword-piece\nor\n[UNK]"] += 1
+        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == '[UNK]':  # todo still relevant with bbpe?
+            if predicted_word != 's':
+                res['non-start\nsub-token\nor\n[UNK]'] += 1
             elif not SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
-                res["non-start\nword-piece\nor\n[UNK]"] += 1
+                res['non-start\nsub-token\nor\n[UNK]'] += 1
 
         # proper noun
         if predicted_word in nouns_proper:
