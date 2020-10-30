@@ -35,7 +35,7 @@ def categorize_predictions(sentences_out: List[List[str]],
         pre_nominal = [w for w in sentence if w in pre_nominals][0]
 
         # non-start wordpiece
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == '[UNK]':
+        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
             res['non-start\nsub-token\nor\n[UNK]'] += 1
 
         # proper noun

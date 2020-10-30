@@ -1,5 +1,5 @@
 
-from babeval.agreement_across_1_adjective.shared import task_name, pre_nominals, plural
+from babeval.agreement_across_1_adjective.shared import task_name, plural, pre_nominals_singular, pre_nominals_plural
 from babeval.task_words import get_task_word_combo
 from babeval.whole_words import get_whole_words
 
@@ -30,7 +30,7 @@ def main():
 
     noun_plurals = get_whole_words(tag='NNS')
 
-    for pre_nominal in pre_nominals:
+    for pre_nominal in pre_nominals_singular + pre_nominals_plural:
 
         for words_singular in get_task_word_combo(task_name, rules.keys()):
             noun_plural = plural.plural(words_singular[1])

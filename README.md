@@ -10,20 +10,22 @@ Sentences are created using templates, filled with custom, human-curated word li
 
 Each grammatical task (e.g. number agreement across relative clause) is associated with a folder in `babeval`.
 There are two flavors of each task:
-1. open-ended: model to be evaluated, predicts whatever word, in its vocabulary, replaces [MASK] best.
+1. open-ended: model to be evaluated, predicts whatever word, in its vocabulary, replaces `<MASK>` best.
 2. forced-choice: model to be evaluated, must chose between two alternative sentences.
 
 Each task flavor is associated with 2 files, one for generating, and another for scoring predictions.
 
 ## How words were chosen
 
-Words that make up test sentences are all derived from a BPE encoding vocab file. 
+Words that make up test sentences are all derived from a BPE encoding vocab file 
+ generated using the Python `tokenizers` package. 
 We performed the following filtering:
 
 1. removed word if
 - not in original corpus files (e.g. sub-words)
 - not in English dictionary
 - is a number
+- is a Stanford CoreNLP stopword
 
 2. for every slot in every task:
 - get words tagged with desired POS

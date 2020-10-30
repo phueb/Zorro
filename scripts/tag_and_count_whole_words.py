@@ -1,7 +1,6 @@
 """
 make text file containing word, frequency, POS tag info
 """
-import string
 import spacy
 import json
 from pathlib import Path
@@ -17,6 +16,7 @@ vocab = [w[1:] for w, i in w2id.items() if w.startswith(configs.Data.space_symbo
 included = set()
 nds = (configs.Dirs.external_words / "non-dictionary.txt").open().read().split()
 nws = (configs.Dirs.external_words / "numbers.txt").open().read().split()
+sws = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
 for w in vocab:
     if w in nds:
         continue
@@ -24,7 +24,7 @@ for w in vocab:
         continue
     if w.isdigit():
         continue
-    if w in string.punctuation:
+    if w in sws:
         continue
     included.add(w)
 

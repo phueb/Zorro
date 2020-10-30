@@ -1,16 +1,15 @@
 from typing import List, Dict
 
-from babeval.agreement_across_1_adjective.shared import *
-
-SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. #bear", "##s"
-SCORE_NOUN_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. "smooth", "##ie"
+from babeval import configs
+from babeval.agreement_across_1_adjective.shared import pre_nominals_plural, pre_nominals_singular
+from babeval.agreement_across_1_adjective.shared import templates, tws
 
 
 prediction_categories = (
     "noun +\ncorrect number",
     "noun +\nfalse number",
-    "noun +\n no number",   # todo get this from shared folder
-    "noun\nproper",  # todo get this from shared folder
+    "noun +\n no number",
+    "noun\nproper",
     'non-start\nsub-token\nor\n[UNK]',
     "non-noun",
 )
@@ -18,10 +17,6 @@ prediction_categories = (
 # external
 nouns_ambiguous = (configs.Dirs.external_words / 'nouns_ambiguous_number.txt').open().read().split("\n")
 nouns_proper = (configs.Dirs.external_words / 'nouns_proper.txt').open().read().split("\n")
-
-# score correct when start word is plural and predicted ##s turns adjective into a plural noun  # todo - is this still relevant with bbpe?
-if SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
-    nouns_plural.add('s')
 
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
@@ -51,10 +46,10 @@ def categorize_predictions(sentences_out: List[List[str]],
 
     for sentence in sentences_out:
         predicted_word = sentence[mask_index]
-        pre_nominal = [w for w in sentence if w in pre_nominals][0]
+        pre_nominal = [w for w in sentence if w in pre_nominals_singular + pre_nominals_plural][0]
 
-        # non-start wordpiece
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == '[UNK]':  # todo still relevant with bbpe?
+        # non-start sub-word    # todo still relevant with bbpe?
+        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
             if predicted_word != 's':
                 res['non-start\nsub-token\nor\n[UNK]'] += 1
             elif not SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:

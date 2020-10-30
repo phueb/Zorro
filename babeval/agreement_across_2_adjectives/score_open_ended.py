@@ -1,9 +1,8 @@
 from typing import List, Dict
 
-from babeval.agreement_across_2_adjectives import *
-
-SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. #bear", "##s"
-SCORE_NOUN_WORDPIECE_AS_CORRECT_PREDICTION = 1  # e.g. "smooth", "##ie"
+from babeval import configs
+from babeval.agreement_across_2_adjectives.shared import task_name, templates
+from babeval.agreement_across_2_adjectives.shared import pre_nominals, pre_nominals_singular, pre_nominals_plural
 
 
 prediction_categories = (
@@ -15,10 +14,6 @@ prediction_categories = (
     "non-noun",
 )
 
-
-# score correct when start word is plural and predicted ##s turns adjective into a plural noun
-if SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
-    nouns_plural.add('s')
 
 
 def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
@@ -50,8 +45,8 @@ def categorize_predictions(sentences_out: List[List[str]],
         predicted_word = sentence[mask_index]
         pre_nominal = [w for w in sentence if w in pre_nominals][0]
 
-        # non-start wordpiece
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == '[UNK]':
+        # non-start sub-word
+        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
             if predicted_word != 's':
                 res['non-start\nsub-token\nor\n[UNK]'] += 1
             elif not SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:

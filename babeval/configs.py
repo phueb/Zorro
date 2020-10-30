@@ -16,6 +16,7 @@ class Data:
     corpora_path = '/home/ph/BabyBERT/data/corpora'
     seed = 3
     mask_symbol = '<mask>'
+    unk_symbol = '<unk>'
     space_symbol = 'Ġ'
     ww_name = 'c-w-n'
 

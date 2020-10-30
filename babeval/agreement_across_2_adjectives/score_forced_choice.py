@@ -1,6 +1,6 @@
 from typing import List, Dict, Tuple
 
-from babeval.agreement_across_2_adjectives import *
+from babeval.agreement_across_2_adjectives.shared import templates, pre_nominals_plural, pre_nominals_singular
 from babeval.utils import check_agreement_between_pre_nominal_and_noun
 
 prediction_categories = ('false', 'correct')

@@ -1,20 +1,26 @@
-import random
 
-from babeval.agreement_across_PP import *
+from babeval.task_words import get_task_word_combo
+from babeval.agreement_across_PP.shared import task_name
 
 
-NUM_SUBJECT_NOUNS_FROM_EACH_LIST = 50  # some number smaller than length of both singular and plural noun lists
-NUM_OBJECT_NOUNS_FROM_EACH_LIST = 8  # some number smaller than length of both singular and plural noun lists
-NUM_ADJECTIVES = 4
-NUM_PREPOSITIONS = 2
+NUM_NOUNS = 2
+NUM_ADJECTIVES = 2
 
 template1 = 'the {} on the {} {} {} .'
 template2 = 'the {} by the {} {} {} .'
 
 rules = {
-    0: [
+    ('NN', 0, NUM_NOUNS): [
         template1.format('{}', '_', 'is', '_'),
         template2.format('{}', '_', 'is', '_'),
+    ],
+    ('NNS', 0, NUM_NOUNS): [
+        template1.format('{}', '_', 'are', '_'),
+        template2.format('{}', '_', 'are', '_'),
+    ],
+    ('JJ', 0, NUM_ADJECTIVES): [
+        template1.format('_', '_', 'is/are', '{}'),
+        template2.format('_', '_', 'is/are', '{}'),
     ],
 
 }
@@ -23,43 +29,22 @@ rules = {
 def main():
     """
     example:
-    "the dog on the mat is brown" vs "are brown"
+    "the dog on the mats is brown" vs "the dog on the mats are brown"
 
     considerations:
     1. use equal proportion of sentences containing plural vs. singular subject nouns
-    2. use equal proportion of plural vs. singular object nouns n singular vs. plural sentences
-    3. use the same prepositional phrases for sentences with singular and plural subject nouns
+    2. use opposite numbered object noun vs. subject noun
     """
 
-    random.seed(configs.Data.seed)
+    for words in get_task_word_combo(task_name, rules.keys()):
 
-    assert NUM_ADJECTIVES <= len(adjectives)
-    assert NUM_PREPOSITIONS <= len(prepositions)
-    assert NUM_SUBJECT_NOUNS_FROM_EACH_LIST < len(nouns_singular)
-    assert NUM_SUBJECT_NOUNS_FROM_EACH_LIST < len(nouns_plural)
+        # counter-balance singular vs plural with subj vs. obj
+        for subject_id, object_id in [[0, 1], [1, 0]]:
 
-    nouns_subject_balanced = random.sample(nouns_singular, k=NUM_SUBJECT_NOUNS_FROM_EACH_LIST) + \
-                             random.sample(nouns_plural, k=NUM_SUBJECT_NOUNS_FROM_EACH_LIST)
+            yield template1.format(words[subject_id], words[object_id], 'is' , words[2])
+            yield template1.format(words[subject_id], words[object_id], 'are', words[2])
 
-    nouns_object_balanced = random.sample(nouns_singular, k=NUM_OBJECT_NOUNS_FROM_EACH_LIST) + \
-                            random.sample(nouns_plural, k=NUM_OBJECT_NOUNS_FROM_EACH_LIST)
 
-    adjectives_sample = random.sample(adjectives, k=NUM_ADJECTIVES)
-    prepositions_sample = random.sample(prepositions, k=NUM_PREPOSITIONS)
-
-    prepositional_phrases = []
-    for preposition in prepositions_sample:
-        for noun_object in nouns_object_balanced:
-            prepositional_phrase = preposition + ' ' + 'the' + ' ' + noun_object
-            prepositional_phrases.append(prepositional_phrase)
-
-    print(f'Made {len(prepositional_phrases)} prepositional phrases')
-
-    for noun_subject in nouns_subject_balanced:
-        for pp in prepositional_phrases:
-            for adjective in adjectives_sample:
-
-                raise NotImplementedError
-
-                yield template1.format(noun_subject, pp, 'is', adjective)
-                yield template1.format(noun_subject, pp, 'are', adjective)
+if __name__ == '__main__':
+    for s in main():
+        print(s)
