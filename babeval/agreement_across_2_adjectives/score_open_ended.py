@@ -1,8 +1,8 @@
 from typing import List, Dict
 
 from babeval import configs
-from babeval.agreement_across_2_adjectives.shared import task_name, templates
-from babeval.agreement_across_2_adjectives.shared import pre_nominals, pre_nominals_singular, pre_nominals_plural
+from babeval.agreement_across_2_adjectives.shared import templates, pre_nominals_singular, pre_nominals_plural
+from babeval.agreement_across_2_adjectives.shared import nouns_plural, nouns_singular
 
 
 prediction_categories = (
@@ -13,6 +13,10 @@ prediction_categories = (
     'non-start\nsub-token\nor\n[UNK]',
     "non-noun",
 )
+
+# external
+nouns_ambiguous = (configs.Dirs.external_words / 'nouns_ambiguous_number.txt').open().read().split("\n")
+nouns_proper = (configs.Dirs.external_words / 'nouns_proper.txt').open().read().split("\n")
 
 
 
@@ -43,7 +47,7 @@ def categorize_predictions(sentences_out: List[List[str]],
 
     for sentence in sentences_out:
         predicted_word = sentence[mask_index]
-        pre_nominal = [w for w in sentence if w in pre_nominals][0]
+        pre_nominal = [w for w in sentence if w in pre_nominals_plural + pre_nominals_plural][0]
 
         # non-start sub-word
         if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:

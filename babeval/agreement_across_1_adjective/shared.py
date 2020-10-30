@@ -1,7 +1,7 @@
 from pathlib import Path
 import inflect
 
-from babeval.task_words import get_task_word_combo
+from babeval.task_words import get_task_words
 
 plural = inflect.engine()
 
@@ -15,4 +15,5 @@ templates = [
     '... went there',
 ]
 
-noun_plurals = get_task_word_combo
+nouns_singular = get_task_words(task_name, 'NN')
+nouns_plural = get_task_words(task_name, 'NNS')

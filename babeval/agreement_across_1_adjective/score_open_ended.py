@@ -1,8 +1,8 @@
 from typing import List, Dict
 
 from babeval import configs
-from babeval.agreement_across_1_adjective.shared import pre_nominals_plural, pre_nominals_singular
-from babeval.agreement_across_1_adjective.shared import templates, tws
+from babeval.agreement_across_1_adjective.shared import templates, pre_nominals_plural, pre_nominals_singular
+from babeval.agreement_across_1_adjective.shared import nouns_singular, nouns_plural
 
 
 prediction_categories = (
