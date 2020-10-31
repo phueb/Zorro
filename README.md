@@ -1,9 +1,9 @@
-# Babeval
+# Zorro
 Generate test sentences for evaluating NLP system trained on masked language modeling objective
 
 ## Test sentences
 
-Sentences are created using templates, filled with custom, human-curated word lists.
+Sentences are created using templates, filled with words from custom, human-curated word lists.
 
 
 ## Organization
