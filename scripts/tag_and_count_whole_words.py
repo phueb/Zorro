@@ -26,6 +26,8 @@ for w in vocab:
         continue
     if w in sws:
         continue
+    if len(w) == 1:
+        continue
     included.add(w)
 
 
