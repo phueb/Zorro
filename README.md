@@ -1,4 +1,7 @@
-# Zorro
+<div align="center">
+ <img src="images/logo.png" width="250"> 
+</div>
+
 Generate test sentences for evaluating NLP system trained on masked language modeling objective
 
 ## Test sentences
