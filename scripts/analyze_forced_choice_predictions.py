@@ -1,9 +1,9 @@
 import importlib
 
-from babeval import configs
-from babeval.visualizer import Visualizer
-from babeval.structure import prepare_data_for_barplot_forced_choice
-from babeval.io import get_group2predictions_file_paths
+from zorro import configs
+from zorro.visualizer import Visualizer
+from zorro.structure import prepare_data_for_barplot_forced_choice
+from zorro.io import get_group2predictions_file_paths
 
 
 STEP_SIZE = 10_000
@@ -21,7 +21,7 @@ TASK_NAMES = [
 
 for task_name in TASK_NAMES:
     # load module containing task-relevant objects
-    s = importlib.import_module(f'babeval.{task_name}.score_forced_choice')
+    s = importlib.import_module(f'zorro.{task_name}.score_forced_choice')
 
     for step in configs.Eval.custom_steps or list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
 

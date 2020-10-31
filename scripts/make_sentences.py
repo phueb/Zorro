@@ -1,19 +1,19 @@
 from pathlib import Path
 import importlib
 
-from babeval.whole_words import get_whole_words
+from zorro.whole_words import get_whole_words
 
 CHECK_IN_VOCAB = True
-SECONDARY_OUT_PATH = Path('/') / 'media' / 'research_data' / 'Babeval' / 'sentences' or None
+SECONDARY_OUT_PATH = Path('/') / 'media' / 'research_data' / 'Zorro' / 'sentences' or None
 
 whole_words = get_whole_words()
 
 
 # generate sentences for all tasks
 for task_type in ['forced_choice', 'open_ended']:
-    for path in Path('../babeval').glob(f'*/generate_{task_type}.py'):
+    for path in Path('../zorro').glob(f'*/generate_{task_type}.py'):
         task_name = path.parent.name
-        generate = importlib.import_module(f'babeval.{task_name}.generate_{task_type}')
+        generate = importlib.import_module(f'zorro.{task_name}.generate_{task_type}')
 
         # check for list overlap
         for w in generate.nouns_singular:

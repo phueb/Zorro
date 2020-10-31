@@ -4,8 +4,8 @@ present word candidates in task sentences for human to judge as good or bad
 import importlib
 import pandas as pd
 
-from babeval import configs
-from babeval.whole_words import get_ww2info
+from zorro import configs
+from zorro.whole_words import get_ww2info
 
 # chose one
 TASK_NAMES = [
@@ -22,7 +22,7 @@ ww2info = get_ww2info()
 
 for task_name in TASK_NAMES:
     # load  task-relevant objects
-    g = importlib.import_module(f'babeval.{task_name}.generate_forced_choice')
+    g = importlib.import_module(f'zorro.{task_name}.generate_forced_choice')
     df_path = configs.Dirs.task_words / f'{task_name}.csv'
     if not df_path.exists():
         df = pd.DataFrame(columns=['word'] + [f'{tag}-{order}' for tag, order, _ in g.rules.keys()])

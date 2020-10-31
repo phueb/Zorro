@@ -1,12 +1,12 @@
 import importlib
 
-from babeval import configs
-from babeval.visualizer import Visualizer
-from babeval.structure import prepare_data_for_barplot_open_ended, prepare_data_for_scatterplot
-from babeval.bigrams import categorize_left_bigrams, categorize_right_bigrams
-from babeval.bigrams import bigram_frequency_percentiles, bigram2f
-from babeval.bigrams import w2max_left_bigram_f, w2max_right_bigram_f
-from babeval.io import get_group2predictions_file_paths
+from zorro import configs
+from zorro.visualizer import Visualizer
+from zorro.structure import prepare_data_for_barplot_open_ended, prepare_data_for_scatterplot
+from zorro.bigrams import categorize_left_bigrams, categorize_right_bigrams
+from zorro.bigrams import bigram_frequency_percentiles, bigram2f
+from zorro.bigrams import w2max_left_bigram_f, w2max_right_bigram_f
+from zorro.io import get_group2predictions_file_paths
 
 # chose one
 ANALYZE_PREDICTION_CATEGORIES = 1
@@ -30,7 +30,7 @@ TASK_NAMES = [
 
 for task_name in TASK_NAMES:
     # load module containing task-relevant objects
-    s = importlib.import_module(f'babeval.{task_name}.score_open_ended')
+    s = importlib.import_module(f'zorro.{task_name}.score_open_ended')
 
     for step in configs.Eval.custom_steps or list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
 

@@ -5,7 +5,7 @@ import spacy
 import json
 from pathlib import Path
 
-from babeval import configs
+from zorro import configs
 
 
 with open(configs.Data.vocab_path) as f:
