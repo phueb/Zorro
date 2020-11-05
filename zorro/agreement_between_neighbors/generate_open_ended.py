@@ -1,6 +1,6 @@
 
-
-from zorro.agreement_between_neighbors import *
+from zorro import configs
+from zorro.agreement_between_neighbors.shared import pre_nominals_plural, pre_nominals_singular
 
 template = 'look at {}' + f' {configs.Data.mask_symbol} ' + '.'
 
@@ -11,5 +11,5 @@ def main():
     "look at this [MASK]"
     """
 
-    for pre_nominal in pre_nominals:
+    for pre_nominal in pre_nominals_plural + pre_nominals_singular:
         yield template.format(pre_nominal)
