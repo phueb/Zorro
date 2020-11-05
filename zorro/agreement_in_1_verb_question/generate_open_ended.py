@@ -1,20 +1,30 @@
-import random
+from zorro.task_words import get_task_word_combo
+from zorro.whole_words import get_whole_words
+from zorro.agreement_in_1_verb_question.shared import task_name, plural
+from zorro import configs
 
-from zorro.agreement_in_1_verb_question import *
-
-NUM_NOUNS_FROM_EACH_LIST = 400  # there are only 414 plurals
+NUM_NOUNS = 4
 
 template1 = 'where' + f' {configs.Data.mask_symbol} ' + 'the {} ?'
 template2 = 'what' + f' {configs.Data.mask_symbol} ' + 'the {} ?'
 
 
 def main():
-    random.seed(configs.Data.seed)
+    """
 
-    nouns_balanced = random.sample(nouns_singular, k=NUM_NOUNS_FROM_EACH_LIST) + \
-                     random.sample(nouns_plural, k=NUM_NOUNS_FROM_EACH_LIST)
+    """
+    noun_plurals = get_whole_words(tag='NNS')
 
-    for noun in nouns_balanced:
-        yield template1.format(noun)
-        yield template2.format(noun)
+    for (noun_s,) in get_task_word_combo(task_name, (('NN', 0, NUM_NOUNS),
+                                                     )):
+        noun_p = plural.plural(noun_s)
+        if noun_p not in noun_plurals:
+            continue
 
+        yield template1.format(noun_s)
+        yield template2.format(noun_p)
+
+
+if __name__ == '__main__':
+    for s in main():
+        print(s)

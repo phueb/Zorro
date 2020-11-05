@@ -1,6 +1,11 @@
 from pathlib import Path
+import inflect
 
-from zorro import configs
+from zorro.task_words import get_task_words
+
+plural = inflect.engine()
+
+task_name = Path(__file__).parent.stem
 
 
 subjective_copula_singular = ["is", "'s", "was"]  # "do" and "does" should not be considered correct answers
@@ -9,14 +14,5 @@ subjective_copula_plural = ["are", "'re", "were"]
 templates = ['template1',
              ]
 
-# load task words
-task_df = pd.read_csv(configs.Dirs.task_words / f'{Path(__file__).parent.stem}.csv')
-nouns_singular = task_df[].tolist()
-nouns_plural = task_df[].tolist()
-
-# add words
-nouns_singular += ['one']
-
-nouns_plural = set(nouns_plural)
-nouns_singular = set(nouns_singular)
-
+nouns_singular = get_task_words(task_name, 'NN')
+nouns_plural = [plural.plural(n) for n in nouns_singular]

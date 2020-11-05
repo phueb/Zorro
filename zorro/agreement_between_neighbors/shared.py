@@ -14,5 +14,6 @@ pre_nominals = set(pre_nominals_singular + pre_nominals_plural)
 templates = ['template1',
              ]
 
-
+nouns_singular = get_task_words(task_name, 'NN')
+nouns_plural = [plural.plural(n) for n in nouns_singular]
 

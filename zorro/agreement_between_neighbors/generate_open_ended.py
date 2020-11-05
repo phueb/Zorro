@@ -13,3 +13,8 @@ def main():
 
     for pre_nominal in pre_nominals_plural + pre_nominals_singular:
         yield template.format(pre_nominal)
+
+
+if __name__ == '__main__':
+    for s in main():
+        print(s)

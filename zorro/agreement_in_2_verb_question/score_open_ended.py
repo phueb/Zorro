@@ -32,7 +32,7 @@ def categorize_predictions(sentences_out: List[List[str]],
         predicted_word = sentence[mask_index]
         targeted_noun = sentence[3]
 
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == "[UNK]":
+        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
             res['non-start\nsub-token\nor\n[UNK]'] += 1
 
         elif targeted_noun in nouns_plural and predicted_word in subjective_copula_plural:
