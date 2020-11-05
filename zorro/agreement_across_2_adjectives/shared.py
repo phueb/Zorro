@@ -17,4 +17,4 @@ templates = [
 ]
 
 nouns_singular = get_task_words(task_name, 'NN')
-nouns_plural = get_task_words(task_name, 'NNS')
+nouns_plural = [plural.plural(n) for n in nouns_singular]

@@ -1,5 +1,5 @@
 
-from zorro.agreement_across_2_adjectives.shared import task_name, pre_nominals, plural
+from zorro.agreement_across_2_adjectives.shared import task_name, pre_nominals_singular, pre_nominals_plural, plural
 from zorro.task_words import get_task_word_combo
 from zorro.whole_words import get_whole_words
 
@@ -33,7 +33,7 @@ def main():
     """
     noun_plurals = get_whole_words(tag='NNS')
 
-    for pre_nominal in pre_nominals:
+    for pre_nominal in pre_nominals_singular + pre_nominals_plural:
 
         for words_singular in get_task_word_combo(task_name, rules.keys()):
             noun_plural = plural.plural(words_singular[2])
