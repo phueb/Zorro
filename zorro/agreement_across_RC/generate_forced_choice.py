@@ -1,51 +1,59 @@
 
-from zorro.agreement_across_RC.shared import task_name, plural
+from zorro.agreement_across_RC.shared import task_name, plural, pronouns_3p, pronouns_1p_2p
 from zorro.task_words import get_task_word_combo
 from zorro.whole_words import get_whole_words
 
 NUM_ADJECTIVES = 2
-NUM_NOUNS = 7
+NUM_NOUNS = 2
 
-template1 = 'look at {} {} {} {} .'
-template2 = '{} {} {} {} went there .'
+template1a = 'the {} that {} like {} {} .'
+template1b = 'the {} that {} likes {} {} .'
+template2a = 'the {} that is there {} {} .'
+template2b = 'the {} that are there {} {} .'
 
 rules = {
+    ('NN', 0, NUM_NOUNS): [  # todo make the tag a list to specify both singular + plural nouns in same slot
+        template1a.format('{}', 'i', 'is', '_'),
+        template2a.format('{}', 'is', '_'),
+    ],
+
     ('JJ', 0, NUM_ADJECTIVES): [
-        template1.format('this', '{}', '_', '_'),
-        template2.format('this', '{}', '_', '_'),
+        template1a.format('_', 'i', 'is', '{}'),
+        template2a.format('_', 'is', '{}'),
     ],
-    ('JJ', 1, NUM_ADJECTIVES): [
-        template1.format('this', '_', '{}', '_'),
-        template2.format('this', '_', '{}', '_'),
-    ],
-    ('NN', 0, NUM_NOUNS): [
-        template1.format('this', '_', '_', '{}'),
-        template2.format('this', '_', '_', '{}'),
-    ],
+
 }
 
 
 def main():
     """
     example:
-    "look at this green red house ." vs. "look at this green red houses ."
-    "this green red house went there ." vs. "this green red houses went there."
+    "the dog that i like is green" vs. "the dogs that i like is green"
     """
     noun_plurals = get_whole_words(tag='NNS')
 
-    for pre_nominal in pre_nominals_singular + pre_nominals_plural:
+    for noun_s, adj in get_task_word_combo(task_name, rules.keys()):
+        noun_p = plural.plural(noun_s)
+        if noun_p not in noun_plurals:
+            continue
 
-        for words_singular in get_task_word_combo(task_name, rules.keys()):
-            noun_plural = plural.plural(words_singular[2])
-            if noun_plural not in noun_plurals:
-                continue
-            words_plural = [words_singular[0], words_singular[1], noun_plural]
+        # object-relative
+        for pronoun_1p_2p in pronouns_1p_2p:
+            yield template1a.format(noun_s, pronoun_1p_2p, 'is', adj)
+            yield template1a.format(noun_s, pronoun_1p_2p, 'are', adj)
+            yield template1a.format(noun_p, pronoun_1p_2p, 'is', adj)
+            yield template1a.format(noun_p, pronoun_1p_2p, 'are', adj)
+        for pronoun_3p in pronouns_3p:
+            yield template1b.format(noun_s, pronoun_3p, 'is', adj)
+            yield template1b.format(noun_s, pronoun_3p, 'are', adj)
+            yield template1b.format(noun_p, pronoun_3p, 'is', adj)
+            yield template1b.format(noun_p, pronoun_3p, 'are', adj)
 
-            yield template1.format(pre_nominal, *words_singular)
-            yield template1.format(pre_nominal, *words_plural)
-
-            yield template2.format(pre_nominal, *words_singular)
-            yield template2.format(pre_nominal, *words_plural)
+        # subject-relative
+        yield template2a.format(noun_s, 'is', adj)
+        yield template2a.format(noun_s, 'are', adj)
+        yield template2b.format(noun_p, 'is', adj)
+        yield template2b.format(noun_p, 'are', adj)
 
 
 if __name__ == '__main__':

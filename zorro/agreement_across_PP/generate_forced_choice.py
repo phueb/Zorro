@@ -10,7 +10,7 @@ template1 = 'the {} on the {} {} {} .'
 template2 = 'the {} by the {} {} {} .'
 
 rules = {
-    ('NN', 0, NUM_NOUNS): [
+    ('NN', 0, NUM_NOUNS): [  # todo make the tag a list to specify both singular + plural nouns in same slot
         template1.format('{}', '_', 'is', '_'),
         template2.format('{}', '_', 'is', '_'),
     ],
@@ -33,7 +33,7 @@ def main():
 
     considerations:
     1. use equal proportion of sentences containing plural vs. singular subject nouns
-    2. use opposite numbered object noun vs. subject noun
+    2. use opposite numbered object noun vs. subject noun  # todo it would be better to have 50/50 singular/plural object nouns
     """
 
     for words in get_task_word_combo(task_name, rules.keys()):

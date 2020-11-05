@@ -19,6 +19,7 @@ templates = [
     'subject-relative',
 ]
 
+adjectives = get_task_words(task_name, 'JJ')
 nouns_singular = get_task_words(task_name, 'NN')
 nouns_plural = [plural.plural(n) for n in nouns_singular]
 

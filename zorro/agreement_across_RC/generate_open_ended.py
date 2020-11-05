@@ -1,9 +1,9 @@
-import random
 
-from zorro.agreement_across_RC import *
+from zorro.agreement_across_RC.shared import task_name, pronouns_3p, pronouns_1p_2p, adjectives
+from zorro import configs
 
-NUM_NOUNS_FROM_EACH_LIST = 50  # there are 414 plurals
-NUM_ADJECTIVES = 10
+NUM_NOUNS = 4
+NUM_ADJECTIVES = 4
 
 # object-relative clause
 template1a = 'the {} that {} like' + f' {configs.Data.mask_symbol} ' + '{} .'
@@ -18,14 +18,6 @@ def main():
     example:
     "the dog that I like [MASK] lazy"
     """
-
-    random.seed(configs.Data.seed)
-
-    nouns_sample_singular = random.sample(nouns_singular, k=NUM_NOUNS_FROM_EACH_LIST)
-    nouns_sample_plural = random.sample(nouns_plural, k=NUM_NOUNS_FROM_EACH_LIST)
-    nouns_balanced = nouns_sample_singular + nouns_sample_plural
-
-    adjectives_sample = random.sample(adjectives, k=NUM_ADJECTIVES)
 
     # object-relative
 
