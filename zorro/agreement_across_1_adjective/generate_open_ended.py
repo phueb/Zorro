@@ -1,6 +1,6 @@
 
 from zorro import configs
-from zorro.agreement_across_1_adjective.shared import task_name, pre_nominals
+from zorro.agreement_across_1_adjective.shared import task_name, pre_nominals_singular, pre_nominals_plural
 from zorro.task_words import get_task_word_combo
 
 NUM_ADJECTIVES = 2
@@ -16,7 +16,7 @@ def main():
     "these green [MASK] went there .
     """
 
-    for pre_nominal in pre_nominals:
+    for pre_nominal in pre_nominals_singular + pre_nominals_plural:
 
         for words in get_task_word_combo(task_name, (('JJ', 0, NUM_ADJECTIVES), )):
             yield template1.format(pre_nominal, *words)

@@ -43,4 +43,4 @@ for task_type in ['forced_choice', 'open_ended']:
                             print(f'WARNING: Not in whole_words or stop words: "{w}"')
                     # write to file
                     f.write(sentence + '\n')
-                print(f'Saved {n:,} sentences to {out_path}')
+            print(f'Saved {n:,} sentences to {out_path}')

@@ -7,14 +7,14 @@ plural = inflect.engine()
 
 task_name = Path(__file__).parent.stem
 
-copulas_singular = ["is", "'s", "was"]
-copulas_plural = ["are", "'re", "were"]
+subjective_copula_singular = ["does"]  # only "do" and does should be considered answers
+subjective_copula_plural = ["do"]
+subjective_copula_ambiguous = ["did"]
 
-templates = [
-    'on the',
-    'by the',
+templates = ['template1',
              ]
 
+# load task words
 nouns_singular = get_task_words(task_name, 'NN')
 nouns_plural = [plural.plural(n) for n in nouns_singular]
-adjectives = get_task_words(task_name, 'JJ')
+
