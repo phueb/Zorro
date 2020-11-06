@@ -4,7 +4,6 @@ import random
 from typing import List, Dict, Tuple
 
 from zorro.whole_words import get_whole_words, get_frequency
-from zorro.bigrams import right_w2_left_w2f, left_w2right_w2f
 from zorro import configs
 
 whole_words = get_whole_words()

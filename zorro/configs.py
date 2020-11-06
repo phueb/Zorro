@@ -27,9 +27,9 @@ class Data:
 
 
 class Eval:
-    local_runs = False  # use prediction files fom this repository
-    custom_steps = [180_000]  # or None  or [-1] to indicate last available step
-    param_names = [f'param_00{i}' for i in [1, 6, 7, 5, 8]]
+    local_runs = True  # use prediction files fom this repository
+    custom_steps = ['best']  # or None  or [-1] to indicate last available step
+    param_names = None  # [f'param_00{i}' for i in [1, 6, 7, 5, 8]]
     raise_error_on_missing_group = True
     conditions = ['bbpe']  # can be empty list
     max_reps = 10
