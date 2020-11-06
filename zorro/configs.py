@@ -21,9 +21,7 @@ class Data:
     ww_name = 'c-w-n'
 
     control_name_1gram = '1-gram-distribution control'
-    control_name_left_2gram = 'left 2-gram-distribution control'
-    control_name_right_2gram = 'right 2-gram-distribution control'
-    control_names = [control_name_1gram, control_name_left_2gram, control_name_right_2gram]
+    control_names = [control_name_1gram]
 
 
 class Eval:
@@ -31,6 +29,6 @@ class Eval:
     custom_steps = ['best']  # or None  or [-1] to indicate last available step
     param_names = None  # [f'param_00{i}' for i in [1, 6, 7, 5, 8]]
     raise_error_on_missing_group = True
-    conditions = ['bbpe']  # can be empty list
+    conditions = ['architecture']  # can be empty list
     max_reps = 10
     num_control_reps = 2

@@ -61,10 +61,6 @@ class DataCtlOpenEnded(DataExpOpenEnded):
 
         if control_name == configs.Data.control_name_1gram:
             self.sentences_out = self.make_sentences_out_unigram_distribution_control()
-        elif control_name == configs.Data.control_name_left_2gram:
-            self.sentences_out = self.make_sentences_out_left_2gram_distribution_control()
-        elif control_name == configs.Data.control_name_right_2gram:
-            self.sentences_out = self.make_sentences_out_right_2gram_distribution_control()
         else:
             raise AttributeError('Invalid arg to "control_name".')
 
@@ -85,50 +81,6 @@ class DataCtlOpenEnded(DataExpOpenEnded):
         for s in self.sentences_in:
             assert configs.Data.mask_symbol in s, s
             s_new = [next(sampled_words) if w == configs.Data.mask_symbol else w for w in s]
-            result.append(s_new)
-
-        return result
-
-    def make_sentences_out_left_2gram_distribution_control(self):
-        """
-        :return: list of test sentences with MASK symbol replaced with random word from bigram distribution
-         sampled based on frequency in corpus
-        """
-        print('Making left 2-gram distribution control')
-
-        result = []
-        for s in self.sentences_in:
-            left_word = s[s.index(configs.Data.mask_symbol) - 1]
-            choices, fs = zip(*[(rw, f) for rw, f in left_w2right_w2f[left_word].items()])
-            weights = np.array(fs) / sum(fs)
-            s_new = [np.random.choice(choices, p=weights) if w == configs.Data.mask_symbol else w for w in s]
-            result.append(s_new)
-
-        return result
-
-    def make_sentences_out_right_2gram_distribution_control(self):
-        """
-        :return: list of test sentences with MASK symbol replaced with random word from bigram distribution
-         sampled based on frequency in corpus
-        """
-        print('Making right 2-gram distribution control')
-
-        # pre-computation
-        choices_p, fs_p = zip(*[(lw, f) for lw, f in right_w2_left_w2f['.'].items()])
-        weights_p = np.array(fs_p) / sum(fs_p)
-        sampled_words_p = iter(np.random.choice(choices_p, size=len(self.sentences_in), p=weights_p))
-        print('Finished pre-computation')
-
-        result = []
-        for s in self.sentences_in:
-            right_word = s[s.index(configs.Data.mask_symbol) + 1]
-            if right_word == '.':  # do not compute this at each loop iteration
-                sampled_word = next(sampled_words_p)
-            else:
-                choices, fs = zip(*[(lw, f) for lw, f in right_w2_left_w2f[right_word].items()])
-                weights = np.array(fs) / sum(fs)
-                sampled_word = np.random.choice(choices, p=weights)
-            s_new = [sampled_word if w == configs.Data.mask_symbol else w for w in s]
             result.append(s_new)
 
         return result
@@ -191,10 +143,6 @@ class DataCtlForcedChoice:
 
         if control_name == configs.Data.control_name_1gram:
             self.s2cross_entropies = self.make_cross_entropies_unigram_distribution_control()
-        elif control_name == configs.Data.control_name_left_2gram:
-            self.s2cross_entropies = self.make_cross_entropies_left_2gram_distribution_control()
-        elif control_name == configs.Data.control_name_right_2gram:
-            self.s2cross_entropies = self.make_cross_entropies_right_2gram_distribution_control()
         else:
             raise AttributeError('Invalid arg to "control_name".')
 
@@ -214,67 +162,6 @@ class DataCtlForcedChoice:
                         xe1, xe2 = 0.0, 1.0
                     else:
                         xe1, xe2 = 1.0, 0.0
-                    break
-            else:
-                raise RuntimeError('Sentence Pair has identical sentences')
-
-            res[tuple(s1)] = xe1
-            res[tuple(s2)] = xe2
-
-        return res
-
-    def make_cross_entropies_left_2gram_distribution_control(self):
-        print('Making left 2-gram distribution control')
-
-        res = {}
-
-        for s1, s2 in self.pairs:
-            assert len(s1) == len(s2)
-            for i in range(len(s1)):
-                if s1[i] != s2[i]:
-                    left_word = s1[i - 1]  # left word may not exist
-                    right_w2f = left_w2right_w2f[left_word]
-                    bigram_f1 = right_w2f.get(s1[i], 0)
-                    bigram_f2 = right_w2f.get(s2[i], 0)
-
-                    if bigram_f1 > bigram_f2:
-                        xe1, xe2 = 0.0, 1.0
-                        # print((left_word, s1[i]), (left_word, s2[i]))  # TODO still testing
-                        # print(bigram_f1, bigram_f2)
-                    elif bigram_f1 < bigram_f2:
-                        xe1, xe2 = 1.0, 0.0
-                        # print((left_word, s1[i]), (left_word, s2[i]))
-                        # print(bigram_f1, bigram_f2)
-                    else:  # force guess
-                        xe1, xe2 = random.sample([1.0, 0.0], k=2)
-                    break
-            else:
-                raise RuntimeError('Sentence Pair has identical sentences')
-
-            res[tuple(s1)] = xe1
-            res[tuple(s2)] = xe2
-
-        return res
-
-    def make_cross_entropies_right_2gram_distribution_control(self):
-        print('Making right 2-gram distribution control')
-
-        res = {}
-
-        for s1, s2 in self.pairs:
-            assert len(s1) == len(s2)
-            for i in range(len(s1)):
-                if s1[i] != s2[i]:
-                    right_word = s1[i + 1]  # right word may not exist
-                    left_w2f = right_w2_left_w2f[right_word]
-                    bigram_f1 = left_w2f.get(s1[i], 0)
-                    bigram_f2 = left_w2f.get(s2[i], 0)
-                    if bigram_f1 > bigram_f2:
-                        xe1, xe2 = 0.0, 1.0
-                    elif bigram_f1 < bigram_f2:
-                        xe1, xe2 = 1.0, 0.0
-                    else:  # force guess
-                        xe1, xe2 = random.sample([1.0, 0.0], k=2)
                     break
             else:
                 raise RuntimeError('Sentence Pair has identical sentences')

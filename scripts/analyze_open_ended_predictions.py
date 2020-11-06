@@ -2,7 +2,7 @@ import importlib
 
 from zorro import configs
 from zorro.visualizer import Visualizer
-from zorro.structure import prepare_data_for_barplot_open_ended, prepare_data_for_scatterplot
+from zorro.structure import prepare_data_for_barplot_open_ended
 from zorro.io import get_group2predictions_file_paths
 
 STEP_SIZE = 10_000

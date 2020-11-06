@@ -34,6 +34,7 @@ def categorize_by_template(sentences_in, sentences_out: List[List[str]]):
             if templates[1] not in template2mask_index:
                 template2mask_index[templates[1]] = s1.index(configs.Data.mask_symbol)
         else:
+            print(s1, s2)
             raise ValueError(f'Failed to categorize template')
 
     return template2sentences_out, template2mask_index
@@ -49,11 +50,11 @@ def categorize_predictions(sentences_out: List[List[str]],
         pre_nominal = [w for w in sentence if w in pre_nominals_singular + pre_nominals_plural][0]
 
         # non-start sub-word    # todo still relevant with bbpe?
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
-            if predicted_word != 's':
-                res['non-start\nsub-token\nor\n[UNK]'] += 1
-            elif not SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
-                res['non-start\nsub-token\nor\n[UNK]'] += 1
+        # if not predicted_word in whole_words or predicted_word == configs.Data.unk_symbol:
+        #     if predicted_word != 's':
+        #         res['non-start\nsub-token\nor\n[UNK]'] += 1
+        #     elif not SCORE_PLURAL_WORDPIECE_AS_CORRECT_PREDICTION:
+        #         res['non-start\nsub-token\nor\n[UNK]'] += 1
 
         # proper noun
         if predicted_word in nouns_proper:
