@@ -29,7 +29,7 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
                            s2cross_entropies: Dict[Tuple[str], float]) -> Dict[str, float]:
     """
     for each sentence pair in the original, ordered file of test sentences,
-     1) the cross entropy assigned to each by a to-be-evaluated model is retrieved
+     1) the cross entropy assigned to each by a model is retrieved
      2) some syntactic phenomenon (e.g. agreement = True or agreement = False) is evaluated
     When the cross-entropy assigned to the correct choice is higher,
      a value representing "correct" is incremented by one.

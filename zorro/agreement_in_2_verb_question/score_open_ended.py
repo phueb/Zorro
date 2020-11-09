@@ -1,9 +1,12 @@
 from typing import List, Dict
 
-from zorro.agreement_in_2_verb_question import *
+from zorro import configs
+from zorro.agreement_in_2_verb_question.shared import templates, nouns_plural, nouns_singular
+from zorro.agreement_in_2_verb_question.shared import doing_plural, doing_ambiguous, doing_singular
+
 
 prediction_categories = (
-    'non-start\nsub-token\nor\n[UNK]',
+    's',
     "copula\ncorrect",
     "copula\nfalse",
     "copula\nambiguous",
@@ -32,20 +35,20 @@ def categorize_predictions(sentences_out: List[List[str]],
         predicted_word = sentence[mask_index]
         targeted_noun = sentence[3]
 
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
-            res['non-start\nsub-token\nor\n[UNK]'] += 1
+        if predicted_word == 's':
+            res['s'] += 1
 
-        elif targeted_noun in nouns_plural and predicted_word in subjective_copula_plural:
+        elif targeted_noun in nouns_plural and predicted_word in doing_plural:
             res["copula\ncorrect"] += 1
-        elif targeted_noun in nouns_singular and predicted_word in subjective_copula_singular:
+        elif targeted_noun in nouns_singular and predicted_word in doing_singular:
             res["copula\ncorrect"] += 1
 
-        elif targeted_noun in nouns_plural and predicted_word in subjective_copula_singular:
+        elif targeted_noun in nouns_plural and predicted_word in doing_singular:
             res["copula\nfalse"] += 1
-        elif targeted_noun in nouns_singular and predicted_word in subjective_copula_plural:
+        elif targeted_noun in nouns_singular and predicted_word in doing_plural:
             res["copula\nfalse"] += 1
 
-        elif predicted_word in subjective_copula_ambiguous:
+        elif predicted_word in doing_ambiguous:
             res["copula\nambiguous"] += 1
 
         else:

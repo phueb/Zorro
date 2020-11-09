@@ -30,6 +30,8 @@ for w in vocab:
         continue
     included.add(w)
 
+    raise NotImplementedError  # todo instead of excluding - keep word to keep vocab intact but mark word as "excluded"
+
 
 nlp = spacy.load('en_core_web_sm')
 

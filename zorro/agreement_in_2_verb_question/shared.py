@@ -7,9 +7,9 @@ plural = inflect.engine()
 
 task_name = Path(__file__).parent.stem
 
-subjective_copula_singular = ["does"]  # only "do" and does should be considered answers
-subjective_copula_plural = ["do"]
-subjective_copula_ambiguous = ["did"]
+doing_singular = ["does"]  # only "do" and does should be considered answers
+doing_plural = ["do"]
+doing_ambiguous = ["did"]
 
 templates = ['template1',
              ]

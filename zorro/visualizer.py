@@ -87,7 +87,7 @@ class Visualizer:
             ax.set_ylabel('Proportion', fontsize=self.ax_label_size)
             ax.set_ylim([0, 1.0])
             ax.axhline(y=0.5, linestyle=':', color='grey')
-            ax.set_title(f'{task_name}: {ax_title}' if task_name else ax_title,
+            ax.set_title(f'{task_name.replace("_", " ")}\n{ax_title}' if task_name else ax_title,
                          fontweight="bold", size=self.ax_title_size)
 
             for edge, color, group_name in zip(edges, colors, group_name2props.keys()):

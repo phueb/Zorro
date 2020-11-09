@@ -5,7 +5,7 @@ from zorro.agreement_in_1_verb_question.shared import templates, subjective_copu
 from zorro.agreement_in_1_verb_question.shared import nouns_plural, nouns_singular
 
 prediction_categories = (
-    'non-start\nsub-token\nor\n[UNK]',
+    's',
     "copula\ncorrect",
     "copula\nfalse",
     "other",
@@ -33,8 +33,8 @@ def categorize_predictions(sentences_out: List[List[str]],
         predicted_word = sentence[mask_index]
         targeted_noun = sentence[3]
 
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
-            res['non-start\nsub-token\nor\n[UNK]'] += 1
+        if predicted_word == 's':
+            res['s'] += 1
 
         elif targeted_noun in nouns_plural and predicted_word in subjective_copula_plural:
             res["copula\ncorrect"] += 1

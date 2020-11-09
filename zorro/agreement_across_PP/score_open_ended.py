@@ -5,7 +5,7 @@ from zorro.agreement_across_PP.shared import nouns_plural, nouns_singular
 from zorro import configs
 
 prediction_categories = (
-    'non-start\nsub-token\nor\n[UNK]',
+    's',
     "correct\ncopula",
     "false\ncopula",
     "other")
@@ -32,8 +32,8 @@ def categorize_predictions(sentences_out: List[List[str]],
         predicted_word = sentence[mask_index]  # predicted word may not be a copula ("is", "are")
         targeted_noun = sentence[1]
 
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
-            res['non-start\nsub-token\nor\n[UNK]'] += 1
+        if predicted_word == 's':
+            res['s'] += 1
 
         elif targeted_noun in nouns_plural and predicted_word in copulas_plural:
             res["correct\ncopula"] += 1

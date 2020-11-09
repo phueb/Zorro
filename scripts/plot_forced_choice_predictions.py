@@ -6,9 +6,6 @@ from zorro.structure import prepare_data_for_barplot_forced_choice
 from zorro.io import get_group2predictions_file_paths
 
 
-STEP_SIZE = 10_000
-MAX_STEP = 180_000
-
 # chose one
 TASK_NAMES = [
     'agreement_across_1_adjective',
@@ -23,7 +20,7 @@ for task_name in TASK_NAMES:
     # load module containing task-relevant objects
     s = importlib.import_module(f'zorro.{task_name}.score_forced_choice')
 
-    for step in configs.Eval.custom_steps or list(range(0, MAX_STEP + STEP_SIZE, STEP_SIZE)):
+    for step in configs.Eval.custom_steps:
 
         # load prediction files
         print('Loading data...')

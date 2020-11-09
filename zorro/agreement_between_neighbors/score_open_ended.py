@@ -10,7 +10,7 @@ prediction_categories = (
     "noun +\nfalse number",
     "noun +\n no number",
     "noun\nproper",
-    'non-start\nsub-token\nor\n[UNK]',
+    's',
     "non-noun",
 )
 
@@ -39,8 +39,8 @@ def categorize_predictions(sentences_out: List[List[str]],
         pre_nominal = [w for w in sentence if w in pre_nominals_singular + pre_nominals_plural][0]
 
         # non-start sub-word
-        if not predicted_word.startswith(configs.Data.space_symbol) or predicted_word == configs.Data.unk_symbol:
-            res['non-start\nsub-token\nor\n[UNK]'] += 1
+        if predicted_word == 's':
+            res['s'] += 1
 
         # proper noun
         if predicted_word in nouns_proper:

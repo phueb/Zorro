@@ -21,6 +21,8 @@ def get_group2predictions_file_paths(task_name: str,
     else:
         group_names = configs.Eval.param_names
 
+    get_step = lambda s: int(s) if s.isdigit() else s
+
     # find paths to files, for each group
     group2predictions_file_paths = {}
     for group_name in group_names:
@@ -29,10 +31,14 @@ def get_group2predictions_file_paths(task_name: str,
         # if requested, find last step
         if step == -1:
             print(f'Finding last step for group={group_name}...')
-            steps = [int(p.stem.split('_')[-1])
+            steps = [get_step(p.stem.split('_')[-1])
                      for p in runs_path.rglob(pattern.format(group_name, task_type, task_name, '*'))]
-            effective_step = max(steps)
-            print(f'Last step={effective_step:,}')
+            if isinstance(steps[0], str):
+                effective_step = steps[0]
+                print(f'Found step={effective_step}')
+            else:
+                effective_step = max(steps)
+                print(f'Found last step={effective_step:,}')
         else:
             effective_step = step
 
