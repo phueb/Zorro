@@ -1,5 +1,5 @@
 from zorro.task_words import get_task_word_combo
-from zorro.vocab import get_whole_words
+from zorro.vocab import get_vocab_words
 from zorro.agreement_in_1_verb_question.shared import task_name, plural
 from zorro import configs
 
@@ -13,7 +13,7 @@ def main():
     """
 
     """
-    noun_plurals = get_whole_words(tag='NNS')
+    noun_plurals = get_vocab_words(tag='NNS')
 
     for (noun_s,) in get_task_word_combo(task_name, (('NN', 0, NUM_NOUNS),
                                                      )):

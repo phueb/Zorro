@@ -1,13 +1,13 @@
 from pathlib import Path
 import importlib
 
-from zorro.vocab import get_whole_words
+from zorro.vocab import get_vocab_words
 from zorro import configs
 
 CHECK_IN_VOCAB = True
 SECONDARY_OUT_PATH = Path('/') / 'media' / 'research_data' / 'Zorro' / 'sentences' or None
 
-whole_words = get_whole_words()
+vocab_words = get_vocab_words()
 
 stop_words = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
 
@@ -39,7 +39,7 @@ for task_type in ['forced_choice', 'open_ended']:
                     for w in words_to_check:
                         if w == configs.Data.mask_symbol:
                             continue
-                        if w not in whole_words and w not in stop_words:
+                        if w not in vocab_words and w not in stop_words:
                             print(f'WARNING: Not in whole_words or stop words: "{w}"')
                     # write to file
                     f.write(sentence + '\n')

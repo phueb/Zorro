@@ -1,7 +1,7 @@
 
 from zorro.agreement_across_RC.shared import task_name, plural, pronouns_3p, pronouns_1p_2p
 from zorro.task_words import get_task_word_combo
-from zorro.vocab import get_whole_words
+from zorro.vocab import get_vocab_words
 
 NUM_ADJECTIVES = 2
 NUM_NOUNS = 2
@@ -30,7 +30,7 @@ def main():
     example:
     "the dog that i like is green" vs. "the dogs that i like is green"
     """
-    noun_plurals = get_whole_words(tag='NNS')
+    noun_plurals = get_vocab_words(tag='NNS')
 
     for noun_s, adj in get_task_word_combo(task_name, rules.keys()):
         noun_p = plural.plural(noun_s)

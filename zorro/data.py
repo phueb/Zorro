@@ -3,10 +3,10 @@ from pathlib import Path
 import random
 from typing import List, Dict, Tuple
 
-from zorro.vocab import get_whole_words, get_frequency
+from zorro.vocab import get_vocab_words, get_frequency
 from zorro import configs
 
-whole_words = get_whole_words()
+whole_words = get_vocab_words()
 freq = get_frequency()
 unigram_probabilities = np.array(freq) / sum(freq)
 w2p = {w: p for w, p in zip(whole_words, unigram_probabilities)}

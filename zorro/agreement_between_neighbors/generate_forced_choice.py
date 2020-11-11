@@ -1,7 +1,7 @@
 
 from zorro.agreement_between_neighbors.shared import task_name, plural, pre_nominals_plural, pre_nominals_singular
 from zorro.task_words import get_task_word_combo
-from zorro.vocab import get_whole_words
+from zorro.vocab import get_vocab_words
 
 NUM_NOUNS = 2
 
@@ -19,7 +19,7 @@ def main():
     example:
     "look at this house" vs. "look at this houses"
     """
-    noun_plurals = get_whole_words(tag='NNS')
+    noun_plurals = get_vocab_words(tag='NNS')
 
     for pre_nominal in pre_nominals_plural + pre_nominals_singular:
 

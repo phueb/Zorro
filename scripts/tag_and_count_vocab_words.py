@@ -9,7 +9,7 @@ import pandas as pd
 from zorro import configs
 
 
-DRY_RUN = True
+DRY_RUN = False
 
 with open(configs.Data.vocab_path) as f:
     w2id = json.load(f)
@@ -82,7 +82,8 @@ for corpus_path, corpus_abbreviation in zip(corpus_paths, corpus_abbreviations):
                 except KeyError:
                     w2row[sw.text] = init_row(sw.text, sw.tag_, corpus_abbreviation)
 
-            print(f'{corpus_path.name:<24} {n:>12,}/{len(documents):>12,}')
+            if n % 1000 == 0:
+                print(f'{corpus_path.name:<24} {n:>12,}/{len(documents):>12,}')
 
 
 # ensure each word in df is a word in vocab (including sub-words)

@@ -1,7 +1,7 @@
 
 from zorro.agreement_across_2_adjectives.shared import task_name, pre_nominals_singular, pre_nominals_plural, plural
 from zorro.task_words import get_task_word_combo
-from zorro.vocab import get_whole_words
+from zorro.vocab import get_vocab_words
 
 NUM_ADJECTIVES = 2
 NUM_NOUNS = 7
@@ -31,7 +31,7 @@ def main():
     "look at this green red house ." vs. "look at this green red houses ."
     "this green red house went there ." vs. "this green red houses went there."
     """
-    noun_plurals = get_whole_words(tag='NNS')
+    noun_plurals = get_vocab_words(tag='NNS')
 
     for pre_nominal in pre_nominals_singular + pre_nominals_plural:
 

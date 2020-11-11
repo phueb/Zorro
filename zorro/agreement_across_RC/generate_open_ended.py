@@ -2,7 +2,7 @@
 from zorro.agreement_across_RC.shared import task_name, plural, pronouns_3p, pronouns_1p_2p
 from zorro import configs
 from zorro.task_words import get_task_word_combo
-from zorro.vocab import get_whole_words
+from zorro.vocab import get_vocab_words
 
 NUM_NOUNS = 4
 NUM_ADJECTIVES = 4
@@ -21,7 +21,7 @@ def main():
     "the dog that I like [MASK] lazy"
     """
 
-    noun_plurals = get_whole_words(tag='NNS')
+    noun_plurals = get_vocab_words(tag='NNS')
 
     for noun_s, adj in get_task_word_combo(task_name, (('NN', 0, NUM_NOUNS),
                                                        ('JJ', 0, NUM_ADJECTIVES),
