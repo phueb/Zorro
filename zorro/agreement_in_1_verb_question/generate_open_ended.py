@@ -11,7 +11,7 @@ template2 = 'what' + f' {configs.Data.mask_symbol} ' + 'the {} ?'
 
 def main():
     """
-
+    where <mask> the dog?
     """
     noun_plurals = get_vocab_words(tag='NNS')
 
