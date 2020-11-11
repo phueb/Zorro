@@ -5,7 +5,7 @@ import importlib
 import pandas as pd
 
 from zorro import configs
-from zorro.whole_words import get_ww2info
+from zorro.vocab import get_ww2info
 
 # chose one
 TASK_NAMES = [

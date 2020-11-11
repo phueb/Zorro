@@ -1,7 +1,7 @@
 
 from zorro.agreement_across_2_adjectives.shared import task_name, pre_nominals_singular, pre_nominals_plural, plural
 from zorro.task_words import get_task_word_combo
-from zorro.whole_words import get_whole_words
+from zorro.vocab import get_whole_words
 
 NUM_ADJECTIVES = 2
 NUM_NOUNS = 7

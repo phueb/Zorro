@@ -13,6 +13,7 @@ def get_whole_words(ww_name: str = configs.Data.ww_name,
         if tag in info[1] or tag is None:
             res.append(w)
 
+    raise NotImplementedError  # todo return whole word or all vocab words?plementedError  # todo return whole word or all vocab words?
     return res
 
 
@@ -25,11 +26,14 @@ def get_frequency(ww_name: str = configs.Data.ww_name,
         if tag in info[1] or tag is None:
             res.append(info[0])
 
+
+    raise NotImplementedError  # todo return whole word or all vocab words?plementedError  # todo return whole word or all vocab words?
+
     return res
 
 
 def get_ww2info(ww_name: str = configs.Data.ww_name) -> Dict[str, Tuple[int, List[str]]]:
-    lines = (configs.Dirs.data / 'whole_words' / f'{ww_name}.txt').open().read().split("\n")
+    lines = (configs.Dirs.data / 'vocab_words' / f'{ww_name}.txt').open().read().split("\n")
     res = OrderedDict()
     for line in lines:
         if line == '':
@@ -37,5 +41,7 @@ def get_ww2info(ww_name: str = configs.Data.ww_name) -> Dict[str, Tuple[int, Lis
         w, f = line.split()[:2]
         tags = line.split()[2:]
         res[w] = (int(f), tags)
+
+    raise NotImplementedError  # todo return whole word or all vocab words?
     return res
 

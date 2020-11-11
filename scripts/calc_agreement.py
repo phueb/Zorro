@@ -5,7 +5,7 @@ this script calculates human-machine agreement using cohen's kappa
 
 from sklearn.metrics import cohen_kappa_score
 
-from zorro.whole_words import get_whole_words
+from zorro.vocab import get_whole_words
 
 WW_NAME = 'c-w-n'
 PATH1 = None

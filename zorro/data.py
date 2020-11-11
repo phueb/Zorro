@@ -3,7 +3,7 @@ from pathlib import Path
 import random
 from typing import List, Dict, Tuple
 
-from zorro.whole_words import get_whole_words, get_frequency
+from zorro.vocab import get_whole_words, get_frequency
 from zorro import configs
 
 whole_words = get_whole_words()
@@ -70,7 +70,7 @@ class DataCtlOpenEnded(DataExpOpenEnded):
 
     def make_sentences_out_unigram_distribution_control(self):
         """
-        :return: list of test sentences with MASK symbol replaced with random word from whole_words
+        :return: list of test sentences with MASK symbol replaced with random word from vocab_words
          sampled based on frequency in corpus
         """
         print('Making 1-gram distribution control')

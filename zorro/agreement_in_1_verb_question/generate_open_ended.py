@@ -1,5 +1,5 @@
 from zorro.task_words import get_task_word_combo
-from zorro.whole_words import get_whole_words
+from zorro.vocab import get_whole_words
 from zorro.agreement_in_1_verb_question.shared import task_name, plural
 from zorro import configs
 

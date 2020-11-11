@@ -1,7 +1,7 @@
 from pathlib import Path
 import importlib
 
-from zorro.whole_words import get_whole_words
+from zorro.vocab import get_whole_words
 from zorro import configs
 
 CHECK_IN_VOCAB = True
