@@ -2,16 +2,18 @@
 make csv file containing information about all words in a vocab file
 """
 import spacy
+from spacy.tokens import Doc
 import json
 from pathlib import Path
 import pandas as pd
-
 from zorro import configs
 
 
+DRY_RUN = True
+
 with open(configs.Data.vocab_path) as f:
     w2id = json.load(f)
-vocab = {w.strip(configs.Data.space_symbol) for w in w2id.keys()}
+vocab = {w.strip(configs.Data.space_symbol) for w in w2id.keys()}  # stripping reduces vocab
 
 # keep track of which words are excluded - not a candidate for being inserted into test sentences
 nds = (configs.Dirs.external_words / "non-dictionary.txt").open().read().split()
@@ -62,9 +64,15 @@ w2row = {}
 corpus_abbreviations = [c.name[0] for c in corpus_paths]
 for corpus_path, corpus_abbreviation in zip(corpus_paths, corpus_abbreviations):
     with open(corpus_path) as f:
-        documents = [l for l in f.readlines()]  #[:100]  # todo
-        for n, doc in enumerate(nlp.pipe(documents, disable=['ner', 'parser'])):
-            for sw in doc:
+        documents = [l for l in f.readlines()]
+        for n, document in enumerate(documents):
+
+            if DRY_RUN and n == 100:
+                break
+
+            # text file is already tokenized by spacy - so don't do tokenization
+            sd = nlp.tagger(Doc(nlp.vocab, words=document.split()))
+            for sw in sd:
                 try:
                     w2row[sw.text]['NN'] += 1 if sw.tag_ == 'NN' else 0
                     w2row[sw.text]['NNS'] += 1 if sw.tag_ == 'NNS' else 0
@@ -82,7 +90,7 @@ rows = []
 words = []
 for w in vocab:
     if w not in w2row:
-        print(w)
+        print(f'Did not find "{w:<20}" in corpus. It may be a sub-word')
         w2row[w] = init_row(w, 'n/a', 'n/a', is_excluded_=True)
     rows.append(w2row[w])
     words.append(w)
@@ -90,7 +98,10 @@ for w in vocab:
 # make data frame that holds info about each word in vocabZ
 df = pd.DataFrame(data=rows, index=words)
 df.sort_values(by='total-frequency', inplace=True, ascending=False)
-print(df.head(10))
+
+if DRY_RUN:
+    print(df)
+    exit('Dy run completed')
 
 # save to csv
 num_excluded = 0
