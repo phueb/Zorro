@@ -14,7 +14,7 @@ nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read()
 
 # generate sentences for all tasks
 for task_type in ['forced_choice', 'open_ended']:
-    for path in Path('../zorro').glob(f'*/generate_{task_type}.py'):
+    for path in sorted(Path('../zorro').glob(f'*/generate_{task_type}.py')):
         task_name = path.parent.name
         generate = importlib.import_module(f'zorro.{task_name}.generate_{task_type}')
         shared = importlib.import_module(f'zorro.{task_name}.shared')

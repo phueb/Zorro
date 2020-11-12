@@ -3,8 +3,8 @@ from zorro.agreement_across_1_adjective.shared import task_name, plural, pre_nom
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
-NUM_ADJECTIVES = 80
-NUM_NOUNS = 100
+NUM_ADJECTIVES = 5
+NUM_NOUNS = 8
 
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'  # todo a better template: "these/this could be _ _ . "
