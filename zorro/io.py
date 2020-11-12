@@ -34,7 +34,7 @@ def get_group2predictions_file_paths(task_name: str,
             steps = [get_step(p.stem.split('_')[-1])
                      for p in runs_path.rglob(pattern.format(group_name, task_type, task_name, '*'))]
             if isinstance(steps[0], str):
-                effective_step = steps[0]
+                effective_step = list(sorted(steps))[0]  # sorts "best" before "last"
                 print(f'Found step={effective_step}')
             else:
                 effective_step = max(steps)

@@ -30,7 +30,7 @@ for task_name in TASK_NAMES:
         task_df = pd.read_csv(df_path)
 
     # for each whole word in vocab, make new row for df
-    for vw, vw_series in vocab_df.iterrows():
+    for n, (vw, vw_series) in enumerate(vocab_df.iterrows()):
 
         if vw in task_df['word'].tolist():
             continue
@@ -52,11 +52,11 @@ for task_name in TASK_NAMES:
 
                 is_valid = False
                 while not is_valid:
-                    response = input('Grammatical? [g(rammatical))/n(o)/q(uit)]')
-                    if response == 'g':
+                    response = input('Grammatical? [f=yes j=no q=quit]')
+                    if response == 'f':
                         row[f'{tag}-{order}'] = 1
                         is_valid = True
-                    elif response == 'n':
+                    elif response == 'j':
                         row[f'{tag}-{order}'] = 0
                         is_valid = True
                     elif response == 'q':
@@ -67,4 +67,4 @@ for task_name in TASK_NAMES:
         task_df = task_df.append(row, ignore_index=True)
         task_df.to_csv(df_path, index=False)
         print(row)
-        print('\nSaved\n')
+        print(f'\nSaved {n}/{len(vocab_df)}\n')

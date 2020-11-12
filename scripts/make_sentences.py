@@ -10,6 +10,7 @@ SECONDARY_OUT_PATH = Path('/') / 'media' / 'research_data' / 'Zorro' / 'sentence
 vocab_words = get_vocab_words()
 
 stop_words = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
+nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 
 # generate sentences for all tasks
 for task_type in ['forced_choice', 'open_ended']:
@@ -20,9 +21,11 @@ for task_type in ['forced_choice', 'open_ended']:
 
         # check for list overlap
         for w in shared.nouns_singular:
-            assert w not in shared.nouns_plural
+            if w not in nas:
+                assert w not in shared.nouns_plural, w
         for w in shared.nouns_plural:
-            assert w not in shared.nouns_singular
+            if w not in nas:
+                assert w not in shared.nouns_singular, w
 
         # save each file in repository, and also on shared drive
         for out_path in [

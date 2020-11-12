@@ -3,8 +3,8 @@ from zorro.agreement_across_1_adjective.shared import task_name, plural, pre_nom
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
-NUM_ADJECTIVES = 2
-NUM_NOUNS = 6
+NUM_ADJECTIVES = 80
+NUM_NOUNS = 100
 
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'
@@ -46,5 +46,5 @@ def main():
 
 
 if __name__ == '__main__':
-    for s in main():
-        print(s)
+    for n, s in enumerate(main()):
+        print(f'{n:>12,}', s)

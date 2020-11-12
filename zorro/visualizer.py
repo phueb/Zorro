@@ -14,7 +14,6 @@ mpl.rcParams['axes.spines.top'] = False
 class Visualizer:
     def __init__(self,
                  group2predictions_file_paths: Dict[str, List[Path]],
-                 step: Optional[int] = None,
                  dpi=192):
 
         self.dpi = dpi
@@ -22,8 +21,6 @@ class Visualizer:
         self.ax_label_size = 10
 
         self.group2predictions_file_paths = group2predictions_file_paths  # used to get number of reps
-
-        self.step = step
 
     def get_legend_label(self, param_name):
 
@@ -40,10 +37,10 @@ class Visualizer:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
         reps = len(self.group2predictions_file_paths[param_name])
-
+        step = self.group2predictions_file_paths[param_name][0].stem.split()[-1]
         # add info about conditions
         info = ''
-        conditions = configs.Eval.conditions or ['param_name']
+        conditions = configs.Eval.conditions or ['param_name', 'architecture']
         for c in conditions:
             try:
                 val = param2val[c]
@@ -54,7 +51,7 @@ class Visualizer:
                     val = 'n/a'
             info += f'{c}={val} '
 
-        res = f'step={self.step} | n={reps} | {info}'
+        res = f'step={step} | n={reps} | {info}'
         return res
 
     def make_barplot(self,
@@ -127,11 +124,10 @@ class Visualizer:
                          xlabel: str,
                          ylabel: str,
                          log_ten_scale: bool = True,
-                         condition: Optional[str] = None,
                          ):
-
-        if condition is None:
-            condition = configs.Eval.condition
+        """
+        todo: unused - previously used to plot bi-gram analysis
+        """
 
         group_names = list(group2xy.keys())
         num_groups = len(group_names)
@@ -145,7 +141,7 @@ class Visualizer:
                                  figsize=(10, 6), dpi=self.dpi)
 
         for group_name, (x, y) in group2xy.items():
-            label = self.get_legend_label(group_name, condition)
+            label = self.get_legend_label(group_name)
 
             ax = axes[group_names.index(group_name)]
             ax.spines['right'].set_visible(False)

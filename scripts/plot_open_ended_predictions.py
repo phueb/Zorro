@@ -19,12 +19,12 @@ for task_name in TASK_NAMES:
     # load module containing task-relevant objects
     s = importlib.import_module(f'zorro.{task_name}.score_open_ended')
 
-    for step in configs.Eval.custom_steps:
+    for step in configs.Eval.steps:
 
         # load prediction files
         group2predictions_file_paths = get_group2predictions_file_paths(task_name, 'open_ended', step)
 
-        v = Visualizer(group2predictions_file_paths, step)
+        v = Visualizer(group2predictions_file_paths)
 
         # categorize productions into production categories
         template2group_name2props = prepare_data_for_barplot_open_ended(group2predictions_file_paths,

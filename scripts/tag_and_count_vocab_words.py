@@ -37,7 +37,7 @@ def is_excluded(w: str):
 
 def init_row(word: str,
              tag: str,
-             corpus_abbreviation_: str,
+             corpus_initial_: str,
              is_excluded_: bool = False,
              ):
     res = {
@@ -47,8 +47,8 @@ def init_row(word: str,
         'total-frequency': 1 if not is_excluded_ else 0,
         'is_excluded': is_excluded_ or is_excluded(word),
     }
-    for ca in corpus_abbreviations:
-        res[f'{ca}-frequency'] = 1 if ca == corpus_abbreviation_ else 0
+    for ci in corpus_initials:
+        res[f'{ci}-frequency'] = 1 if ci == corpus_initial_ else 0
 
     return res
 
@@ -61,8 +61,8 @@ for c in corpus_paths:
 
 # get information about all words in corpora
 w2row = {}
-corpus_abbreviations = [c.name[0] for c in corpus_paths]
-for corpus_path, corpus_abbreviation in zip(corpus_paths, corpus_abbreviations):
+corpus_initials = [c.name[0] for c in corpus_paths]
+for corpus_path, corpus_initial in zip(corpus_paths, corpus_initials):
     with open(corpus_path) as f:
         documents = [l for l in f.readlines()]
         for n, document in enumerate(documents):
@@ -78,9 +78,9 @@ for corpus_path, corpus_abbreviation in zip(corpus_paths, corpus_abbreviations):
                     w2row[sw.text]['NNS'] += 1 if sw.tag_ == 'NNS' else 0
                     w2row[sw.text]['JJ'] += 1 if sw.tag_ == 'JJ' else 0
                     w2row[sw.text]['total-frequency'] += 1
-                    w2row[sw.text][f'{corpus_abbreviation}-frequency'] += 1
+                    w2row[sw.text][f'{corpus_initial}-frequency'] += 1
                 except KeyError:
-                    w2row[sw.text] = init_row(sw.text, sw.tag_, corpus_abbreviation)
+                    w2row[sw.text] = init_row(sw.text, sw.tag_, corpus_initial)
 
             if n % 1000 == 0:
                 print(f'{corpus_path.name:<24} {n:>12,}/{len(documents):>12,}')
@@ -106,5 +106,5 @@ if DRY_RUN:
 
 # save to csv
 num_excluded = 0
-out_path = configs.Dirs.data / 'vocab_words' / f'{"-".join(corpus_abbreviations)}.csv'
+out_path = configs.Dirs.data / 'vocab_words' / f'{"-".join(corpus_initials)}.csv'
 df.to_csv(out_path, index=True)

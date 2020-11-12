@@ -1,6 +1,5 @@
 import numpy as np
 from pathlib import Path
-import random
 from typing import List, Dict, Tuple
 
 from zorro.vocab import get_vocab_words, get_frequency

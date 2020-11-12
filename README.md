@@ -24,7 +24,7 @@ Words that make up test sentences are all derived from a BPE encoding vocab file
  generated using the Python `tokenizers` package. 
 
 
-1. Using `script/tag_and_count_whole_words.py`, we removed any words:
+1. Using `script/tag_and_count_vocab_words.py`, we removed any words:
 - not in original corpus files (e.g. sub-words)
 - not in English dictionary
 - is a number

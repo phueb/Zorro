@@ -46,5 +46,5 @@ def main():
 
 
 if __name__ == '__main__':
-    for s in main():
-        print(s)
+    for n, s in enumerate(main()):
+        print(f'{n:>12,}', s)
