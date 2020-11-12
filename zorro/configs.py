@@ -19,7 +19,7 @@ class Data:
     unk_symbol = '<unk>'
     space_symbol = 'Ġ'
     vocab_name = 'c-w-n'
-    frequency_difference_tolerance = 1000
+    frequency_difference_tolerance = 500
     control_name_1gram = '1-gram-distribution control'
     control_names = [control_name_1gram]
 

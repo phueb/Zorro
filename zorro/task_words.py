@@ -2,6 +2,7 @@ from typing import List, Generator, Tuple
 import pandas as pd
 import random
 from itertools import product
+import numpy as np
 
 
 from zorro import configs
@@ -38,21 +39,28 @@ def get_task_words(task_name: str,
     from zorro.vocab import load_vocab_df
 
     vocab_df = load_vocab_df()
-    vw2fs = {w: fs.values for w, fs in vocab_df.filter(regex='^.-frequency', axis=1).iterrows()}
+    f_df = vocab_df.filter(regex='^.-frequency', axis=1)
+    vw2fs = {w: fs.values for w, fs in f_df.iterrows()}
 
     # subsample words which occur roughly equally across corpora
     res = []
+    corpus_fs_list = []
     for tw in task_words:
         corpus_fs = vw2fs[tw]
-        mean_f = sum(corpus_fs) / len(corpus_fs)
+        mean_f = np.mean(corpus_fs)
         if all([mean_f - fdt < f < mean_f + fdt for f in corpus_fs]):
             res.append(tw)
+            corpus_fs_list.append(corpus_fs)
             print(f'Including "{tw:<24}"', corpus_fs)
         elif verbose_warn:
-            print(f'WARNING: Excluding "{tw:<24}" due to divergent corpus frequencies.', corpus_fs)
+            print(f'WARNING: Excluding "{tw:<24}" due to very different corpus frequencies.', corpus_fs)
 
     if not res:
         raise RuntimeError(f'No task words available for {task_name}.'
                            f' Is frequency_difference_tolerance too small?')
+
+    # check overall bias in corpus frequency
+    for name, f in zip(f_df.columns, np.array(corpus_fs_list).mean(axis=0)):
+        print(f'{name:<24} mean={f:>9.2f}')
 
     return res
