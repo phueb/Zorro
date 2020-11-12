@@ -3,7 +3,7 @@ from typing import List, Tuple, Dict
 from zorro.utils import check_agreement_between_pre_nominal_and_noun
 from zorro.agreement_across_1_adjective.shared import templates, pre_nominals_plural, pre_nominals_singular
 from zorro.agreement_across_1_adjective.shared import nouns_singular, nouns_plural
-
+from zorro import configs
 
 prediction_categories = ('false', 'correct')
 
@@ -37,6 +37,8 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
     """
     res = {k: 0 for k in prediction_categories}
 
+    nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
+
     # loop over all possible sentence pairs with all possible templates
     num_skipped = 0
     for s1, s2 in pairs:
@@ -55,7 +57,13 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
                                                                      nouns_plural,
                                                                      )
         if len({is_agreement1, is_agreement2}) != 2:  # check that only 1 but not both are True
-            raise ValueError('Only one sentence per pair can be correct/agree in number.')
+            for na in nas:
+                if na in s1:  # a noun with an ambiguous number can cause s1 and s2 to be identical
+                    break
+            else:
+                print(s1, is_agreement1)
+                print(s2, is_agreement2)
+                raise ValueError('Only one sentence per pair can be correct/agree in number.')
 
         # get cross-entropies
         try:

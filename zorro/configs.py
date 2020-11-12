@@ -25,10 +25,10 @@ class Data:
 
 
 class Eval:
-    local_runs = False # use prediction files fom this repository
+    local_runs = True  # use prediction files fom this repository
     steps = [-1]  # or [-1] to indicate last available step
     param_names = None  # [f'param_00{i}' for i in [1, 6, 7, 5, 8]]
     raise_error_on_missing_group = True
-    conditions = ['architecture']  # can be empty list
+    conditions = ['corpus_name', 'architecture']  # can be empty list
     max_reps = 10
     num_control_reps = 2

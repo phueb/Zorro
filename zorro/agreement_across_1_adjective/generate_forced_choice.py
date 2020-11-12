@@ -7,7 +7,7 @@ NUM_ADJECTIVES = 80
 NUM_NOUNS = 100
 
 template1 = 'look at {} {} {} .'
-template2 = '{} {} {} went there .'
+template2 = '{} {} {} went there .'  # todo a better template: "these/this could be _ _ . "
 
 rules = {
     ('JJ', 0, NUM_ADJECTIVES): [

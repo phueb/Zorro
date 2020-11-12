@@ -17,8 +17,8 @@ class Visualizer:
                  dpi=192):
 
         self.dpi = dpi
-        self.ax_title_size = 10
-        self.ax_label_size = 10
+        self.ax_title_size = 12
+        self.ax_label_size = 12
 
         self.group2predictions_file_paths = group2predictions_file_paths  # used to get number of reps
 
@@ -37,7 +37,7 @@ class Visualizer:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
         reps = len(self.group2predictions_file_paths[param_name])
-        step = self.group2predictions_file_paths[param_name][0].stem.split()[-1]
+        step = self.group2predictions_file_paths[param_name][0].stem.split('_')[-1]
         # add info about conditions
         info = ''
         conditions = configs.Eval.conditions or ['param_name', 'architecture']
@@ -57,7 +57,7 @@ class Visualizer:
     def make_barplot(self,
                      x_tick_labels: Tuple,
                      template2group_name2props: Dict[str, Dict[str, np.array]],
-                     task_name: Optional[str] = None,
+                     task_name: str,
                      xlabel: str = '',
                      verbose: bool = False):
 
@@ -70,8 +70,8 @@ class Visualizer:
             # make axes iterable when there is only one axis only
             axs = [axs]
 
-        for ax, ax_title in zip(axs, template2group_name2props.keys()):
-            group_name2props = template2group_name2props[ax_title]
+        for ax, template in zip(axs, template2group_name2props.keys()):
+            group_name2props = template2group_name2props[template]
             num_models = len(group_name2props)
             space = 0.1  # between bars belonging to a single production category
             width = (1 / num_models) - (space / num_models)  # all bars in one category must fit within 1 x-axis unit
@@ -84,8 +84,9 @@ class Visualizer:
             ax.set_ylabel('Proportion', fontsize=self.ax_label_size)
             ax.set_ylim([0, 1.0])
             ax.axhline(y=0.5, linestyle=':', color='grey')
-            ax.set_title(f'{task_name.replace("_", " ")}\n{ax_title}' if task_name else ax_title,
-                         fontweight="bold", size=self.ax_title_size)
+            ax.set_title(f'{task_name.replace("_", " ")}'
+                         f'template={template}',
+                         size=self.ax_title_size)
 
             for edge, color, group_name in zip(edges, colors, group_name2props.keys()):
                 avg = np.mean(group_name2props[group_name], axis=0).round(2)  # take average across rows

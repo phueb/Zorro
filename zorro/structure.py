@@ -104,7 +104,7 @@ def prepare_data_for_barplot_forced_choice(group2predictions_file_paths: Dict[st
     """
 
     group_names = list(group2predictions_file_paths.keys())
-    group_names_with_controls = group_names  # + configs.Data.control_names
+    group_names_with_controls = group_names + configs.Data.control_names
 
     # result - template2group_name2props
     res = {template: {gn: None for gn in group_names_with_controls}

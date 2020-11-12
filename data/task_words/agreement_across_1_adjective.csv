@@ -162,7 +162,7 @@ long,1,0
 city,0,1
 released,1,0
 big,1,0
-species,0,1
+species,0,0
 film,0,1
 old,1,0
 album,0,1
@@ -186,7 +186,7 @@ wanna,0,0
 music,0,1
 early,1,0
 population,0,1
-series,0,1
+series,0,0
 yes,0,0
 national,1,0
 million,0,0

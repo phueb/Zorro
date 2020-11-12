@@ -3,6 +3,7 @@ from typing import List, Dict, Tuple
 from zorro.agreement_across_2_adjectives.shared import templates, pre_nominals_plural, pre_nominals_singular
 from zorro.agreement_across_2_adjectives.shared import nouns_singular, nouns_plural
 from zorro.utils import check_agreement_between_pre_nominal_and_noun
+from zorro import configs
 
 prediction_categories = ('false', 'correct')
 
@@ -28,13 +29,15 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
                            s2cross_entropies: Dict[Tuple[str], float]) -> Dict[str, float]:
     """
     for each sentence pair in the original, ordered file of test sentences,
-     1) the cross entropy assigned to each by a to-be-evaluated model is retrieved
+     1) the cross entropy assigned to each by a model is retrieved
      2) some syntactic phenomenon (e.g. agreement = True or agreement = False) is evaluated
     When the cross-entropy assigned to the correct choice is higher,
      a value representing "correct" is incremented by one.
 
     """
     res = {k: 0 for k in prediction_categories}
+
+    nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 
     # loop over all possible sentence pairs with all possible templates
     num_skipped = 0
@@ -54,7 +57,13 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
                                                                      nouns_plural,
                                                                      )
         if len({is_agreement1, is_agreement2}) != 2:  # check that only 1 but not both are True
-            raise ValueError('Only one sentence per pair can be correct/agree in number.')
+            for na in nas:
+                if na in s1:  # a noun with an ambiguous number can cause s1 and s2 to be identical
+                    break
+            else:
+                print(s1, is_agreement1)
+                print(s2, is_agreement2)
+                raise ValueError('Only one sentence per pair can be correct/agree in number.')
 
         # get cross-entropies
         try:

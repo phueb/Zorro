@@ -5,11 +5,11 @@ from typing import List, Dict, Tuple
 from zorro.vocab import get_vocab_words, get_frequency
 from zorro import configs
 
-whole_words = get_vocab_words()
+vocab_words = get_vocab_words()
 freq = get_frequency()
+assert len(freq) == len(vocab_words)
 unigram_probabilities = np.array(freq) / sum(freq)
-w2p = {w: p for w, p in zip(whole_words, unigram_probabilities)}
-
+w2p = {w: p for w, p in zip(vocab_words, unigram_probabilities)}
 
 
 class DataExpOpenEnded:
@@ -74,7 +74,7 @@ class DataCtlOpenEnded(DataExpOpenEnded):
         """
         print('Making 1-gram distribution control')
 
-        sampled_words = iter(np.random.choice(whole_words, size=len(self.sentences_in), p=unigram_probabilities))
+        sampled_words = iter(np.random.choice(vocab_words, size=len(self.sentences_in), p=unigram_probabilities))
 
         result = []
         for s in self.sentences_in:
@@ -154,6 +154,8 @@ class DataCtlForcedChoice:
 
         res = {}
 
+        nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
+
         for s1, s2 in self.pairs:
             for w1, w2 in zip(s1, s2):
                 if w1 != w2:
@@ -163,7 +165,11 @@ class DataCtlForcedChoice:
                         xe1, xe2 = 1.0, 0.0
                     break
             else:
-                raise RuntimeError('Sentence Pair has identical sentences')
+                for w in s1:
+                    if w in nas:
+                        break
+                else:
+                    raise RuntimeError('Sentence Pair has identical sentences')
 
             res[tuple(s1)] = xe1
             res[tuple(s2)] = xe2
