@@ -7,11 +7,12 @@ plural = inflect.engine()
 
 task_name = Path(__file__).parent.stem
 
-pre_nominals_singular = ["this", "that"]
-pre_nominals_plural = ["these", "those"]
-pre_nominals = set(pre_nominals_singular + pre_nominals_plural)
+pre_nominals_singular = ['this', 'that', 'one']
+pre_nominals_plural = ['these', 'those', 'all']
 
-templates = ['template1',
+templates = [
+    '_ _ must be here',
+    '_ _ can be here',
              ]
 
 nouns_singular = get_task_words(task_name, 'NN')

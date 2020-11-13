@@ -14,7 +14,7 @@ template2 = 'the {} by the {}' + f' {configs.Data.mask_symbol} ' + '{} .'
 def main():
     """
     example:
-    "the dog on the mat [MASK] brown"
+    "the dog on the mat <mask> brown"
 
     considerations:
     1. use equal proportion of sentences containing plural vs. singular subject nouns

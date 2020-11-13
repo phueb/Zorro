@@ -21,7 +21,7 @@ def main():
     for (noun_s,) in get_task_word_combo(task_name, [('NN', 0, NUM_NOUNS),
                                                      ]):
         noun_p = plural.plural(noun_s)
-        if noun_p not in noun_plurals:
+        if noun_p not in noun_plurals or noun_p == noun_s:
             continue
 
         yield template1.format(noun_s)

@@ -12,8 +12,8 @@ template2 = '{} {} {}' + f' {configs.Data.mask_symbol} ' + 'went there .'
 def main():
     """
     example:
-    "look at this green [MASK] .
-    "these green [MASK] went there .
+    "look at this green <mask> .
+    "these green <mask> went there .
     """
 
     for pre_nominal in pre_nominals_singular + pre_nominals_plural:

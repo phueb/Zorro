@@ -18,7 +18,7 @@ template2b = 'the {} that are there' + f' {configs.Data.mask_symbol} ' + '{} .'
 def main():
     """
     example:
-    "the dog that I like [MASK] lazy"
+    "the dog that I like <mask> lazy"
     """
 
     noun_plurals = get_vocab_words(tag='NNS')
@@ -27,7 +27,7 @@ def main():
                                                        ('JJ', 0, NUM_ADJECTIVES),
                                                        )):
         noun_p = plural.plural(noun_s)
-        if noun_p not in noun_plurals:
+        if noun_p not in noun_plurals or noun_p == noun_s:
             continue
 
         # object-relative

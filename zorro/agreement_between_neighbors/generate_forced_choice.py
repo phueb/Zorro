@@ -5,11 +5,13 @@ from zorro.vocab import get_vocab_words
 
 NUM_NOUNS = 2
 
-template1 = 'look at {} {} .'
+template1 = '{} {} must be here .'
+template2 = '{} {} can be here .'
 
 rules = {
     ('NN', 0, NUM_NOUNS): [
-        template1.format('this', '{}'),
+        template1.format('one', '{}'),
+        template2.format('one', '{}'),
     ],
 }
 
@@ -25,7 +27,7 @@ def main():
 
         for (noun_s,) in get_task_word_combo(task_name, rules.keys()):
             noun_p = plural.plural(noun_s)
-            if noun_p not in noun_plurals:
+            if noun_p not in noun_plurals or noun_p == noun_s:
                 continue
 
             yield template1.format(pre_nominal, noun_s)
