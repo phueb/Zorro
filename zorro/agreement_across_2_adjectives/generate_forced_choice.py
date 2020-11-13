@@ -31,6 +31,7 @@ def main():
     "look at this green red house ." vs. "look at this green red houses ."
     "this green red house went there ." vs. "this green red houses went there."
     """
+
     noun_plurals = get_vocab_words(tag='NNS')
 
     for pre_nominal in pre_nominals_singular + pre_nominals_plural:

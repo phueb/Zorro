@@ -17,8 +17,9 @@ def get_task_word_combo(task_name: str,
     word_lists = []
     for tag, order, ns in tag_orders_ns:
         wl = get_task_words(task_name, tag, order)
-        print(f'Selecting {ns}/{len(wl)} words with tag ={tag}')
         word_lists.append(random.sample(wl, k=ns))
+        print(f'Randomly selected {ns}/{len(wl)} words with tag ={tag}')
+        print(word_lists[-1])
 
     for combo in product(*word_lists):
         yield combo
@@ -29,6 +30,8 @@ def get_task_words(task_name: str,
                    order: int = 0,
                    fdt: int = configs.Data.frequency_difference_tolerance,
                    verbose_warn: bool = False,
+                   verbose_include: bool = False,
+                   verbose_summary: bool = False,
                    ) -> List[str]:
 
     # get words with requested tag and order
@@ -51,7 +54,8 @@ def get_task_words(task_name: str,
         if all([mean_f - fdt < f < mean_f + fdt for f in corpus_fs]):
             res.append(tw)
             corpus_fs_list.append(corpus_fs)
-            print(f'Including "{tw:<24}"', corpus_fs)
+            if verbose_include:
+                print(f'Including "{tw:<24}"', corpus_fs)
         elif verbose_warn:
             print(f'WARNING: Excluding "{tw:<24}" due to very different corpus frequencies.', corpus_fs)
 
@@ -60,7 +64,8 @@ def get_task_words(task_name: str,
                            f' Is frequency_difference_tolerance too small?')
 
     # check overall bias in corpus frequency
-    for name, f in zip(f_df.columns, np.array(corpus_fs_list).mean(axis=0)):
-        print(f'{name:<24} mean={f:>9.2f}')
+    if verbose_summary:
+        for name, f in zip(f_df.columns, np.array(corpus_fs_list).mean(axis=0)):
+            print(f'{name:<24} mean={f:>9.2f}')
 
     return res

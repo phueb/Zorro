@@ -2,7 +2,6 @@
 from zorro.task_words import get_task_word_combo
 from zorro.agreement_across_PP.shared import task_name
 
-
 NUM_NOUNS = 2
 NUM_ADJECTIVES = 2
 

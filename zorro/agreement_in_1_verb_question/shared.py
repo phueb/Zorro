@@ -8,10 +8,13 @@ plural = inflect.engine()
 task_name = Path(__file__).parent.stem
 
 
-subjective_copula_singular = ["is", "'s", "was"]  # "do" and "does" should not be considered correct answers
-subjective_copula_plural = ["are", "'re", "were"]
+copula_singular = ["is", "'s", "was"]
+copula_plural = ["are", "'re", "were"]
 
-templates = ['template1',
+templates = [
+    'where is/are the _ ?',
+    'what is/are the _ ?',
+    'is/are the _ here ?',
              ]
 
 nouns_singular = get_task_words(task_name, 'NN')

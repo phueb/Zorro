@@ -19,13 +19,13 @@ class Data:
     unk_symbol = '<unk>'
     space_symbol = 'Ġ'
     vocab_name = 'c-w-n'
-    frequency_difference_tolerance = 500
+    frequency_difference_tolerance = 1000
     control_name_1gram = '1-gram-distribution control'
     control_names = [control_name_1gram]
 
 
 class Eval:
-    local_runs = True  # use prediction files stored locally in Zorro/runs/
+    local_runs = False  # use prediction files stored locally in Zorro/runs/
     steps = [-1]  # or [-1] to indicate last available step
     param_names = None  # [f'param_00{i}' for i in [1, 6, 7, 5, 8]]
     raise_error_on_missing_group = True

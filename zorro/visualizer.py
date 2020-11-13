@@ -84,7 +84,7 @@ class Visualizer:
             ax.set_ylabel('Proportion', fontsize=self.ax_label_size)
             ax.set_ylim([0, 1.0])
             ax.axhline(y=0.5, linestyle=':', color='grey')
-            ax.set_title(f'{task_name.replace("_", " ")}'
+            ax.set_title(f'{task_name.replace("_", " ")}\n'
                          f'template={template}',
                          size=self.ax_title_size)
 

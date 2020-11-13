@@ -1,7 +1,7 @@
 from typing import List, Dict
 
 from zorro import configs
-from zorro.agreement_in_1_verb_question.shared import templates, subjective_copula_plural, subjective_copula_singular
+from zorro.agreement_in_1_verb_question.shared import templates, copula_plural, copula_singular
 from zorro.agreement_in_1_verb_question.shared import nouns_plural, nouns_singular
 
 prediction_categories = (
@@ -36,14 +36,14 @@ def categorize_predictions(sentences_out: List[List[str]],
         if predicted_word == 's':
             res['s'] += 1
 
-        elif targeted_noun in nouns_plural and predicted_word in subjective_copula_plural:
+        elif targeted_noun in nouns_plural and predicted_word in copula_plural:
             res["copula\ncorrect"] += 1
-        elif targeted_noun in nouns_singular and predicted_word in subjective_copula_singular:
+        elif targeted_noun in nouns_singular and predicted_word in copula_singular:
             res["copula\ncorrect"] += 1
 
-        elif targeted_noun in nouns_plural and predicted_word in subjective_copula_singular:
+        elif targeted_noun in nouns_plural and predicted_word in copula_singular:
             res["copula\nfalse"] += 1
-        elif targeted_noun in nouns_singular and predicted_word in subjective_copula_plural:
+        elif targeted_noun in nouns_singular and predicted_word in copula_plural:
             res["copula\nfalse"] += 1
 
         else:
