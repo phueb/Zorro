@@ -1,64 +1,32 @@
-the back on the students <mask> back .
-the back on the students <mask> back .
-the students on the back <mask> back .
-the students on the back <mask> back .
-the back on the students <mask> found .
-the back on the students <mask> found .
-the students on the back <mask> found .
-the students on the back <mask> found .
-the back on the students <mask> up .
-the back on the students <mask> up .
-the students on the back <mask> up .
-the students on the back <mask> up .
-the back on the students <mask> there .
-the back on the students <mask> there .
-the students on the back <mask> there .
-the students on the back <mask> there .
-the back on the people <mask> back .
-the back on the people <mask> back .
-the people on the back <mask> back .
-the people on the back <mask> back .
-the back on the people <mask> found .
-the back on the people <mask> found .
-the people on the back <mask> found .
-the people on the back <mask> found .
-the back on the people <mask> up .
-the back on the people <mask> up .
-the people on the back <mask> up .
-the people on the back <mask> up .
-the back on the people <mask> there .
-the back on the people <mask> there .
-the people on the back <mask> there .
-the people on the back <mask> there .
-the play on the students <mask> back .
-the play on the students <mask> back .
-the students on the play <mask> back .
-the students on the play <mask> back .
-the play on the students <mask> found .
-the play on the students <mask> found .
-the students on the play <mask> found .
-the students on the play <mask> found .
-the play on the students <mask> up .
-the play on the students <mask> up .
-the students on the play <mask> up .
-the students on the play <mask> up .
-the play on the students <mask> there .
-the play on the students <mask> there .
-the students on the play <mask> there .
-the students on the play <mask> there .
-the play on the people <mask> back .
-the play on the people <mask> back .
-the people on the play <mask> back .
-the people on the play <mask> back .
-the play on the people <mask> found .
-the play on the people <mask> found .
-the people on the play <mask> found .
-the people on the play <mask> found .
-the play on the people <mask> up .
-the play on the people <mask> up .
-the people on the play <mask> up .
-the people on the play <mask> up .
-the play on the people <mask> there .
-the play on the people <mask> there .
-the people on the play <mask> there .
-the people on the play <mask> there .
+look at this green running <mask> .
+this green running <mask> went there .
+look at this green bad <mask> .
+this green bad <mask> went there .
+look at this outside running <mask> .
+this outside running <mask> went there .
+look at this outside bad <mask> .
+this outside bad <mask> went there .
+look at that green running <mask> .
+that green running <mask> went there .
+look at that green bad <mask> .
+that green bad <mask> went there .
+look at that outside running <mask> .
+that outside running <mask> went there .
+look at that outside bad <mask> .
+that outside bad <mask> went there .
+look at these green running <mask> .
+these green running <mask> went there .
+look at these green bad <mask> .
+these green bad <mask> went there .
+look at these outside running <mask> .
+these outside running <mask> went there .
+look at these outside bad <mask> .
+these outside bad <mask> went there .
+look at those green running <mask> .
+those green running <mask> went there .
+look at those green bad <mask> .
+those green bad <mask> went there .
+look at those outside running <mask> .
+those outside running <mask> went there .
+look at those outside bad <mask> .
+those outside bad <mask> went there .

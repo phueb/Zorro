@@ -16,8 +16,13 @@ nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read()
 for task_type in ['forced_choice', 'open_ended']:
     for path in sorted(Path('../zorro').glob(f'*/generate_{task_type}.py')):
         task_name = path.parent.name
-        generate = importlib.import_module(f'zorro.{task_name}.generate_{task_type}')
-        shared = importlib.import_module(f'zorro.{task_name}.shared')
+        try:
+            generate = importlib.import_module(f'zorro.{task_name}.generate_{task_type}')
+            shared = importlib.import_module(f'zorro.{task_name}.shared')
+        except RuntimeError as e:
+            print(e)
+            print(f'Skipping {task_name}')
+            continue
 
         # check for list overlap
         for w in shared.nouns_singular:
@@ -46,4 +51,4 @@ for task_type in ['forced_choice', 'open_ended']:
                             print(f'WARNING: Not in whole_words or stop words: "{w}"')
                     # write to file
                     f.write(sentence + '\n')
-            print(f'Saved {n:,} sentences to {out_path}')
+            print(f'Saved {n:>12,} sentences to {out_path}')

@@ -1,8 +1,6 @@
-where <mask> the time ?
-what <mask> the times ?
-where <mask> the work ?
-what <mask> the works ?
-where <mask> the part ?
-what <mask> the parts ?
-where <mask> the school ?
-what <mask> the schools ?
+where <mask> the light ?
+where <mask> the lights ?
+what <mask> the light ?
+what <mask> the lights ?
+<mask> the light here ?
+<mask> the lights here ?

@@ -11,6 +11,7 @@ from zorro import configs
 def get_task_word_combo(task_name: str,
                         tag_orders_ns: List[Tuple[str, int, int]],
                         seed: int = configs.Data.seed,
+                        verbose: bool = False,
                         ) -> Generator[Tuple, None, None]:
     random.seed(seed)
 
@@ -18,8 +19,9 @@ def get_task_word_combo(task_name: str,
     for tag, order, ns in tag_orders_ns:
         wl = get_task_words(task_name, tag, order)
         word_lists.append(random.sample(wl, k=ns))
-        print(f'Randomly selected {ns}/{len(wl)} words with tag ={tag}')
-        print(word_lists[-1])
+        if verbose:
+            print(f'Randomly selected {ns}/{len(wl)} words with tag ={tag}')
+            print(word_lists[-1])
 
     for combo in product(*word_lists):
         yield combo
