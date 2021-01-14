@@ -33,6 +33,10 @@ def get_group2predictions_file_paths(task_name: str,
             print(f'Finding last step for group={group_name}...')
             steps = [get_step(p.stem.split('_')[-1])
                      for p in runs_path.rglob(pattern.format(group_name, task_type, task_name, '*'))]
+
+            if configs.Eval.raise_error_on_missing_group and not steps:
+                raise FileNotFoundError(f'Did not find prediction files for group={group_name}')
+
             if isinstance(steps[0], str):
                 effective_step = list(sorted(steps))[0]  # sorts "best" before "last"
                 print(f'Found step={effective_step}')
@@ -51,8 +55,6 @@ def get_group2predictions_file_paths(task_name: str,
         if not v:
             if configs.Eval.raise_error_on_missing_group:
                 raise FileNotFoundError(f'Did not find prediction files for group={k} and step={step}')
-            else:
-                continue
         else:
             res[k] = v
             print(k)

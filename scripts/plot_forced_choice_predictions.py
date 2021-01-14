@@ -38,4 +38,8 @@ for task_name in TASK_NAMES:
                                                                            s.categorize_predictions,
                                                                            )
         # plot
-        v.make_barplot(s.prediction_categories, template2group_name2props, task_name)
+        v.make_barplot(s.prediction_categories,
+                       template2group_name2props,
+                       task_name,
+                       verbose=True,
+                       )

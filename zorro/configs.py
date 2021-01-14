@@ -20,15 +20,15 @@ class Data:
     space_symbol = 'Ġ'
     vocab_name = 'c-w-n'
     frequency_difference_tolerance = 1000
-    control_name_1gram = '1-gram-distribution control'
+    control_name_1gram = 'word-frequency control'
     control_names = [control_name_1gram]
 
 
 class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
     steps = [-1]  # or [-1] to indicate last available step
-    param_names = None  # [f'param_00{i}' for i in [1, 6, 7, 5, 8]]
+    param_names = [f'param_{i:03}' for i in [14, 15, 16, 11, 12, 13]]
     raise_error_on_missing_group = True
-    conditions = ['corpus_name', 'architecture']  # can be empty list
+    conditions = ['max_num_tokens_in_sequence', 'allow_truncated_sentences', 'corpus_name']  # can be empty list
     max_reps = 10
     num_control_reps = 2
