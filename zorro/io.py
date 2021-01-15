@@ -1,5 +1,6 @@
 from typing import Optional, Dict, List
 from pathlib import Path
+import yaml
 
 from zorro import configs
 
@@ -17,9 +18,23 @@ def get_group2predictions_file_paths(task_name: str,
 
     # group_names
     if configs.Eval.param_names is None:
-        group_names = sorted([p.name for p in runs_path.glob('*')])
+        group_names_ = sorted([p.name for p in runs_path.glob('*')])
     else:
-        group_names = configs.Eval.param_names
+        group_names_ = configs.Eval.param_names
+
+    # todo
+    # filter group_names
+    group_names = []
+    if configs.Eval.included_params:
+        for group_name in group_names_:
+            path = runs_path / group_name / 'param2val.yaml'
+            with path.open('r') as f:
+                param2val = yaml.load(f, Loader=yaml.FullLoader)
+            for k, v in configs.Eval.included_params.items():
+                if param2val[k] == v:
+                    group_names.append(group_name)
+    else:
+        group_names = []
 
     get_step = lambda s: int(s) if s.isdigit() else s
 

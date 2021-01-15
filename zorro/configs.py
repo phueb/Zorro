@@ -4,7 +4,7 @@ from pathlib import Path
 class Dirs:
     src = Path(__file__).parent
     root = src.parent
-    runs_remote = Path('/') / 'media' / 'research_data' / 'BabyBert' / 'runs'
+    runs_remote = Path('/') / 'media' / 'ludwig_data' / 'BabyBert' / 'runs'
     runs_local = root / 'runs'
     data = root / 'data'
     external_words = data / 'external_words'
@@ -26,9 +26,10 @@ class Data:
 
 class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
-    steps = [-1]  # or [-1] to indicate last available step
-    param_names = [f'param_{i:03}' for i in [14, 15, 16, 11, 12, 13]]
+    steps = [200_000]  # or [-1] to indicate last available step
+    param_names = None  # [f'param_{i:03}' for i in [3, 4]]
     raise_error_on_missing_group = True
-    conditions = ['max_num_tokens_in_sequence', 'allow_truncated_sentences', 'corpus_name']  # can be empty list
+    conditions = ['num_sentences_per_input', 'corpus_name']  # can be empty list
+    included_params = {'corpus_name': 'wiki-20191017-hebb-3M_tokenized'}
     max_reps = 10
     num_control_reps = 2

@@ -33,7 +33,7 @@ class Visualizer:
             runs_path = configs.Dirs.runs_remote
 
         path = runs_path / param_name / 'param2val.yaml'
-        with path .open('r') as f:
+        with path.open('r') as f:
             param2val = yaml.load(f, Loader=yaml.FullLoader)
 
         reps = len(self.group2predictions_file_paths[param_name])

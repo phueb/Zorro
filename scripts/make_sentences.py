@@ -5,7 +5,7 @@ from zorro.vocab import get_vocab_words
 from zorro import configs
 
 CHECK_IN_VOCAB = True
-SECONDARY_OUT_PATH = Path('/') / 'media' / 'research_data' / 'Zorro' / 'sentences' or None
+SECONDARY_OUT_PATH = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences' or None
 
 vocab_words = get_vocab_words()
 
