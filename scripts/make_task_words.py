@@ -34,7 +34,7 @@ for task_name in TASK_NAMES:
 
         if vw in task_df['word'].tolist():
             continue
-        if vw_series['is_excluded'] == True:
+        if vw_series['is_excluded']:
             continue
 
         row = {'word': vw}

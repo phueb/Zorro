@@ -22,10 +22,9 @@ def get_group2predictions_file_paths(task_name: str,
     else:
         group_names_ = configs.Eval.param_names
 
-    # todo
     # filter group_names
-    group_names = []
     if configs.Eval.included_params:
+        group_names = []
         for group_name in group_names_:
             path = runs_path / group_name / 'param2val.yaml'
             with path.open('r') as f:
@@ -34,7 +33,7 @@ def get_group2predictions_file_paths(task_name: str,
                 if param2val[k] == v:
                     group_names.append(group_name)
     else:
-        group_names = []
+        group_names = group_names_
 
     get_step = lambda s: int(s) if s.isdigit() else s
 
