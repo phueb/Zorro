@@ -3,8 +3,8 @@ from zorro.agreement_across_1_adjective.shared import task_name, plural, pre_nom
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
-NUM_ADJECTIVES = 18
-NUM_NOUNS = 47
+NUM_ADJECTIVES = 50
+NUM_NOUNS = 300
 
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'
@@ -32,17 +32,16 @@ def main():
 
     for pre_nominal in pre_nominals_singular + pre_nominals_plural:
 
-        for words_singular in get_task_word_combo(task_name, rules.keys()):
-            noun_plural = plural.plural(words_singular[1])
-            if noun_plural not in noun_plurals:
+        for adj, noun_s in get_task_word_combo(task_name, rules.keys()):
+            noun_p = plural.plural(noun_s)
+            if noun_p not in noun_plurals or noun_p == noun_s:
                 continue
-            words_plural = [words_singular[0], noun_plural]
 
-            yield template1.format(pre_nominal, *words_singular)
-            yield template1.format(pre_nominal, *words_plural)
+            yield template1.format(pre_nominal, adj, noun_s)
+            yield template1.format(pre_nominal, adj, noun_p)
 
-            yield template2.format(pre_nominal, *words_singular)
-            yield template2.format(pre_nominal, *words_plural)
+            yield template2.format(pre_nominal, adj, noun_s)
+            yield template2.format(pre_nominal, adj, noun_p)
 
 
 if __name__ == '__main__':

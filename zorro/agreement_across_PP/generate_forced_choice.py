@@ -1,21 +1,22 @@
 
 from zorro.task_words import get_task_word_combo
-from zorro.agreement_across_PP.shared import task_name
+from zorro.agreement_across_PP.shared import task_name, plural, copulas_singular, copulas_plural
+from zorro.vocab import get_vocab_words
 
-NUM_NOUNS = 2
-NUM_ADJECTIVES = 2
+NUM_NOUNS = 50
+NUM_ADJECTIVES = 20
 
 template1 = 'the {} on the {} {} {} .'
 template2 = 'the {} by the {} {} {} .'
 
 rules = {
-    ('NN', 0, NUM_NOUNS): [  # todo make the tag a list to specify both singular + plural nouns in same slot
+    ('NN', 0, NUM_NOUNS): [
         template1.format('{}', '_', 'is', '_'),
         template2.format('{}', '_', 'is', '_'),
     ],
-    ('NNS', 0, NUM_NOUNS): [
-        template1.format('{}', '_', 'are', '_'),
-        template2.format('{}', '_', 'are', '_'),
+    ('NN', 1, NUM_NOUNS): [
+        template1.format('_', '{}', 'is', '_'),
+        template2.format('_', '{}', 'is', '_'),
     ],
     ('JJ', 0, NUM_ADJECTIVES): [
         template1.format('_', '_', 'is/are', '{}'),
@@ -32,16 +33,35 @@ def main():
 
     considerations:
     1. use equal proportion of sentences containing plural vs. singular subject nouns
-    2. use opposite numbered object noun vs. subject noun  # todo it would be better to have 50/50 singular/plural object nouns
+    2. use equal proportion of sentences containing plural vs. singular object nouns
+    2. subject with object number is counterbalanced such that:
+        -singular subjects occur with 50:50 singular:plural objects
+        -plural   subjects occur with 50:50 singular:plural objects
     """
 
-    for words in get_task_word_combo(task_name, rules.keys()):
+    noun_plurals = get_vocab_words(tag='NNS')
 
-        # counter-balance singular vs plural with subj vs. obj
-        for subject_id, object_id in [[0, 1], [1, 0]]:
+    for copula in copulas_singular + copulas_plural:
 
-            yield template1.format(words[subject_id], words[object_id], 'is' , words[2])
-            yield template1.format(words[subject_id], words[object_id], 'are', words[2])
+        for sub_s, obj_s, adj in get_task_word_combo(task_name, rules.keys()):
+
+            # counter-balance singular vs plural with subj vs. obj
+            sub_p = plural.plural(sub_s)
+            obj_p = plural.plural(obj_s)
+
+            if sub_p not in noun_plurals or obj_p not in noun_plurals:
+                continue
+
+            if sub_s == sub_p or obj_s == obj_p:  # exclude nouns with ambiguous number
+                continue
+
+            # contrast is in number agreement between subject and copula
+            yield template1.format(sub_s, obj_s, copula, adj)
+            yield template1.format(sub_p, obj_s, copula, adj)
+
+            # same as above, except that object number is opposite
+            yield template1.format(sub_s, obj_p, copula, adj)
+            yield template1.format(sub_p, obj_p, copula, adj)
 
 
 if __name__ == '__main__':

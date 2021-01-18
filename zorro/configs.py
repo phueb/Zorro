@@ -14,7 +14,7 @@ class Dirs:
 class Data:
     vocab_path = '/home/ph/BabyBERT/data/tokenizers/c-n-w-8192/vocab.json'
     corpora_path = '/home/ph/BabyBERT/data/corpora'
-    seed = 3
+    seed = 4
     mask_symbol = '<mask>'
     unk_symbol = '<unk>'
     space_symbol = 'Ġ'
