@@ -7,8 +7,8 @@ plural = inflect.engine()
 
 task_name = Path(__file__).parent.stem
 
-copulas_singular = ["is", "'s", "was"]
-copulas_plural = ["are", "'re", "were"]
+copulas_singular = ["is", "was"]
+copulas_plural = ["are", "were"]
 
 pronouns_1p_2p = ['i', 'you', 'we']
 pronouns_3p = ['he', 'she', 'it']

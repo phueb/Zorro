@@ -29,7 +29,7 @@ class Eval:
     steps = [-1]  # or [-1] to indicate last available step
     param_names = None  # [f'param_{i:03}' for i in [3, 4]]
     raise_error_on_missing_group = True
-    conditions = ['unmask_prob', 'mask_pattern_size', 'corpus_name']  # can be empty list
+    conditions = ['leave_unmasked_prob', 'random_token_prob', 'corpus_name']  # can be empty list
     included_params = {}
     # included_params = {'corpus_name': 'childes-20201026'}
     # included_params = {'corpus_name': 'newsela'}
