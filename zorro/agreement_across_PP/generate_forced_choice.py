@@ -48,12 +48,12 @@ def main():
             # counter-balance singular vs plural with subj vs. obj
             sub_p = plural.plural(sub_s)
             obj_p = plural.plural(obj_s)
-
             if sub_p not in noun_plurals or obj_p not in noun_plurals:
                 continue
-
             if sub_s == sub_p or obj_s == obj_p:  # exclude nouns with ambiguous number
                 continue
+
+            # TEMPLATE 1
 
             # contrast is in number agreement between subject and copula
             yield template1.format(sub_s, obj_s, copula, adj)
@@ -62,6 +62,16 @@ def main():
             # same as above, except that object number is opposite
             yield template1.format(sub_s, obj_p, copula, adj)
             yield template1.format(sub_p, obj_p, copula, adj)
+
+            # TEMPLATE 2
+
+            # contrast is in number agreement between subject and copula
+            yield template2.format(sub_s, obj_s, copula, adj)
+            yield template2.format(sub_p, obj_s, copula, adj)
+
+            # same as above, except that object number is opposite
+            yield template2.format(sub_s, obj_p, copula, adj)
+            yield template2.format(sub_p, obj_p, copula, adj)
 
 
 if __name__ == '__main__':

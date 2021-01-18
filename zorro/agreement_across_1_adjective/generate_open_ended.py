@@ -18,9 +18,10 @@ def main():
 
     for pre_nominal in pre_nominals_singular + pre_nominals_plural:
 
-        for words in get_task_word_combo(task_name, (('JJ', 0, NUM_ADJECTIVES), )):
-            yield template1.format(pre_nominal, *words)
-            yield template2.format(pre_nominal, *words)
+        for adj in get_task_word_combo(task_name,
+                                       [('JJ', 0, NUM_ADJECTIVES), ]):
+            yield template1.format(pre_nominal, adj)
+            yield template2.format(pre_nominal, adj)
 
 
 if __name__ == '__main__':

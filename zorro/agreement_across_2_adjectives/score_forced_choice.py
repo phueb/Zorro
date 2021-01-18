@@ -2,7 +2,7 @@ from typing import List, Dict, Tuple
 
 from zorro.agreement_across_2_adjectives.shared import templates, pre_nominals_plural, pre_nominals_singular
 from zorro.agreement_across_2_adjectives.shared import nouns_singular, nouns_plural
-from zorro.utils import check_agreement_between_pre_nominal_and_noun
+from zorro.grammatical import check_agreement_between_pre_nominal_and_noun
 from zorro import configs
 
 prediction_categories = ('false', 'correct')
@@ -59,7 +59,7 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
         if len({is_agreement1, is_agreement2}) != 2:  # check that only 1 but not both are True
             for na in nas:
                 if na in s1:  # a noun with an ambiguous number can cause s1 and s2 to be identical
-                    break
+                    raise RuntimeError('Detected noun with ambiguous number')
             else:
                 print(s1, is_agreement1)
                 print(s2, is_agreement2)

@@ -1,7 +1,8 @@
 
 from zorro import configs
 from zorro.task_words import get_task_word_combo
-from zorro.agreement_across_PP.shared import task_name
+from zorro.vocab import get_vocab_words
+from zorro.agreement_across_PP.shared import task_name, plural
 
 
 NUM_NOUNS = 2
@@ -18,18 +19,28 @@ def main():
 
     considerations:
     1. use equal proportion of sentences containing plural vs. singular subject nouns
-    2. use equal proportion of plural vs. singular object nouns n singular vs. plural sentences
+    1. use equal proportion of sentences containing plural vs. singular object nouns
     """
 
-    for words in get_task_word_combo(task_name, (('NN', 0, NUM_NOUNS),
-                                                 ('NNS', 0, NUM_NOUNS),
-                                                 ('JJ', 0, NUM_ADJECTIVES)
-                                                 )):
+    noun_plurals = get_vocab_words(tag='NNS')
 
-        # counter-balance singular vs plural with subj vs. obj
-        for subject_id, object_id in [[0, 1], [1, 0]]:
-            yield template1.format(words[subject_id], words[object_id], words[2])
-            yield template1.format(words[subject_id], words[object_id], words[2])
+    for sub_s, obj_s, adj in get_task_word_combo(task_name,
+                                                 [('NN', 0, NUM_NOUNS),
+                                                  ('NN', 1, NUM_NOUNS),
+                                                  ('JJ', 0, NUM_ADJECTIVES)
+                                                  ]):
+
+        sub_p = plural.plural(sub_s)
+        obj_p = plural.plural(obj_s)
+        if sub_p not in noun_plurals or obj_p not in noun_plurals:
+            continue
+        if sub_s == sub_p or obj_s == obj_p:  # exclude nouns with ambiguous number
+            continue
+
+        yield template1.format(sub_s, obj_s, adj)
+        yield template1.format(sub_s, obj_p, adj)
+        yield template1.format(sub_p, obj_s, adj)
+        yield template1.format(sub_p, obj_p, adj)
 
 
 if __name__ == '__main__':

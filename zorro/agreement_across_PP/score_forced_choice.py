@@ -1,6 +1,6 @@
 from typing import List, Tuple, Dict
 
-from zorro.utils import check_agreement_between_pre_nominal_and_noun
+from zorro.grammatical import check_agreement_between_subject_and_verb
 from zorro.agreement_across_PP.shared import templates, copulas_plural, copulas_singular
 from zorro.agreement_across_PP.shared import nouns_singular, nouns_plural
 from zorro import configs
@@ -15,13 +15,13 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
 
     for pair in pairs:
         s1, s2 = pair
-        if s1[0] == 'look' and s2[0] == 'look':
+        if s1[2] == 'on' and s2[2] == 'on':
             template2pairs.setdefault(templates[0], []).append(pair)
-        elif s1[-2] == 'there' and s2[-2] == 'there':
+        elif s1[2] == 'by' and s2[2] == 'by':
             template2pairs.setdefault(templates[1], []).append(pair)
         else:
             raise ValueError(f'Failed to categorize "{pair}" to template.')
-
+    print(template2pairs.keys())
     return template2pairs
 
 
@@ -44,22 +44,22 @@ def categorize_predictions(pairs: List[Tuple[List[str], List[str]]],
     for s1, s2 in pairs:
 
         # check agreement
-        is_agreement1 = check_agreement_between_pre_nominal_and_noun(s1,
-                                                                     pre_nominals_singular,
-                                                                     pre_nominals_plural,
-                                                                     nouns_singular,
-                                                                     nouns_plural,
-                                                                     )
-        is_agreement2 = check_agreement_between_pre_nominal_and_noun(s2,
-                                                                     pre_nominals_singular,
-                                                                     pre_nominals_plural,
-                                                                     nouns_singular,
-                                                                     nouns_plural,
-                                                                     )
+        is_agreement1 = check_agreement_between_subject_and_verb(s1,
+                                                                 nouns_singular,
+                                                                 nouns_plural,
+                                                                 copulas_singular,
+                                                                 copulas_plural,
+                                                                 )
+        is_agreement2 = check_agreement_between_subject_and_verb(s2,
+                                                                 nouns_singular,
+                                                                 nouns_plural,
+                                                                 copulas_singular,
+                                                                 copulas_plural,
+                                                                 )
         if len({is_agreement1, is_agreement2}) != 2:  # check that only 1 but not both are True
             for na in nas:
                 if na in s1:  # a noun with an ambiguous number can cause s1 and s2 to be identical
-                    break
+                    raise RuntimeError('Detected noun with ambiguous number')
             else:
                 print(s1, is_agreement1)
                 print(s2, is_agreement2)

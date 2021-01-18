@@ -8,9 +8,9 @@ from zorro.io import get_group2predictions_file_paths
 
 # chose one
 TASK_NAMES = [
-    'agreement_across_1_adjective',
+    # 'agreement_across_1_adjective',
     # 'agreement_across_2_adjectives',
-    # 'agreement_across_PP',
+    'agreement_across_PP',
     # 'agreement_across_RC',
     # 'agreement_in_1_verb_question',
     # 'agreement_in_2_verb_question',
