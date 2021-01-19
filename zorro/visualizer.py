@@ -83,15 +83,15 @@ class Visualizer:
             ax.set_xlabel(xlabel)
             ax.set_ylabel('Proportion', fontsize=self.ax_label_size)
             ax.set_ylim([0, 1.0])
-            ax.axhline(y=0.5, linestyle=':', color='grey')
+            ax.axhline(y=0.5, linestyle=':', color='grey', zorder=3)
             # ax.yaxis.grid()
             ax.set_title(f'{task_name.replace("_", " ")}\n'
                          f'template={template}',
                          size=self.ax_title_size)
 
             for edge, color, group_name in zip(edges, colors, group_name2props.keys()):
-                avg = np.mean(group_name2props[group_name], axis=0).round(2)  # take average across rows
-                std = np.std(group_name2props[group_name], axis=0).round(2)
+                avg = np.mean(group_name2props[group_name], axis=0).round(4)  # take average across rows
+                std = np.std(group_name2props[group_name], axis=0).round(4)
 
                 if verbose:
                     print(group_name)

@@ -1,3 +1,7 @@
+"""
+generate sentences for all tasks.
+"""
+
 from pathlib import Path
 import importlib
 
@@ -12,8 +16,10 @@ vocab_words = get_vocab_words()
 stop_words = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
 nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 
-# generate sentences for all tasks
+# for all task types
 for task_type in ['forced_choice', 'open_ended']:
+
+    # for all tasks with given type
     for path in sorted(Path('../zorro').glob(f'*/generate_{task_type}.py')):
         task_name = path.parent.name
         try:
@@ -23,14 +29,6 @@ for task_type in ['forced_choice', 'open_ended']:
             print(e)
             print(f'Skipping {task_name}')
             continue
-
-        # check for list overlap
-        for w in shared.nouns_singular:
-            if w not in nas:
-                assert w not in shared.nouns_plural, w
-        for w in shared.nouns_plural:
-            if w not in nas:
-                assert w not in shared.nouns_singular, w
 
         # save each file in repository, and also on shared drive
         for out_path in [

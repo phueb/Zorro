@@ -2,15 +2,15 @@ import importlib
 
 from zorro import configs
 from zorro.visualizer import Visualizer
-from zorro.structure import prepare_data_for_barplot_forced_choice
+from zorro.prepare import prepare_data_for_barplot_forced_choice
 from zorro.io import get_group2predictions_file_paths
 
 
 # chose one
 TASK_NAMES = [
     # 'agreement_across_1_adjective',
-    # 'agreement_across_2_adjectives',
-    'agreement_across_PP',
+    'agreement_across_2_adjectives',
+    # 'agreement_across_PP',
     # 'agreement_across_RC',
     # 'agreement_in_1_verb_question',
     # 'agreement_in_2_verb_question',
@@ -28,14 +28,14 @@ for task_name in TASK_NAMES:
 
         v = Visualizer(group2predictions_file_paths)
 
-        # categorize productions into production categories
+        # categorize choice as correct or false
         print('Preparing data...')
         template2group_name2props = prepare_data_for_barplot_forced_choice(group2predictions_file_paths,
                                                                            task_name,
                                                                            s.templates,
                                                                            s.prediction_categories,
                                                                            s.categorize_by_template,
-                                                                           s.categorize_predictions,
+                                                                           s.grammar_checker,
                                                                            )
         # plot
         v.make_barplot(s.prediction_categories,

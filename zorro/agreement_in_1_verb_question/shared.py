@@ -8,8 +8,8 @@ plural = inflect.engine()
 task_name = Path(__file__).parent.stem
 
 
-copula_singular = ["is", "was"]
-copula_plural = ["are", "were"]
+copulas_singular = ["is", "was"]
+copulas_plural = ["are", "were"]
 
 templates = [
     'where is/are the _ ?',

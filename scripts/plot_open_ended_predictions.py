@@ -2,7 +2,7 @@ import importlib
 
 from zorro import configs
 from zorro.visualizer import Visualizer
-from zorro.structure import prepare_data_for_barplot_open_ended
+from zorro.prepare import prepare_data_for_barplot_open_ended
 from zorro.io import get_group2predictions_file_paths
 
 # chose one
@@ -34,4 +34,6 @@ for task_name in TASK_NAMES:
                                                                         s.categorize_predictions,
                                                                         )
         # plot
-        v.make_barplot(s.prediction_categories, template2group_name2props, task_name)
+        v.make_barplot(s.prediction_categories,
+                       template2group_name2props,
+                       task_name)

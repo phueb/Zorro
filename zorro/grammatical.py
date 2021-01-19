@@ -1,57 +1,34 @@
 from typing import Tuple, List
 
 
-def check_agreement_between_pre_nominal_and_noun(s: List[str],
-                                                 pre_nominals_singular,
-                                                 pre_nominals_plural,
-                                                 nouns_singular,
-                                                 nouns_plural,
-                                                 ) -> bool:
+def check_agreement_between_two_words(
+        words_left_s: List[str],  # possible words for left word position, singular
+        words_left_p: List[str],  # possible words for left word position, plural
+        words_right_s: List[str],  # possible words for right word position, singular
+        words_right_p: List[str],  # possible words for right word position, plural
+        sentence: List[str],
+) -> bool:
     """
-    find two words in sentence which must agree (e.g. "this" and "dog") in single for loop.
-    of the three returned objects, only 2 are defined, while the other are of NoneType.
-    in theory, this prevents need to search through nouns and pre-nominals again, to determine their number.
+    find two words in sentence which must agree (e.g. "this" and "dog") in a single 'for' loop.
+
+    warning: word_left must occur before word_right in sentence
+
+    how it works:
+    of the three temporary objects in each iteration, only 2 are defined, while the other are of NoneType.
+    in theory, this prevents need to search through right words and left words again, to determine their number.
     """
-    pre_nominal_s1 = None
-    pre_nominal_p1 = None
-    noun_s1 = None
-    noun_p1 = None
-    for w_forward, w_backward in zip(s, reversed(s)):
-        if pre_nominal_s1 is None and pre_nominal_p1 is None and w_forward in pre_nominals_singular:
-            pre_nominal_s1 = w_forward
-        elif pre_nominal_s1 is None and pre_nominal_p1 is None and w_forward in pre_nominals_plural:
-            pre_nominal_p1 = w_forward
-        if noun_s1 is None and noun_p1 is None and w_backward in nouns_singular:
-            noun_s1 = w_backward
-        elif noun_s1 is None and noun_p1 is None and w_backward in nouns_plural:
-            noun_p1 = w_backward
+    wls = None  # left singular
+    wlp = None  # left plural
+    wrs = None  # right singular
+    wrp = None  # right plural
+    for wr, wl in zip(sentence, reversed(sentence)):
+        if wls is None and wlp is None and wr in words_left_s:
+            wls = wr
+        elif wls is None and wlp is None and wr in words_left_p:
+            wlp = wr
+        if wrs is None and wrp is None and wl in words_right_s:
+            wrs = wl
+        elif wrs is None and wrp is None and wl in words_right_p:
+            wrp = wl
 
-    return True if (pre_nominal_s1 and noun_s1) or (pre_nominal_p1 and noun_p1) else False
-
-
-def check_agreement_between_subject_and_verb(s: List[str],
-                                             subjects_s,
-                                             subjects_p,
-                                             verbs_s,
-                                             verbs_p,
-                                             ) -> bool:
-    """
-    find two words in sentence which must agree (e.g. "dog" and "barks") in single for loop.
-    of the three returned objects, only 2 are defined, while the other are of NoneType.
-    in theory, this prevents need to search through verbs and subjects again, to determine their number.
-    """
-    sub_s1 = None
-    sub_p2 = None
-    verb_s1 = None
-    verb_p1 = None
-    for w_forward, w_backward in zip(s, reversed(s)):
-        if sub_s1 is None and sub_p2 is None and w_forward in subjects_s:
-            sub_s1 = w_forward
-        elif sub_s1 is None and sub_p2 is None and w_forward in subjects_p:
-            sub_p2 = w_forward
-        if verb_s1 is None and verb_p1 is None and w_backward in verbs_s:
-            verb_s1 = w_backward
-        elif verb_s1 is None and verb_p1 is None and w_backward in verbs_p:
-            verb_p1 = w_backward
-
-    return True if (sub_s1 and verb_s1) or (sub_p2 and verb_p1) else False
+    return True if (wls and wrs) or (wlp and wrp) else False

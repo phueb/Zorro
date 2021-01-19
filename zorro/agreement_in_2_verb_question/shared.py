@@ -11,7 +11,9 @@ doing_singular = ["does"]  # only "do" and does should be considered answers
 doing_plural = ["do"]
 doing_ambiguous = ["did"]
 
-templates = ['template1',
+templates = [
+    'where _ the _ go ?',
+    'what _ the _ do ?',
              ]
 
 # load task words

@@ -1,10 +1,10 @@
 
 from zorro.agreement_in_1_verb_question.shared import task_name, plural
-from zorro.agreement_in_1_verb_question.shared import copula_plural, copula_singular
+from zorro.agreement_in_1_verb_question.shared import copulas_plural, copulas_singular
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
-NUM_NOUNS = 47
+NUM_NOUNS = 1000
 
 template1 = 'where {} the {} ?'
 template2 = 'what {} the {} ?'
@@ -25,7 +25,7 @@ def main():
     """
     noun_plurals = get_vocab_words(tag='NNS')
 
-    for copula in copula_plural + copula_singular:
+    for copula in copulas_plural + copulas_singular:
 
         for (noun_s,) in get_task_word_combo(task_name, rules.keys()):
             noun_p = plural.plural(noun_s)

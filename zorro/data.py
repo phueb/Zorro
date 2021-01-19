@@ -19,10 +19,10 @@ class DataExpOpenEnded:
         """
 
         self.predictions_file_path = predictions_file_path
-        self.sentences_in, self.sentences_out = self.get_columns()
+        self.sentences_in, self.productions = self.get_columns()
 
         print(f'Initialized reader for experimental open_ended predictions. '
-              f'Found {len(self.sentences_out)} lines in file.')
+              f'Found {len(self.productions)} lines in file.')
 
     def get_columns(self):
         lines = self.predictions_file_path.open().readlines()
@@ -59,15 +59,15 @@ class DataCtlOpenEnded(DataExpOpenEnded):
         self.sentences_in, _ = self.get_columns()
 
         if control_name == configs.Data.control_name_1gram:
-            self.sentences_out = self.make_sentences_out_unigram_distribution_control()
+            self.productions = self.make_productions_unigram_distribution_control()
         else:
             raise AttributeError('Invalid arg to "control_name".')
 
         print(f'Initialized reader for control open_ended predictions. '
-              f'Found {len(self.sentences_out)} lines in file.')
+              f'Found {len(self.productions)} lines in file.')
         print()
 
-    def make_sentences_out_unigram_distribution_control(self):
+    def make_productions_unigram_distribution_control(self):
         """
         :return: list of test sentences with MASK symbol replaced with random word from vocab_words
          sampled based on frequency in corpus

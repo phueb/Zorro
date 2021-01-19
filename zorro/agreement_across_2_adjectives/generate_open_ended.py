@@ -20,7 +20,8 @@ def main():
 
         for adj1, adj2 in get_task_word_combo(task_name,
                                               [('JJ', 0, NUM_ADJECTIVES),
-                                               ('JJ', 1, NUM_ADJECTIVES),]):
+                                               ('JJ', 1, NUM_ADJECTIVES),
+                                               ]):
             yield template1.format(pre_nominal, adj1, adj2)
             yield template2.format(pre_nominal, adj1, adj2)
 

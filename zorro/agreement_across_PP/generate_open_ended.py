@@ -27,7 +27,7 @@ def main():
     for sub_s, obj_s, adj in get_task_word_combo(task_name,
                                                  [('NN', 0, NUM_NOUNS),
                                                   ('NN', 1, NUM_NOUNS),
-                                                  ('JJ', 0, NUM_ADJECTIVES)
+                                                  ('JJ', 0, NUM_ADJECTIVES),
                                                   ]):
 
         sub_p = plural.plural(sub_s)
