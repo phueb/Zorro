@@ -21,7 +21,7 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
         elif s1[2] == 'by' and s2[2] == 'by':
             template2pairs.setdefault(templates[1], []).append(pair)
         else:
-            raise ValueError(f'Failed to categorize "{pair}" to template.')
+            raise ValueError(f'Failed to categorize {pair} to template.')
 
     return template2pairs
 

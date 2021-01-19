@@ -11,8 +11,8 @@ pre_nominals_singular = ["this", "that"]
 pre_nominals_plural = ["these", "those"]
 
 templates = [
-    'look at _',
-    '_ went there',
+    'look at this/these _ _',
+    'this/these _ _  went there',
 ]
 
 nouns_singular = get_task_words(task_name, 'NN')
