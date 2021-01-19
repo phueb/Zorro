@@ -3,7 +3,7 @@ from zorro.vocab import get_vocab_words
 from zorro.agreement_in_1_verb_question.shared import task_name, plural
 from zorro import configs
 
-NUM_NOUNS = 4
+NUM_NOUNS = 1000
 
 template1 = 'where' + f' {configs.Data.mask_symbol} ' + 'the {} ?'
 template2 = 'what' + f' {configs.Data.mask_symbol} ' + 'the {} ?'

@@ -5,8 +5,8 @@ from zorro.vocab import get_vocab_words
 from zorro.agreement_across_PP.shared import task_name, plural
 
 
-NUM_NOUNS = 2
-NUM_ADJECTIVES = 4
+NUM_NOUNS = 100
+NUM_ADJECTIVES = 50
 
 template1 = 'the {} on the {}' + f' {configs.Data.mask_symbol} ' + '{} .'
 template2 = 'the {} by the {}' + f' {configs.Data.mask_symbol} ' + '{} .'

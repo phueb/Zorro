@@ -4,8 +4,8 @@ from zorro import configs
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
-NUM_NOUNS = 4
-NUM_ADJECTIVES = 4
+NUM_NOUNS = 200
+NUM_ADJECTIVES = 100
 
 # object-relative clause
 template1a = 'the {} that {} like' + f' {configs.Data.mask_symbol} ' + '{} .'

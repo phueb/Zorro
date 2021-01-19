@@ -3,7 +3,7 @@ from zorro import configs
 from zorro.agreement_across_1_adjective.shared import task_name, pre_nominals_singular, pre_nominals_plural
 from zorro.task_words import get_task_word_combo
 
-NUM_ADJECTIVES = 2
+NUM_ADJECTIVES = 100
 
 template1 = 'look at {} {}' + f' {configs.Data.mask_symbol} ' + '.'
 template2 = '{} {}' + f' {configs.Data.mask_symbol} ' + 'went there .'
