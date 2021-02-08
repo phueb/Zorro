@@ -25,11 +25,11 @@ class Data:
 
 
 class Eval:
-    local_runs = False  # use prediction files stored locally in Zorro/runs/
+    local_runs = True  # use prediction files stored locally in Zorro/runs/
     steps = [-1]  # or [-1] to indicate last available step
-    param_names = None  # [f'param_{i:03}' for i in [3, 4]]
+    param_names = None  # [f'param_{i:03}' for i in [7, 10, 8, 11, 9, 12]]
     raise_error_on_missing_group = True
-    conditions = ['mask_pattern_size', 'num_mask_patterns', 'corpus_name']  # can be empty list
+    conditions = ['weight_decay', 'leave_unmasked_prob', 'random_token_prob', 'architecture']  # can be empty list
     included_params = {}
     # included_params = {'corpus_name': 'childes-20201026'}
     # included_params = {'corpus_name': 'newsela'}

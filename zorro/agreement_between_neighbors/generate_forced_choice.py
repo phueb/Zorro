@@ -33,6 +33,9 @@ def main():
             yield template1.format(pre_nominal, noun_s)
             yield template1.format(pre_nominal, noun_p)
 
+            yield template2.format(pre_nominal, noun_s)
+            yield template2.format(pre_nominal, noun_p)
+
 
 if __name__ == '__main__':
     for n, s in enumerate(main()):
