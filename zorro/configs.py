@@ -12,7 +12,7 @@ class Dirs:
 
 
 class Data:
-    vocab_path = '/home/ph/BabyBERT/data/tokenizers/c-n-w-8192/vocab.json'
+    vocab_path = '/home/ph/BabyBERT/data/tokenizers/c-n-w-8192/vocab.json'  # TODO no longer exists
     corpora_path = '/home/ph/BabyBERT/data/corpora'
     seed = 4
     mask_symbol = '<mask>'
@@ -27,9 +27,9 @@ class Data:
 class Eval:
     local_runs = True  # use prediction files stored locally in Zorro/runs/
     steps = [-1]  # or [-1] to indicate last available step
-    param_names = None  # [f'param_{i:03}' for i in [7, 10, 8, 11, 9, 12]]
+    param_names = None  # [f'param_{i:03}' for i in [12, 16, 13, 15, 14]]
     raise_error_on_missing_group = True
-    conditions = ['weight_decay', 'leave_unmasked_prob', 'random_token_prob', 'architecture']  # can be empty list
+    conditions = []  # can be empty list
     included_params = {}
     # included_params = {'corpus_name': 'childes-20201026'}
     # included_params = {'corpus_name': 'newsela'}

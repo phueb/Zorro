@@ -40,15 +40,14 @@ class Visualizer:
         step = self.group2predictions_file_paths[param_name][0].stem.split('_')[-1]
         # add info about conditions
         info = ''
-        conditions = configs.Eval.conditions or ['param_name', 'architecture']
+        conditions = configs.Eval.conditions or ['is_official', 'is_reference', 'framework']
         for c in conditions:
             try:
                 val = param2val[c]
             except KeyError:
-                if c == 'architecture':
-                    val = 'BabyBERT'
-                else:
-                    val = 'n/a'
+                val = 'n/a'
+            if isinstance(val, bool):
+                val = int(val)
             info += f'{c}={val} '
 
         res = f'step={step} | n={reps} | {info}'
