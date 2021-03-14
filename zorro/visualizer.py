@@ -40,7 +40,7 @@ class Visualizer:
         step = self.group2predictions_file_paths[param_name][0].stem.split('_')[-1]
         # add info about conditions
         info = ''
-        conditions = configs.Eval.conditions or ['is_official', 'is_reference', 'framework']
+        conditions = configs.Eval.conditions or ['is_official', 'is_reference', 'is_base', 'framework']
         for c in conditions:
             try:
                 val = param2val[c]

@@ -20,6 +20,7 @@ class Data:
     space_symbol = 'Ġ'
     vocab_name = 'c-w-n'
     frequency_difference_tolerance = 1000
+    exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
     control_name_1gram = 'word-frequency control'
     control_names = [control_name_1gram]
 

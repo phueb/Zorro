@@ -31,6 +31,7 @@ def get_task_words(task_name: str,
                    tag: str,
                    order: int = 0,
                    fdt: int = configs.Data.frequency_difference_tolerance,
+                   exclude_novel_words: bool = configs.Data.exclude_novel_words,
                    verbose_warn: bool = False,
                    verbose_include: bool = False,
                    verbose_summary: bool = False,
@@ -50,16 +51,29 @@ def get_task_words(task_name: str,
     # subsample words which occur roughly equally across corpora
     res = []
     corpus_fs_list = []
+    num_excluded = 0
     for tw in task_words:
         corpus_fs = vw2fs[tw]
         mean_f = np.mean(corpus_fs)
         if all([mean_f - fdt < f < mean_f + fdt for f in corpus_fs]):
+
+            # exclude words that do not occur at least once in each corpus
+            if exclude_novel_words and any([f == 0 for f in corpus_fs]):
+                if verbose_warn:
+                    print(f'WARNING: Excluding "{tw:<20}" because one corpus frequency=0', corpus_fs)
+                    num_excluded += 1
+                continue
+
+            # collect
             res.append(tw)
             corpus_fs_list.append(corpus_fs)
+
             if verbose_include:
                 print(f'Including "{tw:<24}"', corpus_fs)
+
         elif verbose_warn:
             print(f'WARNING: Excluding "{tw:<24}" due to very different corpus frequencies.', corpus_fs)
+            num_excluded += 1
 
     if not res:
         raise RuntimeError(f'No task words available for {task_name}.'
@@ -69,5 +83,8 @@ def get_task_words(task_name: str,
     if verbose_summary:
         for name, f in zip(f_df.columns, np.array(corpus_fs_list).mean(axis=0)):
             print(f'{name:<24} mean={f:>9.2f}')
+        print(f'num words included={len(res)}')
+        print(f'num words excluded={num_excluded}')
+        raise SystemExit
 
     return res
