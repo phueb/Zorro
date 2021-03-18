@@ -4,7 +4,7 @@ from zorro.agreement_in_1_verb_question.shared import copulas_plural, copulas_si
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
-NUM_NOUNS = 1000
+NUM_NOUNS = 100
 
 template1 = 'where {} the {} ?'
 template2 = 'what {} the {} ?'

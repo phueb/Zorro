@@ -88,9 +88,10 @@ def find_counterbalanced_subset(task_words: List[str],
             is_found = bias < configs.Data.frequency_difference_tolerance
 
             if is_found:
-                print('Found subset:')
-                for w in sample:
-                    print(f"{w:<24} {vw2fs[w]}")
+                print('Found counterbalanced task-word subset:')
+                if verbose:
+                    for w in sample:
+                        print(f"{w:<24} {vw2fs[w]}")
                 print(f'Corpus frequencies={total_fs}')
                 print(f'Total bias = {bias :,}')
                 print(f'Total sum  = {total_fs_sum :,}')

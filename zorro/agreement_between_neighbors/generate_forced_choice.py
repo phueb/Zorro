@@ -3,7 +3,7 @@ from zorro.agreement_between_neighbors.shared import task_name, plural, pre_nomi
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
-NUM_NOUNS = 1000
+NUM_NOUNS = 110
 
 template1 = '{} {} must be here .'
 template2 = '{} {} can be here .'

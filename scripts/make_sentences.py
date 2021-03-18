@@ -9,6 +9,7 @@ from zorro.vocab import get_vocab_words
 from zorro import configs
 
 CHECK_IN_VOCAB = True
+SKIP_OPEN_ENDED = True
 SECONDARY_OUT_PATH = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences' or None
 
 vocab_words = get_vocab_words()
@@ -18,6 +19,9 @@ nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read()
 
 # for all task types
 for task_type in ['forced_choice', 'open_ended']:
+
+    if SKIP_OPEN_ENDED and task_type == 'open_ended':
+        continue
 
     # for all tasks with given type
     for path in sorted(Path('../zorro').glob(f'*/generate_{task_type}.py')):
