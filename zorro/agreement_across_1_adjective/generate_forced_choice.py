@@ -4,7 +4,7 @@ from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
 NUM_ADJECTIVES = 50
-NUM_NOUNS = 300
+NUM_NOUNS = 100
 
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'

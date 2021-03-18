@@ -19,7 +19,7 @@ def find_counterbalanced_subset(task_words: List[str],
                                 min_size: int,
                                 max_size: int,
                                 num_tries_per_size: int = 10_000,
-                                verbose: bool = True,
+                                verbose: bool = False,
                                 seed: int = configs.Data.seed,
                                 ):
     """
@@ -33,13 +33,16 @@ def find_counterbalanced_subset(task_words: List[str],
     np.random.seed(seed)
 
     if min_size <= 0:
-        min_size = 20
+        min_size = configs.Data.min_num_task_words_per_slot
     if max_size > len(task_words):
         max_size = len(task_words)
 
     vocab_df = load_vocab_df()
     f_df = vocab_df.filter(regex='^.-frequency', axis=1)
     vw2fs = {w: fs.values for w, fs in f_df.iterrows()}
+
+    cf_df = vocab_df['c-frequency']
+    vw2cf = cf_df.to_dict()
 
     task_words = [w for w in task_words if vw2fs[w].sum() > configs.Data.min_total_f]
 
@@ -48,16 +51,20 @@ def find_counterbalanced_subset(task_words: List[str],
         fs = np.array([vw2fs[w] for w in s])
         return fs.sum(axis=0)
 
-    def score_probability(word: str,
+    def rate_word(word: str,
                           ) -> float:
-        """reward words with small bias and with large total frequency"""
+        """
+        reward words with:
+         - equal corpus frequencies
+         - large c-frequency
+        """
         fs = vw2fs[word]
         reward_equal_fs = 1 / calc_bias(fs)
-        reward_large_f = np.log(fs.sum())
-        return reward_equal_fs * reward_large_f
+        reward_large_cf = np.log(vw2cf[word] + 1)
+        return reward_equal_fs * reward_large_cf
 
     # heuristic search is based on preferentially sampling words with high "probability"
-    probabilities = np.array([score_probability(w) for w in task_words])
+    probabilities = np.array([rate_word(w) for w in task_words])
     probabilities /= probabilities.sum()
 
     if verbose:

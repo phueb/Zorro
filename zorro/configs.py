@@ -19,6 +19,7 @@ class Data:
     vocab_name = 'c-w-n'
     min_total_f = 10  # a task word must occur at least this number of times across all corpora
     frequency_difference_tolerance = 1000
+    min_num_task_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
     control_name_1gram = 'word-frequency control'
     control_names = [control_name_1gram]
