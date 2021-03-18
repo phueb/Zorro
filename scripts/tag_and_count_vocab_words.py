@@ -1,5 +1,8 @@
 """
-make csv file containing information about all words in a vocab file
+make csv file (e.g. vocab_words/c-w-n.csv) that contains words in a tokenizer's configuration file,
+and collect their frequency in corpora of interest (e.g. childes, newsela, wikipedia).
+
+huggingface tokenizers v0.10 configuration file is expected.
 """
 import spacy
 from spacy.tokens import Doc
@@ -8,12 +11,15 @@ from pathlib import Path
 import pandas as pd
 from zorro import configs
 
-
+PATH_TOKENIZER = '/home/ph/BabyBERT/data/tokenizers/c-n-w-8192.json'
+PATH_CORPORA = '/home/ph/BabyBERT/data/corpora'
 DRY_RUN = False
 
-with open(configs.Data.vocab_path) as f:
-    w2id = json.load(f)
-vocab = {w.strip(configs.Data.space_symbol) for w in w2id.keys()}  # stripping reduces vocab
+# get vocab from tokenizer, without space symbol
+with open(PATH_TOKENIZER) as f:
+    tokenizer_data = json.load(f)
+vocab = {w.strip(configs.Data.space_symbol) for w in tokenizer_data['model']['vocab'].keys()}
+
 
 # keep track of which words are excluded - not a candidate for being inserted into test sentences
 nds = (configs.Dirs.external_words / "non-dictionary.txt").open().read().split()
@@ -55,7 +61,7 @@ def init_row(word: str,
 
 nlp = spacy.load('en_core_web_sm')
 
-corpus_paths = [p for p in Path(configs.Data.corpora_path).glob('*.txt')]
+corpus_paths = [p for p in Path(PATH_CORPORA).glob('*.txt')]
 for c in corpus_paths:
     print(c)
 

@@ -34,6 +34,6 @@ def get_frequency(vocab_name: str = configs.Data.vocab_name,
 
 def load_vocab_df(vocab_name: str = configs.Data.vocab_name) -> pd.DataFrame:
     path = configs.Dirs.data / 'vocab_words' / f'{vocab_name}.csv'
-    df = pd.read_csv(path, index_col=0)
+    df = pd.read_csv(path, index_col=0, na_filter=False)
     return df
 

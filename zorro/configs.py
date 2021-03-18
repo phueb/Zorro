@@ -12,8 +12,6 @@ class Dirs:
 
 
 class Data:
-    vocab_path = '/home/ph/BabyBERT/data/tokenizers/c-n-w-8192/vocab.json'  # TODO no longer exists
-    corpora_path = '/home/ph/BabyBERT/data/corpora'
     seed = 4
     mask_symbol = '<mask>'
     unk_symbol = '<unk>'
@@ -28,7 +26,13 @@ class Data:
 class Eval:
     local_runs = True  # use prediction files stored locally in Zorro/runs/
     steps = [-1]  # or [-1] to indicate last available step
-    param_names = None  # [f'param_{i:03}' for i in [12, 16, 13, 15, 14]]
+    param_names = [
+        'fairseq_official_base',
+        'huggingface_official_base',
+        'huggingface_official_reference',
+        'huggingface_custom_reference',
+        'huggingface_custom_best',
+                   ]  # [f'param_{i:03}' for i in [12, 16, 13, 15, 14]]
     raise_error_on_missing_group = True
     conditions = []  # can be empty list
     included_params = {}
