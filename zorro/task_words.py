@@ -1,11 +1,11 @@
-from typing import List, Generator, Tuple
+from typing import List, Generator, Tuple, Optional
 import pandas as pd
 import random
 from itertools import product
-import numpy as np
 
 
 from zorro import configs
+from zorro.counterbalance import find_counterbalanced_subset
 
 
 def get_task_word_combo(task_name: str,
@@ -13,12 +13,11 @@ def get_task_word_combo(task_name: str,
                         seed: int = configs.Data.seed,
                         verbose: bool = False,
                         ) -> Generator[Tuple, None, None]:
-    random.seed(seed)
 
     word_lists = []
     for tag, order, ns in tag_orders_ns:
-        wl = get_task_words(task_name, tag, order)
-        word_lists.append(random.sample(wl, k=ns))
+        wl = get_task_words(task_name, tag, order, ns, seed)
+        word_lists.append(wl)
         if verbose:
             print(f'Randomly selected {ns}/{len(wl)} words with tag ={tag}')
             print(word_lists[-1])
@@ -30,11 +29,8 @@ def get_task_word_combo(task_name: str,
 def get_task_words(task_name: str,
                    tag: str,
                    order: int = 0,
-                   fdt: int = configs.Data.frequency_difference_tolerance,
-                   exclude_novel_words: bool = configs.Data.exclude_novel_words,
-                   verbose_warn: bool = False,
-                   verbose_include: bool = False,
-                   verbose_summary: bool = False,
+                   num_words_in_sample: Optional[int] = None,
+                   seed: int = configs.Data.seed,
                    ) -> List[str]:
 
     # get words with requested tag and order
@@ -42,49 +38,13 @@ def get_task_words(task_name: str,
     bool_ids = task_df[f'{tag}-{order}'].astype(bool).tolist()
     task_words = task_df['word'][bool_ids].tolist()
 
-    from zorro.vocab import load_vocab_df
+    if num_words_in_sample is None:  # return all possible words, useful for scoring
+        return task_words
 
-    vocab_df = load_vocab_df()
-    f_df = vocab_df.filter(regex='^.-frequency', axis=1)
-    vw2fs = {w: fs.values for w, fs in f_df.iterrows()}
-
-    # subsample words which occur roughly equally across corpora
-    res = []
-    corpus_fs_list = []
-    num_excluded = 0
-    for tw in task_words:
-        corpus_fs = vw2fs[tw]
-        mean_f = np.mean(corpus_fs)
-        if all([mean_f - fdt < f < mean_f + fdt for f in corpus_fs]):
-
-            # exclude words that do not occur at least once in each corpus
-            if exclude_novel_words and any([f == 0 for f in corpus_fs]):
-                if verbose_warn:
-                    print(f'WARNING: Excluding "{tw:<20}" because one corpus frequency=0', corpus_fs)
-                    num_excluded += 1
-                continue
-
-            # collect
-            res.append(tw)
-            corpus_fs_list.append(corpus_fs)
-
-            if verbose_include:
-                print(f'Including "{tw:<24}"', corpus_fs)
-
-        elif verbose_warn:
-            print(f'WARNING: Excluding "{tw:<24}" due to very different corpus frequencies.', corpus_fs)
-            num_excluded += 1
-
-    if not res:
-        raise RuntimeError(f'No task words available for {task_name}.'
-                           f' Is frequency_difference_tolerance too small?')
-
-    # check overall bias in corpus frequency
-    if verbose_summary:
-        for name, f in zip(f_df.columns, np.array(corpus_fs_list).mean(axis=0)):
-            print(f'{name:<24} mean={f:>9.2f}')
-        print(f'num words included={len(res)}')
-        print(f'num words excluded={num_excluded}')
-        raise SystemExit
-
+    # find subset of task words such that their total corpus frequencies are approx equal across corpora
+    res = find_counterbalanced_subset(task_words,
+                                      min_size=num_words_in_sample-20,
+                                      max_size=num_words_in_sample+20,
+                                      seed=seed,
+                                      )
     return res
