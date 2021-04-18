@@ -20,7 +20,6 @@ def get_task_word_combo(task_name: str,
         if verbose:
             print(f'Randomly selected {ns}/{len(wl)} words with tag ={tag}')
             print(word_lists[-1])
-
     for combo in product(*word_lists):
         yield combo
 
@@ -42,7 +41,7 @@ def get_task_words(task_name: str,
 
     # find subset of task words such that their total corpus frequencies are approx equal across corpora
     res = find_counterbalanced_subset(task_words,
-                                      min_size=1,  # TODO num_words_in_sample,
+                                      min_size=5,  # TODO num_words_in_sample,
                                       max_size=num_words_in_sample+100,
                                       seed=seed,
                                       )

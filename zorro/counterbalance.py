@@ -11,7 +11,7 @@ def find_counterbalanced_subset(task_words: List[str],
                                 num_tries_per_size: int = 10_000,
                                 verbose: bool = False,
                                 seed: int = configs.Data.seed,
-                                ):
+                                ) -> List[str]:
     """
     find subset of task words from vocab words:
      - that has an acceptable number of words (between min_size and max_size)
@@ -43,9 +43,9 @@ def find_counterbalanced_subset(task_words: List[str],
         max_size = len(task_words)
 
     vocab_df = load_vocab_df()
-    f_df = vocab_df[[f'{corpus_name}-frequency' for corpus_name in corpus_names]]
-    vw2fs = {w: fs.values for w, fs in f_df.iterrows()}
-    print(vw2fs)
+    column_names = [f'{corpus_name}-frequency' for corpus_name in corpus_names]
+    f_df = vocab_df[column_names]
+    vw2fs = {w: np.array([fs[k] for k in column_names]) for w, fs in f_df.iterrows()}
 
     task_words = [w for w in task_words if vw2fs[w].sum() > configs.Data.min_total_f]
 
@@ -57,7 +57,7 @@ def find_counterbalanced_subset(task_words: List[str],
     def calc_bias(fs_: np.array,
                   ) -> int:
         a = fs_[0] + fs_[1]  # aochildes + aonewsela
-        b = fs_[2] - fs_[3]  # wikipedia1 + wikipedia2
+        b = fs_[2] + fs_[3]  # wikipedia1 + wikipedia2
         res = abs(a-b)
 
         return res
@@ -66,12 +66,15 @@ def find_counterbalanced_subset(task_words: List[str],
                   ) -> float:
         """
         reward words with:
-         - relatively equal corpus frequencies
+         - high aochildes frequency
+         - high aonewsela frequency
 
         """
         fs = vw2fs[word]
-        reward_equal_fs = 1 / calc_bias(fs)
-        return reward_equal_fs
+        # term1 = 1 / calc_bias(fs)
+        term1 = np.log10(fs[0] + 1)
+        term2 = np.log10(fs[1] + 1)
+        return term1 * term2
 
     # heuristic search is based on preferentially sampling words with high "rating"
     probabilities = np.array([rate_word(w) for w in task_words])
@@ -87,7 +90,7 @@ def find_counterbalanced_subset(task_words: List[str],
         biases = []
         total_fs_list = []
         for _ in range(num_tries_per_size):
-            sample = np.random.choice(task_words, size=subset_size, replace=False, p=probabilities)
+            sample = np.random.choice(task_words, size=subset_size, replace=False, p=probabilities).tolist()
 
             total_fs = get_total_fs(sample)
             total_fs_sum = total_fs.sum()
@@ -102,9 +105,7 @@ def find_counterbalanced_subset(task_words: List[str],
                 if verbose:
                     for w in sample:
                         print(f"{w:<24} {vw2fs[w]}")
-                print(f'Corpus frequencies={total_fs}')
-                print(f'Total bias = {bias :,}')
-                print(f'Total sum  = {total_fs_sum :,}')
+                print(f'Corpus frequencies={total_fs} Total bias={bias :,} Total sum={total_fs_sum :,} size={subset_size:,}')
                 return sample
 
         if not is_found:

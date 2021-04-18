@@ -42,8 +42,9 @@ for task_type in ['forced_choice', 'open_ended']:
             if not out_path.parent.is_dir():
                 out_path.parent.mkdir(parents=True)
 
+            num_saved_sentences = 0
             with open(out_path, 'w') as f:
-                for n, sentence in enumerate(generate.main()):
+                for sentence in generate.main():
                     # check
                     words_to_check = sentence.split() if CHECK_IN_VOCAB else []
                     for w in words_to_check:
@@ -53,4 +54,9 @@ for task_type in ['forced_choice', 'open_ended']:
                             print(f'WARNING: Not in whole_words or stop words: "{w}"')
                     # write to file
                     f.write(sentence + '\n')
-            print(f'Saved {n:>12,} sentences to {out_path}')
+                    num_saved_sentences += 1
+
+            if not num_saved_sentences:
+                raise RuntimeError('Task did not generate any sentences.'
+                                   'This can occur if plural versions of singular nouns are not in vocab.')
+            print(f'Saved {num_saved_sentences:>12,} sentences to {out_path}')
