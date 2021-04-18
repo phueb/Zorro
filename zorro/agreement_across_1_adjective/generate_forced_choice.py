@@ -1,7 +1,4 @@
 
-from zorro.agreement_across_1_adjective.shared import task_name, plural, pre_nominals_singular, pre_nominals_plural
-from zorro.task_words import get_task_word_combo
-from zorro.vocab import get_vocab_words
 
 NUM_ADJECTIVES = 50
 NUM_NOUNS = 100
@@ -27,6 +24,10 @@ def main():
     "look at this green house ." vs. "look at this green houses ."
     "this green house went there ." vs. "this green houses went there."
     """
+
+    from zorro.agreement_across_1_adjective.shared import task_name, plural, pre_nominals_singular, pre_nominals_plural
+    from zorro.task_words import get_task_word_combo
+    from zorro.vocab import get_vocab_words
 
     noun_plurals = get_vocab_words(tag='NNS')
 

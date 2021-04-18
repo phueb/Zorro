@@ -5,16 +5,6 @@ from zorro import configs
 from zorro.vocab import load_vocab_df
 
 
-def calc_bias(total_fs_: np.array,
-              ) -> int:
-    diff1 = total_fs_[0] - total_fs_[1]
-    diff2 = total_fs_[0] - total_fs_[2]
-    diff3 = total_fs_[1] - total_fs_[2]
-    res = max([abs(diff1), abs(diff2), abs(diff3)])
-
-    return res
-
-
 def find_counterbalanced_subset(task_words: List[str],
                                 min_size: int,
                                 max_size: int,
@@ -23,12 +13,27 @@ def find_counterbalanced_subset(task_words: List[str],
                                 seed: int = configs.Data.seed,
                                 ):
     """
-    find subset of task words that:
-     - has an acceptable number of words (between min_size and max_size)
-     - results in bias (largest word frequency difference between any two corpora) less than some tolerance.
+    find subset of task words from vocab words:
+     - that has an acceptable number of words (between min_size and max_size)
+     - that occur in wikipedia3
+     - the total frequency of which is relatively equal between:
+        a) aochildes + aonewsela
+        b) wikipedia1 + wikipedia2
 
-    a heuristic search is used to find subset
+    we use "bias" to refer to the largest word frequency difference between a) and b).
+
+    a heuristic search is used to find such a subset.
     """
+
+    print(f'Finding counterbalanced task word subset with min={min_size} and max={max_size}')
+
+    corpus_names = [
+        'aochildes',
+        'aonewsela',
+        'wikipedia1',
+        'wikipedia2',
+        'wikipedia3',
+    ]
 
     np.random.seed(seed)
 
@@ -38,11 +43,9 @@ def find_counterbalanced_subset(task_words: List[str],
         max_size = len(task_words)
 
     vocab_df = load_vocab_df()
-    f_df = vocab_df.filter(regex='^.-frequency', axis=1)
+    f_df = vocab_df[[f'{corpus_name}-frequency' for corpus_name in corpus_names]]
     vw2fs = {w: fs.values for w, fs in f_df.iterrows()}
-
-    cf_df = vocab_df['c-frequency']
-    vw2cf = cf_df.to_dict()
+    print(vw2fs)
 
     task_words = [w for w in task_words if vw2fs[w].sum() > configs.Data.min_total_f]
 
@@ -51,19 +54,26 @@ def find_counterbalanced_subset(task_words: List[str],
         fs = np.array([vw2fs[w] for w in s])
         return fs.sum(axis=0)
 
+    def calc_bias(fs_: np.array,
+                  ) -> int:
+        a = fs_[0] + fs_[1]  # aochildes + aonewsela
+        b = fs_[2] - fs_[3]  # wikipedia1 + wikipedia2
+        res = abs(a-b)
+
+        return res
+
     def rate_word(word: str,
-                          ) -> float:
+                  ) -> float:
         """
         reward words with:
-         - equal corpus frequencies
-         - large c-frequency
+         - relatively equal corpus frequencies
+
         """
         fs = vw2fs[word]
         reward_equal_fs = 1 / calc_bias(fs)
-        reward_large_cf = np.log(vw2cf[word] + 1)
-        return reward_equal_fs * reward_large_cf
+        return reward_equal_fs
 
-    # heuristic search is based on preferentially sampling words with high "probability"
+    # heuristic search is based on preferentially sampling words with high "rating"
     probabilities = np.array([rate_word(w) for w in task_words])
     probabilities /= probabilities.sum()
 
@@ -85,7 +95,7 @@ def find_counterbalanced_subset(task_words: List[str],
             biases.append(bias)
             total_fs_list.append(total_fs)
 
-            is_found = bias < configs.Data.frequency_difference_tolerance
+            is_found = bias < configs.Data.bias_tolerance
 
             if is_found:
                 print('Found counterbalanced task-word subset:')

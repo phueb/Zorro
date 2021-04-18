@@ -7,7 +7,7 @@ from sklearn.metrics import cohen_kappa_score
 
 from zorro.vocab import get_vocab_words
 
-WW_NAME = 'c-w-n'
+WW_NAME = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3'
 PATH1 = None
 PATH2 = None
 

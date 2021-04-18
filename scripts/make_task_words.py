@@ -1,5 +1,5 @@
 """
-present word candidates in task sentences for human to judge as good or bad
+present words in task template for human to judge as good or bad
 """
 import importlib
 import pandas as pd
@@ -16,7 +16,7 @@ TASK_NAMES = [
     # 'agreement_in_1_verb_question',
     # 'agreement_in_2_verb_question',
 ]
-WW_NAME = 'c-w-n'
+WW_NAME = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3'
 
 vocab_df = load_vocab_df()
 
