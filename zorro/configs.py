@@ -27,13 +27,22 @@ class Data:
 
 class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
-    steps = [-1]  # or [-1] to indicate last available step
+    steps = [i for i in range(0, 200_000, 20_000)]  # [180_000]  # or [-1] to indicate last available step
     param_names = [f'param_{i:03}' for i in [1, 2]]
     raise_error_on_missing_group = True
-    conditions = []  # can be empty list
+    conditions = ['corpora']  # can be empty list
     included_params = {}
     # included_params = {'corpus_name': 'childes-20201026'}
     # included_params = {'corpus_name': 'newsela'}
     # included_params = {'corpus_name': 'wiki-20191017-hebb-3M_tokenized'}
     max_reps = 10
     num_control_reps = 2
+
+
+class Figs:
+    lw = 1
+    ax_font_size = 14
+    leg_font_size = 8
+    dpi = 163
+    title_font_size = 8
+    tick_font_size = 8
