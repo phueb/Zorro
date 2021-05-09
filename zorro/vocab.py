@@ -32,8 +32,15 @@ def get_frequency(vocab_name: str = configs.Data.vocab_name,
     return res
 
 
-def load_vocab_df(vocab_name: str = configs.Data.vocab_name) -> pd.DataFrame:
+def load_vocab_df(vocab_name: str = configs.Data.vocab_name,
+                  return_excluded_words: bool = False,
+                  ) -> pd.DataFrame:
     path = configs.Dirs.data / 'vocab_words' / f'{vocab_name}.csv'
-    df = pd.read_csv(path, index_col=0, na_filter=False)
-    return df
+    df = pd.read_csv(path, index_col=0, na_filter=False, dtype={'is_excluded': bool})
 
+    if return_excluded_words:
+        res = df
+    else:
+        res = df[df['is_excluded'] == False]
+
+    return res

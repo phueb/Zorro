@@ -30,7 +30,7 @@ class Eval:
     steps = [i for i in range(0, 200_000, 20_000)]  # [180_000]  # or [-1] to indicate last available step
     param_names = [f'param_{i:03}' for i in [1, 2]]
     raise_error_on_missing_group = True
-    conditions = ['corpora']  # can be empty list
+    conditions = ['corpora', 'leave_unmasked_prob_start']  # can be empty list
     included_params = {}
     max_reps = 10
     num_control_reps = 2

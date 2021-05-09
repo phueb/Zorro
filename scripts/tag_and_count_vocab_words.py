@@ -17,7 +17,8 @@ DRY_RUN = False
 # get vocab from tokenizer, without space symbol
 with open(PATH_TOKENIZER) as f:
     tokenizer_data = json.load(f)
-vocab = {w.strip(configs.Data.space_symbol) for w in tokenizer_data['model']['vocab'].keys()}
+vocab = {w for w in tokenizer_data['model']['vocab'].keys()}
+vocab_no_space_symbol = {w.strip(configs.Data.space_symbol) for w in vocab}
 
 # keep track of which words are excluded - not a candidate for being inserted into test sentences
 nds = (configs.Dirs.external_words / "non-dictionary.txt").open().read().split()
@@ -34,7 +35,9 @@ def is_excluded(w: str):
         return True
     if len(w) == 1:
         return True
-    if w.startswith(configs.Data.space_symbol):
+    # word must be whole-word in vocab (must have space_symbol).
+    # e.g. "phones" may not be in vocab, while its singular form is
+    if f'{configs.Data.space_symbol}{w}' not in vocab:
         return True
     return False
 
@@ -94,7 +97,7 @@ for corpus_path, corpus_name in zip(corpus_paths, corpus_names):
 rows = []
 words = []
 num_words_not_in_corpus = 0
-for w in vocab:
+for w in vocab_no_space_symbol:
     if w not in w2row:
         print(f'Did not find "{w:<20}" in corpus. It may be a sub-word')
         w2row[w] = init_row(w, 'n/a', 'n/a', is_excluded_=True)
