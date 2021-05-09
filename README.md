@@ -16,7 +16,7 @@ There are two flavors of each task:
 1. open-ended: model to be evaluated, predicts whatever word, in its vocabulary, replaces `<MASK>` best.
 2. forced-choice: model to be evaluated, must chose between two alternative sentences.
 
-Each task flavor is associated with 2 files, one for generating, and another for scoring predictions.
+Each task type is associated with 2 files, one for generating, and another for scoring predictions.
 
 ## How words were chosen
 
@@ -35,3 +35,16 @@ Words that make up test sentences are all derived from a BPE encoding vocab file
 - manually removed words that were judged to be ungrammatical:
 e.g. for the task `agreement_across_adjectives`, annotators were given the instruction: 
 "Does the word fit the slot in `Look at these _ ?`"
+
+## Usage
+
+To make test sentences for a new vocabulary:
+
+1. get vocab for making task words using `scripts/tag_and_count_vocab_words.py`
+2. make task words using `scripts/make_task_words.py`
+2. make and save test sentences using `scripts/make_sentences.py`
+
+To score predictions made by your models:
+
+1. score forced-choice predictions using `scripts/plot_forced_choice_predictions.py`
+1. score open-ended predictions using `scripts/plot_open_ended_predictions.py`

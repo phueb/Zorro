@@ -41,7 +41,7 @@ def get_task_words(task_name: str,
 
     # find subset of task words such that their total corpus frequencies are approx equal across corpora
     res = find_counterbalanced_subset(task_words,
-                                      min_size=5,  # TODO num_words_in_sample,
+                                      min_size=num_words_in_sample,  # TODO num_words_in_sample,
                                       max_size=num_words_in_sample+100,
                                       seed=seed,
                                       )
