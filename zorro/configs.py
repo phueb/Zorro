@@ -32,9 +32,6 @@ class Eval:
     raise_error_on_missing_group = True
     conditions = ['corpora']  # can be empty list
     included_params = {}
-    # included_params = {'corpus_name': 'childes-20201026'}
-    # included_params = {'corpus_name': 'newsela'}
-    # included_params = {'corpus_name': 'wiki-20191017-hebb-3M_tokenized'}
     max_reps = 10
     num_control_reps = 2
 
