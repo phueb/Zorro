@@ -26,7 +26,7 @@ def get_legend_label(group2predictions_file_paths,
     with path.open('r') as f:
         param2val = yaml.load(f, Loader=yaml.FullLoader)
 
-    reps = len(group2predictions_file_paths[param_name])
+    reps = len([fp for fp in group2predictions_file_paths[param_name] if fp.stem.endswith('_0')])
     step = group2predictions_file_paths[param_name][0].stem.split('_')[-1]
     # add info about conditions
     info = ''
