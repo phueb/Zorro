@@ -16,9 +16,10 @@ class Data:
     mask_symbol = '<mask>'
     unk_symbol = '<unk>'
     space_symbol = 'Ġ'
-    vocab_name = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3'
+    vocab_size = 32768  # 8192
+    vocab_name = f'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{vocab_size}'
     min_total_f = 10  # a task word must occur at least this number of times across all corpora
-    bias_tolerance = 1000
+    bias_tolerance = 1000  # for nouns and adjectives, but not necessarily verbs
     min_num_task_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
     control_name_1gram = 'word-frequency control'

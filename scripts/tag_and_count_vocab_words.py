@@ -10,7 +10,8 @@ from pathlib import Path
 import pandas as pd
 from zorro import configs
 
-PATH_TOKENIZER = '/home/ph/BabyBERTa/data/tokenizers/a-a-w-w-w-8192.json'
+VOCAB_SIZE = 32768
+PATH_TOKENIZER = f'/home/ph/BabyBERTa/data/tokenizers/a-a-w-w-w-{VOCAB_SIZE}.json'
 PATH_CORPORA = '/home/ph/BabyBERTa/data/corpora'
 DRY_RUN = False
 
@@ -48,9 +49,16 @@ def init_row(word: str,
              is_excluded_: bool = False,
              ):
     res = {
+        'NNP': 1 if tag == 'NNP' else 0,
         'NN': 1 if tag == 'NN' else 0,
         'NNS': 1 if tag == 'NNS' else 0,
         'JJ': 1 if tag == 'JJ' else 0,
+        'VB': 1 if sw.tag_ == 'VB' else 0,  # base form of verb
+        'VBD': 1 if sw.tag_ == 'VBD' else 0,  # verb past tense
+        'VBG': 1 if sw.tag_ == 'VBG' else 0,  # verb gerund or present participle
+        'VBN': 1 if sw.tag_ == 'VBN' else 0,  # verb past participle
+        'VBP': 1 if sw.tag_ == 'VBP' else 0,  # verb non-3rd person singular present
+        'VBZ': 1 if sw.tag_ == 'VBZ' else 0,  # verb 3rd person singular present
         'total-frequency': 1 if not is_excluded_ else 0,
         'is_excluded': is_excluded_ or is_excluded(word),
     }
@@ -78,9 +86,16 @@ for corpus_path, corpus_name in zip(corpus_paths, corpus_names):
     for n, sd in enumerate(nlp.pipe(sentences, disable=["parser", "ner"])):
         for sw in sd:
             try:
+                w2row[sw.text]['NNP'] += 1 if sw.tag_ == 'NNP' else 0  # proper noun
                 w2row[sw.text]['NN'] += 1 if sw.tag_ == 'NN' else 0
                 w2row[sw.text]['NNS'] += 1 if sw.tag_ == 'NNS' else 0
                 w2row[sw.text]['JJ'] += 1 if sw.tag_ == 'JJ' else 0
+                w2row[sw.text]['VB'] += 1 if sw.tag_ == 'VB' else 0  # base form of verb
+                w2row[sw.text]['VBD'] += 1 if sw.tag_ == 'VBD' else 0  # verb past tense
+                w2row[sw.text]['VBG'] += 1 if sw.tag_ == 'VBG' else 0  # verb gerund or present participle
+                w2row[sw.text]['VBN'] += 1 if sw.tag_ == 'VBN' else 0  # verb past participle
+                w2row[sw.text]['VBP'] += 1 if sw.tag_ == 'VBP' else 0  # verb non-3rd person singular present
+                w2row[sw.text]['VBZ'] += 1 if sw.tag_ == 'VBZ' else 0  # verb 3rd person singular present
                 w2row[sw.text]['total-frequency'] += 1
                 w2row[sw.text][f'{corpus_name}-frequency'] += 1
             except KeyError:
@@ -116,5 +131,5 @@ if DRY_RUN:
 
 # save to csv
 num_excluded = 0
-out_path = configs.Dirs.data / 'vocab_words' / f'{"-".join(corpus_names)}.csv'
+out_path = configs.Dirs.data / 'vocab_words' / f'{"-".join(corpus_names)}-{VOCAB_SIZE}.csv'
 df.to_csv(out_path, index=True)

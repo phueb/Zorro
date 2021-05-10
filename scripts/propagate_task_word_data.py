@@ -31,3 +31,7 @@ dst5_path = configs.Dirs.task_words / 'agreement_in_2_verb_question.csv'
 dst4_df.to_csv(dst3_path, index=False)
 dst4_df.to_csv(dst4_path, index=False)
 dst4_df.to_csv(dst5_path, index=False)
+
+dst5_df = src_df.copy()
+dst5_path = configs.Dirs.task_words / 'irregular_past_participle_verb_intransitive.csv'
+dst5_df.to_csv(dst5_path, index=False)

@@ -1,6 +1,7 @@
 from typing import List, Generator, Tuple, Optional
 import pandas as pd
 from itertools import product
+import functools
 
 
 from zorro import configs
@@ -14,22 +15,25 @@ def get_task_word_combo(task_name: str,
                         ) -> Generator[Tuple, None, None]:
 
     word_lists = []
-    for tag, order, ns in tag_orders_ns:
-        wl = get_task_words(task_name, tag, order, ns, seed)
+    for tag, order, num_in_sample in tag_orders_ns:
+        wl = get_task_words(task_name, tag, order, num_in_sample, seed)
         word_lists.append(wl)
         if verbose:
-            print(f'Randomly selected {ns}/{len(wl)} words with tag ={tag}')
+            print(f'Randomly selected {num_in_sample}/{len(wl)} words with tag ={tag}')
             print(word_lists[-1])
     for combo in product(*word_lists):
         yield combo
 
 
+@functools.lru_cache(maxsize=12)
 def get_task_words(task_name: str,
                    tag: str,
                    order: int = 0,
                    num_words_in_sample: Optional[int] = None,
                    seed: int = configs.Data.seed,
                    ) -> List[str]:
+
+    print(f'Obtaining task words with tag={tag}...')
 
     # get words with requested tag and order
     task_df = pd.read_csv(configs.Dirs.task_words / f'{task_name}.csv')
@@ -41,7 +45,7 @@ def get_task_words(task_name: str,
 
     # find subset of task words such that their total corpus frequencies are approx equal across corpora
     res = find_counterbalanced_subset(task_words,
-                                      min_size=num_words_in_sample,  # TODO num_words_in_sample,
+                                      min_size=num_words_in_sample,
                                       max_size=num_words_in_sample+100,
                                       seed=seed,
                                       )

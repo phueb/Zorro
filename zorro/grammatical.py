@@ -32,3 +32,10 @@ def check_agreement_between_two_words(
             wrp = wl
 
     return True if (wls and wrs) or (wlp and wrp) else False
+
+
+def check_irregular_past_participle(word: str,
+
+                                    ) -> bool:
+
+    raise NotImplementedError
