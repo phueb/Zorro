@@ -1,55 +1,107 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from typing import List, Optional
+from typing import List, Optional, Dict
+import yaml
+from pathlib import Path
+from matplotlib import rcParams
 
 from zorro import configs
 
+rcParams['axes.spines.right'] = False
+rcParams['axes.spines.top'] = False
 
-def plot_lines(ys: np.array,
-               title: str,
-               x_axis_label: str,
-               y_axis_label: str,
-               x_ticks: List[int],
-               labels: List[str],
-               y_lims: List[float] = (0, 1),
-               baseline_frequency: Optional[float] = None,
-               label_last_x_tick_only: bool = False,
-               ):
 
-    fig, ax = plt.subplots(1, figsize=(6, 4), dpi=163)
-    plt.title(title, fontsize=configs.Figs.title_font_size)
-    ax.set_ylabel(y_axis_label, fontsize=configs.Figs.ax_font_size)
-    ax.set_xlabel(x_axis_label, fontsize=configs.Figs.ax_font_size)
-    ax.spines['right'].set_visible(False)
-    ax.spines['top'].set_visible(False)
-    ax.set_xticks(x_ticks)
-    if label_last_x_tick_only:
-        x_tick_labels = ['' if  n < len(x_ticks) - 1 else i for n, i in enumerate(x_ticks)]
+def get_legend_label(group2predictions_file_paths,
+                     param_name,
+                     ) -> str:
+    if 'baseline' in param_name:
+        return param_name
+
+    if configs.Eval.local_runs:
+        runs_path = configs.Dirs.runs_local
     else:
-        x_tick_labels = x_ticks
-    ax.set_xticklabels(x_tick_labels, fontsize=configs.Figs.tick_font_size)
-    if y_lims:
-        ax.set_ylim(y_lims)
+        runs_path = configs.Dirs.runs_remote
 
-    # plot
-    lines = []  # will have 1 list for each condition
-    for n, y in enumerate(ys):
-        print(x_ticks, y)
-        line, = ax.plot(x_ticks, y, linewidth=2, color=f'C{n}')
-        lines.append([line])
+    path = runs_path / param_name / 'param2val.yaml'
+    with path.open('r') as f:
+        param2val = yaml.load(f, Loader=yaml.FullLoader)
 
-    if baseline_frequency is not None:
-        line, = ax.plot(x_ticks, [baseline_frequency] * len(x_ticks), color='grey', ls='--')
-        lines.append([line])
-        labels.append(f'frequency baseline={baseline_frequency:.2f}')
+    reps = len(group2predictions_file_paths[param_name])
+    step = group2predictions_file_paths[param_name][0].stem.split('_')[-1]
+    # add info about conditions
+    info = ''
+    conditions = configs.Eval.conditions or ['is_official', 'is_reference', 'is_base', 'framework']
+    for c in conditions:
+        try:
+            val = param2val[c]
+        except KeyError:
+            val = 'n/a'
+        if isinstance(val, bool):
+            val = int(val)
+        info += f'{c}={val} '
+
+    res = f'step={step} | n={reps} | {info}'
+    return res
+
+
+def make_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
+                 group2predictions_file_paths: Dict[str, List[Path]],
+                 paradigm: str,
+                 xlabel: str = '',
+                 verbose: bool = False,
+                 ):
+    x = np.arange(1)
+
+    num_axes = len(template2group_name2props)
+    fig, axs = plt.subplots(num_axes, sharex='all', sharey='all',
+                            dpi=configs.Figs.dpi, figsize=(8, 8))
+    if num_axes == 1:
+        # make axes iterable when there is only one axis only
+        axs = [axs]
+
+    for ax, template in zip(axs, template2group_name2props.keys()):
+        group_name2props = template2group_name2props[template]
+        num_models = len(group_name2props)
+        space = 0.1  # between bars belonging to a single production category
+        width = (1 / num_models) - (space / num_models)  # all bars in one category must fit within 1 x-axis unit
+        edges = [width * i for i in range(num_models)]  # distances between x-ticks and bar-center
+        colors = [f'C{i}' for i in range(num_models)]
+
+        ax.set_xticks(x + (width * num_models / 2) - (width / 2))  # set tick exactly at center of a group of bars
+        ax.set_xticklabels([])
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel('Proportion', fontsize=configs.Figs.ax_font_size)
+        ax.set_ylim([0, 1.0])
+        ax.axhline(y=0.5, linestyle=':', color='grey', zorder=3)
+        # ax.yaxis.grid()
+        ax.set_title(f'{paradigm.replace("_", " ")}\n'
+                     f'template={template}',
+                     size=configs.Figs.ax_font_size)
+
+        for edge, color, group_name in zip(edges, colors, group_name2props.keys()):
+            avg = np.mean(group_name2props[group_name], axis=0).round(4)  # take across reps
+            std = np.std(group_name2props[group_name], axis=0).round(4)
+
+            if verbose:
+                print(group_name)
+                print(f'Plotting avg={avg}')
+                print(f'Plotting std={std}')
+                print()
+
+            # plot all bars belonging to a single model group (same color)
+            ax.bar(x + edge,
+                   avg,
+                   width,
+                   yerr=std,
+                   color=color,
+                   zorder=3,
+                   label=get_legend_label(group2predictions_file_paths, group_name))
 
     # legend
-    plt.legend([l[0] for l in lines],
-               labels,
-               loc='upper center',
-               bbox_to_anchor=(0.5, -0.3),
-               ncol=2,
-               frameon=False,
-               fontsize=configs.Figs.leg_font_size)
+    plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.4), loc='upper left', frameon=False)
+
+    # Hide x labels and tick labels for all but bottom plot.
+    for ax in axs:
+        ax.label_outer()
 
     plt.show()

@@ -1,5 +1,5 @@
 
-from zorro.agreement_across_2_adjectives.shared import task_name, pre_nominals_singular, pre_nominals_plural, plural
+from zorro.agreement_across_2_adjectives.shared import paradigm, pre_nominals_singular, pre_nominals_plural, plural
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
@@ -36,7 +36,7 @@ def main():
 
     for pre_nominal in pre_nominals_singular + pre_nominals_plural:
 
-        for adj1, adj2, noun_s in get_task_word_combo(task_name, rules.keys()):
+        for adj1, adj2, noun_s in get_task_word_combo(paradigm, rules.keys()):
             noun_p = plural.plural(noun_s)
             if noun_p not in noun_plurals or noun_p == noun_s:
                 continue

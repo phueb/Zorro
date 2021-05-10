@@ -8,7 +8,7 @@ from zorro import configs
 from zorro.vocab import load_vocab_df
 
 # chose one
-TASK_NAMES = [
+PARADIGMS = [
     'agreement_across_1_adjective',
     # 'agreement_across_2_adjectives',
     # 'agreement_across_PP',
@@ -20,10 +20,10 @@ WW_NAME = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3'
 
 vocab_df = load_vocab_df()
 
-for task_name in TASK_NAMES:
+for paradigm in PARADIGMS:
     # load  task-relevant objects
-    g = importlib.import_module(f'zorro.{task_name}.generate_forced_choice')
-    df_path = configs.Dirs.task_words / f'{task_name}.csv'
+    g = importlib.import_module(f'zorro.{paradigm}.generate_forced_choice')
+    df_path = configs.Dirs.task_words / f'{paradigm}.csv'
     if not df_path.exists():
         task_df = pd.DataFrame(columns=['word'] + [f'{tag}-{order}' for tag, order, _ in g.rules.keys()])
     else:

@@ -1,4 +1,0 @@
-<mask> two three four .
-one <mask> three four .
-one two <mask> four .
-one two three <mask> .

@@ -6,7 +6,7 @@ from zorro.vocab import get_vocab_words
 
 nlp = spacy.load('en_core_web_sm')
 
-task_name = Path(__file__).parent.stem
+paradigm = Path(__file__).parent.stem
 
 
 templates = [
@@ -18,7 +18,79 @@ templates = [
 determiners = ['the', 'this', 'one', 'your']
 
 verbs_base = get_vocab_words(tag='VB')
-# names = get_vocab_words(tag='NNP')  # TODO test
+
+# TODO counter-balance names across corpora
+names = [
+    'mitch',
+    'dora',
+    'goethe',
+    'leonardo',
+    'claude',
+    'birdie',
+    'hitchcock',
+    'hannibal',
+    'aragon',
+    'momma',
+    'edison',
+    'timothy',
+    'curtis',
+    'wittgenstein',
+    'amanda',
+    'phil',
+    'michel',
+    'ivan',
+    'piggy',
+    'owen',
+    'tyler',
+    'marc',
+    'orwell',
+    'theo',
+    'joel',
+    'hercules',
+    'felix',
+    'leslie',
+    'kay',
+    'stevens',
+    'cole',
+    'woody',
+    'hegel',
+    'annie',
+    'maya',
+    'elijah',
+    'jackie',
+    'cinderella',
+    'whitney',
+    'spielberg',
+    'nicolas',
+    'eisenhower',
+    'jeff',
+    'sandy',
+    'bryan',
+    'batman',
+    'mickey',
+    'jane',
+    'dan',
+    'nelson',
+    'victor',
+    'plato',
+    'karl',
+    'leo',
+    'dad',
+    'ed',
+    'napoleon',
+    'harrison',
+    'margaret',
+    'nathaniel',
+    'anthony',
+    'caesar',
+    'brian',
+    'sam',
+    'walter',
+    'ben',
+    'simon',
+    'allen',
+    'donald',
+]
 
 
 vb2vbd_vbn_intransitive = {

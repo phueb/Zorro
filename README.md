@@ -2,21 +2,21 @@
  <img src="images/logo.png" width="250"> 
 </div>
 
-Generate test sentences for evaluating NLP system trained on masked language modeling objective
+Generate test sentences and and evaluate grammatical knowledge of language models.
 
-## Test sentences
+## About
 
-Sentences are created using templates, filled with words from custom, human-curated word lists.
+Inspired by [BLiMP](https://arxiv.org/pdf/1912.00582.pdf),
+ `Zorro` is a Python project for creating minimal pairs that exhibit a variety of grammatical contrasts,
+ for analysing the grammatical knowledge of language models at various stages of training.
 
+Sentences are created using templates, filled with words from custom, human-curated word lists. 
+There are 4 phenomena, each consisting of a set of paradigms:
+1. agreement: noun-verb, demonstrative-noun
+2. irregular forms: intransitive verb, transitive verb
+3. quantifiers: TODO
+4. filler-gap: TODO
 
-## Organization
-
-Each grammatical task (e.g. number agreement across relative clause) is associated with a folder in `babeval`.
-There are two flavors of each task:
-1. open-ended: model to be evaluated, predicts whatever word, in its vocabulary, replaces `<MASK>` best.
-2. forced-choice: model to be evaluated, must chose between two alternative sentences.
-
-Each task type is associated with 2 files, one for generating, and another for scoring predictions.
 
 ## How words were chosen
 
@@ -47,4 +47,3 @@ To make test sentences for a new vocabulary:
 To score predictions made by your models:
 
 1. score forced-choice predictions using `scripts/plot_forced_choice_predictions.py`
-1. score open-ended predictions using `scripts/plot_open_ended_predictions.py`

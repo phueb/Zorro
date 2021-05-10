@@ -11,17 +11,17 @@ def main():
 
     """
 
-    from zorro.irregular_past_participle_verb_intransitive.shared import task_name, verbs_base, determiners
+    from zorro.irregular_past_participle_verb_intransitive.shared import paradigm, verbs_base, determiners
     from zorro.irregular_past_participle_verb_intransitive.shared import vb2vbd_vbn_intransitive as vb2vbd_vbn
     from zorro.task_words import get_task_words
     from zorro.vocab import get_vocab_words
 
     vocab = get_vocab_words()
-    adjectives = get_task_words(task_name, 'JJ', 0, NUM_ADJECTIVES)
+    adjectives = get_task_words(paradigm, 'JJ', 0, NUM_ADJECTIVES)
 
     modifiers = ['just now', 'over there', 'some time ago', 'without us']
 
-    for noun in get_task_words(task_name, 'NN', 0, NUM_NOUNS):
+    for noun in get_task_words(paradigm, 'NN', 0, NUM_NOUNS):
 
         for verb_base in verbs_base:  # these are not counterbalanced across corpora (and probably need not)
 

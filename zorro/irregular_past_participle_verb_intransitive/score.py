@@ -3,9 +3,6 @@ from functools import partial
 
 from zorro.grammatical import check_irregular_past_participle
 from zorro.irregular_past_participle_verb_intransitive.shared import templates
-from zorro.irregular_past_participle_verb_intransitive.shared import nouns_singular
-
-prediction_categories = ('correct', )
 
 
 def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],

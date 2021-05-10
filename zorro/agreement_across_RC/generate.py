@@ -1,5 +1,5 @@
 
-from zorro.agreement_across_RC.shared import task_name, plural, pronouns_3p, pronouns_1p_2p
+from zorro.agreement_across_RC.shared import paradigm, plural, pronouns_3p, pronouns_1p_2p
 from zorro.agreement_across_RC.shared import copulas_plural, copulas_singular
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
@@ -35,7 +35,7 @@ def main():
 
     for copula in copulas_singular + copulas_plural:
 
-        for noun_s, adj in get_task_word_combo(task_name, rules.keys()):
+        for noun_s, adj in get_task_word_combo(paradigm, rules.keys()):
             noun_p = plural.plural(noun_s)
             if noun_p not in noun_plurals or noun_p == noun_s:
                 continue

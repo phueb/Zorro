@@ -1,5 +1,5 @@
 
-from zorro.agreement_between_neighbors.shared import task_name, plural, pre_nominals_plural, pre_nominals_singular
+from zorro.agreement_between_neighbors.shared import paradigm, plural, pre_nominals_plural, pre_nominals_singular
 from zorro.task_words import get_task_word_combo
 from zorro.vocab import get_vocab_words
 
@@ -25,7 +25,7 @@ def main():
 
     for pre_nominal in pre_nominals_plural + pre_nominals_singular:
 
-        for (noun_s,) in get_task_word_combo(task_name, rules.keys()):
+        for (noun_s,) in get_task_word_combo(paradigm, rules.keys()):
             noun_p = plural.plural(noun_s)
             if noun_p not in noun_plurals or noun_p == noun_s:
                 continue

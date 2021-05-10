@@ -1,11 +1,10 @@
-from typing import List, Dict, Tuple
+from typing import List, Tuple, Dict
 from functools import partial
 
-from zorro.agreement_across_2_adjectives.shared import templates, pre_nominals_plural, pre_nominals_singular
-from zorro.agreement_across_2_adjectives.shared import nouns_singular, nouns_plural
 from zorro.grammatical import check_agreement_between_two_words
+from zorro.agreement_across_1_adjective.shared import templates, pre_nominals_plural, pre_nominals_singular
+from zorro.agreement_across_1_adjective.shared import nouns_singular, nouns_plural
 
-prediction_categories = ('correct', )
 
 
 def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],

@@ -2,11 +2,8 @@ from typing import List, Tuple, Dict
 from functools import partial
 
 from zorro.grammatical import check_agreement_between_two_words
-from zorro.agreement_between_neighbors.shared import templates, pre_nominals_plural, pre_nominals_singular
-from zorro.agreement_between_neighbors.shared import nouns_singular, nouns_plural
-
-
-prediction_categories = ('correct', )
+from zorro.agreement_in_1_verb_question.shared import templates, copulas_plural, copulas_singular
+from zorro.agreement_in_1_verb_question.shared import nouns_singular, nouns_plural
 
 
 def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
@@ -16,18 +13,20 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
 
     for pair in pairs:
         s1, s2 = pair
-        if s1[2] == 'must' and s2[2] == 'must':
+        if s1[0] == 'where' and s2[0] == 'where':
             template2pairs.setdefault(templates[0], []).append(pair)
-        elif s1[2] == 'can' and s2[2] == 'can':
+        elif s1[0] == 'what' and s2[0] == 'what':
             template2pairs.setdefault(templates[1], []).append(pair)
+        elif s1[-2] == 'here' and s2[-2] == 'here':
+            template2pairs.setdefault(templates[2], []).append(pair)
         else:
             raise ValueError(f'Failed to categorize {pair} to template.')
     return template2pairs
 
 
 grammar_checker = partial(check_agreement_between_two_words,
-                          pre_nominals_singular,
-                          pre_nominals_plural,
+                          copulas_singular,
+                          copulas_plural,
                           nouns_singular,
                           nouns_plural,
                           )

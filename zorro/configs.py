@@ -16,31 +16,31 @@ class Data:
     mask_symbol = '<mask>'
     unk_symbol = '<unk>'
     space_symbol = 'Ġ'
-    vocab_size = 32768  # 8192
+    vocab_size = 8192
+    # vocab_size = 32768
     vocab_name = f'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{vocab_size}'
     min_total_f = 10  # a task word must occur at least this number of times across all corpora
     bias_tolerance = 1000  # for nouns and adjectives, but not necessarily verbs
     min_num_task_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
-    control_name_1gram = 'word-frequency control'
+    control_name_1gram = 'frequency baseline'
     control_names = [control_name_1gram]
 
 
 class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
-    steps = [i for i in range(0, 200_000, 20_000)]  # [180_000]  # or [-1] to indicate last available step
-    param_names = [f'param_{i:03}' for i in [1, 2]]
+    steps = [i for i in range(0, 200_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in [1, 4]]
     raise_error_on_missing_group = True
-    conditions = ['corpora', 'leave_unmasked_prob_start']  # can be empty list
+    conditions = ['corpora', 'lr']  # can be empty list
     included_params = {}
-    max_reps = 10
     num_control_reps = 2
 
 
 class Figs:
     lw = 1
-    ax_font_size = 14
-    leg_font_size = 8
+    ax_font_size = 12
+    leg_font_size = 10
     dpi = 163
     title_font_size = 8
     tick_font_size = 8

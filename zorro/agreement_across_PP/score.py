@@ -6,7 +6,6 @@ from zorro.agreement_across_PP.shared import templates, copulas_plural, copulas_
 from zorro.agreement_across_PP.shared import nouns_singular, nouns_plural
 
 
-prediction_categories = ('correct', )
 
 
 def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],

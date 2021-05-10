@@ -8,7 +8,7 @@ from zorro import configs
 from zorro.counterbalance import find_counterbalanced_subset
 
 
-def get_task_word_combo(task_name: str,
+def get_task_word_combo(paradigm: str,
                         tag_orders_ns: List[Tuple[str, int, int]],
                         seed: int = configs.Data.seed,
                         verbose: bool = False,
@@ -16,7 +16,7 @@ def get_task_word_combo(task_name: str,
 
     word_lists = []
     for tag, order, num_in_sample in tag_orders_ns:
-        wl = get_task_words(task_name, tag, order, num_in_sample, seed)
+        wl = get_task_words(paradigm, tag, order, num_in_sample, seed)
         word_lists.append(wl)
         if verbose:
             print(f'Randomly selected {num_in_sample}/{len(wl)} words with tag ={tag}')
@@ -26,7 +26,7 @@ def get_task_word_combo(task_name: str,
 
 
 @functools.lru_cache(maxsize=12)
-def get_task_words(task_name: str,
+def get_task_words(paradigm: str,
                    tag: str,
                    order: int = 0,
                    num_words_in_sample: Optional[int] = None,
@@ -36,7 +36,7 @@ def get_task_words(task_name: str,
     print(f'Obtaining task words with tag={tag}...')
 
     # get words with requested tag and order
-    task_df = pd.read_csv(configs.Dirs.task_words / f'{task_name}.csv')
+    task_df = pd.read_csv(configs.Dirs.task_words / f'{paradigm}.csv')
     bool_ids = task_df[f'{tag}-{order}'].astype(bool).tolist()
     task_words = task_df['word'][bool_ids].tolist()
 

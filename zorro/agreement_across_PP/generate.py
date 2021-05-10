@@ -1,6 +1,6 @@
 
 from zorro.task_words import get_task_word_combo
-from zorro.agreement_across_PP.shared import task_name, plural, copulas_singular, copulas_plural
+from zorro.agreement_across_PP.shared import paradigm, plural, copulas_singular, copulas_plural
 from zorro.vocab import get_vocab_words
 
 NUM_NOUNS = 50
@@ -43,7 +43,7 @@ def main():
 
     for copula in copulas_singular + copulas_plural:
 
-        for sub_s, obj_s, adj in get_task_word_combo(task_name, rules.keys()):
+        for sub_s, obj_s, adj in get_task_word_combo(paradigm, rules.keys()):
 
             # counter-balance singular vs plural with subj vs. obj
             sub_p = plural.plural(sub_s)
