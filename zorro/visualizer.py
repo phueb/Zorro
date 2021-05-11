@@ -52,7 +52,7 @@ class Visualizer:
 
         # axis
         ax_id, ax = next(self.axes)
-        ax.set_title(pd.name, fontsize=configs.Figs.ax_font_size)
+        ax.set_title(pd.name, fontsize=configs.Figs.title_font_size)
         if ax_id % self.ax_mat.shape[1] == 0:
             ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
         if ax_id >= self.ax_mat.shape[0] * (self.ax_mat.shape[1] - 1) - 1:

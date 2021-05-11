@@ -23,7 +23,7 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
         elif s1[0] == 'what' and s2[0] == 'what' and s1[2] == 'wrong' and s2[2] == 'wrong':
             template2pairs.setdefault(templates[2], []).append(pair)
         # template 4
-        elif s1[1] == 'the' and s2[1] == 'the' and s1[-2] == 'here' and s2[-2] == 'here':
+        elif s1[1] == 'the' and s2[1] == 'the' and s1[3] == 'not' and s2[3] == 'not':
             template2pairs.setdefault(templates[3], []).append(pair)
         # template 5
         elif s1[1] == 'the' and s2[1] == 'the' and s1[4] == 'it' and s2[4] == 'it':
@@ -31,6 +31,12 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
         # template 6
         elif s1[1] == 'the' and s2[1] == 'the' and s1[4] == 'they' and s2[4] == 'they':
             template2pairs.setdefault(templates[5], []).append(pair)
+        # template 7
+        elif s1[-2] == 'imagined' and s2[-2] == 'imagined':
+            template2pairs.setdefault(templates[6], []).append(pair)
+        # template 8
+        elif s1[-2] == 'idea' and s2[-2] == 'idea':
+            template2pairs.setdefault(templates[7], []).append(pair)
         else:
             raise ValueError(f'Failed to categorize {pair} to template.')
     return template2pairs

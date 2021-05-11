@@ -15,9 +15,11 @@ templates = [
     'where is/are the _ ?',
     'what is/are the _ ?',
     'what is/are wrong with the _ ?',
-    'is/are the _ where here ?',
+    'is/are the _ not _ ?',
     'is/are the _ where it should be ?',
-    'is/are the _ where they should be ? ?',
+    'is/are the _ where they should be ?',
+    'is/are the _ something to play with ?',
+    'is/are the _ a good idea ?',
              ]
 
 nouns_singular = get_task_words(paradigm, 'NN')

@@ -24,37 +24,43 @@ def main():
     modifiers = ['just now', 'over there', 'some time ago', 'without us']
     nouns_s = get_task_words(paradigm, 'NN', 0, NUM_NOUNS)
 
-    num_pairs = 0
+    def gen_sentences():
+        while True:
 
-    while num_pairs < configs.Data.num_pairs_per_paradigm:
+            # random choices
+            noun = random.choice(nouns_s)
+            verb_base = random.choice(verbs_base)  # not counterbalanced across corpora (and probably need not)
+            det = random.choice(determiners)
+            adj = random.choice(adjectives)
+            mod = random.choice(modifiers)
 
-        # random choices
-        noun = random.choice(nouns_s)
-        verb_base = random.choice(verbs_base)  # these are not counterbalanced across corpora (and probably need not)
-        det = random.choice(determiners)
-        adj = random.choice(adjectives)
-        mod = random.choice(modifiers)
+            # get two contrasting irregular inflected forms
+            try:
+                vbd, vbn = vb2vbd_vbn_intransitive[verb_base]  # past, past participle
+            except KeyError:  # verb is not in irregular collection
+                continue
+            if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
+                # print(f'"{verb_base:<22} excluded due to some forms not in vocab')
+                continue
 
-        # get two contrasting irregular inflected forms
-        try:
-            vbd, vbn = vb2vbd_vbn_intransitive[verb_base]  # past, past participle
-        except KeyError:  # verb is not in irregular collection
-            continue
-        if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
-            # print(f'"{verb_base:<22} excluded due to some forms not in vocab')
-            continue
+            # vbd is correct
+            yield template.format(det, adj, noun, vbd, mod)
+            yield template.format(det, adj, noun, vbn, mod)
 
-        # vbd is correct
-        yield template.format(det, adj, noun, vbd, mod)
-        yield template.format(det, adj, noun, vbn, mod)
+            # vbn is correct
+            yield template.format(det, adj, noun, 'had ' + vbd, mod)
+            yield template.format(det, adj, noun, 'had ' + vbn, mod)
 
-        # vbn is correct
-        yield template.format(det, adj, noun, 'had ' + vbd, mod)
-        yield template.format(det, adj, noun, 'had ' + vbn, mod)
-
-        num_pairs += 2
+    # only collect unique sentences
+    sentences = set()
+    gen = gen_sentences()
+    while len(sentences) // 2 < configs.Data.num_pairs_per_paradigm:
+        sentence = next(gen)
+        if sentence not in sentences:
+            yield sentence
+        sentences.add(sentence)
 
 
 if __name__ == '__main__':
     for n, s in enumerate(main()):
-        print(f'{n//2:>12,}', s)
+        print(f'{n//2+1:>12,}', s)

@@ -5,11 +5,15 @@ from typing import List, Dict, Tuple
 from zorro.vocab import get_vocab_words, get_frequency
 from zorro import configs
 
-vocab_words = get_vocab_words()
-freq = get_frequency()
-assert len(freq) == len(vocab_words)
-unigram_probabilities = np.array(freq) / sum(freq)
-w2p = {w: p for w, p in zip(vocab_words, unigram_probabilities)}
+
+# precompute word frequency for baseline models
+vocab_size2w2p = {}
+for vocab_size in [8192, 32768]:
+    vocab_words = get_vocab_words(configs.Data.vocab_name_template.format(vocab_size))
+    freq = get_frequency(configs.Data.vocab_name_template.format(vocab_size))
+    assert len(freq) == len(vocab_words)
+    unigram_probabilities = np.array(freq) / sum(freq)
+    vocab_size2w2p[vocab_size] = {w: p for w, p in zip(vocab_words, unigram_probabilities)}
 
 
 class DataExperimental:
@@ -54,7 +58,7 @@ class DataExperimental:
 
 class DataControl:
     def __init__(self,
-                 control_name: str,
+                 vocab_size: int,
                  paradigm: str,
                  ) -> None:
         """
@@ -64,15 +68,14 @@ class DataControl:
         to produce control condition data.
         """
 
-        # load ordered sentences - the only way to know which sentences are paired (answer: consecutive sentences)
-        path = configs.Dirs.root / 'sentences' / f'{paradigm}.txt'
+        self.vocab_size = vocab_size
+
+        print(f'Loading test sentences with vocab size={vocab_size}')
+        path = configs.Dirs.root / 'sentences' / str(self.vocab_size) / f'{paradigm}.txt'
         sentences_ordered = [s.split() for s in path.open().read().split('\n')]
         self.pairs = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2], sentences_ordered[1::2])]
 
-        if control_name == configs.Data.control_name_1gram:
-            self.s2cross_entropies = self.make_cross_entropies_unigram_distribution_control()
-        else:
-            raise AttributeError('Invalid arg to "control_name".')
+        self.s2cross_entropies = self.make_cross_entropies_unigram_distribution_control()
 
         print(f'Initialized reader for forced-choice control predictions.'
               f'Found {len(self.s2cross_entropies)} lines in file.')
@@ -82,6 +85,8 @@ class DataControl:
         print('Making 1-gram distribution control')
 
         res = {}
+
+        w2p = vocab_size2w2p[self.vocab_size]
 
         nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 

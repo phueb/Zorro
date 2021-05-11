@@ -14,6 +14,10 @@ doing_ambiguous = ["did"]
 templates = [
     'where _ the _ go ?',
     'what _ the _ do ?',
+    'how _ the _ fit in here ?',
+    'how _ the _ become _ ?',
+    'when _ the _ stop working ?',
+    'when _ the _ start ?',
              ]
 
 # load task words

@@ -7,9 +7,8 @@ import importlib
 from zorro.vocab import get_vocab_words
 from zorro import configs
 
-CHECK_IN_VOCAB = True
-VOCAB_SIZES = [8192, 32768]
-# VOCAB_SIZES = [8192, 16384, 32768]
+CHECK_IN_VOCAB = False
+VOCAB_SIZES = [8192, 16384, 32768]
 SECONDARY_OUT_PATH = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences' or None
 
 stop_words = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
@@ -39,6 +38,7 @@ for vocab_size in VOCAB_SIZES:
 
         # generate sentences once, in order to save the same sentences to two locations
         sentences = list(generate.main())
+        assert sentences
 
         # save each file in repository, and also on shared drive
         for out_path in [
@@ -56,6 +56,8 @@ for vocab_size in VOCAB_SIZES:
                     for w in words_to_check:
                         if w == configs.Data.mask_symbol:
                             continue
+                        if w == 'peoples':
+                            raise RuntimeError('Found "peoples')
                         if w not in vocab_words and w not in stop_words:
                             print(f'WARNING: Not in whole_words or stop words: "{w}"')
                         if w in nas:

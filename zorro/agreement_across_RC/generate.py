@@ -38,42 +38,44 @@ def main():
     adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
     nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
 
-    num_pairs = 0
+    def gen_sentences():
+        while True:
 
-    while num_pairs < configs.Data.num_pairs_per_paradigm:
+            noun_s = random.choice(nouns_s)
+            noun_p = plural.plural(noun_s)
+            if noun_p not in noun_plurals or noun_p == noun_s:
+                continue
 
-        # TODO duplicate combinations are not excluded - do not sample with replacement
+            # random choices
+            copula = random.choice(copulas_singular + copulas_plural)
+            adj = random.choice(adjectives)
 
-        noun_s = random.choice(nouns_s)
-        noun_p = plural.plural(noun_s)
-        if noun_p not in noun_plurals or noun_p == noun_s:
-            continue
+            # object-relative
+            for pronoun_1p_2p in pronouns_1p_2p:
+                yield template1a.format(noun_s, pronoun_1p_2p, copula, adj)
+                yield template1a.format(noun_p, pronoun_1p_2p, copula, adj)
+            for pronoun_3p in pronouns_3p:
+                yield template1b.format(noun_s, pronoun_3p, copula, adj)
+                yield template1b.format(noun_p, pronoun_3p, copula, adj)
 
-        # random choices
-        copula = random.choice(copulas_singular + copulas_plural)
-        adj = random.choice(adjectives)
+            # subject-relative
+            if copula in copulas_singular:
+                yield template2a.format(noun_s, copula, adj)
+                yield template2a.format(noun_p, copula, adj)
+            else:
+                yield template2b.format(noun_s, copula, adj)
+                yield template2b.format(noun_p, copula, adj)
 
-        # object-relative
-        for pronoun_1p_2p in pronouns_1p_2p:
-            yield template1a.format(noun_s, pronoun_1p_2p, copula, adj)
-            yield template1a.format(noun_p, pronoun_1p_2p, copula, adj)
-            num_pairs += 1
-        for pronoun_3p in pronouns_3p:
-            yield template1b.format(noun_s, pronoun_3p, copula, adj)
-            yield template1b.format(noun_p, pronoun_3p, copula, adj)
-            num_pairs += 1
-
-        # subject-relative
-        if copula in copulas_singular:
-            yield template2a.format(noun_s, copula, adj)
-            yield template2a.format(noun_p, copula, adj)
-            num_pairs += 1
-        else:
-            yield template2b.format(noun_s, copula, adj)
-            yield template2b.format(noun_p, copula, adj)
-            num_pairs += 1
+    # only collect unique sentences
+    sentences = set()
+    gen = gen_sentences()
+    while len(sentences) // 2 < configs.Data.num_pairs_per_paradigm:
+        sentence = next(gen)
+        if sentence not in sentences:
+            yield sentence
+        sentences.add(sentence)
 
 
 if __name__ == '__main__':
     for n, s in enumerate(main()):
-        print(f'{n//2:>12,}', s)
+        print(f'{n//2+1:>12,}', s)

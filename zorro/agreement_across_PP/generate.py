@@ -46,38 +46,43 @@ def main():
     objects_s = get_task_words(paradigm, tag='NN', order=1)
     adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
 
-    num_pairs = 0
+    def gen_sentences():
 
-    while num_pairs < configs.Data.num_pairs_per_paradigm:
+        while True:
 
-        # TODO duplicate combinations are not excluded - do not sample with replacement
+            # counter-balance singular vs plural with subj vs. obj
+            sub_s = random.choice(objects_s)
+            obj_s = random.choice(subjects_s)
+            sub_p = plural.plural(sub_s)
+            obj_p = plural.plural(obj_s)
+            if sub_p not in noun_plurals or obj_p not in noun_plurals:
+                continue
+            if sub_s == sub_p or obj_s == obj_p:  # exclude nouns with ambiguous number
+                continue
 
-        # counter-balance singular vs plural with subj vs. obj
-        sub_s = random.choice(objects_s)
-        obj_s = random.choice(subjects_s)
-        sub_p = plural.plural(sub_s)
-        obj_p = plural.plural(obj_s)
-        if sub_p not in noun_plurals or obj_p not in noun_plurals:
-            continue
-        if sub_s == sub_p or obj_s == obj_p:  # exclude nouns with ambiguous number
-            continue
+            # random choices
+            template = random.choice([template1, template2])
+            copula = random.choice(copulas_singular + copulas_plural)
+            adj = random.choice(adjectives)
 
-        # random choices
-        template = random.choice([template1, template2])
-        copula = random.choice(copulas_singular + copulas_plural)
-        adj = random.choice(adjectives)
+            # contrast is in number agreement between subject and copula
+            yield template.format(sub_s, obj_s, copula, adj)
+            yield template.format(sub_p, obj_s, copula, adj)
 
-        # contrast is in number agreement between subject and copula
-        yield template.format(sub_s, obj_s, copula, adj)
-        yield template.format(sub_p, obj_s, copula, adj)
+            # same as above, except that object number is opposite
+            yield template.format(sub_s, obj_p, copula, adj)
+            yield template.format(sub_p, obj_p, copula, adj)
 
-        # same as above, except that object number is opposite
-        yield template.format(sub_s, obj_p, copula, adj)
-        yield template.format(sub_p, obj_p, copula, adj)
-
-        num_pairs += 2
+    # only collect unique sentences
+    sentences = set()
+    gen = gen_sentences()
+    while len(sentences) // 2 < configs.Data.num_pairs_per_paradigm:
+        sentence = next(gen)
+        if sentence not in sentences:
+            yield sentence
+        sentences.add(sentence)
 
 
 if __name__ == '__main__':
     for n, s in enumerate(main()):
-        print(f'{n//2:>12,}', s)
+        print(f'{n//2+1:>12,}', s)

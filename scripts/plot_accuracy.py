@@ -15,12 +15,13 @@ SHOW_BAR_PLOTS = False
 # chose one
 PARADIGMS = [
     'agreement_across_1_adjective',
-    # 'agreement_across_2_adjectives',
-    # 'agreement_across_PP',
-    # 'agreement_across_RC',
-    # 'agreement_in_1_verb_question',
+    'agreement_across_2_adjectives',
+    'agreement_across_PP',
+    'agreement_across_RC',
+    'agreement_in_1_verb_question',
     'agreement_in_2_verb_question',
     'agreement_between_neighbors',
+    'irregular_past_participle_verb_intransitive',
 ]
 
 # where to get files from?
@@ -39,7 +40,8 @@ def filter_by_step(prediction_file_path: Path,
     return False
 
 
-v = Visualizer()  # collects and plots each ParadigmData instance in 1 multi-axis figure
+# collects and plots each ParadigmData instance in 1 multi-axis figure
+v = Visualizer(num_rows=3, num_cols=3)
 
 for paradigm in PARADIGMS:
     # load module containing task-relevant objects
@@ -76,7 +78,7 @@ for paradigm in PARADIGMS:
     # init line plot data
     pd = ParadigmData(name=paradigm,
                       group_name2template2curve=defaultdict(dict),
-                      group_names=group_names + [configs.Data.control_name_1gram],
+                      group_names=group_names + configs.Data.control_names,
                       group2prediction_file_paths=group2predictions_file_paths
                       )
 

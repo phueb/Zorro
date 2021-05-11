@@ -44,18 +44,21 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
 
         # read experimental, or generate control data
         if group_name in configs.Data.control_names:
-            data_instances = [DataControl(group_name, paradigm) for _ in range(configs.Eval.num_control_reps)]
+            vocab_size = int(group_name.split()[0])
+            data_instances = [DataControl(vocab_size, paradigm) for _ in range(configs.Eval.num_control_reps)]
         else:
             data_instances = [DataExperimental(fp, paradigm) for fp in group2predictions_file_paths[group_name]]
 
         for row_id, data in enumerate(data_instances):
 
             # organize sentence pairs by template
-            template2pairs = categorize_by_template(data.pairs)
+            if configs.Eval.categorize_by_template:
+                template2pairs = categorize_by_template(data.pairs)
+            else:
+                template2pairs = {'all templates': data.pairs}
 
             for template in templates:
                 print(template)
-                print()
 
                 pairs = template2pairs[template]
                 assert pairs

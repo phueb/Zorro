@@ -11,8 +11,6 @@ paradigm = Path(__file__).parent.stem
 
 templates = [
     'intransitive',
-    'transitive-optional',
-    'transitive',
 ]
 
 determiners = ['the', 'this', 'one', 'your']

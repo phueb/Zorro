@@ -24,7 +24,6 @@ dst3_path = configs.Dirs.task_words / 'agreement_across_PP.csv'
 dst3_df.to_csv(dst3_path, index=False)
 
 dst4_df = src_df.copy()
-del dst4_df['JJ-0']
 dst3_path = configs.Dirs.task_words / 'agreement_between_neighbors.csv'
 dst4_path = configs.Dirs.task_words / 'agreement_in_1_verb_question.csv'
 dst5_path = configs.Dirs.task_words / 'agreement_in_2_verb_question.csv'
