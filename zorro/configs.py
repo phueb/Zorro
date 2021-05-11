@@ -30,7 +30,7 @@ class Data:
 
 class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
-    steps = [0, 60_000, 120_000, 180_000]
+    steps = [0, 20_000, 40_000, 60_000, 80_000, 100_000, 120_000, 140_000, 160_000, 180_000, 200_000]
     param_names = None  # [f'param_{i:03}' for i in [1, 4]]
     raise_error_on_missing_group = True
     conditions = ['corpora', 'tokenizer', 'lr']  # can be empty list

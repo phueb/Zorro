@@ -12,7 +12,7 @@ def get_group2predictions_file_paths(group_names: List[str],
     # find paths to files, for each group
     group2predictions_file_paths = {}
     for group_name in group_names:
-        pattern = '{}/**/saves/{}/probing_{}_results_*.txt'
+        pattern = '{}/**/saves/{}/**/probing_{}_results_*.txt'
         group2predictions_file_paths[group_name] = [p for p in runs_path.rglob(pattern.format(group_name,
                                                                                               'forced_choice',
                                                                                               paradigm))]
@@ -22,7 +22,8 @@ def get_group2predictions_file_paths(group_names: List[str],
     for k, v in group2predictions_file_paths.items():
         if not v:
             if configs.Eval.raise_error_on_missing_group:
-                raise FileNotFoundError(f'Did not find prediction files for group={k}')
+                raise FileNotFoundError(f'Did not find prediction files'
+                                        f' for group={k} and vocab size={configs.Data.vocab_size}')
         else:
             res[k] = v
             print(k)

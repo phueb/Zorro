@@ -31,4 +31,12 @@ def get_task_words(paradigm: str,
                                       max_size=num_words_in_sample+100,
                                       seed=seed,
                                       )
+
+    # exclude accidental plural nouns
+    if tag == 'NN':
+        try:
+            res.remove('people')
+        except ValueError:
+            pass
+
     return res

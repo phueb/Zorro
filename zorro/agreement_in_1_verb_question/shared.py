@@ -14,7 +14,10 @@ copulas_plural = ["are", "were"]
 templates = [
     'where is/are the _ ?',
     'what is/are the _ ?',
-    'is/are the _ here ?',
+    'what is/are wrong with the _ ?',
+    'is/are the _ where here ?',
+    'is/are the _ where it should be ?',
+    'is/are the _ where they should be ? ?',
              ]
 
 nouns_singular = get_task_words(paradigm, 'NN')

@@ -6,6 +6,8 @@ NUM_NOUNS = 90
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'
 template3 = '{} {} {} were here .'
+template4 = 'i saw {} {} {} .'
+
 
 rules = {
     ('JJ', 0, NUM_ADJECTIVES): [
@@ -57,7 +59,10 @@ def main():
         yield template3.format(pre_nominal, adj, noun_s)
         yield template3.format(pre_nominal, adj, noun_p)
 
-        num_pairs += 3  # TODO incrementing by odd num pairs will never result in exactly 1K num pairs
+        yield template4.format(pre_nominal, adj, noun_s)
+        yield template4.format(pre_nominal, adj, noun_p)
+
+        num_pairs += 4  # incrementing by odd num pairs will never result in exactly 1K num pairs
 
 
 if __name__ == '__main__':

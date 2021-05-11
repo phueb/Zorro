@@ -14,11 +14,11 @@ SHOW_BAR_PLOTS = False
 
 # chose one
 PARADIGMS = [
-    # 'agreement_across_1_adjective',
+    'agreement_across_1_adjective',
     # 'agreement_across_2_adjectives',
     # 'agreement_across_PP',
     # 'agreement_across_RC',
-    'agreement_in_1_verb_question',
+    # 'agreement_in_1_verb_question',
     'agreement_in_2_verb_question',
     'agreement_between_neighbors',
 ]
@@ -63,6 +63,8 @@ for paradigm in PARADIGMS:
                     group_names.append(group_name)
     else:
         group_names = group_names_
+
+    print(f'Found params={group_names}')
 
     # load prediction files at all available steps
     print('Loading model prediction files...')

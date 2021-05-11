@@ -20,9 +20,11 @@ WW_NAME = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3'
 
 vocab_df = load_vocab_df()
 
+nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
+
 for paradigm in PARADIGMS:
     # load  task-relevant objects
-    g = importlib.import_module(f'zorro.{paradigm}.generate_forced_choice')
+    g = importlib.import_module(f'zorro.{paradigm}.generate')
     df_path = configs.Dirs.task_words / f'{paradigm}.csv'
     if not df_path.exists():
         task_df = pd.DataFrame(columns=['word'] + [f'{tag}-{order}' for tag, order, _ in g.rules.keys()])
@@ -42,6 +44,9 @@ for paradigm in PARADIGMS:
 
             # consult spacy tag if whole word can NOT be used in this slot
             if vw_series[tag] == 0:
+                row[f'{tag}-{order}'] = 0
+
+            elif vw in nas:
                 row[f'{tag}-{order}'] = 0
 
             # ask user if whole word can be used in this slot

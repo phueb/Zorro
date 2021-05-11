@@ -18,6 +18,10 @@ nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read()
 # for all vocab sizes
 for vocab_size in VOCAB_SIZES:
 
+    print('**********************************************')
+    print(f'Making test sentences with vocab size={vocab_size}')
+    print('**********************************************')
+
     configs.Data.vocab_size = vocab_size
     vocab_words = get_vocab_words()
 
@@ -33,6 +37,9 @@ for vocab_size in VOCAB_SIZES:
             print(f'Skipping {paradigm}')
             continue
 
+        # generate sentences once, in order to save the same sentences to two locations
+        sentences = list(generate.main())
+
         # save each file in repository, and also on shared drive
         for out_path in [
             Path("../sentences") / str(vocab_size) / f'{paradigm}.txt',
@@ -43,7 +50,7 @@ for vocab_size in VOCAB_SIZES:
 
             num_saved_sentences = 0
             with open(out_path, 'w') as f:
-                for sentence in generate.main():
+                for sentence in sentences:
                     # check
                     words_to_check = sentence.split() if CHECK_IN_VOCAB else []
                     for w in words_to_check:

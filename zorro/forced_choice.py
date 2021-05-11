@@ -1,7 +1,5 @@
 from typing import List, Tuple, Dict, Callable
 
-from zorro import configs
-
 
 def count_correct_choices(pairs: List[Tuple[List[str], List[str]]],
                           grammatical_scores: List[Tuple[bool, bool]],
@@ -46,6 +44,7 @@ def count_correct_choices(pairs: List[Tuple[List[str], List[str]]],
     num_expected_scores = len(pairs)
 
     if num_scored != num_expected_scores:
+        print(f'Scored {res} correct and {num_false} false and skipped {num_skipped}')
         raise RuntimeError(f'Expected {num_expected_scores:,} but got {num_scored:,} scores')
 
     print(f'correct={res:>9,}')
@@ -64,6 +63,7 @@ def check_pairs_for_grammar(pairs: List[Tuple[List[str], List[str]]],
     res = []
 
     for s1, s2 in pairs:
+
         is_grammatical1 = grammar_checker(s1)
         is_grammatical2 = grammar_checker(s2)
 

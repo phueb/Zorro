@@ -1,463 +1,73 @@
-where were the study ?
-where were the studies ?
-what were the study ?
-what were the studies ?
-what were wrong with the study ?
-what were wrong with the studies ?
-were the study here ?
-were the studies here ?
-were the study where they should be ?
-were the studies where they should be ?
-where was the animal ?
-where was the animals ?
-what was the animal ?
-what was the animals ?
-what was wrong with the animal ?
-what was wrong with the animals ?
-was the animal here ?
-was the animals here ?
-was the animal where it should be ?
-was the animals where it should be ?
-where was the launch ?
-where was the launches ?
-what was the launch ?
-what was the launches ?
-what was wrong with the launch ?
-what was wrong with the launches ?
-was the launch here ?
-was the launches here ?
-was the launch where it should be ?
-was the launches where it should be ?
-where is the paper ?
-where is the papers ?
-what is the paper ?
-what is the papers ?
-what is wrong with the paper ?
-what is wrong with the papers ?
-is the paper here ?
-is the papers here ?
-is the paper where it should be ?
-is the papers where it should be ?
-where are the car ?
-where are the cars ?
-what are the car ?
-what are the cars ?
-what are wrong with the car ?
-what are wrong with the cars ?
-are the car here ?
-are the cars here ?
-are the car where they should be ?
-are the cars where they should be ?
-where was the water ?
-where was the waters ?
-what was the water ?
-what was the waters ?
-what was wrong with the water ?
-what was wrong with the waters ?
-was the water here ?
-was the waters here ?
-was the water where it should be ?
-was the waters where it should be ?
-where were the town ?
-where were the towns ?
-what were the town ?
-what were the towns ?
-what were wrong with the town ?
-what were wrong with the towns ?
-were the town here ?
-were the towns here ?
-were the town where they should be ?
-were the towns where they should be ?
-where were the mouth ?
-where were the mouths ?
-what were the mouth ?
-what were the mouths ?
-what were wrong with the mouth ?
-what were wrong with the mouths ?
-were the mouth here ?
-were the mouths here ?
-were the mouth where they should be ?
-were the mouths where they should be ?
-where were the lake ?
-where were the lakes ?
-what were the lake ?
-what were the lakes ?
-what were wrong with the lake ?
-what were wrong with the lakes ?
-were the lake here ?
-were the lakes here ?
-were the lake where they should be ?
-were the lakes where they should be ?
-where are the skin ?
-where are the skins ?
-what are the skin ?
-what are the skins ?
-what are wrong with the skin ?
-what are wrong with the skins ?
-are the skin here ?
-are the skins here ?
-are the skin where they should be ?
-are the skins where they should be ?
-where is the exercise ?
-where is the exercises ?
-what is the exercise ?
-what is the exercises ?
-what is wrong with the exercise ?
-what is wrong with the exercises ?
-is the exercise here ?
-is the exercises here ?
-is the exercise where it should be ?
-is the exercises where it should be ?
-where were the fire ?
-where were the fires ?
-what were the fire ?
-what were the fires ?
-what were wrong with the fire ?
-what were wrong with the fires ?
-were the fire here ?
-were the fires here ?
-were the fire where they should be ?
-were the fires where they should be ?
-where were the appeal ?
-where were the appeals ?
-what were the appeal ?
-what were the appeals ?
-what were wrong with the appeal ?
-what were wrong with the appeals ?
-were the appeal here ?
-were the appeals here ?
-were the appeal where they should be ?
-were the appeals where they should be ?
-where are the food ?
-where are the foods ?
-what are the food ?
-what are the foods ?
-what are wrong with the food ?
-what are wrong with the foods ?
-are the food here ?
-are the foods here ?
-are the food where they should be ?
-are the foods where they should be ?
-where are the walk ?
-where are the walks ?
-what are the walk ?
-what are the walks ?
-what are wrong with the walk ?
-what are wrong with the walks ?
-are the walk here ?
-are the walks here ?
-are the walk where they should be ?
-are the walks where they should be ?
-where was the pope ?
-where was the popes ?
-what was the pope ?
-what was the popes ?
-what was wrong with the pope ?
-what was wrong with the popes ?
-was the pope here ?
-was the popes here ?
-was the pope where it should be ?
-was the popes where it should be ?
-where were the dress ?
-where were the dresses ?
-what were the dress ?
-what were the dresses ?
-what were wrong with the dress ?
-what were wrong with the dresses ?
-were the dress here ?
-were the dresses here ?
-were the dress where they should be ?
-were the dresses where they should be ?
-where were the writing ?
-where were the writings ?
-what were the writing ?
-what were the writings ?
-what were wrong with the writing ?
-what were wrong with the writings ?
-were the writing here ?
-were the writings here ?
-were the writing where they should be ?
-were the writings where they should be ?
-where were the people ?
-where were the peoples ?
-what were the people ?
-what were the peoples ?
-what were wrong with the people ?
-what were wrong with the peoples ?
-were the people here ?
-were the peoples here ?
-were the people where they should be ?
-were the peoples where they should be ?
-where was the reason ?
-where was the reasons ?
-what was the reason ?
-what was the reasons ?
-what was wrong with the reason ?
-what was wrong with the reasons ?
-was the reason here ?
-was the reasons here ?
-was the reason where it should be ?
-was the reasons where it should be ?
-where were the walk ?
-where were the walks ?
-what were the walk ?
-what were the walks ?
-what were wrong with the walk ?
-what were wrong with the walks ?
-were the walk here ?
-were the walks here ?
-were the walk where they should be ?
-were the walks where they should be ?
-where were the strike ?
-where were the strikes ?
-what were the strike ?
-what were the strikes ?
-what were wrong with the strike ?
-what were wrong with the strikes ?
-were the strike here ?
-were the strikes here ?
-were the strike where they should be ?
-were the strikes where they should be ?
-where are the man ?
-where are the men ?
-what are the man ?
-what are the men ?
-what are wrong with the man ?
-what are wrong with the men ?
-are the man here ?
-are the men here ?
-are the man where they should be ?
-are the men where they should be ?
-where is the mode ?
-where is the modes ?
-what is the mode ?
-what is the modes ?
-what is wrong with the mode ?
-what is wrong with the modes ?
-is the mode here ?
-is the modes here ?
-is the mode where it should be ?
-is the modes where it should be ?
-where was the guitar ?
-where was the guitars ?
-what was the guitar ?
-what was the guitars ?
-what was wrong with the guitar ?
-what was wrong with the guitars ?
-was the guitar here ?
-was the guitars here ?
-was the guitar where it should be ?
-was the guitars where it should be ?
-where were the way ?
-where were the ways ?
-what were the way ?
-what were the ways ?
-what were wrong with the way ?
-what were wrong with the ways ?
-were the way here ?
-were the ways here ?
-were the way where they should be ?
-were the ways where they should be ?
-where are the change ?
-where are the changes ?
-what are the change ?
-what are the changes ?
-what are wrong with the change ?
-what are wrong with the changes ?
-are the change here ?
-are the changes here ?
-are the change where they should be ?
-are the changes where they should be ?
-where were the program ?
-where were the programs ?
-what were the program ?
-what were the programs ?
-what were wrong with the program ?
-what were wrong with the programs ?
-were the program here ?
-were the programs here ?
-were the program where they should be ?
-were the programs where they should be ?
-where was the water ?
-where was the waters ?
-what was the water ?
-what was the waters ?
-what was wrong with the water ?
-what was wrong with the waters ?
-was the water here ?
-was the waters here ?
-was the water where it should be ?
-was the waters where it should be ?
-where were the program ?
-where were the programs ?
-what were the program ?
-what were the programs ?
-what were wrong with the program ?
-what were wrong with the programs ?
-were the program here ?
-were the programs here ?
-were the program where they should be ?
-were the programs where they should be ?
-where is the town ?
-where is the towns ?
-what is the town ?
-what is the towns ?
-what is wrong with the town ?
-what is wrong with the towns ?
-is the town here ?
-is the towns here ?
-is the town where it should be ?
-is the towns where it should be ?
-where are the animal ?
-where are the animals ?
-what are the animal ?
-what are the animals ?
-what are wrong with the animal ?
-what are wrong with the animals ?
-are the animal here ?
-are the animals here ?
-are the animal where they should be ?
-are the animals where they should be ?
-where was the appeal ?
-where was the appeals ?
-what was the appeal ?
-what was the appeals ?
-what was wrong with the appeal ?
-what was wrong with the appeals ?
-was the appeal here ?
-was the appeals here ?
-was the appeal where it should be ?
-was the appeals where it should be ?
-where was the box ?
-where was the boxes ?
-what was the box ?
-what was the boxes ?
-what was wrong with the box ?
-what was wrong with the boxes ?
-was the box here ?
-was the boxes here ?
-was the box where it should be ?
-was the boxes where it should be ?
-where was the hope ?
-where was the hopes ?
-what was the hope ?
-what was the hopes ?
-what was wrong with the hope ?
-what was wrong with the hopes ?
-was the hope here ?
-was the hopes here ?
-was the hope where it should be ?
-was the hopes where it should be ?
-where are the teacher ?
-where are the teachers ?
-what are the teacher ?
-what are the teachers ?
-what are wrong with the teacher ?
-what are wrong with the teachers ?
-are the teacher here ?
-are the teachers here ?
-are the teacher where they should be ?
-are the teachers where they should be ?
-where were the question ?
-where were the questions ?
-what were the question ?
-what were the questions ?
-what were wrong with the question ?
-what were wrong with the questions ?
-were the question here ?
-were the questions here ?
-were the question where they should be ?
-were the questions where they should be ?
-where were the fort ?
-where were the forts ?
-what were the fort ?
-what were the forts ?
-what were wrong with the fort ?
-what were wrong with the forts ?
-were the fort here ?
-were the forts here ?
-were the fort where they should be ?
-were the forts where they should be ?
-where is the change ?
-where is the changes ?
-what is the change ?
-what is the changes ?
-what is wrong with the change ?
-what is wrong with the changes ?
-is the change here ?
-is the changes here ?
-is the change where it should be ?
-is the changes where it should be ?
-where are the water ?
-where are the waters ?
-what are the water ?
-what are the waters ?
-what are wrong with the water ?
-what are wrong with the waters ?
-are the water here ?
-are the waters here ?
-are the water where they should be ?
-are the waters where they should be ?
-where was the fleet ?
-where was the fleets ?
-what was the fleet ?
-what was the fleets ?
-what was wrong with the fleet ?
-what was wrong with the fleets ?
-was the fleet here ?
-was the fleets here ?
-was the fleet where it should be ?
-was the fleets where it should be ?
-where is the forest ?
-where is the forests ?
-what is the forest ?
-what is the forests ?
-what is wrong with the forest ?
-what is wrong with the forests ?
-is the forest here ?
-is the forests here ?
-is the forest where it should be ?
-is the forests where it should be ?
-where are the morning ?
-where are the mornings ?
-what are the morning ?
-what are the mornings ?
-what are wrong with the morning ?
-what are wrong with the mornings ?
-are the morning here ?
-are the mornings here ?
-are the morning where they should be ?
-are the mornings where they should be ?
-where are the device ?
-where are the devices ?
-what are the device ?
-what are the devices ?
-what are wrong with the device ?
-what are wrong with the devices ?
-are the device here ?
-are the devices here ?
-are the device where they should be ?
-are the devices where they should be ?
-where is the window ?
-where is the windows ?
-what is the window ?
-what is the windows ?
-what is wrong with the window ?
-what is wrong with the windows ?
-is the window here ?
-is the windows here ?
-is the window where it should be ?
-is the windows where it should be ?
-where are the job ?
-where are the jobs ?
-what are the job ?
-what are the jobs ?
-what are wrong with the job ?
-what are wrong with the jobs ?
-are the job here ?
-are the jobs here ?
-are the job where they should be ?
-are the jobs where they should be ?
+where is the sky ?
+where is the skies ?
+what is the sky ?
+what is the skies ?
+what is wrong with the sky ?
+what is wrong with the skies ?
+is the sky here ?
+is the skies here ?
+is the sky where it should be ?
+is the skies where it should be ?
+where are the beach ?
+where are the beaches ?
+what are the beach ?
+what are the beaches ?
+what are wrong with the beach ?
+what are wrong with the beaches ?
+are the beach here ?
+are the beaches here ?
+are the beach where they should be ?
+are the beaches where they should be ?
+where were the kind ?
+where were the kinds ?
+what were the kind ?
+what were the kinds ?
+what were wrong with the kind ?
+what were wrong with the kinds ?
+were the kind here ?
+were the kinds here ?
+were the kind where they should be ?
+were the kinds where they should be ?
+where are the school ?
+where are the schools ?
+what are the school ?
+what are the schools ?
+what are wrong with the school ?
+what are wrong with the schools ?
+are the school here ?
+are the schools here ?
+are the school where they should be ?
+are the schools where they should be ?
+where is the art ?
+where is the arts ?
+what is the art ?
+what is the arts ?
+what is wrong with the art ?
+what is wrong with the arts ?
+is the art here ?
+is the arts here ?
+is the art where it should be ?
+is the arts where it should be ?
+where was the press ?
+where was the presses ?
+what was the press ?
+what was the presses ?
+what was wrong with the press ?
+what was wrong with the presses ?
+was the press here ?
+was the presses here ?
+was the press where it should be ?
+was the presses where it should be ?
+where were the strip ?
+where were the strips ?
+what were the strip ?
+what were the strips ?
+what were wrong with the strip ?
+what were wrong with the strips ?
+were the strip here ?
+were the strips here ?
+were the strip where they should be ?
+were the strips where they should be ?
 where was the bell ?
 where was the bells ?
 what was the bell ?
@@ -468,656 +78,256 @@ was the bell here ?
 was the bells here ?
 was the bell where it should be ?
 was the bells where it should be ?
-where was the job ?
-where was the jobs ?
-what was the job ?
-what was the jobs ?
-what was wrong with the job ?
-what was wrong with the jobs ?
-was the job here ?
-was the jobs here ?
-was the job where it should be ?
-was the jobs where it should be ?
-where is the water ?
-where is the waters ?
-what is the water ?
-what is the waters ?
-what is wrong with the water ?
-what is wrong with the waters ?
-is the water here ?
-is the waters here ?
-is the water where it should be ?
-is the waters where it should be ?
-where is the pope ?
-where is the popes ?
-what is the pope ?
-what is the popes ?
-what is wrong with the pope ?
-what is wrong with the popes ?
-is the pope here ?
-is the popes here ?
-is the pope where it should be ?
-is the popes where it should be ?
-where was the water ?
-where was the waters ?
-what was the water ?
-what was the waters ?
-what was wrong with the water ?
-what was wrong with the waters ?
-was the water here ?
-was the waters here ?
-was the water where it should be ?
-was the waters where it should be ?
-where were the walk ?
-where were the walks ?
-what were the walk ?
-what were the walks ?
-what were wrong with the walk ?
-what were wrong with the walks ?
-were the walk here ?
-were the walks here ?
-were the walk where they should be ?
-were the walks where they should be ?
-where are the ability ?
-where are the abilities ?
-what are the ability ?
-what are the abilities ?
-what are wrong with the ability ?
-what are wrong with the abilities ?
-are the ability here ?
-are the abilities here ?
-are the ability where they should be ?
-are the abilities where they should be ?
-where are the solution ?
-where are the solutions ?
-what are the solution ?
-what are the solutions ?
-what are wrong with the solution ?
-what are wrong with the solutions ?
-are the solution here ?
-are the solutions here ?
-are the solution where they should be ?
-are the solutions where they should be ?
-where is the book ?
-where is the books ?
-what is the book ?
-what is the books ?
-what is wrong with the book ?
-what is wrong with the books ?
-is the book here ?
-is the books here ?
-is the book where it should be ?
-is the books where it should be ?
-where is the mother ?
-where is the mothers ?
-what is the mother ?
-what is the mothers ?
-what is wrong with the mother ?
-what is wrong with the mothers ?
-is the mother here ?
-is the mothers here ?
-is the mother where it should be ?
-is the mothers where it should be ?
-where were the mouth ?
-where were the mouths ?
-what were the mouth ?
-what were the mouths ?
-what were wrong with the mouth ?
-what were wrong with the mouths ?
-were the mouth here ?
-were the mouths here ?
-were the mouth where they should be ?
-were the mouths where they should be ?
-where is the solution ?
-where is the solutions ?
-what is the solution ?
-what is the solutions ?
-what is wrong with the solution ?
-what is wrong with the solutions ?
-is the solution here ?
-is the solutions here ?
-is the solution where it should be ?
-is the solutions where it should be ?
-where is the flag ?
-where is the flags ?
-what is the flag ?
-what is the flags ?
-what is wrong with the flag ?
-what is wrong with the flags ?
-is the flag here ?
-is the flags here ?
-is the flag where it should be ?
-is the flags where it should be ?
-where was the wolf ?
-where was the wolves ?
-what was the wolf ?
-what was the wolves ?
-what was wrong with the wolf ?
-what was wrong with the wolves ?
-was the wolf here ?
-was the wolves here ?
-was the wolf where it should be ?
-was the wolves where it should be ?
-where were the town ?
-where were the towns ?
-what were the town ?
-what were the towns ?
-what were wrong with the town ?
-what were wrong with the towns ?
-were the town here ?
-were the towns here ?
-were the town where they should be ?
-were the towns where they should be ?
-where is the fleet ?
-where is the fleets ?
-what is the fleet ?
-what is the fleets ?
-what is wrong with the fleet ?
-what is wrong with the fleets ?
-is the fleet here ?
-is the fleets here ?
-is the fleet where it should be ?
-is the fleets where it should be ?
-where was the woman ?
-where was the women ?
-what was the woman ?
-what was the women ?
-what was wrong with the woman ?
-what was wrong with the women ?
-was the woman here ?
-was the women here ?
-was the woman where it should be ?
-was the women where it should be ?
-where were the water ?
-where were the waters ?
-what were the water ?
-what were the waters ?
-what were wrong with the water ?
-what were wrong with the waters ?
-were the water here ?
-were the waters here ?
-were the water where they should be ?
-were the waters where they should be ?
-where is the hope ?
-where is the hopes ?
-what is the hope ?
-what is the hopes ?
-what is wrong with the hope ?
-what is wrong with the hopes ?
-is the hope here ?
-is the hopes here ?
-is the hope where it should be ?
-is the hopes where it should be ?
-where were the paper ?
-where were the papers ?
-what were the paper ?
-what were the papers ?
-what were wrong with the paper ?
-what were wrong with the papers ?
-were the paper here ?
-were the papers here ?
-were the paper where they should be ?
-were the papers where they should be ?
-where is the storm ?
-where is the storms ?
-what is the storm ?
-what is the storms ?
-what is wrong with the storm ?
-what is wrong with the storms ?
-is the storm here ?
-is the storms here ?
-is the storm where it should be ?
-is the storms where it should be ?
-where is the individual ?
-where is the individuals ?
-what is the individual ?
-what is the individuals ?
-what is wrong with the individual ?
-what is wrong with the individuals ?
-is the individual here ?
-is the individuals here ?
-is the individual where it should be ?
-is the individuals where it should be ?
-where was the mother ?
-where was the mothers ?
-what was the mother ?
-what was the mothers ?
-what was wrong with the mother ?
-what was wrong with the mothers ?
-was the mother here ?
-was the mothers here ?
-was the mother where it should be ?
-was the mothers where it should be ?
-where are the channel ?
-where are the channels ?
-what are the channel ?
-what are the channels ?
-what are wrong with the channel ?
-what are wrong with the channels ?
-are the channel here ?
-are the channels here ?
-are the channel where they should be ?
-are the channels where they should be ?
-where were the love ?
-where were the loves ?
-what were the love ?
-what were the loves ?
-what were wrong with the love ?
-what were wrong with the loves ?
-were the love here ?
-were the loves here ?
-were the love where they should be ?
-were the loves where they should be ?
-where is the throw ?
-where is the throws ?
-what is the throw ?
-what is the throws ?
-what is wrong with the throw ?
-what is wrong with the throws ?
-is the throw here ?
-is the throws here ?
-is the throw where it should be ?
-is the throws where it should be ?
-where were the walk ?
-where were the walks ?
-what were the walk ?
-what were the walks ?
-what were wrong with the walk ?
-what were wrong with the walks ?
-were the walk here ?
-were the walks here ?
-were the walk where they should be ?
-were the walks where they should be ?
-where was the solution ?
-where was the solutions ?
-what was the solution ?
-what was the solutions ?
-what was wrong with the solution ?
-what was wrong with the solutions ?
-was the solution here ?
-was the solutions here ?
-was the solution where it should be ?
-was the solutions where it should be ?
-where was the fort ?
-where was the forts ?
-what was the fort ?
-what was the forts ?
-what was wrong with the fort ?
-what was wrong with the forts ?
-was the fort here ?
-was the forts here ?
-was the fort where it should be ?
-was the forts where it should be ?
-where are the fort ?
-where are the forts ?
-what are the fort ?
-what are the forts ?
-what are wrong with the fort ?
-what are wrong with the forts ?
-are the fort here ?
-are the forts here ?
-are the fort where they should be ?
-are the forts where they should be ?
-where were the fire ?
-where were the fires ?
-what were the fire ?
-what were the fires ?
-what were wrong with the fire ?
-what were wrong with the fires ?
-were the fire here ?
-were the fires here ?
-were the fire where they should be ?
-were the fires where they should be ?
-where are the program ?
-where are the programs ?
-what are the program ?
-what are the programs ?
-what are wrong with the program ?
-what are wrong with the programs ?
-are the program here ?
-are the programs here ?
-are the program where they should be ?
-are the programs where they should be ?
-where is the throw ?
-where is the throws ?
-what is the throw ?
-what is the throws ?
-what is wrong with the throw ?
-what is wrong with the throws ?
-is the throw here ?
-is the throws here ?
-is the throw where it should be ?
-is the throws where it should be ?
-where were the teacher ?
-where were the teachers ?
-what were the teacher ?
-what were the teachers ?
-what were wrong with the teacher ?
-what were wrong with the teachers ?
-were the teacher here ?
-were the teachers here ?
-were the teacher where they should be ?
-were the teachers where they should be ?
-where is the exercise ?
-where is the exercises ?
-what is the exercise ?
-what is the exercises ?
-what is wrong with the exercise ?
-what is wrong with the exercises ?
-is the exercise here ?
-is the exercises here ?
-is the exercise where it should be ?
-is the exercises where it should be ?
-where are the cup ?
-where are the cups ?
-what are the cup ?
-what are the cups ?
-what are wrong with the cup ?
-what are wrong with the cups ?
-are the cup here ?
-are the cups here ?
-are the cup where they should be ?
-are the cups where they should be ?
-where was the book ?
-where was the books ?
-what was the book ?
-what was the books ?
-what was wrong with the book ?
-what was wrong with the books ?
-was the book here ?
-was the books here ?
-was the book where it should be ?
-was the books where it should be ?
-where are the practice ?
-where are the practices ?
-what are the practice ?
-what are the practices ?
-what are wrong with the practice ?
-what are wrong with the practices ?
-are the practice here ?
-are the practices here ?
-are the practice where they should be ?
-are the practices where they should be ?
-where were the flag ?
-where were the flags ?
-what were the flag ?
-what were the flags ?
-what were wrong with the flag ?
-what were wrong with the flags ?
-were the flag here ?
-were the flags here ?
-were the flag where they should be ?
-were the flags where they should be ?
-where are the paper ?
-where are the papers ?
-what are the paper ?
-what are the papers ?
-what are wrong with the paper ?
-what are wrong with the papers ?
-are the paper here ?
-are the papers here ?
-are the paper where they should be ?
-are the papers where they should be ?
-where were the opera ?
-where were the operas ?
-what were the opera ?
-what were the operas ?
-what were wrong with the opera ?
-what were wrong with the operas ?
-were the opera here ?
-were the operas here ?
-were the opera where they should be ?
-were the operas where they should be ?
-where were the gun ?
-where were the guns ?
-what were the gun ?
-what were the guns ?
-what were wrong with the gun ?
-what were wrong with the guns ?
-were the gun here ?
-were the guns here ?
-were the gun where they should be ?
-were the guns where they should be ?
-where are the town ?
-where are the towns ?
-what are the town ?
-what are the towns ?
-what are wrong with the town ?
-what are wrong with the towns ?
-are the town here ?
-are the towns here ?
-are the town where they should be ?
-are the towns where they should be ?
-where are the trouble ?
-where are the troubles ?
-what are the trouble ?
-what are the troubles ?
-what are wrong with the trouble ?
-what are wrong with the troubles ?
-are the trouble here ?
-are the troubles here ?
-are the trouble where they should be ?
-are the troubles where they should be ?
-where is the town ?
-where is the towns ?
-what is the town ?
-what is the towns ?
-what is wrong with the town ?
-what is wrong with the towns ?
-is the town here ?
-is the towns here ?
-is the town where it should be ?
-is the towns where it should be ?
-where was the woman ?
-where was the women ?
-what was the woman ?
-what was the women ?
-what was wrong with the woman ?
-what was wrong with the women ?
-was the woman here ?
-was the women here ?
-was the woman where it should be ?
-was the women where it should be ?
-where are the opera ?
-where are the operas ?
-what are the opera ?
-what are the operas ?
-what are wrong with the opera ?
-what are wrong with the operas ?
-are the opera here ?
-are the operas here ?
-are the opera where they should be ?
-are the operas where they should be ?
-where was the country ?
-where was the countries ?
-what was the country ?
-what was the countries ?
-what was wrong with the country ?
-what was wrong with the countries ?
-was the country here ?
-was the countries here ?
-was the country where it should be ?
-was the countries where it should be ?
-where was the hope ?
-where was the hopes ?
-what was the hope ?
-what was the hopes ?
-what was wrong with the hope ?
-what was wrong with the hopes ?
-was the hope here ?
-was the hopes here ?
-was the hope where it should be ?
-was the hopes where it should be ?
-where is the reason ?
-where is the reasons ?
-what is the reason ?
-what is the reasons ?
-what is wrong with the reason ?
-what is wrong with the reasons ?
-is the reason here ?
-is the reasons here ?
-is the reason where it should be ?
-is the reasons where it should be ?
-where is the teacher ?
-where is the teachers ?
-what is the teacher ?
-what is the teachers ?
-what is wrong with the teacher ?
-what is wrong with the teachers ?
-is the teacher here ?
-is the teachers here ?
-is the teacher where it should be ?
-is the teachers where it should be ?
-where were the master ?
-where were the masters ?
-what were the master ?
-what were the masters ?
-what were wrong with the master ?
-what were wrong with the masters ?
-were the master here ?
-were the masters here ?
-were the master where they should be ?
-were the masters where they should be ?
-where is the guitar ?
-where is the guitars ?
-what is the guitar ?
-what is the guitars ?
-what is wrong with the guitar ?
-what is wrong with the guitars ?
-is the guitar here ?
-is the guitars here ?
-is the guitar where it should be ?
-is the guitars where it should be ?
-where are the nose ?
-where are the noses ?
-what are the nose ?
-what are the noses ?
-what are wrong with the nose ?
-what are wrong with the noses ?
-are the nose here ?
-are the noses here ?
-are the nose where they should be ?
-are the noses where they should be ?
-where are the pope ?
-where are the popes ?
-what are the pope ?
-what are the popes ?
-what are wrong with the pope ?
-what are wrong with the popes ?
-are the pope here ?
-are the popes here ?
-are the pope where they should be ?
-are the popes where they should be ?
-where was the distance ?
-where was the distances ?
-what was the distance ?
-what was the distances ?
-what was wrong with the distance ?
-what was wrong with the distances ?
-was the distance here ?
-was the distances here ?
-was the distance where it should be ?
-was the distances where it should be ?
-where were the cave ?
-where were the caves ?
-what were the cave ?
-what were the caves ?
-what were wrong with the cave ?
-what were wrong with the caves ?
-were the cave here ?
-were the caves here ?
-were the cave where they should be ?
-were the caves where they should be ?
-where were the appeal ?
-where were the appeals ?
-what were the appeal ?
-what were the appeals ?
-what were wrong with the appeal ?
-what were wrong with the appeals ?
-were the appeal here ?
-were the appeals here ?
-were the appeal where they should be ?
-were the appeals where they should be ?
-where were the program ?
-where were the programs ?
-what were the program ?
-what were the programs ?
-what were wrong with the program ?
-what were wrong with the programs ?
-were the program here ?
-were the programs here ?
-were the program where they should be ?
-were the programs where they should be ?
-where was the flag ?
-where was the flags ?
-what was the flag ?
-what was the flags ?
-what was wrong with the flag ?
-what was wrong with the flags ?
-was the flag here ?
-was the flags here ?
-was the flag where it should be ?
-was the flags where it should be ?
-where were the launch ?
-where were the launches ?
-what were the launch ?
-what were the launches ?
-what were wrong with the launch ?
-what were wrong with the launches ?
-were the launch here ?
-were the launches here ?
-were the launch where they should be ?
-were the launches where they should be ?
-where was the baby ?
-where was the babies ?
-what was the baby ?
-what was the babies ?
-what was wrong with the baby ?
-what was wrong with the babies ?
-was the baby here ?
-was the babies here ?
-was the baby where it should be ?
-was the babies where it should be ?
-where are the cup ?
-where are the cups ?
-what are the cup ?
-what are the cups ?
-what are wrong with the cup ?
-what are wrong with the cups ?
-are the cup here ?
-are the cups here ?
-are the cup where they should be ?
-are the cups where they should be ?
-where is the cave ?
-where is the caves ?
-what is the cave ?
-what is the caves ?
-what is wrong with the cave ?
-what is wrong with the caves ?
-is the cave here ?
-is the caves here ?
-is the cave where it should be ?
-is the caves where it should be ?
-where were the ability ?
-where were the abilities ?
-what were the ability ?
-what were the abilities ?
-what were wrong with the ability ?
-what were wrong with the abilities ?
-were the ability here ?
-were the abilities here ?
-were the ability where they should be ?
-were the abilities where they should be ?
-where were the distance ?
-where were the distances ?
-what were the distance ?
-what were the distances ?
-what were wrong with the distance ?
-what were wrong with the distances ?
-were the distance here ?
-were the distances here ?
-were the distance where they should be ?
-were the distances where they should be ?
+where is the honor ?
+where is the honors ?
+what is the honor ?
+what is the honors ?
+what is wrong with the honor ?
+what is wrong with the honors ?
+is the honor here ?
+is the honors here ?
+is the honor where it should be ?
+is the honors where it should be ?
+where are the mix ?
+where are the mixes ?
+what are the mix ?
+what are the mixes ?
+what are wrong with the mix ?
+what are wrong with the mixes ?
+are the mix here ?
+are the mixes here ?
+are the mix where they should be ?
+are the mixes where they should be ?
+where are the floor ?
+where are the floors ?
+what are the floor ?
+what are the floors ?
+what are wrong with the floor ?
+what are wrong with the floors ?
+are the floor here ?
+are the floors here ?
+are the floor where they should be ?
+are the floors where they should be ?
+where were the stand ?
+where were the stands ?
+what were the stand ?
+what were the stands ?
+what were wrong with the stand ?
+what were wrong with the stands ?
+were the stand here ?
+were the stands here ?
+were the stand where they should be ?
+were the stands where they should be ?
+where was the one ?
+where was the ones ?
+what was the one ?
+what was the ones ?
+what was wrong with the one ?
+what was wrong with the ones ?
+was the one here ?
+was the ones here ?
+was the one where it should be ?
+was the ones where it should be ?
+where is the strip ?
+where is the strips ?
+what is the strip ?
+what is the strips ?
+what is wrong with the strip ?
+what is wrong with the strips ?
+is the strip here ?
+is the strips here ?
+is the strip where it should be ?
+is the strips where it should be ?
+where were the sky ?
+where were the skies ?
+what were the sky ?
+what were the skies ?
+what were wrong with the sky ?
+what were wrong with the skies ?
+were the sky here ?
+were the skies here ?
+were the sky where they should be ?
+were the skies where they should be ?
+where was the turn ?
+where was the turns ?
+what was the turn ?
+what was the turns ?
+what was wrong with the turn ?
+what was wrong with the turns ?
+was the turn here ?
+was the turns here ?
+was the turn where it should be ?
+was the turns where it should be ?
+where are the copy ?
+where are the copies ?
+what are the copy ?
+what are the copies ?
+what are wrong with the copy ?
+what are wrong with the copies ?
+are the copy here ?
+are the copies here ?
+are the copy where they should be ?
+are the copies where they should be ?
+where are the beginning ?
+where are the beginnings ?
+what are the beginning ?
+what are the beginnings ?
+what are wrong with the beginning ?
+what are wrong with the beginnings ?
+are the beginning here ?
+are the beginnings here ?
+are the beginning where they should be ?
+are the beginnings where they should be ?
+where was the glass ?
+where was the glasses ?
+what was the glass ?
+what was the glasses ?
+what was wrong with the glass ?
+what was wrong with the glasses ?
+was the glass here ?
+was the glasses here ?
+was the glass where it should be ?
+was the glasses where it should be ?
+where are the hand ?
+where are the hands ?
+what are the hand ?
+what are the hands ?
+what are wrong with the hand ?
+what are wrong with the hands ?
+are the hand here ?
+are the hands here ?
+are the hand where they should be ?
+are the hands where they should be ?
+where was the cast ?
+where was the casts ?
+what was the cast ?
+what was the casts ?
+what was wrong with the cast ?
+what was wrong with the casts ?
+was the cast here ?
+was the casts here ?
+was the cast where it should be ?
+was the casts where it should be ?
+where was the beach ?
+where was the beaches ?
+what was the beach ?
+what was the beaches ?
+what was wrong with the beach ?
+what was wrong with the beaches ?
+was the beach here ?
+was the beaches here ?
+was the beach where it should be ?
+was the beaches where it should be ?
+where were the land ?
+where were the lands ?
+what were the land ?
+what were the lands ?
+what were wrong with the land ?
+what were wrong with the lands ?
+were the land here ?
+were the lands here ?
+were the land where they should be ?
+were the lands where they should be ?
+where was the shape ?
+where was the shapes ?
+what was the shape ?
+what was the shapes ?
+what was wrong with the shape ?
+what was wrong with the shapes ?
+was the shape here ?
+was the shapes here ?
+was the shape where it should be ?
+was the shapes where it should be ?
+where is the office ?
+where is the offices ?
+what is the office ?
+what is the offices ?
+what is wrong with the office ?
+what is wrong with the offices ?
+is the office here ?
+is the offices here ?
+is the office where it should be ?
+is the offices where it should be ?
+where are the glass ?
+where are the glasses ?
+what are the glass ?
+what are the glasses ?
+what are wrong with the glass ?
+what are wrong with the glasses ?
+are the glass here ?
+are the glasses here ?
+are the glass where they should be ?
+are the glasses where they should be ?
+where is the cast ?
+where is the casts ?
+what is the cast ?
+what is the casts ?
+what is wrong with the cast ?
+what is wrong with the casts ?
+is the cast here ?
+is the casts here ?
+is the cast where it should be ?
+is the casts where it should be ?
+where are the face ?
+where are the faces ?
+what are the face ?
+what are the faces ?
+what are wrong with the face ?
+what are wrong with the faces ?
+are the face here ?
+are the faces here ?
+are the face where they should be ?
+are the faces where they should be ?
+where were the strip ?
+where were the strips ?
+what were the strip ?
+what were the strips ?
+what were wrong with the strip ?
+what were wrong with the strips ?
+were the strip here ?
+were the strips here ?
+were the strip where they should be ?
+were the strips where they should be ?
+where were the one ?
+where were the ones ?
+what were the one ?
+what were the ones ?
+what were wrong with the one ?
+what were wrong with the ones ?
+were the one here ?
+were the ones here ?
+were the one where they should be ?
+were the ones where they should be ?
+where was the moment ?
+where was the moments ?
+what was the moment ?
+what was the moments ?
+what was wrong with the moment ?
+what was wrong with the moments ?
+was the moment here ?
+was the moments here ?
+was the moment where it should be ?
+was the moments where it should be ?
+where are the turn ?
+where are the turns ?
+what are the turn ?
+what are the turns ?
+what are wrong with the turn ?
+what are wrong with the turns ?
+are the turn here ?
+are the turns here ?
+are the turn where they should be ?
+are the turns where they should be ?
+where are the matter ?
+where are the matters ?
+what are the matter ?
+what are the matters ?
+what are wrong with the matter ?
+what are wrong with the matters ?
+are the matter here ?
+are the matters here ?
+are the matter where they should be ?
+are the matters where they should be ?
 where was the floor ?
 where was the floors ?
 what was the floor ?
@@ -1128,556 +338,86 @@ was the floor here ?
 was the floors here ?
 was the floor where it should be ?
 was the floors where it should be ?
-where are the pope ?
-where are the popes ?
-what are the pope ?
-what are the popes ?
-what are wrong with the pope ?
-what are wrong with the popes ?
-are the pope here ?
-are the popes here ?
-are the pope where they should be ?
-are the popes where they should be ?
-where were the way ?
-where were the ways ?
-what were the way ?
-what were the ways ?
-what were wrong with the way ?
-what were wrong with the ways ?
-were the way here ?
-were the ways here ?
-were the way where they should be ?
-were the ways where they should be ?
-where was the window ?
-where was the windows ?
-what was the window ?
-what was the windows ?
-what was wrong with the window ?
-what was wrong with the windows ?
-was the window here ?
-was the windows here ?
-was the window where it should be ?
-was the windows where it should be ?
-where were the man ?
-where were the men ?
-what were the man ?
-what were the men ?
-what were wrong with the man ?
-what were wrong with the men ?
-were the man here ?
-were the men here ?
-were the man where they should be ?
-were the men where they should be ?
-where are the mouth ?
-where are the mouths ?
-what are the mouth ?
-what are the mouths ?
-what are wrong with the mouth ?
-what are wrong with the mouths ?
-are the mouth here ?
-are the mouths here ?
-are the mouth where they should be ?
-are the mouths where they should be ?
-where was the damage ?
-where was the damages ?
-what was the damage ?
-what was the damages ?
-what was wrong with the damage ?
-what was wrong with the damages ?
-was the damage here ?
-was the damages here ?
-was the damage where it should be ?
-was the damages where it should be ?
-where were the man ?
-where were the men ?
-what were the man ?
-what were the men ?
-what were wrong with the man ?
-what were wrong with the men ?
-were the man here ?
-were the men here ?
-were the man where they should be ?
-were the men where they should be ?
-where are the house ?
-where are the houses ?
-what are the house ?
-what are the houses ?
-what are wrong with the house ?
-what are wrong with the houses ?
-are the house here ?
-are the houses here ?
-are the house where they should be ?
-are the houses where they should be ?
-where was the tower ?
-where was the towers ?
-what was the tower ?
-what was the towers ?
-what was wrong with the tower ?
-what was wrong with the towers ?
-was the tower here ?
-was the towers here ?
-was the tower where it should be ?
-was the towers where it should be ?
-where were the distance ?
-where were the distances ?
-what were the distance ?
-what were the distances ?
-what were wrong with the distance ?
-what were wrong with the distances ?
-were the distance here ?
-were the distances here ?
-were the distance where they should be ?
-were the distances where they should be ?
-where were the book ?
-where were the books ?
-what were the book ?
-what were the books ?
-what were wrong with the book ?
-what were wrong with the books ?
-were the book here ?
-were the books here ?
-were the book where they should be ?
-were the books where they should be ?
-where was the female ?
-where was the females ?
-what was the female ?
-what was the females ?
-what was wrong with the female ?
-what was wrong with the females ?
-was the female here ?
-was the females here ?
-was the female where it should be ?
-was the females where it should be ?
-where is the spot ?
-where is the spots ?
-what is the spot ?
-what is the spots ?
-what is wrong with the spot ?
-what is wrong with the spots ?
-is the spot here ?
-is the spots here ?
-is the spot where it should be ?
-is the spots where it should be ?
-where were the window ?
-where were the windows ?
-what were the window ?
-what were the windows ?
-what were wrong with the window ?
-what were wrong with the windows ?
-were the window here ?
-were the windows here ?
-were the window where they should be ?
-were the windows where they should be ?
-where is the launch ?
-where is the launches ?
-what is the launch ?
-what is the launches ?
-what is wrong with the launch ?
-what is wrong with the launches ?
-is the launch here ?
-is the launches here ?
-is the launch where it should be ?
-is the launches where it should be ?
-where are the ability ?
-where are the abilities ?
-what are the ability ?
-what are the abilities ?
-what are wrong with the ability ?
-what are wrong with the abilities ?
-are the ability here ?
-are the abilities here ?
-are the ability where they should be ?
-are the abilities where they should be ?
-where is the car ?
-where is the cars ?
-what is the car ?
-what is the cars ?
-what is wrong with the car ?
-what is wrong with the cars ?
-is the car here ?
-is the cars here ?
-is the car where it should be ?
-is the cars where it should be ?
-where is the fire ?
-where is the fires ?
-what is the fire ?
-what is the fires ?
-what is wrong with the fire ?
-what is wrong with the fires ?
-is the fire here ?
-is the fires here ?
-is the fire where it should be ?
-is the fires where it should be ?
-where are the class ?
-where are the classes ?
-what are the class ?
-what are the classes ?
-what are wrong with the class ?
-what are wrong with the classes ?
-are the class here ?
-are the classes here ?
-are the class where they should be ?
-are the classes where they should be ?
-where is the nose ?
-where is the noses ?
-what is the nose ?
-what is the noses ?
-what is wrong with the nose ?
-what is wrong with the noses ?
-is the nose here ?
-is the noses here ?
-is the nose where it should be ?
-is the noses where it should be ?
-where were the book ?
-where were the books ?
-what were the book ?
-what were the books ?
-what were wrong with the book ?
-what were wrong with the books ?
-were the book here ?
-were the books here ?
-were the book where they should be ?
-were the books where they should be ?
-where are the baby ?
-where are the babies ?
-what are the baby ?
-what are the babies ?
-what are wrong with the baby ?
-what are wrong with the babies ?
-are the baby here ?
-are the babies here ?
-are the baby where they should be ?
-are the babies where they should be ?
-where are the guitar ?
-where are the guitars ?
-what are the guitar ?
-what are the guitars ?
-what are wrong with the guitar ?
-what are wrong with the guitars ?
-are the guitar here ?
-are the guitars here ?
-are the guitar where they should be ?
-are the guitars where they should be ?
-where was the device ?
-where was the devices ?
-what was the device ?
-what was the devices ?
-what was wrong with the device ?
-what was wrong with the devices ?
-was the device here ?
-was the devices here ?
-was the device where it should be ?
-was the devices where it should be ?
-where is the storm ?
-where is the storms ?
-what is the storm ?
-what is the storms ?
-what is wrong with the storm ?
-what is wrong with the storms ?
-is the storm here ?
-is the storms here ?
-is the storm where it should be ?
-is the storms where it should be ?
-where was the window ?
-where was the windows ?
-what was the window ?
-what was the windows ?
-what was wrong with the window ?
-what was wrong with the windows ?
-was the window here ?
-was the windows here ?
-was the window where it should be ?
-was the windows where it should be ?
-where are the damage ?
-where are the damages ?
-what are the damage ?
-what are the damages ?
-what are wrong with the damage ?
-what are wrong with the damages ?
-are the damage here ?
-are the damages here ?
-are the damage where they should be ?
-are the damages where they should be ?
-where were the question ?
-where were the questions ?
-what were the question ?
-what were the questions ?
-what were wrong with the question ?
-what were wrong with the questions ?
-were the question here ?
-were the questions here ?
-were the question where they should be ?
-were the questions where they should be ?
-where was the picture ?
-where was the pictures ?
-what was the picture ?
-what was the pictures ?
-what was wrong with the picture ?
-what was wrong with the pictures ?
-was the picture here ?
-was the pictures here ?
-was the picture where it should be ?
-was the pictures where it should be ?
-where were the cave ?
-where were the caves ?
-what were the cave ?
-what were the caves ?
-what were wrong with the cave ?
-what were wrong with the caves ?
-were the cave here ?
-were the caves here ?
-were the cave where they should be ?
-were the caves where they should be ?
-where are the box ?
-where are the boxes ?
-what are the box ?
-what are the boxes ?
-what are wrong with the box ?
-what are wrong with the boxes ?
-are the box here ?
-are the boxes here ?
-are the box where they should be ?
-are the boxes where they should be ?
-where is the fall ?
-where is the falls ?
-what is the fall ?
-what is the falls ?
-what is wrong with the fall ?
-what is wrong with the falls ?
-is the fall here ?
-is the falls here ?
-is the fall where it should be ?
-is the falls where it should be ?
-where was the exercise ?
-where was the exercises ?
-what was the exercise ?
-what was the exercises ?
-what was wrong with the exercise ?
-what was wrong with the exercises ?
-was the exercise here ?
-was the exercises here ?
-was the exercise where it should be ?
-was the exercises where it should be ?
-where is the country ?
-where is the countries ?
-what is the country ?
-what is the countries ?
-what is wrong with the country ?
-what is wrong with the countries ?
-is the country here ?
-is the countries here ?
-is the country where it should be ?
-is the countries where it should be ?
-where was the practice ?
-where was the practices ?
-what was the practice ?
-what was the practices ?
-what was wrong with the practice ?
-what was wrong with the practices ?
-was the practice here ?
-was the practices here ?
-was the practice where it should be ?
-was the practices where it should be ?
-where is the morning ?
-where is the mornings ?
-what is the morning ?
-what is the mornings ?
-what is wrong with the morning ?
-what is wrong with the mornings ?
-is the morning here ?
-is the mornings here ?
-is the morning where it should be ?
-is the mornings where it should be ?
-where were the woman ?
-where were the women ?
-what were the woman ?
-what were the women ?
-what were wrong with the woman ?
-what were wrong with the women ?
-were the woman here ?
-were the women here ?
-were the woman where they should be ?
-were the women where they should be ?
-where was the hair ?
-where was the hairs ?
-what was the hair ?
-what was the hairs ?
-what was wrong with the hair ?
-what was wrong with the hairs ?
-was the hair here ?
-was the hairs here ?
-was the hair where it should be ?
-was the hairs where it should be ?
-where are the window ?
-where are the windows ?
-what are the window ?
-what are the windows ?
-what are wrong with the window ?
-what are wrong with the windows ?
-are the window here ?
-are the windows here ?
-are the window where they should be ?
-are the windows where they should be ?
-where was the walk ?
-where was the walks ?
-what was the walk ?
-what was the walks ?
-what was wrong with the walk ?
-what was wrong with the walks ?
-was the walk here ?
-was the walks here ?
-was the walk where it should be ?
-was the walks where it should be ?
-where is the bell ?
-where is the bells ?
-what is the bell ?
-what is the bells ?
-what is wrong with the bell ?
-what is wrong with the bells ?
-is the bell here ?
-is the bells here ?
-is the bell where it should be ?
-is the bells where it should be ?
-where are the program ?
-where are the programs ?
-what are the program ?
-what are the programs ?
-what are wrong with the program ?
-what are wrong with the programs ?
-are the program here ?
-are the programs here ?
-are the program where they should be ?
-are the programs where they should be ?
-where are the mode ?
-where are the modes ?
-what are the mode ?
-what are the modes ?
-what are wrong with the mode ?
-what are wrong with the modes ?
-are the mode here ?
-are the modes here ?
-are the mode where they should be ?
-are the modes where they should be ?
-where are the way ?
-where are the ways ?
-what are the way ?
-what are the ways ?
-what are wrong with the way ?
-what are wrong with the ways ?
-are the way here ?
-are the ways here ?
-are the way where they should be ?
-are the ways where they should be ?
-where are the reason ?
-where are the reasons ?
-what are the reason ?
-what are the reasons ?
-what are wrong with the reason ?
-what are wrong with the reasons ?
-are the reason here ?
-are the reasons here ?
-are the reason where they should be ?
-are the reasons where they should be ?
-where is the work ?
-where is the works ?
-what is the work ?
-what is the works ?
-what is wrong with the work ?
-what is wrong with the works ?
-is the work here ?
-is the works here ?
-is the work where it should be ?
-is the works where it should be ?
-where was the problem ?
-where was the problems ?
-what was the problem ?
-what was the problems ?
-what was wrong with the problem ?
-what was wrong with the problems ?
-was the problem here ?
-was the problems here ?
-was the problem where it should be ?
-was the problems where it should be ?
-where is the food ?
-where is the foods ?
-what is the food ?
-what is the foods ?
-what is wrong with the food ?
-what is wrong with the foods ?
-is the food here ?
-is the foods here ?
-is the food where it should be ?
-is the foods where it should be ?
-where is the job ?
-where is the jobs ?
-what is the job ?
-what is the jobs ?
-what is wrong with the job ?
-what is wrong with the jobs ?
-is the job here ?
-is the jobs here ?
-is the job where it should be ?
-is the jobs where it should be ?
-where was the problem ?
-where was the problems ?
-what was the problem ?
-what was the problems ?
-what was wrong with the problem ?
-what was wrong with the problems ?
-was the problem here ?
-was the problems here ?
-was the problem where it should be ?
-was the problems where it should be ?
-where was the work ?
-where was the works ?
-what was the work ?
-what was the works ?
-what was wrong with the work ?
-what was wrong with the works ?
-was the work here ?
-was the works here ?
-was the work where it should be ?
-was the works where it should be ?
-where are the guitar ?
-where are the guitars ?
-what are the guitar ?
-what are the guitars ?
-what are wrong with the guitar ?
-what are wrong with the guitars ?
-are the guitar here ?
-are the guitars here ?
-are the guitar where they should be ?
-are the guitars where they should be ?
-where was the order ?
-where was the orders ?
-what was the order ?
-what was the orders ?
-what was wrong with the order ?
-what was wrong with the orders ?
-was the order here ?
-was the orders here ?
-was the order where it should be ?
-was the orders where it should be ?
-where were the water ?
-where were the waters ?
-what were the water ?
-what were the waters ?
-what were wrong with the water ?
-what were wrong with the waters ?
-were the water here ?
-were the waters here ?
-were the water where they should be ?
-were the waters where they should be ?
-where was the cup ?
-where was the cups ?
-what was the cup ?
-what was the cups ?
-what was wrong with the cup ?
-what was wrong with the cups ?
-was the cup here ?
-was the cups here ?
-was the cup where it should be ?
-was the cups where it should be ?
+where were the strip ?
+where were the strips ?
+what were the strip ?
+what were the strips ?
+what were wrong with the strip ?
+what were wrong with the strips ?
+were the strip here ?
+were the strips here ?
+were the strip where they should be ?
+were the strips where they should be ?
+where are the dream ?
+where are the dreams ?
+what are the dream ?
+what are the dreams ?
+what are wrong with the dream ?
+what are wrong with the dreams ?
+are the dream here ?
+are the dreams here ?
+are the dream where they should be ?
+are the dreams where they should be ?
+where were the team ?
+where were the teams ?
+what were the team ?
+what were the teams ?
+what were wrong with the team ?
+what were wrong with the teams ?
+were the team here ?
+were the teams here ?
+were the team where they should be ?
+were the teams where they should be ?
+where was the art ?
+where was the arts ?
+what was the art ?
+what was the arts ?
+what was wrong with the art ?
+what was wrong with the arts ?
+was the art here ?
+was the arts here ?
+was the art where it should be ?
+was the arts where it should be ?
+where is the yard ?
+where is the yards ?
+what is the yard ?
+what is the yards ?
+what is wrong with the yard ?
+what is wrong with the yards ?
+is the yard here ?
+is the yards here ?
+is the yard where it should be ?
+is the yards where it should be ?
+where are the ocean ?
+where are the oceans ?
+what are the ocean ?
+what are the oceans ?
+what are wrong with the ocean ?
+what are wrong with the oceans ?
+are the ocean here ?
+are the oceans here ?
+are the ocean where they should be ?
+are the oceans where they should be ?
+where is the platform ?
+where is the platforms ?
+what is the platform ?
+what is the platforms ?
+what is wrong with the platform ?
+what is wrong with the platforms ?
+is the platform here ?
+is the platforms here ?
+is the platform where it should be ?
+is the platforms where it should be ?
+where was the watch ?
+where was the watches ?
+what was the watch ?
+what was the watches ?
+what was wrong with the watch ?
+what was wrong with the watches ?
+was the watch here ?
+was the watches here ?
+was the watch where it should be ?
+was the watches where it should be ?
 where was the bell ?
 where was the bells ?
 what was the bell ?
@@ -1688,256 +428,646 @@ was the bell here ?
 was the bells here ?
 was the bell where it should be ?
 was the bells where it should be ?
-where is the guitar ?
-where is the guitars ?
-what is the guitar ?
-what is the guitars ?
-what is wrong with the guitar ?
-what is wrong with the guitars ?
-is the guitar here ?
-is the guitars here ?
-is the guitar where it should be ?
-is the guitars where it should be ?
-where is the mouth ?
-where is the mouths ?
-what is the mouth ?
-what is the mouths ?
-what is wrong with the mouth ?
-what is wrong with the mouths ?
-is the mouth here ?
-is the mouths here ?
-is the mouth where it should be ?
-is the mouths where it should be ?
-where was the car ?
-where was the cars ?
-what was the car ?
-what was the cars ?
-what was wrong with the car ?
-what was wrong with the cars ?
-was the car here ?
-was the cars here ?
-was the car where it should be ?
-was the cars where it should be ?
-where were the walk ?
-where were the walks ?
-what were the walk ?
-what were the walks ?
-what were wrong with the walk ?
-what were wrong with the walks ?
-were the walk here ?
-were the walks here ?
-were the walk where they should be ?
-were the walks where they should be ?
-where were the planet ?
-where were the planets ?
-what were the planet ?
-what were the planets ?
-what were wrong with the planet ?
-what were wrong with the planets ?
-were the planet here ?
-were the planets here ?
-were the planet where they should be ?
-were the planets where they should be ?
-where were the adult ?
-where were the adults ?
-what were the adult ?
-what were the adults ?
-what were wrong with the adult ?
-what were wrong with the adults ?
-were the adult here ?
-were the adults here ?
-were the adult where they should be ?
-were the adults where they should be ?
-where is the female ?
-where is the females ?
-what is the female ?
-what is the females ?
-what is wrong with the female ?
-what is wrong with the females ?
-is the female here ?
-is the females here ?
-is the female where it should be ?
-is the females where it should be ?
-where are the picture ?
-where are the pictures ?
-what are the picture ?
-what are the pictures ?
-what are wrong with the picture ?
-what are wrong with the pictures ?
-are the picture here ?
-are the pictures here ?
-are the picture where they should be ?
-are the pictures where they should be ?
-where are the walk ?
-where are the walks ?
-what are the walk ?
-what are the walks ?
-what are wrong with the walk ?
-what are wrong with the walks ?
-are the walk here ?
-are the walks here ?
-are the walk where they should be ?
-are the walks where they should be ?
-where are the skin ?
-where are the skins ?
-what are the skin ?
-what are the skins ?
-what are wrong with the skin ?
-what are wrong with the skins ?
-are the skin here ?
-are the skins here ?
-are the skin where they should be ?
-are the skins where they should be ?
-where were the study ?
-where were the studies ?
-what were the study ?
-what were the studies ?
-what were wrong with the study ?
-what were wrong with the studies ?
-were the study here ?
-were the studies here ?
-were the study where they should be ?
-were the studies where they should be ?
-where were the mode ?
-where were the modes ?
-what were the mode ?
-what were the modes ?
-what were wrong with the mode ?
-what were wrong with the modes ?
-were the mode here ?
-were the modes here ?
-were the mode where they should be ?
-were the modes where they should be ?
-where are the ability ?
-where are the abilities ?
-what are the ability ?
-what are the abilities ?
-what are wrong with the ability ?
-what are wrong with the abilities ?
-are the ability here ?
-are the abilities here ?
-are the ability where they should be ?
-are the abilities where they should be ?
-where are the device ?
-where are the devices ?
-what are the device ?
-what are the devices ?
-what are wrong with the device ?
-what are wrong with the devices ?
-are the device here ?
-are the devices here ?
-are the device where they should be ?
-are the devices where they should be ?
-where was the quarter ?
-where was the quarters ?
-what was the quarter ?
-what was the quarters ?
-what was wrong with the quarter ?
-what was wrong with the quarters ?
-was the quarter here ?
-was the quarters here ?
-was the quarter where it should be ?
-was the quarters where it should be ?
-where is the way ?
-where is the ways ?
-what is the way ?
-what is the ways ?
-what is wrong with the way ?
-what is wrong with the ways ?
-is the way here ?
-is the ways here ?
-is the way where it should be ?
-is the ways where it should be ?
-where are the person ?
-where are the people ?
-what are the person ?
-what are the people ?
-what are wrong with the person ?
-what are wrong with the people ?
-are the person here ?
-are the people here ?
-are the person where they should be ?
-are the people where they should be ?
-where is the love ?
-where is the loves ?
-what is the love ?
-what is the loves ?
-what is wrong with the love ?
-what is wrong with the loves ?
-is the love here ?
-is the loves here ?
-is the love where it should be ?
-is the loves where it should be ?
-where were the writing ?
-where were the writings ?
-what were the writing ?
-what were the writings ?
-what were wrong with the writing ?
-what were wrong with the writings ?
-were the writing here ?
-were the writings here ?
-were the writing where they should be ?
-were the writings where they should be ?
-where are the adult ?
-where are the adults ?
-what are the adult ?
-what are the adults ?
-what are wrong with the adult ?
-what are wrong with the adults ?
-are the adult here ?
-are the adults here ?
-are the adult where they should be ?
-are the adults where they should be ?
-where are the distance ?
-where are the distances ?
-what are the distance ?
-what are the distances ?
-what are wrong with the distance ?
-what are wrong with the distances ?
-are the distance here ?
-are the distances here ?
-are the distance where they should be ?
-are the distances where they should be ?
-where were the mother ?
-where were the mothers ?
-what were the mother ?
-what were the mothers ?
-what were wrong with the mother ?
-what were wrong with the mothers ?
-were the mother here ?
-were the mothers here ?
-were the mother where they should be ?
-were the mothers where they should be ?
-where are the individual ?
-where are the individuals ?
-what are the individual ?
-what are the individuals ?
-what are wrong with the individual ?
-what are wrong with the individuals ?
-are the individual here ?
-are the individuals here ?
-are the individual where they should be ?
-are the individuals where they should be ?
-where is the food ?
-where is the foods ?
-what is the food ?
-what is the foods ?
-what is wrong with the food ?
-what is wrong with the foods ?
-is the food here ?
-is the foods here ?
-is the food where it should be ?
-is the foods where it should be ?
-where is the order ?
-where is the orders ?
-what is the order ?
-what is the orders ?
-what is wrong with the order ?
-what is wrong with the orders ?
-is the order here ?
-is the orders here ?
-is the order where it should be ?
-is the orders where it should be ?
+where is the ball ?
+where is the balls ?
+what is the ball ?
+what is the balls ?
+what is wrong with the ball ?
+what is wrong with the balls ?
+is the ball here ?
+is the balls here ?
+is the ball where it should be ?
+is the balls where it should be ?
+where are the prison ?
+where are the prisons ?
+what are the prison ?
+what are the prisons ?
+what are wrong with the prison ?
+what are wrong with the prisons ?
+are the prison here ?
+are the prisons here ?
+are the prison where they should be ?
+are the prisons where they should be ?
+where were the noise ?
+where were the noises ?
+what were the noise ?
+what were the noises ?
+what were wrong with the noise ?
+what were wrong with the noises ?
+were the noise here ?
+were the noises here ?
+were the noise where they should be ?
+were the noises where they should be ?
+where were the bit ?
+where were the bits ?
+what were the bit ?
+what were the bits ?
+what were wrong with the bit ?
+what were wrong with the bits ?
+were the bit here ?
+were the bits here ?
+were the bit where they should be ?
+were the bits where they should be ?
+where were the egg ?
+where were the eggs ?
+what were the egg ?
+what were the eggs ?
+what were wrong with the egg ?
+what were wrong with the eggs ?
+were the egg here ?
+were the eggs here ?
+were the egg where they should be ?
+were the eggs where they should be ?
+where are the student ?
+where are the students ?
+what are the student ?
+what are the students ?
+what are wrong with the student ?
+what are wrong with the students ?
+are the student here ?
+are the students here ?
+are the student where they should be ?
+are the students where they should be ?
+where are the check ?
+where are the checks ?
+what are the check ?
+what are the checks ?
+what are wrong with the check ?
+what are wrong with the checks ?
+are the check here ?
+are the checks here ?
+are the check where they should be ?
+are the checks where they should be ?
+where were the kind ?
+where were the kinds ?
+what were the kind ?
+what were the kinds ?
+what were wrong with the kind ?
+what were wrong with the kinds ?
+were the kind here ?
+were the kinds here ?
+were the kind where they should be ?
+were the kinds where they should be ?
+where are the strip ?
+where are the strips ?
+what are the strip ?
+what are the strips ?
+what are wrong with the strip ?
+what are wrong with the strips ?
+are the strip here ?
+are the strips here ?
+are the strip where they should be ?
+are the strips where they should be ?
+where is the card ?
+where is the cards ?
+what is the card ?
+what is the cards ?
+what is wrong with the card ?
+what is wrong with the cards ?
+is the card here ?
+is the cards here ?
+is the card where it should be ?
+is the cards where it should be ?
+where was the person ?
+where was the people ?
+what was the person ?
+what was the people ?
+what was wrong with the person ?
+what was wrong with the people ?
+was the person here ?
+was the people here ?
+was the person where it should be ?
+was the people where it should be ?
+where were the matter ?
+where were the matters ?
+what were the matter ?
+what were the matters ?
+what were wrong with the matter ?
+what were wrong with the matters ?
+were the matter here ?
+were the matters here ?
+were the matter where they should be ?
+were the matters where they should be ?
+where was the prize ?
+where was the prizes ?
+what was the prize ?
+what was the prizes ?
+what was wrong with the prize ?
+what was wrong with the prizes ?
+was the prize here ?
+was the prizes here ?
+was the prize where it should be ?
+was the prizes where it should be ?
+where is the man ?
+where is the men ?
+what is the man ?
+what is the men ?
+what is wrong with the man ?
+what is wrong with the men ?
+is the man here ?
+is the men here ?
+is the man where it should be ?
+is the men where it should be ?
+where were the flight ?
+where were the flights ?
+what were the flight ?
+what were the flights ?
+what were wrong with the flight ?
+what were wrong with the flights ?
+were the flight here ?
+were the flights here ?
+were the flight where they should be ?
+were the flights where they should be ?
+where is the shape ?
+where is the shapes ?
+what is the shape ?
+what is the shapes ?
+what is wrong with the shape ?
+what is wrong with the shapes ?
+is the shape here ?
+is the shapes here ?
+is the shape where it should be ?
+is the shapes where it should be ?
+where is the matter ?
+where is the matters ?
+what is the matter ?
+what is the matters ?
+what is wrong with the matter ?
+what is wrong with the matters ?
+is the matter here ?
+is the matters here ?
+is the matter where it should be ?
+is the matters where it should be ?
+where is the stop ?
+where is the stops ?
+what is the stop ?
+what is the stops ?
+what is wrong with the stop ?
+what is wrong with the stops ?
+is the stop here ?
+is the stops here ?
+is the stop where it should be ?
+is the stops where it should be ?
+where were the fellow ?
+where were the fellows ?
+what were the fellow ?
+what were the fellows ?
+what were wrong with the fellow ?
+what were wrong with the fellows ?
+were the fellow here ?
+were the fellows here ?
+were the fellow where they should be ?
+were the fellows where they should be ?
+where were the figure ?
+where were the figures ?
+what were the figure ?
+what were the figures ?
+what were wrong with the figure ?
+what were wrong with the figures ?
+were the figure here ?
+were the figures here ?
+were the figure where they should be ?
+were the figures where they should be ?
+where is the woman ?
+where is the women ?
+what is the woman ?
+what is the women ?
+what is wrong with the woman ?
+what is wrong with the women ?
+is the woman here ?
+is the women here ?
+is the woman where it should be ?
+is the women where it should be ?
+where were the sunday ?
+where were the sundays ?
+what were the sunday ?
+what were the sundays ?
+what were wrong with the sunday ?
+what were wrong with the sundays ?
+were the sunday here ?
+were the sundays here ?
+were the sunday where they should be ?
+were the sundays where they should be ?
+where are the prison ?
+where are the prisons ?
+what are the prison ?
+what are the prisons ?
+what are wrong with the prison ?
+what are wrong with the prisons ?
+are the prison here ?
+are the prisons here ?
+are the prison where they should be ?
+are the prisons where they should be ?
+where were the lion ?
+where were the lions ?
+what were the lion ?
+what were the lions ?
+what were wrong with the lion ?
+what were wrong with the lions ?
+were the lion here ?
+were the lions here ?
+were the lion where they should be ?
+were the lions where they should be ?
+where are the one ?
+where are the ones ?
+what are the one ?
+what are the ones ?
+what are wrong with the one ?
+what are wrong with the ones ?
+are the one here ?
+are the ones here ?
+are the one where they should be ?
+are the ones where they should be ?
+where were the prize ?
+where were the prizes ?
+what were the prize ?
+what were the prizes ?
+what were wrong with the prize ?
+what were wrong with the prizes ?
+were the prize here ?
+were the prizes here ?
+were the prize where they should be ?
+were the prizes where they should be ?
+where is the animal ?
+where is the animals ?
+what is the animal ?
+what is the animals ?
+what is wrong with the animal ?
+what is wrong with the animals ?
+is the animal here ?
+is the animals here ?
+is the animal where it should be ?
+is the animals where it should be ?
+where were the shape ?
+where were the shapes ?
+what were the shape ?
+what were the shapes ?
+what were wrong with the shape ?
+what were wrong with the shapes ?
+were the shape here ?
+were the shapes here ?
+were the shape where they should be ?
+were the shapes where they should be ?
+where were the sky ?
+where were the skies ?
+what were the sky ?
+what were the skies ?
+what were wrong with the sky ?
+what were wrong with the skies ?
+were the sky here ?
+were the skies here ?
+were the sky where they should be ?
+were the skies where they should be ?
+where was the egg ?
+where was the eggs ?
+what was the egg ?
+what was the eggs ?
+what was wrong with the egg ?
+what was wrong with the eggs ?
+was the egg here ?
+was the eggs here ?
+was the egg where it should be ?
+was the eggs where it should be ?
+where is the sky ?
+where is the skies ?
+what is the sky ?
+what is the skies ?
+what is wrong with the sky ?
+what is wrong with the skies ?
+is the sky here ?
+is the skies here ?
+is the sky where it should be ?
+is the skies where it should be ?
+where are the freedom ?
+where are the freedoms ?
+what are the freedom ?
+what are the freedoms ?
+what are wrong with the freedom ?
+what are wrong with the freedoms ?
+are the freedom here ?
+are the freedoms here ?
+are the freedom where they should be ?
+are the freedoms where they should be ?
+where were the art ?
+where were the arts ?
+what were the art ?
+what were the arts ?
+what were wrong with the art ?
+what were wrong with the arts ?
+were the art here ?
+were the arts here ?
+were the art where they should be ?
+were the arts where they should be ?
+where are the dream ?
+where are the dreams ?
+what are the dream ?
+what are the dreams ?
+what are wrong with the dream ?
+what are wrong with the dreams ?
+are the dream here ?
+are the dreams here ?
+are the dream where they should be ?
+are the dreams where they should be ?
+where are the bell ?
+where are the bells ?
+what are the bell ?
+what are the bells ?
+what are wrong with the bell ?
+what are wrong with the bells ?
+are the bell here ?
+are the bells here ?
+are the bell where they should be ?
+are the bells where they should be ?
+where was the store ?
+where was the stores ?
+what was the store ?
+what was the stores ?
+what was wrong with the store ?
+what was wrong with the stores ?
+was the store here ?
+was the stores here ?
+was the store where it should be ?
+was the stores where it should be ?
+where were the copy ?
+where were the copies ?
+what were the copy ?
+what were the copies ?
+what were wrong with the copy ?
+what were wrong with the copies ?
+were the copy here ?
+were the copies here ?
+were the copy where they should be ?
+were the copies where they should be ?
+where was the net ?
+where was the nets ?
+what was the net ?
+what was the nets ?
+what was wrong with the net ?
+what was wrong with the nets ?
+was the net here ?
+was the nets here ?
+was the net where it should be ?
+was the nets where it should be ?
+where was the yard ?
+where was the yards ?
+what was the yard ?
+what was the yards ?
+what was wrong with the yard ?
+what was wrong with the yards ?
+was the yard here ?
+was the yards here ?
+was the yard where it should be ?
+was the yards where it should be ?
+where were the back ?
+where were the backs ?
+what were the back ?
+what were the backs ?
+what were wrong with the back ?
+what were wrong with the backs ?
+were the back here ?
+were the backs here ?
+were the back where they should be ?
+were the backs where they should be ?
+where was the prison ?
+where was the prisons ?
+what was the prison ?
+what was the prisons ?
+what was wrong with the prison ?
+what was wrong with the prisons ?
+was the prison here ?
+was the prisons here ?
+was the prison where it should be ?
+was the prisons where it should be ?
+where is the hand ?
+where is the hands ?
+what is the hand ?
+what is the hands ?
+what is wrong with the hand ?
+what is wrong with the hands ?
+is the hand here ?
+is the hands here ?
+is the hand where it should be ?
+is the hands where it should be ?
+where were the mouth ?
+where were the mouths ?
+what were the mouth ?
+what were the mouths ?
+what were wrong with the mouth ?
+what were wrong with the mouths ?
+were the mouth here ?
+were the mouths here ?
+were the mouth where they should be ?
+were the mouths where they should be ?
+where is the sport ?
+where is the sports ?
+what is the sport ?
+what is the sports ?
+what is wrong with the sport ?
+what is wrong with the sports ?
+is the sport here ?
+is the sports here ?
+is the sport where it should be ?
+is the sports where it should be ?
+where was the sport ?
+where was the sports ?
+what was the sport ?
+what was the sports ?
+what was wrong with the sport ?
+what was wrong with the sports ?
+was the sport here ?
+was the sports here ?
+was the sport where it should be ?
+was the sports where it should be ?
+where are the mouth ?
+where are the mouths ?
+what are the mouth ?
+what are the mouths ?
+what are wrong with the mouth ?
+what are wrong with the mouths ?
+are the mouth here ?
+are the mouths here ?
+are the mouth where they should be ?
+are the mouths where they should be ?
+where were the lion ?
+where were the lions ?
+what were the lion ?
+what were the lions ?
+what were wrong with the lion ?
+what were wrong with the lions ?
+were the lion here ?
+were the lions here ?
+were the lion where they should be ?
+were the lions where they should be ?
+where were the kind ?
+where were the kinds ?
+what were the kind ?
+what were the kinds ?
+what were wrong with the kind ?
+what were wrong with the kinds ?
+were the kind here ?
+were the kinds here ?
+were the kind where they should be ?
+were the kinds where they should be ?
+where was the service ?
+where was the services ?
+what was the service ?
+what was the services ?
+what was wrong with the service ?
+what was wrong with the services ?
+was the service here ?
+was the services here ?
+was the service where it should be ?
+was the services where it should be ?
+where is the giant ?
+where is the giants ?
+what is the giant ?
+what is the giants ?
+what is wrong with the giant ?
+what is wrong with the giants ?
+is the giant here ?
+is the giants here ?
+is the giant where it should be ?
+is the giants where it should be ?
+where were the shape ?
+where were the shapes ?
+what were the shape ?
+what were the shapes ?
+what were wrong with the shape ?
+what were wrong with the shapes ?
+were the shape here ?
+were the shapes here ?
+were the shape where they should be ?
+were the shapes where they should be ?
+where are the train ?
+where are the trains ?
+what are the train ?
+what are the trains ?
+what are wrong with the train ?
+what are wrong with the trains ?
+are the train here ?
+are the trains here ?
+are the train where they should be ?
+are the trains where they should be ?
+where are the box ?
+where are the boxes ?
+what are the box ?
+what are the boxes ?
+what are wrong with the box ?
+what are wrong with the boxes ?
+are the box here ?
+are the boxes here ?
+are the box where they should be ?
+are the boxes where they should be ?
+where were the land ?
+where were the lands ?
+what were the land ?
+what were the lands ?
+what were wrong with the land ?
+what were wrong with the lands ?
+were the land here ?
+were the lands here ?
+were the land where they should be ?
+were the lands where they should be ?
+where are the sport ?
+where are the sports ?
+what are the sport ?
+what are the sports ?
+what are wrong with the sport ?
+what are wrong with the sports ?
+are the sport here ?
+are the sports here ?
+are the sport where they should be ?
+are the sports where they should be ?
+where was the bell ?
+where was the bells ?
+what was the bell ?
+what was the bells ?
+what was wrong with the bell ?
+what was wrong with the bells ?
+was the bell here ?
+was the bells here ?
+was the bell where it should be ?
+was the bells where it should be ?
+where are the dream ?
+where are the dreams ?
+what are the dream ?
+what are the dreams ?
+what are wrong with the dream ?
+what are wrong with the dreams ?
+are the dream here ?
+are the dreams here ?
+are the dream where they should be ?
+are the dreams where they should be ?
+where were the service ?
+where were the services ?
+what were the service ?
+what were the services ?
+what were wrong with the service ?
+what were wrong with the services ?
+were the service here ?
+were the services here ?
+were the service where they should be ?
+were the services where they should be ?
+where is the college ?
+where is the colleges ?
+what is the college ?
+what is the colleges ?
+what is wrong with the college ?
+what is wrong with the colleges ?
+is the college here ?
+is the colleges here ?
+is the college where it should be ?
+is the colleges where it should be ?
+where are the record ?
+where are the records ?
+what are the record ?
+what are the records ?
+what are wrong with the record ?
+what are wrong with the records ?
+are the record here ?
+are the records here ?
+are the record where they should be ?
+are the records where they should be ?
+where is the beach ?
+where is the beaches ?
+what is the beach ?
+what is the beaches ?
+what is wrong with the beach ?
+what is wrong with the beaches ?
+is the beach here ?
+is the beaches here ?
+is the beach where it should be ?
+is the beaches where it should be ?
+where was the student ?
+where was the students ?
+what was the student ?
+what was the students ?
+what was wrong with the student ?
+what was wrong with the students ?
+was the student here ?
+was the students here ?
+was the student where it should be ?
+was the students where it should be ?
+where was the crystal ?
+where was the crystals ?
+what was the crystal ?
+what was the crystals ?
+what was wrong with the crystal ?
+what was wrong with the crystals ?
+was the crystal here ?
+was the crystals here ?
+was the crystal where it should be ?
+was the crystals where it should be ?
+where was the watch ?
+where was the watches ?
+what was the watch ?
+what was the watches ?
+what was wrong with the watch ?
+what was wrong with the watches ?
+was the watch here ?
+was the watches here ?
+was the watch where it should be ?
+was the watches where it should be ?
 where is the baby ?
 where is the babies ?
 what is the baby ?
@@ -1948,53 +1078,923 @@ is the baby here ?
 is the babies here ?
 is the baby where it should be ?
 is the babies where it should be ?
-where are the solution ?
-where are the solutions ?
-what are the solution ?
-what are the solutions ?
-what are wrong with the solution ?
-what are wrong with the solutions ?
-are the solution here ?
-are the solutions here ?
-are the solution where they should be ?
-are the solutions where they should be ?
-where was the launch ?
-where was the launches ?
-what was the launch ?
-what was the launches ?
-what was wrong with the launch ?
-what was wrong with the launches ?
-was the launch here ?
-was the launches here ?
-was the launch where it should be ?
-was the launches where it should be ?
-where were the lake ?
-where were the lakes ?
-what were the lake ?
-what were the lakes ?
-what were wrong with the lake ?
-what were wrong with the lakes ?
-were the lake here ?
-were the lakes here ?
-were the lake where they should be ?
-were the lakes where they should be ?
-where was the pope ?
-where was the popes ?
-what was the pope ?
-what was the popes ?
-what was wrong with the pope ?
-what was wrong with the popes ?
-was the pope here ?
-was the popes here ?
-was the pope where it should be ?
-was the popes where it should be ?
-where were the house ?
-where were the houses ?
-what were the house ?
-what were the houses ?
-what were wrong with the house ?
-what were wrong with the houses ?
-were the house here ?
-were the houses here ?
-were the house where they should be ?
-were the houses where they should be ?
+where is the president ?
+where is the presidents ?
+what is the president ?
+what is the presidents ?
+what is wrong with the president ?
+what is wrong with the presidents ?
+is the president here ?
+is the presidents here ?
+is the president where it should be ?
+is the presidents where it should be ?
+where are the construction ?
+where are the constructions ?
+what are the construction ?
+what are the constructions ?
+what are wrong with the construction ?
+what are wrong with the constructions ?
+are the construction here ?
+are the constructions here ?
+are the construction where they should be ?
+are the constructions where they should be ?
+where was the place ?
+where was the places ?
+what was the place ?
+what was the places ?
+what was wrong with the place ?
+what was wrong with the places ?
+was the place here ?
+was the places here ?
+was the place where it should be ?
+was the places where it should be ?
+where is the person ?
+where is the people ?
+what is the person ?
+what is the people ?
+what is wrong with the person ?
+what is wrong with the people ?
+is the person here ?
+is the people here ?
+is the person where it should be ?
+is the people where it should be ?
+where are the box ?
+where are the boxes ?
+what are the box ?
+what are the boxes ?
+what are wrong with the box ?
+what are wrong with the boxes ?
+are the box here ?
+are the boxes here ?
+are the box where they should be ?
+are the boxes where they should be ?
+where were the check ?
+where were the checks ?
+what were the check ?
+what were the checks ?
+what were wrong with the check ?
+what were wrong with the checks ?
+were the check here ?
+were the checks here ?
+were the check where they should be ?
+were the checks where they should be ?
+where is the press ?
+where is the presses ?
+what is the press ?
+what is the presses ?
+what is wrong with the press ?
+what is wrong with the presses ?
+is the press here ?
+is the presses here ?
+is the press where it should be ?
+is the presses where it should be ?
+where were the figure ?
+where were the figures ?
+what were the figure ?
+what were the figures ?
+what were wrong with the figure ?
+what were wrong with the figures ?
+were the figure here ?
+were the figures here ?
+were the figure where they should be ?
+were the figures where they should be ?
+where was the strip ?
+where was the strips ?
+what was the strip ?
+what was the strips ?
+what was wrong with the strip ?
+what was wrong with the strips ?
+was the strip here ?
+was the strips here ?
+was the strip where it should be ?
+was the strips where it should be ?
+where were the cast ?
+where were the casts ?
+what were the cast ?
+what were the casts ?
+what were wrong with the cast ?
+what were wrong with the casts ?
+were the cast here ?
+were the casts here ?
+were the cast where they should be ?
+were the casts where they should be ?
+where was the kind ?
+where was the kinds ?
+what was the kind ?
+what was the kinds ?
+what was wrong with the kind ?
+what was wrong with the kinds ?
+was the kind here ?
+was the kinds here ?
+was the kind where it should be ?
+was the kinds where it should be ?
+where is the mix ?
+where is the mixes ?
+what is the mix ?
+what is the mixes ?
+what is wrong with the mix ?
+what is wrong with the mixes ?
+is the mix here ?
+is the mixes here ?
+is the mix where it should be ?
+is the mixes where it should be ?
+where was the baby ?
+where was the babies ?
+what was the baby ?
+what was the babies ?
+what was wrong with the baby ?
+what was wrong with the babies ?
+was the baby here ?
+was the babies here ?
+was the baby where it should be ?
+was the babies where it should be ?
+where were the edge ?
+where were the edges ?
+what were the edge ?
+what were the edges ?
+what were wrong with the edge ?
+what were wrong with the edges ?
+were the edge here ?
+were the edges here ?
+were the edge where they should be ?
+were the edges where they should be ?
+where are the crystal ?
+where are the crystals ?
+what are the crystal ?
+what are the crystals ?
+what are wrong with the crystal ?
+what are wrong with the crystals ?
+are the crystal here ?
+are the crystals here ?
+are the crystal where they should be ?
+are the crystals where they should be ?
+where are the check ?
+where are the checks ?
+what are the check ?
+what are the checks ?
+what are wrong with the check ?
+what are wrong with the checks ?
+are the check here ?
+are the checks here ?
+are the check where they should be ?
+are the checks where they should be ?
+where is the prison ?
+where is the prisons ?
+what is the prison ?
+what is the prisons ?
+what is wrong with the prison ?
+what is wrong with the prisons ?
+is the prison here ?
+is the prisons here ?
+is the prison where it should be ?
+is the prisons where it should be ?
+where was the one ?
+where was the ones ?
+what was the one ?
+what was the ones ?
+what was wrong with the one ?
+what was wrong with the ones ?
+was the one here ?
+was the ones here ?
+was the one where it should be ?
+was the ones where it should be ?
+where were the moment ?
+where were the moments ?
+what were the moment ?
+what were the moments ?
+what were wrong with the moment ?
+what were wrong with the moments ?
+were the moment here ?
+were the moments here ?
+were the moment where they should be ?
+were the moments where they should be ?
+where were the plate ?
+where were the plates ?
+what were the plate ?
+what were the plates ?
+what were wrong with the plate ?
+what were wrong with the plates ?
+were the plate here ?
+were the plates here ?
+were the plate where they should be ?
+were the plates where they should be ?
+where is the back ?
+where is the backs ?
+what is the back ?
+what is the backs ?
+what is wrong with the back ?
+what is wrong with the backs ?
+is the back here ?
+is the backs here ?
+is the back where it should be ?
+is the backs where it should be ?
+where are the train ?
+where are the trains ?
+what are the train ?
+what are the trains ?
+what are wrong with the train ?
+what are wrong with the trains ?
+are the train here ?
+are the trains here ?
+are the train where they should be ?
+are the trains where they should be ?
+where was the animal ?
+where was the animals ?
+what was the animal ?
+what was the animals ?
+what was wrong with the animal ?
+what was wrong with the animals ?
+was the animal here ?
+was the animals here ?
+was the animal where it should be ?
+was the animals where it should be ?
+where are the service ?
+where are the services ?
+what are the service ?
+what are the services ?
+what are wrong with the service ?
+what are wrong with the services ?
+are the service here ?
+are the services here ?
+are the service where they should be ?
+are the services where they should be ?
+where are the floor ?
+where are the floors ?
+what are the floor ?
+what are the floors ?
+what are wrong with the floor ?
+what are wrong with the floors ?
+are the floor here ?
+are the floors here ?
+are the floor where they should be ?
+are the floors where they should be ?
+where is the issue ?
+where is the issues ?
+what is the issue ?
+what is the issues ?
+what is wrong with the issue ?
+what is wrong with the issues ?
+is the issue here ?
+is the issues here ?
+is the issue where it should be ?
+is the issues where it should be ?
+where is the crystal ?
+where is the crystals ?
+what is the crystal ?
+what is the crystals ?
+what is wrong with the crystal ?
+what is wrong with the crystals ?
+is the crystal here ?
+is the crystals here ?
+is the crystal where it should be ?
+is the crystals where it should be ?
+where was the land ?
+where was the lands ?
+what was the land ?
+what was the lands ?
+what was wrong with the land ?
+what was wrong with the lands ?
+was the land here ?
+was the lands here ?
+was the land where it should be ?
+was the lands where it should be ?
+where were the prison ?
+where were the prisons ?
+what were the prison ?
+what were the prisons ?
+what were wrong with the prison ?
+what were wrong with the prisons ?
+were the prison here ?
+were the prisons here ?
+were the prison where they should be ?
+were the prisons where they should be ?
+where were the feed ?
+where were the feeds ?
+what were the feed ?
+what were the feeds ?
+what were wrong with the feed ?
+what were wrong with the feeds ?
+were the feed here ?
+were the feeds here ?
+were the feed where they should be ?
+were the feeds where they should be ?
+where are the press ?
+where are the presses ?
+what are the press ?
+what are the presses ?
+what are wrong with the press ?
+what are wrong with the presses ?
+are the press here ?
+are the presses here ?
+are the press where they should be ?
+are the presses where they should be ?
+where were the card ?
+where were the cards ?
+what were the card ?
+what were the cards ?
+what were wrong with the card ?
+what were wrong with the cards ?
+were the card here ?
+were the cards here ?
+were the card where they should be ?
+were the cards where they should be ?
+where were the mix ?
+where were the mixes ?
+what were the mix ?
+what were the mixes ?
+what were wrong with the mix ?
+what were wrong with the mixes ?
+were the mix here ?
+were the mixes here ?
+were the mix where they should be ?
+were the mixes where they should be ?
+where is the moment ?
+where is the moments ?
+what is the moment ?
+what is the moments ?
+what is wrong with the moment ?
+what is wrong with the moments ?
+is the moment here ?
+is the moments here ?
+is the moment where it should be ?
+is the moments where it should be ?
+where were the dream ?
+where were the dreams ?
+what were the dream ?
+what were the dreams ?
+what were wrong with the dream ?
+what were wrong with the dreams ?
+were the dream here ?
+were the dreams here ?
+were the dream where they should be ?
+were the dreams where they should be ?
+where was the platform ?
+where was the platforms ?
+what was the platform ?
+what was the platforms ?
+what was wrong with the platform ?
+what was wrong with the platforms ?
+was the platform here ?
+was the platforms here ?
+was the platform where it should be ?
+was the platforms where it should be ?
+where are the platform ?
+where are the platforms ?
+what are the platform ?
+what are the platforms ?
+what are wrong with the platform ?
+what are wrong with the platforms ?
+are the platform here ?
+are the platforms here ?
+are the platform where they should be ?
+are the platforms where they should be ?
+where is the issue ?
+where is the issues ?
+what is the issue ?
+what is the issues ?
+what is wrong with the issue ?
+what is wrong with the issues ?
+is the issue here ?
+is the issues here ?
+is the issue where it should be ?
+is the issues where it should be ?
+where were the copy ?
+where were the copies ?
+what were the copy ?
+what were the copies ?
+what were wrong with the copy ?
+what were wrong with the copies ?
+were the copy here ?
+were the copies here ?
+were the copy where they should be ?
+were the copies where they should be ?
+where is the woman ?
+where is the women ?
+what is the woman ?
+what is the women ?
+what is wrong with the woman ?
+what is wrong with the women ?
+is the woman here ?
+is the women here ?
+is the woman where it should be ?
+is the women where it should be ?
+where were the egg ?
+where were the eggs ?
+what were the egg ?
+what were the eggs ?
+what were wrong with the egg ?
+what were wrong with the eggs ?
+were the egg here ?
+were the eggs here ?
+were the egg where they should be ?
+were the eggs where they should be ?
+where is the college ?
+where is the colleges ?
+what is the college ?
+what is the colleges ?
+what is wrong with the college ?
+what is wrong with the colleges ?
+is the college here ?
+is the colleges here ?
+is the college where it should be ?
+is the colleges where it should be ?
+where were the team ?
+where were the teams ?
+what were the team ?
+what were the teams ?
+what were wrong with the team ?
+what were wrong with the teams ?
+were the team here ?
+were the teams here ?
+were the team where they should be ?
+were the teams where they should be ?
+where were the baby ?
+where were the babies ?
+what were the baby ?
+what were the babies ?
+what were wrong with the baby ?
+what were wrong with the babies ?
+were the baby here ?
+were the babies here ?
+were the baby where they should be ?
+were the babies where they should be ?
+where were the stand ?
+where were the stands ?
+what were the stand ?
+what were the stands ?
+what were wrong with the stand ?
+what were wrong with the stands ?
+were the stand here ?
+were the stands here ?
+were the stand where they should be ?
+were the stands where they should be ?
+where were the edge ?
+where were the edges ?
+what were the edge ?
+what were the edges ?
+what were wrong with the edge ?
+what were wrong with the edges ?
+were the edge here ?
+were the edges here ?
+were the edge where they should be ?
+were the edges where they should be ?
+where were the opportunity ?
+where were the opportunities ?
+what were the opportunity ?
+what were the opportunities ?
+what were wrong with the opportunity ?
+what were wrong with the opportunities ?
+were the opportunity here ?
+were the opportunities here ?
+were the opportunity where they should be ?
+were the opportunities where they should be ?
+where are the stand ?
+where are the stands ?
+what are the stand ?
+what are the stands ?
+what are wrong with the stand ?
+what are wrong with the stands ?
+are the stand here ?
+are the stands here ?
+are the stand where they should be ?
+are the stands where they should be ?
+where are the decade ?
+where are the decades ?
+what are the decade ?
+what are the decades ?
+what are wrong with the decade ?
+what are wrong with the decades ?
+are the decade here ?
+are the decades here ?
+are the decade where they should be ?
+are the decades where they should be ?
+where are the crystal ?
+where are the crystals ?
+what are the crystal ?
+what are the crystals ?
+what are wrong with the crystal ?
+what are wrong with the crystals ?
+are the crystal here ?
+are the crystals here ?
+are the crystal where they should be ?
+are the crystals where they should be ?
+where is the floor ?
+where is the floors ?
+what is the floor ?
+what is the floors ?
+what is wrong with the floor ?
+what is wrong with the floors ?
+is the floor here ?
+is the floors here ?
+is the floor where it should be ?
+is the floors where it should be ?
+where are the heart ?
+where are the hearts ?
+what are the heart ?
+what are the hearts ?
+what are wrong with the heart ?
+what are wrong with the hearts ?
+are the heart here ?
+are the hearts here ?
+are the heart where they should be ?
+are the hearts where they should be ?
+where are the bit ?
+where are the bits ?
+what are the bit ?
+what are the bits ?
+what are wrong with the bit ?
+what are wrong with the bits ?
+are the bit here ?
+are the bits here ?
+are the bit where they should be ?
+are the bits where they should be ?
+where were the ocean ?
+where were the oceans ?
+what were the ocean ?
+what were the oceans ?
+what were wrong with the ocean ?
+what were wrong with the oceans ?
+were the ocean here ?
+were the oceans here ?
+were the ocean where they should be ?
+were the oceans where they should be ?
+where are the heart ?
+where are the hearts ?
+what are the heart ?
+what are the hearts ?
+what are wrong with the heart ?
+what are wrong with the hearts ?
+are the heart here ?
+are the hearts here ?
+are the heart where they should be ?
+are the hearts where they should be ?
+where were the kind ?
+where were the kinds ?
+what were the kind ?
+what were the kinds ?
+what were wrong with the kind ?
+what were wrong with the kinds ?
+were the kind here ?
+were the kinds here ?
+were the kind where they should be ?
+were the kinds where they should be ?
+where were the wing ?
+where were the wings ?
+what were the wing ?
+what were the wings ?
+what were wrong with the wing ?
+what were wrong with the wings ?
+were the wing here ?
+were the wings here ?
+were the wing where they should be ?
+were the wings where they should be ?
+where was the place ?
+where was the places ?
+what was the place ?
+what was the places ?
+what was wrong with the place ?
+what was wrong with the places ?
+was the place here ?
+was the places here ?
+was the place where it should be ?
+was the places where it should be ?
+where is the mix ?
+where is the mixes ?
+what is the mix ?
+what is the mixes ?
+what is wrong with the mix ?
+what is wrong with the mixes ?
+is the mix here ?
+is the mixes here ?
+is the mix where it should be ?
+is the mixes where it should be ?
+where were the kind ?
+where were the kinds ?
+what were the kind ?
+what were the kinds ?
+what were wrong with the kind ?
+what were wrong with the kinds ?
+were the kind here ?
+were the kinds here ?
+were the kind where they should be ?
+were the kinds where they should be ?
+where are the noise ?
+where are the noises ?
+what are the noise ?
+what are the noises ?
+what are wrong with the noise ?
+what are wrong with the noises ?
+are the noise here ?
+are the noises here ?
+are the noise where they should be ?
+are the noises where they should be ?
+where were the fellow ?
+where were the fellows ?
+what were the fellow ?
+what were the fellows ?
+what were wrong with the fellow ?
+what were wrong with the fellows ?
+were the fellow here ?
+were the fellows here ?
+were the fellow where they should be ?
+were the fellows where they should be ?
+where are the glass ?
+where are the glasses ?
+what are the glass ?
+what are the glasses ?
+what are wrong with the glass ?
+what are wrong with the glasses ?
+are the glass here ?
+are the glasses here ?
+are the glass where they should be ?
+are the glasses where they should be ?
+where was the change ?
+where was the changes ?
+what was the change ?
+what was the changes ?
+what was wrong with the change ?
+what was wrong with the changes ?
+was the change here ?
+was the changes here ?
+was the change where it should be ?
+was the changes where it should be ?
+where are the turn ?
+where are the turns ?
+what are the turn ?
+what are the turns ?
+what are wrong with the turn ?
+what are wrong with the turns ?
+are the turn here ?
+are the turns here ?
+are the turn where they should be ?
+are the turns where they should be ?
+where is the stop ?
+where is the stops ?
+what is the stop ?
+what is the stops ?
+what is wrong with the stop ?
+what is wrong with the stops ?
+is the stop here ?
+is the stops here ?
+is the stop where it should be ?
+is the stops where it should be ?
+where was the catch ?
+where was the catches ?
+what was the catch ?
+what was the catches ?
+what was wrong with the catch ?
+what was wrong with the catches ?
+was the catch here ?
+was the catches here ?
+was the catch where it should be ?
+was the catches where it should be ?
+where was the store ?
+where was the stores ?
+what was the store ?
+what was the stores ?
+what was wrong with the store ?
+what was wrong with the stores ?
+was the store here ?
+was the stores here ?
+was the store where it should be ?
+was the stores where it should be ?
+where were the camera ?
+where were the cameras ?
+what were the camera ?
+what were the cameras ?
+what were wrong with the camera ?
+what were wrong with the cameras ?
+were the camera here ?
+were the cameras here ?
+were the camera where they should be ?
+were the cameras where they should be ?
+where is the track ?
+where is the tracks ?
+what is the track ?
+what is the tracks ?
+what is wrong with the track ?
+what is wrong with the tracks ?
+is the track here ?
+is the tracks here ?
+is the track where it should be ?
+is the tracks where it should be ?
+where is the opportunity ?
+where is the opportunities ?
+what is the opportunity ?
+what is the opportunities ?
+what is wrong with the opportunity ?
+what is wrong with the opportunities ?
+is the opportunity here ?
+is the opportunities here ?
+is the opportunity where it should be ?
+is the opportunities where it should be ?
+where is the cast ?
+where is the casts ?
+what is the cast ?
+what is the casts ?
+what is wrong with the cast ?
+what is wrong with the casts ?
+is the cast here ?
+is the casts here ?
+is the cast where it should be ?
+is the casts where it should be ?
+where are the ball ?
+where are the balls ?
+what are the ball ?
+what are the balls ?
+what are wrong with the ball ?
+what are wrong with the balls ?
+are the ball here ?
+are the balls here ?
+are the ball where they should be ?
+are the balls where they should be ?
+where was the distance ?
+where was the distances ?
+what was the distance ?
+what was the distances ?
+what was wrong with the distance ?
+what was wrong with the distances ?
+was the distance here ?
+was the distances here ?
+was the distance where it should be ?
+was the distances where it should be ?
+where was the catch ?
+where was the catches ?
+what was the catch ?
+what was the catches ?
+what was wrong with the catch ?
+what was wrong with the catches ?
+was the catch here ?
+was the catches here ?
+was the catch where it should be ?
+was the catches where it should be ?
+where is the man ?
+where is the men ?
+what is the man ?
+what is the men ?
+what is wrong with the man ?
+what is wrong with the men ?
+is the man here ?
+is the men here ?
+is the man where it should be ?
+is the men where it should be ?
+where are the service ?
+where are the services ?
+what are the service ?
+what are the services ?
+what are wrong with the service ?
+what are wrong with the services ?
+are the service here ?
+are the services here ?
+are the service where they should be ?
+are the services where they should be ?
+where are the office ?
+where are the offices ?
+what are the office ?
+what are the offices ?
+what are wrong with the office ?
+what are wrong with the offices ?
+are the office here ?
+are the offices here ?
+are the office where they should be ?
+are the offices where they should be ?
+where was the record ?
+where was the records ?
+what was the record ?
+what was the records ?
+what was wrong with the record ?
+what was wrong with the records ?
+was the record here ?
+was the records here ?
+was the record where it should be ?
+was the records where it should be ?
+where is the wing ?
+where is the wings ?
+what is the wing ?
+what is the wings ?
+what is wrong with the wing ?
+what is wrong with the wings ?
+is the wing here ?
+is the wings here ?
+is the wing where it should be ?
+is the wings where it should be ?
+where are the egg ?
+where are the eggs ?
+what are the egg ?
+what are the eggs ?
+what are wrong with the egg ?
+what are wrong with the eggs ?
+are the egg here ?
+are the eggs here ?
+are the egg where they should be ?
+are the eggs where they should be ?
+where were the foot ?
+where were the feet ?
+what were the foot ?
+what were the feet ?
+what were wrong with the foot ?
+what were wrong with the feet ?
+were the foot here ?
+were the feet here ?
+were the foot where they should be ?
+were the feet where they should be ?
+where is the college ?
+where is the colleges ?
+what is the college ?
+what is the colleges ?
+what is wrong with the college ?
+what is wrong with the colleges ?
+is the college here ?
+is the colleges here ?
+is the college where it should be ?
+is the colleges where it should be ?
+where were the fellow ?
+where were the fellows ?
+what were the fellow ?
+what were the fellows ?
+what were wrong with the fellow ?
+what were wrong with the fellows ?
+were the fellow here ?
+were the fellows here ?
+were the fellow where they should be ?
+were the fellows where they should be ?
+where was the sky ?
+where was the skies ?
+what was the sky ?
+what was the skies ?
+what was wrong with the sky ?
+what was wrong with the skies ?
+was the sky here ?
+was the skies here ?
+was the sky where it should be ?
+was the skies where it should be ?
+where is the face ?
+where is the faces ?
+what is the face ?
+what is the faces ?
+what is wrong with the face ?
+what is wrong with the faces ?
+is the face here ?
+is the faces here ?
+is the face where it should be ?
+is the faces where it should be ?
+where are the bit ?
+where are the bits ?
+what are the bit ?
+what are the bits ?
+what are wrong with the bit ?
+what are wrong with the bits ?
+are the bit here ?
+are the bits here ?
+are the bit where they should be ?
+are the bits where they should be ?
+where are the matter ?
+where are the matters ?
+what are the matter ?
+what are the matters ?
+what are wrong with the matter ?
+what are wrong with the matters ?
+are the matter here ?
+are the matters here ?
+are the matter where they should be ?
+are the matters where they should be ?
+where were the honor ?
+where were the honors ?
+what were the honor ?
+what were the honors ?
+what were wrong with the honor ?
+what were wrong with the honors ?
+were the honor here ?
+were the honors here ?
+were the honor where they should be ?
+were the honors where they should be ?
+where were the team ?
+where were the teams ?
+what were the team ?
+what were the teams ?
+what were wrong with the team ?
+what were wrong with the teams ?
+were the team here ?
+were the teams here ?
+were the team where they should be ?
+were the teams where they should be ?
+where is the copy ?
+where is the copies ?
+what is the copy ?
+what is the copies ?
+what is wrong with the copy ?
+what is wrong with the copies ?
+is the copy here ?
+is the copies here ?
+is the copy where it should be ?
+is the copies where it should be ?
+where is the egg ?
+where is the eggs ?
+what is the egg ?
+what is the eggs ?
+what is wrong with the egg ?
+what is wrong with the eggs ?
+is the egg here ?
+is the eggs here ?
+is the egg where it should be ?
+is the eggs where it should be ?

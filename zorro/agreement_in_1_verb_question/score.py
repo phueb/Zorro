@@ -13,12 +13,24 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
 
     for pair in pairs:
         s1, s2 = pair
+        # template 1
         if s1[0] == 'where' and s2[0] == 'where':
             template2pairs.setdefault(templates[0], []).append(pair)
-        elif s1[0] == 'what' and s2[0] == 'what':
+        # template 2
+        elif s1[0] == 'what' and s2[0] == 'what' and s1[2] == 'the' and s2[2] == 'the':
             template2pairs.setdefault(templates[1], []).append(pair)
-        elif s1[-2] == 'here' and s2[-2] == 'here':
+        # template 3
+        elif s1[0] == 'what' and s2[0] == 'what' and s1[2] == 'wrong' and s2[2] == 'wrong':
             template2pairs.setdefault(templates[2], []).append(pair)
+        # template 4
+        elif s1[1] == 'the' and s2[1] == 'the' and s1[-2] == 'here' and s2[-2] == 'here':
+            template2pairs.setdefault(templates[3], []).append(pair)
+        # template 5
+        elif s1[1] == 'the' and s2[1] == 'the' and s1[4] == 'it' and s2[4] == 'it':
+            template2pairs.setdefault(templates[4], []).append(pair)
+        # template 6
+        elif s1[1] == 'the' and s2[1] == 'the' and s1[4] == 'they' and s2[4] == 'they':
+            template2pairs.setdefault(templates[5], []).append(pair)
         else:
             raise ValueError(f'Failed to categorize {pair} to template.')
     return template2pairs

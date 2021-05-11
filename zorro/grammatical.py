@@ -21,15 +21,17 @@ def check_agreement_between_two_words(
     wlp = None  # left plural
     wrs = None  # right singular
     wrp = None  # right plural
-    for wr, wl in zip(sentence, reversed(sentence)):
-        if wls is None and wlp is None and wr in words_left_s:
-            wls = wr
-        elif wls is None and wlp is None and wr in words_left_p:
-            wlp = wr
-        if wrs is None and wrp is None and wl in words_right_s:
-            wrs = wl
-        elif wrs is None and wrp is None and wl in words_right_p:
-            wrp = wl
+    for wl, wr in zip(sentence, reversed(sentence)):
+        # left
+        if wls is None and wlp is None and wl in words_left_s:
+            wls = wl
+        elif wls is None and wlp is None and wl in words_left_p:
+            wlp = wl
+        # right
+        if wrs is None and wrp is None and wr in words_right_s:
+            wrs = wr
+        elif wrs is None and wrp is None and wr in words_right_p:
+            wrp = wr
 
     return True if (wls and wrs) or (wlp and wrp) else False
 
