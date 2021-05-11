@@ -17,10 +17,9 @@ class Data:
     unk_symbol = '<unk>'
     space_symbol = 'Ġ'
     vocab_size = 8192
-    # vocab_size = 32768
-    vocab_name = f'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{vocab_size}'
+    vocab_name_template = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{}'
     min_total_f = 10  # a task word must occur at least this number of times across all corpora
-    bias_tolerance = 1000  # for nouns and adjectives, but not necessarily verbs
+    bias_tolerance = 2000  # for nouns and adjectives, but not necessarily verbs
     min_num_task_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
     control_name_1gram = 'frequency baseline'
@@ -31,10 +30,10 @@ class Data:
 
 class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
-    steps = [i for i in range(0, 200_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [1, 4]]
+    steps = [0, 60_000, 120_000, 180_000]
+    param_names = None  # [f'param_{i:03}' for i in [1, 4]]
     raise_error_on_missing_group = True
-    conditions = ['corpora', 'lr']  # can be empty list
+    conditions = ['corpora', 'tokenizer', 'lr']  # can be empty list
     included_params = {}
     num_control_reps = 2
 
@@ -42,7 +41,7 @@ class Eval:
 class Figs:
     lw = 1
     ax_font_size = 12
-    leg_font_size = 10
+    leg_font_size = 8
     dpi = 163
     title_font_size = 8
-    tick_font_size = 8
+    tick_font_size = 6

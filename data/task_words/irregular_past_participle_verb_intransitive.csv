@@ -135,7 +135,7 @@ students,0,0
 though,0,0
 big,1,0
 political,1,0
-help,0,1
+help,0,0
 important,1,0
 place,0,1
 led,0,0
@@ -149,7 +149,7 @@ death,0,1
 without,0,0
 john,0,0
 left,1,0
-air,0,1
+air,0,0
 king,0,1
 less,0,0
 times,0,0
@@ -670,7 +670,7 @@ asked,0,0
 mid,0,0
 results,0,0
 returned,1,0
-ice,0,1
+ice,0,0
 worked,0,0
 elected,1,0
 test,0,1

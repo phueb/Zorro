@@ -1,10 +1,6 @@
+import random
 
-from zorro.agreement_in_2_verb_question.shared import paradigm, plural
-from zorro.agreement_in_2_verb_question.shared import doing_plural, doing_singular
-from zorro.task_words import get_task_word_combo
-from zorro.vocab import get_vocab_words
-
-NUM_NOUNS = 100
+NUM_NOUNS = 90
 
 template1 = 'where {} the {} go ?'
 template2 = 'what {} the {} do ?'
@@ -23,20 +19,37 @@ def main():
     "where does the dog go?"
     "what does the dog do?"
     """
+
+    from zorro.agreement_in_2_verb_question.shared import paradigm, plural
+    from zorro.agreement_in_2_verb_question.shared import doing_plural, doing_singular
+    from zorro.task_words import get_task_words
+    from zorro.vocab import get_vocab_words
+    from zorro import configs
+
     noun_plurals = get_vocab_words(tag='NNS')
+    nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
 
-    for doing in doing_plural + doing_singular:
+    num_pairs = 0
 
-        for (noun_s,) in get_task_word_combo(paradigm, rules.keys()):
-            noun_p = plural.plural(noun_s)
-            if noun_p not in noun_plurals or noun_p == noun_s:
-                continue
+    while num_pairs < configs.Data.num_pairs_per_paradigm:
 
-            yield template1.format(doing, noun_s)
-            yield template1.format(doing, noun_p)
+        # TODO this paradigm creates duplicates
 
-            yield template2.format(doing, noun_s)
-            yield template2.format(doing, noun_p)
+        noun_s = random.choice(nouns_s)
+        noun_p = plural.plural(noun_s)
+        if noun_p not in noun_plurals or noun_p == noun_s:
+            continue
+
+        # random choices
+        doing = random.choice(doing_singular + doing_plural)
+
+        yield template1.format(doing, noun_s)
+        yield template1.format(doing, noun_p)
+
+        yield template2.format(doing, noun_s)
+        yield template2.format(doing, noun_p)
+
+        num_pairs += 2
 
 
 if __name__ == '__main__':

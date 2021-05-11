@@ -1,7 +1,9 @@
 import random
 
 NUM_ADJECTIVES = 50
-NUM_NOUNS = 100
+NUM_NOUNS = 90
+
+template = '{} {} {} {} {} .'
 
 
 def main():
@@ -12,7 +14,7 @@ def main():
     """
 
     from zorro.irregular_past_participle_verb_intransitive.shared import paradigm, verbs_base, determiners
-    from zorro.irregular_past_participle_verb_intransitive.shared import vb2vbd_vbn_intransitive as vb2vbd_vbn
+    from zorro.irregular_past_participle_verb_intransitive.shared import vb2vbd_vbn_intransitive
     from zorro.task_words import get_task_words
     from zorro.vocab import get_vocab_words
     from zorro import configs
@@ -29,18 +31,13 @@ def main():
         # random choices
         noun = random.choice(nouns_s)
         verb_base = random.choice(verbs_base)  # these are not counterbalanced across corpora (and probably need not)
-
-        # template is specific to verb-class
-        template = '{} {} {} {} {} .'.format(
-                random.choice(determiners),
-                random.choice(adjectives),
-                '{}',
-                '{}',
-                random.choice(modifiers))
+        det = random.choice(determiners)
+        adj = random.choice(adjectives)
+        mod = random.choice(modifiers)
 
         # get two contrasting irregular inflected forms
         try:
-            vbd, vbn = vb2vbd_vbn[verb_base]  # past, past participle
+            vbd, vbn = vb2vbd_vbn_intransitive[verb_base]  # past, past participle
         except KeyError:  # verb is not in irregular collection
             continue
         if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
@@ -48,12 +45,12 @@ def main():
             continue
 
         # vbd is correct
-        yield template.format(noun, vbd)
-        yield template.format(noun, vbn)
+        yield template.format(det, adj, noun, vbd, mod)
+        yield template.format(det, adj, noun, vbn, mod)
 
         # vbn is correct
-        yield template.format(noun, 'had ' + vbd)
-        yield template.format(noun, 'had ' + vbn)
+        yield template.format(det, adj, noun, 'had ' + vbd, mod)
+        yield template.format(det, adj, noun, 'had ' + vbn, mod)
 
         num_pairs += 2
 

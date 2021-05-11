@@ -60,7 +60,6 @@ def count_correct_choices(pairs: List[Tuple[List[str], List[str]]],
 def check_pairs_for_grammar(pairs: List[Tuple[List[str], List[str]]],
                             grammar_checker: Callable,
                             ) -> List[Tuple[bool, bool]]:
-    nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 
     res = []
 
@@ -68,14 +67,10 @@ def check_pairs_for_grammar(pairs: List[Tuple[List[str], List[str]]],
         is_grammatical1 = grammar_checker(s1)
         is_grammatical2 = grammar_checker(s2)
 
-        if len({is_grammatical1, is_grammatical2}) != 2:  # check that only 1 but not both are True
-            for na in nas:
-                if na in s1:  # a noun with an ambiguous number can cause s1 and s2 to be identical
-                    raise RuntimeError('Detected noun with ambiguous number')
-            else:
-                print(s1, is_grammatical1)
-                print(s2, is_grammatical2)
-                raise ValueError('Only one sentence per pair can be correct/agree in number.')
+        if len({is_grammatical1, is_grammatical2}) == 1:  # are both False or both True?
+            print(s1, is_grammatical1)
+            print(s2, is_grammatical2)
+            raise ValueError('Only one sentence per pair can be correct/agree in number.')
 
         res.append((is_grammatical1, is_grammatical2))
 

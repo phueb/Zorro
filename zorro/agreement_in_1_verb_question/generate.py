@@ -1,13 +1,13 @@
 import random
 
-NUM_NOUNS = 100
+NUM_NOUNS = 90
 
 template1 = 'where {} the {} ?'
 template2 = 'what {} the {} ?'
 template3 = 'what {} wrong with the {} ?'
 template4 = '{} the {} here ?'
-template5 = '{} the {} where it belongs ?'
-template6 = '{} the {} where they belong ?'
+template5 = '{} the {} where it should be ?'
+template6 = '{} the {} where they should be ?'
 
 rules = {
     ('NN', 0, NUM_NOUNS): [
@@ -30,7 +30,7 @@ def main():
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    nouns_s = get_task_words(paradigm, tag='NN')
+    nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
 
     num_pairs = 0
 

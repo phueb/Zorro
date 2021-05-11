@@ -1,10 +1,11 @@
 import random
 
 NUM_ADJECTIVES = 50
-NUM_NOUNS = 100
+NUM_NOUNS = 90
 
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'
+template3 = '{} {} {} were here .'
 
 rules = {
     ('JJ', 0, NUM_ADJECTIVES): [
@@ -31,8 +32,8 @@ def main():
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    adjectives = get_task_words(paradigm, tag='JJ')
-    nouns_s = get_task_words(paradigm, tag='NN')
+    adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
 
     num_pairs = 0
 
@@ -53,7 +54,10 @@ def main():
         yield template2.format(pre_nominal, adj, noun_s)
         yield template2.format(pre_nominal, adj, noun_p)
 
-        num_pairs += 2
+        yield template3.format(pre_nominal, adj, noun_s)
+        yield template3.format(pre_nominal, adj, noun_p)
+
+        num_pairs += 3  # TODO incrementing by odd num pairs will never result in exactly 1K num pairs
 
 
 if __name__ == '__main__':

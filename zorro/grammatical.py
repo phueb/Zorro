@@ -1,4 +1,4 @@
-from typing import Tuple, List
+from typing import Tuple, List, Dict
 
 
 def check_agreement_between_two_words(
@@ -34,8 +34,21 @@ def check_agreement_between_two_words(
     return True if (wls and wrs) or (wlp and wrp) else False
 
 
-def check_irregular_past_participle(word: str,
+def check_irregular_past_participle_verb(vb2vbd_vbn: Dict[str, Tuple[str, str]],
+                                         vb_position: int,
+                                         sentence: List[str],
+                                         ) -> bool:
 
-                                    ) -> bool:
+    # TODO test this for all paradigms
 
-    raise NotImplementedError
+    vbds = [vbd for vbd, vbn in vb2vbd_vbn.values()]
+
+    verb = sentence[vb_position]
+    right_neighbor = sentence[vb_position + 1]
+
+    if verb == 'had' and right_neighbor not in vbds:
+        return True
+    elif verb in vbds:
+        return True
+    else:
+        return False

@@ -42,9 +42,7 @@ class Visualizer:
         self.label_last_x_tick_only = label_last_x_tick_only
         self.x_ticks = configs.Eval.steps
 
-
-
-        self.axes = (ax for ax in self.ax_mat.flatten())
+        self.axes = enumerate(ax for ax in self.ax_mat.flatten())
         self.pds = []  # data, one for each axis/paradigm
 
     def update(self, pd: ParadigmData,
@@ -53,17 +51,22 @@ class Visualizer:
         self.pds.append(pd)
 
         # axis
-        ax = next(self.axes)
-        ax.set_title(pd.name)
-        ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
-        ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
+        ax_id, ax = next(self.axes)
+        ax.set_title(pd.name, fontsize=configs.Figs.ax_font_size)
+        if ax_id % self.ax_mat.shape[1] == 0:
+            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
+        if ax_id >= self.ax_mat.shape[0] * (self.ax_mat.shape[1] - 1) - 1:
+            ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
-        ax.set_xticks(self.x_ticks)
         if self.label_last_x_tick_only:
             x_tick_labels = ['' if n < len(self.x_ticks) - 1 else i for n, i in enumerate(self.x_ticks)]
         else:
             x_tick_labels = self.x_ticks
+        y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        ax.set_yticks(y_ticks)
+        ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+        ax.set_xticks(self.x_ticks)
         ax.set_xticklabels(x_tick_labels, fontsize=configs.Figs.tick_font_size)
         ax.set_ylim(self.y_lims)
 
@@ -80,13 +83,12 @@ class Visualizer:
         legend_elements = [Patch(facecolor=f'C{labels.index(label)}', label=label)
                            for label in labels]
 
-        for ax in self.axes:
+        for ax_id, ax in self.axes:
             ax.axis('off')
 
         # legend
         self.fig.legend(handles=legend_elements,
                         loc='upper center',
-                        prop={'size': 10},
                         bbox_to_anchor=(0.5, 0.2),  # distance from bottom-left (move up into  empty axes)
                         ncol=1,
                         frameon=False,

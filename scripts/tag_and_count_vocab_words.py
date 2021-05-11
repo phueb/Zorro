@@ -10,7 +10,7 @@ from pathlib import Path
 import pandas as pd
 from zorro import configs
 
-VOCAB_SIZE = 32768
+VOCAB_SIZE = 16384
 PATH_TOKENIZER = f'/home/ph/BabyBERTa/data/tokenizers/a-a-w-w-w-{VOCAB_SIZE}.json'
 PATH_CORPORA = '/home/ph/BabyBERTa/data/corpora'
 DRY_RUN = False

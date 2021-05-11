@@ -4,9 +4,13 @@ import pandas as pd
 from zorro import configs
 
 
-def get_vocab_words(vocab_name: str = configs.Data.vocab_name,
+def get_vocab_words(vocab_name: Optional[str] = None,
                     tag: Optional[str] = None,
                     ) -> List[str]:
+
+    if vocab_name is None:
+        vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
+
     df = load_vocab_df(vocab_name)
     res = []
     for vw, vw_series in df.iterrows():
@@ -17,10 +21,14 @@ def get_vocab_words(vocab_name: str = configs.Data.vocab_name,
     return res
 
 
-def get_frequency(vocab_name: str = configs.Data.vocab_name,
+def get_frequency(vocab_name: Optional[str] = None,
                   tag: Optional[str] = None,
                   corpus_initial: Optional[str] = 'total',
                   ) -> List[int]:
+
+    if vocab_name is None:
+        vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
+
     df = load_vocab_df(vocab_name)
     res = []
     for vw, vw_series in df.iterrows():
@@ -32,9 +40,15 @@ def get_frequency(vocab_name: str = configs.Data.vocab_name,
     return res
 
 
-def load_vocab_df(vocab_name: str = configs.Data.vocab_name,
+def load_vocab_df(vocab_name: Optional[str] = None,
                   return_excluded_words: bool = False,
                   ) -> pd.DataFrame:
+
+    if vocab_name is None:
+        vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
+
+    print(f'Loading vocab data frame with name={vocab_name}')
+
     path = configs.Dirs.data / 'vocab_words' / f'{vocab_name}.csv'
     df = pd.read_csv(path, index_col=0, na_filter=False, dtype={'is_excluded': bool})
 

@@ -1,6 +1,6 @@
 import random
 
-NUM_NOUNS = 100
+NUM_NOUNS = 90
 
 template1 = '{} {} must be here .'
 template2 = '{} {} can be here .'
@@ -25,7 +25,7 @@ def main():
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    nouns_s = get_task_words(paradigm, tag='NN')
+    nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
 
     num_pairs = 0
 

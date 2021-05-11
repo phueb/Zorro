@@ -1,7 +1,7 @@
 import random
 
-NUM_ADJECTIVES = 20
-NUM_NOUNS = 50
+NUM_ADJECTIVES = 50
+NUM_NOUNS = 90
 
 template1 = 'look at {} {} {} {} .'
 template2 = '{} {} {} {} went there .'
@@ -35,8 +35,8 @@ def main():
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    adjectives = get_task_words(paradigm, tag='JJ')
-    nouns_s = get_task_words(paradigm, tag='NN')
+    adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
 
     num_pairs = 0
 

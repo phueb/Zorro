@@ -1,6 +1,6 @@
 import random
 
-NUM_NOUNS = 100
+NUM_NOUNS = 90
 NUM_ADJECTIVES = 50
 
 template1 = 'the {} on the {} {} {} .'
@@ -44,7 +44,7 @@ def main():
     noun_plurals = get_vocab_words(tag='NNS')
     subjects_s = get_task_words(paradigm, tag='NN', order=0)
     objects_s = get_task_words(paradigm, tag='NN', order=1)
-    adjectives = get_task_words(paradigm, tag='JJ')
+    adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
 
     num_pairs = 0
 

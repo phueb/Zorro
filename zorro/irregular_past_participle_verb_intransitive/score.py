@@ -1,8 +1,8 @@
 from typing import List, Tuple, Dict
 from functools import partial
 
-from zorro.grammatical import check_irregular_past_participle
-from zorro.irregular_past_participle_verb_intransitive.shared import templates
+from zorro.grammatical import check_irregular_past_participle_verb
+from zorro.irregular_past_participle_verb_intransitive.shared import templates, vb2vbd_vbn_intransitive
 
 
 def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
@@ -12,7 +12,7 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
 
     for pair in pairs:
         s1, s2 = pair
-        if s1[0] == 'the' and s2[3] == 'the':
+        if s1[-1] == '.':
             template2pairs.setdefault(templates[0], []).append(pair)
 
         else:
@@ -21,6 +21,8 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
     return template2pairs
 
 
-grammar_checker = partial(check_irregular_past_participle,
-
+verb_position = 3  # zero-index
+grammar_checker = partial(check_irregular_past_participle_verb,
+                          vb2vbd_vbn_intransitive,
+                          verb_position,
                           )
