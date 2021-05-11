@@ -15,42 +15,49 @@ def main():
     from zorro.irregular_past_participle_verb_intransitive.shared import vb2vbd_vbn_intransitive as vb2vbd_vbn
     from zorro.task_words import get_task_words
     from zorro.vocab import get_vocab_words
+    from zorro import configs
 
     vocab = get_vocab_words()
     adjectives = get_task_words(paradigm, 'JJ', 0, NUM_ADJECTIVES)
-
     modifiers = ['just now', 'over there', 'some time ago', 'without us']
+    nouns_s = get_task_words(paradigm, 'NN', 0, NUM_NOUNS)
 
-    for noun in get_task_words(paradigm, 'NN', 0, NUM_NOUNS):
+    num_pairs = 0
 
-        for verb_base in verbs_base:  # these are not counterbalanced across corpora (and probably need not)
+    while num_pairs < configs.Data.num_pairs_per_paradigm:
 
-            # template is specific to verb-class
-            template = '{} {} {} {} {} .'.format(
-                    random.choice(determiners),
-                    random.choice(adjectives),
-                    '{}',
-                    '{}',
-                    random.choice(modifiers))
+        # random choices
+        noun = random.choice(nouns_s)
+        verb_base = random.choice(verbs_base)  # these are not counterbalanced across corpora (and probably need not)
 
-            # get two contrasting irregular inflected forms
-            try:
-                vbd, vbn = vb2vbd_vbn[verb_base]  # past, past participle
-            except KeyError:  # verb is not in irregular collection
-                continue
-            if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
-                print(f'"{verb_base:<22} excluded due to some forms not in vocab')
-                continue
+        # template is specific to verb-class
+        template = '{} {} {} {} {} .'.format(
+                random.choice(determiners),
+                random.choice(adjectives),
+                '{}',
+                '{}',
+                random.choice(modifiers))
 
-            # vbd is correct
-            yield template.format(noun, vbd)
-            yield template.format(noun, vbn)
+        # get two contrasting irregular inflected forms
+        try:
+            vbd, vbn = vb2vbd_vbn[verb_base]  # past, past participle
+        except KeyError:  # verb is not in irregular collection
+            continue
+        if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
+            # print(f'"{verb_base:<22} excluded due to some forms not in vocab')
+            continue
 
-            # vbn is correct
-            yield template.format(noun, 'had ' + vbd)
-            yield template.format(noun, 'had ' + vbn)
+        # vbd is correct
+        yield template.format(noun, vbd)
+        yield template.format(noun, vbn)
+
+        # vbn is correct
+        yield template.format(noun, 'had ' + vbd)
+        yield template.format(noun, 'had ' + vbn)
+
+        num_pairs += 2
 
 
 if __name__ == '__main__':
     for n, s in enumerate(main()):
-        print(f'{n:>12,}', s)
+        print(f'{n//2:>12,}', s)

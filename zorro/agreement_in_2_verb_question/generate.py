@@ -41,4 +41,4 @@ def main():
 
 if __name__ == '__main__':
     for n, s in enumerate(main()):
-        print(f'{n:>12,}', s)
+        print(f'{n//2:>12,}', s)

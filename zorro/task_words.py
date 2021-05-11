@@ -1,28 +1,10 @@
-from typing import List, Generator, Tuple, Optional
+from typing import List, Optional
 import pandas as pd
-from itertools import product
 import functools
 
 
 from zorro import configs
 from zorro.counterbalance import find_counterbalanced_subset
-
-
-def get_task_word_combo(paradigm: str,
-                        tag_orders_ns: List[Tuple[str, int, int]],
-                        seed: int = configs.Data.seed,
-                        verbose: bool = False,
-                        ) -> Generator[Tuple, None, None]:
-
-    word_lists = []
-    for tag, order, num_in_sample in tag_orders_ns:
-        wl = get_task_words(paradigm, tag, order, num_in_sample, seed)
-        word_lists.append(wl)
-        if verbose:
-            print(f'Randomly selected {num_in_sample}/{len(wl)} words with tag ={tag}')
-            print(word_lists[-1])
-    for combo in product(*word_lists):
-        yield combo
 
 
 @functools.lru_cache(maxsize=12)

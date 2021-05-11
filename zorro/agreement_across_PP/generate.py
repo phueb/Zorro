@@ -1,10 +1,7 @@
+import random
 
-from zorro.task_words import get_task_word_combo
-from zorro.agreement_across_PP.shared import paradigm, plural, copulas_singular, copulas_plural
-from zorro.vocab import get_vocab_words
-
-NUM_NOUNS = 50
-NUM_ADJECTIVES = 20
+NUM_NOUNS = 100
+NUM_ADJECTIVES = 50
 
 template1 = 'the {} on the {} {} {} .'
 template2 = 'the {} by the {} {} {} .'
@@ -39,41 +36,48 @@ def main():
         -plural   subjects occur with 50:50 singular:plural objects
     """
 
+    from zorro.task_words import get_task_words
+    from zorro.agreement_across_PP.shared import paradigm, plural, copulas_singular, copulas_plural
+    from zorro.vocab import get_vocab_words
+    from zorro import configs
+
     noun_plurals = get_vocab_words(tag='NNS')
+    subjects_s = get_task_words(paradigm, tag='NN', order=0)
+    objects_s = get_task_words(paradigm, tag='NN', order=1)
+    adjectives = get_task_words(paradigm, tag='JJ')
 
-    for copula in copulas_singular + copulas_plural:
+    num_pairs = 0
 
-        for sub_s, obj_s, adj in get_task_word_combo(paradigm, rules.keys()):
+    while num_pairs < configs.Data.num_pairs_per_paradigm:
 
-            # counter-balance singular vs plural with subj vs. obj
-            sub_p = plural.plural(sub_s)
-            obj_p = plural.plural(obj_s)
-            if sub_p not in noun_plurals or obj_p not in noun_plurals:
-                continue
-            if sub_s == sub_p or obj_s == obj_p:  # exclude nouns with ambiguous number
-                continue
+        # TODO duplicate combinations are not excluded - do not sample with replacement
 
-            # TEMPLATE 1
+        # counter-balance singular vs plural with subj vs. obj
+        sub_s = random.choice(objects_s)
+        obj_s = random.choice(subjects_s)
+        sub_p = plural.plural(sub_s)
+        obj_p = plural.plural(obj_s)
+        if sub_p not in noun_plurals or obj_p not in noun_plurals:
+            continue
+        if sub_s == sub_p or obj_s == obj_p:  # exclude nouns with ambiguous number
+            continue
 
-            # contrast is in number agreement between subject and copula
-            yield template1.format(sub_s, obj_s, copula, adj)
-            yield template1.format(sub_p, obj_s, copula, adj)
+        # random choices
+        template = random.choice([template1, template2])
+        copula = random.choice(copulas_singular + copulas_plural)
+        adj = random.choice(adjectives)
 
-            # same as above, except that object number is opposite
-            yield template1.format(sub_s, obj_p, copula, adj)
-            yield template1.format(sub_p, obj_p, copula, adj)
+        # contrast is in number agreement between subject and copula
+        yield template.format(sub_s, obj_s, copula, adj)
+        yield template.format(sub_p, obj_s, copula, adj)
 
-            # TEMPLATE 2
+        # same as above, except that object number is opposite
+        yield template.format(sub_s, obj_p, copula, adj)
+        yield template.format(sub_p, obj_p, copula, adj)
 
-            # contrast is in number agreement between subject and copula
-            yield template2.format(sub_s, obj_s, copula, adj)
-            yield template2.format(sub_p, obj_s, copula, adj)
-
-            # same as above, except that object number is opposite
-            yield template2.format(sub_s, obj_p, copula, adj)
-            yield template2.format(sub_p, obj_p, copula, adj)
+        num_pairs += 2
 
 
 if __name__ == '__main__':
     for n, s in enumerate(main()):
-        print(f'{n:>12,}', s)
+        print(f'{n//2:>12,}', s)

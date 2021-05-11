@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from typing import List, Optional, Dict
+from typing import List, Dict
 import yaml
 from pathlib import Path
 from matplotlib import rcParams

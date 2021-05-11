@@ -26,6 +26,8 @@ class Data:
     control_name_1gram = 'frequency baseline'
     control_names = [control_name_1gram]
 
+    num_pairs_per_paradigm = 1_000
+
 
 class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
