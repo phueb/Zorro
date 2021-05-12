@@ -12,17 +12,19 @@ from zorro.visualizer import Visualizer, ParadigmData
 
 SHOW_BAR_PLOTS = False
 
-# chose one
 PARADIGMS = [
+    # irregular forms
+    'irregular_verb_passive',
+    'irregular_verb_intransitive',
+    'irregular_verb_transitive',
+    # agreement
+    'agreement_in_1_verb_question',
+    'agreement_in_2_verb_question',
     'agreement_across_1_adjective',
     'agreement_across_2_adjectives',
     'agreement_across_PP',
     'agreement_across_RC',
-    'agreement_in_1_verb_question',
-    'agreement_in_2_verb_question',
     'agreement_between_neighbors',
-    'irregular_verb_intransitive',
-    'irregular_verb_transitive',
 ]
 
 # where to get files from?
@@ -42,10 +44,10 @@ def filter_by_step(prediction_file_path: Path,
 
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
-v = Visualizer(num_rows=3, num_cols=3)
+v = Visualizer(num_paradigms=len(PARADIGMS))
 
 for paradigm in PARADIGMS:
-    # load module containing task-relevant objects
+    # load module
     s = importlib.import_module(f'zorro.{paradigm}.score')
 
     # group_names

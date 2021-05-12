@@ -2,7 +2,7 @@ from typing import Dict, List, Callable, Tuple
 import numpy as np
 from pathlib import Path
 
-from zorro.forced_choice import check_pairs_for_grammar, count_correct_choices
+from zorro.scoring import check_pairs_for_grammar, count_correct_choices
 from zorro.data import DataExperimental, DataControl
 from zorro import configs
 
@@ -15,7 +15,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
                               ) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
-    :param paradigm: name of task, used to make control data
+    :param paradigm: name of paradigm, used to make control data
     :param templates: list of names for templates, one for each subplot
     :param categorize_by_template: function for separating sentences by template
     :param grammar_checker: function for checking grammar of each sentence in a pair
@@ -26,7 +26,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
 
     Multiple frequency-control groups are added.
 
-    this functions scores all prediction files associated with a single task,
+    this functions scores all prediction files associated with a single paradigm,
     and produces all results necessary to plot a single figure.
 
     'props' is a vector containing proportions, one proportion per replication

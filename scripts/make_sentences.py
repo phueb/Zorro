@@ -67,6 +67,6 @@ for vocab_size in VOCAB_SIZES:
                     num_saved_sentences += 1
 
             if not num_saved_sentences:
-                raise RuntimeError('Task did not generate any sentences.'
+                raise RuntimeError('Did not generate any sentences.'
                                    'This can occur if plural versions of singular nouns are not in vocab.')
             print(f'Saved {num_saved_sentences:>12,} sentences to {out_path}')

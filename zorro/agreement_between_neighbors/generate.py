@@ -25,13 +25,13 @@ def main():
     """
 
     from zorro.agreement_between_neighbors.shared import paradigm, plural, pre_nominals_plural, pre_nominals_singular
-    from zorro.task_words import get_task_words
+    from zorro.words import get_words_for_paradigm
     from zorro.vocab import get_vocab_words
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
-    adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    nouns_s = get_words_for_paradigm(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
+    adjectives = get_words_for_paradigm(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
 
     def gen_sentences():
         while True:

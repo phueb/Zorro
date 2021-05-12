@@ -14,10 +14,14 @@ templates = [
 
 determiners = ['the', 'this', 'one', 'your']
 
-adj_and_verb_forms = [
+vds_vns = [
     ('wore', 'worn'),
     ('broke', 'broken'),
     ('hid', 'hidden'),
     ('forgot', 'forgotten'),
     ('took', 'taken'),
+
+    # ditransitive
+    ('forbade', 'forbidden'),
+    ('gave', 'given'),
 ]

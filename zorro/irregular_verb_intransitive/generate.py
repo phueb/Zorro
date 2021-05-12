@@ -15,14 +15,14 @@ def main():
 
     from zorro.irregular_verb_intransitive.shared import paradigm, determiners
     from zorro.irregular_verb_intransitive.shared import vb2vbd_vbn_intransitive
-    from zorro.task_words import get_task_words
+    from zorro.words import get_words_for_paradigm
     from zorro.vocab import get_vocab_words
     from zorro import configs
 
     vocab = get_vocab_words()
-    adjectives = get_task_words(paradigm, 'JJ', 0, NUM_ADJECTIVES)
+    adjectives = get_words_for_paradigm(paradigm, 'JJ', 0, NUM_ADJECTIVES)
     modifiers = ['just now', 'over there', 'some time ago', 'without us']
-    nouns_s = get_task_words(paradigm, 'NN', 0, NUM_NOUNS)
+    nouns_s = get_words_for_paradigm(paradigm, 'NN', 0, NUM_NOUNS)
     verbs = list(vb2vbd_vbn_intransitive.keys())
 
     def gen_sentences():

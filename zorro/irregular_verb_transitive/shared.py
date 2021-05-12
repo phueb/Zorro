@@ -33,6 +33,7 @@ names = [
     'sarah',
     'laura',
     'santa',
+    'allen',
 ]
 
 
@@ -56,11 +57,4 @@ vb2vbd_vbn_transitive = {
     # optional
     'know': ('knew', 'known'),
     'see': ('saw', 'seen'),
-
-
-}
-vb2vbd_vbn_ditransitive = {
-    # ditransitive
-    'forbid': ('forbade', 'forbidden'),
-    'give': ('gave', 'given'),
 }

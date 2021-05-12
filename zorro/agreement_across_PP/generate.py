@@ -36,15 +36,15 @@ def main():
         -plural   subjects occur with 50:50 singular:plural objects
     """
 
-    from zorro.task_words import get_task_words
+    from zorro.words import get_words_for_paradigm
     from zorro.agreement_across_PP.shared import paradigm, plural, copulas_singular, copulas_plural
     from zorro.vocab import get_vocab_words
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    subjects_s = get_task_words(paradigm, tag='NN', order=0)
-    objects_s = get_task_words(paradigm, tag='NN', order=1)
-    adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    subjects_s = get_words_for_paradigm(paradigm, tag='NN', order=0)
+    objects_s = get_words_for_paradigm(paradigm, tag='NN', order=1)
+    adjectives = get_words_for_paradigm(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
 
     def gen_sentences():
 

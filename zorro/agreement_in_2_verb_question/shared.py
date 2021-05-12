@@ -1,7 +1,7 @@
 from pathlib import Path
 import inflect
 
-from zorro.task_words import get_task_words
+from zorro.words import get_words_for_paradigm
 
 plural = inflect.engine()
 
@@ -20,7 +20,7 @@ templates = [
     'when _ the _ start ?',
              ]
 
-# load task words
-nouns_singular = get_task_words(paradigm, 'NN')
+# load words
+nouns_singular = get_words_for_paradigm(paradigm, 'NN')
 nouns_plural = [plural.plural(n) for n in nouns_singular]
 

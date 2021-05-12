@@ -8,7 +8,7 @@ class Dirs:
     runs_local = root / 'runs'
     data = root / 'data'
     external_words = data / 'external_words'
-    task_words = data / 'task_words'
+    words_in_paradigm = data / 'words_in_paradigm'
 
 
 class Data:
@@ -18,9 +18,9 @@ class Data:
     space_symbol = 'Ġ'
     vocab_size = 8192
     vocab_name_template = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{}'
-    min_total_f = 10  # a task word must occur at least this number of times across all corpora
+    min_total_f = 10  # a word must occur at least this number of times across all corpora
     bias_tolerance = 2000  # for nouns and adjectives, but not necessarily verbs
-    min_num_task_words_per_slot = 20
+    min_num_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
     control_names = ['8192 frequency baseline']  #, '32768 frequency baseline']
 

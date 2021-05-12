@@ -36,7 +36,7 @@ def check_agreement_between_two_words(
     return True if (wls and wrs) or (wlp and wrp) else False
 
 
-def check_irregular_form(vb2vbd_vbn: Dict[str, Tuple[str, str]],
+def check_irregular_verb(vb2vbd_vbn: Dict[str, Tuple[str, str]],
                          vb_position: int,
                          sentence: List[str],
                          ) -> bool:
@@ -52,5 +52,16 @@ def check_irregular_form(vb2vbd_vbn: Dict[str, Tuple[str, str]],
         return True
     elif verb in vbds:
         return True
+    else:
+        return False
+
+
+def check_irregular_adjective(adjectives_correct: List[str],
+                              sentence: List[str],
+                              ) -> bool:
+
+    for w in sentence[:-2]:  # exclude adjective at end of sentence
+        if w in adjectives_correct:
+            return True
     else:
         return False

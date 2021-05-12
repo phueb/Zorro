@@ -24,20 +24,24 @@ class ParadigmData:
 
 class Visualizer:
     def __init__(self,
-                 num_rows: int = 2,
-                 num_cols: int = 2,
+                 num_paradigms: int,
                  label_last_x_tick_only: bool = True,
                  y_lims: Optional[List[float]] = None,
-                 fig_size: int = (6, 6),
-                 dpi: int = 192,
+                 fig_size: int = (6, 4),
+                 dpi: int = 300,
                  ):
-        self.fig, self.ax_mat = plt.subplots(num_rows + 1, num_cols,
+
+        num_cols = 4
+        num_paradigms_and_average = num_paradigms + 1
+        num_rows = num_paradigms_and_average // num_cols + 2
+
+        self.fig, self.ax_mat = plt.subplots(num_rows, num_cols,
                                              figsize=fig_size,
                                              dpi=dpi,
                                              constrained_layout=True)
 
         self.x_axis_label = 'Training Step'
-        self.y_axis_label = 'Proportion Correct'
+        self.y_axis_label = 'Accuracy'
         self.y_lims = y_lims or [0.5, 1.0]
         self.label_last_x_tick_only = label_last_x_tick_only
         self.x_ticks = configs.Eval.steps

@@ -1,5 +1,5 @@
 """
-present words in task template for human to judge as good or bad
+present words in template for human to judge as good or bad
 """
 import importlib
 import pandas as pd
@@ -23,18 +23,18 @@ vocab_df = load_vocab_df()
 nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 
 for paradigm in PARADIGMS:
-    # load  task-relevant objects
+    # load module
     g = importlib.import_module(f'zorro.{paradigm}.generate')
-    df_path = configs.Dirs.task_words / f'{paradigm}.csv'
+    df_path = configs.Dirs.words_in_paradigm / f'{paradigm}.csv'
     if not df_path.exists():
-        task_df = pd.DataFrame(columns=['word'] + [f'{tag}-{order}' for tag, order, _ in g.rules.keys()])
+        df_paradigm = pd.DataFrame(columns=['word'] + [f'{tag}-{order}' for tag, order, _ in g.rules.keys()])
     else:
-        task_df = pd.read_csv(df_path)
+        df_paradigm = pd.read_csv(df_path)
 
     # for each whole word in vocab, make new row for df
     for n, (vw, vw_series) in enumerate(vocab_df.iterrows()):
 
-        if vw in task_df['word'].tolist():
+        if vw in df_paradigm['word'].tolist():
             continue
         if vw_series['is_excluded']:
             continue
@@ -69,7 +69,7 @@ for paradigm in PARADIGMS:
                     else:
                         is_valid = False
 
-        task_df = task_df.append(row, ignore_index=True)
-        task_df.to_csv(df_path, index=False)
+        df_paradigm = df_paradigm.append(row, ignore_index=True)
+        df_paradigm.to_csv(df_path, index=False)
         print(row)
         print(f'\nSaved {n}/{len(vocab_df)}\n')

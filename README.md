@@ -40,8 +40,8 @@ e.g. for the task `agreement_across_adjectives`, annotators were given the instr
 
 To make test sentences for a new vocabulary:
 
-1. get vocab for making task words using `scripts/tag_and_count_vocab_words.py`
-2. make task words using `scripts/make_task_words.py`
+1. get vocab from which words will be chosen for inclusion in test sentences using `scripts/tag_and_count_vocab_words.py`
+2. chose words to be included for each paradigm using `scripts/chose_words_for_inclusion.py`
 2. make and save test sentences using `scripts/make_sentences.py`
 
 To score predictions made by your models:

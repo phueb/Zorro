@@ -1,8 +1,8 @@
 from typing import List, Tuple, Dict
 from functools import partial
 
-from zorro.grammatical import check_irregular_form
-from zorro.irregular_verb_intransitive.shared import templates, vb2vbd_vbn_intransitive
+from zorro.grammatical import check_irregular_verb
+from zorro.irregular_verb_transitive.shared import templates, vb2vbd_vbn_transitive
 
 
 def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
@@ -21,8 +21,8 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
     return template2pairs
 
 
-verb_position = 3  # zero-index
-grammar_checker = partial(check_irregular_form,
-                          vb2vbd_vbn_intransitive,
+verb_position = 1  # zero-index
+grammar_checker = partial(check_irregular_verb,
+                          vb2vbd_vbn_transitive,
                           verb_position,
                           )

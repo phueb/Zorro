@@ -29,14 +29,14 @@ def main():
     "this green red house went there ." vs. "this green red houses went there."
     """
 
-    from zorro.task_words import get_task_words
+    from zorro.words import get_words_for_paradigm
     from zorro.agreement_across_2_adjectives.shared import paradigm, pre_nominals_singular, pre_nominals_plural, plural
     from zorro.vocab import get_vocab_words
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    adjectives = get_task_words(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
-    nouns_s = get_task_words(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
+    adjectives = get_words_for_paradigm(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    nouns_s = get_words_for_paradigm(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
 
     def gen_sentences():
         while True:
