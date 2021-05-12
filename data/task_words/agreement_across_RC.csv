@@ -467,7 +467,7 @@ cities,0,0
 events,0,0
 model,0,1
 problems,0,0
-kind,1,1
+kind,1,0
 india,0,1
 ancient,1,0
 strong,1,0
@@ -1978,7 +1978,7 @@ calling,0,0
 administrative,1,0
 unknown,1,0
 slavery,0,1
-grown,1,1
+grown,0,0
 edge,0,1
 minimum,0,0
 massive,1,0

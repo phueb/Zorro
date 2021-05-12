@@ -9,7 +9,7 @@ template3 = 'what {} wrong with the {} ?'
 template4 = '{} the {} not {} ?'
 template5 = '{} the {} where it should be ?'
 template6 = '{} the {} where they should be ?'
-template7 = '{} the {} something to play with ?'
+template7 = '{} the {} something you like ?'
 template8 = '{} the {} a good idea ?'
 
 rules = {

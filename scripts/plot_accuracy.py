@@ -21,7 +21,8 @@ PARADIGMS = [
     'agreement_in_1_verb_question',
     'agreement_in_2_verb_question',
     'agreement_between_neighbors',
-    'irregular_past_participle_verb_intransitive',
+    'irregular_verb_intransitive',
+    'irregular_verb_transitive',
 ]
 
 # where to get files from?
@@ -113,4 +114,5 @@ for paradigm in PARADIGMS:
     # plot each paradigm in separate axis
     v.update(pd)
 
+v.plot_summary()
 v.plot_with_legend()

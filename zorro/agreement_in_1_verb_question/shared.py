@@ -18,7 +18,7 @@ templates = [
     'is/are the _ not _ ?',
     'is/are the _ where it should be ?',
     'is/are the _ where they should be ?',
-    'is/are the _ something to play with ?',
+    'is/are the _ something you like ?',
     'is/are the _ a good idea ?',
              ]
 

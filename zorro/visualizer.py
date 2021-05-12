@@ -18,7 +18,7 @@ class ParadigmData:
     labels: List[str] = field(init=False)
 
     def __post_init__(self):
-        self.labels = [get_legend_label(self.group2prediction_file_paths, gn)
+        self.labels = [get_legend_label(self.group2prediction_file_paths, gn, show_step=False)
                        for gn in self.group_names]
 
 
@@ -72,10 +72,48 @@ class Visualizer:
 
         # plot
         for gn, template2curves in pd.group_name2template2curve.items():
-            ys = np.array([curve for curve in template2curves.values()]).mean(axis=0)
-            ax.plot(self.x_ticks, ys, linewidth=2, color=f'C{pd.group_names.index(gn)}')
+            y = np.array([curve for curve in template2curves.values()]).mean(axis=0)
+            ax.plot(self.x_ticks, y, linewidth=2, color=f'C{pd.group_names.index(gn)}')
 
         self.fig.show()
+
+    def plot_summary(self):
+        """plot average accuracy (across all paradigms) in last axis"""
+
+        # axis
+        ax_id, ax = next(self.axes)
+        ax.set_title('Average accuracy', fontsize=configs.Figs.title_font_size)
+        if ax_id % self.ax_mat.shape[1] == 0:
+            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
+        if ax_id >= self.ax_mat.shape[0] * (self.ax_mat.shape[1] - 1) - 1:
+            ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        if self.label_last_x_tick_only:
+            x_tick_labels = ['' if n < len(self.x_ticks) - 1 else i for n, i in enumerate(self.x_ticks)]
+        else:
+            x_tick_labels = self.x_ticks
+        y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        ax.set_yticks(y_ticks)
+        ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+        ax.set_xticks(self.x_ticks)
+        ax.set_xticklabels(x_tick_labels, fontsize=configs.Figs.tick_font_size)
+        ax.set_ylim(self.y_lims)
+
+        # compute average
+        gn2curves = {}
+        for pd in self.pds:
+            for gn, template2curves in pd.group_name2template2curve.items():
+                gn2curves.setdefault(gn, []).extend([curve for curve in template2curves.values()])
+
+        # plot
+        for gn, curves in gn2curves.items():
+            y = np.array(curves).mean(axis=0)
+            ax.plot(self.x_ticks, y, linewidth=2, color=f'C{self.pds[0].group_names.index(gn)}')
+
+        self.fig.show()
+
+
 
     def plot_with_legend(self):
 

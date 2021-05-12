@@ -8,7 +8,7 @@ from zorro.vocab import get_vocab_words
 from zorro import configs
 
 CHECK_IN_VOCAB = False
-VOCAB_SIZES = [8192, 16384, 32768]
+VOCAB_SIZES = [8192]
 SECONDARY_OUT_PATH = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences' or None
 
 stop_words = (configs.Dirs.external_words / "stopwords.txt").open().read().split()

@@ -32,6 +32,9 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
     'props' is a vector containing proportions, one proportion per replication
     """
 
+    if not configs.Eval.categorize_by_template:
+        templates = ['all templates']
+
     group_names = list(group2predictions_file_paths.keys())
     group_names_with_controls = group_names + configs.Data.control_names
 
@@ -55,7 +58,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
             if configs.Eval.categorize_by_template:
                 template2pairs = categorize_by_template(data.pairs)
             else:
-                template2pairs = {'all templates': data.pairs}
+                template2pairs = {templates[0]: data.pairs}
 
             for template in templates:
                 print(template)

@@ -46,4 +46,4 @@ To make test sentences for a new vocabulary:
 
 To score predictions made by your models:
 
-1. score forced-choice predictions using `scripts/plot_forced_choice_predictions.py`
+1. score forced-choice predictions using `scripts/plot_accuracy.py`

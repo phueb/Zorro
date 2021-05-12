@@ -13,6 +13,7 @@ rcParams['axes.spines.top'] = False
 
 def get_legend_label(group2predictions_file_paths,
                      param_name,
+                     show_step: bool = True,
                      ) -> str:
     if 'baseline' in param_name:
         return param_name
@@ -40,8 +41,10 @@ def get_legend_label(group2predictions_file_paths,
             val = int(val)
         info += f'{c}={val} '
 
-    res = f'step={step} | n={reps} | {info}'
-    return res
+    if show_step:
+        return f'step={step} | n={reps} | {info}'
+    else:
+        return f'n={reps} | {info}'
 
 
 def make_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],

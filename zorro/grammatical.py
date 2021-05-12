@@ -36,10 +36,10 @@ def check_agreement_between_two_words(
     return True if (wls and wrs) or (wlp and wrp) else False
 
 
-def check_irregular_past_participle_verb(vb2vbd_vbn: Dict[str, Tuple[str, str]],
-                                         vb_position: int,
-                                         sentence: List[str],
-                                         ) -> bool:
+def check_irregular_form(vb2vbd_vbn: Dict[str, Tuple[str, str]],
+                         vb_position: int,
+                         sentence: List[str],
+                         ) -> bool:
 
     # TODO test this for all paradigms
 

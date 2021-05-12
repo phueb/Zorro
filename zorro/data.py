@@ -37,10 +37,6 @@ class DataExperimental:
         # load unordered sentences to which cross entropies are assigned by to-be-evaluated model
         self.s2cross_entropies = self.make_s2cross_entropies(predictions_file_path)
 
-        print(f'Initialized reader for forced-choice experimental predictions.'
-              f'Found {len(self.s2cross_entropies)} lines in file.')
-        print()
-
     @staticmethod
     def make_s2cross_entropies(predictions_file_path: Path,
                                ) -> Dict[Tuple[str], float]:

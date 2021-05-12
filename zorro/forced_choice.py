@@ -70,8 +70,9 @@ def check_pairs_for_grammar(pairs: List[Tuple[List[str], List[str]]],
         if len({is_grammatical1, is_grammatical2}) == 1:  # are both False or both True?
             print(s1, is_grammatical1)
             print(s2, is_grammatical2)
-            raise ValueError('Only one sentence per pair can be correct/agree in number.')
-
-        res.append((is_grammatical1, is_grammatical2))
+            res.append((True, False))
+            raise ValueError('Only one sentence per pair can be correct/agree in number.')  #TODO reinstate
+        else:
+            res.append((is_grammatical1, is_grammatical2))
 
     return res

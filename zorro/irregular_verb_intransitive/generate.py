@@ -13,8 +13,8 @@ def main():
 
     """
 
-    from zorro.irregular_past_participle_verb_intransitive.shared import paradigm, verbs_base, determiners
-    from zorro.irregular_past_participle_verb_intransitive.shared import vb2vbd_vbn_intransitive
+    from zorro.irregular_verb_intransitive.shared import paradigm, determiners
+    from zorro.irregular_verb_intransitive.shared import vb2vbd_vbn_intransitive
     from zorro.task_words import get_task_words
     from zorro.vocab import get_vocab_words
     from zorro import configs
@@ -23,22 +23,20 @@ def main():
     adjectives = get_task_words(paradigm, 'JJ', 0, NUM_ADJECTIVES)
     modifiers = ['just now', 'over there', 'some time ago', 'without us']
     nouns_s = get_task_words(paradigm, 'NN', 0, NUM_NOUNS)
+    verbs = list(vb2vbd_vbn_intransitive.keys())
 
     def gen_sentences():
         while True:
 
             # random choices
             noun = random.choice(nouns_s)
-            verb_base = random.choice(verbs_base)  # not counterbalanced across corpora (and probably need not)
+            verb = random.choice(verbs)  # not counterbalanced across corpora
             det = random.choice(determiners)
             adj = random.choice(adjectives)
             mod = random.choice(modifiers)
 
             # get two contrasting irregular inflected forms
-            try:
-                vbd, vbn = vb2vbd_vbn_intransitive[verb_base]  # past, past participle
-            except KeyError:  # verb is not in irregular collection
-                continue
+            vbd, vbn = vb2vbd_vbn_intransitive[verb]  # past, past participle
             if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
                 # print(f'"{verb_base:<22} excluded due to some forms not in vocab')
                 continue

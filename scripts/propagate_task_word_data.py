@@ -32,5 +32,9 @@ dst4_df.to_csv(dst4_path, index=False)
 dst4_df.to_csv(dst5_path, index=False)
 
 dst5_df = src_df.copy()
-dst5_path = configs.Dirs.task_words / 'irregular_past_participle_verb_intransitive.csv'
+dst5_path = configs.Dirs.task_words / 'irregular_verb_intransitive.csv'
+dst6_path = configs.Dirs.task_words / 'irregular_verb_transitive.csv'
+dst7_path = configs.Dirs.task_words / 'irregular_adjective.csv'
 dst5_df.to_csv(dst5_path, index=False)
+dst5_df.to_csv(dst6_path, index=False)
+dst5_df.to_csv(dst7_path, index=False)
