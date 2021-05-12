@@ -14,7 +14,7 @@ def main():
     """
 
     from zorro.irregular_verb_intransitive.shared import paradigm, determiners
-    from zorro.irregular_verb_intransitive.shared import vb2vbd_vbn_intransitive
+    from zorro.irregular_verb_intransitive.shared import vbds_vbns_intransitive
     from zorro.words import get_words_for_paradigm
     from zorro.vocab import get_vocab_words
     from zorro import configs
@@ -23,20 +23,18 @@ def main():
     adjectives = get_words_for_paradigm(paradigm, 'JJ', 0, NUM_ADJECTIVES)
     modifiers = ['just now', 'over there', 'some time ago', 'without us']
     nouns_s = get_words_for_paradigm(paradigm, 'NN', 0, NUM_NOUNS)
-    verbs = list(vb2vbd_vbn_intransitive.keys())
 
     def gen_sentences():
         while True:
 
             # random choices
             noun = random.choice(nouns_s)
-            verb = random.choice(verbs)  # not counterbalanced across corpora
             det = random.choice(determiners)
             adj = random.choice(adjectives)
             mod = random.choice(modifiers)
 
             # get two contrasting irregular inflected forms
-            vbd, vbn = vb2vbd_vbn_intransitive[verb]  # past, past participle
+            vbd, vbn = random.choice(vbds_vbns_intransitive)
             if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
                 # print(f'"{verb_base:<22} excluded due to some forms not in vocab')
                 continue

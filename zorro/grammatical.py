@@ -41,8 +41,6 @@ def check_irregular_verb(vb2vbd_vbn: Dict[str, Tuple[str, str]],
                          sentence: List[str],
                          ) -> bool:
 
-    # TODO test this for all paradigms
-
     vbds = [vbd for vbd, vbn in vb2vbd_vbn.values()]
 
     verb = sentence[vb_position]
@@ -56,12 +54,12 @@ def check_irregular_verb(vb2vbd_vbn: Dict[str, Tuple[str, str]],
         return False
 
 
-def check_irregular_adjective(adjectives_correct: List[str],
-                              sentence: List[str],
-                              ) -> bool:
+def check_irregular_verb_passive(verbs_correct: List[str],
+                                 sentence: List[str],
+                                 ) -> bool:
 
-    for w in sentence[:-2]:  # exclude adjective at end of sentence
-        if w in adjectives_correct:
+    for w in reversed(sentence):
+        if w in verbs_correct:
             return True
     else:
         return False

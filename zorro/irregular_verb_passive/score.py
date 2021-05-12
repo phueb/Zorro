@@ -1,7 +1,7 @@
 from typing import List, Tuple, Dict
 from functools import partial
 
-from zorro.grammatical import check_irregular_adjective
+from zorro.grammatical import check_irregular_verb_passive
 from zorro.irregular_verb_passive.shared import templates, vds_vns
 
 
@@ -21,7 +21,7 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
     return template2pairs
 
 
-adjectives_correct = [adj_form for verb_form, adj_form in vds_vns]
-grammar_checker = partial(check_irregular_adjective,
-                          adjectives_correct,
+verbs_correct = [vn for vd, vn in vds_vns]
+grammar_checker = partial(check_irregular_verb_passive,
+                          verbs_correct,
                           )

@@ -16,7 +16,7 @@ def main():
     """
 
     from zorro.irregular_verb_transitive.shared import paradigm, determiners, names
-    from zorro.irregular_verb_transitive.shared import vb2vbd_vbn_transitive
+    from zorro.irregular_verb_transitive.shared import vbds_vbns_transitive
     from zorro.counterbalance import find_counterbalanced_subset
     from zorro.words import get_words_for_paradigm
     from zorro.vocab import get_vocab_words
@@ -27,7 +27,6 @@ def main():
     adjectives = get_words_for_paradigm(paradigm, 'JJ', 0, NUM_ADJECTIVES)
     modifiers = ['while you were gone', 'but nothing happened', 'without us', 'when i was not looking']
     nouns_s = get_words_for_paradigm(paradigm, 'NN', 0, NUM_NOUNS)
-    verbs = list(vb2vbd_vbn_transitive.keys())
 
     def gen_sentences():
         while True:
@@ -35,13 +34,12 @@ def main():
             # random choices
             noun = random.choice(nouns_s)
             name = random.choice(names)
-            verb = random.choice(verbs)  # not counterbalanced across corpora (and probably need not)
             det = random.choice(determiners)
             adj = random.choice(adjectives)
             mod = random.choice(modifiers)
 
             # get two contrasting irregular inflected forms
-            vbd, vbn = vb2vbd_vbn_transitive[verb]  # past, past participle
+            vbd, vbn = random.choice(vbds_vbns_transitive)  # past, past participle
             if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
                 continue
 
