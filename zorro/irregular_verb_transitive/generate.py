@@ -25,7 +25,7 @@ def main():
     names = find_counterbalanced_subset(names, min_size=10, max_size=len(names))
     vocab = get_vocab_words()
     adjectives = get_task_words(paradigm, 'JJ', 0, NUM_ADJECTIVES)
-    modifiers = ['while you were gone', 'but nothing happened', 'without us knowing', 'when i was not looking']
+    modifiers = ['while you were gone', 'but nothing happened', 'without us', 'when i was not looking']
     nouns_s = get_task_words(paradigm, 'NN', 0, NUM_NOUNS)
     verbs = list(vb2vbd_vbn_transitive.keys())
 
