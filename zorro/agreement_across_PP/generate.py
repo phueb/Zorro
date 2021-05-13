@@ -1,6 +1,6 @@
 import random
 
-NUM_NOUNS = 20
+NUM_NOUNS = 50
 NUM_ADJECTIVES = 50
 
 template1 = 'the {} on the {} {} {} .'
@@ -42,8 +42,8 @@ def main():
     from zorro import configs
 
     noun_plurals = get_vocab_words(tag='NNS')
-    subjects_s = get_words_for_paradigm(paradigm, tag='NN', order=0)
-    objects_s = get_words_for_paradigm(paradigm, tag='NN', order=1)
+    subjects_s = get_words_for_paradigm(paradigm, tag='NN', order=0, num_words_in_sample=NUM_NOUNS)
+    objects_s = get_words_for_paradigm(paradigm, tag='NN', order=1, num_words_in_sample=NUM_NOUNS)
     adjectives = get_words_for_paradigm(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
 
     def gen_sentences():
@@ -51,8 +51,8 @@ def main():
         while True:
 
             # counter-balance singular vs plural with subj vs. obj
-            sub_s = random.choice(objects_s)
-            obj_s = random.choice(subjects_s)
+            sub_s = random.choice(subjects_s)
+            obj_s = random.choice(objects_s)
             sub_p = plural.plural(sub_s)
             obj_p = plural.plural(obj_s)
             if sub_p not in noun_plurals or obj_p not in noun_plurals:

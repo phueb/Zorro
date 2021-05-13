@@ -1,9 +1,11 @@
 from typing import Optional, List
 import pandas as pd
+import functools
 
 from zorro import configs
 
 
+@functools.lru_cache(maxsize=12)
 def get_vocab_words(vocab_name: Optional[str] = None,
                     tag: Optional[str] = None,
                     ) -> List[str]:

@@ -1,6 +1,6 @@
 import random
 
-NUM_NOUNS = 20
+NUM_NOUNS = 50
 NUM_ADJECTIVES = 50
 
 template1 = 'where {} the {} go ?'

@@ -1,7 +1,7 @@
 import random
 
 NUM_ADJECTIVES = 50
-NUM_NOUNS = 20
+NUM_NOUNS = 50
 
 template1 = 'look at {} {} {} {} .'
 template2 = '{} {} {} {} went there .'

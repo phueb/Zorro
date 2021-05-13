@@ -91,7 +91,8 @@ def find_counterbalanced_subset(words_in_slot_: List[str],
         for w, p in sorted(zip(words_in_slot, probabilities), key=lambda i: i[1]):
             print(f'{w:<24} {p:.8f} {vw2fs[w]}')
 
-    is_found = False
+    # try to find sample_meeting_criteria using heuristic search
+    sample_meeting_criteria = None
     for subset_size in range(min_size, max_size):
 
         biases = []
@@ -105,26 +106,20 @@ def find_counterbalanced_subset(words_in_slot_: List[str],
             total_fs = get_total_fs(sample)
             if plural_forms is not None:
                 total_fs += get_total_fs([plural_forms[i] for i in sample_ids])
-            total_fs_sum = total_fs.sum()
             bias = calc_bias(total_fs)
 
             # collect bias
             biases.append(bias)
             total_fs_list.append(total_fs)
 
-            is_found = bias < configs.Data.bias_tolerance
+            if bias < configs.Data.bias_tolerance:
+                sample_meeting_criteria = sample
 
-            if is_found:
-                print('Found counterbalanced word subset:')
-                if verbose:
-                    for w in sample:
-                        print(f"{w:<24} {vw2fs[w]}")
-                print(f'Corpus frequencies={total_fs} Total bias={bias :,} Total sum={total_fs_sum :,} size={subset_size:,}')
-                return sample
+        idx = np.argmin(biases).item()
+        print(f'size={subset_size:,}/{len(words_in_slot):,} best: bias={biases[idx]:>12,} total_fs={str(total_fs_list[idx]):>24} sum={total_fs_list[idx].sum():>12,}')
 
-        if not is_found:
-            idx = np.argmin(biases).item()
-            print(f'size={subset_size:,}/{len(words_in_slot):,} best: bias={biases[idx]:>12,} total_fs={str(total_fs_list[idx]):>24} sum={total_fs_list[idx].sum():>12,}')
+        if sample_meeting_criteria:
+            return sample_meeting_criteria
 
     else:
         raise RuntimeError('No word subset found that meets provided conditions')
