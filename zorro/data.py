@@ -8,12 +8,13 @@ from zorro import configs
 
 # precompute word frequency for baseline models
 vocab_size2w2p = {}
-for vocab_size in [8192]:
+for control_name in configs.Data.control_names:
+    vocab_size = control_name.split()[0]
     vocab_words = get_vocab_words(configs.Data.vocab_name_template.format(vocab_size))
     freq = get_frequency(configs.Data.vocab_name_template.format(vocab_size))
     assert len(freq) == len(vocab_words)
     unigram_probabilities = np.array(freq) / sum(freq)
-    vocab_size2w2p[vocab_size] = {w: p for w, p in zip(vocab_words, unigram_probabilities)}
+    vocab_size2w2p[control_name] = {w: p for w, p in zip(vocab_words, unigram_probabilities)}
 
 
 class DataExperimental:
@@ -54,7 +55,7 @@ class DataExperimental:
 
 class DataControl:
     def __init__(self,
-                 vocab_size: int,
+                 group_name: str,
                  paradigm: str,
                  ) -> None:
         """
@@ -64,7 +65,8 @@ class DataControl:
         to produce control condition data.
         """
 
-        self.vocab_size = vocab_size
+        self.group_name = group_name
+        self.vocab_size = group_name.split()[0]
 
         print(f'Loading test sentences with vocab size={vocab_size}')
         path = configs.Dirs.root / 'sentences' / str(self.vocab_size) / f'{paradigm}.txt'
@@ -73,16 +75,11 @@ class DataControl:
 
         self.s2cross_entropies = self.make_cross_entropies_unigram_distribution_control()
 
-        print(f'Initialized reader for forced-choice control predictions.'
-              f'Found {len(self.s2cross_entropies)} lines in file.')
-        print()
-
     def make_cross_entropies_unigram_distribution_control(self):
-        print('Making 1-gram distribution control')
 
         res = {}
 
-        w2p = vocab_size2w2p[self.vocab_size]
+        w2p = vocab_size2w2p[self.group_name]
 
         nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 

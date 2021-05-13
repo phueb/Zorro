@@ -86,6 +86,7 @@ for paradigm in PARADIGMS:
                       )
 
     for step in configs.Eval.steps:
+        print(f'===============\nstep={step:,}\n===============')
 
         # filter files by step
         group2predictions_file_paths_at_step = {g: [fp for fp in fps if filter_by_step(fp, step)]
@@ -111,6 +112,7 @@ for paradigm in PARADIGMS:
         # collect data for paradigm
         for template, group_name2props in template2group_name2props.items():
             for group_name, props in group_name2props.items():
+                print(props)
                 curve_i = np.mean(props)  # the mean proportion of a group at one location on curve
                 pd.group_name2template2curve[group_name].setdefault(template, []).append(curve_i)
 

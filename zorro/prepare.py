@@ -38,19 +38,25 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
     group_names = list(group2predictions_file_paths.keys())
     group_names_with_controls = group_names + configs.Data.control_names
 
-    # result - template2group_name2props
-    res = {template: {gn: None for gn in group_names_with_controls}
+    # init result: a vector populated with accuracies, one for each model rep, per group, per template
+    to_reps = lambda gn: configs.Eval.num_control_reps if 'baseline' in gn else len(group2predictions_file_paths[gn])
+    res = {template: {gn: np.zeros(to_reps(gn)) for gn in group_names_with_controls}
            for template in templates}
 
     for group_name in group_names_with_controls:
-        print(f'===============\n{group_name}\n===============')
+        print(group_name)
 
-        # read experimental, or generate control data
+        # generate control data
         if group_name in configs.Data.control_names:
-            vocab_size = int(group_name.split()[0])
-            data_instances = [DataControl(vocab_size, paradigm) for _ in range(configs.Eval.num_control_reps)]
+            data_instances = [DataControl(group_name, paradigm) for _ in range(configs.Eval.num_control_reps)]
+
+        # read experimental data
         else:
-            data_instances = [DataExperimental(fp, paradigm) for fp in group2predictions_file_paths[group_name]]
+            fps = group2predictions_file_paths[group_name]
+            if not fps:
+                print(f'Did not find prediction files. Consider reducing max step. Skipping')
+                continue
+            data_instances = [DataExperimental(fp, paradigm) for fp in fps]
 
         for row_id, data in enumerate(data_instances):
 
@@ -70,11 +76,6 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
                 grammatical_scores = check_pairs_for_grammar(pairs, grammar_checker)
                 num_correct = count_correct_choices(pairs, grammatical_scores, data.s2cross_entropies)
                 prop = num_correct / len(pairs)
-
-                # init vector of proportions - one proportion for each replication of a model
-                if res[template][group_name] is None:
-                    num_rows = len(data_instances)
-                    res[template][group_name] = np.zeros(num_rows)
 
                 # populate vector of proportions - one vector per model group
                 res[template][group_name][row_id] = prop
