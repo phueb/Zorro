@@ -1,9 +1,4 @@
 from pathlib import Path
-import spacy
-
-
-
-nlp = spacy.load('en_core_web_sm')
 
 paradigm = Path(__file__).parent.stem
 
