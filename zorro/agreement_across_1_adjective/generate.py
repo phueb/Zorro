@@ -1,8 +1,7 @@
 import random
-import itertools
 
-NUM_ADJECTIVES = 50
-NUM_NOUNS = 90
+NUM_ADJECTIVES = 80
+NUM_NOUNS = 60
 
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'
@@ -37,9 +36,6 @@ def main():
     noun_plurals = get_vocab_words(tag='NNS')
     adjectives = get_words_for_paradigm(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
     nouns_s = get_words_for_paradigm(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
-
-    if 'people' in nouns_s:
-        raise RuntimeError('Found "people" in singular nouns')
 
     def gen_sentences():
         while True:

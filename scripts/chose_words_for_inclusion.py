@@ -16,8 +16,6 @@ PARADIGMS = [
     # 'agreement_in_1_verb_question',
     # 'agreement_in_2_verb_question',
 ]
-WW_NAME = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3'
-
 vocab_df = load_vocab_df()
 
 nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
