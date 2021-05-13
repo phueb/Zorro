@@ -36,12 +36,12 @@ def check_agreement_between_two_words(
     return True if (wls and wrs) or (wlp and wrp) else False
 
 
-def check_irregular_verb(vb2vbd_vbn: Dict[str, Tuple[str, str]],
+def check_irregular_verb(vbds_vbns: List[str],
                          vb_position: int,
                          sentence: List[str],
                          ) -> bool:
 
-    vbds = [vbd for vbd, vbn in vb2vbd_vbn.values()]
+    vbds = [vbd for vbd, vbn in vbds_vbns]
 
     verb = sentence[vb_position]
     right_neighbor = sentence[vb_position + 1]

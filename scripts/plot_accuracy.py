@@ -7,7 +7,7 @@ from pathlib import Path
 from zorro import configs
 from zorro.prepare import prepare_data_for_plotting
 from zorro.io import get_group2predictions_file_paths
-from zorro.figs import make_barplot, get_legend_label
+from zorro.figs import show_barplot
 from zorro.visualizer import Visualizer, ParadigmData
 
 SHOW_BAR_PLOTS = False
@@ -101,9 +101,10 @@ for paradigm in PARADIGMS:
 
         # plot accuracy comparison at current time step
         if SHOW_BAR_PLOTS:
-            make_barplot(template2group_name2props,
+            show_barplot(template2group_name2props,
                          group2predictions_file_paths,
                          paradigm,
+                         step,
                          verbose=True,
                          )
 

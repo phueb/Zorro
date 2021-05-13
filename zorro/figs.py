@@ -12,23 +12,23 @@ rcParams['axes.spines.top'] = False
 
 
 def get_legend_label(group2predictions_file_paths,
-                     param_name,
-                     show_step: bool = True,
+                     group_name,
+                     show_group_name: bool = True,
                      ) -> str:
-    if 'baseline' in param_name:
-        return param_name
+    if 'baseline' in group_name:
+        return group_name
 
     if configs.Eval.local_runs:
         runs_path = configs.Dirs.runs_local
     else:
         runs_path = configs.Dirs.runs_remote
 
-    path = runs_path / param_name / 'param2val.yaml'
+    path = runs_path / group_name / 'param2val.yaml'
     with path.open('r') as f:
         param2val = yaml.load(f, Loader=yaml.FullLoader)
 
-    reps = len([fp for fp in group2predictions_file_paths[param_name] if fp.stem.endswith('_0')])
-    step = group2predictions_file_paths[param_name][0].stem.split('_')[-1]
+    reps = len([fp for fp in group2predictions_file_paths[group_name] if fp.stem.endswith('_0')])
+    step = group2predictions_file_paths[group_name][0].stem.split('_')[-1]
     # add info about conditions
     info = ''
     conditions = configs.Eval.conditions or ['is_official', 'is_reference', 'is_base', 'framework']
@@ -41,15 +41,16 @@ def get_legend_label(group2predictions_file_paths,
             val = int(val)
         info += f'{c}={val} '
 
-    if show_step:
-        return f'step={step} | n={reps} | {info}'
-    else:
-        return f'n={reps} | {info}'
+    if show_group_name:
+        info += ' | ' + group_name
+
+    return f'n={reps} | {info}'
 
 
-def make_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
+def show_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
                  group2predictions_file_paths: Dict[str, List[Path]],
                  paradigm: str,
+                 step: int,
                  xlabel: str = '',
                  verbose: bool = False,
                  ):
@@ -78,7 +79,8 @@ def make_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
         ax.axhline(y=0.5, linestyle=':', color='grey', zorder=3)
         # ax.yaxis.grid()
         ax.set_title(f'{paradigm.replace("_", " ")}\n'
-                     f'template={template}',
+                     f'template={template}\n'
+                     f'step={step}',
                      size=configs.Figs.ax_font_size)
 
         for edge, color, group_name in zip(edges, colors, group_name2props.keys()):

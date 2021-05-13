@@ -8,7 +8,7 @@ from zorro import configs
 
 # precompute word frequency for baseline models
 vocab_size2w2p = {}
-for vocab_size in [8192, 32768]:
+for vocab_size in [8192]:
     vocab_words = get_vocab_words(configs.Data.vocab_name_template.format(vocab_size))
     freq = get_frequency(configs.Data.vocab_name_template.format(vocab_size))
     assert len(freq) == len(vocab_words)

@@ -27,14 +27,6 @@ def find_counterbalanced_subset(words_in_slot: List[str],
 
     print(f'Finding counterbalanced word subset with min={min_size} and max={max_size}')
 
-    corpus_names = [
-        'aochildes',
-        'aonewsela',
-        'wikipedia1',
-        'wikipedia2',
-        'wikipedia3',
-    ]
-
     np.random.seed(seed)
 
     if min_size <= 0:
@@ -43,7 +35,7 @@ def find_counterbalanced_subset(words_in_slot: List[str],
         max_size = len(words_in_slot)
 
     vocab_df = load_vocab_df()
-    column_names = [f'{corpus_name}-frequency' for corpus_name in corpus_names]
+    column_names = [f'{corpus_name}-frequency' for corpus_name in configs.Data.corpus_names]
     f_df = vocab_df[column_names]
     vw2fs = {w: np.array([fs[k] for k in column_names]) for w, fs in f_df.iterrows()}
 

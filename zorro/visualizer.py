@@ -18,7 +18,7 @@ class ParadigmData:
     labels: List[str] = field(init=False)
 
     def __post_init__(self):
-        self.labels = [get_legend_label(self.group2prediction_file_paths, gn, show_step=False)
+        self.labels = [get_legend_label(self.group2prediction_file_paths, gn)
                        for gn in self.group_names]
 
 
@@ -117,13 +117,11 @@ class Visualizer:
 
         self.fig.show()
 
-
-
     def plot_with_legend(self):
 
         labels = self.pds[-1].labels
-        legend_elements = [Patch(facecolor=f'C{labels.index(label)}', label=label)
-                           for label in labels]
+        legend_elements = [Patch(facecolor=f'C{n}', label=label)
+                           for n, label in enumerate(labels)]
 
         for ax_id, ax in self.axes:
             ax.axis('off')
