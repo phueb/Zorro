@@ -552,7 +552,7 @@ week,0,1
 told,0,0
 structure,0,1
 taking,0,0
-playing,1,0
+playing,0,0
 ago,0,0
 associated,1,0
 royal,1,0
@@ -580,7 +580,7 @@ leading,1,0
 rules,0,0
 private,1,0
 anti,0,0
-reported,1,0
+reported,0,0
 typically,0,0
 fish,0,0
 song,0,1
@@ -637,7 +637,7 @@ specific,1,0
 key,0,1
 james,0,0
 thing,0,1
-involved,1,0
+involved,0,0
 served,0,0
 effects,0,0
 complex,1,0
@@ -853,7 +853,7 @@ los,0,0
 approximately,0,0
 previous,1,0
 reason,0,1
-opened,1,0
+opened,0,0
 passed,1,0
 compared,0,0
 entire,1,0
@@ -937,7 +937,7 @@ clear,1,0
 finally,0,0
 expected,1,0
 israel,0,0
-machine,1,1
+machine,0,1
 ways,0,0
 cup,0,1
 pretty,1,0
@@ -1296,7 +1296,7 @@ horse,0,1
 develop,0,0
 carry,0,0
 acid,0,1
-learning,1,0
+learning,0,0
 volume,0,1
 arrived,0,0
 allowing,0,0
@@ -1533,7 +1533,7 @@ hundreds,0,0
 forest,0,1
 domestic,1,0
 universe,0,1
-expanded,1,0
+expanded,0,0
 bodies,0,0
 note,0,1
 pictures,0,0
@@ -1594,7 +1594,7 @@ ages,0,0
 scene,0,1
 covered,1,0
 awarded,1,0
-learned,1,0
+learned,0,0
 mentioned,0,0
 zero,0,1
 dropped,1,0
@@ -1757,7 +1757,7 @@ temple,0,1
 christ,0,0
 guard,0,1
 positions,0,0
-approved,1,0
+approved,0,0
 contract,0,1
 widespread,1,0
 route,0,1
@@ -1870,7 +1870,7 @@ universities,0,0
 output,0,1
 skills,0,0
 listed,0,0
-flying,1,0
+flying,0,0
 components,0,0
 onto,0,0
 maintain,0,0
@@ -2049,7 +2049,7 @@ influential,1,0
 experienced,1,0
 exactly,0,0
 mount,0,0
-declined,1,0
+declined,0,0
 mathematical,1,0
 touch,0,1
 fix,0,1
@@ -2057,7 +2057,7 @@ sciences,0,0
 showing,0,0
 grant,0,1
 straight,1,0
-selected,1,0
+selected,0,0
 nazi,0,0
 contributed,0,0
 represents,0,0
@@ -2097,7 +2097,7 @@ manufacturing,0,1
 usage,0,1
 greatly,0,0
 candidates,0,0
-driving,1,0
+driving,0,0
 proper,1,0
 faster,0,0
 bought,0,0
@@ -2857,7 +2857,7 @@ trust,0,1
 gods,0,0
 decide,0,0
 seek,0,0
-breaking,1,0
+breaking,0,0
 reactions,0,0
 probability,0,1
 apparent,1,0
@@ -3125,7 +3125,7 @@ offensive,0,0
 denied,0,0
 paint,0,1
 childhood,0,1
-promised,1,0
+promised,0,0
 copy,0,1
 aim,0,0
 consistent,1,0
@@ -3365,7 +3365,7 @@ settlements,0,0
 traveled,0,0
 stayed,0,0
 challenges,0,0
-arranged,1,0
+arranged,0,0
 highway,0,1
 inc,0,0
 publishing,0,0
