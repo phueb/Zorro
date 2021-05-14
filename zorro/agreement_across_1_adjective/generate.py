@@ -1,14 +1,33 @@
 import random
+import inflect
+
+from zorro.words import get_words_for_paradigm
+from zorro import configs
 
 NUM_ADJECTIVES = 50
 NUM_NOUNS = 50
 
+# todo put templates in list, and loop over them, making sure each can be formatted in teh same way
+
 template1 = 'look at {} {} {} .'
 template2 = '{} {} {} went there .'
-template3 = '{} {} {} were here .'
+template3 = '{} {} {} did not happen .'
 template4 = 'i saw {} {} {} .'
 
+plural = inflect.engine()
 
+paradigm = 'agreement_across_1_adjective'
+
+# TODO define templates once everywhere
+
+templates = [
+        'look at this/these _ _',
+        'this/these _ _  went there',
+        'this/these _ _  left',
+        'i saw this/these _ _',
+    ]
+
+# used by choose_words_for_inclusion.py  # TODO is this really necessary? infer this from templates
 rules = {
     ('JJ', 0, NUM_ADJECTIVES): [
         template1.format('this', '{}', '_'),
@@ -26,40 +45,54 @@ def main():
     example:
     "look at this green house ." vs. "look at this green houses ."
     "this green house went there ." vs. "this green houses went there."
+
+    note: all odd numbered sentences are bad and even good.
+
     """
 
-    from zorro.words import get_words_for_paradigm
-    from zorro.agreement_across_1_adjective.shared import paradigm, plural, pre_nominals_singular, pre_nominals_plural
-    from zorro.vocab import get_vocab_words
-    from zorro import configs
+    demonstratives_singular = ["this", "that"]
+    demonstratives_plural = ["these", "those"]
 
-    noun_plurals = get_vocab_words(tag='NNS')
-    adjectives = get_words_for_paradigm(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
     nouns_s = get_words_for_paradigm(paradigm, tag='NN', num_words_in_sample=NUM_NOUNS)
+    nouns_p = [plural.plural(noun_s) for noun_s in nouns_s]
+    adjectives = get_words_for_paradigm(paradigm, tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
 
     def gen_sentences():
         while True:
 
-            noun_s = random.choice(nouns_s)
-            noun_p = plural.plural(noun_s)
-            if noun_p not in noun_plurals or noun_p == noun_s:
+            # random choices
+            adj = random.choice(adjectives)
+            noun_s, noun_p = random.choice(list(zip(nouns_s, nouns_p)))
+
+            # check
+            if noun_p == noun_s:
                 continue
 
-            # random choices
-            pre_nominal = random.choice(pre_nominals_singular + pre_nominals_plural)
-            adj = random.choice(adjectives)
+            for pn_s in demonstratives_singular:
+                yield template1.format(pn_s, adj, noun_p)  # odd numbered line: bad
+                yield template1.format(pn_s, adj, noun_s)  # even numbered line: good
 
-            yield template1.format(pre_nominal, adj, noun_s)
-            yield template1.format(pre_nominal, adj, noun_p)
+                yield template2.format(pn_s, adj, noun_p)
+                yield template2.format(pn_s, adj, noun_s)
 
-            yield template2.format(pre_nominal, adj, noun_s)
-            yield template2.format(pre_nominal, adj, noun_p)
+                yield template3.format(pn_s, adj, noun_p)
+                yield template3.format(pn_s, adj, noun_s)
 
-            yield template3.format(pre_nominal, adj, noun_s)
-            yield template3.format(pre_nominal, adj, noun_p)
+                yield template4.format(pn_s, adj, noun_p)
+                yield template4.format(pn_s, adj, noun_s)
 
-            yield template4.format(pre_nominal, adj, noun_s)
-            yield template4.format(pre_nominal, adj, noun_p)
+            for pn_p in demonstratives_plural:
+                yield template1.format(pn_p, adj, noun_s)  # odd numbered line: bad
+                yield template1.format(pn_p, adj, noun_p)  # even numbered line: good
+
+                yield template2.format(pn_p, adj, noun_s)
+                yield template2.format(pn_p, adj, noun_p)
+
+                yield template3.format(pn_p, adj, noun_s)
+                yield template3.format(pn_p, adj, noun_p)
+
+                yield template4.format(pn_p, adj, noun_s)
+                yield template4.format(pn_p, adj, noun_p)
 
     # only collect unique sentences
     sentences = set()

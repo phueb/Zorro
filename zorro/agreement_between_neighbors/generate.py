@@ -24,7 +24,7 @@ def main():
     "look at this house" vs. "look at this houses"
     """
 
-    from zorro.agreement_between_neighbors.shared import paradigm, plural, pre_nominals_plural, pre_nominals_singular
+    from zorro.agreement_between_neighbors.shared import paradigm, plural, demonstratives_plural, demonstratives_singular
     from zorro.words import get_words_for_paradigm
     from zorro.vocab import get_vocab_words
     from zorro import configs
@@ -42,14 +42,14 @@ def main():
                 continue
 
             # random choices
-            pre_nominal = random.choice(pre_nominals_singular + pre_nominals_plural)
+            demonstrative = random.choice(demonstratives_singular + demonstratives_plural)
             adj = random.choice(adjectives)
 
-            yield template1.format(pre_nominal, noun_s, adj)
-            yield template1.format(pre_nominal, noun_p, adj)
+            yield template1.format(demonstrative, noun_s, adj)
+            yield template1.format(demonstrative, noun_p, adj)
 
-            yield template2.format(pre_nominal, noun_s, adj)
-            yield template2.format(pre_nominal, noun_p, adj)
+            yield template2.format(demonstrative, noun_s, adj)
+            yield template2.format(demonstrative, noun_p, adj)
 
     # only collect unique sentences
     sentences = set()

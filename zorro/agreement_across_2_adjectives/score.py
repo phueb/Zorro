@@ -1,7 +1,7 @@
 from typing import List, Dict, Tuple
 from functools import partial
 
-from zorro.agreement_across_2_adjectives.shared import templates, pre_nominals_plural, pre_nominals_singular
+from zorro.agreement_across_2_adjectives.shared import templates, demonstratives_plural, demonstratives_singular
 from zorro.agreement_across_2_adjectives.shared import nouns_singular, nouns_plural
 from zorro.grammatical import check_agreement_between_two_words
 
@@ -25,8 +25,8 @@ def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
 
 
 grammar_checker = partial(check_agreement_between_two_words,
-                          pre_nominals_singular,
-                          pre_nominals_plural,
+                          demonstratives_singular,
+                          demonstratives_plural,
                           nouns_singular,
                           nouns_plural,
                           )

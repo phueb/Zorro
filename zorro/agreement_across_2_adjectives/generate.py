@@ -30,7 +30,7 @@ def main():
     """
 
     from zorro.words import get_words_for_paradigm
-    from zorro.agreement_across_2_adjectives.shared import paradigm, pre_nominals_singular, pre_nominals_plural, plural
+    from zorro.agreement_across_2_adjectives.shared import paradigm, demonstratives_singular, demonstratives_plural, plural
     from zorro.vocab import get_vocab_words
     from zorro import configs
 
@@ -47,15 +47,15 @@ def main():
                 continue
 
             # random choices
-            pre_nominal = random.choice(pre_nominals_singular + pre_nominals_plural)
+            demonstrative = random.choice(demonstratives_singular + demonstratives_plural)
             adj1 = random.choice(adjectives)
             adj2 = random.choice(adjectives)
 
-            yield template1.format(pre_nominal, adj1, adj2, noun_s)
-            yield template1.format(pre_nominal, adj1, adj2, noun_p)
+            yield template1.format(demonstrative, adj1, adj2, noun_s)
+            yield template1.format(demonstrative, adj1, adj2, noun_p)
 
-            yield template2.format(pre_nominal, adj1, adj2, noun_s)
-            yield template2.format(pre_nominal, adj1, adj2, noun_p)
+            yield template2.format(demonstrative, adj1, adj2, noun_s)
+            yield template2.format(demonstrative, adj1, adj2, noun_p)
 
     # only collect unique sentences
     sentences = set()

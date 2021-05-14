@@ -23,17 +23,16 @@ There are 4 phenomena, each consisting of a set of paradigms:
 Words that make up test sentences are all derived from a BPE encoding vocab file 
  generated using the Python `tokenizers` package. 
 
-
 1. Using `script/tag_and_count_vocab_words.py`, we removed any words:
 - not in original corpus files (e.g. sub-words)
 - not in English dictionary
 - is a number
 - is a Stanford CoreNLP stopword
 
-2. Using `scripts/make_task_words.py`, for every slot in every task, we:
+2. Using `scripts/chose_words_for_inclusion.py`, for every slot in every task, we:
 - automatically retrieved words tagged with desired POS
 - manually removed words that were judged to be ungrammatical:
-e.g. for the task `agreement_across_adjectives`, annotators were given the instruction: 
+e.g. for the paradigm `agreement_across_adjectives`, annotators were given the instruction: 
 "Does the word fit the slot in `Look at these _ ?`"
 
 ## Usage
@@ -44,6 +43,12 @@ To make test sentences for a new vocabulary:
 2. chose words to be included for each paradigm using `scripts/chose_words_for_inclusion.py`
 2. make and save test sentences using `scripts/make_sentences.py`
 
+The grammatical correctness of each sentence is determined by its position in the text file:
+- sentences on odd numbered lines (1, 3, etc.) are un-grammatical
+- sentences on even numbered lines (2, 4, etc.) are grammatical
+
+
 To score predictions made by your models:
 
 1. score forced-choice predictions using `scripts/plot_accuracy.py`
+

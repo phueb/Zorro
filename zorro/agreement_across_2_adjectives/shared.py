@@ -7,8 +7,8 @@ plural = inflect.engine()
 
 paradigm = Path(__file__).parent.stem
 
-pre_nominals_singular = ["this", "that"]
-pre_nominals_plural = ["these", "those"]
+demonstratives_singular = ["this", "that"]
+demonstratives_plural = ["these", "those"]
 
 
 templates = [
