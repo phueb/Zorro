@@ -1,8 +1,8 @@
-import importlib
 from collections import defaultdict
 import numpy as np
 import yaml
 from pathlib import Path
+from itertools import product, chain
 
 from zorro import configs
 from zorro.prepare import prepare_data_for_plotting
@@ -12,20 +12,9 @@ from zorro.visualizer import Visualizer, ParadigmData
 
 SHOW_BAR_PLOTS = False
 
-PARADIGMS = [
-    # irregular forms
-    'irregular_verb_passive',
-    'irregular_verb_intransitive',
-    'irregular_verb_transitive',
-    # agreement
-    'agreement_in_1_verb_question',
-    'agreement_in_2_verb_question',
-    'agreement_across_1_adjective',
-    'agreement_across_2_adjectives',
-    'agreement_across_PP',
-    'agreement_across_RC',
-    'agreement_between_neighbors',
-]
+phenomena = ['agreement_demonstrative_subject',
+             'agreement_subject_verb',
+             'irregular_verb']
 
 # where to get files from?
 if configs.Eval.local_runs:
@@ -43,12 +32,16 @@ def filter_by_step(prediction_file_path: Path,
     return False
 
 
-# collects and plots each ParadigmData instance in 1 multi-axis figure
-v = Visualizer(num_paradigms=len(PARADIGMS))
+# get list of (phenomenon, paradigm) tuples
+phenomena_paradigms = list(chain(*[product([phenomenon],
+                                           [p.stem for p in (configs.Dirs.src / phenomenon).glob('*.py')])
+                                   for phenomenon in phenomena]))
 
-for paradigm in PARADIGMS:
-    # load module
-    s = importlib.import_module(f'zorro.{paradigm}.score')
+# collects and plots each ParadigmData instance in 1 multi-axis figure
+v = Visualizer(num_paradigms=len(phenomena_paradigms), y_lims=[0.5, 1.0])
+
+# for all paradigms
+for phenomenon, paradigm in phenomena_paradigms:
 
     # group_names
     if configs.Eval.param_names is None:
@@ -75,15 +68,18 @@ for paradigm in PARADIGMS:
     print('Loading model prediction files...')
     group2predictions_file_paths = get_group2predictions_file_paths(group_names,
                                                                     runs_path,
+                                                                    phenomenon,
                                                                     paradigm,
                                                                     )
 
     # init line plot data
-    pd = ParadigmData(name=paradigm,
-                      group_name2template2curve=defaultdict(dict),
-                      group_names=group_names + configs.Data.control_names,
-                      group2prediction_file_paths=group2predictions_file_paths
-                      )
+    pd = ParadigmData(
+        name=paradigm,
+        # name=f'{phenomenon}\n{paradigm}',
+        group_name2template2curve=defaultdict(dict),
+        group_names=group_names + configs.Data.control_names,
+        group2prediction_file_paths=group2predictions_file_paths
+    )
 
     for step in configs.Eval.steps:
         print(f'===============\nstep={step:,}\n===============')
@@ -94,9 +90,8 @@ for paradigm in PARADIGMS:
 
         # calc + collect accuracy
         template2group_name2props = prepare_data_for_plotting(group2predictions_file_paths_at_step,
+                                                              phenomenon,
                                                               paradigm,
-                                                              s.templates,
-                                                              s.categorize_by_template,
                                                               )
 
         # plot accuracy comparison at current time step

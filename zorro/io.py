@@ -6,8 +6,12 @@ from zorro import configs
 
 def get_group2predictions_file_paths(group_names: List[str],
                                      runs_path: Path,
+                                     phenomenon: str,
                                      paradigm: str,
                                      ) -> Dict[str, List[Path]]:
+    """load files containing the cross entropies assigned to each sentence in the paradigm, for all models and steps"""
+
+    fn = f'{phenomenon}-{paradigm}'
 
     # find paths to files, for each group
     group2predictions_file_paths = {}
@@ -15,7 +19,7 @@ def get_group2predictions_file_paths(group_names: List[str],
         pattern = '{}/**/saves/{}/**/probing_{}_results_*.txt'
         group2predictions_file_paths[group_name] = [p for p in runs_path.rglob(pattern.format(group_name,
                                                                                               'forced_choice',
-                                                                                              paradigm))]
+                                                                                              fn))]
 
     # copy only those groups for which files exist
     res = {}

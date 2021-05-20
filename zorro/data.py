@@ -20,7 +20,9 @@ for control_name in configs.Data.control_names:
 class DataExperimental:
     def __init__(self,
                  predictions_file_path: Path,
-                 paradigm: str) -> None:
+                 phenomenon: str,
+                 paradigm: str,
+                 ) -> None:
         """
         control condition data in the forced-choice setting relies on ordered data in
         sentences/forced-choice where sentence pairs are guaranteed to be in consecutive lines.
@@ -31,7 +33,7 @@ class DataExperimental:
         # load ordered sentences - the only way to know which sentences are paired (answer: consecutive sentences)
         vocab_size = predictions_file_path.parent.name
         print(f'Loading test sentences with vocab size={vocab_size}')
-        path = configs.Dirs.root / 'sentences' / vocab_size / f'{paradigm}.txt'
+        path = configs.Dirs.root / 'sentences' / vocab_size / f'{phenomenon}-{paradigm}.txt'
         sentences_ordered = [s.split() for s in path.open().read().split('\n')]
         self.pairs = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2], sentences_ordered[1::2])]
 
@@ -56,6 +58,7 @@ class DataExperimental:
 class DataControl:
     def __init__(self,
                  group_name: str,
+                 phenomenon: str,
                  paradigm: str,
                  ) -> None:
         """
@@ -69,7 +72,7 @@ class DataControl:
         self.vocab_size = group_name.split()[0]
 
         print(f'Loading test sentences with vocab size={vocab_size}')
-        path = configs.Dirs.root / 'sentences' / str(self.vocab_size) / f'{paradigm}.txt'
+        path = configs.Dirs.root / 'sentences' / str(self.vocab_size) / f'{phenomenon}-{paradigm}.txt'
         sentences_ordered = [s.split() for s in path.open().read().split('\n')]
         self.pairs = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2],  # odd numbered: bad sentences
                                                  sentences_ordered[1::2])  # even numbered: good sentences

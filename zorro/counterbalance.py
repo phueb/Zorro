@@ -61,9 +61,8 @@ def find_counterbalanced_subset(words_in_slot_: List[str],
 
     def calc_bias(fs_: np.array,
                   ) -> int:
-        a = fs_[0] + fs_[1]  # aochildes + aonewsela
-        b = fs_[2] + fs_[3]  # wikipedia1 + wikipedia2
-        res = abs(a-b)
+        bias2 = abs(fs_[2] - fs_[0])  # aochildes vs wikipedia1
+        res = bias2
 
         return res
 
@@ -72,12 +71,11 @@ def find_counterbalanced_subset(words_in_slot_: List[str],
         """
         reward words with:
          - high aochildes frequency
-         - high aonewsela frequency
 
         """
         fs = vw2fs[word]
         term1 = np.log10(fs[0] + 1)
-        term2 = np.log10(fs[1] + 1)
+        term2 = 1
         return term1 * term2
 
     # heuristic search is based on preferentially sampling words with high "rating"

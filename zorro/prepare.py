@@ -1,6 +1,7 @@
 from typing import Dict, List, Callable, Tuple
 import numpy as np
 from pathlib import Path
+import importlib
 
 from zorro.scoring import count_correct_choices
 from zorro.data import DataExperimental, DataControl
@@ -8,16 +9,15 @@ from zorro import configs
 
 
 def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]],
+                              phenomenon: str,
                               paradigm: str,
-                              templates: List[str],
-                              categorize_by_template: Callable,
                               ) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
-    :param paradigm: name of paradigm, used to make control data
-    :param templates: list of names for templates, one for each subplot
-    :param categorize_by_template: function for separating sentences by template
+    :param phenomenon: name of phenomenon
+    :param paradigm: name of paradigm
     :return: double-embedded dict, which can be input to barplot function
+
     how it works: for each group of prediction files:
     1. the prediction files are read and categorized by template and production category (eg. false, correct, etc)
     2. scores (proportions) are stored in a matrix inside a double-embedded dict, ready for plotting
@@ -29,6 +29,11 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
 
     'props' is a vector containing proportions, one proportion per replication
     """
+
+    # load module
+    module_paradigm = importlib.import_module(f'zorro.{phenomenon}.{paradigm}')
+    templates = module_paradigm.templates
+    categorize_by_template = module_paradigm.categorize_by_template
 
     if not configs.Eval.categorize_by_template:
         templates = ['all templates']
@@ -46,7 +51,8 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
 
         # generate control data
         if group_name in configs.Data.control_names:
-            data_instances = [DataControl(group_name, paradigm) for _ in range(configs.Eval.num_control_reps)]
+            data_instances = [DataControl(group_name, phenomenon, paradigm)
+                              for _ in range(configs.Eval.num_control_reps)]
 
         # read experimental data
         else:
@@ -54,7 +60,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
             if not fps:
                 print(f'Did not find prediction files. Consider reducing max step. Skipping')
                 continue
-            data_instances = [DataExperimental(fp, paradigm) for fp in fps]
+            data_instances = [DataExperimental(fp, phenomenon, paradigm) for fp in fps]
 
         for row_id, data in enumerate(data_instances):
 
@@ -71,7 +77,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
                 assert pairs
 
                 # calc proportion correct
-                grammatical_scores: List[Tuple[bool, bool]] = [(False, True) for _ in range(pairs)]  # TODO test # odd = bad, even = good
+                grammatical_scores: List[Tuple[bool, bool]] = [(False, True) for _ in pairs]  # TODO test # odd = bad, even = good
                 num_correct = count_correct_choices(pairs, grammatical_scores, data.s2cross_entropies)
                 prop = num_correct / len(pairs)
 

@@ -49,8 +49,6 @@ def load_vocab_df(vocab_name: Optional[str] = None,
     if vocab_name is None:
         vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
 
-    print(f'Loading vocab data frame with name={vocab_name}')
-
     path = configs.Dirs.data / 'vocab_words' / f'{vocab_name}.csv'
     df = pd.read_csv(path, index_col=0, na_filter=False, dtype={'is_excluded': bool})
 

@@ -32,8 +32,8 @@ def main():
 
     vocab = get_vocab_words()
     modifiers = ['maybe', 'i think', 'we hope that', 'he said that']
-    nouns_s = get_legal_words('NN', NUM_NOUNS)
-    adjectives = get_legal_words('JJ',NUM_ADJECTIVES)
+    nouns_s = get_legal_words(tag='NN', num_words_in_sample=NUM_NOUNS)
+    adjectives = get_legal_words(tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
 
     determiners = ['the', 'this', 'one', 'your']
 
