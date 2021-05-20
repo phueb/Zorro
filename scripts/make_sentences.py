@@ -7,7 +7,7 @@ import importlib
 from zorro.vocab import get_vocab_words
 from zorro import configs
 
-CHECK_IN_VOCAB = False
+CHECK_IN_VOCAB = True
 VOCAB_SIZES = [8192]
 SECONDARY_OUT_PATH = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences' or None
 
@@ -63,7 +63,7 @@ for vocab_size in VOCAB_SIZES:
                             if w == 'peoples':
                                 raise RuntimeError('Found "peoples')
                             if w not in vocab_words and w not in stop_words:
-                                print(f'WARNING: Not in whole_words or stop words: "{w}"')
+                                print(f'WARNING: Not a whole word and not a stop word: "{w}"')
                             if w in nas:
                                 print(f'WARNING: Found noun with ambiguous number: "{w}"')
                         # write to file

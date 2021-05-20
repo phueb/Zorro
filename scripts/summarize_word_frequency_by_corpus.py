@@ -17,7 +17,7 @@ vw2fs = {w: np.array([fs[k] for k in column_names]) for w, fs in f_df.iterrows()
 stop_words = set((configs.Dirs.external_words / "stopwords.txt").open().read().split())
 
 # collect types used in test sentences
-for paradigm_path in (configs.Dirs.sentences / str(VOCAB_SIZE)).glob(f'*.txt'):
+for paradigm_path in (configs.Dirs.sentences / str(VOCAB_SIZE)).glob('*.txt'):
     words_in_test_sentences = set()
     for w in paradigm_path.read_text().split():
         if w not in stop_words:

@@ -76,7 +76,7 @@ def main():
         ('drew', 'drawn', ['a picture', 'a map', 'a round circle']),
         ('wrote', 'written', ['a story', 'a note', 'into a book', 'with a large pen']),
         ('sang', 'sung', ['a nice song', 'in the theater', 'with a pretty voice', 'my favorite song']),
-        ('spoke', 'spoken', ['very loudly', 'to me', 'about many things', 'without thinking']),
+        ('spoke', 'spoken', ['very fast', 'to me', 'about many things', 'without thinking']),
         ('came', 'come', ['to the store', 'just in time', 'when we needed her', 'too late']),
 
         # transitive
@@ -85,15 +85,15 @@ def main():
         ('became', 'become', ['angry', 'very different', 'someone else']),
         ('bit', 'bitten', ['her own tongue', 'into the cake', 'off a big chunk']),
         ('blew', 'blown', ['out the candle', 'away the dirt',]),
-        ('chose', 'chosen', ['the best option', 'the cheaper item', ]),
+        ('chose', 'chosen', ['the best option', 'the good one', ]),
         ('did', 'done', ['nothing wrong', 'something bad', 'the best she could ']),
         ('forgave', 'forgiven', ['her', 'the child', 'him']),
-        ('gave', 'given', ['a book to a student', 'a cracker to the baby', 'a coin to the stranger']),
+        ('gave', 'given', ['a book to a student', 'something sweet to the baby', 'money to the man']),
         ('rode', 'ridden', ['a horse', 'a cart', 'in the front seat', 'away']),
         ('shook', 'shaken', ['the plate', 'the table', 'the bowl']),
         ('strode', 'stridden', ['']),
-        ('took', 'taken', ['the paper', 'the garbage', 'the bell']),
-        ('threw', 'thrown', ['the trash out', 'the paper ball', 'the coin', 'his ball']),
+        ('took', 'taken', ['a paper', 'some food', 'the bell', 'it', 'them']),
+        ('threw', 'thrown', ['the trash out', 'the paper ball', 'some away', 'his ball']),
     ]
 
     def gen_sentences():
