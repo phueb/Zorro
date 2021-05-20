@@ -54,26 +54,3 @@ def count_correct_choices(pairs: List[Tuple[List[str], List[str]]],
     print()
 
     return res
-
-
-def check_pairs_for_grammar(pairs: List[Tuple[List[str], List[str]]],
-                            grammar_checker: Callable,
-                            ) -> List[Tuple[bool, bool]]:
-
-    res = []
-
-    for s1, s2 in pairs:
-
-        is_grammatical1 = grammar_checker(s1)
-        is_grammatical2 = grammar_checker(s2)
-
-        if len({is_grammatical1, is_grammatical2}) == 1:  # are both False or both True?
-            print(s1, is_grammatical1)
-            print(s2, is_grammatical2)
-            res.append((True, False))
-            # raise ValueError('Only one sentence per pair can be correct/agree in number.')  #TODO reinstate
-            print('Only one sentence per pair can be correct/agree in number.')
-        else:
-            res.append((is_grammatical1, is_grammatical2))
-
-    return res

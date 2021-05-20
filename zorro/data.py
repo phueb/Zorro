@@ -71,7 +71,9 @@ class DataControl:
         print(f'Loading test sentences with vocab size={vocab_size}')
         path = configs.Dirs.root / 'sentences' / str(self.vocab_size) / f'{paradigm}.txt'
         sentences_ordered = [s.split() for s in path.open().read().split('\n')]
-        self.pairs = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2], sentences_ordered[1::2])]
+        self.pairs = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2],  # odd numbered: bad sentences
+                                                 sentences_ordered[1::2])  # even numbered: good sentences
+                      ]
 
         self.s2cross_entropies = self.make_cross_entropies_unigram_distribution_control()
 

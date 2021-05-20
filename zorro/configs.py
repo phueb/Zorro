@@ -9,7 +9,7 @@ class Dirs:
     data = root / 'data'
     sentences = root / 'sentences'
     external_words = data / 'external_words'
-    words_in_paradigm = data / 'words_in_paradigm'
+    legal_words = data / 'legal_words'
 
 
 class Data:

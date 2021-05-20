@@ -2,7 +2,7 @@ from typing import Dict, List, Callable, Tuple
 import numpy as np
 from pathlib import Path
 
-from zorro.scoring import check_pairs_for_grammar, count_correct_choices
+from zorro.scoring import count_correct_choices
 from zorro.data import DataExperimental, DataControl
 from zorro import configs
 
@@ -11,14 +11,12 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
                               paradigm: str,
                               templates: List[str],
                               categorize_by_template: Callable,
-                              grammar_checker: Callable,
                               ) -> Dict[str, Dict[str, np.array]]:
     """
     :param group2predictions_file_paths: dict mapping group name to paths of files containing predictions
     :param paradigm: name of paradigm, used to make control data
     :param templates: list of names for templates, one for each subplot
     :param categorize_by_template: function for separating sentences by template
-    :param grammar_checker: function for checking grammar of each sentence in a pair
     :return: double-embedded dict, which can be input to barplot function
     how it works: for each group of prediction files:
     1. the prediction files are read and categorized by template and production category (eg. false, correct, etc)
@@ -73,7 +71,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
                 assert pairs
 
                 # calc proportion correct
-                grammatical_scores = check_pairs_for_grammar(pairs, grammar_checker)
+                grammatical_scores: List[Tuple[bool, bool]] = [(False, True) for _ in range(pairs)]  # TODO test # odd = bad, even = good
                 num_correct = count_correct_choices(pairs, grammatical_scores, data.s2cross_entropies)
                 prop = num_correct / len(pairs)
 

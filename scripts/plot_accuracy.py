@@ -97,7 +97,6 @@ for paradigm in PARADIGMS:
                                                               paradigm,
                                                               s.templates,
                                                               s.categorize_by_template,
-                                                              s.grammar_checker,
                                                               )
 
         # plot accuracy comparison at current time step

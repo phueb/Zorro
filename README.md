@@ -12,8 +12,8 @@ Inspired by [BLiMP](https://arxiv.org/pdf/1912.00582.pdf),
 
 Sentences are created using templates, filled with words from custom, human-curated word lists. 
 There are 4 phenomena, each consisting of a set of paradigms:
-1. agreement: noun-verb, demonstrative-noun
-2. irregular forms: intransitive verb, transitive verb
+1. agreement: subject-verb, demonstrative-subject
+2. irregular verb: active voice, passive voice
 3. quantifiers: TODO
 4. filler-gap: TODO
 
@@ -29,18 +29,16 @@ Words that make up test sentences are all derived from a BPE encoding vocab file
 - is a number
 - is a Stanford CoreNLP stopword
 
-2. Using `scripts/chose_words_for_inclusion.py`, for every slot in every task, we:
+2. Using `scripts/chose_legal_words.py`, we:
 - automatically retrieved words tagged with desired POS
-- manually removed words that were judged to be ungrammatical:
-e.g. for the paradigm `agreement_across_adjectives`, annotators were given the instruction: 
-"Does the word fit the slot in `Look at these _ ?`"
+- manually tagged words as legal or illegal
 
 ## Usage
 
 To make test sentences for a new vocabulary:
 
 1. get vocab from which words will be chosen for inclusion in test sentences using `scripts/tag_and_count_vocab_words.py`
-2. chose words to be included for each paradigm using `scripts/chose_words_for_inclusion.py`
+2. chose words to be included by part-of-speech using `scripts/chose_legal_words.py`
 2. make and save test sentences using `scripts/make_sentences.py`
 
 The grammatical correctness of each sentence is determined by its position in the text file:
