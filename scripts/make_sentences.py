@@ -5,6 +5,7 @@ from pathlib import Path
 import importlib
 
 from zorro.vocab import get_vocab_words
+from zorro.filter import collect_unique_pairs
 from zorro import configs
 
 CHECK_IN_VOCAB = True
@@ -23,7 +24,8 @@ for vocab_size in VOCAB_SIZES:
     # for all phenomena
     for phenomenon in ['agreement_demonstrative_subject',
                        'agreement_subject_verb',
-                       'irregular_verb']:
+                       'irregular_verb',
+                       'quantifiers']:
 
         # for all paradigms
         for path in (configs.Dirs.src / phenomenon).glob('*.py'):
@@ -41,8 +43,10 @@ for vocab_size in VOCAB_SIZES:
                 continue
 
             # generate sentences once, in order to save the same sentences to two locations
-            sentences = list(paradigm_module.main())
+            sentences = list(collect_unique_pairs(paradigm_module.main))
             assert sentences
+
+            # TODO save info about each sentence's template in the text file saved locally
 
             # save each file in repository, and also on shared drive
             for out_path in [

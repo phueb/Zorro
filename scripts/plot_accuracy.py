@@ -12,9 +12,11 @@ from zorro.visualizer import Visualizer, ParadigmData
 
 SHOW_BAR_PLOTS = False
 
-phenomena = ['agreement_demonstrative_subject',
-             'agreement_subject_verb',
-             'irregular_verb']
+phenomena = [
+    'agreement_demonstrative_subject',
+    'agreement_subject_verb',
+    'irregular_verb',
+]
 
 # where to get files from?
 if configs.Eval.local_runs:
@@ -39,6 +41,13 @@ phenomena_paradigms = list(chain(*[product([phenomenon],
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
 v = Visualizer(num_paradigms=len(phenomena_paradigms), y_lims=[0.5, 1.0])
+
+
+def shorten(name: str):
+    """make name of phenomenon shorter to fit in figure"""
+    name = name.replace('demonstrative', 'dem.')
+    return name
+
 
 # for all paradigms
 for phenomenon, paradigm in phenomena_paradigms:
@@ -74,8 +83,8 @@ for phenomenon, paradigm in phenomena_paradigms:
 
     # init line plot data
     pd = ParadigmData(
-        name=paradigm,
-        # name=f'{phenomenon}\n{paradigm}',
+        name=f'{shorten(phenomenon)}\n{paradigm}',
+        group_name2rep2curve=defaultdict(dict),
         group_name2template2curve=defaultdict(dict),
         group_names=group_names + configs.Data.control_names,
         group2prediction_file_paths=group2predictions_file_paths
@@ -103,10 +112,16 @@ for phenomenon, paradigm in phenomena_paradigms:
                          verbose=True,
                          )
 
-        # collect data for paradigm
+        # collect average performance in each paradigm, grouped by replication - allows computation of statistics
+        for group_name, props in template2group_name2props['all templates'].items():
+            for rep, curve_i in enumerate(props):
+                pd.group_name2rep2curve[group_name].setdefault(rep, []).append(curve_i)
+
+        # collect average performance in each paradigm, grouped by template
         for template, group_name2props in template2group_name2props.items():
+            if template == 'all templates':
+                continue
             for group_name, props in group_name2props.items():
-                print(props)
                 curve_i = np.mean(props)  # the mean proportion of a group at one location on curve
                 pd.group_name2template2curve[group_name].setdefault(template, []).append(curve_i)
 

@@ -19,7 +19,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
     :return: double-embedded dict, which can be input to barplot function
 
     how it works: for each group of prediction files:
-    1. the prediction files are read and categorized by template and production category (eg. false, correct, etc)
+    1. the prediction files are read and categorized by template (or not)
     2. scores (proportions) are stored in a matrix inside a double-embedded dict, ready for plotting
 
     Multiple frequency-control groups are added.
@@ -32,11 +32,11 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
 
     # load module
     module_paradigm = importlib.import_module(f'zorro.{phenomenon}.{paradigm}')
-    templates = module_paradigm.templates
-    categorize_by_template = module_paradigm.categorize_by_template
 
     if not configs.Eval.categorize_by_template:
         templates = ['all templates']
+    else:
+        raise NotImplementedError  # TODO read template info directly from local text files containing sentences
 
     group_names = list(group2predictions_file_paths.keys())
     group_names_with_controls = group_names + configs.Data.control_names
@@ -66,7 +66,7 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
 
             # organize sentence pairs by template
             if configs.Eval.categorize_by_template:
-                template2pairs = categorize_by_template(data.pairs)
+                raise NotImplementedError
             else:
                 template2pairs = {templates[0]: data.pairs}
 

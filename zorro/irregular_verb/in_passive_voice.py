@@ -1,10 +1,9 @@
 import random
-from typing import List, Dict, Tuple
 import inflect
 
+from zorro.filter import collect_unique_pairs
 from zorro.vocab import get_vocab_words
 from zorro.words import get_legal_words
-from zorro import configs
 
 NUM_ADJECTIVES = 50
 NUM_NOUNS = 50
@@ -13,8 +12,6 @@ template1 = '{} {} {} {} was {} by him .'
 template2 = '{} {} {} {} was not {} by her .'
 template3 = '{} {} {} {} was {} to him .'  # for use with "given"
 template4 = '{} {} {} {} was not {} to her .'  # for use with "given"
-
-templates = []  # TODO define templates once everywhere
 
 plural = inflect.engine()
 
@@ -56,61 +53,35 @@ def main():
         ('gave', 'given'),
     ]
 
-    def gen_sentences():
-        while True:
+    while True:
 
-            # random choices
-            noun = random.choice(nouns_s)
-            det = random.choice(determiners)
-            adj = random.choice(adjectives)
-            mod = random.choice(modifiers)
+        # random choices
+        noun = random.choice(nouns_s)
+        det = random.choice(determiners)
+        adj = random.choice(adjectives)
+        mod = random.choice(modifiers)
 
-            # get two contrasting irregular inflected forms.
-            # past participle (vn) is always correct
-            vd, vn = random.choice(vds_vns)
-            if (vn not in vocab or vd not in vocab) or vn == vd:
-                continue
+        # get two contrasting irregular inflected forms.
+        # past participle (vn) is always correct
+        vd, vn = random.choice(vds_vns)
+        if (vn not in vocab or vd not in vocab) or vn == vd:
+            continue
 
-            # exceptional case
-            if vn == 'given':
-                yield template3.format(mod, det, adj, noun, vd)  # bad
-                yield template3.format(mod, det, adj, noun, vn)  # good
+        # exceptional case
+        if vn == 'given':
+            yield template3.format(mod, det, adj, noun, vd)  # bad
+            yield template3.format(mod, det, adj, noun, vn)  # good
 
-                yield template4.format(mod, det, adj, noun, vd)
-                yield template4.format(mod, det, adj, noun, vn)
-            else:
-                yield template1.format(mod, det, adj, noun, vd)
-                yield template1.format(mod, det, adj, noun, vn)
-
-                yield template2.format(mod, det, adj, noun, vd)
-                yield template2.format(mod, det, adj, noun, vn)
-
-    # only collect unique sentences
-    sentences = set()
-    gen = gen_sentences()
-    while len(sentences) // 2 < configs.Data.num_pairs_per_paradigm:
-        sentence = next(gen)
-        if sentence not in sentences:
-            yield sentence
-        sentences.add(sentence)
-
-
-def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
-                           ) -> Dict[str, List[Tuple[List[str], List[str]]]]:
-
-    template2pairs = {}
-
-    for pair in pairs:
-        s1, s2 = pair
-        if s1[-1] == '.':
-            template2pairs.setdefault(templates[0], []).append(pair)
-
+            yield template4.format(mod, det, adj, noun, vd)
+            yield template4.format(mod, det, adj, noun, vn)
         else:
-            raise ValueError(f'Failed to categorize {pair} to template.')
+            yield template1.format(mod, det, adj, noun, vd)
+            yield template1.format(mod, det, adj, noun, vn)
 
-    return template2pairs
+            yield template2.format(mod, det, adj, noun, vd)
+            yield template2.format(mod, det, adj, noun, vn)
 
 
 if __name__ == '__main__':
-    for n, s in enumerate(main()):
+    for n, s in enumerate(collect_unique_pairs(main)):
         print(f'{n//2+1:>12,}', s)

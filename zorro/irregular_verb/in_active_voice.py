@@ -1,7 +1,7 @@
 import random
-from typing import List, Dict, Tuple
 import inflect
 
+from zorro.filter import collect_unique_pairs
 from zorro.vocab import get_vocab_words
 from zorro.counterbalance import find_counterbalanced_subset
 from zorro import configs
@@ -10,8 +10,6 @@ NUM_ADJECTIVES = 50
 NUM_NOUNS = 50
 
 template = '{} {} {} {} .'
-
-templates = []  # TODO define templates once everywhere
 
 plural = inflect.engine()
 
@@ -23,38 +21,10 @@ def main():
 
     """
 
-    names_ = [
-        'michael',
-        'simon',
-        'allen',
-        'obama',
-        'donald',
-        'henry',
-        'robert',
-        'bill',
-        'thomas',
-        'mark',
-        'richard',
-        'louis',
-        'joseph',
-        'edward',
-        'sarah',
-        'laura',
-        'allen',
-        'maria',
-        'ben',
-        'gregory',
-        'taylor',
-        'chris',
-        'carter',
-        'sam',
-        'roger',
-        'anne',
-    ]
-
     vocab = get_vocab_words()
     modifiers = ['over there', 'some time ago', 'this morning', 'at home', 'last night']
 
+    names_ = (configs.Dirs.legal_words / 'names.txt').open().read().split()
     names = find_counterbalanced_subset(names_, min_size=10, max_size=len(names_))
 
     vbds_vbns_args = [
@@ -96,55 +66,29 @@ def main():
         ('threw', 'thrown', ['the trash out', 'the paper ball', 'some away', 'his ball']),
     ]
 
-    def gen_sentences():
-        while True:
+    while True:
 
-            # random choices
-            name = random.choice(names)
-            mod = random.choice(modifiers)
-            vbd, vbn, args = random.choice(vbds_vbns_args)
-            arg = random.choice(args)
+        # random choices
+        name = random.choice(names)
+        mod = random.choice(modifiers)
+        vbd, vbn, args = random.choice(vbds_vbns_args)
+        arg = random.choice(args)
 
-            if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
-                # print(f'"{verb_base:<22} excluded due to some forms not in vocab')
-                continue
-            if arg == '':
-                continue
+        if (vbd not in vocab or vbn not in vocab) or vbd == vbn:
+            # print(f'"{verb_base:<22} excluded due to some forms not in vocab')
+            continue
+        if arg == '':
+            continue
 
-            # vbd is correct
-            yield template.format(name, vbn, arg, mod)  # bad
-            yield template.format(name, vbd, arg, mod)  # good
+        # vbd is correct
+        yield template.format(name, vbn, arg, mod)  # bad
+        yield template.format(name, vbd, arg, mod)  # good
 
-            # vbn is correct
-            yield template.format(name, 'had ' + vbd, arg, mod)
-            yield template.format(name, 'had ' + vbn, arg, mod)
-
-    # only collect unique sentences
-    sentences = set()
-    gen = gen_sentences()
-    while len(sentences) // 2 < configs.Data.num_pairs_per_paradigm:
-        sentence = next(gen)
-        if sentence not in sentences:
-            yield sentence
-        sentences.add(sentence)
-
-
-def categorize_by_template(pairs: List[Tuple[List[str], List[str]]],
-                           ) -> Dict[str, List[Tuple[List[str], List[str]]]]:
-
-    template2pairs = {}
-
-    for pair in pairs:
-        s1, s2 = pair
-        if s1[-1] == '.':
-            template2pairs.setdefault(templates[0], []).append(pair)
-
-        else:
-            raise ValueError(f'Failed to categorize {pair} to template.')
-
-    return template2pairs
+        # vbn is correct
+        yield template.format(name, 'had ' + vbd, arg, mod)
+        yield template.format(name, 'had ' + vbn, arg, mod)
 
 
 if __name__ == '__main__':
-    for n, s in enumerate(main()):
+    for n, s in enumerate(collect_unique_pairs(main)):
         print(f'{n//2+1:>12,}', s)
