@@ -39,8 +39,8 @@ def main():
 
     vowels = {'a', 'e', 'i', 'o', 'u'}
 
-    copula_p = ['were', 'are', "weren't", 'are not']
-    copula_s = ['was', 'is', 'was not', 'is not']
+    copula_p = ['were', 'are', "were not", "aren't"]
+    copula_s = ['was', 'is', 'was not', "isn't"]
 
     names_ = (configs.Dirs.legal_words / 'names.txt').open().read().split()
     names = find_counterbalanced_subset(names_, min_size=10, max_size=len(names_))
@@ -70,8 +70,9 @@ def main():
             quantifier_g = 'an'
 
         # prevent double negation
-        if quantifier_g == 'no' and 'not' in copula:
+        if quantifier_g == 'no' and ('not' in copula or "n't" in copula):
             copula = copula.replace(' not', '')
+            copula = copula.replace(" n't", '')
 
         yield template1.format(copula, quantifier_b, subj1, adj, noun_p)  # bad
         yield template1.format(copula, quantifier_g, subj1, adj, noun_p)  # good

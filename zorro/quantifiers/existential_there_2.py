@@ -26,8 +26,8 @@ def main():
 
     quantifiers = ['each', 'most', 'all', 'every']
 
-    copula_p = ['were', 'are', "weren't", "aren't"]
-    copula_s = ['was', 'is', "wasn't", "isn't"]
+    copula_p = ['were', 'are', "were not", "aren't"]
+    copula_s = ['was', 'is', "was not", "isn't"]
 
     vowels = {'a', 'e', 'i', 'o', 'u'}
 

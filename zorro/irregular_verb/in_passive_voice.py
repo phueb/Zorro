@@ -9,9 +9,9 @@ NUM_ADJECTIVES = 50
 NUM_NOUNS = 50
 
 template1 = '{} {} {} {} was {} by him .'
-template2 = '{} {} {} {} was not {} by her .'
+template2 = "{} {} {} {} wasn't {} by her ."
 template3 = '{} {} {} {} was {} to him .'  # for use with "given"
-template4 = '{} {} {} {} was not {} to her .'  # for use with "given"
+template4 = "{} {} {} {} wasn't {} to her ."  # for use with "given"
 
 plural = inflect.engine()
 
