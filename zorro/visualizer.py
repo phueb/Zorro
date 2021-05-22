@@ -36,8 +36,15 @@ class Visualizer:
                  ):
 
         self.num_cols = 4
-        num_paradigms_and_average = num_paradigms + 1
-        self.num_rows = num_paradigms_and_average // self.num_cols + 2
+        num_paradigms_and_summary = num_paradigms + 1
+        num_rows_for_data = num_paradigms_and_summary / self.num_cols
+        num_rows_for_legend = 1
+        self.num_rows = int(num_rows_for_data) + num_rows_for_legend
+        self.num_rows += 1 if not num_rows_for_data.is_integer() else 0  # to fit summary
+
+        print(f'Num paradigms={num_paradigms}')
+        print(f'Num rows={self.num_rows}')
+        print(f'Num cols={self.num_cols}')
 
         self.fig, self.ax_mat = plt.subplots(self.num_rows, self.num_cols,
                                              figsize=fig_size,

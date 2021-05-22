@@ -51,7 +51,7 @@ v = Visualizer(num_paradigms=len(phenomena_paradigms) - len(SKIP_PARADIGMS),
 
 def shorten(name: str):
     """make name of phenomenon shorter to fit in figure"""
-    name = name.replace('demonstrative', 'determiner')
+    name = name.replace('demonstrative', 'det.')
     return name
 
 
