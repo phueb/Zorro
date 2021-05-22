@@ -111,8 +111,11 @@ def find_counterbalanced_subset(words_in_slot_: List[str],
             if bias < configs.Data.bias_tolerance:
                 sample_meeting_criteria = sample
 
+        # print feedback
         idx = np.argmin(biases).item()
-        print(f'size={subset_size:,}/{len(words_in_slot):,} best: bias={biases[idx]:>12,} total_fs={str(total_fs_list[idx]):>24} sum={total_fs_list[idx].sum():>12,}')
+        feedback = f'size={subset_size:>4,}/{len(words_in_slot):>4,} | min bias={biases[idx]:>9,} '
+        feedback += ' '.join([f'{corpus_name}={f:>9,}' for corpus_name, f in zip(column_names, total_fs_list[idx])])
+        print(feedback)
 
         if sample_meeting_criteria:
             return sample_meeting_criteria

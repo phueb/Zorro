@@ -19,6 +19,10 @@ phenomena = [
     'irregular_verb',
 ]
 
+SKIP_PARADIGMS = [
+    'existential_there_2'  # too difficult
+]
+
 # where to get files from?
 if configs.Eval.local_runs:
     runs_path = configs.Dirs.runs_local
@@ -52,6 +56,8 @@ def shorten(name: str):
 
 # for all paradigms
 for phenomenon, paradigm in phenomena_paradigms:
+    if paradigm in SKIP_PARADIGMS:
+        continue
 
     # group_names
     if configs.Eval.param_names is None:

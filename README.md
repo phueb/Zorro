@@ -12,10 +12,11 @@ Inspired by [BLiMP](https://arxiv.org/pdf/1912.00582.pdf),
 
 Sentences are created using templates, filled with words from custom, human-curated word lists. 
 There are 4 phenomena, each consisting of a set of paradigms:
-1. agreement: subject-verb, demonstrative-subject
-2. irregular verb: active voice, passive voice
-3. quantifiers: TODO
-4. filler-gap: TODO
+1. subject-verb agreement: across 0, 1, or 2 adjectives
+2. demonstrative-subject agreement: across prepositional phrase, or relative clause; in 1 or 2 verb question
+3. irregular verb: active voice, passive voice
+4. quantifiers: existential there, superlative
+5. filler-gap: wh-question object, or subject
 
 
 ## How words were chosen

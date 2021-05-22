@@ -1,73 +1,70 @@
 """
-present words in template for human to judge as good or bad
+present words belonging to the same POS tag for human to judge as legal or not - can they be used in test sentences?
 """
-import importlib
 import pandas as pd
 
 from zorro import configs
 from zorro.vocab import load_vocab_df
 
-# chose one
-PARADIGMS = [
-    'agreement_across_1_adjective',
-    # 'agreement_across_2_adjectives',
-    # 'agreement_across_PP',
-    # 'agreement_across_RC',
-    # 'agreement_in_1_verb_question',
-    # 'agreement_in_2_verb_question',
-]
+TAG = 'VBG'
+
+tag2template = {
+    'NN': 'look at this ADJ {}',
+    'JJ': 'look at this {} NN',
+    'VBD': 'sarah {} something',
+    'VB': 'sarah might {} something',
+    'VBG': 'sarah might be {} something',
+}
+
+
 vocab_df = load_vocab_df()
 
 nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 
-for paradigm in PARADIGMS:
-    # load module
-    g = importlib.import_module(f'zorro.{paradigm}.generate')
-    df_path = configs.Dirs.legal_words / f'{paradigm}.csv'
-    if not df_path.exists():
-        df_legal = pd.DataFrame(columns=['word'] + [f'{tag}-{order}' for tag, order, _ in g.rules.keys()])
+
+df_path = configs.Dirs.legal_words / f'{TAG}.csv'
+if not df_path.exists():
+    df_legal = pd.DataFrame(columns=['word'] + ['is_legal'])
+else:
+    df_legal = pd.read_csv(df_path)
+
+# for each whole word in vocab, make new row for df
+for n, (vw, vw_series) in enumerate(vocab_df.iterrows()):
+
+    if vw in df_legal['word'].tolist():
+        continue
+    if vw_series['is_excluded']:
+        continue
+
+    row = {'word': vw}
+
+    # consult spacy tag if whole word can NOT be used in this slot
+    if vw_series[TAG] == 0:
+        row[f'is_legal'] = 0
+
+    elif vw in nas:
+        row[f'is_legal'] = 0
+
+    # ask user if whole word can be used in this slot
     else:
-        df_legal = pd.read_csv(df_path)
+        print()
+        print(tag2template[TAG].format(f'\033[94m{vw}\033[0m'))   # uses color
 
-    # for each whole word in vocab, make new row for df
-    for n, (vw, vw_series) in enumerate(vocab_df.iterrows()):
-
-        if vw in df_legal['word'].tolist():
-            continue
-        if vw_series['is_excluded']:
-            continue
-
-        row = {'word': vw}
-        for (tag, order, _), templates in g.rules.items():
-
-            # consult spacy tag if whole word can NOT be used in this slot
-            if vw_series[tag] == 0:
-                row[f'{tag}-{order}'] = 0
-
-            elif vw in nas:
-                row[f'{tag}-{order}'] = 0
-
-            # ask user if whole word can be used in this slot
+        is_valid = False
+        while not is_valid:
+            response = input('Grammatical? [f=yes j=no q=quit]')
+            if response == 'f':
+                row[f'is_legal'] = 1
+                is_valid = True
+            elif response == 'j':
+                row[f'is_legal'] = 0
+                is_valid = True
+            elif response == 'q':
+                exit('User exit')
             else:
-                print()
-                for template in templates:
-                    print(template.format(f'\033[94m{vw}\033[0m'))   # uses color
-
                 is_valid = False
-                while not is_valid:
-                    response = input('Grammatical? [f=yes j=no q=quit]')
-                    if response == 'f':
-                        row[f'{tag}-{order}'] = 1
-                        is_valid = True
-                    elif response == 'j':
-                        row[f'{tag}-{order}'] = 0
-                        is_valid = True
-                    elif response == 'q':
-                        exit('User exit')
-                    else:
-                        is_valid = False
 
-        df_legal = df_legal.append(row, ignore_index=True)
-        df_legal.to_csv(df_path, index=False)
-        print(row)
-        print(f'\nSaved {n}/{len(vocab_df)}\n')
+    df_legal = df_legal.append(row, ignore_index=True)
+    df_legal.to_csv(df_path, index=False)
+    print(row)
+    print(f'\nSaved {n}/{len(vocab_df)}\n')

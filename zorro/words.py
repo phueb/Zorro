@@ -11,6 +11,7 @@ from zorro.counterbalance import find_counterbalanced_subset
 def get_legal_words(tag: str,
                     num_words_in_sample: Optional[int] = None,
                     seed: int = configs.Data.seed,
+                    exclude: Optional[Tuple[str, ...]] = None,
                     ) -> List[str]:
 
     print(f'Obtaining counterbalanced subset of legal words with tag={tag}...')
@@ -19,6 +20,10 @@ def get_legal_words(tag: str,
     df_legal = pd.read_csv(configs.Dirs.legal_words / f'{tag}.csv')
     bool_ids = df_legal['is_legal'].astype(bool).tolist()
     words_legal = df_legal['word'][bool_ids].tolist()
+
+    # exclude
+    if exclude:
+        words_legal = [w for w in words_legal if w not in exclude]
 
     if num_words_in_sample is None:  # return all possible words, useful for scoring
         num_words_in_sample = configs.Data.tag2num_words[tag]
