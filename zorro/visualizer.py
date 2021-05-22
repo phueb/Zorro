@@ -8,7 +8,7 @@ from scipy.stats import sem, t
 from collections import defaultdict
 
 from zorro import configs
-from zorro.figs import get_legend_label
+from zorro.figs import get_legend_label, shorten_tick_labels
 
 
 @dataclass
@@ -51,9 +51,10 @@ class Visualizer:
                                              dpi=dpi,
                                              )
 
+        self.confidence = 0.95
         self.line_width = line_width
         self.x_axis_label = 'Training Step'
-        self.y_axis_label = 'Accuracy\n+/- 95% CI'
+        self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
         self.y_lims = y_lims or [0.5, 1.0]
         self.label_last_x_tick_only = label_last_x_tick_only
         self.x_ticks = configs.Eval.steps
@@ -94,7 +95,7 @@ class Visualizer:
         if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
             ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
             ax.set_xticks(self.x_ticks)
-            ax.set_xticklabels(x_tick_labels, fontsize=configs.Figs.tick_font_size)
+            ax.set_xticklabels(shorten_tick_labels(x_tick_labels), fontsize=configs.Figs.tick_font_size)
         # axis
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
@@ -110,9 +111,8 @@ class Visualizer:
             ax.plot(x, y, linewidth=self.line_width, color=color)
 
             # plot the margin of error (shaded region)
-            confidence = 0.95
             n = len(curves)
-            h = sem(curves, axis=0) * t.ppf((1 + confidence) / 2, n - 1)  # margin of error
+            h = sem(curves, axis=0) * t.ppf((1 + self.confidence) / 2, n - 1)  # margin of error
             ax.fill_between(x, y + h, y - h, alpha=0.2, color=color)
 
         self.fig.tight_layout()
@@ -134,7 +134,7 @@ class Visualizer:
             x_tick_labels = self.x_ticks
         ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
         ax.set_xticks(self.x_ticks)
-        ax.set_xticklabels(x_tick_labels, fontsize=configs.Figs.tick_font_size)
+        ax.set_xticklabels(shorten_tick_labels(x_tick_labels), fontsize=configs.Figs.tick_font_size)
         # y axis
         if ax_id % self.ax_mat.shape[1] == 0:
             ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)

@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from typing import List, Dict
+from typing import List, Dict, Union
 import yaml
 from pathlib import Path
 from matplotlib import rcParams
@@ -9,6 +9,11 @@ from zorro import configs
 
 rcParams['axes.spines.right'] = False
 rcParams['axes.spines.top'] = False
+
+
+def shorten_tick_labels(labels: List[Union[str,int]],
+                        ) -> List[str]:
+    return [str(label).replace('000', 'K') for label in labels]
 
 
 def get_legend_label(group2predictions_file_paths,
