@@ -20,7 +20,7 @@ phenomena = [
 ]
 
 SKIP_PARADIGMS = [
-    'existential_there_2'  # too difficult
+    # 'existential_there_2'  # too difficult
 ]
 
 # where to get files from?
@@ -45,12 +45,13 @@ phenomena_paradigms = list(chain(*[product([phenomenon],
                                    for phenomenon in phenomena]))
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
-v = Visualizer(num_paradigms=len(phenomena_paradigms), y_lims=[0.5, 1.0])
+v = Visualizer(num_paradigms=len(phenomena_paradigms) - len(SKIP_PARADIGMS),
+               y_lims=[0.5, 1.0])
 
 
 def shorten(name: str):
     """make name of phenomenon shorter to fit in figure"""
-    name = name.replace('demonstrative', 'dem.')
+    name = name.replace('demonstrative', 'determiner')
     return name
 
 
