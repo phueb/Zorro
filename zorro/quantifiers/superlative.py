@@ -6,9 +6,6 @@ from zorro.words import get_legal_words
 from zorro.counterbalance import find_counterbalanced_subset
 from zorro import configs
 
-NUM_ADJECTIVES = 50
-NUM_NOUNS = 50
-
 template1 = 'no {} {} {} {} {} {} .'
 
 plural = inflect.engine()
@@ -20,11 +17,11 @@ def main():
     "no cat can jump on more than two dogs ." vs. "no cat jump on at least two dogs ."
     """
 
-
     nouns_s_and_p = [(noun_s, plural.plural(noun_s))
-                     for noun_s in get_legal_words(tag='NN', num_words_in_sample=NUM_NOUNS)
+                     for noun_s in get_legal_words(tag='NN')
                      if plural.plural(noun_s) != noun_s]
-    number_words = ['two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
+    number_words_ = (configs.Dirs.legal_words / "number_words.txt").open().read().split()
+    number_words = find_counterbalanced_subset(number_words_, min_size=6, max_size=len(number_words_))
 
     quantifiers_g_b = [('more than', 'at least'),
                        ('fewer than', 'at most'),

@@ -4,9 +4,6 @@ import inflect
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
 
-NUM_ADJECTIVES = 50
-NUM_NOUNS = 50
-
 # todo put templates in list, and loop over them, making sure each can be formatted in teh same way
 
 template1 = 'look at {} {} {} .'
@@ -33,9 +30,9 @@ def main():
     demonstratives_plural = ["these", "those"]
 
     nouns_s_and_p = [(noun_s, plural.plural(noun_s))
-                     for noun_s in get_legal_words(tag='NN', num_words_in_sample=NUM_NOUNS)
+                     for noun_s in get_legal_words(tag='NN')
                      if plural.plural(noun_s) != noun_s]
-    adjectives = get_legal_words(tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    adjectives = get_legal_words(tag='JJ')
 
     while True:
 

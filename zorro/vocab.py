@@ -8,12 +8,13 @@ from zorro import configs
 @functools.lru_cache(maxsize=12)
 def get_vocab_words(vocab_name: Optional[str] = None,
                     tag: Optional[str] = None,
+                    return_excluded_words: bool = False,  # sub-words, stop-words, number-words
                     ) -> List[str]:
 
     if vocab_name is None:
         vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
 
-    df = load_vocab_df(vocab_name)
+    df = load_vocab_df(vocab_name, return_excluded_words)
     res = []
     for vw, vw_series in df.iterrows():
         vw: str
@@ -26,12 +27,13 @@ def get_vocab_words(vocab_name: Optional[str] = None,
 def get_frequency(vocab_name: Optional[str] = None,
                   tag: Optional[str] = None,
                   corpus_initial: Optional[str] = 'total',
+                  return_excluded_words: bool = False,
                   ) -> List[int]:
 
     if vocab_name is None:
         vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
 
-    df = load_vocab_df(vocab_name)
+    df = load_vocab_df(vocab_name, return_excluded_words)
     res = []
     for vw, vw_series in df.iterrows():
         vw: str

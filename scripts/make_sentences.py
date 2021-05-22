@@ -14,6 +14,7 @@ SECONDARY_OUT_PATH = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences'
 
 stop_words = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
 nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
+number_words = (configs.Dirs.legal_words / "number_words.txt").open().read().split()
 
 # for all vocab sizes
 for vocab_size in VOCAB_SIZES:
@@ -22,10 +23,12 @@ for vocab_size in VOCAB_SIZES:
     vocab_words = get_vocab_words()
 
     # for all phenomena
-    for phenomenon in ['agreement_demonstrative_subject',
-                       'agreement_subject_verb',
-                       'irregular_verb',
-                       'quantifiers']:
+    for phenomenon in [
+        'quantifiers',
+        'agreement_demonstrative_subject',
+        'agreement_subject_verb',
+        'irregular_verb',
+    ]:
 
         # for all paradigms
         for path in (configs.Dirs.src / phenomenon).glob('*.py'):
@@ -62,12 +65,8 @@ for vocab_size in VOCAB_SIZES:
                         # check
                         words_to_check = sentence.split() if CHECK_IN_VOCAB else []
                         for w in words_to_check:
-                            if w == configs.Data.mask_symbol:
-                                continue
-                            if w == 'peoples':
-                                raise RuntimeError('Found "peoples')
                             if w not in vocab_words and w not in stop_words:
-                                print(f'WARNING: Not a whole word and not a stop word: "{w}"')
+                                raise RuntimeError(f'WARNING: Not a whole word and not a stop word: "{w}"')
                             if w in nas:
                                 print(f'WARNING: Found noun with ambiguous number: "{w}"')
                         # write to file

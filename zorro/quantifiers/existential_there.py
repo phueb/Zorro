@@ -6,9 +6,6 @@ from zorro.words import get_legal_words
 from zorro.counterbalance import find_counterbalanced_subset
 from zorro import configs
 
-NUM_ADJECTIVES = 50
-NUM_NOUNS = 50
-
 template1 = 'there {} {} {} about {} {} .'
 template2 = 'there {} {} {} that {} made .'
 
@@ -23,9 +20,9 @@ def main():
     """
 
     nouns_s_and_p = [(noun_s, plural.plural(noun_s))
-                     for noun_s in get_legal_words(tag='NN', num_words_in_sample=NUM_NOUNS)
+                     for noun_s in get_legal_words(tag='NN')
                      if plural.plural(noun_s) != noun_s]
-    adjectives = get_legal_words(tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    adjectives = get_legal_words(tag='JJ')
 
     quantifiers_good = ['a', 'no', 'some', 'many', 'few']
     quantifiers_bad = ['each', 'most', 'all', 'every']
@@ -68,6 +65,12 @@ def main():
         # "a" vs. "an"
         if subj1[0] in vowels and quantifier_g == 'a':
             quantifier_g = 'an'
+        if subj1[0] in vowels and quantifier_b == 'a':
+            quantifier_b = 'an'
+        if subj2[0] in vowels and quantifier_g == 'a':
+            quantifier_g = 'an'
+        if subj2[0] in vowels and quantifier_b == 'a':
+            quantifier_b = 'an'
 
         # prevent double negation
         if quantifier_g == 'no' and ('not' in copula or "n't" in copula):

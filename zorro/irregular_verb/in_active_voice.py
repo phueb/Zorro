@@ -6,9 +6,6 @@ from zorro.vocab import get_vocab_words
 from zorro.counterbalance import find_counterbalanced_subset
 from zorro import configs
 
-NUM_ADJECTIVES = 50
-NUM_NOUNS = 50
-
 template = '{} {} {} {} .'
 
 plural = inflect.engine()

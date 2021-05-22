@@ -5,9 +5,6 @@ from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
 from zorro.counterbalance import find_counterbalanced_subset
 
-NUM_ADJECTIVES = 50
-NUM_NOUNS = 50
-
 template1 = '{} {} {} {} {} {} {} {} .'
 
 plural = inflect.engine()
@@ -20,9 +17,9 @@ def main():
     """
 
     nouns_s_and_p = [(noun_s, plural.plural(noun_s))
-                     for noun_s in get_legal_words(tag='NN', num_words_in_sample=NUM_NOUNS)
+                     for noun_s in get_legal_words(tag='NN')
                      if plural.plural(noun_s) != noun_s]
-    adjectives = get_legal_words(tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    adjectives = get_legal_words(tag='JJ')
 
     quantifiers = ['each', 'most', 'all', 'every']
 

@@ -26,8 +26,6 @@ def find_counterbalanced_subset(words_in_slot_: List[str],
     a heuristic search is used to find such a subset.
     """
 
-    print(f'Finding counterbalanced word subset with min={min_size} and max={max_size}')
-
     np.random.seed(seed)
 
     if min_size <= 0:

@@ -30,7 +30,7 @@ class Visualizer:
                  num_paradigms: int,
                  label_last_x_tick_only: bool = True,
                  y_lims: Optional[List[float]] = None,
-                 fig_size: int = (6, 4),
+                 fig_size: int = (6, 6),
                  dpi: int = 300,
                  line_width: int = 1,
                  ):
@@ -181,7 +181,7 @@ class Visualizer:
         # legend
         self.fig.legend(handles=legend_elements,
                         loc='upper center',
-                        bbox_to_anchor=(0.5, 0.2),  # distance from bottom-left (move up into  empty axes)
+                        bbox_to_anchor=(0.5, 0.15),  # distance from bottom-left (move up into  empty axes)
                         ncol=1,
                         frameon=False,
                         fontsize=configs.Figs.leg_font_size)

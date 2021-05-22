@@ -10,8 +10,10 @@ from zorro import configs
 vocab_size2w2p = {}
 for control_name in configs.Data.control_names:
     vocab_size = control_name.split()[0]
-    vocab_words = get_vocab_words(configs.Data.vocab_name_template.format(vocab_size))
-    freq = get_frequency(configs.Data.vocab_name_template.format(vocab_size))
+    vocab_words = get_vocab_words(configs.Data.vocab_name_template.format(vocab_size),
+                                  return_excluded_words=True)
+    freq = get_frequency(configs.Data.vocab_name_template.format(vocab_size),
+                         return_excluded_words=True)
     assert len(freq) == len(vocab_words)
     unigram_probabilities = np.array(freq) / sum(freq)
     vocab_size2w2p[control_name] = {w: p for w, p in zip(vocab_words, unigram_probabilities)}

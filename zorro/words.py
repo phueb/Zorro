@@ -13,7 +13,7 @@ def get_legal_words(tag: str,
                     seed: int = configs.Data.seed,
                     ) -> List[str]:
 
-    print(f'Obtaining words with tag={tag}...')
+    print(f'Obtaining counterbalanced subset of legal words with tag={tag}...')
 
     # get words with requested tag and order
     df_legal = pd.read_csv(configs.Dirs.legal_words / f'{tag}.csv')
@@ -21,7 +21,7 @@ def get_legal_words(tag: str,
     words_legal = df_legal['word'][bool_ids].tolist()
 
     if num_words_in_sample is None:  # return all possible words, useful for scoring
-        return words_legal
+        num_words_in_sample = configs.Data.tag2num_words[tag]
 
     # also counterbalance plural forms
     if tag == 'NN':

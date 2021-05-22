@@ -23,9 +23,8 @@ vocab_no_space_symbol = {w.strip(configs.Data.space_symbol) for w in vocab}
 
 # keep track of which words are excluded - not a candidate for being inserted into test sentences
 nds = (configs.Dirs.external_words / "non-dictionary.txt").open().read().split()
-nws = (configs.Dirs.external_words / "numbers.txt").open().read().split()
 sws = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
-excluded_words = set(nds + nws + sws)
+excluded_words = set(nds + sws)
 
 
 def is_excluded(w: str):

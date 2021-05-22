@@ -23,11 +23,10 @@ There are 4 phenomena, each consisting of a set of paradigms:
 Words that make up test sentences are all derived from a BPE encoding vocab file 
  generated using the Python `tokenizers` package. 
 
-1. Using `script/tag_and_count_vocab_words.py`, we removed any words:
-- not in original corpus files (e.g. sub-words)
-- not in English dictionary
-- is a number
-- is a Stanford CoreNLP stopword
+1. Using `script/tag_and_count_vocab_words.py`, we removed any word that is:
+- not a whole word in original corpus files (it is a sub-word)
+- not in th English dictionary
+- a Stanford CoreNLP stop-word
 
 2. Using `scripts/chose_legal_words.py`, we:
 - automatically retrieved words tagged with desired POS

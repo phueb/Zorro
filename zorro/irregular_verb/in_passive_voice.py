@@ -5,9 +5,6 @@ from zorro.filter import collect_unique_pairs
 from zorro.vocab import get_vocab_words
 from zorro.words import get_legal_words
 
-NUM_ADJECTIVES = 50
-NUM_NOUNS = 50
-
 template1 = '{} {} {} {} was {} by him .'
 template2 = "{} {} {} {} wasn't {} by her ."
 template3 = '{} {} {} {} was {} to him .'  # for use with "given"
@@ -29,8 +26,8 @@ def main():
 
     vocab = get_vocab_words()
     modifiers = ['maybe', 'i think', 'we hope that', 'he said that']
-    nouns_s = get_legal_words(tag='NN', num_words_in_sample=NUM_NOUNS)
-    adjectives = get_legal_words(tag='JJ', num_words_in_sample=NUM_ADJECTIVES)
+    nouns_s = get_legal_words(tag='NN')
+    adjectives = get_legal_words(tag='JJ')
 
     determiners = ['the', 'this', 'one', 'your']
 

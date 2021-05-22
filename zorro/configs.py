@@ -20,6 +20,7 @@ class Data:
     vocab_size = 8192
     vocab_name_template = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{}'
     bias_tolerance = 1000  # for nouns and adjectives, but not necessarily verbs
+    tag2num_words = {'NN': 20, 'JJ': 50}  # number of types for sampling in each paradigm
     min_num_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
     control_names = ['8192 frequency baseline']  #, '32768 frequency baseline']
@@ -39,7 +40,7 @@ class Eval:
              120_000, 140_000, 160_000, 180_000, 200_000,
              # 220_000, 240_000, 260_000, 280_000, 300_000,
              ]
-    param_names = [f'param_{i:03}' for i in [7, 8, 9]]
+    param_names = [f'param_{i:03}' for i in [1, 2, 3]]
     raise_error_on_missing_group = True
     conditions = ['corpora', 'load_from_checkpoint']  # can be empty list
     included_params = {}
@@ -50,7 +51,7 @@ class Eval:
 class Figs:
     lw = 1
     ax_font_size = 6
-    leg_font_size = 8
+    leg_font_size = 7
     dpi = 163
     title_font_size = 6
     tick_font_size = 6
