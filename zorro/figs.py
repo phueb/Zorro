@@ -13,7 +13,8 @@ rcParams['axes.spines.top'] = False
 
 def shorten_tick_labels(labels: List[Union[str,int]],
                         ) -> List[str]:
-    return [str(label).replace('000', 'K') for label in labels]
+    return [str(label)[:-3] + 'K' if str(label).endswith('000') else label
+            for label in labels]
 
 
 def get_legend_label(group2predictions_file_paths,

@@ -57,6 +57,20 @@ def main():
             return 'work for'
         elif v == 'acting':
             return 'acting like'
+        elif v == 'sleeping':
+            return 'sleeping in'
+        elif v == 'falling':
+            return 'falling on'
+        elif v == 'looking':
+            return 'looking for'
+        elif v == 'running':
+            return 'running to'
+        elif v == 'talking':
+            return 'talking about'
+        elif v == 'thinking':
+            return 'thinking about'
+        elif v == 'reaching':
+            return 'reaching for'
         elif v == 'work':
             return f'work {random.choice(["him", "her", "them", "us"])}'
         else:
@@ -76,7 +90,7 @@ def main():
         slot2filler['vbg'] = add_preposition_after_vb(slot2filler['vbg'])
 
         # exclude bad combinations that involve "who", e.g. "saying who"
-        if slot2filler['vbg'] not in {'saying', 'thinking', 'drinking', 'eating', 'open'}\
+        if slot2filler['vbg'] not in {'saying', 'drinking', 'eating', 'open'}\
                 and slot2filler['vb'] not in {'need', 'feel', 'open'}:
 
             if slot2filler['vb'] == 'tell':

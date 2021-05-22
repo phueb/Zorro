@@ -24,6 +24,8 @@ for vocab_size in VOCAB_SIZES:
 
     # for all phenomena
     for phenomenon in [
+        'island-effects',
+        'filler-gap',
         'quantifiers',
         'agreement_demonstrative_subject',
         'agreement_subject_verb',

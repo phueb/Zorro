@@ -51,7 +51,7 @@ class Visualizer:
                                              dpi=dpi,
                                              )
 
-        self.confidence = 0.95
+        self.confidence = 0.90
         self.line_width = line_width
         self.x_axis_label = 'Training Step'
         self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'

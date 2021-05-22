@@ -52,6 +52,10 @@ def main():
             return 'sleeping in'
         elif v == 'standing':
             return 'standing on'
+        elif v == 'depending':
+            return 'depending on'
+        elif v == 'flying':
+            return 'flying over'
         elif v == 'falling':
             return 'falling on'
         elif v == 'asking':
@@ -60,6 +64,8 @@ def main():
             return 'swimming in'
         elif v == 'asking':
             return 'asking for'
+        elif v == 'coming':
+            return 'coming to'
         else:
             return v
 
