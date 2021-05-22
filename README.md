@@ -17,6 +17,7 @@ There are 4 phenomena, each consisting of a set of paradigms:
 3. irregular verb: active voice, passive voice
 4. quantifiers: existential there, superlative
 5. filler-gap: wh-question object, or subject
+5. island-effects: adjunct, coordinate_structure_constraint
 
 
 ## How words were chosen
