@@ -28,8 +28,8 @@ def main():
 
     nouns_s = get_legal_words(tag='NN')
 
-    excluded_verbs_present = ('put', 'run', 'say', 'be', 'give', 'tell', 'live')
-    verbs_present = get_legal_words(tag='VB', exclude=excluded_verbs_present)
+    excluded_verbs_base = ('put', 'run', 'say', 'be', 'give', 'tell', 'live')
+    verbs_base = get_legal_words(tag='VB', exclude=excluded_verbs_base)
 
     excluded_verbs_past = ('started', 'let', 'told')
     verbs_past = get_legal_words(tag='VBD', exclude=excluded_verbs_past)
@@ -61,7 +61,7 @@ def main():
             'nn2': random.choice(animates),
             'vbd': random.choice(verbs_past),
             'vbd2': random.choice(verbs_past),  # used in template2 only
-            'vb': random.choice(verbs_present),  # used in template 1 only
+            'vb': random.choice(verbs_base),  # used in template 1 only
         }
 
         slot2filler['vb'] = add_preposition_after_vb(slot2filler['vb'])

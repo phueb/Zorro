@@ -13,6 +13,8 @@ from zorro.visualizer import Visualizer, ParadigmData
 SHOW_BAR_PLOTS = False
 
 phenomena = [
+    'island-effects',
+    'filler-gap',
     'quantifiers',
     'agreement_demonstrative_subject',
     'agreement_subject_verb',
@@ -20,7 +22,7 @@ phenomena = [
 ]
 
 SKIP_PARADIGMS = [
-    # 'existential_there_2'  # too difficult
+    'existential_there_2'  # too difficult
 ]
 
 # where to get files from?

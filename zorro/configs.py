@@ -20,7 +20,7 @@ class Data:
     vocab_size = 8192
     vocab_name_template = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{}'
     bias_tolerance = 1000  # for nouns and adjectives, but not necessarily verbs
-    tag2num_words = {'NN': 50, 'JJ': 50, 'VB': 10, 'VBD': 10, 'VBG': 20}  # number of types for sampling
+    tag2num_words = {'NN': 50, 'JJ': 50, 'VB': 10, 'VBD': 10, 'VBG': 20, 'VBZ': 20}  # number of types for sampling
     min_num_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
     control_names = ['8192 frequency baseline']  #, '32768 frequency baseline']

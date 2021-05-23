@@ -1,22 +1,21 @@
-import numpy as np
+import random
 from pathlib import Path
-from typing import List, Dict, Tuple
+from typing import Dict, Tuple
 
 from zorro.vocab import get_vocab_words, get_frequency
 from zorro import configs
 
 
 # precompute word frequency for baseline models
-vocab_size2w2p = {}
+vocab_size2w2f = {}
 for control_name in configs.Data.control_names:
     vocab_size = control_name.split()[0]
     vocab_words = get_vocab_words(configs.Data.vocab_name_template.format(vocab_size),
                                   return_excluded_words=True)
-    freq = get_frequency(configs.Data.vocab_name_template.format(vocab_size),
-                         return_excluded_words=True)
-    assert len(freq) == len(vocab_words)
-    unigram_probabilities = np.array(freq) / sum(freq)
-    vocab_size2w2p[control_name] = {w: p for w, p in zip(vocab_words, unigram_probabilities)}
+    frequencies = get_frequency(configs.Data.vocab_name_template.format(vocab_size),
+                                return_excluded_words=True)
+    assert len(frequencies) == len(vocab_words)
+    vocab_size2w2f[control_name] = {w: f for w, f in zip(vocab_words, frequencies)}
 
 
 class DataExperimental:
@@ -83,29 +82,32 @@ class DataControl:
         self.s2cross_entropies = self.make_cross_entropies_unigram_distribution_control()
 
     def make_cross_entropies_unigram_distribution_control(self):
+        """
+        assign lower cross entropy to sentences that have a higher sum of word frequencies
+        """
 
         res = {}
 
-        w2p = vocab_size2w2p[self.group_name]
-
-        nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
+        w2f = vocab_size2w2f[self.group_name]
 
         for s1, s2 in self.pairs:
-            for w1, w2 in zip(s1, s2):
-                if w1 != w2:
-                    if w2p[w1] > w2p[w2]:
-                        xe1, xe2 = 0.0, 1.0
-                    else:
-                        xe1, xe2 = 1.0, 0.0
-                    break
-            else:
-                for w in s1:
-                    if w in nas:
-                        break
-                else:
-                    raise RuntimeError('Sentence Pair has identical sentences')
 
-            res[tuple(s1)] = xe1
-            res[tuple(s2)] = xe2
+            # note: we default to zero for words not in vocab - happens for contractions like "isn't"
+            s1_fs = sum([w2f.get(w, 0) for w in s1])
+            s2_fs = sum([w2f.get(w, 0) for w in s2])
+
+            # if contrast is word order or contrasting word is equally frequent, chose randomly
+            if s1_fs == s2_fs:
+                if random.random() < 0.5:
+                    res[tuple(s1)] = 0.0
+                    res[tuple(s2)] = 1.0
+                else:
+                    res[tuple(s1)] = 1.0
+                    res[tuple(s2)] = 0.0
+
+            # assign lower x-e to sentence with higher frequency
+            else:
+                res[tuple(s1)] = 0.0 if s1_fs > s2_fs else 1.0
+                res[tuple(s2)] = 0.0 if s2_fs > s1_fs else 1.0
 
         return res

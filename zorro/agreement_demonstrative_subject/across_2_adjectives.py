@@ -26,9 +26,7 @@ def main():
     demonstratives_singular = ["this", "that"]
     demonstratives_plural = ["these", "those"]
 
-    nouns_s_and_p = [(noun_s, plural.plural(noun_s))
-                     for noun_s in get_legal_words(tag='NN')
-                     if plural.plural(noun_s) != noun_s]
+    nouns_s_and_p = get_legal_words(tag='NN', second_tag='NNP')
     adjectives = get_legal_words(tag='JJ')
 
 

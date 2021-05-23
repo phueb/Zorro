@@ -6,7 +6,7 @@ import pandas as pd
 from zorro import configs
 from zorro.vocab import load_vocab_df
 
-TAG = 'VBG'
+TAG = 'VBZ'
 
 tag2template = {
     'NN': 'look at this ADJ {}',
@@ -14,6 +14,7 @@ tag2template = {
     'VBD': 'sarah {} something',
     'VB': 'sarah might {} something',
     'VBG': 'sarah might be {} something',
+    'VBZ': 'sarah {} something',
 }
 
 

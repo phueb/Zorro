@@ -7,14 +7,15 @@ from zorro.counterbalance import find_counterbalanced_subset
 from zorro import configs
 
 template1 = {
-    'b': 'who should {name} {vb} the {nn} {pp} {vbg} ?',
-    'g': 'who should {name} {vb} {pp} {vbg} the {nn} ?',
+    'b': 'is the {nn} {vbg} ?',
+    'g': 'is the {nn} {vbz} ?',
 }
 
 template2 = {
-    'b': 'what did {name} {vb} the {nn} {pp} {vbg} ?',
-    'g': 'what did {name} {vb} {pp} {vbg} the {nn} ?',
+    'b': 'does the {nn} {vb} ?',
+    'g': 'does the {nn} {vbz} ?',
 }
+
 
 plural = inflect.engine()
 
@@ -22,23 +23,26 @@ plural = inflect.engine()
 def main():
     """
     example:
-    "who should sarah hug after shocking the dog ?" vs "who should sarah hug the dog after shocking ?"
+    "is the bell ringing ?" vs "is the bell rings ?"
 
-    note: this task is too difficult for babyBERTa
+
     """
+
+    # counterbalance all forms of verb as different forms are the contrast
+    vbgs_and_vbzs = get_legal_words(tag='VBG', second_tag='VBZ')
+    print(vbgs_and_vbzs)
 
     nouns_s = get_legal_words(tag='NN')
 
-    excluded_verbs_base = ('run', 'say', 'be', 'give', 'tell', 'live', 'force')
-    verbs_base = get_legal_words(tag='VB', exclude=excluded_verbs_base)
-
-    excluded_verbs_gerund = ('saying', )
-    verbs_gerund = get_legal_words(tag='VBG', exclude=excluded_verbs_gerund)
+    # excluded_verbs_3p = ('', )
+    # verbs_3p = get_legal_words(tag='VBZ', exclude=excluded_verbs_3p)
+    #
+    # excluded_verbs_gerund = ('saying', )
+    # verbs_gerund = get_legal_words(tag='VBG', exclude=excluded_verbs_gerund)
 
     names_ = (configs.Dirs.legal_words / 'names.txt').open().read().split()
     names = find_counterbalanced_subset(names_, min_size=10, max_size=len(names_))
 
-    pps = ['after', 'before', 'while', 'without']
 
     def add_preposition_after_vb(v: str):
         if v == 'related':
@@ -72,23 +76,21 @@ def main():
 
     while True:
 
+        vbg, vbz = random.choice(vbgs_and_vbzs)
+
         # random choices
         slot2filler = {
             'name': random.choice(names),
             'nn': random.choice(nouns_s),
-            'pp': random.choice(pps),
-            'vb': random.choice(verbs_base),
-            'vbg': random.choice(verbs_gerund),
+            'vbg': vbg,
+            'vbz': vbz,
         }
-
-        slot2filler['vb'] = add_preposition_after_vb(slot2filler['vb'])
-        slot2filler['vbg'] = add_preposition_after_vb(slot2filler['vbg'])
 
         yield template1['b'].format(**slot2filler)  # bad
         yield template1['g'].format(**slot2filler)  # good
 
-        yield template2['b'].format(**slot2filler)  # bad
-        yield template2['g'].format(**slot2filler)  # good
+        # yield template2['b'].format(**slot2filler)  # bad
+        # yield template2['g'].format(**slot2filler)  # good
 
 
 if __name__ == '__main__':

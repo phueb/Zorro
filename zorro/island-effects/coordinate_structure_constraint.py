@@ -36,8 +36,8 @@ def main():
 
     """
 
-    excluded_verbs_present = ('run', 'be', 'live', 'force', 'order')
-    verbs_present = get_legal_words(tag='VB', exclude=excluded_verbs_present)
+    excluded_verbs_base = ('run', 'be', 'live', 'force', 'order')
+    verbs_base = get_legal_words(tag='VB', exclude=excluded_verbs_base)
 
     excluded_verbs_gerund = ('',)
     verbs_gerund = get_legal_words(tag='VBG', exclude=excluded_verbs_gerund)
@@ -82,7 +82,7 @@ def main():
         slot2filler = {
             'name': random.choice(names),
             'nn': random.choice(animates),
-            'vb': random.choice(verbs_present),
+            'vb': random.choice(verbs_base),
             'vbg': random.choice(verbs_gerund),
         }
 
