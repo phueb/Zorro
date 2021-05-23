@@ -108,7 +108,7 @@ def find_counterbalanced_subset(first_forms: List[str],
 
         # print feedback
         idx = np.argmin(biases).item()
-        feedback = f'size={subset_size:>4,}/{len(first_forms):>4,} | min bias={biases[idx]:>9,} '
+        feedback = f'size={subset_size:>5,}/{len(first_forms):>5,} | min bias={biases[idx]:>9,} '
         feedback += ' '.join([f'{corpus_name}={f:>9,}' for corpus_name, f in zip(column_names, total_fs_list[idx])])
         print(feedback)
 
