@@ -39,10 +39,10 @@ def main():
 
     auxiliaries = ['can', 'could', 'will', 'would', 'must', 'should']
 
-    def add_misc(v: str,
-                 prp: str,
-                 arg1: str,
-                 ) -> str:
+    def add_misc_after_prp(prp: str,
+                           v: str,
+                           arg1: str,
+                           ) -> str:
         if v in {'take'}:
             return f'{prp} to {arg1}'
         elif v in {'make'}:
@@ -54,7 +54,7 @@ def main():
         elif v in {'tell'}:
             return f'{prp} about {arg1}'
         else:
-            return v
+            return prp
 
     def add_preposition_after_vb(v: str) -> str:
         if v in {'work', 'study'}:
@@ -84,8 +84,8 @@ def main():
         argument1 = random.choice([f'the {nn}' for nn in nouns_s[:10]])
 
         # first, add some miscellaneous component
-        slot2filler['prp_poss'] = add_misc(slot2filler['vb'], prp_poss, argument1)
-        slot2filler['prp_obj'] = add_misc(slot2filler['vb'], prp_obj, argument1)
+        slot2filler['prp_poss'] = add_misc_after_prp(prp_poss, slot2filler['vb'], argument1)
+        slot2filler['prp_obj'] = add_misc_after_prp(prp_obj, slot2filler['vb'], argument1)
 
         # lastly, add a preposition
         slot2filler['vb'] = add_preposition_after_vb(slot2filler['vb'])
