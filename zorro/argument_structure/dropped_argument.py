@@ -12,13 +12,13 @@ template1 = {
 }
 
 template2 = {
-    'b': 'the {nn} {vbz2} {prp_obj} about .',  # works with "asks", "tells" only
+    'b': 'the {nn} {vbz2} {prp_obj} about .',  # works with "asked", "tells" only
     'g': '{vb2} {prp_obj} about the {nn} .',
 }
 
 template3 = {
-    'b': '{det} {nn} {vbz3} {foil} .',  # works with "looks", "talks", etc
-    'g': '{det} {nn} {vbz3} {filler} .',
+    'b': '{det} {nn} {vbz3} {cont_b} .',  # works with many other verbs
+    'g': '{det} {nn} {vbz3} {cont_g} .',
 }
 
 
@@ -37,20 +37,32 @@ def main():
     ]
 
     vbs_and_vbzs_2 = [
-        ('ask', 'asks'),
+        ('ask', 'asked'),  # "asks" is not in vocab
         ('tell', 'tells'),
     ]
 
-    vbzs3_and_fillers_and_foils = [
-        ('looks', 'well', 'like'),
-        ('talks', 'quickly', 'about'),
-        ('eats', 'everything', 'some'),
-        ('plays', 'ball', 'with'),
-        ('sleeps', 'here', 'on'),
-        ('drinks', 'juice', 'the'),
-        ('thinks', 'a lot', 'about many'),
+    prps_obj = ['me', 'you', 'him', 'her', 'them']
+
+    conjunctions = ['when', 'but', 'with', 'and']
+
+    # TODO use a counterbalanced verb list
+
+    vbzs3_and_continuations = [  # contains a mix of past and present tense forms
+        # past tense form
+        ('saw', '{prp_obj} there', '{prp_obj} by'),
+        ('created', '{prp_obj}', '{det}'),
+        ('told', '{prp_obj} about that', '{prp_obj} about {det}'),
+        ('wrote', '{prp_obj} something', '{prp_obj} {det}'),
+        ('wanted', '{prp_obj}', 'to'),
+        ('asked', 'about {prp_obj}', '{prp_obj} about'),
+        ('sold', '{prp_obj} that', 'that to'),
+        ('changed', '{prp_obj}', '{det}'),
+        # present tense form
+        ('looks', 'at {prp_obj}', 'at {det}'),
+        ('plays', 'with {prp_obj}', 'with {det}'),
+        ('thinks', 'about {prp_obj}', 'about {det}'),
         ('moves', 'fast', 'to'),
-        ('works', 'hard', 'when'),
+        ('works', 'well', '{conjunction}'),
     ]
 
     adjectives = get_legal_words(tag='JJ')
@@ -63,7 +75,7 @@ def main():
     personal_pronouns_obj = ['me', 'him', 'her', 'us', 'them']  # in the objective case
     personal_pronouns_subj = ['i', 'he', 'she', 'we', 'they']  # in the subjective case
 
-    determiners = ['a', 'one', 'this', 'that', 'the', 'my', 'his', 'her']
+    determiners = ['a', 'one', 'this', 'that', 'the', 'my', 'his', 'her', 'some']
 
     vowels = {'a', 'e', 'i', 'o', 'u'}
 
@@ -71,7 +83,13 @@ def main():
 
         vb1, vbz1 = random.choice(vbs_and_vbzs_1)    # template 1
         vb2, vbz2 = random.choice(vbs_and_vbzs_2)    # template 2
-        vbz3, filler, foil = random.choice(vbzs3_and_fillers_and_foils)    # template 3
+        vbz3, cont_g, cont_b = random.choice(vbzs3_and_continuations)    # template 3
+
+        # good and bad continuations
+        prp_obj = random.choice(prps_obj)
+        conjunction = random.choice(conjunctions)
+        cont_g = cont_g.format(prp_obj=prp_obj)
+        cont_b = cont_b.format(prp_obj=prp_obj, det=random.choice(determiners), conjunction=conjunction)
 
         # random choices
         slot2filler = {
@@ -86,8 +104,8 @@ def main():
             'vb2': vb2,
             'vbz2': vbz2,
             'vbz3': vbz3,
-            'filler': filler,
-            'foil': foil,
+            'cont_g': cont_g,
+            'cont_b': cont_b,
         }
 
         if slot2filler['det'] == 'a' and slot2filler['nn2'][0] in vowels:

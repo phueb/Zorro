@@ -13,6 +13,7 @@ from zorro.visualizer import Visualizer, ParadigmData
 SHOW_BAR_PLOTS = False
 
 phenomena = [
+    'case',
     'argument_structure',
     'local_attractor',
     'agreement_subject_verb',

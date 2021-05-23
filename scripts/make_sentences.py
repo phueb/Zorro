@@ -24,6 +24,7 @@ for vocab_size in VOCAB_SIZES:
 
     # for all phenomena
     for phenomenon in [
+        'case',
         'argument_structure',
         'local_attractor',
         'island-effects',
