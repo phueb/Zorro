@@ -14,23 +14,19 @@ def get_group2predictions_file_paths(group_names: List[str],
     fn = f'{phenomenon}-{paradigm}'
 
     # find paths to files, for each group
-    group2predictions_file_paths = {}
-    for group_name in group_names:
-        pattern = '{}/**/saves/{}/**/probing_{}_results_*.txt'
-        group2predictions_file_paths[group_name] = [p for p in runs_path.rglob(pattern.format(group_name,
-                                                                                              'forced_choice',
-                                                                                              fn))]
-
-    # copy only those groups for which files exist
     res = {}
-    for k, v in group2predictions_file_paths.items():
-        if not v:
-            if configs.Eval.raise_error_on_missing_group:
-                raise FileNotFoundError(f'Did not find prediction files'
-                                        f' for group={k} and vocab size={configs.Data.vocab_size}')
+    for group_name in group_names:
+        pattern = '{}/**/saves/forced_choice/**/probing_{}_results_*.txt'
+        prediction_file_paths = [p for p in runs_path.rglob(pattern.format(group_name, fn))]
+
+        if not prediction_file_paths:
+            raise FileNotFoundError(f'Did not find prediction files'
+                                    f' for group={group_name}'
+                                    f' and vocab size={configs.Data.vocab_size}'
+                                    f' and pattern=probing_{fn}_results_*.txt')
         else:
-            res[k] = v
-            print(k)
-            print(v)
+            res[group_name] = prediction_file_paths
+            print(group_name)
+            print(prediction_file_paths)
 
     return res

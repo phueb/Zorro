@@ -1,7 +1,6 @@
-from typing import Dict, List, Callable, Tuple
+from typing import Dict, List, Tuple
 import numpy as np
 from pathlib import Path
-import importlib
 
 from zorro.scoring import count_correct_choices
 from zorro.data import DataExperimental, DataControl
@@ -29,9 +28,6 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
 
     'props' is a vector containing proportions, one proportion per replication
     """
-
-    # load module
-    module_paradigm = importlib.import_module(f'zorro.{phenomenon}.{paradigm}')
 
     if not configs.Eval.categorize_by_template:
         templates = ['all templates']
@@ -76,8 +72,8 @@ def prepare_data_for_plotting(group2predictions_file_paths: Dict[str, List[Path]
                 pairs = template2pairs[template]
                 assert pairs
 
-                # calc proportion correct
-                grammatical_scores: List[Tuple[bool, bool]] = [(False, True) for _ in pairs]  # TODO test # odd = bad, even = good
+                # calc proportion correct - sentences on odd lines are bad, and sentences on even lines are good
+                grammatical_scores: List[Tuple[bool, bool]] = [(False, True) for _ in pairs]
                 num_correct = count_correct_choices(pairs, grammatical_scores, data.s2cross_entropies)
                 prop = num_correct / len(pairs)
 

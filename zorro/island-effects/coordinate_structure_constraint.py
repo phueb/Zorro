@@ -48,7 +48,9 @@ def main():
     names_ = (configs.Dirs.legal_words / 'names.txt').open().read().split()
     names = find_counterbalanced_subset(names_, min_size=10, max_size=len(names_))
 
-    def add_preposition_after_vb(v: str):
+    def add_preposition_after_vb(v: str,
+                                 arg: str,
+                                 ):
         if v == 'related':
             return 'related to'
         elif v == 'put':
@@ -72,7 +74,7 @@ def main():
         elif v == 'reaching':
             return 'reaching for'
         elif v == 'work':
-            return f'work {random.choice(["him", "her", "them", "us"])}'
+            return f'work {arg}'
         else:
             return v
 
@@ -86,8 +88,9 @@ def main():
             'vbg': random.choice(verbs_gerund),
         }
 
-        slot2filler['vb'] = add_preposition_after_vb(slot2filler['vb'])
-        slot2filler['vbg'] = add_preposition_after_vb(slot2filler['vbg'])
+        arg = random.choice(["him", "her", "them", "us"])
+        slot2filler['vb'] = add_preposition_after_vb(slot2filler['vb'], arg)
+        slot2filler['vbg'] = add_preposition_after_vb(slot2filler['vbg'], arg)
 
         # exclude bad combinations that involve "who", e.g. "saying who"
         if slot2filler['vbg'] not in {'saying', 'drinking', 'eating', 'open'}\

@@ -19,8 +19,6 @@ def main():
     """
     example:
     "look at this house" vs. "look at this houses"
-
-    note: all odd numbered sentences are bad and even good.
     """
 
     demonstratives_singular = ["this", "that"]

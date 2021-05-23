@@ -18,9 +18,6 @@ def main():
     """
     example:
     "look at this green red house ." vs. "look at this green red houses ."
-
-    note: all odd numbered sentences are bad and even good.
-
     """
 
     demonstratives_singular = ["this", "that"]
@@ -28,7 +25,6 @@ def main():
 
     nouns_s_and_p = get_legal_words(tag='NN', second_tag='NNP')
     adjectives = get_legal_words(tag='JJ')
-
 
     while True:
 

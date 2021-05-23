@@ -21,9 +21,6 @@ def main():
     example:
     "look at this green house ." vs. "look at this green houses ."
     "this green house went there ." vs. "this green houses went there."
-
-    note: all odd numbered sentences are bad and even good.
-
     """
 
     demonstratives_singular = ["this", "that"]

@@ -13,12 +13,14 @@ from zorro.visualizer import Visualizer, ParadigmData
 SHOW_BAR_PLOTS = False
 
 phenomena = [
+    'argument_structure',
+    'local_attractor',
+    'agreement_subject_verb',
+    'agreement_demonstrative_subject',
+    'irregular_verb',
     'island-effects',
     'filler-gap',
     'quantifiers',
-    'agreement_demonstrative_subject',
-    'agreement_subject_verb',
-    'irregular_verb',
 ]
 
 SKIP_PARADIGMS = [

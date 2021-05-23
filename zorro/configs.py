@@ -40,9 +40,8 @@ class Eval:
              120_000, 140_000, 160_000, 180_000, 200_000,
              # 220_000, 240_000, 260_000, 280_000, 300_000,
              ]
-    param_names = [f'param_{i:03}' for i in [1, 2, 3]]
-    raise_error_on_missing_group = True
-    conditions = ['corpora', 'leave_unmasked_prob']  # can be empty list
+    param_names = [f'param_{i:03}' for i in [1, 4]]
+    conditions = ['corpora', 'leave_unmasked_prob', 'leave_unmasked_prob_start']  # can be empty list
     included_params = {}
     num_control_reps = 2
     categorize_by_template = False
