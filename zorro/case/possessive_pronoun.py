@@ -3,11 +3,12 @@ import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
-
+from zorro import configs
+from zorro.counterbalance import find_counterbalanced_subset
 
 template1 = {
-    'b': '{prp_subj} can {vb} {prp_poss} .',  # possessive case is wrong
-    'g': '{prp_subj} can {vb} {prp_obj} .',
+    'b': 'the {nn} {aux} {vb} {prp_poss} .',  # possessive case is wrong
+    'g': 'the {nn} {aux} {vb} {prp_obj} .',
 }
 
 plural = inflect.engine()
@@ -23,16 +24,20 @@ def main():
 
     excluded_verbs_base = ('say', 'live')
     verbs_base = get_legal_words(tag='VB', exclude=excluded_verbs_base)
-    print(verbs_base)
 
     nouns_s = get_legal_words(tag='NN')
 
-    prps_obj_and_ref = [
-        ('him', 'himself'),
-        ('her', 'herself'),
+    prps_obj_and_poss = [
+        ('him', 'his'),
+        ('her', 'hers'),
+        ('us', 'our'),
+        ('them', 'theirs'),
     ]
 
-    personal_pronouns_subj = ['i', 'you', 'we', 'they']  # exclude 3rd person
+    animates_ = (configs.Dirs.legal_words / 'animates.txt').open().read().split()
+    animates = find_counterbalanced_subset(animates_, min_size=8, max_size=len(animates_))
+
+    auxiliaries = ['can', 'could', 'will', 'would', 'must', 'should']
 
     def add_misc(v: str,
                  prp: str,
@@ -63,22 +68,23 @@ def main():
 
     while True:
 
-        prp_obj, prp_ref = random.choice(prps_obj_and_ref)    # template 1
+        prp_obj, prp_poss = random.choice(prps_obj_and_poss)
+
+        # random choices
+        slot2filler = {
+            'aux':  random.choice(auxiliaries),
+            'prp_poss':  prp_poss,
+            'prp_obj':  prp_obj,
+            'nn': random.choice(animates),
+            'vb': random.choice(verbs_base),
+        }
 
         # sample argument once, so that the same argument is used by both bad and good sentences.
         # note: pronouns don't get determiners, but nouns do
         argument1 = random.choice([f'the {nn}' for nn in nouns_s[:10]])
 
-        # random choices
-        slot2filler = {
-            'prp_ref':  prp_ref,
-            'prp_obj':  prp_obj,
-            'prp_subj': random.choice(personal_pronouns_subj),
-            'vb': random.choice(verbs_base),
-        }
-
         # first, add some miscellaneous component
-        slot2filler['prp_ref'] = add_misc(slot2filler['vb'], prp_ref, argument1)
+        slot2filler['prp_poss'] = add_misc(slot2filler['vb'], prp_poss, argument1)
         slot2filler['prp_obj'] = add_misc(slot2filler['vb'], prp_obj, argument1)
 
         # lastly, add a preposition
