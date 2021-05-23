@@ -10,6 +10,32 @@ f_df = vocab_df[column_names]
 vw2fs = {w: np.array([fs[k] for k in column_names]) for w, fs in f_df.iterrows()}
 
 
+def get_total_fs(s: List[str],
+                 ) -> np.array:
+    fs = np.array([vw2fs[w] for w in s])
+    return fs.sum(axis=0)
+
+
+def calc_bias(fs_: np.array,
+              ) -> int:
+    bias2 = abs(fs_[2] - fs_[0])  # aochildes vs wikipedia1
+    res = bias2
+
+    return res
+
+
+def rate_word(word: str,
+              ) -> float:
+    """
+    reward words with:
+     - high aochildes frequency
+
+    """
+    fs = vw2fs[word]
+    term1 = np.log10(fs[0] + 1)
+    return term1
+
+
 def find_counterbalanced_subset(first_forms: List[str],
                                 min_size: int,
                                 max_size: int,
@@ -39,30 +65,6 @@ def find_counterbalanced_subset(first_forms: List[str],
         min_size = configs.Data.min_num_words_per_slot
     if max_size > len(first_forms):
         max_size = len(first_forms)
-
-    def get_total_fs(s: List[str],
-                     ) -> np.array:
-        fs = np.array([vw2fs[w] for w in s])
-        return fs.sum(axis=0)
-
-    def calc_bias(fs_: np.array,
-                  ) -> int:
-        bias2 = abs(fs_[2] - fs_[0])  # aochildes vs wikipedia1
-        res = bias2
-
-        return res
-
-    def rate_word(word: str,
-                  ) -> float:
-        """
-        reward words with:
-         - high aochildes frequency
-
-        """
-        fs = vw2fs[word]
-        term1 = np.log10(fs[0] + 1)
-        term2 = 1
-        return term1 * term2
 
     # heuristic search is based on preferentially sampling words with high "rating"
     if second_forms is None:
