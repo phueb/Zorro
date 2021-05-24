@@ -40,7 +40,7 @@ def main():
 
     determiners = ['a', 'the', 'this', 'some', 'that'] + ['your', 'his', 'her']
 
-    number_words = ['several', 'more', 'two', 'three', 'a lot more', 'some']
+    number_words = ['several', 'more', 'two', 'three', 'a lot more']  # , 'some']
 
     while True:
 

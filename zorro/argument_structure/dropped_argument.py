@@ -75,7 +75,7 @@ def main():
     personal_pronouns_obj = ['me', 'him', 'her', 'us', 'them']  # in the objective case
     personal_pronouns_subj = ['i', 'he', 'she', 'we', 'they']  # in the subjective case
 
-    determiners = ['a', 'one', 'this', 'that', 'the', 'my', 'his', 'her', 'some']
+    determiners = ['a', 'one', 'the', 'my', 'his', 'some']  # do not include "this" or "that" or "her"
 
     vowels = {'a', 'e', 'i', 'o', 'u'}
 

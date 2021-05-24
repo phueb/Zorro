@@ -16,6 +16,8 @@ def collect_unique_pairs(gen_sentences: Callable,
         sentence2 = next(gen)
 
         if sentence1 == sentence2:
+            print(sentence1)
+            print(sentence2)
             raise RuntimeError('Found pair of identical sentences')
 
         if sentence2 not in sentences2:  # check if good/grammatical sentence was not previously collected

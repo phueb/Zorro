@@ -23,8 +23,10 @@ for vocab_size in VOCAB_SIZES:
 
     # for all phenomena
     for phenomenon in [
-        'case',
         'argument_structure',
+        'npi_licensing',
+        'ellipsis',
+        'case',
         'local_attractor',
         'island-effects',
         'filler-gap',

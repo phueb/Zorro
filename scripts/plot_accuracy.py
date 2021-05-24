@@ -13,6 +13,8 @@ from zorro.visualizer import Visualizer, ParadigmData
 SHOW_BAR_PLOTS = False
 
 phenomena = [
+    'npi_licensing',
+    'ellipsis',
     'filler-gap',
     'case',
     'argument_structure',

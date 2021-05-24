@@ -38,7 +38,7 @@ def main():
 
     auxiliaries = ['does', 'will', 'could', 'did', 'should', 'would']
 
-    determiners = ['a', 'the', 'this', 'some', 'that'] +  ['your', 'his', 'her']
+    determiners = ['a', 'the', 'this', 'some', 'that'] + ['your', 'his', 'her']
 
     def add_argument_after_vb(v: str,
                               arg1: str,
@@ -78,14 +78,19 @@ def main():
         argument1 = random.choice(['you', 'him', 'her', 'it'] + [f'the {nn}' for nn in nouns_s])
         argument2 = random.choice(['you', 'him', 'her', 'it'] + [f'the {nn}' for nn in nouns_s])
 
+        vb = random.choice(vbs)
+
         # random choices
         slot2filler = {
             'name': random.choice(names),
             'nn': random.choice(animates),
-            'vb': add_argument_after_vb(random.choice(vbs), argument1, argument2),
+            'vb': add_argument_after_vb(vb, argument1, argument2),
             'aux': random.choice(auxiliaries),
             'det': random.choice(determiners),
         }
+
+        if slot2filler['aux'] in {'did', 'does'} and vb == 'be':
+            continue
 
         yield template1['b'].format(**slot2filler)  # bad
         yield template1['g'].format(**slot2filler)  # good
