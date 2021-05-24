@@ -81,7 +81,7 @@ def main():
 
         # sample argument once, so that the same argument is used by both bad and good sentences.
         # note: pronouns don't get determiners, but nouns do
-        argument1 = random.choice([f'the {nn}' for nn in nouns_s[:10]])
+        argument1 = random.choice([f'the {nn}' for nn in nouns_s])
 
         # first, add some miscellaneous component
         slot2filler['prp_poss'] = add_misc_after_prp(prp_poss, slot2filler['vb'], argument1)

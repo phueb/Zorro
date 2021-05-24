@@ -13,7 +13,8 @@ for control_name in configs.Data.control_names:
     vocab_words = get_vocab_words(configs.Data.vocab_name_template.format(vocab_size),
                                   return_excluded_words=True)
     frequencies = get_frequency(configs.Data.vocab_name_template.format(vocab_size),
-                                return_excluded_words=True)
+                                return_excluded_words=True,
+                                corpus_name='total')
     assert len(frequencies) == len(vocab_words)
     vocab_size2w2f[control_name] = {w: f for w, f in zip(vocab_words, frequencies)}
 

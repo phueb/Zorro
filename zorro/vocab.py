@@ -26,7 +26,7 @@ def get_vocab_words(vocab_name: Optional[str] = None,
 
 def get_frequency(vocab_name: Optional[str] = None,
                   tag: Optional[str] = None,
-                  corpus_initial: Optional[str] = 'total',
+                  corpus_name: Optional[str] = 'total',
                   return_excluded_words: bool = False,
                   ) -> List[int]:
 
@@ -38,7 +38,7 @@ def get_frequency(vocab_name: Optional[str] = None,
     for vw, vw_series in df.iterrows():
         vw: str
         if tag is None or vw_series[tag]:
-            f = vw_series[f'{corpus_initial}-frequency']
+            f = vw_series[f'{corpus_name}-frequency']
             res.append(f)
 
     return res

@@ -188,7 +188,7 @@ class Visualizer:
         # legend
         self.fig.legend(handles=legend_elements,
                         loc='upper center',
-                        bbox_to_anchor=(0.5, 0.15),  # distance from bottom-left (move up into  empty axes)
+                        bbox_to_anchor=(0.5, 0.10),  # distance from bottom-left (move up into  empty axes)
                         ncol=1,
                         frameon=False,
                         fontsize=configs.Figs.leg_font_size)

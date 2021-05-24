@@ -64,7 +64,7 @@ def show_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
 
     num_axes = len(template2group_name2props)
     fig, axs = plt.subplots(num_axes, sharex='all', sharey='all',
-                            dpi=configs.Figs.dpi, figsize=(8, 8))
+                            dpi=163, figsize=(8, 8))
     if num_axes == 1:
         # make axes iterable when there is only one axis only
         axs = [axs]

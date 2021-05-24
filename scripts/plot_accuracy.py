@@ -13,6 +13,7 @@ from zorro.visualizer import Visualizer, ParadigmData
 SHOW_BAR_PLOTS = False
 
 phenomena = [
+    'filler-gap',
     'case',
     'argument_structure',
     'local_attractor',
@@ -20,7 +21,6 @@ phenomena = [
     'agreement_demonstrative_subject',
     'irregular_verb',
     'island-effects',
-    'filler-gap',
     'quantifiers',
 ]
 
@@ -51,7 +51,7 @@ phenomena_paradigms = list(chain(*[product([phenomenon],
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
 v = Visualizer(num_paradigms=len(phenomena_paradigms) - len(SKIP_PARADIGMS),
-               y_lims=[0.5, 1.0])
+               y_lims=[0.5, 1.01])
 
 
 def shorten(name: str):

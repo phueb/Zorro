@@ -38,9 +38,9 @@ class Eval:
     local_runs = False  # use prediction files stored locally in Zorro/runs/
     steps = [0, 20_000, 40_000, 60_000, 80_000, 100_000,
              120_000, 140_000, 160_000, 180_000, 200_000,
-             # 220_000, 240_000, 260_000, 280_000, 300_000,
+             220_000, 240_000,  # childes goes to 240K
              ]
-    param_names = [f'param_{i:03}' for i in [1, 4]]
+    param_names = [f'param_{i:03}' for i in [1, 2, 3]]
     conditions = ['corpora', 'leave_unmasked_prob', 'leave_unmasked_prob_start']  # can be empty list
     included_params = {}
     num_control_reps = 2
@@ -50,7 +50,6 @@ class Eval:
 class Figs:
     lw = 1
     ax_font_size = 6
-    leg_font_size = 7
-    dpi = 163
+    leg_font_size = 6
     title_font_size = 6
     tick_font_size = 6

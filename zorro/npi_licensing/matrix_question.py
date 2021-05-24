@@ -7,13 +7,13 @@ from zorro.counterbalance import find_counterbalanced_subset
 from zorro import configs
 
 template1 = {
-    'b': 'is the {nn} {vbz1} ?',
-    'g': 'is the {nn} {vbg1} ?',
+    'b': '{det} {nn} {aux} ever {vb} ?',
+    'g': '{aux} {det} {nn} ever {vb} ?',
 }
 
 template2 = {
-    'b': 'can the {nn} {vbz2} ?',
-    'g': 'can the {nn} {vb2} ?',
+    'b': '{name} {aux} ever {vb} ?',
+    'g': '{aux} {name} ever {vb} ?',
 }
 
 
@@ -23,13 +23,10 @@ plural = inflect.engine()
 def main():
     """
     example:
-    "is the bell ringing ?" vs "is the bell rings ?"
+    "has sam ever worried sarah ?" vs. "jane has ever worried sarah ."
     """
 
-    # counterbalance both forms of verb as different forms are the contrast
-    vbgs_and_vbzs = get_legal_words(tag='VBG', second_tag='VBZ',
-                                    exclude=('facing', 'naming', 'training', 'setting', 'meaning'))
-    vbs_and_vbzs = get_legal_words(tag='VB', second_tag='VBZ')
+    vbs = get_legal_words(tag='VB')
 
     nouns_s = get_legal_words(tag='NN')
 
@@ -39,45 +36,42 @@ def main():
     names_ = (configs.Dirs.legal_words / 'names.txt').open().read().split()
     names = find_counterbalanced_subset(names_, min_size=10, max_size=len(names_))
 
+    auxiliaries = ['does', 'will', 'could', 'did', 'should', 'would']
+
+    determiners = ['a', 'the', 'this', 'some', 'that'] +  ['your', 'his', 'her']
+
     def add_argument_after_vb(v: str,
                               arg1: str,
                               arg2: str,
                               ) -> str:
-        if v in {'saying', 'says', 'say'}:
+        if v in {'say'}:
             return f'{v} something'
-        elif v in {'using', 'uses', 'use'}:
+        elif v in {'read'}:
+            return f'{v} a book'
+        elif v in {'play'}:
+            return f'{v} with {arg1}'
+        elif v in {'use', 'find', 'get', 'be', 'order', 'need', 'have', 'control', 'want', 'free', 'keep'}:
             return f'{v} {arg1}'
-        elif v in {'telling', 'tells', 'tell'}:
+        elif v in {'tell'}:
             return f'{v} me about {arg1}'
-        elif v in {'making', 'makes', 'make'}:
-            return f'{v} {arg1} something'
-        elif v in {'planning', 'plans', 'plan'}:
+        elif v in {'plan'}:
             return f'{v} to do something with {arg1}'
-        elif v in {'taking', 'takes', 'take'}:
+        elif v in {'take'}:
             return f'{v} {arg1} away'
-        elif v in {'giving', 'gives', 'give'}:
-            return f'{v} {arg1} {arg2}'
-        elif v in {'falling', 'falls', 'fall'}:
-            return f'{v} in {arg1}'
-        elif v in {'showing', 'shows', 'show'}:
+        elif v in {'give', 'show', 'present'}:
             return f'{v} {arg1} to {arg2}'
-        elif v in {'seeing', 'sees', 'see'}:
+        elif v in {'put'}:
+            return f'{v} {arg1} on {arg2}'
+        elif v in {'fall'}:
+            return f'{v} in {arg1}'
+        elif v in {'see'}:
             return f'{v} how the {arg1} works'
-        elif v in {'finding', 'finds', 'find'}:
-            return f'{v} {arg1}'
-        elif v in {'coming', 'comes', 'come'}:
+        elif v in {'come'}:
             return f'{v} to {arg1}'
-        elif v in {'getting', 'gets', 'get'}:
-            return f'{v} {arg1}'
-        elif v in {'depending', 'depends', 'depend'}:
-            return f'{v} on {arg1}'
         else:
             return v
 
     while True:
-
-        vbg1, vbz1 = random.choice(vbgs_and_vbzs)  # template 1
-        vb2, vbz2 = random.choice(vbs_and_vbzs)    # template 2
 
         # sample argument once, so that the same argument is used by both bad and good sentences.
         # note: pronouns don't get determiners, but nouns do
@@ -87,11 +81,10 @@ def main():
         # random choices
         slot2filler = {
             'name': random.choice(names),
-            'nn': random.choice(nouns_s + animates),
-            'vb2': add_argument_after_vb(vb2, argument1, argument2),
-            'vbz2': add_argument_after_vb(vbz2, argument1, argument2),
-            'vbg1': add_argument_after_vb(vbg1, argument1, argument2),
-            'vbz1': add_argument_after_vb(vbz1, argument1, argument2),
+            'nn': random.choice(animates),
+            'vb': add_argument_after_vb(random.choice(vbs), argument1, argument2),
+            'aux': random.choice(auxiliaries),
+            'det': random.choice(determiners),
         }
 
         yield template1['b'].format(**slot2filler)  # bad
