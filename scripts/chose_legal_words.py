@@ -20,9 +20,6 @@ tag2template = {
 
 vocab_df = load_vocab_df()
 
-nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
-
-
 df_path = configs.Dirs.legal_words / f'{TAG}.csv'
 if not df_path.exists():
     df_legal = pd.DataFrame(columns=['word'] + ['is_legal'])
@@ -41,9 +38,6 @@ for n, (vw, vw_series) in enumerate(vocab_df.iterrows()):
 
     # consult spacy tag if whole word can NOT be used in this slot
     if vw_series[TAG] == 0:
-        row[f'is_legal'] = 0
-
-    elif vw in nas:
         row[f'is_legal'] = 0
 
     # ask user if whole word can be used in this slot

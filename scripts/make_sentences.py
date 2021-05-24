@@ -13,7 +13,6 @@ VOCAB_SIZES = [8192]
 SECONDARY_OUT_PATH = Path('/') / 'media' / 'ludwig_data' / 'Zorro' / 'sentences' or None
 
 stop_words = (configs.Dirs.external_words / "stopwords.txt").open().read().split()
-nas = (configs.Dirs.external_words / "nouns_ambiguous_number.txt").open().read().split()
 number_words = (configs.Dirs.legal_words / "number_words.txt").open().read().split()
 
 # for all vocab sizes
@@ -72,8 +71,6 @@ for vocab_size in VOCAB_SIZES:
                         for w in words_to_check:
                             if w not in vocab_words and w not in stop_words:
                                 raise RuntimeError(f'WARNING: Not a whole word and not a stop word: "{w}"')
-                            if w in nas:
-                                print(f'WARNING: Found noun with ambiguous number: "{w}"')
                         # write to file
                         f.write(sentence + '\n')
                         num_saved_sentences += 1

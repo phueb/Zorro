@@ -20,3 +20,5 @@ headquarters
 ice
 air
 help
+food
+soil

@@ -14,6 +14,10 @@ def collect_unique_pairs(gen_sentences: Callable,
     while len(sentences2) < configs.Data.num_pairs_per_paradigm:
         sentence1 = next(gen)
         sentence2 = next(gen)
+
+        if sentence1 == sentence2:
+            raise RuntimeError('Found pair of identical sentences')
+
         if sentence2 not in sentences2:  # check if good/grammatical sentence was not previously collected
             yield sentence1
             yield sentence2

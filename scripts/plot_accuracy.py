@@ -26,6 +26,7 @@ phenomena = [
 
 SKIP_PARADIGMS = [
     'existential_there_2'  # too difficult
+    'across_2_adjectives'  # very similar performance to across_1_adjective
 ]
 
 # where to get files from?
