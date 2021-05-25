@@ -129,4 +129,4 @@ for phenomenon, paradigm in phenomena_paradigms:
     v.update(pd)
 
 v.plot_summary()
-v.plot_with_legend()
+

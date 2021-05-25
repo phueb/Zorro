@@ -36,7 +36,7 @@ class Data:
 class Eval:
     local_runs = False  # use model output stored locally in Zorro/runs/
     steps = [0, 20_000, 40_000, 60_000, 80_000, 100_000,
-             120_000, 140_000, 160_000, 180_000,
+             120_000, 140_000, 160_000,
              # newsela goes to 160K
              # childes goes to 240K
              ]
@@ -44,7 +44,7 @@ class Eval:
     conditions = ['corpora', ]  # can be empty list
     included_params = {}
     categorize_by_template = False
-    n_override = 10  # TODO set this to None
+    n_override = None  # TODO set this to None
 
 
 class Figs:

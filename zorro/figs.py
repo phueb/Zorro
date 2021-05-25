@@ -39,8 +39,8 @@ def get_legend_label(group2model_output_paths,
     else:
         reps = len([fp for fp in group2model_output_paths[group_name] if fp.stem.endswith('_0')])
 
-    # add info about conditions
-    info = 'BabyBERTa'
+    # make label
+    res = f'BabyBERTa | n={reps} | '
     conditions = configs.Eval.conditions
     for c in conditions:
         try:
@@ -49,12 +49,12 @@ def get_legend_label(group2model_output_paths,
             val = 'n/a'
         if isinstance(val, bool):
             val = int(val)
-        info += f'{c}={val} '
+        res += f'{c}={val} '
 
     if add_group_name:
-        info += ' | ' + group_name
+        res += ' | ' + group_name
 
-    return f'n={reps} | {info}'
+    return res
 
 
 def show_barplot(template2group_name2accuracies: Dict[str, Dict[str, np.array]],

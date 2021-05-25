@@ -84,6 +84,7 @@ class Visualizer:
             ax.set_xticks([])
             ax.set_xticklabels([])
 
+        self.axes_for_legend = self.ax_mat[-1]
         self.axes = enumerate(ax for ax in self.ax_mat.flatten())
         self.pds = []  # data, one for each axis/paradigm
 
@@ -160,6 +161,10 @@ class Visualizer:
             y_baseline = [self.paradigm2baseline_accuracy[pd.paradigm]] * len(x)
             ax.plot(x, y_baseline, linewidth=self.line_width, **self.ax_kwargs_baseline)
 
+        # plot legend only once to prevent degradation in text quality due to multiple plotting
+        if ax_id == 0:
+            self.plot_legend()
+
         self.fig.tight_layout()
         self.fig.show()
 
@@ -229,14 +234,14 @@ class Visualizer:
 
         self.fig.show()
 
-    def plot_with_legend(self):
+    def plot_legend(self):
 
         labels = self.pds[-1].labels
         legend_elements = [Line2D([0], [0], color=f'C{n}', label=label) for n, label in enumerate(labels)]
         legend_elements.append(Line2D([0], [0], label='RoBERTa-base', **self.ax_kwargs_roberta_base))
         legend_elements.append(Line2D([0], [0], label='frequency baseline', **self.ax_kwargs_baseline))
 
-        for ax_id, ax in self.axes:
+        for ax in self.axes_for_legend:
             ax.axis('off')
 
         # legend
