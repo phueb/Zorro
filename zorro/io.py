@@ -4,7 +4,7 @@ from pathlib import Path
 from zorro import configs
 
 
-def get_group2predictions_file_paths(group_names: List[str],
+def get_group2model_output_paths(group_names: List[str],
                                      runs_path: Path,
                                      phenomenon: str,
                                      paradigm: str,
@@ -17,16 +17,14 @@ def get_group2predictions_file_paths(group_names: List[str],
     res = {}
     for group_name in group_names:
         pattern = '{}/**/saves/forced_choice/**/probing_{}_results_*.txt'
-        prediction_file_paths = [p for p in runs_path.rglob(pattern.format(group_name, fn))]
+        model_output_paths = [p for p in runs_path.rglob(pattern.format(group_name, fn))]
 
-        if not prediction_file_paths:
-            raise FileNotFoundError(f'Did not find prediction files'
+        if not model_output_paths:
+            raise FileNotFoundError(f'Did not find model output'
                                     f' for group={group_name}'
                                     f' and vocab size={configs.Data.vocab_size}'
                                     f' and pattern=probing_{fn}_results_*.txt')
         else:
-            res[group_name] = prediction_file_paths
-            print(group_name)
-            print(prediction_file_paths)
+            res[group_name] = model_output_paths
 
     return res

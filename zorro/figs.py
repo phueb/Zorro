@@ -17,12 +17,12 @@ def shorten_tick_labels(labels: List[Union[str,int]],
             for label in labels]
 
 
-def get_legend_label(group2predictions_file_paths,
+def get_legend_label(group2model_output_paths,
                      group_name,
-                     show_group_name: bool = True,
+                     add_group_name: bool = False,
                      ) -> str:
-    if 'baseline' in group_name:
-        return group_name
+    if group_name.endswith('frequency baseline'):
+        return 'frequency baseline'
 
     if configs.Eval.local_runs:
         runs_path = configs.Dirs.runs_local
@@ -33,11 +33,15 @@ def get_legend_label(group2predictions_file_paths,
     with path.open('r') as f:
         param2val = yaml.load(f, Loader=yaml.FullLoader)
 
-    reps = len([fp for fp in group2predictions_file_paths[group_name] if fp.stem.endswith('_0')])
-    step = group2predictions_file_paths[group_name][0].stem.split('_')[-1]
+    if configs.Eval.n_override:
+        reps = configs.Eval.n_override  # cheating a little bit when reps is not perfectly consistent across groups
+        print(f'WARNING: Set n manually to {configs.Eval.n_override}')
+    else:
+        reps = len([fp for fp in group2model_output_paths[group_name] if fp.stem.endswith('_0')])
+
     # add info about conditions
-    info = ''
-    conditions = configs.Eval.conditions or ['is_official', 'is_reference', 'is_base', 'framework']
+    info = 'BabyBERTa'
+    conditions = configs.Eval.conditions
     for c in conditions:
         try:
             val = param2val[c]
@@ -47,14 +51,14 @@ def get_legend_label(group2predictions_file_paths,
             val = int(val)
         info += f'{c}={val} '
 
-    if show_group_name:
+    if add_group_name:
         info += ' | ' + group_name
 
     return f'n={reps} | {info}'
 
 
-def show_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
-                 group2predictions_file_paths: Dict[str, List[Path]],
+def show_barplot(template2group_name2accuracies: Dict[str, Dict[str, np.array]],
+                 group2model_output_paths: Dict[str, List[Path]],
                  paradigm: str,
                  step: int,
                  xlabel: str = '',
@@ -62,16 +66,16 @@ def show_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
                  ):
     x = np.arange(1)
 
-    num_axes = len(template2group_name2props)
+    num_axes = len(template2group_name2accuracies)
     fig, axs = plt.subplots(num_axes, sharex='all', sharey='all',
                             dpi=163, figsize=(8, 8))
     if num_axes == 1:
         # make axes iterable when there is only one axis only
         axs = [axs]
 
-    for ax, template in zip(axs, template2group_name2props.keys()):
-        group_name2props = template2group_name2props[template]
-        num_models = len(group_name2props)
+    for ax, template in zip(axs, template2group_name2accuracies.keys()):
+        group_name2accuracies = template2group_name2accuracies[template]
+        num_models = len(group_name2accuracies)
         space = 0.1  # between bars belonging to a single production category
         width = (1 / num_models) - (space / num_models)  # all bars in one category must fit within 1 x-axis unit
         edges = [width * i for i in range(num_models)]  # distances between x-ticks and bar-center
@@ -89,9 +93,9 @@ def show_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
                      f'step={step}',
                      size=configs.Figs.ax_font_size)
 
-        for edge, color, group_name in zip(edges, colors, group_name2props.keys()):
-            avg = np.mean(group_name2props[group_name], axis=0).round(4)  # take across reps
-            std = np.std(group_name2props[group_name], axis=0).round(4)
+        for edge, color, group_name in zip(edges, colors, group_name2accuracies.keys()):
+            avg = np.mean(group_name2accuracies[group_name], axis=0).round(4)  # take across reps
+            std = np.std(group_name2accuracies[group_name], axis=0).round(4)
 
             if verbose:
                 print(group_name)
@@ -106,7 +110,7 @@ def show_barplot(template2group_name2props: Dict[str, Dict[str, np.array]],
                    yerr=std,
                    color=color,
                    zorder=3,
-                   label=get_legend_label(group2predictions_file_paths, group_name))
+                   label=get_legend_label(group2model_output_paths, group_name))
 
     # legend
     plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.4), loc='upper left', frameon=False)

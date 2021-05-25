@@ -23,7 +23,6 @@ class Data:
     tag2num_words = {'NN': 50, 'JJ': 50, 'VB': 10, 'VBD': 10, 'VBG': 20, 'VBZ': 20}  # number of types for sampling
     min_num_words_per_slot = 20
     exclude_novel_words = False  # exclude words that do not occur at least once in each corpus?
-    control_names = ['8192 frequency baseline']  #, '32768 frequency baseline']
     num_pairs_per_paradigm = 2_000
     corpus_names = [
         'aochildes',
@@ -35,16 +34,17 @@ class Data:
 
 
 class Eval:
-    local_runs = False  # use prediction files stored locally in Zorro/runs/
+    local_runs = False  # use model output stored locally in Zorro/runs/
     steps = [0, 20_000, 40_000, 60_000, 80_000, 100_000,
-             120_000, 140_000, 160_000, 180_000, 200_000,
-             220_000, 240_000,  # childes goes to 240K
+             120_000, 140_000, 160_000, 180_000,
+             # newsela goes to 160K
+             # childes goes to 240K
              ]
     param_names = [f'param_{i:03}' for i in [1, 2, 3]]
-    conditions = ['corpora', 'leave_unmasked_prob', 'leave_unmasked_prob_start']  # can be empty list
+    conditions = ['corpora', ]  # can be empty list
     included_params = {}
-    num_control_reps = 2
     categorize_by_template = False
+    n_override = 10  # TODO set this to None
 
 
 class Figs:
