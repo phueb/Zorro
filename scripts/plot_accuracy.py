@@ -6,7 +6,6 @@ from pathlib import Path
 from zorro import configs
 from zorro.prepare import prepare_data_for_plotting
 from zorro.io import get_group2model_output_paths
-from zorro.figs import show_barplot
 from zorro.visualizer import Visualizer, ParadigmData
 
 phenomena = [
@@ -58,7 +57,9 @@ v = Visualizer(phenomena_paradigms=phenomena_paradigms)
 
 
 # for all paradigms
-for phenomenon, paradigm in phenomena_paradigms:
+for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
+    print(f'Scoring and plotting results for phenomenon={phenomenon:<36} paradigm={paradigm:<36} '
+          f'{n + 1:>2}/{len(phenomena_paradigms)}')
 
     # group_names
     if configs.Eval.param_names is None:
@@ -82,7 +83,6 @@ for phenomenon, paradigm in phenomena_paradigms:
     print(f'Found params={group_names}')
 
     # load model output at all available steps
-    print('Loading model model output...')
     group2model_output_paths = get_group2model_output_paths(group_names,
                                                             runs_path,
                                                             phenomenon,
@@ -100,7 +100,7 @@ for phenomenon, paradigm in phenomena_paradigms:
     )
 
     for step in configs.Eval.steps:
-        print(f'===============\nstep={step:,}\n===============')
+        print(f'step={step:>12,}')
 
         # filter files by step
         group2model_output_paths_at_step = {g: [fp for fp in fps if filter_by_step(fp, step)]

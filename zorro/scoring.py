@@ -4,6 +4,7 @@ from zorro.data import DataExperimental, DataBaseline
 
 
 def count_correct_choices(data: Union[DataExperimental, DataBaseline],
+                          verbose: bool = False,
                           ) -> int:
     """
     for each sentence pair in the original, ordered file of test sentences,
@@ -47,10 +48,11 @@ def count_correct_choices(data: Union[DataExperimental, DataBaseline],
         print(f'Scored {res} correct and {num_false} false and skipped {num_skipped}')
         raise RuntimeError(f'Expected {num_expected_scores:,} but got {num_scored:,} scores')
 
-    print(f'correct={res:>9,}')
-    print(f'false  ={num_false:>9,}')
-    print(f'total  ={num_scored :>9,}')
-    print(f'skipped={num_skipped :>9,}')
-    print()
+    if verbose:
+        print(f'correct={res:>9,}')
+        print(f'false  ={num_false:>9,}')
+        print(f'total  ={num_scored :>9,}')
+        print(f'skipped={num_skipped :>9,}')
+        print()
 
     return res

@@ -40,8 +40,8 @@ class Eval:
              # newsela goes to 160K
              # childes goes to 240K
              ]
-    param_names = [f'param_{i:03}' for i in [1, 2, 3]]
-    conditions = ['corpora', ]  # can be empty list
+    param_names = [f'param_{i:03}' for i in [11, 13]]
+    conditions = ['corpora', 'leave_unmasked_prob', 'load_from_checkpoint']  # can be empty list
     included_params = {}
     categorize_by_template = False
     n_override = None  # TODO set this to None

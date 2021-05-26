@@ -43,10 +43,8 @@ class Visualizer:
                  fig_size: int = (6, 6),
                  dpi: int = 300,
                  line_width: int = 1,
+                 show_partial_figure: bool = False,
                  ):
-
-        if not y_lims:
-            y_lims = [0.5, 1.01]
 
         # calc num rows needed
         self.num_cols = 4
@@ -57,10 +55,6 @@ class Visualizer:
         self.num_rows = int(num_rows_for_data) + num_rows_for_legend
         self.num_rows += 1 if not num_rows_for_data.is_integer() else 0  # to fit summary
 
-        print(f'Num paradigms={num_paradigms}')
-        print(f'Num rows={self.num_rows}')
-        print(f'Num cols={self.num_cols}')
-
         self.fig, self.ax_mat = plt.subplots(self.num_rows, self.num_cols,
                                              figsize=fig_size,
                                              dpi=dpi,
@@ -70,7 +64,8 @@ class Visualizer:
         self.line_width = line_width
         self.x_axis_label = 'Training Step'
         self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
-        self.y_lims = y_lims or [0.5, 1.0]
+        self.y_lims = y_lims or [0.5, 1.01]
+        self.show_partial_figure = show_partial_figure
         self.label_last_x_tick_only = label_last_x_tick_only
         self.x_ticks = configs.Eval.steps
 
@@ -165,8 +160,9 @@ class Visualizer:
         if ax_id == 0:
             self.plot_legend()
 
-        self.fig.tight_layout()
-        self.fig.show()
+        if self.show_partial_figure:
+            self.fig.tight_layout()
+            self.fig.show()
 
     def plot_summary(self):
         """plot average accuracy (across all paradigms) in last axis"""
@@ -232,6 +228,10 @@ class Visualizer:
             h = sem(curves, axis=0) * t.ppf((1 + confidence) / 2, n - 1)  # margin of error
             ax.fill_between(x, y + h, y - h, alpha=0.2, color=color)
 
+        # remove axis decoration from any remaining axis
+        for ax_id, ax in self.axes:
+            ax.axis('off')
+
         self.fig.show()
 
     def plot_legend(self):
@@ -251,7 +251,3 @@ class Visualizer:
                         ncol=1,
                         frameon=False,
                         fontsize=configs.Figs.leg_font_size)
-
-        self.fig.tight_layout()
-        self.fig.show()
-

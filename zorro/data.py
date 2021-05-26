@@ -27,7 +27,6 @@ class DataExperimental:
 
         # load ordered sentences - the only way to know which sentences are paired (answer: consecutive sentences)
         vocab_size = model_output_path.parent.name
-        print(f'Loading test sentences with vocab size={vocab_size}')
         path = configs.Dirs.root / 'sentences' / vocab_size / f'{phenomenon}-{paradigm}.txt'
         sentences_ordered = [s.split() for s in path.open().read().split('\n')]
         self.pairs: List[Tuple[List[str], List[str]]] = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2],
@@ -67,7 +66,6 @@ class DataBaseline:
 
         self.group_name = group_name
 
-        print(f'Loading test sentences with vocab size={configs.Data.vocab_size}')
         path = configs.Dirs.root / 'sentences' / str(configs.Data.vocab_size) / f'{phenomenon}-{paradigm}.txt'
         sentences_ordered = [s.split() for s in path.open().read().split('\n')]
         self.pairs: List[Tuple[List[str], List[str]]] = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2],

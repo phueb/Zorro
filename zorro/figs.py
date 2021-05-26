@@ -29,9 +29,7 @@ def get_legend_label(group2model_output_paths,
     else:
         runs_path = configs.Dirs.runs_remote
 
-    path = runs_path / group_name / 'param2val.yaml'
-    with path.open('r') as f:
-        param2val = yaml.load(f, Loader=yaml.FullLoader)
+    param2val = load_param2val(group_name, runs_path)
 
     if configs.Eval.n_override:
         reps = configs.Eval.n_override  # cheating a little bit when reps is not perfectly consistent across groups
@@ -41,8 +39,11 @@ def get_legend_label(group2model_output_paths,
 
     # make label
     res = f'BabyBERTa | n={reps} | '
-    conditions = configs.Eval.conditions
-    for c in conditions:
+    for c in configs.Eval.conditions:
+        if c == 'load_from_checkpoint':
+            param2val_previous = load_param2val(param2val[c], runs_path)
+            res += f'previously trained on={param2val_previous["corpora"]} '
+            continue
         try:
             val = param2val[c]
         except KeyError:
@@ -57,10 +58,17 @@ def get_legend_label(group2model_output_paths,
     return res
 
 
+def load_param2val(group_name, runs_path):
+    path = runs_path / group_name / 'param2val.yaml'
+    with path.open('r') as f:
+        param2val = yaml.load(f, Loader=yaml.FullLoader)
+    return param2val
+
+
 def show_barplot(template2group_name2accuracies: Dict[str, Dict[str, np.array]],
                  group2model_output_paths: Dict[str, List[Path]],
                  paradigm: str,
-                 step: int,
+                 step: str,
                  xlabel: str = '',
                  verbose: bool = False,
                  ):

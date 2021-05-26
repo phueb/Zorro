@@ -7,6 +7,8 @@ compare end-of-training accuracy between models that vary in:
 """
 
 from zorro import configs
+from zorro.figs import show_barplot
+from zorro.prepare import prepare_data_for_plotting
 
 conditions = ['framework', 'is_official', 'is_base', 'is_reference' ]
 
@@ -37,7 +39,6 @@ else:
     runs_path = configs.Dirs.runs_remote
 
 
-
 # get list of (phenomenon, paradigm) tuples
 phenomena_paradigms = []
 for phenomenon in phenomena:
@@ -52,7 +53,6 @@ for phenomenon in phenomena:
 for phenomenon, paradigm in phenomena_paradigms:
 
     # load model output at all available steps
-    print('Loading model model output...')
     group2model_output_paths = get_group2model_output_paths(group_names,
                                                             runs_path,
                                                             phenomenon,
@@ -74,6 +74,6 @@ for phenomenon, paradigm in phenomena_paradigms:
     show_barplot(template2group_name2accuracies,
                  group2model_output_paths,
                  paradigm,
-                 step,
+                 step='end-of-training',
                  verbose=True,
                  )

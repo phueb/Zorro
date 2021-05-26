@@ -1,9 +1,9 @@
-from typing import Dict, List, Tuple
+from typing import Dict, List
 import numpy as np
 from pathlib import Path
 
 from zorro.scoring import count_correct_choices
-from zorro.data import DataExperimental, DataBaseline
+from zorro.data import DataExperimental
 from zorro import configs
 
 
@@ -42,7 +42,6 @@ def prepare_data_for_plotting(group2model_output_paths: Dict[str, List[Path]],
            for template in templates}
 
     for group_name in group_names:
-        print(group_name)
 
         # read model output into instance of DataExperimental
         output_paths = group2model_output_paths[group_name]
@@ -60,7 +59,6 @@ def prepare_data_for_plotting(group2model_output_paths: Dict[str, List[Path]],
                 template2pairs = {templates[0]: data.pairs}
 
             for template in templates:
-                print(template)
 
                 pairs = template2pairs[template]
                 assert pairs
