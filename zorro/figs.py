@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from typing import List, Dict, Union
+from typing import List, Dict, Union, Optional
 import yaml
 from pathlib import Path
 from matplotlib import rcParams
@@ -19,6 +19,7 @@ def shorten_tick_labels(labels: List[Union[str,int]],
 
 def get_legend_label(group2model_output_paths,
                      group_name,
+                     conditions: Optional[List[str]] = None,
                      add_group_name: bool = False,
                      ) -> str:
     if group_name.endswith('frequency baseline'):
@@ -39,7 +40,7 @@ def get_legend_label(group2model_output_paths,
 
     # make label
     res = f'BabyBERTa | n={reps} | '
-    for c in configs.Eval.conditions:
+    for c in conditions or configs.Eval.conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
             param2val_previous = load_param2val(param2val[c], runs_path)
             res += f'previously trained on={param2val_previous["corpora"]} '
@@ -71,6 +72,7 @@ def show_barplot(template2group_name2accuracies: Dict[str, Dict[str, np.array]],
                  step: str,
                  xlabel: str = '',
                  verbose: bool = False,
+                 conditions: Optional[List[str]] = None,
                  ):
     x = np.arange(1)
 
@@ -118,7 +120,7 @@ def show_barplot(template2group_name2accuracies: Dict[str, Dict[str, np.array]],
                    yerr=std,
                    color=color,
                    zorder=3,
-                   label=get_legend_label(group2model_output_paths, group_name))
+                   label=get_legend_label(group2model_output_paths, group_name, conditions))
 
     # legend
     plt.legend(prop={'size': 8}, bbox_to_anchor=(0.0, -0.4), loc='upper left', frameon=False)

@@ -5,10 +5,10 @@ from zorro import configs
 
 
 def get_group2model_output_paths(group_names: List[str],
-                                     runs_path: Path,
-                                     phenomenon: str,
-                                     paradigm: str,
-                                     ) -> Dict[str, List[Path]]:
+                                 runs_path: Path,
+                                 phenomenon: str,
+                                 paradigm: str,
+                                 ) -> Dict[str, List[Path]]:
     """load files containing the cross entropies assigned to each sentence in the paradigm, for all models and steps"""
 
     fn = f'{phenomenon}-{paradigm}'

@@ -1,31 +1,12 @@
 from collections import defaultdict
 import numpy as np
 import yaml
-from pathlib import Path
 
 from zorro import configs
-from zorro.prepare import prepare_data_for_plotting
+from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms, filter_by_step
 from zorro.io import get_group2model_output_paths
 from zorro.visualizer import Visualizer, ParadigmData
 
-phenomena = [
-    'npi_licensing',
-    'ellipsis',
-    'filler-gap',
-    'case',
-    'argument_structure',
-    'local_attractor',
-    'agreement_subject_verb',
-    'agreement_demonstrative_subject',
-    'irregular_verb',
-    'island-effects',
-    'quantifiers',
-]
-
-EXCLUDED_PARADIGMS = [
-    'existential_there_2',  # too difficult
-    'across_2_adjectives',  # very similar performance to across_1_adjective
-]
 
 # where to get files from?
 if configs.Eval.local_runs:
@@ -33,24 +14,8 @@ if configs.Eval.local_runs:
 else:
     runs_path = configs.Dirs.runs_remote
 
-
-def filter_by_step(model_output_path: Path,
-                   step: int,
-                   ) -> bool:
-    if int(model_output_path.stem.split('_')[-1]) == step:
-        return True
-
-    return False
-
-
 # get list of (phenomenon, paradigm) tuples
-phenomena_paradigms = []
-for phenomenon in phenomena:
-    for p in (configs.Dirs.src / phenomenon).glob('*.py'):
-        paradigm = p.stem
-        if paradigm in EXCLUDED_PARADIGMS:
-            continue
-        phenomena_paradigms.append((phenomenon, paradigm))
+phenomena_paradigms = get_phenomena_and_paradigms()
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
 v = Visualizer(phenomena_paradigms=phenomena_paradigms)

@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, Optional, Tuple
 import numpy as np
 from pathlib import Path
 
@@ -71,3 +71,42 @@ def prepare_data_for_plotting(group2model_output_paths: Dict[str, List[Path]],
                 res[template][group_name][row_id] = accuracy
 
     return res
+
+
+def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
+                                ) -> List[Tuple[str, str]]:
+    phenomena = [
+        'npi_licensing',
+        'ellipsis',
+        'filler-gap',
+        'case',
+        'argument_structure',
+        'local_attractor',
+        'agreement_subject_verb',
+        'agreement_demonstrative_subject',
+        'irregular_verb',
+        'island-effects',
+        'quantifiers',
+    ]
+
+    if not excluded_paradigms:
+        excluded_paradigms = configs.Eval.excluded_paradigms
+
+    # get list of (phenomenon, paradigm) tuples
+    res = []
+    for phenomenon in phenomena:
+        for p in (configs.Dirs.src / phenomenon).glob('*.py'):
+            paradigm = p.stem
+            if paradigm in excluded_paradigms:
+                continue
+            res.append((phenomenon, paradigm))
+
+    return res
+
+
+def filter_by_step(model_output_path: Path,
+                   step: int,
+                   ) -> bool:
+    if int(model_output_path.stem.split('_')[-1]) == step:
+        return True
+    return False
