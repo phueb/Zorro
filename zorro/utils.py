@@ -1,4 +1,4 @@
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Union
 import numpy as np
 from pathlib import Path
 
@@ -7,12 +7,22 @@ from zorro.data import DataExperimental
 from zorro import configs
 
 
-def prepare_data_for_plotting(group2model_output_paths: Dict[str, List[Path]],
+def get_reps(model_output_paths: List[Path],
+             step: Union[int, None],
+             ) -> int:
+    if step is not None:
+        pattern = f'_{step}'
+    else:
+        pattern = ''
+    return len([path for path in model_output_paths if path.stem.endswith(pattern)])
+
+
+def prepare_data_for_plotting(gn2model_output_paths: Dict[str, List[Path]],
                               phenomenon: str,
                               paradigm: str,
                               ) -> Dict[str, Dict[str, np.array]]:
     """
-    :param group2model_output_paths: dict mapping group name to paths of files containing predictions
+    :param gn2model_output_paths: dict mapping group name to paths of files containing predictions at a specific step
     :param phenomenon: name of phenomenon
     :param paradigm: name of paradigm
     :return: double-embedded dict, which can be input to barplot function
@@ -27,24 +37,21 @@ def prepare_data_for_plotting(group2model_output_paths: Dict[str, List[Path]],
     'accuracies' is a vector containing accuracies, one per replication
     """
 
-    def get_reps(gn: str, ) -> int:
-        return len(group2model_output_paths[gn])
-
     if not configs.Eval.categorize_by_template:
         templates = ['all templates']
     else:
         raise NotImplementedError  # TODO read template info directly from local text files containing sentences
 
-    group_names = list(group2model_output_paths.keys())
+    group_names = list(gn2model_output_paths.keys())
 
     # init result: a vector populated with accuracies, one for each model rep, per group, per template
-    res = {template: {gn: np.zeros(get_reps(gn)) for gn in group_names}
+    res = {template: {gn: np.zeros(len(output_paths)) for gn, output_paths in gn2model_output_paths.items()}
            for template in templates}
 
     for group_name in group_names:
 
         # read model output into instance of DataExperimental
-        output_paths = group2model_output_paths[group_name]
+        output_paths = gn2model_output_paths[group_name]
         if not output_paths:
             print(f'Did not find model output files. Consider reducing max step. Skipping')
             continue

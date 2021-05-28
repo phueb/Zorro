@@ -5,7 +5,7 @@ import yaml
 from zorro import configs
 from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms, filter_by_step
 from zorro.io import get_group2model_output_paths
-from zorro.visualizer import Visualizer, ParadigmData
+from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
 
 # where to get files from?
@@ -18,7 +18,7 @@ else:
 phenomena_paradigms = get_phenomena_and_paradigms()
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
-v = Visualizer(phenomena_paradigms=phenomena_paradigms)
+v = VisualizerLines(phenomena_paradigms=phenomena_paradigms)
 
 
 # for all paradigms
@@ -48,28 +48,21 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
     print(f'Found params={group_names}')
 
     # load model output at all available steps
-    group2model_output_paths = get_group2model_output_paths(group_names,
-                                                            runs_path,
-                                                            phenomenon,
-                                                            paradigm,
-                                                            )
+    group_name2model_output_paths = get_group2model_output_paths(group_names,
+                                                                 runs_path,
+                                                                 phenomenon,
+                                                                 paradigm,
+                                                                 )
 
-    # init line plot data
-    pd = ParadigmData(
-        phenomenon=phenomenon,
-        paradigm=paradigm,
-        group_name2rep2curve=defaultdict(dict),
-        group_name2template2curve=defaultdict(dict),
-        group_names=group_names,
-        group2model_output_paths=group2model_output_paths
-    )
+    group_name2rep2curve = defaultdict(dict)
+    group_name2template2curve = defaultdict(dict)
 
     for step in configs.Eval.steps:
         print(f'step={step:>12,}')
 
         # filter files by step
         group2model_output_paths_at_step = {g: [fp for fp in fps if filter_by_step(fp, step)]
-                                            for g, fps in group2model_output_paths.items()}
+                                            for g, fps in group_name2model_output_paths.items()}
 
         # calc + collect accuracy
         template2group_name2accuracies = prepare_data_for_plotting(group2model_output_paths_at_step,
@@ -79,8 +72,8 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
 
         # collect average performance in each paradigm, grouped by replication - allows computation of statistics
         for group_name, accuracies in template2group_name2accuracies['all templates'].items():
-            for rep, curve_i in enumerate(accuracies):
-                pd.group_name2rep2curve[group_name].setdefault(rep, []).append(curve_i)
+            for rep, acc in enumerate(accuracies):
+                group_name2rep2curve[group_name].setdefault(rep, []).append(acc)
 
         # collect average performance in each paradigm, grouped by template
         for template, group_name2accuracies in template2group_name2accuracies.items():
@@ -88,7 +81,15 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
                 continue
             for group_name, accuracies in group_name2accuracies.items():
                 curve_i = np.mean(accuracies)  # the mean proportion of a group at one location on curve
-                pd.group_name2template2curve[group_name].setdefault(template, []).append(curve_i)
+                group_name2template2curve[group_name].setdefault(template, []).append(curve_i)
+
+    pd = ParadigmDataLines(
+        phenomenon=phenomenon,
+        paradigm=paradigm,
+        group_name2rep2curve=group_name2rep2curve,
+        group_name2template2curve=group_name2template2curve,
+        group_name2model_output_paths=group_name2model_output_paths,
+    )
 
     # plot each paradigm in separate axis
     v.update(pd)

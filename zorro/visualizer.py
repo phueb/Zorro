@@ -11,6 +11,7 @@ from zorro import configs
 from zorro.figs import get_legend_label, shorten_tick_labels
 from zorro.data import DataExperimental, DataBaseline
 from zorro.scoring import count_correct_choices
+from zorro.utils import get_reps
 
 
 def shorten(name: str):
@@ -20,31 +21,59 @@ def shorten(name: str):
 
 
 @dataclass
-class ParadigmData:
+class ParadigmDataLines:
     phenomenon: str
     paradigm: str
-    group_name2template2curve: Dict[str, Dict[str, np.array]]  # grouped by template
-    group_name2rep2curve: Dict[str, Dict[int, np.array]]  # grouped by replication
-    group_names: List[str]
-    group2model_output_paths: Dict[str, List[Path]]
+    group_name2model_output_paths: Dict[str, List[Path]]
+    group_name2template2curve: Dict[str, Dict[str, List[float]]]  # grouped by template
+    group_name2rep2curve: Dict[str, Dict[int, List[float]]]  # grouped by replication
+
+    # init=False
     labels: List[str] = field(init=False)
+    name: str = field(init=False)
+    group_names: List[str] = field(init=False)
 
     def __post_init__(self):
-        self.labels = [get_legend_label(self.group2model_output_paths, gn)
-                       for gn in self.group_names]
+        self.labels = [get_legend_label(gn, reps=get_reps(model_output_paths, step=0))
+                       for gn, model_output_paths in self.group_name2model_output_paths.items()]
         self.name = f'{shorten(self.phenomenon)}\n{self.paradigm}'
+        self.group_names = [gn for gn in self.group_name2model_output_paths]
 
 
-class Visualizer:
+@dataclass
+class ParadigmDataBars:
+    phenomenon: str
+    paradigm: str
+    group_name2model_output_paths: Dict[str, List[Path]]
+    group_name2template2acc: Dict[str, Dict[str, List[float]]]  # grouped by template
+    group_name2rep2acc: Dict[str, Dict[int, List[float]]]  # grouped by replication
+
+    # init=False
+    labels: List[str] = field(init=False)
+    name: str = field(init=False)
+    group_names: List[str] = field(init=False)
+
+    def __post_init__(self):
+        self.labels = [get_legend_label(gn, reps=get_reps(model_output_paths, step=None))
+                       for gn, model_output_paths in self.group_name2model_output_paths.items()]
+        self.name = f'{shorten(self.phenomenon)}\n{self.paradigm}'
+        self.group_names = [gn for gn in self.group_name2model_output_paths]
+
+
+class VisualizerBase:
     def __init__(self,
                  phenomena_paradigms: List[Tuple[str, str]],
-                 label_last_x_tick_only: bool = True,
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 line_width: int = 1,
-                 show_partial_figure: bool = False,
+                 show_partial_figure: bool = True,
+                 confidence: float = 0.90,
                  ):
+
+        self.phenomena_paradigms = phenomena_paradigms
+        self.y_lims = y_lims or [0.5, 1.01]
+        self.show_partial_figure = show_partial_figure
+        self.confidence = confidence
 
         # calc num rows needed
         self.num_cols = 4
@@ -60,14 +89,7 @@ class Visualizer:
                                              dpi=dpi,
                                              )
 
-        self.confidence = 0.90
-        self.line_width = line_width
-        self.x_axis_label = 'Training Step'
         self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
-        self.y_lims = y_lims or [0.5, 1.01]
-        self.show_partial_figure = show_partial_figure
-        self.label_last_x_tick_only = label_last_x_tick_only
-        self.x_ticks = configs.Eval.steps
 
         # remove all tick labels ahead of plotting to reduce space between subplots
         for ax in self.ax_mat.flatten():
@@ -83,11 +105,27 @@ class Visualizer:
         self.axes = enumerate(ax for ax in self.ax_mat.flatten())
         self.pds = []  # data, one for each axis/paradigm
 
+
+class VisualizerLines(VisualizerBase):
+    def __init__(self,
+                 label_last_x_tick_only: bool = True,
+                 line_width: int = 1,
+                 **kwargs
+                 ):
+        """plot accuracy across all training steps, for each paradigm"""
+
+        super().__init__(**kwargs)
+
+        self.line_width = line_width
+        self.x_axis_label = 'Training Step'
+        self.label_last_x_tick_only = label_last_x_tick_only
+        self.x_ticks = configs.Eval.steps
+
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
         self.paradigm2roberta_base_accuracy = {}
         base_path = configs.Dirs.runs_local / 'huggingface_official_base' / '0' / 'saves' / 'forced_choice' / '8192'
-        for phenomenon, paradigm in phenomena_paradigms:
+        for phenomenon, paradigm in self.phenomena_paradigms:
             model_output_path = base_path / f'probing_{phenomenon}-{paradigm}_results_500000.txt'
             data = DataExperimental(model_output_path, phenomenon, paradigm)
             num_correct = count_correct_choices(data)
@@ -97,14 +135,14 @@ class Visualizer:
         # score baseline (only once for each paradigm)
         self.ax_kwargs_baseline = {'color': 'grey', 'linestyle': '--'}
         self.paradigm2baseline_accuracy = {}
-        for phenomenon, paradigm in phenomena_paradigms:
+        for phenomenon, paradigm in self.phenomena_paradigms:
             data = DataBaseline('frequency baseline', phenomenon, paradigm)
             num_correct = count_correct_choices(data)
             accuracy = num_correct / len(data.pairs)
             self.paradigm2baseline_accuracy[paradigm] = accuracy
 
     def update(self,
-               pd: ParadigmData,
+               pd: ParadigmDataLines,
                ) -> None:
         """draw plot on one axis, corresponding to one paradigm"""
 
@@ -223,9 +261,8 @@ class Visualizer:
             ax.plot(x, y_baseline, linewidth=self.line_width, **self.ax_kwargs_baseline)
 
             # plot the margin of error (shaded region)
-            confidence = 0.95
             n = len(curves)
-            h = sem(curves, axis=0) * t.ppf((1 + confidence) / 2, n - 1)  # margin of error
+            h = sem(curves, axis=0) * t.ppf((1 + self.confidence) / 2, n - 1)  # margin of error
             ax.fill_between(x, y + h, y - h, alpha=0.2, color=color)
 
         # remove axis decoration from any remaining axis
@@ -240,6 +277,169 @@ class Visualizer:
         legend_elements = [Line2D([0], [0], color=f'C{n}', label=label) for n, label in enumerate(labels)]
         legend_elements.append(Line2D([0], [0], label='RoBERTa-base', **self.ax_kwargs_roberta_base))
         legend_elements.append(Line2D([0], [0], label='frequency baseline', **self.ax_kwargs_baseline))
+
+        for ax in self.axes_for_legend:
+            ax.axis('off')
+
+        # legend
+        self.fig.legend(handles=legend_elements,
+                        loc='upper center',
+                        bbox_to_anchor=(0.5, 0.11),  # distance from bottom-left (move up into  empty axes)
+                        ncol=1,
+                        frameon=False,
+                        fontsize=configs.Figs.leg_font_size)
+
+
+class VisualizerBars(VisualizerBase):
+    def __init__(self,
+                 verbose: bool = True,
+                 **kwargs
+                 ):
+        """plot accuracy at last training step only, for each paradigm"""
+
+        self.verbose = verbose
+        self.x_axis_label = 'Model'
+        self.width = 0.2  # between bars  # TODO remove this -
+
+        super().__init__(**kwargs)
+
+    def update(self,
+               pd: ParadigmDataBars,
+               ) -> None:
+        """draw plot on one axis, corresponding to one paradigm"""
+
+        self.pds.append(pd)
+
+        # get next axis
+        ax_id, ax = next(self.axes)
+        ax_title = pd.name.replace("_"," ")
+        ax.set_title(ax_title, fontsize=configs.Figs.title_font_size)
+
+        # y axis
+        if ax_id % self.ax_mat.shape[1] == 0:
+            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
+            y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+            ax.set_yticks(y_ticks)
+            ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+        # x-axis
+        ax.set_xticks([])
+        ax.set_xticklabels([])
+        if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
+            ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
+
+        # axis
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.set_ylim(self.y_lims)
+
+        group_names = [gn for gn in pd.group_name2rep2acc.keys()]
+        num_groups = len(group_names)
+        edges = [self.width * i for i in range(num_groups)]  # distances between x-ticks and bar-center
+        colors = [f'C{i}' for i in range(num_groups)]
+
+        x = np.arange(1)
+
+        # plot
+        for edge, color, group_name, label in zip(edges, colors, group_names, pd.labels):
+            rep2acc = pd.group_name2rep2acc[group_name]
+            accuracies = [acc for acc in rep2acc.values()]
+            y = np.mean(accuracies, axis=0)  # take average across reps
+
+            # margin of error
+            n = len(accuracies)
+            h = sem(accuracies, axis=0) * t.ppf((1 + self.confidence) / 2, n - 1)  # margin of error
+
+            # plot all bars belonging to a single model group (same color)
+            ax.bar(x + edge,
+                   y,
+                   self.width,
+                   yerr=h,
+                   color=color,
+                   zorder=3,
+                   label=label)
+
+        # plot legend only once to prevent degradation in text quality due to multiple plotting
+        if ax_id == 0:
+            self.plot_legend()
+
+        if self.show_partial_figure:
+            self.fig.tight_layout()
+            self.fig.show()
+
+    def plot_summary(self):
+        """plot average accuracy (across all paradigms) in last axis"""
+
+        # get next axis
+        ax_id, ax = next(self.axes)
+        ax.set_title('Average', fontsize=configs.Figs.title_font_size)
+
+        # x-axis
+        ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
+        ax.set_xticks([])
+        ax.set_xticklabels([])
+        # y axis
+        if ax_id % self.ax_mat.shape[1] == 0:
+            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
+            y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+            ax.set_yticks(y_ticks)
+            ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+        else:
+            y_ticks = []
+            ax.set_yticks(y_ticks)
+            ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+
+        # axis
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.set_ylim(self.y_lims)
+
+        # collect last_accuracy for each replication across all paradigms
+        gn2rep2accuracies_by_pd = defaultdict(dict)
+        for pd in self.pds:
+            for gn, rep2acc in pd.group_name2rep2acc.items():
+                for rep, acc in rep2acc.items():
+                    gn2rep2accuracies_by_pd[gn].setdefault(rep, []).append(acc)
+
+        group_names = [gn for gn in gn2rep2accuracies_by_pd]
+        num_groups = len(group_names)
+        edges = [self.width * i for i in range(num_groups)]  # distances between x-ticks and bar-center
+        colors = [f'C{i}' for i in range(num_groups)]
+
+        x = np.arange(1)
+
+        # plot
+        for edge, color, group_name in zip(edges, colors, group_names):
+            rep2accuracies_by_pd = gn2rep2accuracies_by_pd[group_name]
+
+            # average across paradigms
+            rep2acc_avg_across_pds = {rep: np.array(accuracies_by_pd).mean(axis=0)
+                                      for rep, accuracies_by_pd in rep2accuracies_by_pd.items()}
+            accuracies = np.array([rep2acc_avg_across_pds[rep] for rep in rep2acc_avg_across_pds])  # one for each rep
+            y = accuracies.mean()
+
+            # margin of error
+            n = len(accuracies)
+            h = sem(accuracies, axis=0) * t.ppf((1 + self.confidence) / 2, n - 1)  # margin of error
+
+            # plot all bars belonging to a single model group (same color)
+            ax.bar(x + edge,
+                   y,
+                   self.width,
+                   yerr=h,
+                   color=color,
+                   zorder=3,
+                   )
+
+        # remove axis decoration from any remaining axis
+        for ax_id, ax in self.axes:
+            ax.axis('off')
+
+        self.fig.show()
+
+    def plot_legend(self):
+
+        labels = self.pds[-1].labels
+        legend_elements = [Line2D([0], [0], color=f'C{n}', label=label) for n, label in enumerate(labels)]
 
         for ax in self.axes_for_legend:
             ax.axis('off')
