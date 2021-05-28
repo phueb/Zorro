@@ -40,7 +40,7 @@ def get_legend_label(group2model_output_paths,
     # make label
     res = f'BabyBERTa | n={reps} | '
     for c in configs.Eval.conditions:
-        if c == 'load_from_checkpoint':
+        if c == 'load_from_checkpoint' and param2val[c] != 'none':
             param2val_previous = load_param2val(param2val[c], runs_path)
             res += f'previously trained on={param2val_previous["corpora"]} '
             continue
