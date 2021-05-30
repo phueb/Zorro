@@ -1,10 +1,15 @@
 from typing import Dict, List, Optional, Tuple, Union
 import numpy as np
 from pathlib import Path
+from matplotlib import rcParams
+import yaml
 
 from zorro.scoring import count_correct_choices
 from zorro.data import DataExperimental
 from zorro import configs
+
+rcParams['axes.spines.right'] = False
+rcParams['axes.spines.top'] = False
 
 
 def get_reps(model_output_paths: List[Path],
@@ -84,15 +89,15 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
                                 ) -> List[Tuple[str, str]]:
     phenomena = [
         'npi_licensing',
-        'ellipsis',
-        'filler-gap',
-        'case',
-        'argument_structure',
-        'local_attractor',
-        'agreement_subject_verb',
-        'agreement_demonstrative_subject',
-        'irregular_verb',
-        'island-effects',
+        # 'ellipsis',
+        # 'filler-gap',
+        # 'case',
+        # 'argument_structure',
+        # 'local_attractor',
+        # 'agreement_subject_verb',
+        # 'agreement_demonstrative_subject',
+        # 'irregular_verb',
+        # 'island-effects',
         'quantifiers',
     ]
 
@@ -117,3 +122,74 @@ def filter_by_step(model_output_path: Path,
     if int(model_output_path.stem.split('_')[-1]) == step:
         return True
     return False
+
+
+def shorten_tick_labels(labels: List[Union[str,int]],
+                        ) -> List[str]:
+    return [str(label)[:-3] + 'K' if str(label).endswith('000') else label
+            for label in labels]
+
+
+def get_legend_label(group_name,
+                     reps,
+                     conditions: Optional[List[str]] = None,
+                     add_group_name: bool = False,
+                     ) -> str:
+
+    conditions =  conditions or configs.Eval.conditions
+
+    if group_name.endswith('frequency baseline'):
+        return 'frequency baseline'
+
+    if configs.Eval.local_runs:
+        runs_path = configs.Dirs.runs_local
+    else:
+        runs_path = configs.Dirs.runs_remote
+
+    param2val = load_param2val(group_name, runs_path)
+
+    if group_name.startswith('param'):
+        model_name = 'BabyBERTa'
+    else:
+        model_name = 'RoBERTa-base'
+        conditions = ['data_size']
+
+    # init label
+    res = f'{model_name} | n={reps} | '
+
+    # add corpora info
+    if model_name == 'RoBERTa-base':
+        if param2val['data_size'] == '10M':
+            res += 'Warstadt et al., 2020 '
+        elif param2val['data_size'] == '160GB':
+            res += 'Liu et al., 2019 '
+
+    for c in conditions:
+        if c == 'load_from_checkpoint' and param2val[c] != 'none':
+            param2val_previous = load_param2val(param2val[c], runs_path)
+            res += f'previously trained on={param2val_previous["corpora"]} '
+            continue
+        try:
+            val = param2val[c]
+        except KeyError:
+            val = 'n/a'
+        if isinstance(val, bool):
+            val = int(val)
+        res += f'{c}={val} '
+
+    if add_group_name:
+        res += ' | ' + group_name
+
+    # shorten and make more readable
+    res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.0', 'no unmasking')
+    res.replace('leave_unmasked_prob_start=0.1 leave_unmasked_prob=0.1', 'standard unmasking')
+    res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.1', 'unmasking curriculum')
+
+    return res
+
+
+def load_param2val(group_name, runs_path):
+    path = runs_path / group_name / 'param2val.yaml'
+    with path.open('r') as f:
+        param2val = yaml.load(f, Loader=yaml.FullLoader)
+    return param2val

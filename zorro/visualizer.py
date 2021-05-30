@@ -8,10 +8,9 @@ from scipy.stats import sem, t
 from collections import defaultdict
 
 from zorro import configs
-from zorro.figs import get_legend_label, shorten_tick_labels
 from zorro.data import DataExperimental, DataBaseline
 from zorro.scoring import count_correct_choices
-from zorro.utils import get_reps
+from zorro.utils import get_reps, shorten_tick_labels, get_legend_label
 
 
 def shorten(name: str):
@@ -66,7 +65,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 show_partial_figure: bool = True,
+                 show_partial_figure: bool = False,
                  confidence: float = 0.90,
                  ):
 
@@ -90,6 +89,7 @@ class VisualizerBase:
                                              )
 
         self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
+        self.y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
         # remove all tick labels ahead of plotting to reduce space between subplots
         for ax in self.ax_mat.flatten():
@@ -118,13 +118,17 @@ class VisualizerLines(VisualizerBase):
 
         self.line_width = line_width
         self.x_axis_label = 'Training Step'
-        self.label_last_x_tick_only = label_last_x_tick_only
         self.x_ticks = configs.Eval.steps
+
+        if label_last_x_tick_only:
+            self.x_tick_labels = ['' if n < len(self.x_ticks) - 1 else i for n, i in enumerate(self.x_ticks)]
+        else:
+            self.x_tick_labels = self.x_ticks
 
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
         self.paradigm2roberta_base_accuracy = {}
-        base_path = configs.Dirs.runs_local / 'huggingface_official_base' / '0' / 'saves' / 'forced_choice' / '8192'
+        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_160GB' / '0' / 'saves' / 'forced_choice' / '8192'
         for phenomenon, paradigm in self.phenomena_paradigms:
             model_output_path = base_path / f'probing_{phenomenon}-{paradigm}_results_500000.txt'
             data = DataExperimental(model_output_path, phenomenon, paradigm)
@@ -158,15 +162,12 @@ class VisualizerLines(VisualizerBase):
             y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
             ax.set_yticks(y_ticks)
             ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+
         # x-axis
-        if self.label_last_x_tick_only:
-            x_tick_labels = ['' if n < len(self.x_ticks) - 1 else i for n, i in enumerate(self.x_ticks)]
-        else:
-            x_tick_labels = self.x_ticks
         if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
             ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
             ax.set_xticks(self.x_ticks)
-            ax.set_xticklabels(shorten_tick_labels(x_tick_labels), fontsize=configs.Figs.tick_font_size)
+            ax.set_xticklabels(shorten_tick_labels(self.x_tick_labels), fontsize=configs.Figs.tick_font_size)
         # axis
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
@@ -196,7 +197,7 @@ class VisualizerLines(VisualizerBase):
 
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
-            self.plot_legend()
+            self._plot_legend()
 
         if self.show_partial_figure:
             self.fig.tight_layout()
@@ -205,31 +206,44 @@ class VisualizerLines(VisualizerBase):
     def plot_summary(self):
         """plot average accuracy (across all paradigms) in last axis"""
 
-        # axis
+        # get next axis in multi-axis figure and plot summary there
         ax_id, ax = next(self.axes)
+        self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0)
+        self.fig.show()
+
+        # also plot summary in standalone figure
+        fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
+        self._plot_summary_on_axis(ax1, label_y_axis=True)
+        ax2.axis('off')
+        self._plot_legend(fig_standalone, offset_from_bottom=0.33)
+        fig_standalone.show()
+
+    def _plot_summary_on_axis(self, ax: plt.axis,
+                              label_y_axis: bool,
+                              ):
+        """used to plot summary on multi-axis figure, or in standalone figure"""
+
+        # axis
         ax.set_title('Average', fontsize=configs.Figs.title_font_size)
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
         ax.spines['top'].set_visible(False)
-        # x-axis
-        if self.label_last_x_tick_only:
-            x_tick_labels = ['' if n < len(self.x_ticks) - 1 else i for n, i in enumerate(self.x_ticks)]
-        else:
-            x_tick_labels = self.x_ticks
-        ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
-        ax.set_xticks(self.x_ticks)
-        ax.set_xticklabels(shorten_tick_labels(x_tick_labels), fontsize=configs.Figs.tick_font_size)
-        # y axis
-        if ax_id % self.ax_mat.shape[1] == 0:
-            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
-            y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
-            ax.set_yticks(y_ticks)
-            ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
-        else:
-            y_ticks = []
-            ax.set_yticks(y_ticks)
-            ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
         ax.set_ylim(self.y_lims)
+
+        # x-axis
+        ax.set_xticks(self.x_ticks)
+        ax.set_xticklabels(shorten_tick_labels(self.x_tick_labels), fontsize=configs.Figs.tick_font_size)
+        ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
+
+        # y axis
+        if label_y_axis:
+            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
+            ax.set_yticks(self.y_ticks)
+            ax.set_yticklabels(self.y_ticks, fontsize=configs.Figs.tick_font_size)
+        else:
+            ax.set_ylabel('', fontsize=configs.Figs.ax_font_size)
+            ax.set_yticks([])
+            ax.set_yticklabels([], fontsize=configs.Figs.tick_font_size)
 
         # collect curves for each replication across all paradigms
         gn2rep2curves_by_pd = defaultdict(dict)
@@ -269,9 +283,13 @@ class VisualizerLines(VisualizerBase):
         for ax_id, ax in self.axes:
             ax.axis('off')
 
-        self.fig.show()
+    def _plot_legend(self,
+                     fig: Optional[plt.Figure] = None,
+                     offset_from_bottom: float = 0.11,
+                     ):
 
-    def plot_legend(self):
+        if fig is None:
+            fig = self.fig
 
         labels = self.pds[-1].labels
         legend_elements = [Line2D([0], [0], color=f'C{n}', label=label) for n, label in enumerate(labels)]
@@ -282,12 +300,12 @@ class VisualizerLines(VisualizerBase):
             ax.axis('off')
 
         # legend
-        self.fig.legend(handles=legend_elements,
-                        loc='upper center',
-                        bbox_to_anchor=(0.5, 0.11),  # distance from bottom-left (move up into  empty axes)
-                        ncol=1,
-                        frameon=False,
-                        fontsize=configs.Figs.leg_font_size)
+        fig.legend(handles=legend_elements,
+                   loc='upper center',
+                   bbox_to_anchor=(0.5, offset_from_bottom),
+                   ncol=1,
+                   frameon=False,
+                   fontsize=configs.Figs.leg_font_size)
 
 
 class VisualizerBars(VisualizerBase):
@@ -298,7 +316,6 @@ class VisualizerBars(VisualizerBase):
         """plot accuracy at last training step only, for each paradigm"""
 
         self.verbose = verbose
-        self.x_axis_label = 'Model'
         self.width = 0.2  # between bars  # TODO remove this -
 
         super().__init__(**kwargs)
@@ -324,8 +341,6 @@ class VisualizerBars(VisualizerBase):
         # x-axis
         ax.set_xticks([])
         ax.set_xticklabels([])
-        if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
-            ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
 
         # axis
         ax.spines['right'].set_visible(False)
@@ -340,7 +355,7 @@ class VisualizerBars(VisualizerBase):
         x = np.arange(1)
 
         # plot
-        for edge, color, group_name, label in zip(edges, colors, group_names, pd.labels):
+        for edge, color, group_name in zip(edges, colors, group_names):
             rep2acc = pd.group_name2rep2acc[group_name]
             accuracies = [acc for acc in rep2acc.values()]
             y = np.mean(accuracies, axis=0)  # take average across reps
@@ -356,11 +371,11 @@ class VisualizerBars(VisualizerBase):
                    yerr=h,
                    color=color,
                    zorder=3,
-                   label=label)
+                   )
 
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
-            self.plot_legend()
+            self._plot_legend()
 
         if self.show_partial_figure:
             self.fig.tight_layout()
@@ -369,29 +384,42 @@ class VisualizerBars(VisualizerBase):
     def plot_summary(self):
         """plot average accuracy (across all paradigms) in last axis"""
 
-        # get next axis
+        # get next axis in multi-axis figure and plot summary there
         ax_id, ax = next(self.axes)
+        self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0)
+        self.fig.show()
+
+        # also plot summary in standalone figure
+        fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
+        self._plot_summary_on_axis(ax1, label_y_axis=True)
+        ax2.axis('off')
+        self._plot_legend(fig_standalone, offset_from_bottom=0.33)
+        fig_standalone.show()
+
+    def _plot_summary_on_axis(self,
+                              ax: plt.axis,
+                              label_y_axis: bool,
+                              ):
+        """used to plot summary on multi-axis figure, or in standalone figure"""
+
+        # axis
         ax.set_title('Average', fontsize=configs.Figs.title_font_size)
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.set_ylim(self.y_lims)
 
         # x-axis
-        ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
         ax.set_xticks([])
         ax.set_xticklabels([])
         # y axis
-        if ax_id % self.ax_mat.shape[1] == 0:
+        if label_y_axis:
             ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
-            y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
-            ax.set_yticks(y_ticks)
-            ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+            ax.set_yticks(self.y_ticks)
+            ax.set_yticklabels(self.y_ticks, fontsize=configs.Figs.tick_font_size)
         else:
             y_ticks = []
             ax.set_yticks(y_ticks)
             ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
-
-        # axis
-        ax.spines['right'].set_visible(False)
-        ax.spines['top'].set_visible(False)
-        ax.set_ylim(self.y_lims)
 
         # collect last_accuracy for each replication across all paradigms
         gn2rep2accuracies_by_pd = defaultdict(dict)
@@ -399,12 +427,10 @@ class VisualizerBars(VisualizerBase):
             for gn, rep2acc in pd.group_name2rep2acc.items():
                 for rep, acc in rep2acc.items():
                     gn2rep2accuracies_by_pd[gn].setdefault(rep, []).append(acc)
-
         group_names = [gn for gn in gn2rep2accuracies_by_pd]
         num_groups = len(group_names)
         edges = [self.width * i for i in range(num_groups)]  # distances between x-ticks and bar-center
         colors = [f'C{i}' for i in range(num_groups)]
-
         x = np.arange(1)
 
         # plot
@@ -430,13 +456,20 @@ class VisualizerBars(VisualizerBase):
                    zorder=3,
                    )
 
+            # print average performance by group
+            print(f'{group_name:<96} y={y:.2f}')
+
         # remove axis decoration from any remaining axis
         for ax_id, ax in self.axes:
             ax.axis('off')
 
-        self.fig.show()
+    def _plot_legend(self,
+                     fig: Optional[plt.Figure] = None,
+                     offset_from_bottom: float = 0.11,
+                     ):
 
-    def plot_legend(self):
+        if fig is None:
+            fig = self.fig
 
         labels = self.pds[-1].labels
         legend_elements = [Line2D([0], [0], color=f'C{n}', label=label) for n, label in enumerate(labels)]
@@ -445,9 +478,9 @@ class VisualizerBars(VisualizerBase):
             ax.axis('off')
 
         # legend
-        self.fig.legend(handles=legend_elements,
-                        loc='upper center',
-                        bbox_to_anchor=(0.5, 0.11),  # distance from bottom-left (move up into  empty axes)
-                        ncol=1,
-                        frameon=False,
-                        fontsize=configs.Figs.leg_font_size)
+        fig.legend(handles=legend_elements,
+                   loc='upper center',
+                   bbox_to_anchor=(0.5, offset_from_bottom),
+                   ncol=1,
+                   frameon=False,
+                   fontsize=configs.Figs.leg_font_size)
