@@ -42,7 +42,7 @@ class Eval:
     #          ]
     steps = [i for i in range(0, 500_000, 20_000)]
     param_names = [f'param_{i:03}' for i in [20, 21, 22]]
-    conditions = ['corpora', 'leave_unmasked_prob_start', 'leave_unmasked_prob']  # can be empty list
+    conditions = ['leave_unmasked_prob_start', 'leave_unmasked_prob']  # can be empty list
     included_params = {}
     categorize_by_template = False
     excluded_paradigms = [

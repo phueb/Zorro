@@ -65,7 +65,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 show_partial_figure: bool = False,
+                 show_partial_figure: bool = True,
                  confidence: float = 0.90,
                  ):
 

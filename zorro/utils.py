@@ -88,17 +88,20 @@ def prepare_data_for_plotting(gn2model_output_paths: Dict[str, List[Path]],
 def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
                                 ) -> List[Tuple[str, str]]:
     phenomena = [
-        'npi_licensing',
-        # 'ellipsis',
-        # 'filler-gap',
-        # 'case',
-        # 'argument_structure',
-        # 'local_attractor',
-        # 'agreement_subject_verb',
-        # 'agreement_demonstrative_subject',
-        # 'irregular_verb',
-        # 'island-effects',
+        # 4
+        'agreement_subject_verb',
+        # 2
+        'agreement_demonstrative_subject',
+        'case',
+        'filler-gap',
+        'irregular_verb',
+        'island-effects',
+        'argument_structure',
         'quantifiers',
+        # 1
+        'ellipsis',
+        'npi_licensing',
+        'local_attractor',
     ]
 
     if not excluded_paradigms:
@@ -181,9 +184,9 @@ def get_legend_label(group_name,
         res += ' | ' + group_name
 
     # shorten and make more readable
-    res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.0', 'no unmasking')
-    res.replace('leave_unmasked_prob_start=0.1 leave_unmasked_prob=0.1', 'standard unmasking')
-    res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.1', 'unmasking curriculum')
+    res = res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.0', 'no unmasking')
+    res = res.replace('leave_unmasked_prob_start=0.1 leave_unmasked_prob=0.1', 'standard unmasking')
+    res = res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.1', 'unmasking curriculum')
 
     return res
 
