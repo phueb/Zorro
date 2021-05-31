@@ -158,7 +158,7 @@ def get_legend_label(group_name,
         conditions = ['data_size']
 
     # init label
-    res = f'{model_name} | n={reps} | '
+    res = f'{model_name} | n={reps} '
 
     # add corpora info
     if model_name == 'RoBERTa-base':
@@ -170,7 +170,7 @@ def get_legend_label(group_name,
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
             param2val_previous = load_param2val(param2val[c], runs_path)
-            res += f'previously trained on={param2val_previous["corpora"]} '
+            res += f'previously trained on {param2val_previous["corpora"]} '
             continue
         try:
             val = param2val[c]
@@ -178,7 +178,7 @@ def get_legend_label(group_name,
             val = 'n/a'
         if isinstance(val, bool):
             val = int(val)
-        res += f'{c}={val} '
+        res += f'| {c}={val} '
 
     if add_group_name:
         res += ' | ' + group_name
@@ -187,6 +187,17 @@ def get_legend_label(group_name,
     res = res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.0', 'no unmasking')
     res = res.replace('leave_unmasked_prob_start=0.1 leave_unmasked_prob=0.1', 'standard unmasking')
     res = res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.1', 'unmasking curriculum')
+
+    res = res.replace("corpora=('wikipedia1', 'wikipedia2', 'wikipedia3')", 'Wiki-1 + Wiki-2 + Wiki-3')
+    res = res.replace("corpora=('aochildes', 'aonewsela', 'wikipedia3')", 'AO-CHILDES + AO-Newsela + Wiki-3')
+
+    res = res.replace("corpora=('aochildes',)", 'AO-CHILDES')
+    res = res.replace("corpora=('aonewsela',)", 'AO-Newsela')
+    res = res.replace("corpora=('wikipedia1',)", 'Wikipedia-1')
+
+    res = res.replace("('aochildes',)", 'AO-CHILDES')
+    res = res.replace("('aonewsela',)", 'AO-Newsela')
+    res = res.replace("('wikipedia1',)", 'Wikipedia-1')
 
     return res
 

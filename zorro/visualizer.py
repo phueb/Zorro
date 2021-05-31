@@ -65,7 +65,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 show_partial_figure: bool = True,
+                 show_partial_figure: bool = False,
                  confidence: float = 0.90,
                  ):
 
@@ -198,6 +198,7 @@ class VisualizerLines(VisualizerBase):
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
             self._plot_legend()
+            self.fig.show()
 
         if self.show_partial_figure:
             self.fig.tight_layout()

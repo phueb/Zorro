@@ -34,21 +34,34 @@ class Data:
 
 
 class Eval:
-    local_runs = False  # use model output stored locally in Zorro/runs/
-    # steps = [0, 20_000, 40_000, 60_000, 80_000, 100_000,
-    #          120_000, 140_000, 160_000,
-    #          # newsela goes to 160K
-    #          # childes goes to 240K
-    #          ]
-    steps = [i for i in range(0, 500_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [20, 21, 22]]
-    conditions = ['leave_unmasked_prob_start', 'leave_unmasked_prob']  # can be empty list
     included_params = {}
     categorize_by_template = False
     excluded_paradigms = [
         'existential_there_2',  # too difficult
         'across_2_adjectives',  # very similar performance to across_1_adjective
     ]
+    local_runs = False  # use model output stored locally in Zorro/runs/
+
+    # exp1 (part of experiment that is comparing unmasking only)
+    # steps = [i for i in range(0, 180_000, 20_000)]
+    # param_names = [f'param_{i:03}' for i in [1, 4]]
+    # conditions = ['corpora', 'leave_unmasked_prob']
+    # exp2
+    steps = [i for i in range(0, 180_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in [1, 2, 3]]
+    conditions = ['corpora', ]
+    # exp3
+    # steps = [i for i in range(0, 180_000, 20_000)]
+    # param_names = [f'param_{i:03}' for i in [11, 13]]
+    # conditions = ['corpora', 'load_from_checkpoint']
+    # # exp4a
+    # steps = [i for i in range(0, 500_000, 20_000)]
+    # param_names = [f'param_{i:03}' for i in [20, 21, 22]]
+    # conditions = ['leave_unmasked_prob_start', 'leave_unmasked_prob']
+    # # exp4b
+    # steps = [i for i in range(0, 500_000, 20_000)]
+    # param_names = [f'param_{i:03}' for i in [23, 24]]
+    # conditions = ['corpora']
 
 
 class Figs:
