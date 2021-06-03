@@ -394,7 +394,8 @@ class VisualizerBars(VisualizerBase):
         fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
         self._plot_summary_on_axis(ax1, label_y_axis=True)
         ax2.axis('off')
-        self._plot_legend(fig_standalone, offset_from_bottom=0.33)
+        fig_standalone.subplots_adjust(top=0.1, bottom=0.01)
+        self._plot_legend(fig_standalone, offset_from_bottom=0.5)
         fig_standalone.show()
 
     def _plot_summary_on_axis(self,

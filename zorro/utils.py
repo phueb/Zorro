@@ -89,19 +89,20 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
                                 ) -> List[Tuple[str, str]]:
     phenomena = [
         # 4
-        'agreement_subject_verb',
-        # 2
-        'agreement_demonstrative_subject',
-        'case',
-        'filler-gap',
-        'irregular_verb',
-        'island-effects',
-        'argument_structure',
-        'quantifiers',
-        # 1
-        'ellipsis',
-        'npi_licensing',
-        'local_attractor',
+        # 'agreement_subject_verb',
+        # # 2
+        # 'agreement_demonstrative_subject',
+        # 'case',
+        # 'filler-gap',
+        # 'irregular_verb',
+        # 'island-effects',
+        # 'argument_structure',
+        # 'quantifiers',
+        # # 1
+        # 'ellipsis',
+        # 'npi_licensing',
+        # 'local_attractor',
+        'binding',
     ]
 
     if not excluded_paradigms:
@@ -110,7 +111,10 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
     # get list of (phenomenon, paradigm) tuples
     res = []
     for phenomenon in phenomena:
-        for p in (configs.Dirs.src / phenomenon).glob('*.py'):
+        phenomenon_path = (configs.Dirs.src / phenomenon)
+        if not phenomenon_path.exists():
+            raise OSError(f'{phenomenon_path} does not exist')
+        for p in phenomenon_path.glob('*.py'):
             paradigm = p.stem
             if paradigm in excluded_paradigms:
                 continue
@@ -163,9 +167,11 @@ def get_legend_label(group_name,
     # add corpora info
     if model_name == 'RoBERTa-base':
         if param2val['data_size'] == '10M':
-            res += 'Warstadt et al., 2020 '
+            res += '| Warstadt et al., 2020 '
+        elif param2val['data_size'] == '5M':
+            res += '| AO-CHILDES '
         elif param2val['data_size'] == '160GB':
-            res += 'Liu et al., 2019 '
+            res += '| Liu et al., 2019 '
 
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':

@@ -6,6 +6,7 @@ import importlib
 
 from zorro.vocab import get_vocab_words
 from zorro.filter import collect_unique_pairs
+from zorro.utils import get_phenomena_and_paradigms
 from zorro import configs
 
 CHECK_IN_VOCAB = True
@@ -22,19 +23,7 @@ for vocab_size in VOCAB_SIZES:
     vocab_words = get_vocab_words()
 
     # for all phenomena
-    for phenomenon in [
-        'argument_structure',
-        'npi_licensing',
-        'ellipsis',
-        'case',
-        'local_attractor',
-        'island-effects',
-        'filler-gap',
-        'quantifiers',
-        'agreement_demonstrative_subject',
-        'agreement_subject_verb',
-        'irregular_verb',
-    ]:
+    for phenomenon, _ in get_phenomena_and_paradigms():
 
         # for all paradigms
         for path in (configs.Dirs.src / phenomenon).glob('*.py'):

@@ -4,6 +4,7 @@ import inflect
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
 from zorro.counterbalance import find_counterbalanced_subset
+from zorro.gender import names_f, names_m
 from zorro import configs
 
 template1 = {
@@ -46,43 +47,6 @@ def main():
     names = find_counterbalanced_subset(names_, min_size=10, max_size=len(names_))
 
     auxiliaries = ['can', 'could', 'will', 'would', 'must', 'should']
-
-    names_m = [
-        'michael',
-        'simon',
-        'allen',
-        'obama',
-        'donald',
-        'henry',
-        'robert',
-        'bill',
-        'thomas',
-        'mark',
-        'richard',
-        'louis',
-        'joseph',
-        'edward',
-        'allen',
-        'ben',
-        'gregory',
-        'taylor',
-        'chris',
-        'carter',
-        'sam',
-        'roger',
-        'obama',
-        'william',
-        'john',
-        'philip',
-        'alexander',
-    ]
-
-    names_f = [
-        'sarah',
-        'laura',
-        'maria',
-        'anne',
-    ]
 
     def add_misc_after_prp(prp: str,
                            v: str,
