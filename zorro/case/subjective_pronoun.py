@@ -1,5 +1,4 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
@@ -10,8 +9,6 @@ template1 = {
     'b': 'the {nn} {vbd} {prp_subj} {det} {nn2} .',  # subjective pronoun is wrong
     'g': '{prp_subj} {vbd} the {nn} {det} {nn2} .',
 }
-
-plural = inflect.engine()
 
 
 def main():

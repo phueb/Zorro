@@ -92,17 +92,19 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
         # 'agreement_subject_verb',
         # # 2
         # 'agreement_demonstrative_subject',
-        # 'case',
         # 'filler-gap',
         # 'irregular_verb',
         # 'island-effects',
-        # 'argument_structure',
         # 'quantifiers',
-        # # 1
-        # 'ellipsis',
         # 'npi_licensing',
-        # 'local_attractor',
-        'binding',
+        # 3
+        'argument_structure',
+        # 1
+        # 'anaphor_agreement',
+        # 'ellipsis',
+        # 'binding',
+        # 'case',  # not in BLiMP
+        # 'local_attractor',  # not in BLiMP
     ]
 
     if not excluded_paradigms:

@@ -65,7 +65,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 show_partial_figure: bool = False,
+                 show_partial_figure: bool = True,
                  confidence: float = 0.90,
                  ):
 
@@ -88,7 +88,6 @@ class VisualizerBase:
                                              dpi=dpi,
                                              )
 
-        self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
         self.y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
         # remove all tick labels ahead of plotting to reduce space between subplots
@@ -120,8 +119,10 @@ class VisualizerLines(VisualizerBase):
         self.x_axis_label = 'Training Step'
         self.x_ticks = configs.Eval.steps
 
+        self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
+
         if label_last_x_tick_only:
-            self.x_tick_labels = ['' if n < len(self.x_ticks) - 1 else i for n, i in enumerate(self.x_ticks)]
+            self.x_tick_labels = ['' if xi != self.x_ticks[-1] else xi for xi in self.x_ticks]
         else:
             self.x_tick_labels = self.x_ticks
 
@@ -317,7 +318,9 @@ class VisualizerBars(VisualizerBase):
         """plot accuracy at last training step only, for each paradigm"""
 
         self.verbose = verbose
-        self.width = 0.2  # between bars  # TODO remove this -
+        self.width = 0.2  # between bars  # TODO remove this
+
+        self.y_axis_label = 'Accuracy'  #
 
         super().__init__(**kwargs)
 

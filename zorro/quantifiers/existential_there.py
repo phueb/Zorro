@@ -1,5 +1,4 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
@@ -8,8 +7,6 @@ from zorro import configs
 
 template1 = 'there {} {} {} about {} {} .'
 template2 = 'there {} {} {} that {} made .'
-
-plural = inflect.engine()
 
 
 def main():

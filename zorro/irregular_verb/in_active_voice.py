@@ -1,5 +1,4 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.vocab import get_vocab_words
@@ -7,8 +6,6 @@ from zorro.counterbalance import find_counterbalanced_subset
 from zorro import configs
 
 template = '{} {} {} {} .'
-
-plural = inflect.engine()
 
 
 def main():

@@ -1,5 +1,4 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.vocab import get_vocab_words
@@ -9,8 +8,6 @@ template1 = '{} {} {} {} was {} by him .'
 template2 = "{} {} {} {} wasn't {} by her ."
 template3 = '{} {} {} {} was {} to him .'  # for use with "given"
 template4 = "{} {} {} {} wasn't {} to her ."  # for use with "given"
-
-plural = inflect.engine()
 
 
 def main():

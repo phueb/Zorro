@@ -39,6 +39,7 @@ class Eval:
     excluded_paradigms = [
         'existential_there_2',  # too difficult
         'across_2_adjectives',  # very similar performance to across_1_adjective
+        'possessive_pronoun',  # sometimes both sentences are grammatical
     ]
     local_runs = False  # use model output stored locally in Zorro/runs/
 
@@ -47,9 +48,9 @@ class Eval:
     # param_names = [f'param_{i:03}' for i in [1, 4]]
     # conditions = ['corpora', 'leave_unmasked_prob']
     # exp2
-    steps = [i for i in range(0, 180_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [1, 2, 3]]
-    conditions = ['corpora', ]
+    # steps = [i for i in range(0, 180_000, 20_000)]
+    # param_names = [f'param_{i:03}' for i in [1, 2, 3]]
+    # conditions = ['corpora', ]
     # exp3
     # steps = [i for i in range(0, 180_000, 20_000)]
     # param_names = [f'param_{i:03}' for i in [11, 13]]
@@ -62,6 +63,7 @@ class Eval:
     # steps = [i for i in range(0, 500_000, 20_000)]
     # param_names = [f'param_{i:03}' for i in [23, 24]]
     # conditions = ['corpora']
+
 
 
 class Figs:

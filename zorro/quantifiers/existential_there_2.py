@@ -1,13 +1,10 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
 from zorro.counterbalance import find_counterbalanced_subset
 
 template1 = '{} {} {} {} {} {} {} {} .'
-
-plural = inflect.engine()
 
 
 def main():

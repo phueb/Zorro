@@ -1,5 +1,4 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
@@ -10,8 +9,6 @@ template1 = {
     'b': 'the {nn} {vbd} {det} {nn2} {prp_subj} .',
     'g': '{prp_subj} {vbd} the {nn} {det} {nn2} .',
 }
-
-plural = inflect.engine()
 
 
 def main():

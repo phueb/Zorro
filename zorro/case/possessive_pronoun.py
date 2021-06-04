@@ -1,5 +1,4 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
@@ -10,8 +9,6 @@ template1 = {
     'b': 'the {nn} {aux} {vb} {prp_poss} .',  # possessive case is wrong
     'g': 'the {nn} {aux} {vb} {prp_obj} .',
 }
-
-plural = inflect.engine()
 
 
 def main():

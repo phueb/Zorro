@@ -1,5 +1,4 @@
 import random
-import inflect
 
 from zorro.filter import collect_unique_pairs
 from zorro.words import get_legal_words
@@ -15,8 +14,6 @@ template2 = {
     'b': 'what did {name} {vb} the {nn} {pp} {vbg} ?',
     'g': 'what did {name} {vb} {pp} {vbg} the {nn} ?',
 }
-
-plural = inflect.engine()
 
 
 def main():

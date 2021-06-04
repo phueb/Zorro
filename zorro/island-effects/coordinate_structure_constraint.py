@@ -26,8 +26,6 @@ template4 = {
     'g': 'what were {name} and the {nn} {vbg} ?',
 }
 
-plural = inflect.engine()
-
 
 def main():
     """
