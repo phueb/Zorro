@@ -1,4 +1,5 @@
 from typing import Union
+import random
 
 from zorro.data import DataExperimental, DataBaseline
 
@@ -14,7 +15,9 @@ def count_correct_choices(data: Union[DataExperimental, DataBaseline],
      a value representing "correct" is incremented by one.
 
     """
-    res = 0  # num correct
+    num_correct = 0  # num correct
+
+    assert len(data.pairs) == len(data.grammatical_scores)
 
     # loop over all possible sentence pairs with all possible templates
     num_skipped = 0
@@ -22,37 +25,35 @@ def count_correct_choices(data: Union[DataExperimental, DataBaseline],
     for (s1, s2), (is_grammatical1, is_grammatical2) in zip(data.pairs, data.grammatical_scores):
 
         # get cross-entropies
-        try:
-            xe1 = data.s2cross_entropies[tuple(s1)]
-            xe2 = data.s2cross_entropies[tuple(s2)]
-        except KeyError:  # happens when original test sentences are different than what model was tested with
-            # try sentences without punctuation (if model was probed with sentences stripped of punctuation)
-            try:
-                xe1 = data.s2cross_entropies[tuple(s1[:-1])]
-                xe2 = data.s2cross_entropies[tuple(s2[:-1])]
-            except KeyError:
-                num_skipped += 1
-                continue
+        xe1 = data.s2cross_entropies[tuple(s1)]
+        xe2 = data.s2cross_entropies[tuple(s2)]
+
+        # jitter cross-entropies when they are exactly identical
+        if xe1 == xe2:
+            if random.random() < 0.5:
+                xe1 += 1
+            else:
+                xe2 += 1
 
         is_correct1 = is_grammatical1 and xe1 < xe2
         is_correct2 = is_grammatical2 and xe1 > xe2
         if is_correct1 or is_correct2:  # two ways to be correct
-            res += 1
+            num_correct += 1
         else:
             num_false += 1
 
-    num_scored = res + num_false
+    num_scored = num_correct + num_false
     num_expected_scores = len(data.pairs)
 
     if num_scored != num_expected_scores:
-        print(f'Scored {res} correct and {num_false} false and skipped {num_skipped}')
+        print(f'Scored {num_correct} correct and {num_false} false and skipped {num_skipped}')
         raise RuntimeError(f'Expected {num_expected_scores:,} but got {num_scored:,} scores')
 
     if verbose:
-        print(f'correct={res:>9,}')
+        print(f'correct={num_correct:>9,}')
         print(f'false  ={num_false:>9,}')
         print(f'total  ={num_scored :>9,}')
         print(f'skipped={num_skipped :>9,}')
         print()
 
-    return res
+    return num_correct

@@ -96,11 +96,11 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
         # 'irregular_verb',
         # 'island-effects',
         # 'quantifiers',
-        # 'npi_licensing',
+        'npi_licensing',  # TODO
         # 3
-        'argument_structure',
+        # 'argument_structure',
         # 1
-        # 'anaphor_agreement',
+        'anaphor_agreement',  # TODO
         # 'ellipsis',
         # 'binding',
         # 'case',  # not in BLiMP

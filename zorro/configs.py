@@ -44,9 +44,9 @@ class Eval:
     local_runs = False  # use model output stored locally in Zorro/runs/
 
     # exp1 (part of experiment that is comparing unmasking only)
-    # steps = [i for i in range(0, 180_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [1, 4]]
-    # conditions = ['corpora', 'leave_unmasked_prob']
+    steps = [i for i in range(0, 400_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in [27]]
+    conditions = ['corpora', 'leave_unmasked_prob']
     # exp2
     # steps = [i for i in range(0, 180_000, 20_000)]
     # param_names = [f'param_{i:03}' for i in [1, 2, 3]]
