@@ -89,22 +89,22 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
                                 ) -> List[Tuple[str, str]]:
     phenomena = [
         # 4
-        # 'agreement_subject_verb',
-        # # 2
-        # 'agreement_demonstrative_subject',
-        # 'filler-gap',
-        # 'irregular_verb',
-        # 'island-effects',
-        # 'quantifiers',
-        'npi_licensing',  # TODO
+        'agreement_subject_verb',
+        # 2
+        'agreement_demonstrative_subject',
+        'filler-gap',
+        'irregular',
+        'island-effects',
+        'quantifiers',
+        'npi_licensing',
         # 3
-        # 'argument_structure',
+        'argument_structure',
         # 1
-        'anaphor_agreement',  # TODO
-        # 'ellipsis',
-        # 'binding',
-        # 'case',  # not in BLiMP
-        # 'local_attractor',  # not in BLiMP
+        'anaphor_agreement',
+        'ellipsis',
+        'binding',
+        'case',  # not in BLiMP
+        'local_attractor',  # not in BLiMP
     ]
 
     if not excluded_paradigms:
@@ -192,9 +192,9 @@ def get_legend_label(group_name,
         res += ' | ' + group_name
 
     # shorten and make more readable
-    res = res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.0', 'no unmasking')
-    res = res.replace('leave_unmasked_prob_start=0.1 leave_unmasked_prob=0.1', 'standard unmasking')
-    res = res.replace('leave_unmasked_prob_start=0.0 leave_unmasked_prob=0.1', 'unmasking curriculum')
+    res = res.replace('leave_unmasked_prob_start=0.0 | leave_unmasked_prob=0.0', 'no unmasking')
+    res = res.replace('leave_unmasked_prob_start=0.1 | leave_unmasked_prob=0.1', 'standard unmasking')
+    res = res.replace('leave_unmasked_prob_start=0.0 | leave_unmasked_prob=0.1', 'unmasking curriculum')
 
     res = res.replace("corpora=('wikipedia1', 'wikipedia2', 'wikipedia3')", 'Wiki-1 + Wiki-2 + Wiki-3')
     res = res.replace("corpora=('aochildes', 'aonewsela', 'wikipedia3')", 'AO-CHILDES + AO-Newsela + Wiki-3')

@@ -470,7 +470,7 @@ class VisualizerBars(VisualizerBase):
 
     def _plot_legend(self,
                      fig: Optional[plt.Figure] = None,
-                     offset_from_bottom: float = 0.11,
+                     offset_from_bottom: float = 0.20,
                      ):
 
         if fig is None:

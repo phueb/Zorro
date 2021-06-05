@@ -40,12 +40,13 @@ class Eval:
         'existential_there_2',  # too difficult
         'across_2_adjectives',  # very similar performance to across_1_adjective
         'possessive_pronoun',  # sometimes both sentences are grammatical
+        'verb_in_passive_voice',  # not in BLiMP and redundant with other "irregular" paradigm
     ]
     local_runs = False  # use model output stored locally in Zorro/runs/
 
     # exp1 (part of experiment that is comparing unmasking only)
     steps = [i for i in range(0, 400_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [27]]
+    param_names = [f'param_{i:03}' for i in [28, 32]]
     conditions = ['corpora', 'leave_unmasked_prob']
     # exp2
     # steps = [i for i in range(0, 180_000, 20_000)]
