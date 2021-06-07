@@ -93,13 +93,13 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
         # 2
         'agreement_demonstrative_subject',
         'filler-gap',
-        'irregular',
         'island-effects',
         'quantifiers',
         'npi_licensing',
         # 3
         'argument_structure',
         # 1
+        'irregular',
         'anaphor_agreement',
         'ellipsis',
         'binding',

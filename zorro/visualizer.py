@@ -13,6 +13,10 @@ from zorro.scoring import count_correct_choices
 from zorro.utils import get_reps, shorten_tick_labels, get_legend_label
 
 
+MULTI_AXIS_LEG_OFFSET = 0.11
+SUMMARY_LEG_OFFSET = 0.42
+
+
 def shorten(name: str):
     """make name of phenomenon shorter to fit in figure"""
     name = name.replace('demonstrative', 'det.')
@@ -65,7 +69,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 show_partial_figure: bool = True,
+                 show_partial_figure: bool = False,
                  confidence: float = 0.90,
                  ):
 
@@ -198,7 +202,7 @@ class VisualizerLines(VisualizerBase):
 
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
-            self._plot_legend()
+            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET)
             self.fig.show()
 
         if self.show_partial_figure:
@@ -217,7 +221,7 @@ class VisualizerLines(VisualizerBase):
         fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
         self._plot_summary_on_axis(ax1, label_y_axis=True)
         ax2.axis('off')
-        self._plot_legend(fig_standalone, offset_from_bottom=0.33)
+        self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET, fig=fig_standalone)
         fig_standalone.show()
 
     def _plot_summary_on_axis(self, ax: plt.axis,
@@ -286,8 +290,8 @@ class VisualizerLines(VisualizerBase):
             ax.axis('off')
 
     def _plot_legend(self,
+                     offset_from_bottom: float,
                      fig: Optional[plt.Figure] = None,
-                     offset_from_bottom: float = 0.11,
                      ):
 
         if fig is None:
@@ -379,7 +383,7 @@ class VisualizerBars(VisualizerBase):
 
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
-            self._plot_legend()
+            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET)
 
         if self.show_partial_figure:
             self.fig.tight_layout()
@@ -398,7 +402,7 @@ class VisualizerBars(VisualizerBase):
         self._plot_summary_on_axis(ax1, label_y_axis=True)
         ax2.axis('off')
         fig_standalone.subplots_adjust(top=0.1, bottom=0.01)
-        self._plot_legend(fig_standalone, offset_from_bottom=0.5)
+        self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET, fig=fig_standalone)
         fig_standalone.show()
 
     def _plot_summary_on_axis(self,
@@ -469,8 +473,8 @@ class VisualizerBars(VisualizerBase):
             ax.axis('off')
 
     def _plot_legend(self,
+                     offset_from_bottom: float,
                      fig: Optional[plt.Figure] = None,
-                     offset_from_bottom: float = 0.20,
                      ):
 
         if fig is None:
