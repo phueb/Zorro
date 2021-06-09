@@ -48,8 +48,8 @@ class ParadigmDataBars:
     phenomenon: str
     paradigm: str
     group_name2model_output_paths: Dict[str, List[Path]]
-    group_name2template2acc: Dict[str, Dict[str, List[float]]]  # grouped by template
-    group_name2rep2acc: Dict[str, Dict[int, List[float]]]  # grouped by replication
+    group_name2template2acc: Dict[str, Dict[str, float]]  # grouped by template
+    group_name2rep2acc: Dict[str, Dict[int, float]]  # grouped by replication
 
     # init=False
     labels: List[str] = field(init=False)
@@ -69,7 +69,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 show_partial_figure: bool = False,
+                 show_partial_figure: bool = True,
                  confidence: float = 0.90,
                  ):
 
@@ -133,7 +133,7 @@ class VisualizerLines(VisualizerBase):
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
         self.paradigm2roberta_base_accuracy = {}
-        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_160GB' / '0' / 'saves' / 'forced_choice' / '8192'
+        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_30B' / '0' / 'saves' / 'forced_choice' / '8192'
         for phenomenon, paradigm in self.phenomena_paradigms:
             model_output_path = base_path / f'probing_{phenomenon}-{paradigm}_results_500000.txt'
             data = DataExperimental(model_output_path, phenomenon, paradigm)
@@ -217,6 +217,10 @@ class VisualizerLines(VisualizerBase):
         self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0)
         self.fig.show()
 
+        # remove axis decoration from any remaining axis
+        for ax_id, ax in self.axes:
+            ax.axis('off')
+
         # also plot summary in standalone figure
         fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
         self._plot_summary_on_axis(ax1, label_y_axis=True)
@@ -285,10 +289,6 @@ class VisualizerLines(VisualizerBase):
             h = sem(curves, axis=0) * t.ppf((1 + self.confidence) / 2, n - 1)  # margin of error
             ax.fill_between(x, y + h, y - h, alpha=0.2, color=color)
 
-        # remove axis decoration from any remaining axis
-        for ax_id, ax in self.axes:
-            ax.axis('off')
-
     def _plot_legend(self,
                      offset_from_bottom: float,
                      fig: Optional[plt.Figure] = None,
@@ -299,7 +299,7 @@ class VisualizerLines(VisualizerBase):
 
         labels = self.pds[-1].labels
         legend_elements = [Line2D([0], [0], color=f'C{n}', label=label) for n, label in enumerate(labels)]
-        legend_elements.append(Line2D([0], [0], label='RoBERTa-base', **self.ax_kwargs_roberta_base))
+        legend_elements.append(Line2D([0], [0], label='RoBERTa-base pre-trained by Liu et al. 2019', **self.ax_kwargs_roberta_base))
         legend_elements.append(Line2D([0], [0], label='frequency baseline', **self.ax_kwargs_baseline))
 
         for ax in self.axes_for_legend:
@@ -365,7 +365,7 @@ class VisualizerBars(VisualizerBase):
         # plot
         for edge, color, group_name in zip(edges, colors, group_names):
             rep2acc = pd.group_name2rep2acc[group_name]
-            accuracies = [acc for acc in rep2acc.values()]
+            accuracies = [rep2acc[rep] for rep in rep2acc]
             y = np.mean(accuracies, axis=0)  # take average across reps
 
             # margin of error
@@ -397,9 +397,13 @@ class VisualizerBars(VisualizerBase):
         self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0)
         self.fig.show()
 
-        # also plot summary in standalone figure
+        # remove axis decoration from any remaining axis
+        for ax_id, ax in self.axes:
+            ax.axis('off')
+
+        # also plot boxplot summary in standalone figure
         fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
-        self._plot_summary_on_axis(ax1, label_y_axis=True)
+        self._plot_boxplot_summary_on_axis(ax1)
         ax2.axis('off')
         fig_standalone.subplots_adjust(top=0.1, bottom=0.01)
         self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET, fig=fig_standalone)
@@ -465,12 +469,68 @@ class VisualizerBars(VisualizerBase):
                    zorder=3,
                    )
 
-            # print average performance by group
-            print(f'{group_name:<96} y={y:.2f}')
+    def _plot_boxplot_summary_on_axis(self,
+                              ax: plt.axis,
+                              ):
+        """used to plot summary on multi-axis figure, or in standalone figure"""
 
-        # remove axis decoration from any remaining axis
-        for ax_id, ax in self.axes:
-            ax.axis('off')
+        # axis
+        ax.spines['right'].set_visible(False)
+        ax.spines['left'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.set_xlim([0.0, 1.0])
+
+        # x axis
+        x_ticks = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        ax.set_xlabel('Average Accuracy', fontsize=configs.Figs.ax_font_size)
+        ax.set_xticks(x_ticks)
+        ax.set_xticklabels(x_ticks, fontsize=configs.Figs.tick_font_size)
+
+        # collect last_accuracy for each replication across all paradigms
+        gn2rep2accuracies_by_pd = defaultdict(dict)
+        for pd in self.pds:
+            for gn, rep2acc in pd.group_name2rep2acc.items():
+                for rep, acc in rep2acc.items():
+                    gn2rep2accuracies_by_pd[gn].setdefault(rep, []).append(acc)
+        group_names = [gn for gn in gn2rep2accuracies_by_pd]
+
+        # print average performance by group
+        for group_name in group_names:
+            rep2accuracies_by_pd = gn2rep2accuracies_by_pd[group_name]
+
+            # average across paradigms
+            rep2acc_avg_across_pds = {rep: np.array(accuracies_by_pd).mean(axis=0)
+                                      for rep, accuracies_by_pd in rep2accuracies_by_pd.items()}
+            accuracies = np.array([rep2acc_avg_across_pds[rep] for rep in rep2acc_avg_across_pds])  # one for each rep
+            y = accuracies.mean()
+            print(f'{group_name:<96} y={y:.3f}')
+
+        # chance level
+        ax.axvline(x=0.5, linestyle='dotted', color='grey')
+
+        # boxplot
+        boxplot_data = []
+        for group_name in group_names:
+            rep2accuracies_by_pd = gn2rep2accuracies_by_pd[group_name]
+            accuracies_by_pd_by_rep = np.array([rep2accuracies_by_pd[rep] for rep in rep2accuracies_by_pd])
+            data_for_one_group = accuracies_by_pd_by_rep.mean(axis=0)
+            boxplot_data.append(data_for_one_group)
+        box_plot = ax.boxplot(boxplot_data,
+                              vert=False,
+                              patch_artist=True,
+                              medianprops={'color': 'black'},
+                              flierprops={'markersize': 2},
+                              )
+
+        # color
+        num_groups = len(group_names)
+        colors = [f'C{i}' for i in range(num_groups)]
+        for patch, color in zip(box_plot['boxes'], colors):
+            patch.set_facecolor(color)
+
+        # y-axis
+        ax.set_yticks([])
+        ax.set_yticklabels([])
 
     def _plot_legend(self,
                      offset_from_bottom: float,

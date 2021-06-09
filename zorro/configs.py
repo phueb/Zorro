@@ -46,24 +46,26 @@ class Eval:
 
     # exp1 (part of experiment that is comparing unmasking only)
     # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [28, ]]
+    # param_names = [f'param_{i:03}' for i in [28, 35]]
     # conditions = ['corpora', 'leave_unmasked_prob']
+
     # exp2
-    steps = [i for i in range(0, 280_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [28, 33, 34]]
-    conditions = ['corpora', ]
+    # steps = [i for i in range(0, 280_000, 20_000)]
+    # param_names = [f'param_{i:03}' for i in [28, 33, 34]]
+    # conditions = ['corpora', ]
+
     # exp3
     # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [11, 13]]
+    # param_names = [f'param_{i:03}' for i in [36, 37]]
     # conditions = ['corpora', 'load_from_checkpoint']
-    # # exp4a
-    # steps = [i for i in range(0, 500_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [20, 21, 22]]
-    # conditions = ['leave_unmasked_prob_start', 'leave_unmasked_prob']
-    # # exp4b
-    # steps = [i for i in range(0, 500_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [23, 24]]
-    # conditions = ['corpora']
+
+    # exp4a
+
+
+    # exp4b
+    steps = [i for i in range(0, 300_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in [38, 39]]
+    conditions = ['corpora']
 
 
 class Figs:

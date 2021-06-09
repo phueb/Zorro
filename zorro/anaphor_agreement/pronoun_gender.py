@@ -87,8 +87,10 @@ def main():
         # random choices
         slot2filler = {
             'aux': random.choice(auxiliaries),
-            'nn_m': random.choice([name for name in names if name in names_m]),
-            'nn_f': random.choice([name for name in names if name in names_f]),
+            'nn_m': random.choice([name for name in names if name in names_m] +
+                                  ['he', 'the man', 'a man', 'that man']),
+            'nn_f': random.choice([name for name in names if name in names_f] +
+                                  ['she', 'the woman', 'a woman', 'that woman']),
         }
 
         # sample argument once, so that the same argument is used by both bad and good sentences.

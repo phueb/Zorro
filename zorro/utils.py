@@ -89,22 +89,22 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
                                 ) -> List[Tuple[str, str]]:
     phenomena = [
         # 4
-        'agreement_subject_verb',
-        # 2
-        'agreement_demonstrative_subject',
-        'filler-gap',
-        'island-effects',
-        'quantifiers',
-        'npi_licensing',
-        # 3
-        'argument_structure',
-        # 1
-        'irregular',
+        # 'agreement_subject_verb',
+        # # 2
+        # 'agreement_demonstrative_subject',
+        # 'filler-gap',
+        # 'island-effects',
+        # 'quantifiers',
+        # 'npi_licensing',
+        # # 3
+        # 'argument_structure',
+        # # 1
+        # 'irregular',
         'anaphor_agreement',
-        'ellipsis',
-        'binding',
-        'case',  # not in BLiMP
-        'local_attractor',  # not in BLiMP
+        # 'ellipsis',
+        # 'binding',
+        # 'case',  # not in BLiMP
+        # 'local_attractor',  # not in BLiMP
     ]
 
     if not excluded_paradigms:
@@ -164,7 +164,8 @@ def get_legend_label(group_name,
         conditions = ['data_size']
 
     # init label
-    res = f'{model_name} | n={reps} '
+    # res = f'{model_name} | n={reps} '
+    res = f'{model_name} '
 
     # add corpora info
     if model_name == 'RoBERTa-base':
@@ -172,13 +173,13 @@ def get_legend_label(group_name,
             res += '| Warstadt et al., 2020 '
         elif param2val['data_size'] == '5M':
             res += '| AO-CHILDES '
-        elif param2val['data_size'] == '160GB':
+        elif param2val['data_size'] == '30B':
             res += '| Liu et al., 2019 '
 
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
             param2val_previous = load_param2val(param2val[c], runs_path)
-            res += f'previously trained on {param2val_previous["corpora"]} '
+            res += f'| previously trained on {param2val_previous["corpora"]} '
             continue
         try:
             val = param2val[c]
@@ -196,6 +197,9 @@ def get_legend_label(group_name,
     res = res.replace('leave_unmasked_prob_start=0.1 | leave_unmasked_prob=0.1', 'standard unmasking')
     res = res.replace('leave_unmasked_prob_start=0.0 | leave_unmasked_prob=0.1', 'unmasking curriculum')
 
+    res = res.replace('leave_unmasked_prob=0.0', 'no unmasking')
+    res = res.replace('leave_unmasked_prob=0.1', 'standard unmasking')
+
     res = res.replace("corpora=('wikipedia1', 'wikipedia2', 'wikipedia3')", 'Wiki-1 + Wiki-2 + Wiki-3')
     res = res.replace("corpora=('aochildes', 'aonewsela', 'wikipedia3')", 'AO-CHILDES + AO-Newsela + Wiki-3')
 
@@ -206,6 +210,8 @@ def get_legend_label(group_name,
     res = res.replace("('aochildes',)", 'AO-CHILDES')
     res = res.replace("('aonewsela',)", 'AO-Newsela')
     res = res.replace("('wikipedia1',)", 'Wikipedia-1')
+
+    res = res.replace("data_size", 'words in data')
 
     return res
 
