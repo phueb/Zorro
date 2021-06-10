@@ -2,7 +2,7 @@
  <img src="images/logo.png" width="250"> 
 </div>
 
-Generate test sentences and and evaluate grammatical knowledge of language models.
+Generate test sentences and and evaluate grammatical knowledge of masked language models.
 
 ## About
 
@@ -12,12 +12,19 @@ Inspired by [BLiMP](https://arxiv.org/pdf/1912.00582.pdf),
 
 Sentences are created using templates, filled with words from custom, human-curated word lists. 
 There are 4 phenomena, each consisting of a set of paradigms:
-1. subject-verb agreement: across 0, 1, or 2 adjectives
-2. demonstrative-subject agreement: across prepositional phrase, or relative clause; in 1 or 2 verb question
-3. irregular verb: active voice, passive voice
-4. quantifiers: existential there, superlative
-5. filler-gap: wh-question object, or subject
-5. island-effects: adjunct, coordinate_structure_constraint
+1. determiner-subject agreement: across prepositional phrase, or relative clause; in 1 or 2 verb question
+2. subject-verb agreement: across 0, 1, or 2 adjectives
+3. anaphor agreement: gender
+4. argument structure: dropped arguments, swapped arguments, transitive
+5. binding: principle A
+6. case: subjective pronoun  (not in BLiMP)
+7. ellipsis: N-bar
+8. filler-gap: wh-question object, or subject
+9. irregular: verb
+10. island-effects: adjunct, coordinate_structure_constraint 
+11. local attractor: in question with auxiliary (not in BLiMP)
+12. NPI licensing: "only" licensor
+13. quantifiers: existential there, superlative
 
 
 ## How words were chosen
@@ -49,5 +56,9 @@ The grammatical correctness of each sentence is determined by its position in th
 
 To score predictions made by your models:
 
-1. score forced-choice predictions using `scripts/plot_accuracy.py`
+Use `scripts/plot_accuracy_single_time_point.py` or `scripts/plot_accuracy_curve.py`. 
+These scripts must be pointed to text files containing sentences alongside their cross-entropy scores, 
+each separated by a new line. Ordering of sentences does not matter - 
+whether a sentence is grammatical or not is decided by matching the sentence to its order in the original file in `sentences/`.
+ 
 

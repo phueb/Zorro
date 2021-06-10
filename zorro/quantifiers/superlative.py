@@ -16,7 +16,8 @@ def main():
 
     nouns_s_and_p = get_legal_words(tag='NN', second_tag='NNP')
     number_words_ = (configs.Dirs.legal_words / "number_words.txt").open().read().split()
-    number_words = find_counterbalanced_subset(number_words_, min_size=6, max_size=len(number_words_))
+    number_words_.remove('one')
+    number_words = find_counterbalanced_subset(number_words_,min_size=6, max_size=len(number_words_))
 
     quantifiers_g_b = [('more than', 'at least'),
                        ('fewer than', 'at most'),

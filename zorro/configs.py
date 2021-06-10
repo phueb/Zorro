@@ -50,9 +50,9 @@ class Eval:
     # conditions = ['corpora', 'leave_unmasked_prob']
 
     # exp2
-    # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [28, 33, 34]]
-    # conditions = ['corpora', ]
+    steps = [i for i in range(0, 280_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in [6, 7, 8]]
+    conditions = ['corpora', ]
 
     # exp3
     # steps = [i for i in range(0, 280_000, 20_000)]
@@ -63,9 +63,9 @@ class Eval:
 
 
     # exp4b
-    steps = [i for i in range(0, 900_000, 20_000)]  # data goes to step 960K
-    param_names = [f'param_{i:03}' for i in [4, 5]]
-    conditions = ['corpora']
+    # steps = [i for i in range(0, 900_000, 20_000)]  # data goes to step 960K
+    # param_names = [f'param_{i:03}' for i in [4, 5]]
+    # conditions = ['corpora']
 
 
 class Figs:

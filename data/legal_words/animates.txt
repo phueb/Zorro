@@ -44,9 +44,6 @@ government
 ship
 jet
 crew
-crew
-vehicle
-van
 court
 colony
 infantry
