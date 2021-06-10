@@ -133,10 +133,13 @@ def filter_by_step(model_output_path: Path,
     return False
 
 
-def shorten_tick_labels(labels: List[Union[str,int]],
-                        ) -> List[str]:
-    return [str(label)[:-3] + 'K' if str(label).endswith('000') else label
-            for label in labels]
+def shorten_tick_label(label: Union[str, int],
+                       ) -> str:
+    if str(label).endswith('000'):
+        return str(label)[:-3] + 'K'
+    else:
+        return label
+
 
 
 def get_legend_label(group_name,

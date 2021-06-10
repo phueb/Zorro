@@ -10,7 +10,7 @@ from collections import defaultdict
 from zorro import configs
 from zorro.data import DataExperimental, DataBaseline
 from zorro.scoring import count_correct_choices
-from zorro.utils import get_reps, shorten_tick_labels, get_legend_label
+from zorro.utils import get_reps, shorten_tick_label, get_legend_label
 
 
 MULTI_AXIS_LEG_OFFSET = 0.11
@@ -111,7 +111,6 @@ class VisualizerBase:
 
 class VisualizerLines(VisualizerBase):
     def __init__(self,
-                 label_last_x_tick_only: bool = True,
                  line_width: int = 1,
                  **kwargs
                  ):
@@ -125,10 +124,7 @@ class VisualizerLines(VisualizerBase):
 
         self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
 
-        if label_last_x_tick_only:
-            self.x_tick_labels = ['' if xi != self.x_ticks[-1] else xi for xi in self.x_ticks]
-        else:
-            self.x_tick_labels = self.x_ticks
+        self.last_step = configs.Eval.steps[-1]
 
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
@@ -171,8 +167,8 @@ class VisualizerLines(VisualizerBase):
         # x-axis
         if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
             ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
-            ax.set_xticks([])
-            ax.set_xticklabels(shorten_tick_labels(self.x_tick_labels), fontsize=configs.Figs.tick_font_size)
+            ax.set_xticks([self.last_step])
+            ax.set_xticklabels([shorten_tick_label(self.last_step)], fontsize=configs.Figs.tick_font_size)
         # axis
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
@@ -241,8 +237,8 @@ class VisualizerLines(VisualizerBase):
         ax.set_ylim(self.y_lims)
 
         # x-axis
-        ax.set_xticks([])
-        ax.set_xticklabels(shorten_tick_labels(self.x_tick_labels), fontsize=configs.Figs.tick_font_size)
+        ax.set_xticks([self.last_step])
+        ax.set_xticklabels([shorten_tick_label(self.last_step)], fontsize=configs.Figs.tick_font_size)
         ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
 
         # y axis
