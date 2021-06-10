@@ -63,8 +63,8 @@ class Eval:
 
 
     # exp4b
-    steps = [i for i in range(0, 300_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [38, 39]]
+    steps = [i for i in range(0, 900_000, 20_000)]  # data goes to step 960K
+    param_names = [f'param_{i:03}' for i in [4, 5]]
     conditions = ['corpora']
 
 

@@ -9,9 +9,17 @@ from zorro.visualizer import VisualizerBars, ParadigmDataBars
 from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms
 from zorro.io import get_group2model_output_paths
 
+
+STEP = '900000'
+LOCAL = False
+
 # get files locally, where we have runs at single time points only
-runs_path = configs.Dirs.runs_local
-configs.Eval.local_runs = True
+if LOCAL:
+    runs_path = configs.Dirs.runs_local
+    configs.Eval.local_runs = True
+else:
+    runs_path = configs.Dirs.runs_remote
+    configs.Eval.local_runs = False
 
 group_names = sorted([p.name for p in runs_path.glob('*')])
 print(f'Found {group_names}')
@@ -23,13 +31,16 @@ phenomena_paradigms = get_phenomena_and_paradigms()
 v = VisualizerBars(phenomena_paradigms=phenomena_paradigms)
 
 # for all paradigms
-for phenomenon, paradigm in phenomena_paradigms:
+for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
+    print(f'Scoring and plotting results for phenomenon={phenomenon:<36} paradigm={paradigm:<36} '
+          f'{n + 1:>2}/{len(phenomena_paradigms)}')
 
     # load model output at all available steps
     group_name2model_output_paths = get_group2model_output_paths(group_names,
                                                                  runs_path,
                                                                  phenomenon,
                                                                  paradigm,
+                                                                 step=STEP,
                                                                  )
 
     # init data

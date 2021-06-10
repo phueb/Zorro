@@ -8,6 +8,7 @@ def get_group2model_output_paths(group_names: List[str],
                                  runs_path: Path,
                                  phenomenon: str,
                                  paradigm: str,
+                                 step: str = '*',
                                  ) -> Dict[str, List[Path]]:
     """load files containing the cross entropies assigned to each sentence in the paradigm, for all models and steps"""
 
@@ -16,14 +17,14 @@ def get_group2model_output_paths(group_names: List[str],
     # find paths to files, for each group
     res = {}
     for group_name in group_names:
-        pattern = '{}/**/saves/forced_choice/**/probing_{}_results_*.txt'
-        model_output_paths = [p for p in runs_path.rglob(pattern.format(group_name, fn))]
+        pattern = f'{group_name}/**/saves/forced_choice/**/probing_{fn}_results_{step}.txt'
+        model_output_paths = [p for p in runs_path.rglob(pattern)]
 
         if not model_output_paths:
             raise FileNotFoundError(f'Did not find model output'
                                     f' for group={group_name}'
                                     f' and vocab size={configs.Data.vocab_size}'
-                                    f' and pattern=probing_{fn}_results_*.txt')
+                                    f' and pattern=probing_{fn}_results_{step}.txt')
         else:
             res[group_name] = model_output_paths
 

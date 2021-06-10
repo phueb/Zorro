@@ -171,7 +171,7 @@ class VisualizerLines(VisualizerBase):
         # x-axis
         if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
             ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
-            ax.set_xticks(self.x_ticks)
+            ax.set_xticks([])
             ax.set_xticklabels(shorten_tick_labels(self.x_tick_labels), fontsize=configs.Figs.tick_font_size)
         # axis
         ax.spines['right'].set_visible(False)
@@ -241,7 +241,7 @@ class VisualizerLines(VisualizerBase):
         ax.set_ylim(self.y_lims)
 
         # x-axis
-        ax.set_xticks(self.x_ticks)
+        ax.set_xticks([])
         ax.set_xticklabels(shorten_tick_labels(self.x_tick_labels), fontsize=configs.Figs.tick_font_size)
         ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
 

@@ -89,22 +89,22 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
                                 ) -> List[Tuple[str, str]]:
     phenomena = [
         # 4
-        # 'agreement_subject_verb',
-        # # 2
-        # 'agreement_demonstrative_subject',
-        # 'filler-gap',
-        # 'island-effects',
-        # 'quantifiers',
-        # 'npi_licensing',
-        # # 3
-        # 'argument_structure',
-        # # 1
-        # 'irregular',
+        'agreement_subject_verb',
+        # 2
+        'agreement_demonstrative_subject',
+        'filler-gap',
+        'island-effects',
+        'quantifiers',
+        'npi_licensing',
+        # 3
+        'argument_structure',
+        # 1
+        'irregular',
         'anaphor_agreement',
-        # 'ellipsis',
-        # 'binding',
-        # 'case',  # not in BLiMP
-        # 'local_attractor',  # not in BLiMP
+        'ellipsis',
+        'binding',
+        'case',  # not in BLiMP
+        'local_attractor',  # not in BLiMP
     ]
 
     if not excluded_paradigms:
