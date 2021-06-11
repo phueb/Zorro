@@ -10,8 +10,8 @@ from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms
 from zorro.io import get_group2model_output_paths
 
 
-STEP = '260000'
-LOCAL = False
+STEP = '*'
+LOCAL = True
 
 # get files locally, where we have runs at single time points only
 if LOCAL:
@@ -21,8 +21,15 @@ else:
     runs_path = configs.Dirs.runs_remote
     configs.Eval.local_runs = False
 
-group_names = sorted([p.name for p in runs_path.glob('*') if p.name in configs.Eval.param_names])
-print(f'Found {group_names}')
+group_names = sorted([p.name for p in runs_path.glob('*')])
+if configs.Eval.param_names:
+    group_names = [gn for gn in group_names if gn in configs.Eval.param_names]
+
+if not group_names:
+    raise RuntimeError(f'Did not find model output files for {configs.Eval.param_names}.'
+                       f' Check configs.Eval.param_names')
+else:
+    print(f'Found {group_names}')
 
 # get list of (phenomenon, paradigm) tuples
 phenomena_paradigms = get_phenomena_and_paradigms()

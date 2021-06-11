@@ -17,6 +17,8 @@ def get_group2model_output_paths(group_names: List[str],
     # find paths to files, for each group
     res = {}
     for group_name in group_names:
+        print(f'Looking for prediction files for {group_name}')
+
         pattern = f'{group_name}/**/saves/forced_choice/**/probing_{fn}_results_{step}.txt'
         model_output_paths = [p for p in runs_path.rglob(pattern)]
 

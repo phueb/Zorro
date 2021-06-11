@@ -13,6 +13,7 @@ from zorro.scoring import count_correct_choices
 from zorro.utils import get_reps, shorten_tick_label, get_legend_label
 
 
+MULTI_AXIS_LEG_NUM_COLS = 2  # 2 or 3 depending on space
 MULTI_AXIS_LEG_OFFSET = 0.11
 SUMMARY_LEG_OFFSET = 0.42
 
@@ -69,7 +70,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 6),
                  dpi: int = 300,
-                 show_partial_figure: bool = True,
+                 show_partial_figure: bool = False,
                  confidence: float = 0.90,
                  ):
 
@@ -198,7 +199,8 @@ class VisualizerLines(VisualizerBase):
 
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
-            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET, ncol=3)
+            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET,
+                              ncol=MULTI_AXIS_LEG_NUM_COLS)
             self.fig.show()
 
         if self.show_partial_figure:
@@ -210,7 +212,7 @@ class VisualizerLines(VisualizerBase):
 
         # get next axis in multi-axis figure and plot summary there
         ax_id, ax = next(self.axes)
-        self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0)
+        self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0, use_title=True)
         self.fig.show()
 
         # remove axis decoration from any remaining axis
@@ -219,18 +221,23 @@ class VisualizerLines(VisualizerBase):
 
         # also plot summary in standalone figure
         fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
-        self._plot_summary_on_axis(ax1, label_y_axis=True)
+        self._plot_summary_on_axis(ax1, label_y_axis=True, use_title=False)
         ax2.axis('off')
         self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET, fig=fig_standalone)
         fig_standalone.show()
 
     def _plot_summary_on_axis(self, ax: plt.axis,
                               label_y_axis: bool,
+                              use_title: bool,
                               ):
         """used to plot summary on multi-axis figure, or in standalone figure"""
 
         # axis
-        ax.set_title('Average', fontsize=configs.Figs.title_font_size)
+        if use_title:
+            ax.set_title('Average', fontsize=configs.Figs.title_font_size)
+            y_axis_label = self.y_axis_label
+        else:
+            y_axis_label = f'Average {self.y_axis_label}'
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
         ax.spines['top'].set_visible(False)
@@ -243,7 +250,7 @@ class VisualizerLines(VisualizerBase):
 
         # y axis
         if label_y_axis:
-            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
+            ax.set_ylabel(y_axis_label, fontsize=configs.Figs.ax_font_size)
             ax.set_yticks(self.y_ticks)
             ax.set_yticklabels(self.y_ticks, fontsize=configs.Figs.tick_font_size)
         else:
@@ -391,7 +398,7 @@ class VisualizerBars(VisualizerBase):
 
         # get next axis in multi-axis figure and plot summary there
         ax_id, ax = next(self.axes)
-        self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0)
+        self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0, use_title=True)
         self.fig.show()
 
         # remove axis decoration from any remaining axis
@@ -409,11 +416,16 @@ class VisualizerBars(VisualizerBase):
     def _plot_summary_on_axis(self,
                               ax: plt.axis,
                               label_y_axis: bool,
+                              use_title: bool,
                               ):
         """used to plot summary on multi-axis figure, or in standalone figure"""
 
         # axis
-        ax.set_title('Average', fontsize=configs.Figs.title_font_size)
+        if use_title:
+            ax.set_title('Average', fontsize=configs.Figs.title_font_size)
+            y_axis_label = self.y_axis_label
+        else:
+            y_axis_label = f'Average {self.y_axis_label}'
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
         ax.set_ylim(self.y_lims)
@@ -423,7 +435,7 @@ class VisualizerBars(VisualizerBase):
         ax.set_xticklabels([])
         # y axis
         if label_y_axis:
-            ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
+            ax.set_ylabel(y_axis_label, fontsize=configs.Figs.ax_font_size)
             ax.set_yticks(self.y_ticks)
             ax.set_yticklabels(self.y_ticks, fontsize=configs.Figs.tick_font_size)
         else:

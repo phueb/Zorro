@@ -55,6 +55,10 @@ def prepare_data_for_plotting(gn2model_output_paths: Dict[str, List[Path]],
 
     for group_name in group_names:
 
+        print('**************************')
+        print(group_name)
+        print('**************************')
+
         # read model output into instance of DataExperimental
         output_paths = gn2model_output_paths[group_name]
         if not output_paths:
@@ -180,7 +184,7 @@ def get_legend_label(group_name,
 
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
-            param2val_previous = load_param2val(param2val[c], runs_path)
+            param2val_previous = load_param2val(param2val[c], runs_path.parent / 'runs_saved')
             res += f'| previously trained on {param2val_previous["corpora"]} '
             continue
         try:

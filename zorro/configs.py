@@ -46,17 +46,17 @@ class Eval:
 
     # exp1 (part of experiment that is comparing unmasking only)
     # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [28, 35]]
+    # param_names = []  # [f'param_{i:03}' for i in [28, 35]]
     # conditions = ['corpora', 'leave_unmasked_prob']
 
     # exp2
     steps = [i for i in range(0, 280_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [6, 7, 8]]
+    param_names = [f'param_{i:03}' for i in [1, 2, 3]]
     conditions = ['corpora', ]
 
     # exp3
     # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [36, 37]]
+    # param_names = [f'param_{i:03}' for i in [1, 2]]
     # conditions = ['corpora', 'load_from_checkpoint']
 
     # exp4a
