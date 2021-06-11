@@ -198,7 +198,7 @@ class VisualizerLines(VisualizerBase):
 
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
-            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET)
+            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET, ncol=3)
             self.fig.show()
 
         if self.show_partial_figure:
@@ -288,6 +288,7 @@ class VisualizerLines(VisualizerBase):
     def _plot_legend(self,
                      offset_from_bottom: float,
                      fig: Optional[plt.Figure] = None,
+                     ncol: int = 1,
                      ):
 
         if fig is None:
@@ -305,7 +306,7 @@ class VisualizerLines(VisualizerBase):
         fig.legend(handles=legend_elements,
                    loc='upper center',
                    bbox_to_anchor=(0.5, offset_from_bottom),
-                   ncol=1,
+                   ncol=ncol,
                    frameon=False,
                    fontsize=configs.Figs.leg_font_size)
 

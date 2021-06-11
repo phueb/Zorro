@@ -38,22 +38,18 @@ def main():
     names = find_counterbalanced_subset(names_, min_size=10, max_size=len(names_))
 
     def add_preposition_after_vb(v: str):
-        if v == 'related':
-            return 'related to'
-        elif v == 'acting':
-            return 'acting like'
-        elif v == 'work':
-            return 'work with'
-        elif v == 'sleeping':
-            return 'sleeping in'
-        elif v == 'standing':
-            return 'standing on'
-        elif v == 'falling':
-            return 'falling on'
-        elif v == 'asking':
-            return 'asking about'
-        elif v == 'swimming':
-            return 'swimming in'
+        if v in {'acting', 'act'}:
+            return f'{v} like'
+        elif v in {'standing', 'stand', 'falling', 'fall', 'depending', 'depend'}:
+            return f'{v} on'
+        elif v in {'asking', 'ask', 'writing', 'write', 'thinking', 'think'}:
+            return f'{v} about'
+        elif v in {'swimming', 'swim', 'sleeping', 'sleep'}:
+            return f'{v} in'
+        elif v in {'driving', 'drive', 'coming', 'come', 'related', 'relate'}:
+            return f'{v} to'
+        elif v in {'flying', 'fly', 'working', 'work'}:
+            return f'{v} with'
         else:
             return v
 

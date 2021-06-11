@@ -16,7 +16,6 @@ def main():
 
     nouns_s_and_p = get_legal_words(tag='NN', second_tag='NNP')
     number_words_ = (configs.Dirs.legal_words / "number_words.txt").open().read().split()
-    number_words_.remove('one')
     number_words = find_counterbalanced_subset(number_words_,min_size=6, max_size=len(number_words_))
 
     quantifiers_g_b = [('more than', 'at least'),
@@ -64,7 +63,7 @@ def main():
 
         # random choices
         animate = random.choice(animates)
-        _, noun_p = random.choice(nouns_s_and_p)
+        noun_s, noun_p = random.choice(nouns_s_and_p)
         number_word = random.choice(number_words)
         quantifier_g, quantifier_b = random.choice(quantifiers_g_b)
         verb = random.choice(verbs)
@@ -74,8 +73,13 @@ def main():
         if verb2linker[verb] is not None:
             verb_and_optional_linker += ' ' + verb2linker[verb]
 
-        yield template1.format(animate, aux, verb_and_optional_linker, quantifier_b, number_word, noun_p)  # bad
-        yield template1.format(animate, aux, verb_and_optional_linker, quantifier_g, number_word, noun_p)  # good
+        if number_word == 'one':
+            noun = noun_s
+        else:
+            noun = noun_p
+
+        yield template1.format(animate, aux, verb_and_optional_linker, quantifier_b, number_word, noun)  # bad
+        yield template1.format(animate, aux, verb_and_optional_linker, quantifier_g, number_word, noun)  # good
 
 
 if __name__ == '__main__':

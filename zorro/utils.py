@@ -118,9 +118,8 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
             raise OSError(f'{phenomenon_path} does not exist')
         for p in phenomenon_path.glob('*.py'):
             paradigm = p.stem
-            if paradigm in excluded_paradigms:
-                continue
-            res.append((phenomenon, paradigm))
+            if paradigm not in excluded_paradigms:
+                res.append((phenomenon, paradigm))
 
     return res
 
