@@ -1,7 +1,8 @@
 """
-compare last or best accuracy between models
+compare accuracy between models saved in local or remote runs folder, at one time step.
 """
 from collections import defaultdict
+from typing import List
 import numpy as np
 
 from zorro import configs
@@ -12,6 +13,9 @@ from zorro.io import get_group2model_output_paths
 
 STEP = '*'
 LOCAL = True
+GROUP_NAMES: List[str] = []
+configs.Eval.conditions = ['leave_unmasked_prob']
+
 
 # get files locally, where we have runs at single time points only
 if LOCAL:
@@ -22,11 +26,11 @@ else:
     configs.Eval.local_runs = False
 
 group_names = sorted([p.name for p in runs_path.glob('*')])
-if configs.Eval.param_names:
-    group_names = [gn for gn in group_names if gn in configs.Eval.param_names]
+if GROUP_NAMES:
+    group_names = [gn for gn in group_names if gn in GROUP_NAMES]
 
 if not group_names:
-    raise RuntimeError(f'Did not find model output files for {configs.Eval.param_names}.'
+    raise RuntimeError(f'Did not find model output files for {GROUP_NAMES}.'
                        f' Check configs.Eval.param_names')
 else:
     print(f'Found {group_names}')

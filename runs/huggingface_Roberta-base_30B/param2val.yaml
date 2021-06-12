@@ -1,0 +1,4 @@
+data_size: 30B
+framework: huggingface
+model_size: Roberta-base
+corpora: Liu et al., 2019

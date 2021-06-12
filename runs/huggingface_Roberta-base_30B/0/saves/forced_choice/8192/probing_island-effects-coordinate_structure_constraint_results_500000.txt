@@ -1,0 +1,4000 @@
+who must sam turn and the sister ? 1.3149
+who must sam and the sister turn ? 0.2213
+who were sam turn and the sister ? 1.3708
+who were sam and the sister thinking about ? 0.0111
+what did sam turn and the sister ? 0.4972
+what did sam and the sister turn ? 0.4148
+what were sam thinking about and the sister ? 0.8709
+what were sam and the sister thinking about ? 0.0405
+who must joseph tell something and the boat ? 0.0340
+who must joseph and the boat tell something ? 0.1260
+who were joseph tell something and the boat ? 0.1039
+who were joseph and the boat cutting ? 0.5805
+what did joseph tell something and the boat ? 0.4754
+what did joseph and the boat tell something ? 0.3105
+what were joseph cutting and the boat ? 0.0580
+what were joseph and the boat cutting ? 0.1967
+who must sarah have and the slave ? 0.0048
+who must sarah and the slave have ? 0.0140
+who were sarah have and the slave ? 0.4826
+who were sarah and the slave trying ? 0.3343
+what did sarah have and the slave ? 0.0085
+what did sarah and the slave have ? 0.0034
+what were sarah trying and the slave ? 0.0511
+what were sarah and the slave trying ? 0.0365
+who must william present and the pig ? 0.2992
+who must william and the pig present ? 0.0328
+who were william present and the pig ? 0.0830
+who were william and the pig drawing ? 0.0107
+what did william present and the pig ? 0.0605
+what did william and the pig present ? 0.1671
+what were william drawing and the pig ? 0.1269
+what were william and the pig drawing ? 0.0176
+who must chris have and the dinosaur ? 0.0174
+who must chris and the dinosaur have ? 0.0348
+who were chris have and the dinosaur ? 0.2915
+who were chris and the dinosaur fishing ? 0.2256
+what did chris have and the dinosaur ? 0.0257
+what did chris and the dinosaur have ? 0.0118
+what were chris fishing and the dinosaur ? 0.1461
+what were chris and the dinosaur fishing ? 0.3747
+who must joseph present and the sister ? 0.0084
+who must joseph and the sister present ? 0.0083
+who were joseph present and the sister ? 0.0359
+who were joseph and the sister covering ? 0.9859
+what did joseph present and the sister ? 0.1109
+what did joseph and the sister present ? 0.0588
+what were joseph covering and the sister ? 0.8176
+what were joseph and the sister covering ? 0.7855
+what did sarah work for and the slave ? 0.0120
+what did sarah and the slave work for ? 0.0018
+what were sarah saying and the slave ? 0.0058
+what were sarah and the slave saying ? 0.0014
+who must michael have and the dinosaur ? 0.0169
+who must michael and the dinosaur have ? 0.0306
+who were michael have and the dinosaur ? 0.4752
+who were michael and the dinosaur housing ? 0.7064
+what did michael have and the dinosaur ? 0.0206
+what did michael and the dinosaur have ? 0.0092
+what were michael housing and the dinosaur ? 0.5822
+what were michael and the dinosaur housing ? 0.5683
+who must allen keep and the dinosaur ? 0.0452
+who must allen and the dinosaur keep ? 0.1017
+who were allen keep and the dinosaur ? 1.0430
+who were allen and the dinosaur growing ? 0.2716
+what did allen keep and the dinosaur ? 0.0348
+what did allen and the dinosaur keep ? 0.0419
+what were allen growing and the dinosaur ? 0.4820
+what were allen and the dinosaur growing ? 0.2172
+who must robert work for and the boat ? 0.0121
+who must robert and the boat work for ? 0.0055
+who were robert work for and the boat ? 0.0102
+who were robert and the boat housing ? 0.4062
+what did robert work for and the boat ? 0.0100
+what did robert and the boat work for ? 0.0026
+what were robert housing and the boat ? 0.1743
+what were robert and the boat housing ? 0.2284
+who must anne tell something and the sister ? 0.0752
+who must anne and the sister tell something ? 0.0284
+who were anne tell something and the sister ? 0.1304
+who were anne and the sister turning ? 0.7615
+what did anne tell something and the sister ? 0.2400
+what did anne and the sister tell something ? 0.1291
+what were anne turning and the sister ? 1.4301
+what were anne and the sister turning ? 0.4795
+who must chris tell something and the wolf ? 0.0346
+who must chris and the wolf tell something ? 0.1865
+who were chris tell something and the wolf ? 0.1611
+who were chris and the wolf covering ? 0.6186
+what did chris tell something and the wolf ? 0.5387
+what did chris and the wolf tell something ? 0.3214
+what were chris covering and the wolf ? 0.3437
+what were chris and the wolf covering ? 0.3125
+who must robert present and the doctor ? 0.0058
+who must robert and the doctor present ? 0.0184
+who were robert present and the doctor ? 0.0175
+who were robert and the doctor growing ? 0.7891
+what did robert present and the doctor ? 0.0383
+what did robert and the doctor present ? 0.0314
+what were robert growing and the doctor ? 0.7513
+what were robert and the doctor growing ? 0.5009
+who must joseph tell something and the slave ? 0.0142
+who must joseph and the slave tell something ? 0.0609
+who were joseph tell something and the slave ? 0.0675
+who were joseph and the slave sleeping in ? 0.0138
+what did joseph tell something and the slave ? 0.4204
+what did joseph and the slave tell something ? 0.2744
+what were joseph sleeping in and the slave ? 0.0333
+what were joseph and the slave sleeping in ? 0.0263
+who must chris turn and the doctor ? 0.0344
+who must chris and the doctor turn ? 0.0693
+who were chris turn and the doctor ? 0.0018
+who were chris and the doctor cutting ? 0.0169
+what did chris turn and the doctor ? 0.4238
+what did chris and the doctor turn ? 0.3035
+what were chris cutting and the doctor ? 0.0960
+what were chris and the doctor cutting ? 0.0165
+what did anne need and the duke ? 0.1316
+what did anne and the duke need ? 0.0054
+what were anne sleeping in and the duke ? 0.0230
+what were anne and the duke sleeping in ? 0.0267
+who must sarah present and the pig ? 0.0104
+who must sarah and the pig present ? 0.0143
+who were sarah present and the pig ? 0.0246
+who were sarah and the pig running to ? 0.0058
+what did sarah present and the pig ? 0.0679
+what did sarah and the pig present ? 0.2619
+what were sarah running to and the pig ? 0.0032
+what were sarah and the pig running to ? 0.0023
+who must joseph change and the slave ? 0.0027
+who must joseph and the slave change ? 0.0468
+who were joseph change and the slave ? 0.0512
+who were joseph and the slave housing ? 0.4157
+what did joseph change and the slave ? 0.0286
+what did joseph and the slave change ? 0.0179
+what were joseph housing and the slave ? 0.7786
+what were joseph and the slave housing ? 0.1418
+who must robert close and the duke ? 0.0341
+who must robert and the duke close ? 0.0687
+who were robert close and the duke ? 0.3339
+who were robert and the duke cutting ? 0.6967
+what did robert close and the duke ? 0.1002
+what did robert and the duke close ? 0.2673
+what were robert cutting and the duke ? 0.7744
+what were robert and the duke cutting ? 0.6871
+what did allen work for and the dinosaur ? 0.0493
+what did allen and the dinosaur work for ? 0.0128
+what were allen eating and the dinosaur ? 0.0326
+what were allen and the dinosaur eating ? 0.0204
+what did chris need and the dinosaur ? 0.0358
+what did chris and the dinosaur need ? 0.0128
+what were chris turning and the dinosaur ? 0.4722
+what were chris and the dinosaur turning ? 0.3892
+who must anne close and the slave ? 0.5930
+who must anne and the slave close ? 0.0260
+who were anne close and the slave ? 0.6955
+who were anne and the slave running to ? 0.0070
+what did anne close and the slave ? 0.4098
+what did anne and the slave close ? 0.1707
+what were anne running to and the slave ? 0.0315
+what were anne and the slave running to ? 0.0034
+who must anne become and the dinosaur ? 0.0566
+who must anne and the dinosaur become ? 0.0205
+who were anne become and the dinosaur ? 1.9681
+who were anne and the dinosaur covering ? 0.6734
+what did anne become and the dinosaur ? 0.0555
+what did anne and the dinosaur become ? 0.0167
+what were anne covering and the dinosaur ? 1.5086
+what were anne and the dinosaur covering ? 0.3074
+who must laura close and the sister ? 0.0210
+who must laura and the sister close ? 0.0597
+who were laura close and the sister ? 0.0150
+who were laura and the sister trying ? 0.5742
+what did laura close and the sister ? 0.2106
+what did laura and the sister close ? 0.2742
+what were laura trying and the sister ? 0.1497
+what were laura and the sister trying ? 0.0603
+who must chris tell something and the sister ? 0.0407
+who must chris and the sister tell something ? 0.0419
+who were chris tell something and the sister ? 0.0986
+who were chris and the sister calling ? 0.0760
+what did chris tell something and the sister ? 0.5492
+what did chris and the sister tell something ? 0.4185
+what were chris calling and the sister ? 0.1711
+what were chris and the sister calling ? 0.1590
+who must michael become and the doctor ? 0.0034
+who must michael and the doctor become ? 0.0146
+who were michael become and the doctor ? 0.3883
+who were michael and the doctor growing ? 0.7818
+what did michael become and the doctor ? 0.0026
+what did michael and the doctor become ? 0.0026
+what were michael growing and the doctor ? 0.7341
+what were michael and the doctor growing ? 0.4411
+who must sarah change and the doctor ? 0.0134
+who must sarah and the doctor change ? 0.0363
+who were sarah change and the doctor ? 0.1042
+who were sarah and the doctor drawing ? 0.0044
+what did sarah change and the doctor ? 0.0330
+what did sarah and the doctor change ? 0.0107
+what were sarah drawing and the doctor ? 0.0048
+what were sarah and the doctor drawing ? 0.0015
+who must chris change and the pig ? 0.0097
+who must chris and the pig change ? 0.0609
+who were chris change and the pig ? 0.0047
+who were chris and the pig reaching for ? 0.0048
+what did chris change and the pig ? 0.0542
+what did chris and the pig change ? 0.0159
+what were chris reaching for and the pig ? 0.0036
+what were chris and the pig reaching for ? 0.0028
+who must michael turn and the sister ? 0.0393
+who must michael and the sister turn ? 0.0734
+who were michael turn and the sister ? 0.0087
+who were michael and the sister covering ? 1.0297
+what did michael turn and the sister ? 0.3282
+what did michael and the sister turn ? 0.3000
+what were michael covering and the sister ? 0.2707
+what were michael and the sister covering ? 0.0935
+what did allen need and the duke ? 0.0232
+what did allen and the duke need ? 0.0076
+what were allen eating and the duke ? 0.0053
+what were allen and the duke eating ? 0.0063
+who must laura keep and the pig ? 0.0029
+who must laura and the pig keep ? 0.0283
+who were laura keep and the pig ? 0.2829
+who were laura and the pig calling ? 0.0218
+what did laura keep and the pig ? 0.0030
+what did laura and the pig keep ? 0.0081
+what were laura calling and the pig ? 0.1240
+what were laura and the pig calling ? 0.1782
+who must william change and the slave ? 0.2808
+who must william and the slave change ? 0.0237
+who were william change and the slave ? 0.0940
+who were william and the slave covering ? 1.1006
+what did william change and the slave ? 0.0651
+what did william and the slave change ? 0.0248
+what were william covering and the slave ? 0.6024
+what were william and the slave covering ? 0.9907
+who must sarah close and the dinosaur ? 0.0169
+who must sarah and the dinosaur close ? 0.1341
+who were sarah close and the dinosaur ? 0.1740
+who were sarah and the dinosaur testing ? 0.1779
+what did sarah close and the dinosaur ? 0.2715
+what did sarah and the dinosaur close ? 0.4058
+what were sarah testing and the dinosaur ? 0.0952
+what were sarah and the dinosaur testing ? 0.1816
+who must joseph turn and the dinosaur ? 0.0208
+who must joseph and the dinosaur turn ? 0.0942
+who were joseph turn and the dinosaur ? 0.6708
+who were joseph and the dinosaur calling ? 0.0203
+what did joseph turn and the dinosaur ? 0.1195
+what did joseph and the dinosaur turn ? 0.2522
+what were joseph calling and the dinosaur ? 0.6408
+what were joseph and the dinosaur calling ? 0.0939
+what were michael eating and the doctor ? 0.0015
+what were michael and the doctor eating ? 0.0008
+what did sam turn and the wolf ? 0.4713
+what did sam and the wolf turn ? 0.3885
+what were sam eating and the wolf ? 1.1880
+what were sam and the wolf eating ? 1.0793
+what did robert need and the boat ? 0.0040
+what did robert and the boat need ? 0.0032
+what were robert calling and the boat ? 0.1470
+what were robert and the boat calling ? 0.1134
+who must william work for and the duke ? 0.0289
+who must william and the duke work for ? 0.0041
+who were william work for and the duke ? 0.0563
+who were william and the duke housing ? 0.5883
+what did william work for and the duke ? 0.0281
+what did william and the duke work for ? 0.0021
+what were william housing and the duke ? 0.7743
+what were william and the duke housing ? 0.2195
+who must chris turn and the boat ? 0.0679
+who must chris and the boat turn ? 0.1076
+who were chris turn and the boat ? 0.0051
+who were chris and the boat looking for ? 0.0020
+what did chris turn and the boat ? 0.1879
+what did chris and the boat turn ? 0.1504
+what were chris looking for and the boat ? 0.0017
+what were chris and the boat looking for ? 0.0013
+who must allen become and the doctor ? 0.0041
+who must allen and the doctor become ? 0.0093
+who were allen become and the doctor ? 0.4879
+who were allen and the doctor turning ? 0.3188
+what did allen become and the doctor ? 0.0077
+what did allen and the doctor become ? 0.0070
+what were allen turning and the doctor ? 0.8038
+what were allen and the doctor turning ? 0.5978
+who must robert turn and the duke ? 0.0030
+who must robert and the duke turn ? 0.0251
+who were robert turn and the duke ? 0.0017
+who were robert and the duke housing ? 0.9408
+what did robert turn and the duke ? 0.1077
+what did robert and the duke turn ? 0.2120
+what were robert housing and the duke ? 0.7323
+what were robert and the duke housing ? 0.6870
+what did william tell and the slave ? 0.0170
+what did william and the slave tell ? 0.0088
+what were william eating and the slave ? 0.0920
+what were william and the slave eating ? 0.0022
+who must chris change and the dinosaur ? 0.0161
+who must chris and the dinosaur change ? 0.1333
+who were chris change and the dinosaur ? 0.0127
+who were chris and the dinosaur running to ? 0.0044
+what did chris change and the dinosaur ? 0.0689
+what did chris and the dinosaur change ? 0.0267
+what were chris running to and the dinosaur ? 0.0215
+what were chris and the dinosaur running to ? 0.0040
+who must laura become and the doctor ? 0.0028
+who must laura and the doctor become ? 0.0088
+who were laura become and the doctor ? 0.3063
+who were laura and the doctor trying ? 0.0611
+what did laura become and the doctor ? 0.0034
+what did laura and the doctor become ? 0.0031
+what were laura trying and the doctor ? 0.1043
+what were laura and the doctor trying ? 0.0108
+who must allen change and the sister ? 0.0153
+who must allen and the sister change ? 0.0249
+who were allen change and the sister ? 0.3354
+who were allen and the sister running to ? 0.0061
+what did allen change and the sister ? 0.1246
+what did allen and the sister change ? 0.0257
+what were allen running to and the sister ? 0.0359
+what were allen and the sister running to ? 0.0081
+who must robert present and the wolf ? 0.0338
+who must robert and the wolf present ? 0.0293
+who were robert present and the wolf ? 0.0711
+who were robert and the wolf fishing ? 0.0756
+what did robert present and the wolf ? 0.1170
+what did robert and the wolf present ? 0.4158
+what were robert fishing and the wolf ? 0.1779
+what were robert and the wolf fishing ? 0.3329
+what did robert need and the wolf ? 0.0699
+what did robert and the wolf need ? 0.0059
+what were robert reaching for and the wolf ? 0.0175
+what were robert and the wolf reaching for ? 0.0020
+who must chris turn and the duke ? 0.0107
+who must chris and the duke turn ? 0.0318
+who were chris turn and the duke ? 0.0016
+who were chris and the duke drawing ? 0.0043
+what did chris turn and the duke ? 0.3073
+what did chris and the duke turn ? 0.1718
+what were chris drawing and the duke ? 0.0036
+what were chris and the duke drawing ? 0.0074
+who must anne turn and the sister ? 0.4375
+who must anne and the sister turn ? 0.0757
+who were anne turn and the sister ? 1.2759
+who were anne and the sister running to ? 0.0052
+what did anne turn and the sister ? 0.2628
+what did anne and the sister turn ? 0.3043
+what were anne running to and the sister ? 0.0423
+what were anne and the sister running to ? 0.0039
+who must sarah tell something and the slave ? 0.0123
+who must sarah and the slave tell something ? 0.0919
+who were sarah tell something and the slave ? 0.0891
+who were sarah and the slave covering ? 0.8732
+what did sarah tell something and the slave ? 0.4397
+what did sarah and the slave tell something ? 0.3348
+what were sarah covering and the slave ? 0.5773
+what were sarah and the slave covering ? 0.6232
+who must william tell something and the sister ? 0.0300
+who must william and the sister tell something ? 0.0501
+who were william tell something and the sister ? 0.0908
+who were william and the sister thinking about ? 0.0027
+what did william tell something and the sister ? 0.2944
+what did william and the sister tell something ? 0.2145
+what were william thinking about and the sister ? 0.2516
+what were william and the sister thinking about ? 0.0034
+who must joseph present and the doctor ? 0.0033
+who must joseph and the doctor present ? 0.0125
+who were joseph present and the doctor ? 0.0590
+who were joseph and the doctor cutting ? 0.0342
+what did joseph present and the doctor ? 0.0365
+what did joseph and the doctor present ? 0.1066
+what were joseph cutting and the doctor ? 0.2443
+what were joseph and the doctor cutting ? 0.0333
+who must sam work for and the slave ? 1.3431
+who must sam and the slave work for ? 1.0223
+who were sam work for and the slave ? 1.4408
+who were sam and the slave running to ? 0.9219
+what did sam work for and the slave ? 0.4786
+what did sam and the slave work for ? 0.3126
+what were sam running to and the slave ? 0.7313
+what were sam and the slave running to ? 0.9589
+who must allen become and the boat ? 0.0087
+who must allen and the boat become ? 0.0127
+who were allen become and the boat ? 0.3672
+who were allen and the boat calling ? 0.0194
+what did allen become and the boat ? 0.0102
+what did allen and the boat become ? 0.0088
+what were allen calling and the boat ? 0.2878
+what were allen and the boat calling ? 0.0726
+who must allen keep and the pig ? 0.0089
+who must allen and the pig keep ? 0.0342
+who were allen keep and the pig ? 0.4768
+who were allen and the pig looking for ? 0.0052
+what did allen keep and the pig ? 0.0083
+what did allen and the pig keep ? 0.0167
+what were allen looking for and the pig ? 0.0098
+what were allen and the pig looking for ? 0.0080
+who must joseph close and the slave ? 0.0174
+who must joseph and the slave close ? 0.0291
+who were joseph close and the slave ? 0.3556
+who were joseph and the slave growing ? 0.6719
+what did joseph close and the slave ? 0.0613
+what did joseph and the slave close ? 0.2098
+what were joseph growing and the slave ? 0.6290
+what were joseph and the slave growing ? 0.2979
+who must sarah become and the doctor ? 0.0034
+who must sarah and the doctor become ? 0.0088
+who were sarah become and the doctor ? 0.2714
+who were sarah and the doctor running to ? 0.0032
+what did sarah become and the doctor ? 0.0029
+what did sarah and the doctor become ? 0.0030
+what were sarah running to and the doctor ? 0.0025
+what were sarah and the doctor running to ? 0.0021
+who must joseph tell something and the dinosaur ? 0.0474
+who must joseph and the dinosaur tell something ? 0.2071
+who were joseph tell something and the dinosaur ? 0.1498
+who were joseph and the dinosaur fishing ? 0.2872
+what did joseph tell something and the dinosaur ? 0.4370
+what did joseph and the dinosaur tell something ? 0.2581
+what were joseph fishing and the dinosaur ? 0.4996
+what were joseph and the dinosaur fishing ? 0.4448
+what did sam need and the sister ? 0.1555
+what did sam and the sister need ? 0.0202
+what were sam drawing and the sister ? 0.5415
+what were sam and the sister drawing ? 0.0881
+who must michael change and the sister ? 0.0214
+who must michael and the sister change ? 0.0220
+who were michael change and the sister ? 0.0104
+who were michael and the sister running to ? 0.0034
+what did michael change and the sister ? 0.2208
+what did michael and the sister change ? 0.0424
+what were michael running to and the sister ? 0.0172
+what were michael and the sister running to ? 0.0026
+who must sam work for and the sister ? 1.2432
+who must sam and the sister work for ? 0.4221
+who were sam work for and the sister ? 1.2787
+who were sam and the sister covering ? 1.1491
+what did sam work for and the sister ? 0.4041
+what did sam and the sister work for ? 0.0192
+what were sam covering and the sister ? 1.5244
+what were sam and the sister covering ? 0.2110
+who must anne change and the doctor ? 0.8720
+who must anne and the doctor change ? 0.0394
+who were anne change and the doctor ? 1.6982
+who were anne and the doctor growing ? 0.4092
+what did anne change and the doctor ? 0.0362
+what did anne and the doctor change ? 0.0116
+what were anne growing and the doctor ? 1.2770
+what were anne and the doctor growing ? 0.3253
+who must robert tell something and the boat ? 0.0665
+who must robert and the boat tell something ? 0.1896
+who were robert tell something and the boat ? 0.1671
+who were robert and the boat fishing ? 0.0755
+what did robert tell something and the boat ? 0.5519
+what did robert and the boat tell something ? 0.3360
+what were robert fishing and the boat ? 0.0502
+what were robert and the boat fishing ? 0.1404
+who must anne change and the boat ? 0.4306
+who must anne and the boat change ? 0.0648
+who were anne change and the boat ? 1.4931
+who were anne and the boat housing ? 0.2545
+what did anne change and the boat ? 0.0436
+what did anne and the boat change ? 0.0377
+what were anne housing and the boat ? 0.6937
+what were anne and the boat housing ? 0.0894
+what did robert need and the sister ? 0.1550
+what did robert and the sister need ? 0.0207
+what were robert growing and the sister ? 0.5513
+what were robert and the sister growing ? 0.5745
+who must laura turn and the slave ? 0.0164
+who must laura and the slave turn ? 0.0426
+who were laura turn and the slave ? 0.4137
+who were laura and the slave drawing ? 0.0488
+what did laura turn and the slave ? 0.1893
+what did laura and the slave turn ? 0.2324
+what were laura drawing and the slave ? 0.0104
+what were laura and the slave drawing ? 0.0466
+who were allen keep and the dinosaur ? 1.0430
+who were allen and the dinosaur falling on ? 0.0244
+what were allen falling on and the dinosaur ? 0.1657
+what were allen and the dinosaur falling on ? 0.0294
+who must anne close and the boat ? 0.5172
+who must anne and the boat close ? 0.0219
+who were anne close and the boat ? 0.4802
+who were anne and the boat fishing ? 0.0521
+what did anne close and the boat ? 0.1242
+what did anne and the boat close ? 0.1298
+what were anne fishing and the boat ? 0.2734
+what were anne and the boat fishing ? 0.1004
+what did michael need and the wolf ? 0.0404
+what did michael and the wolf need ? 0.0060
+what were michael talking about and the wolf ? 0.0023
+what were michael and the wolf talking about ? 0.0014
+who must chris present and the sister ? 0.0152
+who must chris and the sister present ? 0.0127
+who were chris present and the sister ? 0.0129
+who were chris and the sister testing ? 0.4317
+what did chris present and the sister ? 0.1653
+what did chris and the sister present ? 0.0429
+what were chris testing and the sister ? 0.2970
+what were chris and the sister testing ? 0.0272
+who must anne present and the duke ? 0.3911
+who must anne and the duke present ? 0.0127
+who were anne present and the duke ? 0.2382
+who were anne and the duke cutting ? 0.2466
+what did anne present and the duke ? 0.1475
+what did anne and the duke present ? 0.0647
+what were anne cutting and the duke ? 1.2763
+what were anne and the duke cutting ? 0.3532
+who must sarah close and the sister ? 0.0151
+who must sarah and the sister close ? 0.0761
+who were sarah close and the sister ? 0.0157
+who were sarah and the sister trying ? 0.5025
+what did sarah close and the sister ? 0.1555
+what did sarah and the sister close ? 0.2666
+what were sarah trying and the sister ? 0.0836
+what were sarah and the sister trying ? 0.0468
+what did laura need and the doctor ? 0.0027
+what did laura and the doctor need ? 0.0025
+what were laura eating and the doctor ? 0.0016
+what were laura and the doctor eating ? 0.0010
+who must joseph work for and the dinosaur ? 0.0216
+who must joseph and the dinosaur work for ? 0.0168
+what did joseph work for and the dinosaur ? 0.0407
+what did joseph and the dinosaur work for ? 0.0137
+who were allen become and the boat ? 0.3672
+who were allen and the boat talking about ? 0.0088
+what were allen talking about and the boat ? 0.0098
+what were allen and the boat talking about ? 0.0071
+who must sarah present and the doctor ? 0.0041
+who must sarah and the doctor present ? 0.0145
+who were sarah present and the doctor ? 0.0115
+who were sarah and the doctor taking ? 0.0501
+what did sarah present and the doctor ? 0.0324
+what did sarah and the doctor present ? 0.0926
+what were sarah taking and the doctor ? 0.0073
+what were sarah and the doctor taking ? 0.0110
+who must allen present and the slave ? 0.0070
+who must allen and the slave present ? 0.0065
+who were allen present and the slave ? 0.0066
+who were allen and the slave cutting ? 0.1493
+what did allen present and the slave ? 0.0855
+what did allen and the slave present ? 0.0807
+what were allen cutting and the slave ? 0.1358
+what were allen and the slave cutting ? 0.2681
+who must michael become and the pig ? 0.0109
+who must michael and the pig become ? 0.0091
+who were michael become and the pig ? 0.4646
+who were michael and the pig growing ? 0.0926
+what did michael become and the pig ? 0.0249
+what did michael and the pig become ? 0.0045
+what were michael growing and the pig ? 0.1026
+what were michael and the pig growing ? 0.0222
+who must robert tell something and the dinosaur ? 0.0699
+who must robert and the dinosaur tell something ? 0.1852
+who were robert tell something and the dinosaur ? 0.2503
+who were robert and the dinosaur talking about ? 0.0036
+what did robert tell something and the dinosaur ? 0.5867
+what did robert and the dinosaur tell something ? 0.2932
+what were robert talking about and the dinosaur ? 0.0045
+what were robert and the dinosaur talking about ? 0.0040
+who must sarah change and the slave ? 0.0025
+who must sarah and the slave change ? 0.0795
+who were sarah change and the slave ? 0.1116
+who were sarah and the slave housing ? 0.3648
+what did sarah change and the slave ? 0.0256
+what did sarah and the slave change ? 0.0194
+what were sarah housing and the slave ? 0.3814
+what were sarah and the slave housing ? 0.1618
+what did michael tell and the boat ? 0.0383
+what did michael and the boat tell ? 0.0170
+what were michael eating and the boat ? 0.0068
+what were michael and the boat eating ? 0.0065
+what did michael need and the sister ? 0.0717
+what did michael and the sister need ? 0.0137
+what were michael growing and the sister ? 0.4514
+what were michael and the sister growing ? 0.3422
+who must joseph present and the duke ? 0.0049
+who must joseph and the duke present ? 0.0174
+who were joseph present and the duke ? 0.1152
+who were joseph and the duke fishing ? 0.0230
+what did joseph present and the duke ? 0.0965
+what did joseph and the duke present ? 0.2170
+what were joseph fishing and the duke ? 0.0974
+what were joseph and the duke fishing ? 0.0735
+who must william tell something and the boat ? 0.0553
+who must william and the boat tell something ? 0.1631
+who were william tell something and the boat ? 0.1700
+who were william and the boat sleeping in ? 0.0429
+what did william tell something and the boat ? 0.3864
+what did william and the boat tell something ? 0.1258
+what were william sleeping in and the boat ? 0.2573
+what were william and the boat sleeping in ? 0.0208
+who must michael work for and the pig ? 0.0054
+who must michael and the pig work for ? 0.0027
+who were michael work for and the pig ? 0.0101
+who were michael and the pig covering ? 0.4668
+what did michael work for and the pig ? 0.0114
+what did michael and the pig work for ? 0.0026
+what were michael covering and the pig ? 0.0913
+what were michael and the pig covering ? 0.2526
+who must sarah work for and the doctor ? 0.0017
+who must sarah and the doctor work for ? 0.0017
+who were sarah work for and the doctor ? 0.0136
+who were sarah and the doctor falling on ? 0.0044
+what did sarah work for and the doctor ? 0.0020
+what did sarah and the doctor work for ? 0.0008
+what were sarah falling on and the doctor ? 0.0047
+what were sarah and the doctor falling on ? 0.0038
+who must sarah keep and the slave ? 0.0026
+who must sarah and the slave keep ? 0.0423
+who were sarah keep and the slave ? 0.3857
+who were sarah and the slave turning ? 0.8340
+what did sarah keep and the slave ? 0.0037
+what did sarah and the slave keep ? 0.0069
+what were sarah turning and the slave ? 0.6201
+what were sarah and the slave turning ? 0.6754
+who were sarah close and the sister ? 0.0157
+who were sarah and the sister thinking about ? 0.0021
+what were sarah thinking about and the sister ? 0.0138
+what were sarah and the sister thinking about ? 0.0021
+who must michael have and the slave ? 0.0058
+who must michael and the slave have ? 0.0156
+who were michael have and the slave ? 0.3050
+who were michael and the slave reaching for ? 0.0106
+what did michael have and the slave ? 0.0080
+what did michael and the slave have ? 0.0038
+what were michael reaching for and the slave ? 0.0184
+what were michael and the slave reaching for ? 0.0032
+who must sarah have and the wolf ? 0.0079
+who must sarah and the wolf have ? 0.0262
+who were sarah have and the wolf ? 0.5360
+who were sarah and the wolf looking for ? 0.0018
+what did sarah have and the wolf ? 0.0070
+what did sarah and the wolf have ? 0.0036
+what were sarah looking for and the wolf ? 0.0028
+what were sarah and the wolf looking for ? 0.0010
+who must joseph tell something and the doctor ? 0.0271
+who must joseph and the doctor tell something ? 0.0956
+what did joseph tell something and the doctor ? 0.6162
+what did joseph and the doctor tell something ? 0.5172
+who must william turn and the pig ? 0.0517
+who must william and the pig turn ? 0.0469
+who were william turn and the pig ? 0.2025
+who were william and the pig sleeping in ? 0.0168
+what did william turn and the pig ? 0.1804
+what did william and the pig turn ? 0.2030
+what were william sleeping in and the pig ? 0.1855
+what were william and the pig sleeping in ? 0.0284
+who must sam keep and the duke ? 0.4933
+who must sam and the duke keep ? 0.9217
+who were sam keep and the duke ? 1.2322
+who were sam and the duke taking ? 0.6830
+what did sam keep and the duke ? 0.0780
+what did sam and the duke keep ? 0.0241
+what were sam taking and the duke ? 0.7663
+what were sam and the duke taking ? 0.7002
+who must robert keep and the dinosaur ? 0.0279
+who must robert and the dinosaur keep ? 0.0513
+who were robert keep and the dinosaur ? 0.7444
+who were robert and the dinosaur thinking about ? 0.0047
+what did robert keep and the dinosaur ? 0.0201
+what did robert and the dinosaur keep ? 0.0302
+what were robert thinking about and the dinosaur ? 0.0092
+what were robert and the dinosaur thinking about ? 0.0059
+who must joseph keep and the doctor ? 0.0357
+who must joseph and the doctor keep ? 0.0387
+who were joseph keep and the doctor ? 0.7511
+who were joseph and the doctor sleeping in ? 0.0172
+what did joseph keep and the doctor ? 0.0512
+what did joseph and the doctor keep ? 0.0375
+what were joseph sleeping in and the doctor ? 0.0191
+what were joseph and the doctor sleeping in ? 0.0253
+who must laura become and the dinosaur ? 0.0065
+who must laura and the dinosaur become ? 0.0102
+who were laura become and the dinosaur ? 0.3085
+who were laura and the dinosaur sleeping in ? 0.0278
+what did laura become and the dinosaur ? 0.0091
+what did laura and the dinosaur become ? 0.0062
+what were laura sleeping in and the dinosaur ? 0.0437
+what were laura and the dinosaur sleeping in ? 0.0383
+who were allen keep and the dinosaur ? 1.0430
+who were allen and the dinosaur sleeping in ? 0.0190
+what were allen sleeping in and the dinosaur ? 0.0710
+what were allen and the dinosaur sleeping in ? 0.0337
+who must anne close and the wolf ? 0.5478
+who must anne and the wolf close ? 0.0391
+who were anne close and the wolf ? 0.7181
+who were anne and the wolf thinking about ? 0.0027
+what did anne close and the wolf ? 0.5043
+what did anne and the wolf close ? 0.3760
+what were anne thinking about and the wolf ? 0.0077
+what were anne and the wolf thinking about ? 0.0035
+who must william tell something and the wolf ? 0.0510
+who must william and the wolf tell something ? 0.1772
+who were william tell something and the wolf ? 0.1344
+who were william and the wolf reaching for ? 0.0054
+what did william tell something and the wolf ? 0.2651
+what did william and the wolf tell something ? 0.1313
+what were william reaching for and the wolf ? 0.2254
+what were william and the wolf reaching for ? 0.0039
+who must sarah close and the slave ? 0.0084
+who must sarah and the slave close ? 0.0497
+who were sarah close and the slave ? 0.0673
+who were sarah and the slave cutting ? 0.2723
+what did sarah close and the slave ? 0.1140
+what did sarah and the slave close ? 0.3038
+what were sarah cutting and the slave ? 0.1074
+what were sarah and the slave cutting ? 0.2818
+who must william present and the slave ? 0.1989
+who must william and the slave present ? 0.0100
+what did william present and the slave ? 0.0914
+what did william and the slave present ? 0.1263
+who must sam turn and the slave ? 1.2540
+who must sam and the slave turn ? 0.9470
+who were sam turn and the slave ? 1.5478
+who were sam and the slave drawing ? 1.2115
+what did sam turn and the slave ? 0.7578
+what did sam and the slave turn ? 0.6857
+what were sam drawing and the slave ? 0.5735
+what were sam and the slave drawing ? 1.0665
+who must william present and the wolf ? 0.2756
+who must william and the wolf present ? 0.0553
+who were william present and the wolf ? 0.0815
+who were william and the wolf cutting ? 0.5172
+what did william present and the wolf ? 0.1256
+what did william and the wolf present ? 0.3158
+what were william cutting and the wolf ? 1.0533
+what were william and the wolf cutting ? 0.5626
+who must sarah have and the duke ? 0.0045
+who must sarah and the duke have ? 0.0259
+who were sarah have and the duke ? 0.4305
+who were sarah and the duke taking ? 0.0749
+what did sarah have and the duke ? 0.0038
+what did sarah and the duke have ? 0.0032
+what were sarah taking and the duke ? 0.1222
+what were sarah and the duke taking ? 0.1127
+who must anne work for and the duke ? 0.0061
+who must anne and the duke work for ? 0.0041
+who were anne work for and the duke ? 0.1548
+who were anne and the duke trying ? 0.0176
+what did anne work for and the duke ? 0.0039
+what did anne and the duke work for ? 0.0023
+what were anne trying and the duke ? 0.6376
+what were anne and the duke trying ? 0.0156
+who must robert present and the duke ? 0.0076
+who must robert and the duke present ? 0.0240
+who were robert present and the duke ? 0.0433
+who were robert and the duke fishing ? 0.0325
+what did robert present and the duke ? 0.0897
+what did robert and the duke present ? 0.0902
+what were robert fishing and the duke ? 0.2472
+what were robert and the duke fishing ? 0.1610
+who must sam become and the pig ? 0.0526
+who must sam and the pig become ? 0.4327
+who were sam become and the pig ? 1.3877
+who were sam and the pig testing ? 0.9158
+what did sam become and the pig ? 0.1275
+what did sam and the pig become ? 0.0703
+what were sam testing and the pig ? 1.3287
+what were sam and the pig testing ? 1.0042
+who must joseph have and the wolf ? 0.0094
+who must joseph and the wolf have ? 0.0253
+who were joseph have and the wolf ? 0.8592
+who were joseph and the wolf taking ? 0.1369
+what did joseph have and the wolf ? 0.0091
+what did joseph and the wolf have ? 0.0036
+what were joseph taking and the wolf ? 0.1978
+what were joseph and the wolf taking ? 0.1202
+what did sam need and the duke ? 0.1202
+what did sam and the duke need ? 0.0104
+what were sam calling and the duke ? 0.9365
+what were sam and the duke calling ? 0.8243
+who must anne present and the slave ? 0.4377
+who must anne and the slave present ? 0.0115
+who were anne present and the slave ? 0.2567
+who were anne and the slave covering ? 0.7141
+what did anne present and the slave ? 0.1074
+what did anne and the slave present ? 0.0760
+what were anne covering and the slave ? 1.1876
+what were anne and the slave covering ? 0.5594
+what did allen tell and the pig ? 0.0682
+what did allen and the pig tell ? 0.0120
+what were allen eating and the pig ? 0.0091
+what were allen and the pig eating ? 0.0069
+who must allen change and the doctor ? 0.0126
+who must allen and the doctor change ? 0.0258
+who were allen change and the doctor ? 0.4321
+who were allen and the doctor thinking about ? 0.0038
+what did allen change and the doctor ? 0.0988
+what did allen and the doctor change ? 0.0160
+what were allen thinking about and the doctor ? 0.0148
+what were allen and the doctor thinking about ? 0.0050
+what did laura tell and the pig ? 0.0514
+what did laura and the pig tell ? 0.0087
+what were laura saying and the pig ? 0.0069
+what were laura and the pig saying ? 0.0021
+who must joseph work for and the wolf ? 0.0186
+who must joseph and the wolf work for ? 0.0037
+who were joseph work for and the wolf ? 0.0421
+who were joseph and the wolf reaching for ? 0.0034
+what did joseph work for and the wolf ? 0.0288
+what did joseph and the wolf work for ? 0.0028
+what were joseph reaching for and the wolf ? 0.0067
+what were joseph and the wolf reaching for ? 0.0013
+what did robert need and the doctor ? 0.0034
+what did robert and the doctor need ? 0.0039
+what were robert running to and the doctor ? 0.0061
+what were robert and the doctor running to ? 0.0027
+what did chris turn and the slave ? 0.2754
+what did chris and the slave turn ? 0.1912
+what were chris saying and the slave ? 0.0169
+what were chris and the slave saying ? 0.0022
+who must chris present and the boat ? 0.0093
+who must chris and the boat present ? 0.0162
+what did chris present and the boat ? 0.0394
+what did chris and the boat present ? 0.1589
+who must robert have and the dinosaur ? 0.0151
+who must robert and the dinosaur have ? 0.0374
+what did robert have and the dinosaur ? 0.0217
+what did robert and the dinosaur have ? 0.0081
+what were anne saying and the sister ? 0.0339
+what were anne and the sister saying ? 0.0024
+who were william work for and the duke ? 0.0563
+who were william and the duke taking ? 0.0497
+what were william taking and the duke ? 0.3669
+what were william and the duke taking ? 0.0706
+who must sarah tell something and the boat ? 0.0408
+who must sarah and the boat tell something ? 0.1840
+who were sarah tell something and the boat ? 0.1226
+who were sarah and the boat running to ? 0.0075
+what did sarah tell something and the boat ? 0.4963
+what did sarah and the boat tell something ? 0.3715
+what were sarah running to and the boat ? 0.0086
+what were sarah and the boat running to ? 0.0034
+who must chris present and the pig ? 0.0159
+who must chris and the pig present ? 0.0138
+who were chris present and the pig ? 0.0161
+who were chris and the pig drawing ? 0.0067
+what did chris present and the pig ? 0.0716
+what did chris and the pig present ? 0.1935
+what were chris drawing and the pig ? 0.0031
+what were chris and the pig drawing ? 0.0112
+who must michael close and the slave ? 0.0103
+who must michael and the slave close ? 0.0331
+who were michael close and the slave ? 0.0280
+who were michael and the slave covering ? 1.1320
+what did michael close and the slave ? 0.0591
+what did michael and the slave close ? 0.3019
+what were michael covering and the slave ? 0.1443
+what were michael and the slave covering ? 0.9030
+who must sam present and the duke ? 1.6808
+who must sam and the duke present ? 1.1082
+who were sam present and the duke ? 1.2515
+who were sam and the duke housing ? 1.1826
+what did sam present and the duke ? 0.3479
+what did sam and the duke present ? 0.0985
+what were sam housing and the duke ? 1.3319
+what were sam and the duke housing ? 0.9147
+what did sarah need and the boat ? 0.0038
+what did sarah and the boat need ? 0.0025
+what were sarah drawing and the boat ? 0.0028
+what were sarah and the boat drawing ? 0.0265
+what did michael tell and the duke ? 0.0071
+what did michael and the duke tell ? 0.0070
+what were michael eating and the duke ? 0.0032
+what were michael and the duke eating ? 0.0018
+who must chris have and the duke ? 0.0053
+who must chris and the duke have ? 0.0230
+what did chris have and the duke ? 0.0072
+what did chris and the duke have ? 0.0028
+who must sam become and the dinosaur ? 0.1673
+who must sam and the dinosaur become ? 0.3789
+who were sam become and the dinosaur ? 1.3343
+who were sam and the dinosaur sleeping in ? 0.9740
+what did sam become and the dinosaur ? 0.4461
+what did sam and the dinosaur become ? 0.3697
+what were sam sleeping in and the dinosaur ? 1.0176
+what were sam and the dinosaur sleeping in ? 1.0298
+who must joseph work for and the duke ? 0.0018
+who must joseph and the duke work for ? 0.0025
+who were joseph work for and the duke ? 0.0130
+who were joseph and the duke covering ? 0.1802
+what did joseph work for and the duke ? 0.0025
+what did joseph and the duke work for ? 0.0016
+what were joseph covering and the duke ? 0.7214
+what were joseph and the duke covering ? 0.0146
+who must allen have and the doctor ? 0.0064
+who must allen and the doctor have ? 0.0395
+who were allen have and the doctor ? 0.4077
+who were allen and the doctor sleeping in ? 0.0207
+what did allen have and the doctor ? 0.0059
+what did allen and the doctor have ? 0.0064
+what were allen sleeping in and the doctor ? 0.0184
+what were allen and the doctor sleeping in ? 0.0342
+who must allen keep and the boat ? 0.0166
+who must allen and the boat keep ? 0.0468
+who were allen keep and the boat ? 0.5917
+who were allen and the boat testing ? 0.0856
+what did allen keep and the boat ? 0.0112
+what did allen and the boat keep ? 0.0292
+what were allen testing and the boat ? 0.1083
+what were allen and the boat testing ? 0.3914
+what did anne turn and the dinosaur ? 0.4893
+what did anne and the dinosaur turn ? 0.3252
+what were anne saying and the dinosaur ? 0.1716
+what were anne and the dinosaur saying ? 0.0056
+who must sarah close and the doctor ? 0.0138
+who must sarah and the doctor close ? 0.1331
+who were sarah close and the doctor ? 0.0183
+who were sarah and the doctor turning ? 0.4128
+what did sarah close and the doctor ? 0.4505
+what did sarah and the doctor close ? 0.6121
+what were sarah turning and the doctor ? 0.6322
+what were sarah and the doctor turning ? 0.7199
+who must chris have and the sister ? 0.0085
+who must chris and the sister have ? 0.0117
+who were chris have and the sister ? 0.2357
+who were chris and the sister cutting ? 1.1173
+what did chris have and the sister ? 0.0528
+what did chris and the sister have ? 0.0057
+what were chris cutting and the sister ? 0.2704
+what were chris and the sister cutting ? 0.6881
+who must william close and the sister ? 0.3342
+who must william and the sister close ? 0.0471
+who were william close and the sister ? 0.2029
+who were william and the sister cutting ? 1.2484
+what did william close and the sister ? 0.2572
+what did william and the sister close ? 0.2843
+what were william cutting and the sister ? 1.0187
+what were william and the sister cutting ? 1.0818
+what did william become and the doctor ? 0.0857
+what did william and the doctor become ? 0.0086
+what were william eating and the doctor ? 0.2107
+what were william and the doctor eating ? 0.0030
+who must allen change and the pig ? 0.0099
+who must allen and the pig change ? 0.0395
+who were allen change and the pig ? 0.1952
+who were allen and the pig running to ? 0.0078
+what did allen change and the pig ? 0.0955
+what did allen and the pig change ? 0.0317
+what were allen running to and the pig ? 0.0093
+what were allen and the pig running to ? 0.0074
+who must chris become and the slave ? 0.0024
+who must chris and the slave become ? 0.0082
+who were chris become and the slave ? 0.1417
+who were chris and the slave running to ? 0.0040
+what did chris become and the slave ? 0.0054
+what did chris and the slave become ? 0.0053
+what were chris running to and the slave ? 0.0266
+what were chris and the slave running to ? 0.0024
+who must chris change and the duke ? 0.0052
+who must chris and the duke change ? 0.0394
+who were chris change and the duke ? 0.0037
+who were chris and the duke housing ? 0.8105
+what did chris change and the duke ? 0.0141
+what did chris and the duke change ? 0.0068
+what were chris housing and the duke ? 0.7137
+what were chris and the duke housing ? 0.5926
+who must michael close and the dinosaur ? 0.0228
+who must michael and the dinosaur close ? 0.0591
+who were michael close and the dinosaur ? 0.2022
+who were michael and the dinosaur looking for ? 0.0055
+what did michael close and the dinosaur ? 0.4623
+what did michael and the dinosaur close ? 0.4527
+what were michael looking for and the dinosaur ? 0.0096
+what were michael and the dinosaur looking for ? 0.0088
+who must michael change and the wolf ? 0.0058
+who must michael and the wolf change ? 0.0475
+who were michael change and the wolf ? 0.0072
+who were michael and the wolf growing ? 0.3120
+what did michael change and the wolf ? 0.0276
+what did michael and the wolf change ? 0.0113
+what were michael growing and the wolf ? 0.3378
+what were michael and the wolf growing ? 0.1307
+who must robert tell something and the doctor ? 0.0380
+who must robert and the doctor tell something ? 0.1584
+who were robert tell something and the doctor ? 0.0851
+who were robert and the doctor sleeping in ? 0.0125
+what did robert tell something and the doctor ? 0.6688
+what did robert and the doctor tell something ? 0.5196
+what were robert sleeping in and the doctor ? 0.0192
+what were robert and the doctor sleeping in ? 0.0261
+who must anne change and the sister ? 0.5498
+who must anne and the sister change ? 0.0519
+who were anne change and the sister ? 1.6166
+who were anne and the sister drawing ? 0.0109
+what did anne change and the sister ? 0.0880
+what did anne and the sister change ? 0.0163
+what were anne drawing and the sister ? 0.0864
+what were anne and the sister drawing ? 0.0056
+who must anne have and the slave ? 0.1477
+who must anne and the slave have ? 0.0324
+who were anne have and the slave ? 1.2991
+who were anne and the slave fishing ? 0.2305
+what did anne have and the slave ? 0.0120
+what did anne and the slave have ? 0.0053
+what were anne fishing and the slave ? 0.9999
+what were anne and the slave fishing ? 0.2386
+who must william work for and the boat ? 0.0324
+who must william and the boat work for ? 0.0074
+who were william work for and the boat ? 0.1508
+who were william and the boat housing ? 0.1699
+what did william work for and the boat ? 0.0795
+what did william and the boat work for ? 0.0035
+what were william housing and the boat ? 0.3997
+what were william and the boat housing ? 0.1233
+who must sam work for and the boat ? 1.2780
+who must sam and the boat work for ? 0.6820
+who were sam work for and the boat ? 1.3662
+who were sam and the boat thinking about ? 0.2014
+what did sam work for and the boat ? 0.4302
+what did sam and the boat work for ? 0.0435
+what were sam thinking about and the boat ? 0.9485
+what were sam and the boat thinking about ? 0.5523
+who must robert turn and the doctor ? 0.0123
+who must robert and the doctor turn ? 0.0604
+who were robert turn and the doctor ? 0.0027
+who were robert and the doctor looking for ? 0.0014
+what did robert turn and the doctor ? 0.2020
+what did robert and the doctor turn ? 0.3532
+what were robert looking for and the doctor ? 0.0014
+what were robert and the doctor looking for ? 0.0011
+who were william work for and the boat ? 0.1508
+who were william and the boat testing ? 0.0798
+what were william testing and the boat ? 0.6917
+what were william and the boat testing ? 0.3619
+who must robert become and the boat ? 0.0101
+who must robert and the boat become ? 0.0084
+who were robert become and the boat ? 0.7165
+who were robert and the boat trying ? 0.3334
+what did robert become and the boat ? 0.0117
+what did robert and the boat become ? 0.0066
+what were robert trying and the boat ? 0.0589
+what were robert and the boat trying ? 0.0478
+who must sam have and the doctor ? 0.7575
+who must sam and the doctor have ? 0.2001
+who were sam have and the doctor ? 1.3367
+who were sam and the doctor calling ? 1.1680
+what did sam have and the doctor ? 0.1108
+what did sam and the doctor have ? 0.0436
+what were sam calling and the doctor ? 1.0290
+what were sam and the doctor calling ? 1.2679
+who must robert become and the slave ? 0.0026
+who must robert and the slave become ? 0.0078
+who were robert become and the slave ? 0.3378
+who were robert and the slave growing ? 0.6265
+what did robert become and the slave ? 0.0097
+what did robert and the slave become ? 0.0069
+what were robert growing and the slave ? 0.5884
+what were robert and the slave growing ? 0.4591
+what did allen need and the slave ? 0.0129
+what did allen and the slave need ? 0.0088
+what were allen housing and the slave ? 0.1836
+what were allen and the slave housing ? 0.4701
+who must sarah present and the wolf ? 0.0301
+who must sarah and the wolf present ? 0.0336
+who were sarah present and the wolf ? 0.0374
+who were sarah and the wolf drawing ? 0.0056
+what did sarah present and the wolf ? 0.1024
+what did sarah and the wolf present ? 0.4188
+what were sarah drawing and the wolf ? 0.0037
+what were sarah and the wolf drawing ? 0.0043
+who must robert turn and the slave ? 0.0089
+who must robert and the slave turn ? 0.0497
+who were robert turn and the slave ? 0.0030
+who were robert and the slave talking about ? 0.0029
+what did robert turn and the slave ? 0.2087
+what did robert and the slave turn ? 0.2637
+what were robert talking about and the slave ? 0.0037
+what were robert and the slave talking about ? 0.0021
+what did sarah need and the wolf ? 0.0190
+what did sarah and the wolf need ? 0.0034
+who must allen turn and the pig ? 0.0103
+who must allen and the pig turn ? 0.0232
+who were allen turn and the pig ? 0.4590
+who were allen and the pig growing ? 0.1080
+what did allen turn and the pig ? 0.1352
+what did allen and the pig turn ? 0.2211
+what were allen growing and the pig ? 0.1566
+what were allen and the pig growing ? 0.0314
+who were robert tell something and the dinosaur ? 0.2503
+who were robert and the dinosaur looking for ? 0.0061
+what were robert looking for and the dinosaur ? 0.0096
+what were robert and the dinosaur looking for ? 0.0095
+who must joseph turn and the pig ? 0.0082
+who must joseph and the pig turn ? 0.0496
+who were joseph turn and the pig ? 0.0195
+who were joseph and the pig turning ? 0.2807
+what did joseph turn and the pig ? 0.1265
+what did joseph and the pig turn ? 0.2014
+what were joseph turning and the pig ? 0.5795
+what were joseph and the pig turning ? 0.4743
+who must chris close and the slave ? 0.0200
+who must chris and the slave close ? 0.0499
+who were chris close and the slave ? 0.0268
+who were chris and the slave fishing ? 0.3242
+what did chris close and the slave ? 0.0745
+what did chris and the slave close ? 0.1933
+what were chris fishing and the slave ? 0.0978
+what were chris and the slave fishing ? 0.3592
+what did sam need and the wolf ? 0.3491
+what did sam and the wolf need ? 0.1721
+what were sam reaching for and the wolf ? 0.8947
+what were sam and the wolf reaching for ? 1.0008
+what did robert need and the pig ? 0.0162
+what did robert and the pig need ? 0.0057
+what were robert eating and the pig ? 0.0043
+what were robert and the pig eating ? 0.0011
+what were anne eating and the sister ? 0.1445
+what were anne and the sister eating ? 0.0035
+who must chris become and the sister ? 0.0069
+who must chris and the sister become ? 0.0079
+who were chris become and the sister ? 0.5108
+who were chris and the sister housing ? 1.0299
+what did chris become and the sister ? 0.0201
+what did chris and the sister become ? 0.0092
+what were chris housing and the sister ? 0.5338
+what were chris and the sister housing ? 0.3827
+who must joseph have and the duke ? 0.0062
+who must joseph and the duke have ? 0.0177
+who were joseph have and the duke ? 0.6089
+who were joseph and the duke falling on ? 0.0091
+what did joseph have and the duke ? 0.0087
+what did joseph and the duke have ? 0.0025
+what were joseph falling on and the duke ? 0.0415
+what were joseph and the duke falling on ? 0.0228
+who must anne tell something and the slave ? 0.0887
+who must anne and the slave tell something ? 0.0416
+who were anne tell something and the slave ? 0.2094
+who were anne and the slave trying ? 0.3185
+what did anne tell something and the slave ? 0.2268
+what did anne and the slave tell something ? 0.1080
+what were anne trying and the slave ? 0.3203
+what were anne and the slave trying ? 0.0375
+who were robert close and the duke ? 0.3339
+who were robert and the duke running to ? 0.0039
+what were robert running to and the duke ? 0.0081
+what were robert and the duke running to ? 0.0038
+who must robert have and the duke ? 0.0045
+who must robert and the duke have ? 0.0234
+who were robert have and the duke ? 0.5486
+who were robert and the duke calling ? 0.0076
+what did robert have and the duke ? 0.0084
+what did robert and the duke have ? 0.0024
+what were robert calling and the duke ? 0.1229
+what were robert and the duke calling ? 0.1756
+what did allen need and the doctor ? 0.0048
+what did allen and the doctor need ? 0.0045
+what were allen covering and the doctor ? 0.2553
+what were allen and the doctor covering ? 0.0087
+who must joseph become and the slave ? 0.0018
+who must joseph and the slave become ? 0.0058
+who were joseph become and the slave ? 0.6140
+who were joseph and the slave turning ? 0.8496
+what did joseph become and the slave ? 0.0037
+what did joseph and the slave become ? 0.0029
+what were joseph turning and the slave ? 0.6189
+what were joseph and the slave turning ? 0.7057
+who must allen tell something and the duke ? 0.0134
+who must allen and the duke tell something ? 0.0233
+who were allen tell something and the duke ? 0.0740
+who were allen and the duke falling on ? 0.0058
+what did allen tell something and the duke ? 0.3797
+what did allen and the duke tell something ? 0.3330
+what were allen falling on and the duke ? 0.0636
+what were allen and the duke falling on ? 0.0100
+who were allen become and the boat ? 0.3672
+who were allen and the boat growing ? 0.1224
+what were allen growing and the boat ? 0.4198
+what were allen and the boat growing ? 0.2110
+what did sarah change and the boat ? 0.0205
+what did sarah and the boat change ? 0.0248
+what were sarah eating and the boat ? 0.0084
+what were sarah and the boat eating ? 0.0179
+who must joseph close and the dinosaur ? 0.0294
+who must joseph and the dinosaur close ? 0.0925
+who were joseph close and the dinosaur ? 0.7474
+who were joseph and the dinosaur trying ? 0.1421
+what did joseph close and the dinosaur ? 0.1836
+what did joseph and the dinosaur close ? 0.4604
+what were joseph trying and the dinosaur ? 0.1763
+what were joseph and the dinosaur trying ? 0.0243
+what did laura present and the doctor ? 0.0286
+what did laura and the doctor present ? 0.0614
+what were laura saying and the doctor ? 0.0017
+what were laura and the doctor saying ? 0.0009
+who must laura have and the doctor ? 0.0041
+who must laura and the doctor have ? 0.0130
+who were laura have and the doctor ? 0.7042
+who were laura and the doctor turning ? 0.3459
+what did laura have and the doctor ? 0.0052
+what did laura and the doctor have ? 0.0039
+what were laura turning and the doctor ? 0.6576
+what were laura and the doctor turning ? 0.6239
+who must sarah tell something and the wolf ? 0.0204
+who must sarah and the wolf tell something ? 0.2047
+who were sarah tell something and the wolf ? 0.0989
+who were sarah and the wolf taking ? 0.1489
+what did sarah tell something and the wolf ? 0.3917
+what did sarah and the wolf tell something ? 0.3542
+what were sarah taking and the wolf ? 0.1288
+what were sarah and the wolf taking ? 0.1312
+who must sarah turn and the sister ? 0.0364
+who must sarah and the sister turn ? 0.0711
+who were sarah turn and the sister ? 0.4517
+who were sarah and the sister housing ? 1.1541
+what did sarah turn and the sister ? 0.3202
+what did sarah and the sister turn ? 0.3000
+what were sarah housing and the sister ? 0.4772
+what were sarah and the sister housing ? 0.5524
+what did anne need and the slave ? 0.0701
+what did anne and the slave need ? 0.0103
+what were anne taking and the slave ? 0.6786
+what were anne and the slave taking ? 0.0495
+who must allen become and the dinosaur ? 0.0065
+who must allen and the dinosaur become ? 0.0144
+who were allen become and the dinosaur ? 0.4321
+who were allen and the dinosaur looking for ? 0.0110
+what did allen become and the dinosaur ? 0.0228
+what did allen and the dinosaur become ? 0.0091
+what were allen looking for and the dinosaur ? 0.0280
+what were allen and the dinosaur looking for ? 0.0125
+who must laura present and the boat ? 0.0108
+who must laura and the boat present ? 0.0226
+who were laura present and the boat ? 0.0203
+who were laura and the boat thinking about ? 0.0141
+what did laura present and the boat ? 0.0349
+what did laura and the boat present ? 0.1611
+what were laura thinking about and the boat ? 0.0034
+what were laura and the boat thinking about ? 0.0075
+who must sarah change and the dinosaur ? 0.0141
+who must sarah and the dinosaur change ? 0.2087
+who were sarah change and the dinosaur ? 0.1270
+who were sarah and the dinosaur growing ? 0.2941
+what did sarah change and the dinosaur ? 0.0693
+what did sarah and the dinosaur change ? 0.0341
+what were sarah growing and the dinosaur ? 0.4048
+what were sarah and the dinosaur growing ? 0.2253
+who must william turn and the dinosaur ? 0.1305
+who must william and the dinosaur turn ? 0.0816
+who were william turn and the dinosaur ? 0.3318
+who were william and the dinosaur trying ? 0.1048
+what did william turn and the dinosaur ? 0.2701
+what did william and the dinosaur turn ? 0.2945
+what were william trying and the dinosaur ? 0.5202
+what were william and the dinosaur trying ? 0.0472
+who must robert turn and the dinosaur ? 0.0189
+who must robert and the dinosaur turn ? 0.0902
+who were robert turn and the dinosaur ? 0.0157
+who were robert and the dinosaur covering ? 0.7056
+what did robert turn and the dinosaur ? 0.0727
+what did robert and the dinosaur turn ? 0.2574
+what were robert covering and the dinosaur ? 0.5338
+what were robert and the dinosaur covering ? 0.4055
+who were william work for and the duke ? 0.0563
+who were william and the duke sleeping in ? 0.0128
+what were william sleeping in and the duke ? 0.1560
+what were william and the duke sleeping in ? 0.0281
+what did anne need and the boat ? 0.0101
+what did anne and the boat need ? 0.0041
+what were anne running to and the boat ? 0.0430
+what were anne and the boat running to ? 0.0048
+who must michael become and the duke ? 0.0037
+who must michael and the duke become ? 0.0095
+who were michael become and the duke ? 0.4989
+who were michael and the duke reaching for ? 0.0039
+what did michael become and the duke ? 0.0030
+what did michael and the duke become ? 0.0045
+what were michael reaching for and the duke ? 0.0043
+what were michael and the duke reaching for ? 0.0028
+who must laura change and the duke ? 0.0069
+who must laura and the duke change ? 0.0450
+who were laura change and the duke ? 0.0278
+who were laura and the duke turning ? 0.1923
+what did laura change and the duke ? 0.0426
+what did laura and the duke change ? 0.0102
+what were laura turning and the duke ? 0.5587
+what were laura and the duke turning ? 0.4199
+who must michael work for and the dinosaur ? 0.0184
+who must michael and the dinosaur work for ? 0.0138
+who were michael work for and the dinosaur ? 0.0396
+who were michael and the dinosaur reaching for ? 0.0070
+what did michael work for and the dinosaur ? 0.0430
+what did michael and the dinosaur work for ? 0.0155
+what were michael reaching for and the dinosaur ? 0.0208
+what were michael and the dinosaur reaching for ? 0.0063
+who must william become and the doctor ? 0.0071
+who must william and the doctor become ? 0.0116
+who were william become and the doctor ? 0.0800
+who were william and the doctor sleeping in ? 0.0165
+what were william sleeping in and the doctor ? 0.2766
+what were william and the doctor sleeping in ? 0.0343
+who must laura tell something and the boat ? 0.0580
+who must laura and the boat tell something ? 0.1219
+who were laura tell something and the boat ? 0.1474
+who were laura and the boat housing ? 0.2183
+what did laura tell something and the boat ? 0.4669
+what did laura and the boat tell something ? 0.3421
+what were laura housing and the boat ? 0.1502
+what were laura and the boat housing ? 0.1302
+who must anne turn and the pig ? 0.6264
+who must anne and the pig turn ? 0.0465
+who were anne turn and the pig ? 1.3378
+who were anne and the pig drawing ? 0.0192
+what did anne turn and the pig ? 0.1711
+what did anne and the pig turn ? 0.2060
+what were anne drawing and the pig ? 0.0420
+what were anne and the pig drawing ? 0.0129
+who must laura close and the dinosaur ? 0.0577
+who must laura and the dinosaur close ? 0.2064
+who were laura close and the dinosaur ? 0.2366
+who were laura and the dinosaur fishing ? 0.3527
+what did laura close and the dinosaur ? 0.4278
+what did laura and the dinosaur close ? 0.4866
+what were laura fishing and the dinosaur ? 0.5270
+what were laura and the dinosaur fishing ? 0.5473
+who must sarah turn and the dinosaur ? 0.0314
+who must sarah and the dinosaur turn ? 0.0979
+who were sarah turn and the dinosaur ? 0.3357
+who were sarah and the dinosaur calling ? 0.0230
+what did sarah turn and the dinosaur ? 0.1967
+what did sarah and the dinosaur turn ? 0.2052
+what were sarah calling and the dinosaur ? 0.2038
+what were sarah and the dinosaur calling ? 0.1406
+who must laura change and the doctor ? 0.0204
+who must laura and the doctor change ? 0.0352
+who were laura change and the doctor ? 0.0820
+who were laura and the doctor housing ? 0.4212
+what did laura change and the doctor ? 0.0341
+what did laura and the doctor change ? 0.0098
+what were laura housing and the doctor ? 0.2888
+what were laura and the doctor housing ? 0.2911
+who must sam tell something and the slave ? 1.3142
+who must sam and the slave tell something ? 0.4797
+who were sam tell something and the slave ? 0.6734
+who were sam and the slave turning ? 1.4642
+what did sam tell something and the slave ? 0.3891
+what did sam and the slave tell something ? 0.2666
+what were sam turning and the slave ? 1.7459
+what were sam and the slave turning ? 1.9995
+what were laura eating and the pig ? 0.0026
+what were laura and the pig eating ? 0.0011
+who must sam have and the pig ? 0.8399
+who must sam and the pig have ? 0.0661
+who were sam have and the pig ? 1.2560
+who were sam and the pig falling on ? 1.1673
+what did sam have and the pig ? 0.0752
+what did sam and the pig have ? 0.0283
+what were sam falling on and the pig ? 1.2014
+what were sam and the pig falling on ? 1.1021
+who must robert keep and the sister ? 0.0131
+who must robert and the sister keep ? 0.0263
+who were robert keep and the sister ? 0.2527
+who were robert and the sister trying ? 0.7284
+what did robert keep and the sister ? 0.0357
+what did robert and the sister keep ? 0.0088
+what were robert trying and the sister ? 0.2014
+what were robert and the sister trying ? 0.0603
+who were joseph present and the sister ? 0.0359
+who were joseph and the sister reaching for ? 0.0051
+what were joseph reaching for and the sister ? 0.0399
+what were joseph and the sister reaching for ? 0.0066
+who must laura present and the wolf ? 0.0314
+who must laura and the wolf present ? 0.0472
+who were laura present and the wolf ? 0.0384
+who were laura and the wolf thinking about ? 0.0018
+what did laura present and the wolf ? 0.1163
+what did laura and the wolf present ? 0.4042
+what were laura thinking about and the wolf ? 0.0030
+what were laura and the wolf thinking about ? 0.0015
+what did laura need and the dinosaur ? 0.0618
+what did laura and the dinosaur need ? 0.0100
+what were laura growing and the dinosaur ? 0.4201
+what were laura and the dinosaur growing ? 0.2820
+who must sam become and the wolf ? 0.0699
+who must sam and the wolf become ? 0.4868
+who were sam become and the wolf ? 1.3613
+who were sam and the wolf calling ? 0.6507
+what did sam become and the wolf ? 0.1329
+what did sam and the wolf become ? 0.1406
+what were sam calling and the wolf ? 1.2551
+what were sam and the wolf calling ? 1.0079
+who must laura become and the slave ? 0.0020
+who must laura and the slave become ? 0.0068
+who were laura become and the slave ? 0.2030
+who were laura and the slave fishing ? 0.3729
+what did laura become and the slave ? 0.0046
+what did laura and the slave become ? 0.0039
+what were laura fishing and the slave ? 0.2845
+what were laura and the slave fishing ? 0.4598
+what did chris become and the dinosaur ? 0.0101
+what did chris and the dinosaur become ? 0.0068
+what were chris eating and the dinosaur ? 0.0184
+what were chris and the dinosaur eating ? 0.0031
+who must chris tell something and the pig ? 0.0333
+who must chris and the pig tell something ? 0.1545
+who were chris tell something and the pig ? 0.1749
+who were chris and the pig calling ? 0.0160
+what did chris tell something and the pig ? 0.6048
+what did chris and the pig tell something ? 0.3905
+what were chris calling and the pig ? 0.1205
+what were chris and the pig calling ? 0.1603
+who must sarah change and the duke ? 0.0037
+who must sarah and the duke change ? 0.0967
+who were sarah change and the duke ? 0.1317
+who were sarah and the duke covering ? 0.0214
+what did sarah change and the duke ? 0.0275
+what did sarah and the duke change ? 0.0114
+what were sarah covering and the duke ? 0.1669
+what were sarah and the duke covering ? 0.0182
+what were sarah eating and the doctor ? 0.0020
+what were sarah and the doctor eating ? 0.0010
+who must allen turn and the duke ? 0.0083
+who must allen and the duke turn ? 0.0122
+who were allen turn and the duke ? 0.5646
+who were allen and the duke sleeping in ? 0.0166
+what did allen turn and the duke ? 0.1219
+what did allen and the duke turn ? 0.2167
+what were allen sleeping in and the duke ? 0.0179
+what were allen and the duke sleeping in ? 0.0258
+who must joseph turn and the duke ? 0.0050
+who must joseph and the duke turn ? 0.0236
+who were joseph turn and the duke ? 0.0423
+who were joseph and the duke cutting ? 0.5481
+what did joseph turn and the duke ? 0.1640
+what did joseph and the duke turn ? 0.1684
+what were joseph cutting and the duke ? 0.5302
+what were joseph and the duke cutting ? 0.4344
+who must laura tell something and the slave ? 0.0179
+who must laura and the slave tell something ? 0.0681
+who were laura tell something and the slave ? 0.0819
+who were laura and the slave housing ? 0.2455
+what did laura tell something and the slave ? 0.3339
+what did laura and the slave tell something ? 0.2382
+what were laura housing and the slave ? 0.2454
+what were laura and the slave housing ? 0.1075
+who must sam change and the duke ? 1.5818
+who must sam and the duke change ? 0.8325
+who were sam change and the duke ? 1.0160
+who were sam and the duke calling ? 0.4257
+what did sam change and the duke ? 0.2742
+what did sam and the duke change ? 0.0200
+who must robert present and the boat ? 0.0097
+who must robert and the boat present ? 0.0184
+who were robert present and the boat ? 0.0255
+who were robert and the boat falling on ? 0.0103
+what did robert present and the boat ? 0.0382
+what did robert and the boat present ? 0.1087
+what were robert falling on and the boat ? 0.0234
+what were robert and the boat falling on ? 0.0083
+who must william have and the pig ? 0.0143
+who must william and the pig have ? 0.0295
+who were william have and the pig ? 0.1379
+who were william and the pig growing ? 0.0638
+what did william have and the pig ? 0.0231
+what did william and the pig have ? 0.0080
+what were william growing and the pig ? 0.3661
+what were william and the pig growing ? 0.0329
+who must sam close and the slave ? 1.4114
+who must sam and the slave close ? 1.1164
+who were sam close and the slave ? 1.2042
+who were sam and the slave taking ? 1.4101
+what did sam close and the slave ? 1.0916
+what did sam and the slave close ? 0.4364
+what were sam taking and the slave ? 1.3415
+what were sam and the slave taking ? 1.1166
+who must laura close and the pig ? 0.0348
+who must laura and the pig close ? 0.0901
+who were laura close and the pig ? 0.0405
+who were laura and the pig housing ? 0.4721
+what did laura close and the pig ? 0.3117
+what did laura and the pig close ? 0.3385
+what were laura housing and the pig ? 0.2721
+what were laura and the pig housing ? 0.1911
+who must anne work for and the doctor ? 0.0077
+who must anne and the doctor work for ? 0.0043
+who were anne work for and the doctor ? 0.2241
+who were anne and the doctor reaching for ? 0.0049
+what did anne work for and the doctor ? 0.0060
+what did anne and the doctor work for ? 0.0026
+what were anne reaching for and the doctor ? 0.0494
+what were anne and the doctor reaching for ? 0.0033
+who must sarah become and the sister ? 0.0031
+who must sarah and the sister become ? 0.0055
+who were sarah become and the sister ? 0.2277
+who were sarah and the sister taking ? 0.3670
+what did sarah become and the sister ? 0.0063
+what did sarah and the sister become ? 0.0068
+what were sarah taking and the sister ? 0.1941
+what were sarah and the sister taking ? 0.1052
+who must robert tell something and the pig ? 0.0452
+who must robert and the pig tell something ? 0.1905
+who were robert tell something and the pig ? 0.1353
+who were robert and the pig testing ? 0.1869
+what did robert tell something and the pig ? 0.5371
+what did robert and the pig tell something ? 0.3321
+what were robert testing and the pig ? 0.0600
+what were robert and the pig testing ? 0.1245
+who must william become and the boat ? 0.0204
+who must william and the boat become ? 0.0143
+who were william become and the boat ? 0.1305
+who were william and the boat cutting ? 0.4376
+what did william become and the boat ? 0.0855
+what did william and the boat become ? 0.0057
+what were william cutting and the boat ? 0.5348
+what were william and the boat cutting ? 0.3015
+who must sarah become and the boat ? 0.0094
+who must sarah and the boat become ? 0.0093
+who were sarah become and the boat ? 0.2974
+who were sarah and the boat calling ? 0.0157
+what did sarah become and the boat ? 0.0075
+what did sarah and the boat become ? 0.0041
+what were sarah calling and the boat ? 0.1263
+what were sarah and the boat calling ? 0.0971
+who must michael become and the dinosaur ? 0.0108
+who must michael and the dinosaur become ? 0.0076
+who were michael become and the dinosaur ? 0.4322
+who were michael and the dinosaur falling on ? 0.0101
+what did michael become and the dinosaur ? 0.0127
+what did michael and the dinosaur become ? 0.0043
+what were michael falling on and the dinosaur ? 0.0160
+what were michael and the dinosaur falling on ? 0.0079
+who must joseph become and the doctor ? 0.0024
+who must joseph and the doctor become ? 0.0064
+who were joseph become and the doctor ? 0.7449
+who were joseph and the doctor testing ? 0.0070
+what did joseph become and the doctor ? 0.0031
+what did joseph and the doctor become ? 0.0033
+what were joseph testing and the doctor ? 0.0820
+what were joseph and the doctor testing ? 0.0039
+who must michael tell something and the sister ? 0.0174
+who must michael and the sister tell something ? 0.0263
+who were michael tell something and the sister ? 0.0714
+who were michael and the sister fishing ? 0.0188
+what did michael tell something and the sister ? 0.4211
+what did michael and the sister tell something ? 0.3358
+what were michael fishing and the sister ? 0.2265
+what were michael and the sister fishing ? 0.0292
+who must william have and the duke ? 0.0399
+who must william and the duke have ? 0.0323
+who were william have and the duke ? 0.1559
+who were william and the duke cutting ? 0.2905
+what did william have and the duke ? 0.0249
+what did william and the duke have ? 0.0125
+what were william cutting and the duke ? 0.8841
+what were william and the duke cutting ? 0.1910
+who were william turn and the dinosaur ? 0.3318
+who were william and the dinosaur talking about ? 0.0033
+what were william talking about and the dinosaur ? 0.3145
+what were william and the dinosaur talking about ? 0.0053
+who were laura become and the slave ? 0.2030
+who were laura and the slave talking about ? 0.0019
+what were laura talking about and the slave ? 0.0022
+what were laura and the slave talking about ? 0.0014
+what did joseph become and the dinosaur ? 0.0057
+what did joseph and the dinosaur become ? 0.0047
+what were joseph saying and the dinosaur ? 0.0322
+what were joseph and the dinosaur saying ? 0.0032
+who must sarah close and the duke ? 0.0107
+who must sarah and the duke close ? 0.1192
+who were sarah close and the duke ? 0.0405
+who were sarah and the duke cutting ? 0.6045
+what did sarah close and the duke ? 0.1208
+what did sarah and the duke close ? 0.3739
+what were sarah cutting and the duke ? 0.8191
+what were sarah and the duke cutting ? 0.6820
+what did sam need and the dinosaur ? 0.4809
+what did sam and the dinosaur need ? 0.3631
+what were sam falling on and the dinosaur ? 1.3811
+what were sam and the dinosaur falling on ? 1.2266
+who were michael turn and the sister ? 0.0087
+who were michael and the sister looking for ? 0.0020
+what were michael looking for and the sister ? 0.0134
+what were michael and the sister looking for ? 0.0025
+who must michael change and the doctor ? 0.0064
+who must michael and the doctor change ? 0.0123
+who were michael change and the doctor ? 0.0029
+who were michael and the doctor drawing ? 0.0039
+what did michael change and the doctor ? 0.0404
+what did michael and the doctor change ? 0.0113
+what were michael drawing and the doctor ? 0.0036
+what were michael and the doctor drawing ? 0.0013
+who must sarah present and the duke ? 0.0079
+who must sarah and the duke present ? 0.0345
+who were sarah present and the duke ? 0.0239
+who were sarah and the duke sleeping in ? 0.0135
+what did sarah present and the duke ? 0.0811
+what did sarah and the duke present ? 0.2369
+what were sarah sleeping in and the duke ? 0.0210
+what were sarah and the duke sleeping in ? 0.0303
+who must joseph have and the doctor ? 0.0051
+who must joseph and the doctor have ? 0.0136
+who were joseph have and the doctor ? 0.7077
+who were joseph and the doctor fishing ? 0.0073
+what did joseph have and the doctor ? 0.0053
+what did joseph and the doctor have ? 0.0049
+what were joseph fishing and the doctor ? 0.0982
+what were joseph and the doctor fishing ? 0.0082
+who must sarah turn and the slave ? 0.0146
+who must sarah and the slave turn ? 0.0517
+what did sarah turn and the slave ? 0.2465
+what did sarah and the slave turn ? 0.2555
+who must allen close and the pig ? 0.0231
+who must allen and the pig close ? 0.0253
+who were allen close and the pig ? 0.0217
+who were allen and the pig turning ? 0.1845
+what did allen close and the pig ? 0.1393
+what did allen and the pig close ? 0.4049
+what were allen turning and the pig ? 0.6940
+what were allen and the pig turning ? 0.3212
+what did michael need and the boat ? 0.0034
+what did michael and the boat need ? 0.0022
+what were michael reaching for and the boat ? 0.0040
+what were michael and the boat reaching for ? 0.0020
+who must laura become and the duke ? 0.0028
+who must laura and the duke become ? 0.0063
+who were laura become and the duke ? 0.3384
+who were laura and the duke cutting ? 0.6326
+what did laura become and the duke ? 0.0060
+what did laura and the duke become ? 0.0068
+what were laura cutting and the duke ? 0.7058
+what were laura and the duke cutting ? 0.7369
+what did william tell and the dinosaur ? 0.1455
+what did william and the dinosaur tell ? 0.0145
+what were william saying and the dinosaur ? 0.3215
+what were william and the dinosaur saying ? 0.0066
+who must william change and the pig ? 0.3281
+who must william and the pig change ? 0.0259
+what did william change and the pig ? 0.1134
+what did william and the pig change ? 0.0360
+who must allen tell something and the pig ? 0.0172
+who must allen and the pig tell something ? 0.0567
+who were allen tell something and the pig ? 0.1415
+who were allen and the pig taking ? 0.0433
+what did allen tell something and the pig ? 0.3658
+what did allen and the pig tell something ? 0.2145
+what were allen taking and the pig ? 0.0336
+what were allen and the pig taking ? 0.0687
+who must joseph tell something and the pig ? 0.0192
+who must joseph and the pig tell something ? 0.1017
+who were joseph tell something and the pig ? 0.0943
+who were joseph and the pig reaching for ? 0.0039
+what did joseph tell something and the pig ? 0.4747
+what did joseph and the pig tell something ? 0.3099
+what were joseph reaching for and the pig ? 0.0034
+what were joseph and the pig reaching for ? 0.0021
+who must allen work for and the pig ? 0.0064
+who must allen and the pig work for ? 0.0061
+who were allen work for and the pig ? 0.0368
+who were allen and the pig testing ? 0.0917
+what did allen work for and the pig ? 0.0235
+what did allen and the pig work for ? 0.0046
+what were allen testing and the pig ? 0.0801
+what were allen and the pig testing ? 0.1862
+who must robert keep and the wolf ? 0.0159
+who must robert and the wolf keep ? 0.0392
+who were robert keep and the wolf ? 0.1967
+who were robert and the wolf housing ? 0.6806
+what did robert keep and the wolf ? 0.0159
+what did robert and the wolf keep ? 0.0229
+what were robert housing and the wolf ? 0.7079
+what were robert and the wolf housing ? 0.5161
+who must michael have and the duke ? 0.0052
+who must michael and the duke have ? 0.0175
+who were michael have and the duke ? 0.4056
+who were michael and the duke running to ? 0.0033
+what did michael have and the duke ? 0.0067
+what did michael and the duke have ? 0.0024
+what were michael running to and the duke ? 0.0023
+what were michael and the duke running to ? 0.0026
+what were michael calling and the boat ? 0.0887
+what were michael and the boat calling ? 0.0967
+who must sam work for and the dinosaur ? 1.3076
+who must sam and the dinosaur work for ? 0.9704
+who were sam work for and the dinosaur ? 1.4913
+who were sam and the dinosaur housing ? 1.8540
+what did sam work for and the dinosaur ? 0.6919
+what did sam and the dinosaur work for ? 0.3510
+what were sam housing and the dinosaur ? 1.7696
+what were sam and the dinosaur housing ? 1.6469
+who must anne have and the sister ? 0.0106
+who must anne and the sister have ? 0.0154
+who were anne have and the sister ? 1.3259
+who were anne and the sister covering ? 1.0958
+what did anne have and the sister ? 0.0209
+what did anne and the sister have ? 0.0042
+what were anne covering and the sister ? 1.1242
+what were anne and the sister covering ? 0.8711
+who must sam turn and the duke ? 1.2780
+who must sam and the duke turn ? 0.8968
+who were sam turn and the duke ? 0.8286
+who were sam and the duke looking for ? 0.4794
+what did sam turn and the duke ? 0.4103
+what did sam and the duke turn ? 0.2550
+what were sam looking for and the duke ? 1.3464
+what were sam and the duke looking for ? 0.5650
+who must sam turn and the dinosaur ? 1.4536
+who must sam and the dinosaur turn ? 1.0139
+who were sam turn and the dinosaur ? 1.4001
+who were sam and the dinosaur turning ? 1.9564
+what did sam turn and the dinosaur ? 0.7968
+what did sam and the dinosaur turn ? 0.7259
+what were sam turning and the dinosaur ? 1.6647
+what were sam and the dinosaur turning ? 1.9088
+what did william close and the boat ? 0.0987
+what did william and the boat close ? 0.1492
+what were william saying and the boat ? 0.1874
+what were william and the boat saying ? 0.0067
+who must laura work for and the dinosaur ? 0.0181
+who must laura and the dinosaur work for ? 0.0099
+who were laura work for and the dinosaur ? 0.0760
+who were laura and the dinosaur cutting ? 1.0911
+what did laura work for and the dinosaur ? 0.0306
+what did laura and the dinosaur work for ? 0.0038
+what were laura cutting and the dinosaur ? 1.0095
+what were laura and the dinosaur cutting ? 1.1626
+what did laura need and the sister ? 0.0621
+what did laura and the sister need ? 0.0143
+what were laura eating and the sister ? 0.0706
+what were laura and the sister eating ? 0.0032
+who must allen have and the slave ? 0.0044
+who must allen and the slave have ? 0.0266
+who were allen have and the slave ? 0.3292
+who were allen and the slave covering ? 0.6282
+what did allen have and the slave ? 0.0076
+what did allen and the slave have ? 0.0046
+what were allen covering and the slave ? 0.2984
+what were allen and the slave covering ? 0.7708
+who were chris present and the pig ? 0.0161
+who were chris and the pig taking ? 0.1047
+what were chris taking and the pig ? 0.0333
+what were chris and the pig taking ? 0.0914
+who were william tell something and the boat ? 0.1700
+who were william and the boat looking for ? 0.0020
+what were william looking for and the boat ? 0.2228
+what were william and the boat looking for ? 0.0021
+who must anne change and the duke ? 0.4713
+who must anne and the duke change ? 0.0547
+who were anne change and the duke ? 1.3160
+who were anne and the duke falling on ? 0.0072
+what did anne change and the duke ? 0.0306
+what did anne and the duke change ? 0.0176
+what were anne falling on and the duke ? 0.4954
+what were anne and the duke falling on ? 0.0054
+what did william turn and the boat ? 0.1105
+what did william and the boat turn ? 0.0892
+who must laura tell something and the duke ? 0.0328
+who must laura and the duke tell something ? 0.0794
+who were laura tell something and the duke ? 0.0843
+who were laura and the duke testing ? 0.0703
+what did laura tell something and the duke ? 0.4015
+what did laura and the duke tell something ? 0.3873
+what were laura testing and the duke ? 0.0501
+what were laura and the duke testing ? 0.0278
+who must anne have and the pig ? 0.0332
+who must anne and the pig have ? 0.0314
+who were anne have and the pig ? 1.3357
+who were anne and the pig trying ? 0.0552
+what did anne have and the pig ? 0.0061
+what did anne and the pig have ? 0.0036
+what were anne trying and the pig ? 0.1661
+what were anne and the pig trying ? 0.0104
+what did william close and the duke ? 0.1298
+what did william and the duke close ? 0.3284
+what were william saying and the duke ? 0.1274
+what were william and the duke saying ? 0.0016
+who must michael turn and the boat ? 0.0344
+who must michael and the boat turn ? 0.1037
+who were michael turn and the boat ? 0.0053
+who were michael and the boat growing ? 0.6395
+what did michael turn and the boat ? 0.3233
+what did michael and the boat turn ? 0.1862
+what were michael growing and the boat ? 0.3581
+what were michael and the boat growing ? 0.1978
+who must william present and the sister ? 0.2789
+who must william and the sister present ? 0.0231
+who were william present and the sister ? 0.0245
+who were william and the sister covering ? 1.1210
+what did william present and the sister ? 0.0694
+what did william and the sister present ? 0.0792
+what were william covering and the sister ? 0.5395
+what were william and the sister covering ? 0.9930
+who must chris turn and the pig ? 0.0171
+who must chris and the pig turn ? 0.0555
+who were chris turn and the pig ? 0.0024
+who were chris and the pig sleeping in ? 0.0179
+what did chris turn and the pig ? 0.2736
+what did chris and the pig turn ? 0.2305
+what were chris sleeping in and the pig ? 0.0159
+what were chris and the pig sleeping in ? 0.0300
+who must laura become and the pig ? 0.0079
+who must laura and the pig become ? 0.0074
+who were laura become and the pig ? 0.2545
+who were laura and the pig running to ? 0.0063
+what did laura become and the pig ? 0.0214
+what did laura and the pig become ? 0.0074
+what were laura running to and the pig ? 0.0033
+what were laura and the pig running to ? 0.0021
+who must michael tell something and the slave ? 0.0111
+who must michael and the slave tell something ? 0.0610
+who were michael tell something and the slave ? 0.0893
+who were michael and the slave testing ? 0.7411
+what did michael tell something and the slave ? 0.4297
+what did michael and the slave tell something ? 0.2280
+what were michael testing and the slave ? 0.0979
+what were michael and the slave testing ? 0.2914
+who were sam have and the pig ? 1.2560
+who were sam and the pig turning ? 1.2068
+what were sam turning and the pig ? 1.2430
+what were sam and the pig turning ? 1.4305
+who must robert become and the doctor ? 0.0030
+who must robert and the doctor become ? 0.0077
+who were robert become and the doctor ? 0.7068
+who were robert and the doctor falling on ? 0.0048
+what did robert become and the doctor ? 0.0065
+what did robert and the doctor become ? 0.0053
+what were robert falling on and the doctor ? 0.0168
+what were robert and the doctor falling on ? 0.0038
+who must joseph work for and the boat ? 0.0071
+who must joseph and the boat work for ? 0.0044
+who were joseph work for and the boat ? 0.0206
+who were joseph and the boat looking for ? 0.0017
+what did joseph work for and the boat ? 0.0034
+what did joseph and the boat work for ? 0.0026
+what were joseph looking for and the boat ? 0.0013
+what were joseph and the boat looking for ? 0.0012
+who were michael change and the sister ? 0.0104
+who were michael and the sister testing ? 0.3759
+what were michael testing and the sister ? 0.2527
+what were michael and the sister testing ? 0.0211
+who must sam tell something and the wolf ? 1.3633
+who must sam and the wolf tell something ? 0.8511
+who were sam tell something and the wolf ? 1.2204
+who were sam and the wolf sleeping in ? 0.8767
+what did sam tell something and the wolf ? 0.4784
+what did sam and the wolf tell something ? 0.3023
+what were sam sleeping in and the wolf ? 0.8632
+what were sam and the wolf sleeping in ? 0.9652
+what did michael present and the pig ? 0.0850
+what did michael and the pig present ? 0.2529
+what were michael saying and the pig ? 0.0056
+what were michael and the pig saying ? 0.0015
+who must michael become and the sister ? 0.0106
+who must michael and the sister become ? 0.0094
+who were michael become and the sister ? 0.2545
+who were michael and the sister cutting ? 1.0090
+what did michael become and the sister ? 0.0266
+what did michael and the sister become ? 0.0066
+what were michael cutting and the sister ? 0.2475
+what were michael and the sister cutting ? 0.1523
+who must sam present and the doctor ? 1.8098
+who must sam and the doctor present ? 1.2232
+who were sam present and the doctor ? 1.7172
+who were sam and the doctor thinking about ? 0.7774
+what did sam present and the doctor ? 0.4244
+what did sam and the doctor present ? 0.2316
+what were sam thinking about and the doctor ? 1.0725
+what were sam and the doctor thinking about ? 0.9744
+who must sam keep and the boat ? 0.7149
+who must sam and the boat keep ? 0.4429
+who were sam keep and the boat ? 1.4575
+who were sam and the boat growing ? 1.2376
+what did sam keep and the boat ? 0.1210
+what did sam and the boat keep ? 0.0360
+what were sam growing and the boat ? 1.2481
+what were sam and the boat growing ? 1.2884
+who must anne become and the sister ? 0.0336
+who must anne and the sister become ? 0.0070
+what did anne become and the sister ? 0.0145
+what did anne and the sister become ? 0.0073
+who must laura tell something and the doctor ? 0.0623
+who must laura and the doctor tell something ? 0.1082
+who were laura tell something and the doctor ? 0.0925
+who were laura and the doctor reaching for ? 0.0027
+what did laura tell something and the doctor ? 0.5934
+what did laura and the doctor tell something ? 0.5138
+what were laura reaching for and the doctor ? 0.0028
+what were laura and the doctor reaching for ? 0.0018
+who were sam become and the pig ? 1.3877
+who were sam and the pig talking about ? 0.1245
+what were sam talking about and the pig ? 1.4120
+what were sam and the pig talking about ? 0.5039
+who must anne become and the pig ? 0.0355
+who must anne and the pig become ? 0.0131
+who were anne become and the pig ? 1.8768
+who were anne and the pig looking for ? 0.0033
+what did anne become and the pig ? 0.0213
+what did anne and the pig become ? 0.0093
+what were anne looking for and the pig ? 0.0035
+what were anne and the pig looking for ? 0.0027
+who were laura close and the sister ? 0.0150
+who were laura and the sister fishing ? 0.1871
+what were laura fishing and the sister ? 0.1670
+what were laura and the sister fishing ? 0.0426
+what did william need and the wolf ? 0.1257
+what did william and the wolf need ? 0.0193
+what were william falling on and the wolf ? 0.2754
+what were william and the wolf falling on ? 0.0138
+who were joseph present and the duke ? 0.1152
+who were joseph and the duke talking about ? 0.0010
+what were joseph talking about and the duke ? 0.0017
+what were joseph and the duke talking about ? 0.0012
+who were chris change and the dinosaur ? 0.0127
+who were chris and the dinosaur reaching for ? 0.0092
+what were chris reaching for and the dinosaur ? 0.0273
+what were chris and the dinosaur reaching for ? 0.0062
+who must sarah change and the wolf ? 0.0062
+who must sarah and the wolf change ? 0.1586
+who were sarah change and the wolf ? 0.1084
+who were sarah and the wolf thinking about ? 0.0014
+what did sarah change and the wolf ? 0.0194
+what did sarah and the wolf change ? 0.0149
+what were sarah thinking about and the wolf ? 0.0037
+what were sarah and the wolf thinking about ? 0.0012
+who must chris become and the duke ? 0.0028
+who must chris and the duke become ? 0.0066
+who were chris become and the duke ? 0.3408
+who were chris and the duke growing ? 0.6239
+what did chris become and the duke ? 0.0043
+what did chris and the duke become ? 0.0081
+what were chris growing and the duke ? 0.5255
+what were chris and the duke growing ? 0.3805
+who must joseph close and the doctor ? 0.0318
+who must joseph and the doctor close ? 0.0839
+what did joseph close and the doctor ? 0.3825
+what did joseph and the doctor close ? 0.5256
+who must william close and the duke ? 0.2062
+who must william and the duke close ? 0.0427
+who were william close and the duke ? 0.6036
+who were william and the duke calling ? 0.0074
+what were william calling and the duke ? 0.2658
+what were william and the duke calling ? 0.1661
+who must laura close and the duke ? 0.0281
+who must laura and the duke close ? 0.0919
+who were laura close and the duke ? 0.0239
+who were laura and the duke calling ? 0.0086
+what did laura close and the duke ? 0.1371
+what did laura and the duke close ? 0.3185
+what were laura calling and the duke ? 0.1025
+what were laura and the duke calling ? 0.1983
+who were sam work for and the boat ? 1.3662
+who were sam and the boat housing ? 1.7268
+what were sam housing and the boat ? 1.9660
+what were sam and the boat housing ? 1.5037
+who were chris turn and the doctor ? 0.0018
+who were chris and the doctor calling ? 0.0024
+what were chris calling and the doctor ? 0.0480
+what were chris and the doctor calling ? 0.0523
+who must joseph work for and the doctor ? 0.0024
+who must joseph and the doctor work for ? 0.0025
+what did joseph work for and the doctor ? 0.0030
+what did joseph and the doctor work for ? 0.0009
+what did robert need and the slave ? 0.0228
+what did robert and the slave need ? 0.0272
+what were robert falling on and the slave ? 0.0457
+what were robert and the slave falling on ? 0.0171
+who must joseph become and the wolf ? 0.0031
+who must joseph and the wolf become ? 0.0073
+who were joseph become and the wolf ? 0.6720
+who were joseph and the wolf sleeping in ? 0.0090
+what did joseph become and the wolf ? 0.0040
+what did joseph and the wolf become ? 0.0058
+what were joseph sleeping in and the wolf ? 0.0144
+what were joseph and the wolf sleeping in ? 0.0310
+who must sarah have and the sister ? 0.0062
+who must sarah and the sister have ? 0.0096
+who were sarah have and the sister ? 0.2711
+who were sarah and the sister cutting ? 1.1186
+what did sarah have and the sister ? 0.0296
+what did sarah and the sister have ? 0.0037
+what were sarah cutting and the sister ? 0.7698
+what were sarah and the sister cutting ? 0.9306
+what did allen keep and the doctor ? 0.0421
+what did allen and the doctor keep ? 0.0363
+what were allen saying and the doctor ? 0.0072
+what were allen and the doctor saying ? 0.0040
+who must michael present and the boat ? 0.0093
+who must michael and the boat present ? 0.0160
+who were michael present and the boat ? 0.0427
+who were michael and the boat looking for ? 0.0020
+what did michael present and the boat ? 0.0576
+what did michael and the boat present ? 0.1711
+what were michael looking for and the boat ? 0.0014
+what were michael and the boat looking for ? 0.0013
+who must sam change and the boat ? 1.4687
+who must sam and the boat change ? 0.7240
+what did sam change and the boat ? 0.7113
+what did sam and the boat change ? 0.0354
+who were sam become and the pig ? 1.3877
+who were sam and the pig looking for ? 0.4717
+what were sam looking for and the pig ? 1.5785
+what were sam and the pig looking for ? 0.7538
+who must chris have and the slave ? 0.0070
+who must chris and the slave have ? 0.0190
+who were chris have and the slave ? 0.1543
+who were chris and the slave looking for ? 0.0047
+what did chris have and the slave ? 0.0148
+what did chris and the slave have ? 0.0063
+what were chris looking for and the slave ? 0.0120
+what were chris and the slave looking for ? 0.0024
+who must anne close and the doctor ? 0.5453
+who must anne and the doctor close ? 0.0471
+who were anne close and the doctor ? 0.7414
+who were anne and the doctor taking ? 0.0517
+what did anne close and the doctor ? 0.6916
+what did anne and the doctor close ? 0.3757
+what were anne taking and the doctor ? 0.4438
+what were anne and the doctor taking ? 0.0078
+who must robert have and the boat ? 0.0067
+who must robert and the boat have ? 0.0167
+what did robert have and the boat ? 0.0024
+what did robert and the boat have ? 0.0042
+who must joseph keep and the sister ? 0.0118
+who must joseph and the sister keep ? 0.0370
+who were joseph keep and the sister ? 0.8120
+who were joseph and the sister fishing ? 0.0257
+what did joseph keep and the sister ? 0.0245
+what did joseph and the sister keep ? 0.0122
+what were joseph fishing and the sister ? 0.1897
+what were joseph and the sister fishing ? 0.0220
+who must chris work for and the sister ? 0.0249
+who must chris and the sister work for ? 0.0048
+who were chris work for and the sister ? 0.0283
+who were chris and the sister drawing ? 0.0098
+what did chris work for and the sister ? 0.2021
+what did chris and the sister work for ? 0.0061
+what were chris drawing and the sister ? 0.0611
+what were chris and the sister drawing ? 0.0039
+who must chris close and the boat ? 0.0149
+who must chris and the boat close ? 0.0458
+who were chris close and the boat ? 0.1072
+who were chris and the boat running to ? 0.0070
+what did chris close and the boat ? 0.1016
+what did chris and the boat close ? 0.3447
+what were chris running to and the boat ? 0.0167
+what were chris and the boat running to ? 0.0029
+who must william change and the boat ? 0.3675
+who must william and the boat change ? 0.0337
+what did william change and the boat ? 0.1192
+what did william and the boat change ? 0.0354
+who must william keep and the duke ? 0.1201
+who must william and the duke keep ? 0.0153
+who were william keep and the duke ? 0.4154
+who were william and the duke covering ? 0.3747
+what did william keep and the duke ? 0.0532
+what did william and the duke keep ? 0.0278
+what were william covering and the duke ? 0.4951
+what were william and the duke covering ? 0.0523
+who were chris change and the dinosaur ? 0.0127
+who were chris and the dinosaur cutting ? 0.7069
+what were chris cutting and the dinosaur ? 0.1537
+what were chris and the dinosaur cutting ? 0.6614
+who must robert close and the doctor ? 0.0578
+who must robert and the doctor close ? 0.0801
+who were robert close and the doctor ? 0.0983
+who were robert and the doctor talking about ? 0.0012
+what did robert close and the doctor ? 0.3955
+what did robert and the doctor close ? 0.4126
+what were robert talking about and the doctor ? 0.0020
+what were robert and the doctor talking about ? 0.0012
+who must sam close and the pig ? 1.5883
+who must sam and the pig close ? 0.9727
+what did sam close and the pig ? 0.5636
+what did sam and the pig close ? 0.4005
+what did william need and the dinosaur ? 0.2781
+what did william and the dinosaur need ? 0.0274
+what were william eating and the dinosaur ? 0.3255
+what were william and the dinosaur eating ? 0.0194
+what did sam have and the boat ? 0.0602
+what did sam and the boat have ? 0.0112
+what were sam eating and the boat ? 1.3627
+what were sam and the boat eating ? 0.7954
+who must sarah turn and the duke ? 0.0089
+who must sarah and the duke turn ? 0.0316
+who were sarah turn and the duke ? 0.1792
+who were sarah and the duke falling on ? 0.0084
+what did sarah turn and the duke ? 0.2665
+what did sarah and the duke turn ? 0.2265
+what were sarah falling on and the duke ? 0.0207
+what were sarah and the duke falling on ? 0.0281
+who must anne tell something and the doctor ? 0.0860
+who must anne and the doctor tell something ? 0.0789
+who were anne tell something and the doctor ? 0.1717
+who were anne and the doctor thinking about ? 0.0022
+what did anne tell something and the doctor ? 0.4016
+what did anne and the doctor tell something ? 0.2267
+what were anne thinking about and the doctor ? 0.0041
+what were anne and the doctor thinking about ? 0.0024
+who must laura turn and the dinosaur ? 0.0525
+who must laura and the dinosaur turn ? 0.1326
+who were laura turn and the dinosaur ? 1.1211
+who were laura and the dinosaur growing ? 0.3186
+what did laura turn and the dinosaur ? 0.1517
+what did laura and the dinosaur turn ? 0.3236
+who must michael have and the boat ? 0.0051
+who must michael and the boat have ? 0.0117
+who were michael have and the boat ? 0.2201
+who were michael and the boat drawing ? 0.0294
+what did michael have and the boat ? 0.0018
+what did michael and the boat have ? 0.0034
+what were michael drawing and the boat ? 0.0026
+what were michael and the boat drawing ? 0.0281
+who must michael present and the wolf ? 0.0419
+who must michael and the wolf present ? 0.0332
+who were michael present and the wolf ? 0.1206
+who were michael and the wolf taking ? 0.1578
+what did michael present and the wolf ? 0.1604
+what did michael and the wolf present ? 0.4211
+what were michael taking and the wolf ? 0.1262
+what were michael and the wolf taking ? 0.0982
+what were joseph eating and the slave ? 0.0395
+what were joseph and the slave eating ? 0.0015
+who were anne tell something and the doctor ? 0.1717
+who were anne and the doctor turning ? 0.2504
+what were anne turning and the doctor ? 1.4674
+what were anne and the doctor turning ? 0.5174
+who must joseph keep and the boat ? 0.0112
+who must joseph and the boat keep ? 0.0392
+who were joseph keep and the boat ? 0.6984
+who were joseph and the boat reaching for ? 0.0045
+what did joseph keep and the boat ? 0.0052
+what did joseph and the boat keep ? 0.0201
+what were joseph reaching for and the boat ? 0.0030
+what were joseph and the boat reaching for ? 0.0020
+who were sam work for and the dinosaur ? 1.4913
+who were sam and the dinosaur drawing ? 1.3022
+what were sam drawing and the dinosaur ? 0.6005
+what were sam and the dinosaur drawing ? 1.0099
+who must sam tell something and the duke ? 1.2746
+who must sam and the duke tell something ? 0.7865
+who were sam tell something and the duke ? 0.9003
+who were sam and the duke testing ? 0.4327
+what did sam tell something and the duke ? 0.4229
+what did sam and the duke tell something ? 0.3502
+what were sam testing and the duke ? 0.5846
+what were sam and the duke testing ? 0.6059
+who must robert work for and the duke ? 0.0016
+who must robert and the duke work for ? 0.0021
+who were robert work for and the duke ? 0.0065
+who were robert and the duke sleeping in ? 0.0115
+what did robert work for and the duke ? 0.0023
+what did robert and the duke work for ? 0.0014
+what were robert sleeping in and the duke ? 0.0187
+what were robert and the duke sleeping in ? 0.0316
+who must chris become and the boat ? 0.0103
+who must chris and the boat become ? 0.0106
+who were chris become and the boat ? 0.4243
+who were chris and the boat reaching for ? 0.0040
+what did chris become and the boat ? 0.0090
+what did chris and the boat become ? 0.0039
+what were chris reaching for and the boat ? 0.0039
+what were chris and the boat reaching for ? 0.0020
+who must michael close and the pig ? 0.0135
+who must michael and the pig close ? 0.0661
+who were michael close and the pig ? 0.1952
+who were michael and the pig falling on ? 0.0051
+what did michael close and the pig ? 0.2470
+what did michael and the pig close ? 0.4173
+what were michael falling on and the pig ? 0.0199
+what were michael and the pig falling on ? 0.0032
+who were joseph tell something and the pig ? 0.0943
+who were joseph and the pig drawing ? 0.0063
+what were joseph drawing and the pig ? 0.0040
+what were joseph and the pig drawing ? 0.0064
+who must allen become and the duke ? 0.0028
+who must allen and the duke become ? 0.0053
+who were allen become and the duke ? 0.4518
+who were allen and the duke taking ? 0.0389
+what did allen become and the duke ? 0.0076
+what did allen and the duke become ? 0.0094
+what were allen taking and the duke ? 0.1751
+what were allen and the duke taking ? 0.0583
+what did laura turn and the wolf ? 0.1274
+what did laura and the wolf turn ? 0.2509
+what were laura saying and the wolf ? 0.0041
+what were laura and the wolf saying ? 0.0014
+who must robert have and the wolf ? 0.0109
+who must robert and the wolf have ? 0.0296
+what did robert have and the wolf ? 0.0175
+what did robert and the wolf have ? 0.0040
+who were joseph work for and the duke ? 0.0130
+who were joseph and the duke turning ? 0.1776
+what were joseph turning and the duke ? 0.5111
+what were joseph and the duke turning ? 0.4257
+who must anne work for and the dinosaur ? 0.0297
+who must anne and the dinosaur work for ? 0.0167
+who were anne work for and the dinosaur ? 0.3957
+who were anne and the dinosaur testing ? 0.2382
+what did anne work for and the dinosaur ? 0.0274
+what did anne and the dinosaur work for ? 0.0178
+what were anne testing and the dinosaur ? 0.6287
+what were anne and the dinosaur testing ? 0.1980
+who were joseph tell something and the boat ? 0.1039
+who were joseph and the boat growing ? 0.2802
+what were joseph growing and the boat ? 0.2807
+what were joseph and the boat growing ? 0.1049
+who must sarah keep and the dinosaur ? 0.0151
+who must sarah and the dinosaur keep ? 0.0594
+what did sarah keep and the dinosaur ? 0.0174
+what did sarah and the dinosaur keep ? 0.0414
+who must william turn and the doctor ? 0.0526
+who must william and the doctor turn ? 0.0570
+who were william turn and the doctor ? 0.3690
+who were william and the doctor running to ? 0.0051
+what did william turn and the doctor ? 0.4209
+what did william and the doctor turn ? 0.3039
+what were william running to and the doctor ? 0.4873
+what were william and the doctor running to ? 0.0045
+who must allen close and the doctor ? 0.0176
+who must allen and the doctor close ? 0.0237
+who were allen close and the doctor ? 0.0151
+who were allen and the doctor drawing ? 0.0073
+what did allen close and the doctor ? 0.2087
+what did allen and the doctor close ? 0.5686
+what were allen drawing and the doctor ? 0.0133
+what were allen and the doctor drawing ? 0.0043
+who were allen have and the doctor ? 0.4077
+who were allen and the doctor running to ? 0.0062
+what were allen running to and the doctor ? 0.0097
+what were allen and the doctor running to ? 0.0071
+what did allen need and the sister ? 0.0265
+what did allen and the sister need ? 0.0096
+what were allen looking for and the sister ? 0.0195
+what were allen and the sister looking for ? 0.0076
+who must michael turn and the doctor ? 0.0257
+who must michael and the doctor turn ? 0.0461
+who were michael turn and the doctor ? 0.0133
+who were michael and the doctor sleeping in ? 0.0170
+what did michael turn and the doctor ? 0.4370
+what did michael and the doctor turn ? 0.3028
+what were michael sleeping in and the doctor ? 0.0240
+what were michael and the doctor sleeping in ? 0.0284
+who were sarah turn and the slave ? 0.2202
+who were sarah and the slave reaching for ? 0.0044
+what were sarah reaching for and the slave ? 0.0142
+what were sarah and the slave reaching for ? 0.0024
+what did anne present and the boat ? 0.0850
+what did anne and the boat present ? 0.0431
+what were anne eating and the boat ? 0.1949
+what were anne and the boat eating ? 0.0092
+who must robert change and the boat ? 0.0121
+who must robert and the boat change ? 0.0504
+who were robert change and the boat ? 0.0071
+who were robert and the boat thinking about ? 0.0100
+what did robert change and the boat ? 0.0274
+what did robert and the boat change ? 0.0178
+what were robert thinking about and the boat ? 0.0053
+what were robert and the boat thinking about ? 0.0109
+what did laura need and the boat ? 0.0046
+what did laura and the boat need ? 0.0027
+what were laura trying and the boat ? 0.0875
+what were laura and the boat trying ? 0.0365
+who must joseph have and the pig ? 0.0046
+who must joseph and the pig have ? 0.0150
+who were joseph have and the pig ? 0.7582
+who were joseph and the pig fishing ? 0.0155
+what did joseph have and the pig ? 0.0026
+what did joseph and the pig have ? 0.0023
+what were joseph fishing and the pig ? 0.0659
+what were joseph and the pig fishing ? 0.0369
+who must anne tell something and the pig ? 0.1073
+who must anne and the pig tell something ? 0.0899
+who were anne tell something and the pig ? 0.2668
+who were anne and the pig taking ? 0.0500
+what did anne tell something and the pig ? 0.2258
+what did anne and the pig tell something ? 0.0952
+what were anne taking and the pig ? 0.6525
+what were anne and the pig taking ? 0.0456
+who must robert have and the doctor ? 0.0044
+who must robert and the doctor have ? 0.0196
+who were robert have and the doctor ? 0.4683
+who were robert and the doctor running to ? 0.0034
+what did robert have and the doctor ? 0.0124
+what did robert and the doctor have ? 0.0030
+who were sam close and the slave ? 1.2042
+who were sam and the slave looking for ? 0.5629
+what were sam looking for and the slave ? 1.4923
+what were sam and the slave looking for ? 0.6672
+what did allen need and the wolf ? 0.0382
+what did allen and the wolf need ? 0.0088
+what were allen talking about and the wolf ? 0.0081
+what were allen and the wolf talking about ? 0.0077
+who must william have and the wolf ? 0.0196
+who must william and the wolf have ? 0.0427
+who were william have and the wolf ? 0.1566
+who were william and the wolf drawing ? 0.0085
+what did william have and the wolf ? 0.0325
+what did william and the wolf have ? 0.0111
+what were william drawing and the wolf ? 0.0689
+what were william and the wolf drawing ? 0.0114
+what did allen need and the dinosaur ? 0.0451
+what did allen and the dinosaur need ? 0.0125
+what were allen thinking about and the dinosaur ? 0.0257
+what were allen and the dinosaur thinking about ? 0.0134
+what were robert eating and the doctor ? 0.0036
+what were robert and the doctor eating ? 0.0011
+what did sarah need and the dinosaur ? 0.0278
+what did sarah and the dinosaur need ? 0.0117
+what were sarah taking and the dinosaur ? 0.1966
+what were sarah and the dinosaur taking ? 0.1700
+what did sarah close and the pig ? 0.2270
+what did sarah and the pig close ? 0.3941
+what were sarah eating and the pig ? 0.0031
+what were sarah and the pig eating ? 0.0013
+who must anne turn and the duke ? 0.6314
+who must anne and the duke turn ? 0.0267
+who were anne turn and the duke ? 1.1772
+who were anne and the duke growing ? 0.2314
+what did anne turn and the duke ? 0.2311
+what did anne and the duke turn ? 0.2204
+what were anne growing and the duke ? 1.1763
+what were anne and the duke growing ? 0.1939
+who must robert have and the slave ? 0.0048
+who must robert and the slave have ? 0.0187
+what did robert have and the slave ? 0.0090
+what did robert and the slave have ? 0.0043
+what were anne talking about and the duke ? 0.0029
+what were anne and the duke talking about ? 0.0019
+who must sarah turn and the doctor ? 0.0287
+who must sarah and the doctor turn ? 0.0586
+what did sarah turn and the doctor ? 0.4100
+what did sarah and the doctor turn ? 0.3107
+what did anne need and the dinosaur ? 0.2169
+what did anne and the dinosaur need ? 0.0179
+who must michael turn and the dinosaur ? 0.0298
+who must michael and the dinosaur turn ? 0.0768
+who were michael turn and the dinosaur ? 0.0195
+who were michael and the dinosaur cutting ? 0.7977
+what did michael turn and the dinosaur ? 0.1956
+what did michael and the dinosaur turn ? 0.1783
+what were michael cutting and the dinosaur ? 0.4056
+what were michael and the dinosaur cutting ? 0.5496
+who were sarah turn and the dinosaur ? 0.3357
+who were sarah and the dinosaur falling on ? 0.0096
+what were sarah falling on and the dinosaur ? 0.0179
+what were sarah and the dinosaur falling on ? 0.0105
+who must laura become and the boat ? 0.0101
+who must laura and the boat become ? 0.0074
+who were laura become and the boat ? 0.2550
+who were laura and the boat trying ? 0.2880
+what did laura become and the boat ? 0.0087
+what did laura and the boat become ? 0.0034
+what did joseph need and the wolf ? 0.0345
+what did joseph and the wolf need ? 0.0062
+what were joseph talking about and the wolf ? 0.0022
+what were joseph and the wolf talking about ? 0.0011
+who were william tell something and the sister ? 0.0908
+who were william and the sister calling ? 0.0802
+what were william calling and the sister ? 0.2061
+what were william and the sister calling ? 0.2375
+who were chris work for and the sister ? 0.0283
+who were chris and the sister running to ? 0.0043
+what were chris running to and the sister ? 0.0301
+what were chris and the sister running to ? 0.0034
+who must laura close and the boat ? 0.0157
+who must laura and the boat close ? 0.0499
+who were laura close and the boat ? 0.0855
+who were laura and the boat turning ? 0.0391
+what did laura close and the boat ? 0.1118
+what did laura and the boat close ? 0.3920
+what were laura turning and the boat ? 0.2530
+what were laura and the boat turning ? 0.1321
+who must michael change and the pig ? 0.0057
+who must michael and the pig change ? 0.0182
+who were michael change and the pig ? 0.0056
+who were michael and the pig trying ? 0.0928
+what did michael change and the pig ? 0.0547
+what did michael and the pig change ? 0.0182
+what were michael trying and the pig ? 0.0279
+what were michael and the pig trying ? 0.0098
+who must laura close and the slave ? 0.0137
+who must laura and the slave close ? 0.0432
+who were laura close and the slave ? 0.0119
+who were laura and the slave turning ? 0.8041
+what did laura close and the slave ? 0.0754
+what did laura and the slave close ? 0.2740
+what were laura turning and the slave ? 0.7491
+what were laura and the slave turning ? 0.7726
+who were anne close and the doctor ? 0.7414
+who were anne and the doctor sleeping in ? 0.0171
+what were anne sleeping in and the doctor ? 0.0327
+what were anne and the doctor sleeping in ? 0.0392
+who were allen change and the pig ? 0.1952
+who were allen and the pig covering ? 0.4297
+what were allen covering and the pig ? 0.1779
+what were allen and the pig covering ? 0.4480
+what were michael eating and the wolf ? 0.0067
+what were michael and the wolf eating ? 0.0012
+who must william keep and the slave ? 0.0182
+who must william and the slave keep ? 0.0282
+who were william keep and the slave ? 0.2201
+who were william and the slave turning ? 0.7868
+what did william keep and the slave ? 0.0733
+what did william and the slave keep ? 0.0109
+what were william turning and the slave ? 0.8141
+what were william and the slave turning ? 0.7567
+who must chris work for and the wolf ? 0.0280
+who must chris and the wolf work for ? 0.0045
+who were chris work for and the wolf ? 0.0361
+who were chris and the wolf running to ? 0.0046
+what did chris work for and the wolf ? 0.0316
+what did chris and the wolf work for ? 0.0033
+what were chris running to and the wolf ? 0.0068
+what were chris and the wolf running to ? 0.0017
+who were robert present and the wolf ? 0.0711
+who were robert and the wolf taking ? 0.1959
+what were robert taking and the wolf ? 0.1108
+what were robert and the wolf taking ? 0.1875
+what were laura saying and the slave ? 0.0063
+what were laura and the slave saying ? 0.0018
+who must chris have and the doctor ? 0.0048
+who must chris and the doctor have ? 0.0160
+who were chris have and the doctor ? 0.1551
+who were chris and the doctor testing ? 0.0047
+what did chris have and the doctor ? 0.0109
+what did chris and the doctor have ? 0.0044
+what were chris testing and the doctor ? 0.0714
+what were chris and the doctor testing ? 0.0038
+who were michael have and the dinosaur ? 0.4752
+who were michael and the dinosaur drawing ? 0.0217
+what were michael drawing and the dinosaur ? 0.0034
+what were michael and the dinosaur drawing ? 0.0109
+who must sam present and the pig ? 1.8125
+who must sam and the pig present ? 0.9863
+who were sam present and the pig ? 1.3008
+who were sam and the pig calling ? 0.4510
+what did sam present and the pig ? 0.2722
+what did sam and the pig present ? 0.2301
+what were sam calling and the pig ? 1.2311
+what were sam and the pig calling ? 0.9921
+who were sarah turn and the dinosaur ? 0.3357
+who were sarah and the dinosaur sleeping in ? 0.0151
+what were sarah sleeping in and the dinosaur ? 0.0405
+what were sarah and the dinosaur sleeping in ? 0.0253
+who must michael change and the slave ? 0.0021
+who must michael and the slave change ? 0.0247
+what did michael change and the slave ? 0.0180
+what did michael and the slave change ? 0.0192
+who were laura change and the doctor ? 0.0820
+who were laura and the doctor sleeping in ? 0.0205
+what were laura sleeping in and the doctor ? 0.0204
+what were laura and the doctor sleeping in ? 0.0274
+who must william work for and the doctor ? 0.0594
+who must william and the doctor work for ? 0.0033
+who were william work for and the doctor ? 0.0974
+who were william and the doctor looking for ? 0.0013
+what did william work for and the doctor ? 0.1338
+what did william and the doctor work for ? 0.0021
+what were william looking for and the doctor ? 0.1986
+what were william and the doctor looking for ? 0.0016
+who must robert present and the pig ? 0.0109
+who must robert and the pig present ? 0.0164
+who were robert present and the pig ? 0.0415
+who were robert and the pig calling ? 0.0195
+what did robert present and the pig ? 0.0490
+what did robert and the pig present ? 0.2373
+what were robert calling and the pig ? 0.1213
+what were robert and the pig calling ? 0.1691
+who must allen change and the slave ? 0.0058
+who must allen and the slave change ? 0.0205
+who were allen change and the slave ? 0.1673
+who were allen and the slave thinking about ? 0.0053
+what did allen change and the slave ? 0.0840
+what did allen and the slave change ? 0.0257
+what were allen thinking about and the slave ? 0.0173
+what were allen and the slave thinking about ? 0.0071
+who must michael change and the dinosaur ? 0.0127
+who must michael and the dinosaur change ? 0.0508
+who were michael change and the dinosaur ? 0.0181
+who were michael and the dinosaur running to ? 0.0039
+what did michael change and the dinosaur ? 0.0766
+what did michael and the dinosaur change ? 0.0253
+what were michael running to and the dinosaur ? 0.0139
+what were michael and the dinosaur running to ? 0.0035
+who must chris tell something and the boat ? 0.0583
+who must chris and the boat tell something ? 0.1679
+who were chris tell something and the boat ? 0.1926
+who were chris and the boat fishing ? 0.0249
+what did chris tell something and the boat ? 0.6085
+what did chris and the boat tell something ? 0.3648
+what were chris fishing and the boat ? 0.0263
+what were chris and the boat fishing ? 0.0625
+what did allen need and the pig ? 0.0103
+what did allen and the pig need ? 0.0087
+who must michael keep and the slave ? 0.0025
+who must michael and the slave keep ? 0.0376
+who were michael keep and the slave ? 0.0589
+who were michael and the slave talking about ? 0.0019
+what did michael keep and the slave ? 0.0039
+what did michael and the slave keep ? 0.0087
+what were michael talking about and the slave ? 0.0030
+what were michael and the slave talking about ? 0.0014
+what did joseph need and the doctor ? 0.0034
+what did joseph and the doctor need ? 0.0034
+what were joseph thinking about and the doctor ? 0.0019
+what were joseph and the doctor thinking about ? 0.0014
+who must sam keep and the dinosaur ? 0.5377
+who must sam and the dinosaur keep ? 0.8383
+who were sam keep and the dinosaur ? 1.6621
+who were sam and the dinosaur thinking about ? 0.9473
+what did sam keep and the dinosaur ? 0.2046
+what did sam and the dinosaur keep ? 0.2250
+what were sam thinking about and the dinosaur ? 1.5274
+what were sam and the dinosaur thinking about ? 1.0391
+who were chris become and the duke ? 0.3408
+who were chris and the duke cutting ? 0.4816
+what were chris cutting and the duke ? 0.1823
+what were chris and the duke cutting ? 0.4123
+what did robert change and the sister ? 0.4355
+what did robert and the sister change ? 0.0548
+what were robert saying and the sister ? 0.0540
+what were robert and the sister saying ? 0.0032
+who were sarah change and the duke ? 0.1317
+who were sarah and the duke thinking about ? 0.0014
+what were sarah thinking about and the duke ? 0.0020
+what were sarah and the duke thinking about ? 0.0013
+what did michael need and the pig ? 0.0107
+what did michael and the pig need ? 0.0055
+what were michael reaching for and the pig ? 0.0034
+what were michael and the pig reaching for ? 0.0025
+who must laura become and the wolf ? 0.0038
+who must laura and the wolf become ? 0.0108
+who were laura become and the wolf ? 0.2078
+who were laura and the wolf looking for ? 0.0019
+what did laura become and the wolf ? 0.0049
+what did laura and the wolf become ? 0.0097
+what were laura looking for and the wolf ? 0.0032
+what were laura and the wolf looking for ? 0.0011
+who were michael become and the doctor ? 0.3883
+who were michael and the doctor looking for ? 0.0011
+what were michael looking for and the doctor ? 0.0010
+what were michael and the doctor looking for ? 0.0007
+who were allen become and the doctor ? 0.4879
+who were allen and the doctor looking for ? 0.0033
+what were allen looking for and the doctor ? 0.0085
+what were allen and the doctor looking for ? 0.0043
+who were sarah turn and the doctor ? 0.4261
+who were sarah and the doctor trying ? 0.0621
+what were sarah trying and the doctor ? 0.0446
+what were sarah and the doctor trying ? 0.0091
+who must robert turn and the boat ? 0.0184
+who must robert and the boat turn ? 0.0946
+who were robert turn and the boat ? 0.0050
+who were robert and the boat turning ? 0.0584
+what did robert turn and the boat ? 0.1723
+what did robert and the boat turn ? 0.1715
+what were robert turning and the boat ? 0.4727
+what were robert and the boat turning ? 0.1249
+who must joseph close and the duke ? 0.0237
+who must joseph and the duke close ? 0.0511
+what did joseph close and the duke ? 0.1059
+what did joseph and the duke close ? 0.2915
+who must robert keep and the boat ? 0.0079
+who must robert and the boat keep ? 0.0268
+who were robert keep and the boat ? 0.2183
+who were robert and the boat testing ? 0.1040
+what did robert keep and the boat ? 0.0040
+what did robert and the boat keep ? 0.0168
+what were robert testing and the boat ? 0.0453
+what were robert and the boat testing ? 0.1482
+who must william turn and the slave ? 0.0338
+who must william and the slave turn ? 0.0439
+who were william turn and the slave ? 0.1437
+who were william and the slave growing ? 0.5430
+what did william turn and the slave ? 0.1415
+what did william and the slave turn ? 0.2587
+what were william growing and the slave ? 0.6396
+what were william and the slave growing ? 0.2999
+who must chris change and the sister ? 0.0273
+who must chris and the sister change ? 0.0467
+what did chris change and the sister ? 0.2476
+what did chris and the sister change ? 0.0264
+who were chris change and the duke ? 0.0037
+who were chris and the duke taking ? 0.0581
+what were chris taking and the duke ? 0.0777
+what were chris and the duke taking ? 0.0867
+who were laura become and the wolf ? 0.2078
+who were laura and the wolf taking ? 0.1423
+what were laura taking and the wolf ? 0.1936
+what were laura and the wolf taking ? 0.1882
+who were allen close and the doctor ? 0.0151
+who were allen and the doctor fishing ? 0.0079
+what were allen fishing and the doctor ? 0.3236
+what were allen and the doctor fishing ? 0.0144
+what were william trying and the wolf ? 0.2529
+what were william and the wolf trying ? 0.0259
+who were robert present and the wolf ? 0.0711
+who were robert and the wolf drawing ? 0.0089
+what were robert drawing and the wolf ? 0.0059
+what were robert and the wolf drawing ? 0.0075
+who must anne turn and the wolf ? 0.6778
+who must anne and the wolf turn ? 0.0785
+who were anne turn and the wolf ? 1.3704
+who were anne and the wolf growing ? 0.1225
+what did anne turn and the wolf ? 0.2387
+what did anne and the wolf turn ? 0.2345
+what were anne growing and the wolf ? 1.1895
+what were anne and the wolf growing ? 0.0513
+who were sarah turn and the duke ? 0.1792
+who were sarah and the duke housing ? 0.7870
+what were sarah housing and the duke ? 0.5789
+what were sarah and the duke housing ? 0.6202
+who were robert present and the duke ? 0.0433
+who were robert and the duke looking for ? 0.0016
+what were robert looking for and the duke ? 0.0019
+what were robert and the duke looking for ? 0.0011
+who must sarah become and the dinosaur ? 0.0073
+who must sarah and the dinosaur become ? 0.0077
+who were sarah become and the dinosaur ? 0.2655
+who were sarah and the dinosaur talking about ? 0.0050
+what did sarah become and the dinosaur ? 0.0095
+what did sarah and the dinosaur become ? 0.0060
+what were sarah talking about and the dinosaur ? 0.0082
+what were sarah and the dinosaur talking about ? 0.0060
+who must allen turn and the wolf ? 0.0082
+who must allen and the wolf turn ? 0.0329
+who were allen turn and the wolf ? 0.5633
+who were allen and the wolf growing ? 0.1770
+what did allen turn and the wolf ? 0.1218
+what did allen and the wolf turn ? 0.2340
+what were allen growing and the wolf ? 0.3833
+what were allen and the wolf growing ? 0.0687
+who must anne become and the doctor ? 0.0991
+who must anne and the doctor become ? 0.0103
+who were anne become and the doctor ? 1.8514
+who were anne and the doctor covering ? 0.0728
+what did anne become and the doctor ? 0.0155
+what did anne and the doctor become ? 0.0057
+what were anne covering and the doctor ? 1.1079
+what were anne and the doctor covering ? 0.0053
+who must laura tell something and the sister ? 0.0535
+who must laura and the sister tell something ? 0.0480
+who were laura tell something and the sister ? 0.0749
+who were laura and the sister talking about ? 0.0017
+what did laura tell something and the sister ? 0.3847
+what did laura and the sister tell something ? 0.3413
+what were laura talking about and the sister ? 0.0120
+what were laura and the sister talking about ? 0.0019
+who must robert keep and the slave ? 0.0036
+who must robert and the slave keep ? 0.0355
+who were robert keep and the slave ? 0.0561
+who were robert and the slave cutting ? 0.3604
+what did robert keep and the slave ? 0.0033
+what did robert and the slave keep ? 0.0066
+what were robert cutting and the slave ? 0.1096
+what were robert and the slave cutting ? 0.3995
+who were joseph present and the doctor ? 0.0590
+who were joseph and the doctor turning ? 0.5047
+what were joseph turning and the doctor ? 0.5711
+what were joseph and the doctor turning ? 0.7630
+who must william work for and the pig ? 0.0234
+who must william and the pig work for ? 0.0048
+who were william work for and the pig ? 0.0658
+who were william and the pig reaching for ? 0.0067
+what did william work for and the pig ? 0.0854
+what did william and the pig work for ? 0.0034
+what were william reaching for and the pig ? 0.2195
+what were william and the pig reaching for ? 0.0051
+who must anne close and the duke ? 0.6212
+who must anne and the duke close ? 0.0421
+what did anne close and the duke ? 0.5468
+what did anne and the duke close ? 0.2675
+what did sam present and the slave ? 0.5329
+what did sam and the slave present ? 0.3488
+what were sam saying and the slave ? 0.7571
+what were sam and the slave saying ? 0.3956
+who must chris turn and the slave ? 0.0173
+who must chris and the slave turn ? 0.0552
+who were chris turn and the slave ? 0.0036
+who were chris and the slave falling on ? 0.0159
+what were chris falling on and the slave ? 0.0267
+what were chris and the slave falling on ? 0.0148
+who must sam work for and the duke ? 1.1991
+who must sam and the duke work for ? 0.8090
+who were sam work for and the duke ? 1.2463
+who were sam and the duke thinking about ? 0.2699
+what did sam work for and the duke ? 0.2159
+what did sam and the duke work for ? 0.0053
+what were sam thinking about and the duke ? 0.8969
+what were sam and the duke thinking about ? 0.5282
+who must joseph keep and the slave ? 0.0040
+who must joseph and the slave keep ? 0.0425
+what did joseph keep and the slave ? 0.0043
+what did joseph and the slave keep ? 0.0049
+who must allen tell something and the sister ? 0.0121
+who must allen and the sister tell something ? 0.0174
+who were allen tell something and the sister ? 0.0707
+who were allen and the sister covering ? 1.0704
+what did allen tell something and the sister ? 0.3223
+what did allen and the sister tell something ? 0.2593
+what were allen covering and the sister ? 0.2571
+what were allen and the sister covering ? 0.8828
+who were robert present and the boat ? 0.0255
+who were robert and the boat running to ? 0.0074
+what were robert running to and the boat ? 0.0130
+what were robert and the boat running to ? 0.0041
+who were laura become and the wolf ? 0.2078
+who were laura and the wolf running to ? 0.0044
+what were laura running to and the wolf ? 0.0034
+what were laura and the wolf running to ? 0.0017
+who were allen tell something and the duke ? 0.0740
+who were allen and the duke looking for ? 0.0042
+what were allen looking for and the duke ? 0.0064
+what were allen and the duke looking for ? 0.0047
+who must chris close and the wolf ? 0.0151
+who must chris and the wolf close ? 0.0888
+who were chris close and the wolf ? 0.0457
+who were chris and the wolf fishing ? 0.0521
+what did chris close and the wolf ? 0.1105
+what did chris and the wolf close ? 0.4341
+what were chris fishing and the wolf ? 0.1014
+what were chris and the wolf fishing ? 0.1897
+what were sarah turning and the boat ? 0.2728
+what were sarah and the boat turning ? 0.1629
+who must sam have and the sister ? 0.6696
+who must sam and the sister have ? 0.0622
+who were sam have and the sister ? 1.1070
+who were sam and the sister reaching for ? 0.2285
+what did sam have and the sister ? 0.0917
+what did sam and the sister have ? 0.0186
+what were sam reaching for and the sister ? 0.8774
+what were sam and the sister reaching for ? 0.3320
+who must laura close and the wolf ? 0.0195
+who must laura and the wolf close ? 0.1004
+who were laura close and the wolf ? 0.0440
+who were laura and the wolf falling on ? 0.0054
+what did laura close and the wolf ? 0.3469
+what did laura and the wolf close ? 0.5758
+what were laura falling on and the wolf ? 0.0213
+what were laura and the wolf falling on ? 0.0103
+who must joseph turn and the sister ? 0.0220
+who must joseph and the sister turn ? 0.0826
+who were joseph turn and the sister ? 0.0690
+who were joseph and the sister running to ? 0.0051
+what did joseph turn and the sister ? 0.1720
+what did joseph and the sister turn ? 0.2620
+what were joseph running to and the sister ? 0.0191
+what were joseph and the sister running to ? 0.0035
+what did joseph need and the sister ? 0.0746
+what did joseph and the sister need ? 0.0143
+what were joseph growing and the sister ? 0.3906
+what were joseph and the sister growing ? 0.3570
+who were chris have and the slave ? 0.1543
+who were chris and the slave calling ? 0.1828
+what were chris calling and the slave ? 0.1564
+what were chris and the slave calling ? 0.2346
+what did chris need and the sister ? 0.0866
+what did chris and the sister need ? 0.0134
+what were chris sleeping in and the sister ? 0.0422
+what were chris and the sister sleeping in ? 0.0350
+who must william turn and the sister ? 0.0382
+who must william and the sister turn ? 0.0827
+what did william turn and the sister ? 0.1393
+what did william and the sister turn ? 0.2574
+who must anne close and the dinosaur ? 0.6006
+who must anne and the dinosaur close ? 0.1230
+who were anne close and the dinosaur ? 0.9162
+who were anne and the dinosaur looking for ? 0.0106
+what did anne close and the dinosaur ? 0.6682
+what did anne and the dinosaur close ? 0.3633
+what were anne looking for and the dinosaur ? 0.0206
+what were anne and the dinosaur looking for ? 0.0066
+who must sarah change and the sister ? 0.0141
+who must sarah and the sister change ? 0.0541
+who were sarah change and the sister ? 0.2740
+who were sarah and the sister drawing ? 0.0118
+what did sarah change and the sister ? 0.1105
+what did sarah and the sister change ? 0.0264
+what were sarah drawing and the sister ? 0.0470
+what were sarah and the sister drawing ? 0.0035
+who must sam keep and the sister ? 0.3703
+who must sam and the sister keep ? 0.3746
+who were sam keep and the sister ? 1.4578
+who were sam and the sister trying ? 0.3416
+what did sam keep and the sister ? 0.0962
+what did sam and the sister keep ? 0.0433
+what were sam trying and the sister ? 0.6722
+what were sam and the sister trying ? 0.0523
+who were sarah become and the boat ? 0.2974
+who were sarah and the boat thinking about ? 0.0117
+what were sarah thinking about and the boat ? 0.0036
+what were sarah and the boat thinking about ? 0.0070
+what did joseph need and the boat ? 0.0031
+what did joseph and the boat need ? 0.0018
+what were joseph sleeping in and the boat ? 0.0078
+what were joseph and the boat sleeping in ? 0.0103
+who were joseph have and the wolf ? 0.8592
+who were joseph and the wolf falling on ? 0.0064
+what were joseph falling on and the wolf ? 0.0406
+what were joseph and the wolf falling on ? 0.0107
+who must sam become and the sister ? 0.0504
+who must sam and the sister become ? 0.1749
+what did sam become and the sister ? 0.0407
+what did sam and the sister become ? 0.0539
+who were laura close and the sister ? 0.0150
+who were laura and the sister testing ? 0.6554
+what were laura testing and the sister ? 0.1733
+what were laura and the sister testing ? 0.0343
+who were michael turn and the boat ? 0.0053
+who were michael and the boat covering ? 0.4161
+what were michael covering and the boat ? 0.1742
+what were michael and the boat covering ? 0.0188
+who must michael have and the wolf ? 0.0156
+who must michael and the wolf have ? 0.0235
+what did michael have and the wolf ? 0.0145
+what did michael and the wolf have ? 0.0033
+who must chris turn and the sister ? 0.0379
+who must chris and the sister turn ? 0.0896
+what did chris turn and the sister ? 0.3170
+what did chris and the sister turn ? 0.2941
+what did allen tell and the slave ? 0.0096
+what did allen and the slave tell ? 0.0106
+what were allen saying and the slave ? 0.0123
+what were allen and the slave saying ? 0.0062
+who were sam work for and the boat ? 1.3662
+who were sam and the boat running to ? 1.0453
+what were sam running to and the boat ? 0.9461
+what were sam and the boat running to ? 0.9682
+who were sarah close and the doctor ? 0.0183
+who were sarah and the doctor thinking about ? 0.0011
+what were sarah thinking about and the doctor ? 0.0015
+what were sarah and the doctor thinking about ? 0.0009
+what were robert sleeping in and the slave ? 0.0402
+what were robert and the slave sleeping in ? 0.0307
+who were william work for and the pig ? 0.0658
+who were william and the pig thinking about ? 0.0029
+what were william thinking about and the pig ? 0.3260
+what were william and the pig thinking about ? 0.0038
+who must robert close and the boat ? 0.0164
+who must robert and the boat close ? 0.0928
+who were robert close and the boat ? 0.1656
+who were robert and the boat cutting ? 0.6012
+what did robert close and the boat ? 0.0491
+what did robert and the boat close ? 0.3922
+what were robert cutting and the boat ? 0.1529
+what were robert and the boat cutting ? 0.3586
+who must chris change and the doctor ? 0.0212
+who must chris and the doctor change ? 0.0336
+who were chris change and the doctor ? 0.0049
+who were chris and the doctor looking for ? 0.0013
+what did chris change and the doctor ? 0.0422
+what did chris and the doctor change ? 0.0080
+what were chris looking for and the doctor ? 0.0013
+what were chris and the doctor looking for ? 0.0009
+who must sam turn and the doctor ? 1.3477
+who must sam and the doctor turn ? 0.9987
+who were sam turn and the doctor ? 1.3487
+who were sam and the doctor taking ? 1.1028
+what did sam turn and the doctor ? 0.5978
+what did sam and the doctor turn ? 0.4538
+what were sam taking and the doctor ? 0.8536
+what were sam and the doctor taking ? 1.1033
+who were william work for and the boat ? 0.1508
+who were william and the boat calling ? 0.0108
+what were william calling and the boat ? 0.2836
+what were william and the boat calling ? 0.0478
+who were robert have and the dinosaur ? 0.6906
+who were robert and the dinosaur fishing ? 0.4256
+what were robert fishing and the dinosaur ? 0.5435
+what were robert and the dinosaur fishing ? 0.6206
+who must sam close and the dinosaur ? 1.6170
+who must sam and the dinosaur close ? 1.0326
+who were sam close and the dinosaur ? 0.8943
+who were sam and the dinosaur trying ? 1.1381
+what did sam close and the dinosaur ? 0.8158
+what did sam and the dinosaur close ? 0.6876
+what were sam trying and the dinosaur ? 0.9006
+what were sam and the dinosaur trying ? 1.0083
+what did sam need and the boat ? 0.2259
+what did sam and the boat need ? 0.0156
+what were sam looking for and the boat ? 1.5632
+what were sam and the boat looking for ? 0.4533
+who must joseph keep and the dinosaur ? 0.0352
+who must joseph and the dinosaur keep ? 0.0778
+who were joseph keep and the dinosaur ? 1.2512
+who were joseph and the dinosaur taking ? 0.3712
+what did joseph keep and the dinosaur ? 0.0386
+what did joseph and the dinosaur keep ? 0.0371
+what were joseph taking and the dinosaur ? 0.5164
+what were joseph and the dinosaur taking ? 0.1694
+who must sarah present and the dinosaur ? 0.0385
+who must sarah and the dinosaur present ? 0.0411
+who were sarah present and the dinosaur ? 0.0525
+who were sarah and the dinosaur covering ? 0.5852
+what did sarah present and the dinosaur ? 0.1595
+what did sarah and the dinosaur present ? 0.2883
+what were sarah covering and the dinosaur ? 0.1954
+what were sarah and the dinosaur covering ? 0.1833
+who were william turn and the doctor ? 0.3690
+who were william and the doctor turning ? 0.3489
+what were william turning and the doctor ? 0.6246
+what were william and the doctor turning ? 0.5164
+who must anne close and the pig ? 0.5557
+who must anne and the pig close ? 0.0299
+who were anne close and the pig ? 0.7477
+who were anne and the pig covering ? 0.3930
+what did anne close and the pig ? 0.4656
+what did anne and the pig close ? 0.2531
+what were anne covering and the pig ? 1.0926
+what were anne and the pig covering ? 0.1527
+who were robert present and the boat ? 0.0255
+who were robert and the boat reaching for ? 0.0058
+what were robert reaching for and the boat ? 0.0049
+what were robert and the boat reaching for ? 0.0025
+who were sam keep and the sister ? 1.4578
+who were sam and the sister fishing ? 0.1256
+what were sam fishing and the sister ? 1.4521
+what were sam and the sister fishing ? 0.0863
+who must laura keep and the slave ? 0.0029
+who must laura and the slave keep ? 0.0374
+what did laura keep and the slave ? 0.0040
+what did laura and the slave keep ? 0.0077
+who must chris turn and the wolf ? 0.0172
+who must chris and the wolf turn ? 0.0665
+who were chris turn and the wolf ? 0.0028
+who were chris and the wolf thinking about ? 0.0019
+what did chris turn and the wolf ? 0.1792
+what did chris and the wolf turn ? 0.1913
+what were chris thinking about and the wolf ? 0.0039
+what were chris and the wolf thinking about ? 0.0015
+who must laura work for and the doctor ? 0.0025
+who must laura and the doctor work for ? 0.0023
+who were laura work for and the doctor ? 0.0167
+who were laura and the doctor taking ? 0.0457
+what did laura work for and the doctor ? 0.0022
+what did laura and the doctor work for ? 0.0010
+what were laura taking and the doctor ? 0.0257
+what were laura and the doctor taking ? 0.0123
+who must anne tell something and the boat ? 0.1416
+who must anne and the boat tell something ? 0.1419
+who were anne tell something and the boat ? 0.2608
+who were anne and the boat calling ? 0.0168
+what did anne tell something and the boat ? 0.2530
+what did anne and the boat tell something ? 0.0877
+what were anne calling and the boat ? 0.8601
+what were anne and the boat calling ? 0.0619
+who must william tell something and the duke ? 0.0415
+who must william and the duke tell something ? 0.0776
+who were william tell something and the duke ? 0.1647
+who were william and the duke reaching for ? 0.0052
+what did william tell something and the duke ? 0.3701
+what did william and the duke tell something ? 0.2705
+what were william reaching for and the duke ? 0.1168
+what were william and the duke reaching for ? 0.0042
+who were william turn and the dinosaur ? 0.3318
+who were william and the dinosaur reaching for ? 0.0096
+what were william reaching for and the dinosaur ? 0.4386
+what were william and the dinosaur reaching for ? 0.0181
+who were robert turn and the doctor ? 0.0027
+who were robert and the doctor reaching for ? 0.0028
+what were robert reaching for and the doctor ? 0.0078
+what were robert and the doctor reaching for ? 0.0022
+who must chris have and the boat ? 0.0055
+who must chris and the boat have ? 0.0134
+who were chris have and the boat ? 0.1586
+who were chris and the boat covering ? 0.3055
+what did chris have and the boat ? 0.0020
+what did chris and the boat have ? 0.0026
+what were chris covering and the boat ? 0.1420
+what were chris and the boat covering ? 0.0279
+who must chris close and the duke ? 0.0155
+who must chris and the duke close ? 0.0872
+what did chris close and the duke ? 0.0732
+what did chris and the duke close ? 0.2553
+who must allen tell something and the wolf ? 0.0150
+who must allen and the wolf tell something ? 0.1865
+what did allen tell something and the wolf ? 0.3134
+what did allen and the wolf tell something ? 0.1989
+who must joseph close and the sister ? 0.0156
+who must joseph and the sister close ? 0.0260
+who were joseph close and the sister ? 0.0130
+who were joseph and the sister drawing ? 0.0151
+what did joseph close and the sister ? 0.1145
+what did joseph and the sister close ? 0.2050
+what were joseph drawing and the sister ? 0.0493
+what were joseph and the sister drawing ? 0.0045
+who must anne have and the doctor ? 0.1318
+who must anne and the doctor have ? 0.0331
+what did anne have and the doctor ? 0.0077
+what did anne and the doctor have ? 0.0041
+who were chris work for and the sister ? 0.0283
+who were chris and the sister talking about ? 0.0016
+what were chris talking about and the sister ? 0.0168
+what were chris and the sister talking about ? 0.0017
+who must allen have and the dinosaur ? 0.0147
+who must allen and the dinosaur have ? 0.0832
+who were allen have and the dinosaur ? 0.5934
+who were allen and the dinosaur fishing ? 0.2354
+what did allen have and the dinosaur ? 0.0264
+what did allen and the dinosaur have ? 0.0099
+what were allen fishing and the dinosaur ? 0.4060
+what were allen and the dinosaur fishing ? 0.5013
+who were sam have and the pig ? 1.2560
+who were sam and the pig cutting ? 0.6361
+what were sam cutting and the pig ? 1.2551
+what were sam and the pig cutting ? 1.0168
+who must michael close and the sister ? 0.0188
+who must michael and the sister close ? 0.0481
+who were michael close and the sister ? 0.0215
+who were michael and the sister trying ? 0.4171
+what did michael close and the sister ? 0.2031
+what did michael and the sister close ? 0.2453
+what were michael trying and the sister ? 0.1070
+what were michael and the sister trying ? 0.0308
+who were allen tell something and the wolf ? 0.1079
+who were allen and the wolf trying ? 0.0288
+what were allen trying and the wolf ? 0.0323
+what were allen and the wolf trying ? 0.0257
+who must sam become and the doctor ? 0.0868
+who must sam and the doctor become ? 0.6087
+who were sam become and the doctor ? 1.3666
+who were sam and the doctor falling on ? 1.1473
+what did sam become and the doctor ? 0.0694
+what did sam and the doctor become ? 0.0832
+what were sam falling on and the doctor ? 0.8480
+what were sam and the doctor falling on ? 1.1670
+what did anne turn and the doctor ? 0.3429
+what did anne and the doctor turn ? 0.3280
+what were anne saying and the doctor ? 0.0430
+what were anne and the doctor saying ? 0.0033
+who must robert tell something and the duke ? 0.0405
+who must robert and the duke tell something ? 0.1258
+what did robert tell something and the duke ? 0.4829
+what did robert and the duke tell something ? 0.3873
+who must robert work for and the pig ? 0.0050
+who must robert and the pig work for ? 0.0031
+who were robert work for and the pig ? 0.0096
+who were robert and the pig covering ? 0.7569
+what did robert work for and the pig ? 0.0056
+what did robert and the pig work for ? 0.0031
+what were robert covering and the pig ? 0.2517
+what were robert and the pig covering ? 0.5007
+who must robert become and the sister ? 0.0129
+who must robert and the sister become ? 0.0075
+who were robert become and the sister ? 0.6557
+who were robert and the sister talking about ? 0.0021
+what did robert become and the sister ? 0.0782
+what did robert and the sister become ? 0.0102
+what were robert talking about and the sister ? 0.0193
+what were robert and the sister talking about ? 0.0025
+what did chris need and the pig ? 0.0120
+what did chris and the pig need ? 0.0063
+what were chris fishing and the pig ? 0.0381
+what were chris and the pig fishing ? 0.0417
+who were chris close and the wolf ? 0.0457
+who were chris and the wolf turning ? 0.1334
+what were chris turning and the wolf ? 0.4418
+what were chris and the wolf turning ? 0.2664
+who must sam present and the sister ? 1.8909
+who must sam and the sister present ? 1.1099
+who were sam present and the sister ? 1.2616
+who were sam and the sister falling on ? 0.5291
+what did sam present and the sister ? 0.3409
+what did sam and the sister present ? 0.1307
+what were sam falling on and the sister ? 0.8015
+what were sam and the sister falling on ? 0.2568
+who must anne present and the wolf ? 0.6221
+who must anne and the wolf present ? 0.0293
+who were anne present and the wolf ? 0.6142
+who were anne and the wolf running to ? 0.0051
+what did anne present and the wolf ? 0.2510
+what did anne and the wolf present ? 0.1895
+what were anne running to and the wolf ? 0.0278
+what were anne and the wolf running to ? 0.0030
+who must allen change and the duke ? 0.0062
+who must allen and the duke change ? 0.0088
+what did allen change and the duke ? 0.0834
+what did allen and the duke change ? 0.0223
+who must sarah tell something and the sister ? 0.0239
+who must sarah and the sister tell something ? 0.0504
+who were sarah tell something and the sister ? 0.0627
+who were sarah and the sister fishing ? 0.1968
+what did sarah tell something and the sister ? 0.4230
+what did sarah and the sister tell something ? 0.4150
+what were sarah fishing and the sister ? 0.2056
+what were sarah and the sister fishing ? 0.0576
+who must robert close and the dinosaur ? 0.0989
+who must robert and the dinosaur close ? 0.0932
+who were robert close and the dinosaur ? 0.6010
+who were robert and the dinosaur drawing ? 0.0278
+what did robert close and the dinosaur ? 0.3622
+what did robert and the dinosaur close ? 0.4122
+what were robert drawing and the dinosaur ? 0.0044
+what were robert and the dinosaur drawing ? 0.0214
+who were sarah present and the dinosaur ? 0.0525
+who were sarah and the dinosaur trying ? 0.1012
+what were sarah trying and the dinosaur ? 0.0467
+what were sarah and the dinosaur trying ? 0.0183
+who must allen keep and the sister ? 0.0108
+who must allen and the sister keep ? 0.0380
+who were allen keep and the sister ? 0.6894
+who were allen and the sister talking about ? 0.0045
+what did allen keep and the sister ? 0.0176
+what did allen and the sister keep ? 0.0162
+what were allen talking about and the sister ? 0.0234
+what were allen and the sister talking about ? 0.0054
+what were michael sleeping in and the boat ? 0.0155
+what were michael and the boat sleeping in ? 0.0077
+who must chris keep and the pig ? 0.0041
+who must chris and the pig keep ? 0.0405
+what did chris keep and the pig ? 0.0038
+what did chris and the pig keep ? 0.0118
+who must anne have and the duke ? 0.2218
+who must anne and the duke have ? 0.0363
+what did anne have and the duke ? 0.0125
+what did anne and the duke have ? 0.0040
+who were joseph keep and the sister ? 0.8120
+who were joseph and the sister trying ? 0.4998
+what were joseph trying and the sister ? 0.1493
+what were joseph and the sister trying ? 0.0459
+who must chris turn and the dinosaur ? 0.0431
+who must chris and the dinosaur turn ? 0.0915
+who were chris turn and the dinosaur ? 0.0114
+who were chris and the dinosaur looking for ? 0.0072
+what did chris turn and the dinosaur ? 0.1707
+what did chris and the dinosaur turn ? 0.2054
+what were chris looking for and the dinosaur ? 0.0147
+what were chris and the dinosaur looking for ? 0.0080
+what did sam need and the pig ? 0.2359
+what did sam and the pig need ? 0.0601
+what were sam eating and the pig ? 1.2265
+what were sam and the pig eating ? 0.9934
+what did chris need and the slave ? 0.0265
+what did chris and the slave need ? 0.0185
+what were chris talking about and the slave ? 0.0038
+what were chris and the slave talking about ? 0.0018
+who must laura have and the boat ? 0.0052
+who must laura and the boat have ? 0.0135
+who were laura have and the boat ? 0.4348
+who were laura and the boat sleeping in ? 0.0604
+what did laura have and the boat ? 0.0027
+what did laura and the boat have ? 0.0055
+what were laura sleeping in and the boat ? 0.0085
+what were laura and the boat sleeping in ? 0.0345
+who must william keep and the sister ? 0.0438
+who must william and the sister keep ? 0.0380
+who were william keep and the sister ? 0.6169
+who were william and the sister fishing ? 0.0599
+what did william keep and the sister ? 0.1089
+what did william and the sister keep ? 0.0222
+what were william fishing and the sister ? 0.1975
+what were william and the sister fishing ? 0.0381
+who were sam tell something and the wolf ? 1.2204
+who were sam and the wolf taking ? 0.9441
+what were sam taking and the wolf ? 0.9601
+what were sam and the wolf taking ? 1.0452
+what did anne need and the wolf ? 0.1914
+what did anne and the wolf need ? 0.0105
+what were anne looking for and the wolf ? 0.0065
+what were anne and the wolf looking for ? 0.0021
+what did sarah tell and the dinosaur ? 0.0939
+what did sarah and the dinosaur tell ? 0.0232
+what were sarah saying and the dinosaur ? 0.0373
+what were sarah and the dinosaur saying ? 0.0069
+who must michael work for and the boat ? 0.0135
+who must michael and the boat work for ? 0.0062
+what did michael work for and the boat ? 0.0128
+what did michael and the boat work for ? 0.0021
+who were sam present and the pig ? 1.3008
+who were sam and the pig taking ? 0.8388
+what were sam taking and the pig ? 0.9300
+what were sam and the pig taking ? 0.9543
+who must joseph have and the slave ? 0.0047
+who must joseph and the slave have ? 0.0135
+what did joseph have and the slave ? 0.0081
+what did joseph and the slave have ? 0.0033
+who must robert keep and the pig ? 0.0045
+who must robert and the pig keep ? 0.0330
+who were robert keep and the pig ? 0.0943
+who were robert and the pig growing ? 0.1220
+what did robert keep and the pig ? 0.0042
+what did robert and the pig keep ? 0.0081
+what were robert growing and the pig ? 0.1204
+what were robert and the pig growing ? 0.0238
+what did sarah change and the pig ? 0.0648
+what did sarah and the pig change ? 0.0179
+what were sarah saying and the pig ? 0.0067
+what were sarah and the pig saying ? 0.0021
+who were robert tell something and the doctor ? 0.0851
+who were robert and the doctor housing ? 0.7582
+what were robert housing and the doctor ? 0.6017
+what were robert and the doctor housing ? 0.4910
+what were sam calling and the dinosaur ? 1.4290
+what were sam and the dinosaur calling ? 1.2565
+who were sarah turn and the duke ? 0.1792
+who were sarah and the duke testing ? 0.0155
+what were sarah testing and the duke ? 0.0245
+what were sarah and the duke testing ? 0.0140
+what did sarah keep and the doctor ? 0.0430
+what did sarah and the doctor keep ? 0.0661
+who were sarah present and the pig ? 0.0246
+who were sarah and the pig calling ? 0.0296
+what were sarah calling and the pig ? 0.1336
+what were sarah and the pig calling ? 0.2076
+who must michael keep and the sister ? 0.0108
+who must michael and the sister keep ? 0.0283
+who were michael keep and the sister ? 0.4321
+who were michael and the sister housing ? 1.0751
+what did michael keep and the sister ? 0.0293
+what did michael and the sister keep ? 0.0171
+what were michael housing and the sister ? 0.6198
+what were michael and the sister housing ? 0.4502
+what did michael need and the doctor ? 0.0029
+what did michael and the doctor need ? 0.0032
+what were michael reaching for and the doctor ? 0.0033
+what were michael and the doctor reaching for ? 0.0014
+who were michael keep and the slave ? 0.0589
+who were michael and the slave falling on ? 0.0254
+what were michael falling on and the slave ? 0.0261
+what were michael and the slave falling on ? 0.0260
+who were laura turn and the dinosaur ? 1.1211
+who were laura and the dinosaur thinking about ? 0.0052
+what were laura thinking about and the dinosaur ? 0.0228
+what were laura and the dinosaur thinking about ? 0.0056
+who must joseph turn and the doctor ? 0.0192
+who must joseph and the doctor turn ? 0.0525
+who were joseph turn and the doctor ? 0.1024
+who were joseph and the doctor taking ? 0.0544
+what did joseph turn and the doctor ? 0.3289
+what did joseph and the doctor turn ? 0.2909
+what were joseph taking and the doctor ? 0.1844
+what were joseph and the doctor taking ? 0.0108
+what were chris trying and the sister ? 0.1398
+what were chris and the sister trying ? 0.0396
+who must allen turn and the dinosaur ? 0.0348
+who must allen and the dinosaur turn ? 0.0747
+who were allen turn and the dinosaur ? 0.9736
+who were allen and the dinosaur drawing ? 0.0422
+what did allen turn and the dinosaur ? 0.1570
+what did allen and the dinosaur turn ? 0.2677
+what were allen drawing and the dinosaur ? 0.0110
+what were allen and the dinosaur drawing ? 0.0520
+who were laura change and the duke ? 0.0278
+who were laura and the duke reaching for ? 0.0036
+what were laura reaching for and the duke ? 0.0033
+what were laura and the duke reaching for ? 0.0021
+who were laura become and the wolf ? 0.2078
+who were laura and the wolf drawing ? 0.0074
+what were laura drawing and the wolf ? 0.0053
+what were laura and the wolf drawing ? 0.0093
+who were william work for and the duke ? 0.0563
+who were william and the duke trying ? 0.0273
+what were william trying and the duke ? 0.2087
+what were william and the duke trying ? 0.0204
+what were william calling and the wolf ? 0.1773
+what were william and the wolf calling ? 0.0297
+who were chris change and the sister ? 0.0116
+who were chris and the sister looking for ? 0.0020
+what were chris looking for and the sister ? 0.0166
+what were chris and the sister looking for ? 0.0025
+who must allen become and the slave ? 0.0022
+who must allen and the slave become ? 0.0076
+who were allen become and the slave ? 0.3113
+who were allen and the slave reaching for ? 0.0072
+what did allen become and the slave ? 0.0061
+what did allen and the slave become ? 0.0069
+what were allen reaching for and the slave ? 0.0169
+what were allen and the slave reaching for ? 0.0079
+what were robert running to and the wolf ? 0.0085
+what were robert and the wolf running to ? 0.0019
+who were robert keep and the pig ? 0.0943
+who were robert and the pig fishing ? 0.0343
+what were robert fishing and the pig ? 0.0844
+what were robert and the pig fishing ? 0.0767
+who were chris close and the wolf ? 0.0457
+who were chris and the wolf testing ? 0.0827
+what were chris testing and the wolf ? 0.0541
+what were chris and the wolf testing ? 0.0490
+who must michael change and the duke ? 0.0023
+who must michael and the duke change ? 0.0109
+who were michael change and the duke ? 0.0036
+who were michael and the duke taking ? 0.0800
+what did michael change and the duke ? 0.0285
+what did michael and the duke change ? 0.0127
+what were michael taking and the duke ? 0.1032
+what were michael and the duke taking ? 0.0837
+who must allen change and the wolf ? 0.0083
+who must allen and the wolf change ? 0.2192
+who were allen change and the wolf ? 0.1513
+who were allen and the wolf falling on ? 0.0105
+what did allen change and the wolf ? 0.0721
+what did allen and the wolf change ? 0.0405
+what were allen falling on and the wolf ? 0.0647
+what were allen and the wolf falling on ? 0.0120
+who were anne turn and the wolf ? 1.3704
+who were anne and the wolf cutting ? 0.3410
+what were anne cutting and the wolf ? 1.3939
+what were anne and the wolf cutting ? 0.3241
+who must william change and the sister ? 0.2293
+who must william and the sister change ? 0.0324
+who were william change and the sister ? 0.0772
+who were william and the sister testing ? 0.3529
+what did william change and the sister ? 0.1461
+what did william and the sister change ? 0.0198
+what were william testing and the sister ? 0.6192
+what were william and the sister testing ? 0.0821
+what did allen present and the sister ? 0.0819
+what did allen and the sister present ? 0.0445
+what were allen saying and the sister ? 0.0188
+what were allen and the sister saying ? 0.0058
+who must sam tell something and the sister ? 1.3339
+who must sam and the sister tell something ? 0.4712
+who were sam tell something and the sister ? 1.2432
+who were sam and the sister turning ? 0.8393
+what did sam tell something and the sister ? 0.4804
+what did sam and the sister tell something ? 0.3377
+what were sam turning and the sister ? 1.3532
+what were sam and the sister turning ? 0.7105
+what did robert change and the doctor ? 0.0340
+what did robert and the doctor change ? 0.0093
+who must laura have and the dinosaur ? 0.0164
+who must laura and the dinosaur have ? 0.0591
+what did laura have and the dinosaur ? 0.0247
+what did laura and the dinosaur have ? 0.0082
+what were allen saying and the dinosaur ? 0.0377
+what were allen and the dinosaur saying ? 0.0092
+who were joseph turn and the doctor ? 0.1024
+who were joseph and the doctor growing ? 0.7149
+what were joseph growing and the doctor ? 0.5942
+what were joseph and the doctor growing ? 0.3033
+what were laura reaching for and the dinosaur ? 0.0311
+what were laura and the dinosaur reaching for ? 0.0058
+who must sam change and the pig ? 1.6371
+who must sam and the pig change ? 0.6231
+what did sam change and the pig ? 0.7749
+what did sam and the pig change ? 0.0661
+who must laura change and the slave ? 0.0041
+who must laura and the slave change ? 0.0802
+who were laura change and the slave ? 0.1043
+who were laura and the slave reaching for ? 0.0050
+what did laura change and the slave ? 0.0332
+what did laura and the slave change ? 0.0190
+what were laura reaching for and the slave ? 0.0159
+what were laura and the slave reaching for ? 0.0031
+who must robert close and the slave ? 0.0296
+who must robert and the slave close ? 0.0669
+who were robert close and the slave ? 0.0457
+who were robert and the slave calling ? 0.2549
+what did robert close and the slave ? 0.0957
+what did robert and the slave close ? 0.2544
+what were robert calling and the slave ? 0.2070
+what were robert and the slave calling ? 0.3123
+who must robert change and the slave ? 0.0029
+who must robert and the slave change ? 0.0683
+who were robert change and the slave ? 0.0037
+who were robert and the slave trying ? 0.4158
+what did robert change and the slave ? 0.0755
+what did robert and the slave change ? 0.0327
+what were robert trying and the slave ? 0.0945
+what were robert and the slave trying ? 0.0596
+who were sam keep and the dinosaur ? 1.6621
+who were sam and the dinosaur cutting ? 1.7889
+what were sam cutting and the dinosaur ? 1.7314
+what were sam and the dinosaur cutting ? 1.6189
+who were william present and the wolf ? 0.0815
+who were william and the wolf turning ? 0.1263
+what were william turning and the wolf ? 0.7403
+what were william and the wolf turning ? 0.2054
+who must sam tell something and the boat ? 1.3269
+who must sam and the boat tell something ? 0.3424
+who were sam tell something and the boat ? 1.1186
+who were sam and the boat reaching for ? 1.2062
+what did sam tell something and the boat ? 0.4958
+what did sam and the boat tell something ? 0.2837
+what were sam reaching for and the boat ? 0.9159
+what were sam and the boat reaching for ? 1.1179
+who must sam tell something and the dinosaur ? 1.3665
+who must sam and the dinosaur tell something ? 1.0368
+who were sam tell something and the dinosaur ? 1.3327
+who were sam and the dinosaur testing ? 1.5216
+what did sam tell something and the dinosaur ? 0.7420
+what did sam and the dinosaur tell something ? 0.2860
+what were sam testing and the dinosaur ? 1.4152
+what were sam and the dinosaur testing ? 1.3228
+who were robert change and the boat ? 0.0071
+who were robert and the boat taking ? 0.2318
+what were robert taking and the boat ? 0.0174
+what were robert and the boat taking ? 0.0597
+who were michael change and the slave ? 0.0026
+who were michael and the slave trying ? 0.3808
+what were michael trying and the slave ? 0.0448
+what were michael and the slave trying ? 0.0233
+who must robert have and the sister ? 0.0110
+who must robert and the sister have ? 0.0164
+who were robert have and the sister ? 0.4302
+who were robert and the sister housing ? 1.2673
+what did robert have and the sister ? 0.0476
+what did robert and the sister have ? 0.0063
+what were robert housing and the sister ? 0.8086
+what were robert and the sister housing ? 0.7313
+who must william work for and the slave ? 0.0071
+who must william and the slave work for ? 0.0036
+who were william work for and the slave ? 0.0311
+who were william and the slave talking about ? 0.0015
+what did william work for and the slave ? 0.0458
+what did william and the slave work for ? 0.0020
+what were william talking about and the slave ? 0.1914
+what were william and the slave talking about ? 0.0018
+what did chris need and the boat ? 0.0039
+what did chris and the boat need ? 0.0018
+what were chris housing and the boat ? 0.1137
+what were chris and the boat housing ? 0.0800
+who were anne become and the sister ? 1.7635
+who were anne and the sister fishing ? 0.0314
+what were anne fishing and the sister ? 0.7013
+what were anne and the sister fishing ? 0.0261
+who must william have and the boat ? 0.0148
+who must william and the boat have ? 0.0216
+who were william have and the boat ? 0.2307
+who were william and the boat falling on ? 0.0187
+what did william have and the boat ? 0.0202
+what did william and the boat have ? 0.0160
+what were william falling on and the boat ? 0.3830
+what were william and the boat falling on ? 0.0408
+what did william keep and the boat ? 0.1680
+what did william and the boat keep ? 0.0408
+who were sam close and the slave ? 1.2042
+who were sam and the slave testing ? 1.4715
+what were sam testing and the slave ? 1.3885
+what were sam and the slave testing ? 1.3822
+who must sam work for and the pig ? 1.2836
+who must sam and the pig work for ? 0.7794
+who were sam work for and the pig ? 1.4072
+who were sam and the pig fishing ? 0.4631
+what did sam work for and the pig ? 0.5582
+what did sam and the pig work for ? 0.0821
+what were sam fishing and the pig ? 1.1951
+what were sam and the pig fishing ? 0.7952
+who must sarah work for and the sister ? 0.0118
+who must sarah and the sister work for ? 0.0032
+who were sarah work for and the sister ? 0.0239
+who were sarah and the sister running to ? 0.0033
+what did sarah work for and the sister ? 0.0833
+what did sarah and the sister work for ? 0.0033
+what were sarah running to and the sister ? 0.0168
+what were sarah and the sister running to ? 0.0030
+who were william tell something and the duke ? 0.1647
+who were william and the duke running to ? 0.0041
+what were william running to and the duke ? 0.2403
+what were william and the duke running to ? 0.0053
+who were sam work for and the boat ? 1.3662
+who were sam and the boat drawing ? 1.1730
+what were sam drawing and the boat ? 0.6124
+what were sam and the boat drawing ? 0.9974
+who were anne present and the wolf ? 0.6142
+who were anne and the wolf sleeping in ? 0.0150
+what were anne sleeping in and the wolf ? 0.0378
+what were anne and the wolf sleeping in ? 0.0374
+what did laura close and the doctor ? 0.5867
+what did laura and the doctor close ? 0.4710
+who must william close and the boat ? 0.2541
+who must william and the boat close ? 0.0566
+who were anne become and the pig ? 1.8768
+who were anne and the pig running to ? 0.0052
+what were anne running to and the pig ? 0.0121
+what were anne and the pig running to ? 0.0034
+who must michael become and the slave ? 0.0028
+who must michael and the slave become ? 0.0111
+what did michael become and the slave ? 0.0039
+what did michael and the slave become ? 0.0034
+who must sam turn and the boat ? 1.5561
+who must sam and the boat turn ? 1.1835
+who were sam turn and the boat ? 1.3049
+who were sam and the boat talking about ? 0.0139
+what did sam turn and the boat ? 0.2308
+what did sam and the boat turn ? 0.2043
+what were sam talking about and the boat ? 0.9821
+what were sam and the boat talking about ? 0.0342
+who must sarah work for and the boat ? 0.0165
+who must sarah and the boat work for ? 0.0072
+who were sarah work for and the boat ? 0.0218
+who were sarah and the boat looking for ? 0.0036
+what did sarah work for and the boat ? 0.0108
+what did sarah and the boat work for ? 0.0026
+what were sarah looking for and the boat ? 0.0015
+what were sarah and the boat looking for ? 0.0021
+who were allen tell something and the duke ? 0.0740
+who were allen and the duke housing ? 0.2890
+what were allen housing and the duke ? 0.3998
+what were allen and the duke housing ? 0.2131
+who were joseph turn and the dinosaur ? 0.6708
+who were joseph and the dinosaur growing ? 0.2852
+what were joseph growing and the dinosaur ? 0.7429
+what were joseph and the dinosaur growing ? 0.1914
+who must sarah tell something and the doctor ? 0.0476
+who must sarah and the doctor tell something ? 0.1288
+what did sarah tell something and the doctor ? 0.6977
+what did sarah and the doctor tell something ? 0.6156
+who must michael present and the doctor ? 0.0049
+who must michael and the doctor present ? 0.0134
+who were michael present and the doctor ? 0.0327
+who were michael and the doctor covering ? 0.0130
+what did michael present and the doctor ? 0.0280
+what did michael and the doctor present ? 0.0759
+what were michael covering and the doctor ? 0.2376
+what were michael and the doctor covering ? 0.0061
+who were chris have and the dinosaur ? 0.2915
+who were chris and the dinosaur falling on ? 0.0096
+what were chris falling on and the dinosaur ? 0.0155
+what were chris and the dinosaur falling on ? 0.0092
+who must joseph present and the wolf ? 0.0181
+who must joseph and the wolf present ? 0.0229
+who were joseph present and the wolf ? 0.2423
+who were joseph and the wolf trying ? 0.0479
+what did joseph present and the wolf ? 0.1263
+what did joseph and the wolf present ? 0.4360
+what were joseph trying and the wolf ? 0.0814
+what were joseph and the wolf trying ? 0.0237
+who must william become and the wolf ? 0.0097
+who must william and the wolf become ? 0.0202
+who were william become and the wolf ? 0.0309
+who were william and the wolf housing ? 0.1935
+what did william become and the wolf ? 0.0535
+what did william and the wolf become ? 0.0079
+what were william housing and the wolf ? 0.7160
+what were william and the wolf housing ? 0.0958
+who must joseph turn and the wolf ? 0.0065
+who must joseph and the wolf turn ? 0.0566
+who were joseph turn and the wolf ? 0.0587
+who were joseph and the wolf looking for ? 0.0015
+what did joseph turn and the wolf ? 0.1098
+what did joseph and the wolf turn ? 0.2066
+what were joseph looking for and the wolf ? 0.0026
+what were joseph and the wolf looking for ? 0.0009
+who must sam tell something and the doctor ? 1.4106
+who must sam and the doctor tell something ? 0.9790
+who were sam tell something and the doctor ? 1.2639
+who were sam and the doctor growing ? 1.7174
+what did sam tell something and the doctor ? 0.9464
+what did sam and the doctor tell something ? 0.4933
+what were sam growing and the doctor ? 1.4558
+what were sam and the doctor growing ? 1.4555
+who must allen turn and the sister ? 0.0213
+who must allen and the sister turn ? 0.0334
+who were allen turn and the sister ? 0.6162
+who were allen and the sister looking for ? 0.0052
+what did allen turn and the sister ? 0.1862
+what did allen and the sister turn ? 0.2984
+who must sam turn and the pig ? 1.4129
+who must sam and the pig turn ? 0.8316
+who were sam turn and the pig ? 1.2046
+who were sam and the pig reaching for ? 0.8152
+what did sam turn and the pig ? 0.4284
+what did sam and the pig turn ? 0.3419
+what were sam reaching for and the pig ? 0.9050
+what were sam and the pig reaching for ? 0.9775
+who must sarah become and the duke ? 0.0033
+who must sarah and the duke become ? 0.0067
+who were sarah become and the duke ? 0.4095
+who were sarah and the duke growing ? 0.6259
+what did sarah become and the duke ? 0.0038
+what did sarah and the duke become ? 0.0079
+what were sarah growing and the duke ? 0.6518
+what were sarah and the duke growing ? 0.5966
+who were laura have and the doctor ? 0.7042
+who were laura and the doctor drawing ? 0.0063
+what were laura drawing and the doctor ? 0.0059
+what were laura and the doctor drawing ? 0.0019
+who must allen present and the sister ? 0.0104
+who must allen and the sister present ? 0.0148
+who were allen present and the sister ? 0.0135
+who were allen and the sister thinking about ? 0.0057
+what were allen thinking about and the sister ? 0.0325
+what were allen and the sister thinking about ? 0.0075
+who were chris tell something and the boat ? 0.1926
+who were chris and the boat trying ? 0.1603
+what were chris trying and the boat ? 0.0366
+what were chris and the boat trying ? 0.0264
+who were robert tell something and the doctor ? 0.0851
+who were robert and the doctor calling ? 0.0060
+what were robert calling and the doctor ? 0.0749
+what were robert and the doctor calling ? 0.1000
+who must sam close and the boat ? 1.6821
+who must sam and the boat close ? 1.2532
+who were sam close and the boat ? 0.9625
+who were sam and the boat testing ? 1.3222
+what did sam close and the boat ? 0.2875
+what did sam and the boat close ? 0.3620
+what were sam testing and the boat ? 1.3091
+what were sam and the boat testing ? 1.2730
+who were allen change and the sister ? 0.3354
+who were allen and the sister reaching for ? 0.0081
+what were allen reaching for and the sister ? 0.0542
+what were allen and the sister reaching for ? 0.0090
+who must sam turn and the wolf ? 1.4418
+who must sam and the wolf turn ? 0.9333
+who were sam turn and the wolf ? 1.1643
+who were sam and the wolf housing ? 1.5525
+what were sam housing and the wolf ? 1.6477
+what were sam and the wolf housing ? 1.2493
+who must anne tell something and the dinosaur ? 0.1277
+who must anne and the dinosaur tell something ? 0.2366
+who were anne tell something and the dinosaur ? 0.5054
+who were anne and the dinosaur cutting ? 0.9504
+what did anne tell something and the dinosaur ? 0.2253
+what did anne and the dinosaur tell something ? 0.0983
+what were anne cutting and the dinosaur ? 1.6658
+what were anne and the dinosaur cutting ? 0.8709
+who must allen keep and the slave ? 0.0043
+who must allen and the slave keep ? 0.0267
+who were allen keep and the slave ? 0.2935
+who were allen and the slave running to ? 0.0051
+what did allen keep and the slave ? 0.0092
+what did allen and the slave keep ? 0.0092
+what were allen running to and the slave ? 0.0219
+what were allen and the slave running to ? 0.0066
+what did sam have and the duke ? 0.0806
+what did sam and the duke have ? 0.0087
+what were sam eating and the duke ? 0.5652
+what were sam and the duke eating ? 0.4668
+who were william have and the boat ? 0.2307
+who were william and the boat thinking about ? 0.0065
+what were william thinking about and the boat ? 0.3447
+what were william and the boat thinking about ? 0.0066
+who were anne close and the dinosaur ? 0.9162
+who were anne and the dinosaur taking ? 0.4988
+what were anne taking and the dinosaur ? 1.1164
+what were anne and the dinosaur taking ? 0.1529
+who must michael keep and the wolf ? 0.0141
+who must michael and the wolf keep ? 0.0441
+what did michael keep and the wolf ? 0.0178
+what did michael and the wolf keep ? 0.0338
+who must robert change and the dinosaur ? 0.0106
+who must robert and the dinosaur change ? 0.1474
+who were robert change and the dinosaur ? 0.0442
+who were robert and the dinosaur taking ? 0.5463
+what did robert change and the dinosaur ? 0.0561
+what did robert and the dinosaur change ? 0.0204
+what were robert taking and the dinosaur ? 0.3178
+what were robert and the dinosaur taking ? 0.2173
+who must joseph tell something and the duke ? 0.0196
+who must joseph and the duke tell something ? 0.0619
+who were joseph tell something and the duke ? 0.0599
+who were joseph and the duke housing ? 0.7130
+what did joseph tell something and the duke ? 0.4514
+what did joseph and the duke tell something ? 0.3814
+what were joseph housing and the duke ? 0.6567
+what were joseph and the duke housing ? 0.3804
+who must laura present and the dinosaur ? 0.0648
+who must laura and the dinosaur present ? 0.1005
+who were laura present and the dinosaur ? 0.0460
+who were laura and the dinosaur housing ? 0.3479
+what did laura present and the dinosaur ? 0.1860
+what did laura and the dinosaur present ? 0.3631
+what were laura housing and the dinosaur ? 0.9035
+what were laura and the dinosaur housing ? 0.3606
+who must chris present and the wolf ? 0.0400
+who must chris and the wolf present ? 0.0251
+what did chris present and the wolf ? 0.1453
+what did chris and the wolf present ? 0.4095
+who must joseph change and the dinosaur ? 0.0174
+who must joseph and the dinosaur change ? 0.1796
+who were joseph change and the dinosaur ? 0.7103
+who were joseph and the dinosaur running to ? 0.0042
+what did joseph change and the dinosaur ? 0.0512
+what did joseph and the dinosaur change ? 0.0243
+what were joseph running to and the dinosaur ? 0.0194
+what were joseph and the dinosaur running to ? 0.0031
+who must chris have and the pig ? 0.0050
+who must chris and the pig have ? 0.0191
+who were chris have and the pig ? 0.1801
+who were chris and the pig looking for ? 0.0026
+what did chris have and the pig ? 0.0040
+what did chris and the pig have ? 0.0031
+what were chris looking for and the pig ? 0.0022
+what were chris and the pig looking for ? 0.0018
+who must robert keep and the doctor ? 0.0175
+who must robert and the doctor keep ? 0.0241
+what did robert keep and the doctor ? 0.0306
+what did robert and the doctor keep ? 0.0171
+who were chris turn and the boat ? 0.0051
+who were chris and the boat talking about ? 0.0183
+what were chris talking about and the boat ? 0.0021
+what were chris and the boat talking about ? 0.0078
+what did william become and the dinosaur ? 0.1315
+what did william and the dinosaur become ? 0.0226
+who must william become and the pig ? 0.0108
+who must william and the pig become ? 0.0138
+who were william become and the pig ? 0.0650
+who were william and the pig running to ? 0.0067
+what did william become and the pig ? 0.0548
+what did william and the pig become ? 0.0083
+what were william running to and the pig ? 0.3493
+what were william and the pig running to ? 0.0037
+who were chris close and the wolf ? 0.0457
+who were chris and the wolf cutting ? 0.5060
+what were chris cutting and the wolf ? 0.2208
+what were chris and the wolf cutting ? 0.4167
+who must sam become and the duke ? 0.0676
+who must sam and the duke become ? 0.9022
+who were sam become and the duke ? 1.2534
+who were sam and the duke talking about ? 0.0029
+what did sam become and the duke ? 0.0729
+what did sam and the duke become ? 0.0170
+what were sam talking about and the duke ? 1.2192
+what were sam and the duke talking about ? 0.0105
+what were laura saying and the dinosaur ? 0.0293
+what were laura and the dinosaur saying ? 0.0035
+who must allen work for and the slave ? 0.0033
+who must allen and the slave work for ? 0.0052
+who were allen work for and the slave ? 0.0162
+who were allen and the slave trying ? 0.2320
+what did allen work for and the slave ? 0.0143
+what did allen and the slave work for ? 0.0044
+what were allen trying and the slave ? 0.0792
+what were allen and the slave trying ? 0.0602
+what did allen close and the wolf ? 0.1422
+what did allen and the wolf close ? 0.5507
+what were allen eating and the wolf ? 0.0131
+what were allen and the wolf eating ? 0.0104
+who must michael work for and the duke ? 0.0020
+who must michael and the duke work for ? 0.0019
+who were michael work for and the duke ? 0.0046
+who were michael and the duke calling ? 0.0083
+what did michael work for and the duke ? 0.0023
+what did michael and the duke work for ? 0.0014
+what were michael calling and the duke ? 0.0509
+what were michael and the duke calling ? 0.1976
+who must sam close and the doctor ? 1.5380
+who must sam and the doctor close ? 1.0573
+who were sam close and the doctor ? 0.6991
+who were sam and the doctor trying ? 1.1053
+what did sam close and the doctor ? 0.6598
+what did sam and the doctor close ? 0.6283
+what were sam trying and the doctor ? 0.9334
+what were sam and the doctor trying ? 1.0950
+who must sam present and the boat ? 1.6852
+who must sam and the boat present ? 0.9139
+who were sam present and the boat ? 1.4036
+who were sam and the boat sleeping in ? 1.1070
+what did sam present and the boat ? 0.2311
+what did sam and the boat present ? 0.1504
+what were sam sleeping in and the boat ? 1.3131
+what were sam and the boat sleeping in ? 1.0165
+who must laura tell something and the dinosaur ? 0.0386
+who must laura and the dinosaur tell something ? 0.2812
+what did laura tell something and the dinosaur ? 0.2961
+what did laura and the dinosaur tell something ? 0.2502
+who must laura change and the pig ? 0.0098
+who must laura and the pig change ? 0.0549
+what did laura change and the pig ? 0.0618
+what did laura and the pig change ? 0.0222
+who were michael turn and the dinosaur ? 0.0195
+who were michael and the dinosaur trying ? 0.0953
+what were michael trying and the dinosaur ? 0.0568
+what were michael and the dinosaur trying ? 0.0135
+who must michael keep and the duke ? 0.0171
+who must michael and the duke keep ? 0.0184
+what did michael keep and the duke ? 0.0202
+what did michael and the duke keep ? 0.0298
+who must sam have and the boat ? 0.3642
+who must sam and the boat have ? 0.0295
+who must chris tell something and the slave ? 0.0172
+who must chris and the slave tell something ? 0.0926
+who were chris tell something and the slave ? 0.1342
+who were chris and the slave trying ? 0.3564
+what did chris tell something and the slave ? 0.5265
+what did chris and the slave tell something ? 0.3261
+what were chris trying and the slave ? 0.0683
+what were chris and the slave trying ? 0.0713
+who were sam present and the pig ? 1.3008
+who were sam and the pig trying ? 0.5976
+what were sam trying and the pig ? 0.8205
+what were sam and the pig trying ? 0.8019
+who must allen close and the slave ? 0.0109
+who must allen and the slave close ? 0.0128
+what did allen close and the slave ? 0.0804
+what did allen and the slave close ? 0.2797
+who were michael change and the duke ? 0.0036
+who were michael and the duke trying ? 0.1091
+what were michael trying and the duke ? 0.0410
+what were michael and the duke trying ? 0.0291
+what did laura need and the pig ? 0.0137
+what did laura and the pig need ? 0.0058
+what were laura testing and the pig ? 0.0562
+what were laura and the pig testing ? 0.0859
+who must allen work for and the wolf ? 0.0228
+who must allen and the wolf work for ? 0.0042
+who were allen work for and the wolf ? 0.0692
+who were allen and the wolf sleeping in ? 0.0249
+what did allen work for and the wolf ? 0.0396
+what did allen and the wolf work for ? 0.0051
+what were allen sleeping in and the wolf ? 0.0321
+what were allen and the wolf sleeping in ? 0.0408
+who were william become and the doctor ? 0.0800
+who were william and the doctor talking about ? 0.0015
+what were william talking about and the doctor ? 0.1676
+what were william and the doctor talking about ? 0.0018
+who must chris become and the dinosaur ? 0.0084
+who must chris and the dinosaur become ? 0.0089
+who were chris become and the dinosaur ? 0.2202
+who were chris and the dinosaur sleeping in ? 0.0148
+what were chris sleeping in and the dinosaur ? 0.0569
+what were chris and the dinosaur sleeping in ? 0.0285
+what did robert become and the wolf ? 0.0086
+what did robert and the wolf become ? 0.0107
+what were robert eating and the wolf ? 0.0111
+what were robert and the wolf eating ? 0.0013
+who must allen turn and the slave ? 0.0093
+who must allen and the slave turn ? 0.0165
+who were allen turn and the slave ? 0.4823
+who were allen and the slave falling on ? 0.0091
+what did allen turn and the slave ? 0.1434
+what did allen and the slave turn ? 0.2648
+what were allen falling on and the slave ? 0.0803
+what were allen and the slave falling on ? 0.0111
+who were william present and the pig ? 0.0830
+who were william and the pig housing ? 0.4378
+what were william housing and the pig ? 0.5873
+what were william and the pig housing ? 0.1582
+who must chris become and the wolf ? 0.0058
+who must chris and the wolf become ? 0.0128
+who were chris become and the wolf ? 0.1498
+who were chris and the wolf housing ? 0.6235
+what did chris become and the wolf ? 0.0045
+what did chris and the wolf become ? 0.0086
+what were chris housing and the wolf ? 0.6359
+what were chris and the wolf housing ? 0.4091
+what were joseph trying and the boat ? 0.0541
+what were joseph and the boat trying ? 0.0269
+what were robert calling and the sister ? 0.2155
+what were robert and the sister calling ? 0.1967
+who must joseph turn and the slave ? 0.0088
+who must joseph and the slave turn ? 0.0499
+who were joseph turn and the slave ? 0.0069
+who were joseph and the slave calling ? 0.2851
+what did joseph turn and the slave ? 0.2194
+what did joseph and the slave turn ? 0.2208
+what were joseph calling and the slave ? 0.1756
+what were joseph and the slave calling ? 0.2325
+who were william turn and the dinosaur ? 0.3318
+who were william and the dinosaur sleeping in ? 0.0126
+what were william sleeping in and the dinosaur ? 0.2835
+what were william and the dinosaur sleeping in ? 0.0303
+what were michael saying and the sister ? 0.0226
+what were michael and the sister saying ? 0.0017
+who must chris change and the wolf ? 0.0105
+who must chris and the wolf change ? 0.1041
+what did chris change and the wolf ? 0.0179
+what did chris and the wolf change ? 0.0121
+who were joseph tell something and the doctor ? 0.0452
+who were joseph and the doctor talking about ? 0.0013
+what were joseph talking about and the doctor ? 0.0012
+what were joseph and the doctor talking about ? 0.0010
+what were anne talking about and the wolf ? 0.0045
+what were anne and the wolf talking about ? 0.0026
+who were sarah change and the slave ? 0.1116
+who were sarah and the slave testing ? 0.2949
+what were sarah testing and the slave ? 0.0590
+what were sarah and the slave testing ? 0.1596
+who were chris change and the wolf ? 0.0050
+who were chris and the wolf sleeping in ? 0.0128
+what were chris sleeping in and the wolf ? 0.0160
+what were chris and the wolf sleeping in ? 0.0355
+who were chris tell something and the wolf ? 0.1611
+who were chris and the wolf talking about ? 0.0018
+what were chris talking about and the wolf ? 0.0026
+what were chris and the wolf talking about ? 0.0014
+who must anne work for and the sister ? 0.0212
+who must anne and the sister work for ? 0.0050
+who were anne work for and the sister ? 0.1507
+who were anne and the sister thinking about ? 0.0044
+what did anne work for and the sister ? 0.0972
+what did anne and the sister work for ? 0.0045
+what were anne thinking about and the sister ? 0.0203
+what were anne and the sister thinking about ? 0.0029
+who must michael work for and the slave ? 0.0032
+who must michael and the slave work for ? 0.0034
+who were michael work for and the slave ? 0.0090
+who were michael and the slave drawing ? 0.1699
+what did michael work for and the slave ? 0.0145
+what did michael and the slave work for ? 0.0029
+what were michael drawing and the slave ? 0.0054
+what were michael and the slave drawing ? 0.0513
+who must william keep and the dinosaur ? 0.1559
+who must william and the dinosaur keep ? 0.0987
+what did william keep and the dinosaur ? 0.2234
+what did william and the dinosaur keep ? 0.0632
+who were anne tell something and the pig ? 0.2668
+who were anne and the pig housing ? 0.4570
+what were anne housing and the pig ? 1.0138
+what were anne and the pig housing ? 0.0861
+what were laura sleeping in and the sister ? 0.0427
+what were laura and the sister sleeping in ? 0.0472
+who must allen turn and the boat ? 0.0127
+who must allen and the boat turn ? 0.0181
+who were allen turn and the boat ? 0.3563
+who were allen and the boat thinking about ? 0.0068
+what did allen turn and the boat ? 0.0940
+what did allen and the boat turn ? 0.0982
+what were allen thinking about and the boat ? 0.0123
+what were allen and the boat thinking about ? 0.0066
+who must allen become and the pig ? 0.0043
+who must allen and the pig become ? 0.0116
+who were allen become and the pig ? 0.4148
+who were allen and the pig calling ? 0.0198
+what did allen become and the pig ? 0.0086
+what did allen and the pig become ? 0.0101
+what were allen calling and the pig ? 0.2704
+what were allen and the pig calling ? 0.1297
+who must michael tell something and the duke ? 0.0099
+who must michael and the duke tell something ? 0.0654
+who were michael tell something and the duke ? 0.0724
+who were michael and the duke falling on ? 0.0097
+what did michael tell something and the duke ? 0.4348
+what did michael and the duke tell something ? 0.3615
+what were michael falling on and the duke ? 0.0169
+what were michael and the duke falling on ? 0.0157
+who must robert become and the wolf ? 0.0052
+who must robert and the wolf become ? 0.0094
+who were robert become and the wolf ? 0.5933
+who were robert and the wolf trying ? 0.0973
+what were robert trying and the wolf ? 0.0554
+what were robert and the wolf trying ? 0.0266
+who must laura change and the dinosaur ? 0.0320
+who must laura and the dinosaur change ? 0.3117
+who were laura change and the dinosaur ? 0.8979
+who were laura and the dinosaur calling ? 0.0319
+what did laura change and the dinosaur ? 0.0839
+what did laura and the dinosaur change ? 0.0510
+what were laura calling and the dinosaur ? 0.3990
+what were laura and the dinosaur calling ? 0.1329
+who must sam have and the duke ? 0.9568
+who must sam and the duke have ? 0.7386
+who were laura tell something and the dinosaur ? 0.1994
+who were laura and the dinosaur running to ? 0.0053
+what were laura running to and the dinosaur ? 0.0132
+what were laura and the dinosaur running to ? 0.0051
+who must robert turn and the wolf ? 0.0094
+who must robert and the wolf turn ? 0.0605
+who were robert turn and the wolf ? 0.0038
+who were robert and the wolf turning ? 0.1273
+what did robert turn and the wolf ? 0.0808
+what did robert and the wolf turn ? 0.2411
+what were robert turning and the wolf ? 0.6044
+what were robert and the wolf turning ? 0.4024
+who were william tell something and the sister ? 0.0908
+who were william and the sister falling on ? 0.0092
+what were william falling on and the sister ? 0.2670
+what were william and the sister falling on ? 0.0257
+what did michael need and the duke ? 0.0218
+what did michael and the duke need ? 0.0061
+who were sarah close and the sister ? 0.0157
+who were sarah and the sister growing ? 0.6015
+what were sarah growing and the sister ? 0.3629
+what were sarah and the sister growing ? 0.4303
+who were joseph have and the duke ? 0.6089
+who were joseph and the duke testing ? 0.0729
+what were joseph testing and the duke ? 0.0247
+what were joseph and the duke testing ? 0.0244
+who must sarah have and the dinosaur ? 0.0138
+who must sarah and the dinosaur have ? 0.0335
+who were sarah have and the dinosaur ? 0.6937
+who were sarah and the dinosaur taking ? 0.2441
+what did sarah have and the dinosaur ? 0.0230
+what did sarah and the dinosaur have ? 0.0097
+who were michael change and the pig ? 0.0056
+who were michael and the pig taking ? 0.1155
+what were michael taking and the pig ? 0.0297
+what were michael and the pig taking ? 0.0391
+who were allen work for and the wolf ? 0.0692
+who were allen and the wolf thinking about ? 0.0055
+what were allen thinking about and the wolf ? 0.0120
+what were allen and the wolf thinking about ? 0.0099
+what did sarah become and the wolf ? 0.0027
+what did sarah and the wolf become ? 0.0070
+what were sarah eating and the wolf ? 0.0062
+what were sarah and the wolf eating ? 0.0011
+who must joseph become and the duke ? 0.0021
+who must joseph and the duke become ? 0.0045
+who were joseph become and the duke ? 0.7587
+who were joseph and the duke trying ? 0.0384
+what did joseph become and the duke ? 0.0034
+what did joseph and the duke become ? 0.0046
+what were joseph trying and the duke ? 0.0740
+what were joseph and the duke trying ? 0.0271
+what were sam thinking about and the pig ? 1.2652
+what were sam and the pig thinking about ? 0.8091
+who must sam present and the slave ? 1.7232
+who must sam and the slave present ? 1.1622
+who were sam present and the slave ? 1.5220
+who were sam and the slave thinking about ? 0.1373
+what were sam thinking about and the slave ? 0.9214
+what were sam and the slave thinking about ? 0.4873
+who were anne tell something and the doctor ? 0.1717
+who were anne and the doctor talking about ? 0.0021
+what were anne talking about and the doctor ? 0.0023
+what were anne and the doctor talking about ? 0.0026
+what were sam saying and the pig ? 0.5500
+what were sam and the pig saying ? 0.7612
+who were sam become and the sister ? 1.1081
+who were sam and the sister cutting ? 1.2045
+what were sam cutting and the sister ? 1.6560
+what were sam and the sister cutting ? 0.2720
+who were laura close and the dinosaur ? 0.2366
+who were laura and the dinosaur drawing ? 0.0634
+what were laura drawing and the dinosaur ? 0.0313
+what were laura and the dinosaur drawing ? 0.1036

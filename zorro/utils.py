@@ -55,10 +55,6 @@ def prepare_data_for_plotting(gn2model_output_paths: Dict[str, List[Path]],
 
     for group_name in group_names:
 
-        print('**************************')
-        print(group_name)
-        print('**************************')
-
         # read model output into instance of DataExperimental
         output_paths = gn2model_output_paths[group_name]
         if not output_paths:
@@ -144,14 +140,16 @@ def shorten_tick_label(label: Union[str, int],
         return label
 
 
-
 def get_legend_label(group_name,
                      reps,
                      conditions: Optional[List[str]] = None,
                      add_group_name: bool = False,
                      ) -> str:
 
-    conditions =  conditions or configs.Eval.conditions
+    conditions = conditions or configs.Eval.conditions
+
+    if 'data_size' not in conditions:
+        conditions.insert(0, 'data_size')
 
     if group_name.endswith('frequency baseline'):
         return 'frequency baseline'
@@ -163,24 +161,24 @@ def get_legend_label(group_name,
 
     param2val = load_param2val(group_name, runs_path)
 
-    if group_name.startswith('param'):
+    if 'BabyBERTa' in group_name:
         model_name = 'BabyBERTa'
-    else:
+    elif 'RoBERTa-base' in group_name or 'Roberta-base' in group_name:
         model_name = 'RoBERTa-base'
-        conditions = ['data_size']
+    else:
+        raise AttributeError(f'Did not recognize {group_name}. BabyBERTa or RoBERTa-base?')
 
     # init label
-    # res = f'{model_name} | n={reps} '
-    res = f'{model_name} '
+    if configs.Eval.add_reps_to_legend:
+        res = f'{model_name} | n={reps} '
+    else:
+        res = f'{model_name} '
 
     # add corpora info
-    if model_name == 'RoBERTa-base':
-        if param2val['data_size'] == '10M':
-            res += '| Warstadt et al., 2020 '
-        elif param2val['data_size'] == '5M':
-            res += '| AO-CHILDES '
-        elif param2val['data_size'] == '30B':
-            res += '| Liu et al., 2019 '
+    try:
+        res += f'| {param2val["corpora"]} '
+    except KeyError:
+        raise KeyError(f'Did not find "data_size" param2val for {group_name}')
 
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
@@ -204,6 +202,7 @@ def get_legend_label(group_name,
     res = res.replace('leave_unmasked_prob_start=0.0 | leave_unmasked_prob=0.1', 'unmasking curriculum')
 
     res = res.replace('leave_unmasked_prob=0.0', 'no unmasking')
+    res = res.replace('leave_unmasked_prob=n/a', 'standard unmasking')
     res = res.replace('leave_unmasked_prob=0.1', 'standard unmasking')
 
     res = res.replace("corpora=('wikipedia1', 'wikipedia2', 'wikipedia3')", 'Wiki-1 + Wiki-2 + Wiki-3')
@@ -217,7 +216,7 @@ def get_legend_label(group_name,
     res = res.replace("('aonewsela',)", 'AO-Newsela')
     res = res.replace("('wikipedia1',)", 'Wikipedia-1')
 
-    res = res.replace("data_size", 'words in data')
+    res = res.replace("data_size=", '')
 
     return res
 

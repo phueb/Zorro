@@ -1,0 +1,4000 @@
+is the fact gets the moon ? 1.5741
+is the fact getting the moon ? 1.7090
+can the fact orders ? 1.0731
+can the fact order ? 0.1245
+is the whale takes the memory away ? 0.0771
+is the whale taking the memory away ? 0.0050
+can the whale wants ? 0.6305
+can the whale want ? 0.0054
+is the duke looks ? 1.1615
+is the duke looking ? 0.0034
+can the duke wants ? 0.9241
+can the duke want ? 0.2465
+is the soil uses the farm ? 1.7601
+is the soil using the farm ? 0.5832
+can the soil orders ? 0.9308
+can the soil order ? 0.2760
+is the ball starts ? 0.3933
+is the ball starting ? 0.0038
+can the ball orders ? 2.7562
+can the ball order ? 0.1132
+is the vote depends on the lady ? 0.8700
+is the vote depending on the lady ? 0.2933
+can the vote records ? 2.4397
+can the vote record ? 1.2466
+is the store finds the brain ? 1.8682
+is the store finding the brain ? 0.0395
+can the store wants ? 0.6097
+can the store want ? 0.0081
+is the army uses the sister ? 0.7310
+is the army using the sister ? 0.2574
+can the army takes the sister away ? 0.0418
+can the army take the sister away ? 0.0177
+is the tube uses him ? 0.4830
+is the tube using him ? 0.0998
+can the tube uses him ? 0.1863
+can the tube use him ? 0.0037
+is the vacuum turns ? 0.0320
+is the vacuum turning ? 0.0432
+can the vacuum takes the rest away ? 0.0874
+can the vacuum take the rest away ? 0.0924
+is the hand looks ? 0.1747
+is the hand looking ? 0.0242
+can the hand needs ? 0.1100
+can the hand need ? 0.0142
+is the lady turns ? 0.5370
+is the lady turning ? 0.0004
+can the lady takes the memory away ? 0.5829
+can the lady take the memory away ? 1.4479
+is the opportunity goes ? 2.2059
+is the opportunity going ? 2.5156
+can the opportunity needs ? 2.3723
+can the opportunity need ? 1.9068
+is the wheel depends on the whale ? 0.9313
+is the wheel depending on the whale ? 1.1985
+can the wheel orders ? 2.4334
+can the wheel order ? 0.0845
+is the show plays ? 0.9468
+is the show playing ? 0.4121
+can the show uses her ? 0.0505
+can the show use her ? 0.0652
+is the dinosaur sees how the the show works ? 0.1528
+is the dinosaur seeing how the the show works ? 0.0393
+can the dinosaur needs ? 0.2346
+can the dinosaur need ? 0.2812
+is the energy tells me about the soil ? 1.3965
+is the energy telling me about the soil ? 0.9256
+can the energy needs ? 0.0735
+can the energy need ? 0.0018
+is the picture gets the kiss ? 0.0462
+is the picture getting the kiss ? 0.0110
+can the picture changes ? 0.2012
+can the picture change ? 0.0143
+is the farm races ? 0.0472
+is the farm racing ? 0.0035
+can the farm takes the house away ? 0.2970
+can the farm take the house away ? 0.0016
+is the serve says something ? 0.0389
+is the serve saying something ? 0.0297
+can the serve records ? 1.0112
+can the serve record ? 0.0595
+is the energy makes the farm something ? 1.2190
+is the energy making the farm something ? 1.2631
+can the energy changes ? 0.6406
+can the energy change ? 0.3658
+is the pig makes the house something ? 0.0373
+is the pig making the house something ? 0.0018
+can the pig takes the house away ? 0.0807
+can the pig take the house away ? 0.0002
+is the wall plans to do something with the opportunity ? 1.0015
+is the wall planning to do something with the opportunity ? 0.5824
+can the wall becomes ? 0.4763
+can the wall become ? 0.4131
+is the crown plans to do something with the sister ? 1.0260
+is the crown planning to do something with the sister ? 1.2241
+can the crown changes ? 0.5166
+can the crown change ? 0.5832
+is the brain sees how the the ball works ? 1.1427
+is the brain seeing how the the ball works ? 0.4290
+can the brain changes ? 0.4631
+can the brain change ? 0.0055
+is the whale finds the army ? 0.7325
+is the whale finding the army ? 0.0194
+can the whale orders ? 0.9755
+can the whale order ? 0.2164
+is the show finds you ? 1.3726
+is the show finding you ? 0.0938
+can the show gives you the moon ? 0.4129
+can the show give you the moon ? 0.0073
+is the rest leaves ? 0.0124
+is the rest leaving ? 0.2176
+can the rest works ? 0.4345
+can the rest work ? 0.0546
+is the tube races ? 0.0022
+is the tube racing ? 0.0024
+can the tube gives the soil the apple ? 0.7976
+can the tube give the soil the apple ? 0.7749
+is the spread depends on the rest ? 1.2641
+is the spread depending on the rest ? 1.9616
+can the spread records ? 0.7147
+can the spread record ? 0.5626
+is the slave lives ? 0.4975
+is the slave living ? 0.0894
+can the slave records ? 2.3984
+can the slave record ? 0.6217
+is the dinosaur races ? 0.0017
+is the dinosaur racing ? 0.0232
+can the dinosaur records ? 0.2871
+can the dinosaur record ? 0.0120
+is the garden turns ? 0.0212
+is the garden turning ? 0.2038
+can the garden needs ? 0.1216
+can the garden need ? 0.1084
+is the poem lives ? 0.1815
+is the poem living ? 0.0025
+can the poem wants ? 0.7510
+can the poem want ? 0.3995
+is the pig depends on the army ? 1.6601
+is the pig depending on the army ? 1.7048
+can the pig records ? 0.6799
+can the pig record ? 0.0386
+is the truck says something ? 0.0186
+is the truck saying something ? 0.0002
+can the truck needs ? 0.0022
+can the truck need ? 0.0016
+is the whale finds the poem ? 0.3890
+is the whale finding the poem ? 0.9775
+can the whale needs ? 0.0599
+can the whale need ? 0.0009
+is the apple tells me about the direction ? 0.7483
+is the apple telling me about the direction ? 0.7436
+can the apple works ? 0.3953
+can the apple work ? 0.0002
+is the poem leaves ? 0.6493
+is the poem leaving ? 0.0226
+can the poem becomes ? 1.0644
+can the poem become ? 0.6347
+is the energy leaves ? 2.8240
+is the energy leaving ? 0.0010
+can the energy gives the sister the sister ? 1.8730
+can the energy give the sister the sister ? 1.8248
+is the soil depends on the trouble ? 1.1584
+is the soil depending on the trouble ? 1.6055
+can the soil becomes ? 1.1533
+can the soil become ? 0.8684
+is the vote tells me about the wheel ? 1.2169
+is the vote telling me about the wheel ? 1.2368
+can the vote uses the wheel ? 2.3186
+can the vote use the wheel ? 2.1016
+is the duke uses the farm ? 0.7837
+is the duke using the farm ? 0.0096
+can the duke needs ? 0.0329
+can the duke need ? 0.4055
+is the house plays ? 0.1370
+is the house playing ? 0.0060
+can the house changes ? 0.4232
+can the house change ? 0.4141
+is the poem finds the restaurant ? 1.5996
+is the poem finding the restaurant ? 0.8975
+can the poem gives the restaurant the serve ? 1.1477
+can the poem give the restaurant the serve ? 1.0027
+is the moon depends on the hat ? 0.7932
+is the moon depending on the hat ? 1.2302
+can the moon takes the hat away ? 0.3802
+can the moon take the hat away ? 0.0017
+is the fact takes the wheel away ? 0.1767
+is the fact taking the wheel away ? 0.5596
+can the fact becomes ? 0.5500
+can the fact become ? 0.8985
+is the temperature plans to do something with the crown ? 1.1848
+is the temperature planning to do something with the crown ? 0.9462
+can the temperature works ? 0.0783
+can the temperature work ? 0.0042
+is the whale shows the ball to the opportunity ? 1.1963
+is the whale showing the ball to the opportunity ? 1.4030
+can the whale records ? 0.8074
+can the whale record ? 0.0266
+is the cause starts ? 1.0560
+is the cause starting ? 0.5080
+can the cause records ? 0.6499
+can the cause record ? 0.9103
+is the fan plans to do something with the garden ? 0.6410
+is the fan planning to do something with the garden ? 0.0157
+can the fan orders ? 1.3301
+can the fan order ? 0.0156
+is the wall gets the egg ? 0.0598
+is the wall getting the egg ? 0.0144
+can the wall works ? 0.5511
+can the wall work ? 0.0194
+is the ball tells me about the table ? 0.4168
+is the ball telling me about the table ? 0.0001
+can the ball changes ? 0.1677
+can the ball change ? 0.0105
+is the slave turns ? 1.1367
+is the slave turning ? 0.6974
+can the slave uses the sister ? 1.7396
+can the slave use the sister ? 2.1753
+is the doctor leaves ? 0.0141
+is the doctor leaving ? 0.0295
+can the doctor orders ? 0.5118
+can the doctor order ? 0.0139
+is the lady sees how the the house works ? 0.1405
+is the lady seeing how the the house works ? 0.0465
+can the lady gives the house the memory ? 1.3553
+can the lady give the house the memory ? 1.6545
+is the hand plays ? 0.1023
+is the hand playing ? 0.0802
+can the hand records ? 0.2536
+can the hand record ? 0.2425
+is the show turns ? 0.1821
+is the show turning ? 0.0865
+can the show takes you away ? 0.0287
+can the show take you away ? 0.0005
+is the earth goes ? 0.1972
+is the earth going ? 0.4204
+can the earth orders ? 0.8830
+can the earth order ? 0.1909
+is the direction races ? 0.8111
+is the direction racing ? 0.5804
+can the direction takes the fact away ? 0.4559
+can the direction take the fact away ? 0.6673
+is the boat uses the temperature ? 0.6382
+is the boat using the temperature ? 0.0371
+can the boat wants ? 0.7775
+can the boat want ? 0.2414
+is the journey looks ? 1.5109
+is the journey looking ? 2.0565
+can the journey uses the trouble ? 2.7231
+can the journey use the trouble ? 2.3524
+is the fan lives ? 0.0656
+is the fan living ? 0.0085
+can the fan becomes ? 0.3943
+can the fan become ? 0.0349
+is the temperature turns ? 0.8387
+is the temperature turning ? 0.1317
+can the temperature wants ? 0.0249
+can the temperature want ? 0.0076
+is the house gets the watch ? 0.0590
+is the house getting the watch ? 0.0021
+can the house needs ? 0.0174
+can the house need ? 0.0025
+is the table uses the opportunity ? 1.1900
+is the table using the opportunity ? 1.2098
+can the table works ? 0.2061
+can the table work ? 0.0461
+is the wolf sees how the the ball works ? 0.0907
+is the wolf seeing how the the ball works ? 0.0381
+can the wolf needs ? 0.0443
+can the wolf need ? 0.0255
+is the fact sees how the the trouble works ? 1.1504
+is the fact seeing how the the trouble works ? 0.5680
+can the fact gives the trouble the hat ? 0.4945
+can the fact give the trouble the hat ? 0.4356
+is the vote starts ? 0.5832
+is the vote starting ? 0.3099
+can the vote wants ? 1.4451
+can the vote want ? 0.4825
+is the table says something ? 0.1110
+is the table saying something ? 0.0795
+can the table takes the cover away ? 0.4432
+can the table take the cover away ? 0.0016
+is the earth depends on the farm ? 0.3589
+is the earth depending on the farm ? 1.2933
+can the earth works ? 0.6786
+can the earth work ? 0.0192
+is the boat races ? 0.4151
+is the boat racing ? 0.1672
+can the boat records ? 0.3989
+can the boat record ? 0.2108
+is the fact goes ? 0.0005
+is the fact going ? 0.0027
+can the fact uses the ball ? 0.1968
+can the fact use the ball ? 1.7089
+is the vote looks ? 2.3093
+is the vote looking ? 0.5010
+can the vote uses the watch ? 0.3709
+can the vote use the watch ? 0.4019
+is the ear plays ? 0.4081
+is the ear playing ? 0.0101
+can the ear takes the fan away ? 0.2123
+can the ear take the fan away ? 0.1423
+is the farm turns ? 0.1140
+is the farm turning ? 0.5512
+can the farm takes the journey away ? 1.2145
+can the farm take the journey away ? 0.9715
+is the wolf sees how the the book works ? 0.1775
+is the wolf seeing how the the book works ? 0.1602
+can the wolf records ? 0.0101
+can the wolf record ? 0.4656
+is the show leaves ? 0.0689
+is the show leaving ? 0.0485
+can the show gives the book the hat ? 0.6651
+can the show give the book the hat ? 0.0497
+is the fan finds the tube ? 1.7009
+is the fan finding the tube ? 1.1392
+can the fan records ? 0.3436
+can the fan record ? 0.3917
+is the lady writes ? 0.9190
+is the lady writing ? 0.0056
+can the lady takes the ball away ? 0.1962
+can the lady take the ball away ? 0.0020
+is the memory races ? 0.1006
+is the memory racing ? 0.9585
+can the memory wants ? 0.8467
+can the memory want ? 0.3902
+is the watch depends on the book ? 1.2638
+is the watch depending on the book ? 1.8571
+can the watch uses the book ? 1.6697
+can the watch use the book ? 0.0005
+is the protection writes ? 2.6748
+is the protection writing ? 2.8189
+can the protection orders ? 1.6801
+can the protection order ? 2.3119
+is the poem tells me about you ? 0.1131
+is the poem telling me about you ? 0.0365
+can the poem records ? 1.0835
+can the poem record ? 0.6594
+is the trouble turns ? 0.7555
+is the trouble turning ? 0.1018
+can the trouble records ? 0.3670
+can the trouble record ? 0.7276
+is the direction sees how the the garden works ? 0.7647
+is the direction seeing how the the garden works ? 0.1341
+can the direction gives the garden the store ? 1.3020
+can the direction give the garden the store ? 1.3189
+is the serve makes the ball something ? 1.5272
+is the serve making the ball something ? 0.9722
+can the serve takes the ball away ? 0.8726
+can the serve take the ball away ? 1.4571
+is the wall plays ? 0.2415
+is the wall playing ? 0.0559
+is the figure plans to do something with the fan ? 1.2853
+is the figure planning to do something with the fan ? 0.5124
+can the figure wants ? 1.1057
+can the figure want ? 1.2239
+is the watch leaves ? 0.0882
+is the watch leaving ? 0.0308
+can the watch works ? 0.2149
+can the watch work ? 0.0133
+is the tube turns ? 0.3257
+is the tube turning ? 0.0012
+can the tube works ? 0.0159
+can the tube work ? 0.0174
+is the hand gets the ear ? 0.6882
+is the hand getting the ear ? 0.0020
+is the dinosaur says something ? 0.0084
+is the dinosaur saying something ? 0.0008
+can the dinosaur orders ? 0.7152
+can the dinosaur order ? 0.2075
+is the fan writes ? 0.5017
+is the fan writing ? 0.0020
+can the fan wants ? 0.1253
+can the fan want ? 0.1877
+is the show gets the cause ? 0.5594
+is the show getting the cause ? 0.0376
+can the show takes the cause away ? 0.8626
+can the show take the cause away ? 0.4114
+is the protection races ? 2.3526
+is the protection racing ? 2.4281
+can the protection needs ? 2.3332
+can the protection need ? 2.0867
+is the whale plays ? 0.2391
+is the whale playing ? 0.0021
+is the book takes the vacuum away ? 0.0560
+is the book taking the vacuum away ? 0.0054
+can the book wants ? 0.4035
+can the book want ? 0.0179
+is the egg leaves ? 0.0087
+is the egg leaving ? 0.1208
+can the egg uses the truck ? 0.0271
+can the egg use the truck ? 0.0157
+is the egg goes ? 0.0726
+is the egg going ? 0.0000
+can the egg works ? 0.1639
+can the egg work ? 0.0538
+is the army plays ? 0.4791
+is the army playing ? 0.0078
+can the army becomes ? 1.3089
+can the army become ? 0.2724
+is the brain lives ? 0.3146
+is the brain living ? 0.4220
+can the brain uses the army ? 1.2574
+can the brain use the army ? 1.1645
+is the whale gets the moon ? 0.1389
+is the whale getting the moon ? 0.0031
+can the whale uses the moon ? 0.2911
+can the whale use the moon ? 0.0243
+is the garden plans to do something with the temperature ? 1.4180
+is the garden planning to do something with the temperature ? 0.1580
+can the garden changes ? 0.3521
+can the garden change ? 0.0075
+is the wheel takes the poem away ? 0.0369
+is the wheel taking the poem away ? 0.0048
+can the wheel uses the poem ? 0.0400
+can the wheel use the poem ? 0.0519
+is the brain turns ? 0.7365
+is the brain turning ? 0.0992
+can the brain becomes ? 0.4404
+can the brain become ? 0.6386
+can the show wants ? 0.5654
+can the show want ? 0.3444
+is the sister lives ? 0.0143
+is the sister living ? 0.0506
+can the sister becomes ? 0.4703
+can the sister become ? 0.1286
+is the hand says something ? 0.0200
+is the hand saying something ? 0.0004
+can the hand takes the egg away ? 0.1744
+can the hand take the egg away ? 0.0010
+is the crown turns ? 0.1056
+is the crown turning ? 0.1672
+can the crown records ? 0.6202
+can the crown record ? 0.2224
+is the cover shows the lady to the watch ? 0.0475
+is the cover showing the lady to the watch ? 0.0689
+can the cover gives the lady the watch ? 0.0829
+can the cover give the lady the watch ? 0.5173
+is the ear goes ? 0.0847
+is the ear going ? 0.0201
+can the ear uses the fan ? 0.1652
+can the ear use the fan ? 0.0493
+is the wolf says something ? 0.0007
+is the wolf saying something ? 0.0003
+can the wolf works ? 0.1415
+can the wolf work ? 0.0071
+is the protection depends on the hand ? 1.3239
+is the protection depending on the hand ? 2.6634
+can the protection uses the hand ? 1.4090
+can the protection use the hand ? 1.2688
+is the serve races ? 0.9958
+is the serve racing ? 0.2274
+can the serve needs ? 0.1588
+can the serve need ? 0.1300
+is the watch says something ? 0.0003
+is the watch saying something ? 0.0381
+can the watch takes the whale away ? 0.0659
+can the watch take the whale away ? 0.0326
+is the protection plays ? 1.3019
+is the protection playing ? 2.1858
+can the protection changes ? 1.1435
+can the protection change ? 1.7111
+is the vote lives ? 1.5222
+is the vote living ? 0.4712
+is the kiss looks ? 0.0716
+is the kiss looking ? 0.0015
+can the kiss needs ? 0.0323
+can the kiss need ? 0.0016
+is the truck plans to do something with the cover ? 1.5056
+is the truck planning to do something with the cover ? 1.0346
+can the truck changes ? 0.3373
+can the truck change ? 0.0009
+is the kiss finds the garden ? 0.0191
+is the kiss finding the garden ? 0.4239
+can the kiss records ? 0.5555
+can the kiss record ? 0.0448
+is the lady depends on the book ? 1.2611
+is the lady depending on the book ? 1.7525
+can the lady records ? 0.0082
+can the lady record ? 0.0292
+is the moon shows the cover to the journey ? 0.2850
+is the moon showing the cover to the journey ? 0.8427
+can the moon takes the cover away ? 1.0370
+can the moon take the cover away ? 0.0017
+is the serve starts ? 0.0714
+is the serve starting ? 0.3280
+can the serve wants ? 0.0960
+can the serve want ? 0.0832
+is the boat uses the opportunity ? 1.6726
+is the boat using the opportunity ? 1.0584
+can the boat takes the opportunity away ? 1.4896
+can the boat take the opportunity away ? 1.3798
+is the pig plans to do something with the direction ? 1.7925
+is the pig planning to do something with the direction ? 1.5089
+can the pig needs ? 0.2159
+can the pig need ? 0.1498
+is the cover shows the farm to the fact ? 0.0372
+is the cover showing the farm to the fact ? 0.1175
+can the cover orders ? 1.4539
+can the cover order ? 0.1112
+is the rest starts ? 0.2753
+is the rest starting ? 0.9198
+can the rest wants ? 0.1419
+can the rest want ? 0.0010
+is the temperature depends on the serve ? 0.2307
+is the temperature depending on the serve ? 1.1430
+can the temperature takes the serve away ? 0.3098
+can the temperature take the serve away ? 0.1494
+is the spread shows the direction to the brain ? 0.7914
+is the spread showing the direction to the brain ? 1.1401
+can the spread orders ? 0.8473
+can the spread order ? 0.2370
+is the store starts ? 0.3606
+is the store starting ? 0.0005
+can the store records ? 0.3320
+can the store record ? 0.0486
+is the wheel uses the restaurant ? 0.8600
+is the wheel using the restaurant ? 0.0128
+can the wheel records ? 0.5396
+can the wheel record ? 0.2502
+is the ear lives ? 0.0630
+is the ear living ? 0.0047
+can the ear takes the table away ? 0.2635
+can the ear take the table away ? 0.0021
+is the army says something ? 0.0848
+is the army saying something ? 0.0107
+can the army needs ? 0.0280
+can the army need ? 0.0386
+is the ear depends on the journey ? 0.6164
+is the ear depending on the journey ? 1.2946
+can the ear gives the journey the apple ? 1.4181
+can the ear give the journey the apple ? 1.9487
+is the pig writes ? 0.6884
+is the pig writing ? 0.0182
+is the sister leaves ? 0.0101
+is the sister leaving ? 0.0331
+can the sister orders ? 1.0901
+can the sister order ? 0.0802
+is the cause makes the wheel something ? 0.4002
+is the cause making the wheel something ? 0.4589
+can the cause orders ? 1.1756
+can the cause order ? 0.4723
+is the protection starts ? 1.7873
+is the protection starting ? 2.6095
+can the protection takes the vote away ? 0.9538
+can the protection take the vote away ? 1.1567
+is the journey starts ? 1.1559
+is the journey starting ? 0.1471
+can the journey works ? 1.9939
+can the journey work ? 2.4186
+is the doctor takes the spread away ? 0.0693
+is the doctor taking the spread away ? 0.0522
+can the doctor uses the spread ? 0.1332
+can the doctor use the spread ? 0.0392
+is the kiss writes ? 0.0506
+is the kiss writing ? 0.0064
+can the kiss changes ? 0.2142
+can the kiss change ? 0.0001
+is the poem depends on you ? 0.4022
+is the poem depending on you ? 1.3473
+can the poem needs ? 0.4044
+can the poem need ? 0.0506
+is the temperature says something ? 0.0012
+is the temperature saying something ? 0.0191
+can the temperature gives the table the show ? 0.6049
+can the temperature give the table the show ? 1.6027
+is the wall shows the fan to the truck ? 0.4846
+is the wall showing the fan to the truck ? 0.1038
+can the wall orders ? 0.0656
+can the wall order ? 0.3936
+can the store becomes ? 0.8713
+can the store become ? 0.1367
+is the moon gets the wheel ? 0.0098
+is the moon getting the wheel ? 0.0002
+can the moon gives the wheel the book ? 0.0756
+can the moon give the wheel the book ? 0.0094
+is the cause uses the brain ? 0.8162
+is the cause using the brain ? 1.3827
+can the cause becomes ? 1.1876
+can the cause become ? 0.9111
+is the fact plays ? 0.3463
+is the fact playing ? 0.3588
+can the fact wants ? 1.0316
+can the fact want ? 0.4894
+can the army changes ? 0.2379
+can the army change ? 0.0262
+is the soil looks ? 0.4376
+is the soil looking ? 0.0448
+can the soil works ? 0.0704
+can the soil work ? 0.0307
+is the figure turns ? 0.0499
+is the figure turning ? 3.5211
+can the figure gives the trouble you ? 0.3070
+can the figure give the trouble you ? 0.0678
+is the tube finds the opportunity ? 1.8575
+is the tube finding the opportunity ? 0.9854
+can the tube orders ? 1.9370
+can the tube order ? 0.0391
+is the crown makes the cover something ? 0.0060
+is the crown making the cover something ? 0.0063
+can the crown needs ? 0.5106
+can the crown need ? 0.4150
+is the crown starts ? 0.4124
+is the crown starting ? 0.0185
+can the crown orders ? 0.7670
+can the crown order ? 0.0606
+is the fact takes the memory away ? 0.0420
+is the fact taking the memory away ? 0.0566
+can the fact records ? 0.5939
+can the fact record ? 0.6135
+can the protection gives the picture the fact ? 1.1816
+can the protection give the picture the fact ? 1.2899
+is the protection finds the poem ? 2.3699
+is the protection finding the poem ? 2.6153
+is the earth plays ? 0.0462
+is the earth playing ? 0.0236
+can the earth gives the truck the soil ? 0.7407
+can the earth give the truck the soil ? 0.7960
+is the hat says something ? 0.0086
+is the hat saying something ? 0.0046
+can the hat wants ? 0.0937
+can the hat want ? 0.0619
+is the house says something ? 0.0022
+is the house saying something ? 0.0001
+can the house uses the watch ? 1.4518
+can the house use the watch ? 0.0081
+is the house uses the serve ? 0.8648
+is the house using the serve ? 0.0686
+can the house orders ? 2.4959
+can the house order ? 0.1157
+is the ball shows the soil to the fan ? 0.0920
+is the ball showing the soil to the fan ? 0.1633
+is the wolf races ? 0.0014
+is the wolf racing ? 0.0004
+can the wolf orders ? 0.4533
+can the wolf order ? 0.1193
+is the sister tells me about the opportunity ? 1.2892
+is the sister telling me about the opportunity ? 1.3871
+is the hat turns ? 0.0008
+is the hat turning ? 0.0466
+can the hat records ? 0.5343
+can the hat record ? 0.1300
+is the serve plays ? 0.2577
+is the serve playing ? 0.0253
+is the protection goes ? 2.0285
+is the protection going ? 2.5386
+is the doctor races ? 0.0064
+is the doctor racing ? 0.0008
+can the doctor records ? 0.0630
+can the doctor record ? 0.0049
+is the temperature depends on the moon ? 0.5224
+is the temperature depending on the moon ? 1.4202
+is the truck makes the fan something ? 0.2501
+is the truck making the fan something ? 0.2492
+can the truck gives the fan it ? 0.7766
+can the truck give the fan it ? 0.2376
+is the slave plans to do something with the book ? 1.8453
+is the slave planning to do something with the book ? 1.6085
+can the slave takes the book away ? 2.1798
+can the slave take the book away ? 1.4285
+is the direction depends on you ? 0.7260
+is the direction depending on you ? 0.6137
+can the direction becomes ? 0.7520
+can the direction become ? 0.0842
+is the lady finds the memory ? 0.2713
+is the lady finding the memory ? 0.9970
+can the lady uses the memory ? 0.0506
+can the lady use the memory ? 0.0394
+can the ear orders ? 1.4033
+can the ear order ? 0.0633
+is the ear gets the cause ? 0.5036
+is the ear getting the cause ? 0.1928
+can the ear records ? 0.7570
+can the ear record ? 0.2670
+can the house wants ? 0.9416
+can the house want ? 0.0043
+is the daddy plans to do something with the ear ? 1.4820
+is the daddy planning to do something with the ear ? 0.2831
+can the daddy wants ? 0.0487
+can the daddy want ? 0.0111
+is the poem goes ? 0.0386
+is the poem going ? 0.0131
+is the book races ? 0.0069
+is the book racing ? 0.0026
+can the book changes ? 0.2502
+can the book change ? 0.0064
+is the whale makes the fan something ? 0.1577
+is the whale making the fan something ? 0.0169
+is the tube writes ? 0.4907
+is the tube writing ? 0.0010
+can the tube becomes ? 1.1562
+can the tube become ? 0.0977
+is the boat looks ? 0.4315
+is the boat looking ? 0.0061
+can the boat needs ? 0.0253
+can the boat need ? 0.1466
+is the boat takes the wheel away ? 0.0553
+is the boat taking the wheel away ? 0.0017
+can the boat uses the wheel ? 0.0096
+can the boat use the wheel ? 0.0109
+is the figure depends on the sister ? 1.8408
+is the figure depending on the sister ? 2.0376
+can the figure takes the sister away ? 2.0418
+can the figure take the sister away ? 2.1400
+is the slave takes the store away ? 1.6047
+is the slave taking the store away ? 1.7268
+can the slave changes ? 1.0884
+can the slave change ? 1.1701
+is the journey shows the vote to the rest ? 1.6398
+is the journey showing the vote to the rest ? 1.6794
+can the journey gives the vote the rest ? 2.3329
+can the journey give the vote the rest ? 1.6627
+is the store leaves ? 0.0532
+is the store leaving ? 0.0003
+can the store needs ? 0.0498
+can the store need ? 0.0069
+is the pig turns ? 0.0013
+is the pig turning ? 0.0003
+can the pig uses the cause ? 0.7021
+can the pig use the cause ? 0.7197
+is the dinosaur sees how the the hand works ? 0.0565
+is the dinosaur seeing how the the hand works ? 0.0059
+can the dinosaur uses the hand ? 0.2511
+can the dinosaur use the hand ? 0.1535
+is the kiss turns ? 0.0212
+is the kiss turning ? 0.0007
+can the kiss wants ? 0.5371
+can the kiss want ? 0.0139
+can the table records ? 0.0189
+can the table record ? 0.1407
+is the earth lives ? 0.0545
+is the earth living ? 0.0034
+can the earth changes ? 0.0631
+can the earth change ? 0.1340
+is the slave writes ? 1.1604
+is the slave writing ? 0.2134
+can the slave works ? 1.2304
+can the slave work ? 0.2571
+is the wall races ? 0.0114
+is the wall racing ? 0.0162
+is the dinosaur uses it ? 0.0183
+is the dinosaur using it ? 0.0120
+can the dinosaur changes ? 1.1505
+can the dinosaur change ? 0.0779
+is the opportunity leaves ? 3.3964
+is the opportunity leaving ? 1.9685
+can the opportunity gives the book the daddy ? 1.2130
+can the opportunity give the book the daddy ? 1.3831
+is the army starts ? 0.4779
+is the army starting ? 0.0047
+can the army takes the ball away ? 0.0890
+can the army take the ball away ? 0.0188
+is the slave gets the vote ? 1.2148
+is the slave getting the vote ? 1.0343
+can the slave uses the vote ? 1.4648
+can the slave use the vote ? 0.3724
+is the sister takes the store away ? 0.1289
+is the sister taking the store away ? 0.0036
+is the truck uses him ? 0.0078
+is the truck using him ? 0.0119
+can the truck takes him away ? 0.0359
+can the truck take him away ? 0.0016
+is the army races ? 0.0083
+is the army racing ? 0.0005
+can the army records ? 0.0961
+can the army record ? 0.3549
+is the restaurant depends on the journey ? 0.4549
+is the restaurant depending on the journey ? 1.1810
+can the restaurant changes ? 0.4365
+can the restaurant change ? 0.0398
+is the ear takes the tube away ? 0.1894
+is the ear taking the tube away ? 0.0043
+can the ear becomes ? 1.0555
+can the ear become ? 0.2513
+is the table lives ? 0.1129
+is the table living ? 0.0027
+is the table races ? 0.0946
+is the table racing ? 0.1993
+can the table needs ? 0.0376
+can the table need ? 0.0592
+is the egg tells me about the opportunity ? 1.5660
+is the egg telling me about the opportunity ? 1.8420
+can the egg needs ? 0.0894
+can the egg need ? 0.0103
+is the direction turns ? 0.2403
+is the direction turning ? 0.5322
+can the direction gives the brain the tube ? 0.9541
+can the direction give the brain the tube ? 1.3982
+is the garden writes ? 0.6862
+is the garden writing ? 0.0047
+can the garden orders ? 0.3646
+can the garden order ? 0.0097
+is the opportunity turns ? 2.8985
+is the opportunity turning ? 2.4127
+can the opportunity takes the tube away ? 1.8643
+can the opportunity take the tube away ? 1.5806
+is the book writes ? 0.2041
+is the book writing ? 0.0109
+can the book takes the trouble away ? 0.4379
+can the book take the trouble away ? 0.0058
+is the apple starts ? 0.0193
+is the apple starting ? 0.0020
+can the apple uses the serve ? 0.0614
+can the apple use the serve ? 0.2527
+is the doctor makes the book something ? 0.2475
+is the doctor making the book something ? 0.0233
+is the dinosaur turns ? 0.1429
+is the dinosaur turning ? 0.0248
+is the figure writes ? 0.6701
+is the figure writing ? 2.5129
+can the figure takes the cover away ? 1.3503
+can the figure take the cover away ? 1.2626
+can the farm uses the lady ? 1.7789
+can the farm use the lady ? 0.0024
+is the spread tells me about the direction ? 0.0378
+is the spread telling me about the direction ? 0.3284
+can the spread takes the direction away ? 0.6993
+can the spread take the direction away ? 0.7156
+is the protection turns ? 1.9231
+is the protection turning ? 2.3870
+can the protection takes the earth away ? 1.8089
+can the protection take the earth away ? 1.3524
+is the farm writes ? 1.1031
+is the farm writing ? 0.1975
+can the farm changes ? 0.7285
+can the farm change ? 0.1165
+is the poem uses the trouble ? 0.7281
+is the poem using the trouble ? 0.9199
+can the poem changes ? 0.3393
+can the poem change ? 0.0393
+is the kiss tells me about it ? 0.0306
+is the kiss telling me about it ? 0.0530
+is the brain plans to do something with the daddy ? 1.6204
+is the brain planning to do something with the daddy ? 1.3267
+is the cause leaves ? 0.1191
+is the cause leaving ? 0.1058
+is the opportunity finds the wall ? 2.1746
+is the opportunity finding the wall ? 1.8814
+can the opportunity uses the wall ? 2.2503
+can the opportunity use the wall ? 2.5676
+is the farm looks ? 2.4499
+is the farm looking ? 0.0011
+is the wall leaves ? 0.0149
+is the wall leaving ? 0.0489
+can the wall needs ? 0.0504
+can the wall need ? 0.0025
+is the ball tells me about the daddy ? 0.3902
+is the ball telling me about the daddy ? 0.0004
+can the ball takes the daddy away ? 0.2902
+can the ball take the daddy away ? 0.1859
+is the daddy tells me about the fact ? 0.0281
+is the daddy telling me about the fact ? 0.1014
+is the journey races ? 1.6767
+is the journey racing ? 2.5394
+can the journey wants ? 2.4075
+can the journey want ? 2.6032
+is the apple makes the memory something ? 0.0762
+is the apple making the memory something ? 0.0219
+can the apple uses the memory ? 0.0064
+can the apple use the memory ? 0.0092
+is the book plays ? 0.1860
+is the book playing ? 0.0320
+can the book becomes ? 0.5004
+can the book become ? 0.0664
+is the soil goes ? 0.0723
+is the soil going ? 0.0782
+can the soil takes the figure away ? 0.9576
+can the soil take the figure away ? 0.6254
+is the opportunity makes the brain something ? 1.1991
+is the opportunity making the brain something ? 1.1218
+can the opportunity wants ? 2.6640
+can the opportunity want ? 1.8838
+is the protection shows the watch to the protection ? 0.3673
+is the protection showing the watch to the protection ? 0.2717
+can the protection wants ? 2.0517
+can the protection want ? 1.8283
+is the energy says something ? 0.0280
+is the energy saying something ? 0.0109
+is the wheel tells me about the brain ? 0.1593
+is the wheel telling me about the brain ? 0.0168
+can the wheel wants ? 0.2353
+can the wheel want ? 0.0025
+is the doctor shows the moon to the whale ? 0.0938
+is the doctor showing the moon to the whale ? 0.0223
+can the doctor works ? 0.4400
+can the doctor work ? 0.0006
+is the garden leaves ? 0.0150
+is the garden leaving ? 0.3798
+can the garden takes the army away ? 0.0644
+can the garden take the army away ? 0.1345
+is the ball uses the poem ? 0.7546
+is the ball using the poem ? 0.0280
+can the ball uses the poem ? 0.1319
+can the ball use the poem ? 0.0291
+is the lady makes the vote something ? 0.0181
+is the lady making the vote something ? 0.1327
+can the lady uses the vote ? 0.1570
+can the lady use the vote ? 0.1326
+can the hat orders ? 2.7888
+can the hat order ? 0.0771
+is the direction finds the house ? 2.1965
+is the direction finding the house ? 0.4219
+can the direction takes the house away ? 0.6572
+can the direction take the house away ? 1.7545
+is the house takes the wheel away ? 0.1718
+is the house taking the wheel away ? 0.0064
+can the house records ? 0.5073
+can the house record ? 0.2823
+is the boat turns ? 0.5057
+is the boat turning ? 0.1022
+is the hat lives ? 0.0186
+is the hat living ? 0.0005
+is the earth starts ? 0.2755
+is the earth starting ? 0.0204
+is the direction sees how the the daddy works ? 0.7859
+is the direction seeing how the the daddy works ? 0.1835
+can the direction wants ? 0.5971
+can the direction want ? 0.0985
+is the trouble leaves ? 0.0202
+is the trouble leaving ? 0.0179
+can the trouble orders ? 1.1033
+can the trouble order ? 0.0228
+can the poem uses the wheel ? 1.9795
+can the poem use the wheel ? 1.6702
+is the fact makes the garden something ? 0.0121
+is the fact making the garden something ? 0.1421
+can the fact uses the garden ? 0.2542
+can the fact use the garden ? 0.1507
+is the table plans to do something with the journey ? 1.8474
+is the table planning to do something with the journey ? 0.5367
+is the picture leaves ? 0.1298
+is the picture leaving ? 0.0165
+can the picture uses the watch ? 0.0043
+can the picture use the watch ? 0.3615
+is the pig sees how the the wall works ? 0.4410
+is the pig seeing how the the wall works ? 0.1381
+is the garden plays ? 0.0102
+is the garden playing ? 0.0473
+can the garden records ? 0.0754
+can the garden record ? 0.1917
+is the lady plans to do something with the table ? 1.8016
+is the lady planning to do something with the table ? 0.9009
+can the lady changes ? 0.4365
+can the lady change ? 0.1529
+is the book leaves ? 0.1194
+is the book leaving ? 0.1192
+can the book needs ? 0.0914
+can the book need ? 0.0177
+is the watch looks ? 0.2117
+is the watch looking ? 0.0266
+can the watch orders ? 1.5247
+can the watch order ? 0.0017
+can the vote works ? 0.8129
+can the vote work ? 0.0206
+is the table leaves ? 0.0069
+is the table leaving ? 0.2601
+can the table uses the lady ? 0.8053
+can the table use the lady ? 0.0850
+is the duke plays ? 0.2745
+is the duke playing ? 0.0115
+can the duke takes the poem away ? 0.2541
+can the duke take the poem away ? 0.0190
+is the kiss gets the trouble ? 0.3782
+is the kiss getting the trouble ? 0.0753
+can the kiss works ? 0.1505
+can the kiss work ? 0.0005
+is the store turns ? 0.0984
+is the store turning ? 0.0093
+can the store uses the apple ? 0.0004
+can the store use the apple ? 0.0011
+is the daddy finds the book ? 0.1018
+is the daddy finding the book ? 0.2181
+can the daddy orders ? 1.9507
+can the daddy order ? 0.0591
+is the slave says something ? 0.1419
+is the slave saying something ? 0.3624
+can the slave becomes ? 0.3572
+can the slave become ? 0.0433
+is the spread depends on the truck ? 1.6399
+is the spread depending on the truck ? 1.8776
+is the whale turns ? 0.0204
+is the whale turning ? 0.1753
+is the dinosaur goes ? 0.0820
+is the dinosaur going ? 0.0064
+can the dinosaur takes the garden away ? 0.6601
+can the dinosaur take the garden away ? 0.0177
+is the egg gets the tube ? 0.2376
+is the egg getting the tube ? 0.0286
+can the egg wants ? 0.1186
+can the egg want ? 0.0172
+is the energy goes ? 0.0015
+is the energy going ? 0.0020
+can the energy takes the serve away ? 1.1330
+can the energy take the serve away ? 1.6601
+is the moon looks ? 0.4180
+is the moon looking ? 0.0017
+can the moon gives the fan the kiss ? 0.4517
+can the moon give the fan the kiss ? 0.4035
+is the store finds the table ? 2.7986
+is the store finding the table ? 0.1860
+is the doctor gets the fact ? 0.7408
+is the doctor getting the fact ? 0.1419
+is the trouble shows the garden to the ear ? 0.3498
+is the trouble showing the garden to the ear ? 0.3216
+can the trouble takes the garden away ? 0.0517
+can the trouble take the garden away ? 0.0004
+is the moon finds it ? 0.0162
+is the moon finding it ? 0.4315
+can the moon changes ? 0.4853
+can the moon change ? 0.0084
+is the moon says something ? 0.0023
+is the moon saying something ? 0.0003
+can the moon uses the sister ? 0.0116
+can the moon use the sister ? 0.0300
+can the farm needs ? 0.0250
+can the farm need ? 0.0056
+is the apple tells me about the crown ? 0.0377
+is the apple telling me about the crown ? 0.1709
+can the apple uses the crown ? 0.0013
+can the apple use the crown ? 0.0213
+is the opportunity looks ? 2.4295
+is the opportunity looking ? 2.4766
+can the opportunity takes the sister away ? 1.9168
+can the opportunity take the sister away ? 1.8417
+is the picture makes the direction something ? 0.0290
+is the picture making the direction something ? 0.0181
+can the picture wants ? 0.6527
+can the picture want ? 0.3464
+is the memory makes the brain something ? 0.9884
+is the memory making the brain something ? 0.2228
+can the memory becomes ? 0.4985
+can the memory become ? 0.1205
+is the book lives ? 0.0107
+is the book living ? 0.0017
+is the picture gets the journey ? 0.2850
+is the picture getting the journey ? 0.4650
+can the picture needs ? 0.3087
+can the picture need ? 0.0278
+is the duke races ? 0.0047
+is the duke racing ? 0.0032
+can the duke gives the serve the poem ? 0.8809
+can the duke give the serve the poem ? 0.5113
+is the farm says something ? 0.0035
+is the farm saying something ? 0.0020
+can the farm records ? 0.7308
+can the farm record ? 0.5054
+is the daddy plays ? 0.0595
+is the daddy playing ? 0.1612
+is the moon turns ? 0.5361
+is the moon turning ? 0.0020
+can the moon becomes ? 0.4665
+can the moon become ? 0.1231
+is the wheel uses you ? 0.0992
+is the wheel using you ? 0.0045
+can the wheel works ? 0.0328
+can the wheel work ? 0.0057
+is the memory looks ? 0.8566
+is the memory looking ? 0.0076
+can the memory works ? 0.1818
+can the memory work ? 0.1228
+can the rest needs ? 0.2838
+can the rest need ? 0.0177
+is the trouble uses the soil ? 0.5493
+is the trouble using the soil ? 0.1727
+can the trouble uses the soil ? 0.2398
+can the trouble use the soil ? 0.2352
+is the sister races ? 0.1738
+is the sister racing ? 0.0053
+is the poem finds the garden ? 0.1007
+is the poem finding the garden ? 0.3026
+can the poem orders ? 1.2301
+can the poem order ? 0.4831
+is the sister looks ? 0.1768
+is the sister looking ? 0.0193
+can the sister works ? 0.4889
+can the sister work ? 0.1541
+is the cover tells me about the apple ? 0.3467
+is the cover telling me about the apple ? 0.0587
+can the cover works ? 0.0016
+can the cover work ? 0.0003
+is the hand makes the moon something ? 0.0068
+is the hand making the moon something ? 0.0001
+can the hand takes the moon away ? 0.3137
+can the hand take the moon away ? 0.0047
+is the earth shows the opportunity to the daddy ? 0.1265
+is the earth showing the opportunity to the daddy ? 0.3743
+is the soil plays ? 0.0862
+is the soil playing ? 0.1926
+can the soil gives the daddy the farm ? 2.0059
+can the soil give the daddy the farm ? 1.6382
+is the sister tells me about the journey ? 0.9381
+is the sister telling me about the journey ? 0.6009
+can the sister takes the journey away ? 2.0430
+can the sister take the journey away ? 2.2373
+is the spread finds the trouble ? 0.7841
+is the spread finding the trouble ? 1.1650
+can the spread gives the trouble the crown ? 1.0015
+can the spread give the trouble the crown ? 0.9320
+is the egg finds the crown ? 0.1441
+is the egg finding the crown ? 0.8113
+can the egg changes ? 0.0367
+can the egg change ? 0.0692
+is the restaurant uses the fan ? 0.4435
+is the restaurant using the fan ? 0.0183
+can the restaurant uses the fan ? 0.2835
+can the restaurant use the fan ? 0.0011
+can the daddy needs ? 0.3066
+can the daddy need ? 0.0107
+is the spread races ? 0.5646
+is the spread racing ? 0.4246
+can the spread changes ? 0.5248
+can the spread change ? 0.0233
+is the doctor lives ? 0.2133
+is the doctor living ? 0.0407
+is the ear writes ? 0.4006
+is the ear writing ? 0.0656
+is the book says something ? 0.0034
+is the book saying something ? 0.0030
+can the book uses the sister ? 0.0205
+can the book use the sister ? 0.0414
+is the spread looks ? 0.9284
+is the spread looking ? 0.0091
+can the spread needs ? 0.4186
+can the spread need ? 0.2182
+is the truck plays ? 0.0079
+is the truck playing ? 0.0004
+can the truck records ? 0.3945
+can the truck record ? 0.0451
+is the daddy sees how the the cover works ? 0.0107
+is the daddy seeing how the the cover works ? 0.0426
+can the daddy gives the cover the poem ? 0.3999
+can the daddy give the cover the poem ? 0.4145
+is the figure finds it ? 0.5668
+is the figure finding it ? 0.6345
+can the figure orders ? 1.8189
+can the figure order ? 1.0263
+is the apple says something ? 0.0096
+is the apple saying something ? 0.0007
+can the apple changes ? 0.1457
+can the apple change ? 0.0020
+is the truck uses the figure ? 1.6983
+is the truck using the figure ? 1.5902
+can the truck gives the figure the sister ? 2.4592
+can the truck give the figure the sister ? 2.3680
+is the soil plans to do something with the spread ? 1.3110
+is the soil planning to do something with the spread ? 0.3044
+is the fan makes the journey something ? 0.0807
+is the fan making the journey something ? 0.0671
+can the fan needs ? 0.1367
+can the fan need ? 0.0202
+is the serve plans to do something with the truck ? 1.7613
+is the serve planning to do something with the truck ? 1.3711
+is the garden goes ? 0.0146
+is the garden going ? 0.0032
+can the garden takes it away ? 0.0295
+can the garden take it away ? 0.0036
+is the figure starts ? 0.1374
+is the figure starting ? 0.3467
+can the figure changes ? 1.4773
+can the figure change ? 0.7924
+is the fact sees how the the figure works ? 0.3772
+is the fact seeing how the the figure works ? 0.0116
+can the fact gives the figure the store ? 1.2900
+can the fact give the figure the store ? 0.6018
+is the daddy writes ? 0.7073
+is the daddy writing ? 0.3773
+can the daddy takes the daddy away ? 0.5294
+can the daddy take the daddy away ? 0.2385
+is the apple gets the vacuum ? 0.0419
+is the apple getting the vacuum ? 0.0050
+is the kiss gets the energy ? 0.0486
+is the kiss getting the energy ? 0.0829
+is the doctor says something ? 0.0003
+is the doctor saying something ? 0.0016
+can the doctor changes ? 0.7815
+can the doctor change ? 0.0601
+is the daddy shows the earth to the ear ? 0.4603
+is the daddy showing the earth to the ear ? 0.1911
+is the lady sees how the the garden works ? 0.3262
+is the lady seeing how the the garden works ? 0.0072
+can the lady gives the garden the kiss ? 0.1321
+can the lady give the garden the kiss ? 0.4589
+is the kiss lives ? 0.1255
+is the kiss living ? 0.0011
+can the kiss gives the watch the direction ? 0.3379
+can the kiss give the watch the direction ? 1.2508
+is the trouble shows it to the poem ? 0.1883
+is the trouble showing it to the poem ? 0.2420
+can the trouble needs ? 0.2165
+can the trouble need ? 0.0556
+is the restaurant says something ? 0.0648
+is the restaurant saying something ? 0.0058
+can the restaurant orders ? 1.1639
+can the restaurant order ? 0.1709
+can the apple takes the energy away ? 0.0091
+can the apple take the energy away ? 0.0135
+is the watch plays ? 0.0660
+is the watch playing ? 0.1004
+can the watch gives her the wall ? 0.2406
+can the watch give her the wall ? 0.0149
+is the vote leaves ? 0.5570
+is the vote leaving ? 0.0149
+can the vote changes ? 0.5638
+can the vote change ? 0.0133
+is the journey plans to do something with the show ? 1.1885
+is the journey planning to do something with the show ? 1.0780
+can the journey takes the show away ? 1.6307
+can the journey take the show away ? 1.9414
+is the watch finds the temperature ? 0.5682
+is the watch finding the temperature ? 0.4684
+can the watch records ? 0.6874
+can the watch record ? 0.4103
+is the whale says something ? 0.0054
+is the whale saying something ? 0.0015
+can the whale takes the watch away ? 0.1252
+can the whale take the watch away ? 0.0033
+is the watch gets the wall ? 0.5534
+is the watch getting the wall ? 0.0188
+can the watch needs ? 0.0150
+can the watch need ? 0.0393
+is the vote says something ? 0.7308
+is the vote saying something ? 0.0281
+can the vote needs ? 0.6418
+can the vote need ? 0.4078
+is the memory lives ? 0.1951
+is the memory living ? 0.2861
+is the restaurant leaves ? 0.2693
+is the restaurant leaving ? 0.3111
+can the restaurant takes the opportunity away ? 1.4937
+can the restaurant take the opportunity away ? 1.3928
+is the vote turns ? 0.7979
+is the vote turning ? 0.1226
+can the vote becomes ? 1.2323
+can the vote become ? 0.0211
+is the boat plays ? 0.8161
+is the boat playing ? 0.1088
+can the boat becomes ? 1.6888
+can the boat become ? 0.0365
+is the egg plans to do something with the egg ? 1.3437
+is the egg planning to do something with the egg ? 0.9977
+can the egg uses the egg ? 0.0355
+can the egg use the egg ? 0.0085
+is the truck sees how the the fact works ? 0.5672
+is the truck seeing how the the fact works ? 0.2747
+can the truck becomes ? 2.2692
+can the truck become ? 0.2902
+is the dinosaur leaves ? 0.0202
+is the dinosaur leaving ? 0.0229
+is the trouble tells me about the poem ? 0.4015
+is the trouble telling me about the poem ? 0.2098
+can the trouble changes ? 1.1970
+can the trouble change ? 0.6958
+is the kiss makes the ear something ? 0.0773
+is the kiss making the ear something ? 0.0005
+can the kiss gives the ear the hand ? 0.0287
+can the kiss give the ear the hand ? 0.0967
+is the earth uses the house ? 0.0579
+is the earth using the house ? 0.0143
+is the show takes the show away ? 0.0049
+is the show taking the show away ? 0.0232
+can the show uses the show ? 0.2975
+can the show use the show ? 0.4908
+is the hat depends on the sister ? 1.2716
+is the hat depending on the sister ? 1.0581
+can the hat works ? 0.3991
+can the hat work ? 0.0009
+is the spread makes the poem something ? 1.8979
+is the spread making the poem something ? 1.2378
+can the spread wants ? 0.2617
+can the spread want ? 0.1254
+is the kiss takes the cover away ? 0.5739
+is the kiss taking the cover away ? 0.7746
+can the kiss becomes ? 1.0152
+can the kiss become ? 0.1908
+is the brain depends on the tube ? 1.0394
+is the brain depending on the tube ? 1.1927
+can the brain takes the tube away ? 1.4501
+can the brain take the tube away ? 1.4809
+is the watch goes ? 0.1410
+is the watch going ? 0.1803
+is the whale starts ? 0.7136
+is the whale starting ? 0.4003
+can the whale becomes ? 0.5270
+can the whale become ? 0.1551
+is the hand sees how the the table works ? 0.1190
+is the hand seeing how the the table works ? 0.0052
+is the ear tells me about the army ? 0.0171
+is the ear telling me about the army ? 0.0275
+can the ear takes the army away ? 0.0602
+can the ear take the army away ? 0.0040
+can the hat gives the fact the wall ? 2.1391
+can the hat give the fact the wall ? 1.3948
+is the energy finds the whale ? 2.2208
+is the energy finding the whale ? 1.8660
+can the store orders ? 3.0251
+can the store order ? 0.4271
+is the energy plans to do something with the memory ? 1.1684
+is the energy planning to do something with the memory ? 1.6200
+can the energy uses the memory ? 1.8376
+can the energy use the memory ? 1.1806
+is the journey gets the watch ? 1.7910
+is the journey getting the watch ? 1.8547
+can the journey needs ? 2.4115
+can the journey need ? 2.7103
+is the fact races ? 0.0293
+is the fact racing ? 0.0684
+is the fan starts ? 0.3422
+is the fan starting ? 0.0106
+can the fan changes ? 0.6363
+can the fan change ? 0.0111
+can the dinosaur works ? 0.3838
+can the dinosaur work ? 0.0034
+is the sister depends on the ball ? 0.9180
+is the sister depending on the ball ? 1.7454
+can the sister gives the ball the fan ? 0.1901
+can the sister give the ball the fan ? 0.0341
+is the memory writes ? 0.3360
+is the memory writing ? 0.0106
+can the memory gives the daddy the opportunity ? 1.5373
+can the memory give the daddy the opportunity ? 1.7292
+can the memory records ? 0.9287
+can the memory record ? 0.3601
+is the slave finds the hat ? 1.2294
+is the slave finding the hat ? 1.3633
+can the slave wants ? 1.3225
+can the slave want ? 0.9032
+is the trouble depends on the ear ? 0.0603
+is the trouble depending on the ear ? 1.1669
+can the trouble gives the ear the moon ? 0.1200
+can the trouble give the ear the moon ? 0.1765
+is the temperature writes ? 0.8864
+is the temperature writing ? 0.0299
+can the temperature records ? 2.2719
+can the temperature record ? 0.0813
+is the wheel takes the tube away ? 0.0921
+is the wheel taking the tube away ? 0.0011
+can the wheel uses the tube ? 0.1458
+can the wheel use the tube ? 0.0006
+is the apple makes the truck something ? 0.0107
+is the apple making the truck something ? 0.0006
+can the apple wants ? 0.3564
+can the apple want ? 0.2771
+is the vote gets the protection ? 2.4652
+is the vote getting the protection ? 0.5633
+is the energy writes ? 1.0821
+is the energy writing ? 1.2260
+can the energy becomes ? 1.1806
+can the energy become ? 0.1052
+is the boat leaves ? 0.0123
+is the boat leaving ? 0.1456
+can the boat uses you ? 0.0088
+can the boat use you ? 0.1725
+is the truck takes the opportunity away ? 1.4904
+is the truck taking the opportunity away ? 1.2883
+can the truck uses the opportunity ? 2.4063
+can the truck use the opportunity ? 1.8109
+is the soil starts ? 0.2114
+is the soil starting ? 0.2962
+is the garden plans to do something with the farm ? 0.9391
+is the garden planning to do something with the farm ? 0.4012
+can the garden uses the farm ? 0.1335
+can the garden use the farm ? 0.0021
+is the daddy goes ? 0.1224
+is the daddy going ? 0.0092
+can the daddy uses the moon ? 0.0431
+can the daddy use the moon ? 0.0002
+is the duke finds the house ? 1.5826
+is the duke finding the house ? 0.0748
+can the duke orders ? 0.7345
+can the duke order ? 0.3355
+is the earth sees how the him works ? 0.2168
+is the earth seeing how the him works ? 0.2262
+is the army finds the fan ? 1.1058
+is the army finding the fan ? 0.6334
+can the army takes the fan away ? 0.5087
+can the army take the fan away ? 0.4180
+is the doctor gets the hat ? 0.8210
+is the doctor getting the hat ? 0.0003
+can the doctor gives the hat the sister ? 0.0115
+can the doctor give the hat the sister ? 0.0212
+can the ear changes ? 0.0270
+can the ear change ? 0.0132
+is the watch takes the crown away ? 0.0147
+is the watch taking the crown away ? 0.5167
+is the poem plans to do something with the figure ? 1.4132
+is the poem planning to do something with the figure ? 1.8661
+can the poem uses the figure ? 1.9205
+can the poem use the figure ? 1.0788
+is the boat tells me about the journey ? 0.0553
+is the boat telling me about the journey ? 0.0225
+is the pig goes ? 0.1616
+is the pig going ? 0.0020
+can the pig orders ? 1.8925
+can the pig order ? 0.1141
+is the ball sees how the the apple works ? 0.1304
+is the ball seeing how the the apple works ? 0.0049
+can the ball takes the apple away ? 0.3021
+can the ball take the apple away ? 0.0002
+is the house depends on the farm ? 1.3262
+is the house depending on the farm ? 1.3092
+is the memory makes the army something ? 1.8117
+is the memory making the army something ? 1.8913
+is the table turns ? 0.0087
+is the table turning ? 0.0009
+is the poem gets the apple ? 0.1794
+is the poem getting the apple ? 0.0623
+can the poem gives the apple the energy ? 1.1023
+can the poem give the apple the energy ? 0.4973
+is the fan shows the protection to the brain ? 0.9457
+is the fan showing the protection to the brain ? 0.8196
+is the cover starts ? 0.0230
+is the cover starting ? 0.0047
+can the cover takes the book away ? 0.1422
+can the cover take the book away ? 0.0166
+can the journey orders ? 2.0503
+can the journey order ? 2.4504
+is the moon takes the trouble away ? 0.0090
+is the moon taking the trouble away ? 0.0021
+can the moon needs ? 0.2721
+can the moon need ? 0.0143
+is the restaurant tells me about the cover ? 0.5245
+is the restaurant telling me about the cover ? 0.0413
+is the fan makes the lady something ? 0.0021
+is the fan making the lady something ? 0.0043
+is the opportunity races ? 2.7385
+is the opportunity racing ? 2.6188
+can the opportunity works ? 3.2905
+can the opportunity work ? 2.3332
+is the poem plans to do something with the crown ? 1.0648
+is the poem planning to do something with the crown ? 0.2807
+can the poem uses the crown ? 0.2167
+can the poem use the crown ? 0.0832
+is the picture gets the wall ? 0.6541
+is the picture getting the wall ? 0.1589
+is the memory makes the memory something ? 0.2825
+is the memory making the memory something ? 0.2603
+is the figure lives ? 0.3559
+is the figure living ? 0.7416
+can the figure works ? 0.1968
+can the figure work ? 0.1428
+is the farm tells me about the ear ? 0.0338
+is the farm telling me about the ear ? 0.0428
+can the farm works ? 0.0964
+can the farm work ? 0.0019
+is the temperature sees how the the moon works ? 1.6484
+is the temperature seeing how the the moon works ? 0.7555
+can the temperature takes the moon away ? 1.0583
+can the temperature take the moon away ? 1.6808
+is the wolf uses the store ? 0.3006
+is the wolf using the store ? 0.0838
+can the wolf takes the store away ? 0.6918
+can the wolf take the store away ? 0.0023
+is the picture races ? 0.5245
+is the picture racing ? 0.0045
+is the wolf looks ? 0.7328
+is the wolf looking ? 0.2586
+is the rest makes the trouble something ? 0.0292
+is the rest making the trouble something ? 0.0133
+is the wolf uses the wall ? 0.0596
+is the wolf using the wall ? 0.1711
+can the wolf changes ? 0.2865
+can the wolf change ? 0.0015
+is the fan goes ? 0.2081
+is the fan going ? 0.0133
+can the fan gives the protection the lady ? 1.7352
+can the fan give the protection the lady ? 1.4664
+can the table gives the fan the moon ? 1.2481
+can the table give the fan the moon ? 0.2596
+is the store gets the sister ? 0.5797
+is the store getting the sister ? 0.0009
+can the direction gives the moon the ball ? 1.2728
+can the direction give the moon the ball ? 1.8834
+is the table writes ? 0.5446
+is the table writing ? 0.0020
+can the table wants ? 0.9610
+can the table want ? 0.0048
+is the boat goes ? 0.0440
+is the boat going ? 0.0032
+can the boat orders ? 2.5274
+can the boat order ? 0.5493
+is the vacuum says something ? 0.0063
+is the vacuum saying something ? 0.0170
+can the vacuum wants ? 0.1127
+can the vacuum want ? 0.0168
+is the vacuum looks ? 0.3480
+is the vacuum looking ? 0.0225
+can the vacuum changes ? 0.4414
+can the vacuum change ? 0.0188
+is the journey says something ? 2.1050
+is the journey saying something ? 2.6132
+can the journey becomes ? 0.9932
+can the journey become ? 1.6262
+is the sister sees how the the truck works ? 0.0281
+is the sister seeing how the the truck works ? 0.0103
+can the sister records ? 0.0861
+can the sister record ? 0.0239
+is the cover gets the garden ? 0.1402
+is the cover getting the garden ? 0.0012
+can the cover takes the garden away ? 0.3829
+can the cover take the garden away ? 0.1152
+is the book depends on the sister ? 0.3866
+is the book depending on the sister ? 0.8313
+can the book orders ? 2.9238
+can the book order ? 0.0308
+is the direction sees how the you works ? 0.4243
+is the direction seeing how the you works ? 0.0657
+can the direction takes you away ? 0.4453
+can the direction take you away ? 0.0541
+is the ball sees how the her works ? 0.3685
+is the ball seeing how the her works ? 0.0415
+can the ball records ? 1.1871
+can the ball record ? 0.0302
+is the hat goes ? 0.2404
+is the hat going ? 0.0015
+can the hat gives the store the restaurant ? 0.8986
+can the hat give the store the restaurant ? 1.1700
+is the apple tells me about the egg ? 0.4739
+is the apple telling me about the egg ? 0.6801
+is the moon depends on the opportunity ? 1.7590
+is the moon depending on the opportunity ? 1.4556
+is the fact takes the brain away ? 0.3573
+is the fact taking the brain away ? 0.0245
+is the house makes the opportunity something ? 1.6372
+is the house making the opportunity something ? 1.9378
+is the dinosaur tells me about the memory ? 0.3877
+is the dinosaur telling me about the memory ? 0.8431
+can the dinosaur gives the memory the farm ? 2.3194
+can the dinosaur give the memory the farm ? 1.5344
+is the ball says something ? 0.0110
+is the ball saying something ? 0.0001
+can the ball works ? 0.2569
+can the ball work ? 0.0001
+is the memory plays ? 0.6630
+is the memory playing ? 0.0897
+can the fact gives the soil the house ? 0.2161
+can the fact give the soil the house ? 0.0765
+is the hat finds the memory ? 2.0579
+is the hat finding the memory ? 0.7389
+is the temperature gets the house ? 0.8742
+is the temperature getting the house ? 0.0542
+can the temperature orders ? 0.6022
+can the temperature order ? 0.1180
+is the farm sees how the the protection works ? 2.0078
+is the farm seeing how the the protection works ? 1.7986
+can the farm wants ? 0.6827
+can the farm want ? 0.0510
+is the ear gets the temperature ? 0.5542
+is the ear getting the temperature ? 0.0409
+can the ear wants ? 0.6358
+can the ear want ? 0.2070
+is the picture looks ? 0.5571
+is the picture looking ? 0.0090
+can the picture gives the wheel the store ? 0.3652
+can the picture give the wheel the store ? 1.1060
+is the daddy finds the energy ? 0.0395
+is the daddy finding the energy ? 0.1002
+can the daddy uses the energy ? 0.0032
+can the daddy use the energy ? 0.0005
+is the farm takes the egg away ? 0.3119
+is the farm taking the egg away ? 0.0105
+can the farm gives the egg the apple ? 0.1330
+can the farm give the egg the apple ? 0.0014
+is the sister shows the sister to the ball ? 0.0779
+is the sister showing the sister to the ball ? 0.1461
+can the sister takes the sister away ? 0.1056
+can the sister take the sister away ? 0.1006
+is the ear plans to do something with the store ? 0.9503
+is the ear planning to do something with the store ? 0.4387
+can the ear gives the store the energy ? 1.2357
+can the ear give the store the energy ? 1.2753
+is the rest looks ? 1.1539
+is the rest looking ? 0.0435
+can the rest changes ? 0.8892
+can the rest change ? 0.2629
+is the brain takes the trouble away ? 0.2112
+is the brain taking the trouble away ? 0.1032
+is the whale depends on the memory ? 0.4435
+is the whale depending on the memory ? 1.2099
+is the wall starts ? 0.2096
+is the wall starting ? 0.0015
+is the hat makes the store something ? 0.0141
+is the hat making the store something ? 0.0031
+can the hat becomes ? 1.8319
+can the hat become ? 0.0806
+is the dinosaur finds the figure ? 1.9352
+is the dinosaur finding the figure ? 1.5551
+can the dinosaur uses the figure ? 1.8021
+can the dinosaur use the figure ? 1.9272
+is the store lives ? 0.0368
+is the store living ? 0.0323
+is the boat gets the garden ? 0.0039
+is the boat getting the garden ? 0.0003
+is the rest races ? 0.1322
+is the rest racing ? 0.0127
+can the temperature needs ? 0.0299
+can the temperature need ? 0.0165
+is the journey plans to do something with the moon ? 2.2103
+is the journey planning to do something with the moon ? 1.3018
+can the journey changes ? 0.4949
+can the journey change ? 2.7930
+is the watch tells me about the protection ? 1.4343
+is the watch telling me about the protection ? 1.4632
+is the garden starts ? 0.2942
+is the garden starting ? 0.0017
+is the cover lives ? 0.1223
+is the cover living ? 0.0023
+can the cover changes ? 0.8611
+can the cover change ? 0.0023
+is the truck plans to do something with the restaurant ? 1.2327
+is the truck planning to do something with the restaurant ? 0.6155
+can the truck orders ? 3.4125
+can the truck order ? 0.0612
+is the slave starts ? 0.5261
+is the slave starting ? 0.1063
+can the slave gives you the figure ? 0.9107
+can the slave give you the figure ? 0.9265
+is the egg shows the figure to the earth ? 1.3268
+is the egg showing the figure to the earth ? 1.2443
+is the daddy tells me about the moon ? 0.0248
+is the daddy telling me about the moon ? 0.0004
+is the whale gets the opportunity ? 1.7966
+is the whale getting the opportunity ? 1.7275
+can the whale takes the opportunity away ? 1.8099
+can the whale take the opportunity away ? 1.4524
+can the figure becomes ? 0.3846
+can the figure become ? 0.5309
+is the ball turns ? 0.0023
+is the ball turning ? 0.0002
+can the ball uses the picture ? 0.0347
+can the ball use the picture ? 0.0044
+is the cover races ? 0.0064
+is the cover racing ? 0.0606
+can the cover wants ? 0.3053
+can the cover want ? 0.3718
+is the dinosaur plans to do something with the ball ? 1.5754
+is the dinosaur planning to do something with the ball ? 0.3710
+can the dinosaur uses the ball ? 0.2108
+can the dinosaur use the ball ? 0.0845
+can the farm becomes ? 0.5369
+can the farm become ? 0.6083
+is the protection shows the vote to the moon ? 1.6886
+is the protection showing the vote to the moon ? 1.5873
+is the trouble makes the cause something ? 0.0408
+is the trouble making the cause something ? 0.1893
+can the trouble works ? 0.1108
+can the trouble work ? 0.1646
+is the brain finds the soil ? 1.8330
+is the brain finding the soil ? 1.8228
+can the brain needs ? 0.2394
+can the brain need ? 0.0633
+is the temperature uses the table ? 0.9578
+is the temperature using the table ? 0.0480
+is the show starts ? 0.0214
+is the show starting ? 0.0038
+can the show works ? 0.0200
+can the show work ? 0.0042
+is the ball tells me about the show ? 0.1586
+is the ball telling me about the show ? 0.2197
+is the picture says something ? 0.0138
+is the picture saying something ? 0.0015
+is the wheel plans to do something with the cause ? 1.8105
+is the wheel planning to do something with the cause ? 1.2506
+can the table takes him away ? 0.1190
+can the table take him away ? 0.0007
+is the garden gets the cover ? 0.1452
+is the garden getting the cover ? 0.0024
+is the daddy says something ? 0.0134
+is the daddy saying something ? 0.0317
+can the daddy uses the trouble ? 0.0121
+can the daddy use the trouble ? 0.0021
+is the trouble tells me about the vote ? 0.0215
+is the trouble telling me about the vote ? 0.0526
+can the trouble uses the vote ? 0.0939
+can the trouble use the vote ? 0.4976
+is the table goes ? 0.1867
+is the table going ? 0.1232
+can the table takes the spread away ? 0.3266
+can the table take the spread away ? 0.0048
+is the rest depends on the farm ? 1.4058
+is the rest depending on the farm ? 1.7579
+can the rest uses the farm ? 2.3853
+can the rest use the farm ? 0.0011
+can the garden wants ? 0.1076
+can the garden want ? 0.0036
+is the poem shows the direction to the crown ? 0.2014
+is the poem showing the direction to the crown ? 0.3214
+is the farm plans to do something with the figure ? 1.8440
+is the farm planning to do something with the figure ? 1.8694
+is the serve lives ? 0.3942
+is the serve living ? 0.0042
+can the serve takes the army away ? 1.0189
+can the serve take the army away ? 1.0530
+is the doctor plays ? 0.1394
+is the doctor playing ? 0.1443
+can the doctor becomes ? 0.2338
+can the doctor become ? 0.4031
+is the doctor makes the fact something ? 0.1556
+is the doctor making the fact something ? 0.9631
+can the doctor gives the fact the temperature ? 0.6679
+can the doctor give the fact the temperature ? 0.7825
+is the house makes the hat something ? 0.0242
+is the house making the hat something ? 0.0079
+can the house becomes ? 1.5679
+can the house become ? 0.3114
+is the kiss uses the earth ? 1.1452
+is the kiss using the earth ? 0.3910
+is the wolf tells me about the sister ? 0.0064
+is the wolf telling me about the sister ? 0.0093
+can the wolf gives the sister the fan ? 0.0721
+can the wolf give the sister the fan ? 0.0048
+is the truck leaves ? 0.0046
+is the truck leaving ? 0.0302
+is the dinosaur makes the picture something ? 0.2415
+is the dinosaur making the picture something ? 0.0422
+is the spread takes the cover away ? 0.6541
+is the spread taking the cover away ? 0.2582
+is the journey finds the hat ? 1.5858
+is the journey finding the hat ? 2.2610
+can the poem gives the energy the trouble ? 0.5994
+can the poem give the energy the trouble ? 0.6234
+is the watch finds the memory ? 0.9950
+is the watch finding the memory ? 1.1966
+can the watch takes the memory away ? 0.1600
+can the watch take the memory away ? 0.7267
+is the wolf plans to do something with the poem ? 1.6401
+is the wolf planning to do something with the poem ? 0.8201
+can the wolf wants ? 0.0666
+can the wolf want ? 0.0046
+is the vote takes the sister away ? 1.2958
+is the vote taking the sister away ? 1.4524
+can the vote uses the sister ? 2.1672
+can the vote use the sister ? 2.4653
+is the moon starts ? 0.1896
+is the moon starting ? 0.0002
+can the moon takes the sister away ? 0.2648
+can the moon take the sister away ? 0.9218
+is the wall goes ? 0.7541
+is the wall going ? 0.0003
+can the wall records ? 0.3688
+can the wall record ? 0.2185
+is the store depends on the vacuum ? 0.5861
+is the store depending on the vacuum ? 0.9386
+can the store uses the vacuum ? 0.0209
+can the store use the vacuum ? 0.0069
+is the wolf writes ? 0.1763
+is the wolf writing ? 0.0018
+can the wolf becomes ? 0.8863
+can the wolf become ? 0.2407
+is the opportunity uses the whale ? 1.9464
+is the opportunity using the whale ? 2.2429
+is the poem uses the hand ? 0.7893
+is the poem using the hand ? 0.1329
+is the soil plans to do something with the ear ? 0.4891
+is the soil planning to do something with the ear ? 0.9000
+is the journey plays ? 1.1952
+is the journey playing ? 2.4488
+can the earth wants ? 1.0425
+can the earth want ? 0.1941
+can the figure needs ? 0.9972
+can the figure need ? 0.0574
+is the picture finds the fact ? 0.1319
+is the picture finding the fact ? 0.9659
+can the picture gives the fact the daddy ? 0.7120
+can the picture give the fact the daddy ? 1.4582
+is the apple plans to do something with the protection ? 1.5862
+is the apple planning to do something with the protection ? 1.6686
+is the show tells me about the fact ? 0.3256
+is the show telling me about the fact ? 0.3908
+can the show takes the fact away ? 0.1216
+can the show take the fact away ? 0.1360
+is the slave uses you ? 0.1089
+is the slave using you ? 0.7991
+is the rest depends on the figure ? 0.8894
+is the rest depending on the figure ? 2.1750
+is the sister uses the earth ? 0.1824
+is the sister using the earth ? 0.0787
+can the sister changes ? 0.9757
+can the sister change ? 0.0177
+is the ear starts ? 0.4288
+is the ear starting ? 0.0546
+is the tube plans to do something with the apple ? 1.3235
+is the tube planning to do something with the apple ? 0.5458
+can the tube gives the apple the poem ? 1.0214
+can the tube give the apple the poem ? 0.8746
+is the trouble says something ? 0.0182
+is the trouble saying something ? 0.0712
+can the trouble wants ? 0.6343
+can the trouble want ? 0.4872
+is the boat shows the egg to the ball ? 1.0340
+is the boat showing the egg to the ball ? 0.1054
+is the wolf goes ? 0.1074
+is the wolf going ? 0.0003
+can the doctor takes the table away ? 0.1813
+can the doctor take the table away ? 0.0006
+is the crown shows the table to the poem ? 1.0672
+is the crown showing the table to the poem ? 0.5207
+can the crown becomes ? 0.9618
+can the crown become ? 0.5596
+is the temperature plays ? 0.4640
+is the temperature playing ? 0.3691
+can the temperature gives the kiss the house ? 0.8450
+can the temperature give the kiss the house ? 1.6931
+is the energy sees how the the serve works ? 1.2312
+is the energy seeing how the the serve works ? 0.8704
+can the energy works ? 2.6317
+can the energy work ? 0.0061
+is the trouble writes ? 0.5008
+is the trouble writing ? 0.6081
+is the poem shows the brain to the store ? 0.3648
+is the poem showing the brain to the store ? 0.1388
+is the opportunity plays ? 2.5561
+is the opportunity playing ? 2.4975
+can the opportunity changes ? 2.7046
+can the opportunity change ? 2.6301
+is the slave plays ? 0.7637
+is the slave playing ? 0.2913
+is the direction makes the rest something ? 0.2997
+is the direction making the rest something ? 0.2165
+can the direction records ? 0.7859
+can the direction record ? 0.7591
+is the figure uses the energy ? 1.6652
+is the figure using the energy ? 1.3479
+is the army plans to do something with the garden ? 1.1158
+is the army planning to do something with the garden ? 0.2344
+is the whale finds the kiss ? 0.0064
+is the whale finding the kiss ? 0.5916
+can the whale gives the kiss the hand ? 0.2477
+can the whale give the kiss the hand ? 0.0656
+is the soil says something ? 0.2079
+is the soil saying something ? 0.0102
+can the soil gives the hand the energy ? 1.1014
+can the soil give the hand the energy ? 1.7002
+can the poem gives the tube the show ? 1.5529
+can the poem give the tube the show ? 1.0534
+is the poem sees how the the opportunity works ? 1.1419
+is the poem seeing how the the opportunity works ? 1.2089
+is the fan races ? 0.0182
+is the fan racing ? 0.2501
+can the fan works ? 0.4444
+can the fan work ? 0.0022
+can the farm takes the brain away ? 1.5402
+can the farm take the brain away ? 1.2838
+is the restaurant depends on the serve ? 0.2616
+is the restaurant depending on the serve ? 0.8852
+is the direction writes ? 1.3777
+is the direction writing ? 0.8310
+can the direction changes ? 0.4734
+can the direction change ? 0.0709
+is the army goes ? 0.0169
+is the army going ? 0.0096
+is the wall tells me about the restaurant ? 0.2017
+is the wall telling me about the restaurant ? 0.6456
+is the apple tells me about the table ? 0.0960
+is the apple telling me about the table ? 0.0259
+can the apple uses the table ? 0.1431
+can the apple use the table ? 0.0047
+is the rest plays ? 0.5603
+is the rest playing ? 0.0397
+is the house sees how the the fact works ? 0.6022
+is the house seeing how the the fact works ? 0.0417
+can the memory takes the fact away ? 0.6849
+can the memory take the fact away ? 0.9521
+can the soil wants ? 0.0276
+can the soil want ? 0.0047
+is the garden makes the protection something ? 1.3801
+is the garden making the protection something ? 1.3375
+is the wheel goes ? 0.0919
+is the wheel going ? 0.0006
+can the wheel takes the brain away ? 1.9367
+can the wheel take the brain away ? 1.5923
+is the temperature goes ? 0.4493
+is the temperature going ? 0.6877
+can the whale gives the vacuum the energy ? 0.8310
+can the whale give the vacuum the energy ? 0.9157
+is the slave shows the farm to the journey ? 0.5462
+is the slave showing the farm to the journey ? 0.1953
+can the slave gives the farm the journey ? 1.3999
+can the slave give the farm the journey ? 1.3841
+is the store finds the memory ? 2.1002
+is the store finding the memory ? 0.4923
+can the store works ? 0.0910
+can the store work ? 0.0193
+is the daddy races ? 0.0023
+is the daddy racing ? 0.0107
+can the opportunity takes the cause away ? 1.7922
+can the opportunity take the cause away ? 1.5576
+is the lady goes ? 0.2919
+is the lady going ? 0.0006
+can the lady takes the army away ? 0.0382
+can the lady take the army away ? 0.0038
+is the dinosaur looks ? 0.2354
+is the dinosaur looking ? 0.0027
+is the table depends on the tube ? 1.0860
+is the table depending on the tube ? 1.1517
+can the protection gives the direction the vote ? 1.8627
+can the protection give the direction the vote ? 1.3469
+is the figure goes ? 0.0772
+is the figure going ? 0.3608
+is the whale makes the sister something ? 0.0136
+is the whale making the sister something ? 0.0076
+can the whale uses the sister ? 0.2630
+can the whale use the sister ? 0.1955
+is the spread shows the tube to the watch ? 0.7259
+is the spread showing the tube to the watch ? 0.6529
+can the spread becomes ? 0.6297
+can the spread become ? 0.1339
+is the wall depends on the vote ? 0.2428
+is the wall depending on the vote ? 1.2616
+can the wall uses the vote ? 0.0875
+can the wall use the vote ? 0.5266
+is the sister starts ? 0.5345
+is the sister starting ? 0.0401
+is the vacuum races ? 0.0989
+is the vacuum racing ? 0.3004
+can the vacuum takes her away ? 0.1566
+can the vacuum take her away ? 0.0264
+is the direction starts ? 0.0921
+is the direction starting ? 0.2639
+is the figure uses the poem ? 3.8459
+is the figure using the poem ? 1.9427
+can the figure takes the poem away ? 0.9611
+can the figure take the poem away ? 0.2519
+is the pig finds the cause ? 0.6357
+is the pig finding the cause ? 1.3750
+can the pig takes the cause away ? 0.6740
+can the pig take the cause away ? 0.3611
+is the book plans to do something with the garden ? 1.1832
+is the book planning to do something with the garden ? 0.1472
+is the sister tells me about the soil ? 0.7022
+is the sister telling me about the soil ? 1.0851
+is the serve finds the serve ? 1.1696
+is the serve finding the serve ? 0.9664
+can the serve takes the serve away ? 0.4113
+can the serve take the serve away ? 0.4878
+is the army uses the vote ? 1.3386
+is the army using the vote ? 0.5414
+is the ear tells me about the wall ? 0.0172
+is the ear telling me about the wall ? 0.3091
+is the crown lives ? 0.7737
+is the crown living ? 0.1091
+can the crown takes the cover away ? 0.0915
+can the crown take the cover away ? 0.0051
+is the pig uses the army ? 0.8311
+is the pig using the army ? 0.1219
+can the pig takes the army away ? 0.0789
+can the pig take the army away ? 0.0021
+is the dinosaur tells me about the hat ? 0.0862
+is the dinosaur telling me about the hat ? 0.5324
+is the house depends on the hat ? 1.4057
+is the house depending on the hat ? 1.8404
+can the house gives the hat the table ? 1.5628
+can the house give the hat the table ? 0.0966
+is the boat shows the vote to the truck ? 1.8133
+is the boat showing the vote to the truck ? 1.9513
+is the brain leaves ? 1.1959
+is the brain leaving ? 0.0625
+can the brain gives the opportunity the kiss ? 1.0343
+can the brain give the opportunity the kiss ? 0.6887
+is the energy lives ? 1.7014
+is the energy living ? 1.6237
+can the energy uses the cover ? 2.0539
+can the energy use the cover ? 2.2909
+is the vote tells me about the sister ? 1.5320
+is the vote telling me about the sister ? 1.3348
+is the lady gets the poem ? 0.1781
+is the lady getting the poem ? 0.5966
+can the lady orders ? 0.1738
+can the lady order ? 1.2009
+is the figure shows the spread to the spread ? 1.2794
+is the figure showing the spread to the spread ? 1.4655
+is the boat lives ? 0.2835
+is the boat living ? 0.0074
+can the boat works ? 0.0133
+can the boat work ? 0.0005
+is the watch depends on the hand ? 0.7784
+is the watch depending on the hand ? 1.8259
+is the kiss gets the cause ? 0.3103
+is the kiss getting the cause ? 0.4963
+is the pig looks ? 0.0325
+is the pig looking ? 0.3081
+can the pig changes ? 0.7777
+can the pig change ? 0.0002
+is the apple depends on it ? 0.1441
+is the apple depending on it ? 2.2220
+can the apple uses it ? 0.0006
+can the apple use it ? 0.0046
+is the hand uses the trouble ? 0.0590
+is the hand using the trouble ? 0.1217
+can the hand works ? 0.4524
+can the hand work ? 0.0063
+can the wall takes the book away ? 0.5260
+can the wall take the book away ? 0.0317
+is the wall gets the soil ? 0.7558
+is the wall getting the soil ? 0.4820
+can the wall wants ? 0.4834
+can the wall want ? 0.0821
+is the journey finds the restaurant ? 1.9455
+is the journey finding the restaurant ? 2.3819
+is the dinosaur starts ? 0.7588
+is the dinosaur starting ? 0.0010
+is the spread takes the hat away ? 0.6636
+is the spread taking the hat away ? 0.1397
+is the spread lives ? 0.6187
+is the spread living ? 0.0043
+can the spread uses the army ? 1.6205
+can the spread use the army ? 1.3179
+is the wall shows the restaurant to the spread ? 1.3632
+is the wall showing the restaurant to the spread ? 1.0220
+is the energy gets the fan ? 2.1972
+is the energy getting the fan ? 2.4155
+can the energy uses the fan ? 3.0606
+can the energy use the fan ? 3.0537
+is the lady depends on the direction ? 0.1975
+is the lady depending on the direction ? 0.9049
+can the lady wants ? 0.3126
+can the lady want ? 0.0040
+is the energy shows the poem to the tube ? 1.0740
+is the energy showing the poem to the tube ? 0.7459
+is the watch turns ? 0.0048
+is the watch turning ? 0.0039
+can the watch wants ? 0.1567
+can the watch want ? 0.0267
+is the memory says something ? 0.0027
+is the memory saying something ? 0.0171
+is the brain uses the apple ? 0.5338
+is the brain using the apple ? 1.4902
+can the brain uses the apple ? 0.4855
+can the brain use the apple ? 1.0757
+can the daddy gives the opportunity the restaurant ? 1.5001
+can the daddy give the opportunity the restaurant ? 0.9948
+can the picture becomes ? 0.9058
+can the picture become ? 0.2905
+is the cause goes ? 0.3607
+is the cause going ? 0.2530
+can the cause changes ? 0.8745
+can the cause change ? 0.4435
+is the wall writes ? 0.5251
+is the wall writing ? 0.0030
+can the dinosaur wants ? 1.2751
+can the dinosaur want ? 0.0922
+is the kiss starts ? 1.9569
+is the kiss starting ? 0.0298
+is the memory uses the fact ? 0.4829
+is the memory using the fact ? 0.6169
+is the dinosaur sees how the the kiss works ? 0.5842
+is the dinosaur seeing how the the kiss works ? 0.3234
+is the journey leaves ? 0.3781
+is the journey leaving ? 0.1862
+is the table sees how the the show works ? 0.0579
+is the table seeing how the the show works ? 0.0170
+can the table becomes ? 0.9792
+can the table become ? 0.1195
+is the house depends on the army ? 0.8062
+is the house depending on the army ? 1.3870
+is the earth sees how the you works ? 0.0702
+is the earth seeing how the you works ? 0.1613
+can the earth becomes ? 0.6703
+can the earth become ? 0.4905
+is the table shows him to the direction ? 0.6471
+is the table showing him to the direction ? 0.8393
+is the hat plans to do something with the garden ? 1.1849
+is the hat planning to do something with the garden ? 0.7519
+can the hat changes ? 0.3544
+can the hat change ? 0.0113
+is the garden races ? 0.0474
+is the garden racing ? 0.0026
+is the memory goes ? 0.0812
+is the memory going ? 0.0090
+can the memory needs ? 0.3002
+can the memory need ? 0.0928
+can the serve works ? 0.3893
+can the serve work ? 0.0810
+is the garden says something ? 0.0068
+is the garden saying something ? 0.0007
+can the garden becomes ? 0.9653
+can the garden become ? 0.4133
+can the hat uses the soil ? 0.1053
+can the hat use the soil ? 0.1884
+is the book takes the vote away ? 0.3149
+is the book taking the vote away ? 0.0297
+is the duke lives ? 0.1811
+is the duke living ? 0.0017
+is the figure plans to do something with the watch ? 1.2621
+is the figure planning to do something with the watch ? 0.5849
+is the hat leaves ? 0.0233
+is the hat leaving ? 0.0509
+can the hat needs ? 0.0419
+can the hat need ? 0.0024
+can the doctor needs ? 0.0544
+can the doctor need ? 0.0424
+is the vacuum uses the earth ? 0.6533
+is the vacuum using the earth ? 0.2486
+can the vacuum gives the earth the wheel ? 0.2010
+can the vacuum give the earth the wheel ? 0.3103
+is the opportunity shows the picture to the apple ? 0.9630
+is the opportunity showing the picture to the apple ? 0.9574
+can the opportunity uses the picture ? 2.1382
+can the opportunity use the picture ? 2.9853
+is the wall plans to do something with the lady ? 1.0855
+is the wall planning to do something with the lady ? 0.2397
+is the wheel tells me about the ear ? 0.0137
+is the wheel telling me about the ear ? 0.0002
+can the wheel takes the ear away ? 0.3967
+can the wheel take the ear away ? 0.0100
+is the serve sees how the the store works ? 1.5495
+is the serve seeing how the the store works ? 1.1383
+can the serve uses the store ? 0.8843
+can the serve use the store ? 1.5668
+is the soil uses the energy ? 0.2189
+is the soil using the energy ? 0.0545
+can the soil records ? 2.9655
+can the soil record ? 0.0523
+can the wolf gives the daddy the egg ? 0.2536
+can the wolf give the daddy the egg ? 0.0012
+is the figure leaves ? 1.0828
+is the figure leaving ? 0.7493
+can the sister gives the restaurant the crown ? 0.2811
+can the sister give the restaurant the crown ? 0.0379
+is the hat finds the temperature ? 0.7324
+is the hat finding the temperature ? 0.3418
+is the store writes ? 0.2210
+is the store writing ? 0.0020
+can the store gives the army the hat ? 0.1671
+can the store give the army the hat ? 0.0706
+is the daddy takes the soil away ? 0.4642
+is the daddy taking the soil away ? 0.1884
+can the daddy gives the soil the opportunity ? 0.8439
+can the daddy give the soil the opportunity ? 0.6834
+is the house takes the sister away ? 0.2537
+is the house taking the sister away ? 0.0010
+is the brain gets the garden ? 2.3640
+is the brain getting the garden ? 2.0071
+can the brain works ? 1.0474
+can the brain work ? 0.0375
+is the spread starts ? 0.0262
+is the spread starting ? 0.0085
+can the spread uses the wall ? 1.1097
+can the spread use the wall ? 1.0797
+can the pig uses the watch ? 0.0064
+can the pig use the watch ? 0.0014
+can the watch becomes ? 0.2873
+can the watch become ? 0.0295
+is the cover plans to do something with the tube ? 1.3036
+is the cover planning to do something with the tube ? 0.3593
+can the cover becomes ? 0.9464
+can the cover become ? 0.0127
+is the fan makes the restaurant something ? 0.0664
+is the fan making the restaurant something ? 0.3062
+can the fan gives the restaurant the tube ? 0.2645
+can the fan give the restaurant the tube ? 0.1123
+can the tube uses the whale ? 0.5853
+can the tube use the whale ? 0.2754
+can the doctor takes the energy away ? 0.2045
+can the doctor take the energy away ? 0.0116
+is the cover gets the house ? 0.5326
+is the cover getting the house ? 0.0002
+is the pig shows the journey to the cover ? 0.9486
+is the pig showing the journey to the cover ? 0.5926
+can the pig works ? 0.3335
+can the pig work ? 0.0281
+is the figure uses the protection ? 2.6314
+is the figure using the protection ? 2.3141
+can the kiss uses the ball ? 0.0585
+can the kiss use the ball ? 0.0010
+is the picture goes ? 0.4042
+is the picture going ? 0.0396
+is the wheel sees how the the soil works ? 2.4697
+is the wheel seeing how the the soil works ? 1.6354
+can the wheel takes the soil away ? 0.3367
+can the wheel take the soil away ? 0.0049
+is the soil uses the tube ? 1.2629
+is the soil using the tube ? 0.4347
+can the soil needs ? 0.7430
+can the soil need ? 0.0415
+is the house leaves ? 0.0570
+is the house leaving ? 0.2003
+can the house takes the tube away ? 0.1682
+can the house take the tube away ? 0.0001
+is the house races ? 0.3809
+is the house racing ? 0.2762
+can the house works ? 0.4461
+can the house work ? 0.0397
+is the wolf lives ? 0.0044
+is the wolf living ? 0.0112
+can the serve becomes ? 0.6224
+can the serve become ? 0.0573
+is the temperature finds the sister ? 0.0455
+is the temperature finding the sister ? 0.1325
+is the spread shows the protection to the direction ? 1.6061
+is the spread showing the protection to the direction ? 1.9870
+is the journey lives ? 1.0397
+is the journey living ? 3.2776
+is the truck plans to do something with the sister ? 1.5872
+is the truck planning to do something with the sister ? 1.2489
+can the truck takes the sister away ? 0.1088
+can the truck take the sister away ? 0.0004
+can the opportunity records ? 3.1885
+can the opportunity record ? 2.7802
+is the poem takes the cover away ? 0.4357
+is the poem taking the cover away ? 1.1624
+can the poem gives the cover the truck ? 2.0036
+can the poem give the cover the truck ? 1.3721
+is the earth looks ? 0.6988
+is the earth looking ? 0.0128
+can the earth records ? 0.4134
+can the earth record ? 0.2802
+is the duke sees how the the direction works ? 0.7250
+is the duke seeing how the the direction works ? 1.3224
+can the duke becomes ? 0.5811
+can the duke become ? 0.0469
+is the restaurant sees how the the temperature works ? 0.4130
+is the restaurant seeing how the the temperature works ? 0.0261
+can the restaurant records ? 0.1320
+can the restaurant record ? 0.0434
+is the vote plays ? 1.4263
+is the vote playing ? 0.8137
+is the serve shows the daddy to the restaurant ? 0.8499
+is the serve showing the daddy to the restaurant ? 0.2079
+can the serve uses the daddy ? 0.1524
+can the serve use the daddy ? 0.2962
+is the rest goes ? 0.6638
+is the rest going ? 0.1344
+can the rest gives the soil the hat ? 1.6322
+can the rest give the soil the hat ? 1.6385
+is the picture makes the poem something ? 0.3066
+is the picture making the poem something ? 0.3312
+can the picture uses the poem ? 0.3644
+can the picture use the poem ? 0.4022
+can the sister uses the truck ? 0.0091
+can the sister use the truck ? 0.0004
+is the lady makes the army something ? 0.0012
+is the lady making the army something ? 0.0004
+is the moon tells me about the store ? 0.0383
+is the moon telling me about the store ? 0.3708
+is the earth uses the store ? 0.3501
+is the earth using the store ? 0.0509
+can the earth uses the store ? 0.0716
+can the earth use the store ? 0.0764
+is the army depends on the vote ? 1.2810
+is the army depending on the vote ? 1.4766
+can the army takes the vote away ? 0.8300
+can the army take the vote away ? 0.4798
+is the serve sees how the the temperature works ? 0.3318
+is the serve seeing how the the temperature works ? 0.0789
+can the serve changes ? 0.6140
+can the serve change ? 0.1437
+is the poem races ? 1.3523
+is the poem racing ? 0.1669
+can the poem gives the energy the wall ? 0.8911
+can the poem give the energy the wall ? 0.0471
+is the pig says something ? 0.0006
+is the pig saying something ? 0.0044
+is the ball takes the house away ? 0.3958
+is the ball taking the house away ? 0.0005
+can the ball gives the house the show ? 1.2452
+can the ball give the house the show ? 0.1282
+is the kiss depends on the wall ? 1.6192
+is the kiss depending on the wall ? 1.7672
+can the kiss orders ? 1.7472
+can the kiss order ? 0.0007
+is the earth says something ? 0.0011
+is the earth saying something ? 0.0008
+is the pig makes the vote something ? 1.1369
+is the pig making the vote something ? 1.5078
+is the army takes the poem away ? 0.4728
+is the army taking the poem away ? 0.2153
+can the army takes the poem away ? 0.3945
+can the army take the poem away ? 0.2566
+is the truck plans to do something with you ? 1.4950
+is the truck planning to do something with you ? 1.1233
+is the doctor makes the store something ? 0.0693
+is the doctor making the store something ? 0.0130
+is the journey depends on the soil ? 0.1686
+is the journey depending on the soil ? 0.5744
+is the brain tells me about the table ? 0.4215
+is the brain telling me about the table ? 0.0551
+is the egg makes the moon something ? 0.0010
+is the egg making the moon something ? 0.0009
+is the lady leaves ? 0.0005
+is the lady leaving ? 0.1258
+can the lady becomes ? 0.5323
+can the lady become ? 0.0684
+is the serve looks ? 0.4415
+is the serve looking ? 0.0120
+can the serve gives the direction the lady ? 0.3827
+can the serve give the direction the lady ? 0.4879
+can the cause works ? 0.4296
+can the cause work ? 0.4478
+is the sister gets the cover ? 0.0868
+is the sister getting the cover ? 0.0072
+can the sister wants ? 0.4391
+can the sister want ? 0.0206
+is the hand uses the picture ? 0.0775
+is the hand using the picture ? 0.4704
+is the boat writes ? 0.7451
+is the boat writing ? 0.0177
+can the boat changes ? 0.1571
+can the boat change ? 0.0018
+is the house sees how the the army works ? 0.8794
+is the house seeing how the the army works ? 0.0908
+is the cause turns ? 0.0143
+is the cause turning ? 0.1726
+can the cause gives the direction the poem ? 1.6173
+can the cause give the direction the poem ? 1.5910
+is the serve takes the sister away ? 0.6491
+is the serve taking the sister away ? 0.7266
+is the farm makes the picture something ? 0.0647
+is the farm making the picture something ? 0.0046
+can the farm takes the picture away ? 0.2799
+can the farm take the picture away ? 0.0020
+is the tube tells me about the ear ? 0.0093
+is the tube telling me about the ear ? 0.0064
+can the tube wants ? 0.3405
+can the tube want ? 0.2342
+is the army makes the poem something ? 0.3750
+is the army making the poem something ? 0.3110
+can the poem gives the direction the moon ? 1.3446
+can the poem give the direction the moon ? 0.6214
+is the watch lives ? 0.0434
+is the watch living ? 0.0318
+can the watch uses the daddy ? 1.1159
+can the watch use the daddy ? 0.0411
+is the book starts ? 0.3378
+is the book starting ? 0.0017
+can the book gives the opportunity the vacuum ? 1.0277
+can the book give the opportunity the vacuum ? 0.7947
+can the protection works ? 3.4555
+can the protection work ? 1.3527
+is the truck depends on the vacuum ? 0.0563
+is the truck depending on the vacuum ? 0.7619
+can the truck takes the vacuum away ? 0.0383
+can the truck take the vacuum away ? 0.0069
+is the whale lives ? 0.1126
+is the whale living ? 0.2903
+is the farm gets the restaurant ? 1.4549
+is the farm getting the restaurant ? 0.0040
+is the lady finds the fan ? 0.3859
+is the lady finding the fan ? 0.1925
+can the lady gives the fan the cover ? 1.2207
+can the lady give the fan the cover ? 0.8413
+is the journey gets the direction ? 1.9002
+is the journey getting the direction ? 2.3592
+is the vacuum gets the vote ? 0.5040
+is the vacuum getting the vote ? 0.0151
+can the vacuum needs ? 0.0137
+can the vacuum need ? 0.0187
+is the temperature gets the egg ? 0.5619
+is the temperature getting the egg ? 0.0295
+can the temperature gives the egg the journey ? 1.6140
+can the temperature give the egg the journey ? 1.5659
+is the vote tells me about the figure ? 0.2597
+is the vote telling me about the figure ? 0.1600
+can the vote gives the figure the apple ? 0.5480
+can the vote give the figure the apple ? 0.1699
+is the vacuum gets the house ? 0.4166
+is the vacuum getting the house ? 0.0376
+is the fan takes the fan away ? 0.0855
+is the fan taking the fan away ? 0.0408
+is the hand races ? 0.5946
+is the hand racing ? 0.0020
+can the hand uses the book ? 0.0088
+can the hand use the book ? 0.0500
+is the opportunity lives ? 2.8687
+is the opportunity living ? 2.9787
+can the opportunity gives the table the ear ? 1.4896
+can the opportunity give the table the ear ? 1.3819
+is the whale makes the spread something ? 0.3295
+is the whale making the spread something ? 0.3122
+is the egg shows the opportunity to the earth ? 0.7113
+is the egg showing the opportunity to the earth ? 0.5298
+can the egg orders ? 0.8768
+can the egg order ? 0.0364
+is the cover shows the lady to the moon ? 0.0457
+is the cover showing the lady to the moon ? 0.2261
+is the earth tells me about the sister ? 0.0271
+is the earth telling me about the sister ? 0.3466
+is the brain says something ? 0.1028
+is the brain saying something ? 0.0097
+can the brain gives the watch her ? 1.1418
+can the brain give the watch her ? 0.8541
+is the journey plans to do something with the vote ? 2.1267
+is the journey planning to do something with the vote ? 1.1574
+can the journey uses the vote ? 1.7250
+can the journey use the vote ? 2.2034
+is the wheel writes ? 0.0551
+is the wheel writing ? 0.0003
+is the opportunity tells me about the brain ? 1.5845
+is the opportunity telling me about the brain ? 1.8814
+can the opportunity becomes ? 2.6912
+can the opportunity become ? 2.0932
+is the fan plans to do something with the poem ? 0.7802
+is the fan planning to do something with the poem ? 0.2399
+can the brain gives the spread her ? 0.6163
+can the brain give the spread her ? 0.1061
+is the duke gets her ? 0.0224
+is the duke getting her ? 0.7238
+is the store takes the moon away ? 0.3996
+is the store taking the moon away ? 0.0011
+is the wheel takes the energy away ? 0.3275
+is the wheel taking the energy away ? 0.1981
+can the moon works ? 0.4792
+can the moon work ? 0.0022
+is the journey takes the house away ? 1.7364
+is the journey taking the house away ? 1.8940
+can the journey takes the house away ? 2.2469
+can the journey take the house away ? 2.1651
+is the farm starts ? 0.9278
+is the farm starting ? 0.2691
+is the farm leaves ? 0.2500
+is the farm leaving ? 0.0157
+can the garden takes the hand away ? 0.4607
+can the garden take the hand away ? 0.0003
+is the apple shows the vacuum to the energy ? 1.2392
+is the apple showing the vacuum to the energy ? 1.2869
+can the apple records ? 0.0314
+can the apple record ? 0.6194
+is the lady takes the hand away ? 0.0971
+is the lady taking the hand away ? 0.1792
+is the daddy leaves ? 0.0590
+is the daddy leaving ? 0.0982
+can the daddy takes the house away ? 0.6253
+can the daddy take the house away ? 0.0241
+is the restaurant writes ? 0.8803
+is the restaurant writing ? 0.0144
+can the restaurant gives the ball the lady ? 0.2683
+can the restaurant give the ball the lady ? 0.0051
+is the temperature plans to do something with the house ? 2.3479
+is the temperature planning to do something with the house ? 1.1574
+can the temperature gives the house the serve ? 0.5310
+can the temperature give the house the serve ? 1.1891
+is the soil sees how the the restaurant works ? 1.4302
+is the soil seeing how the the restaurant works ? 1.1495
+can the soil uses the restaurant ? 0.7599
+can the soil use the restaurant ? 0.7731
+is the vacuum depends on the opportunity ? 0.8155
+is the vacuum depending on the opportunity ? 0.6907
+can the vacuum gives the opportunity the table ? 1.0630
+can the vacuum give the opportunity the table ? 0.6261
+can the store uses the earth ? 0.8575
+can the store use the earth ? 0.0735
+is the farm shows the sister to the army ? 0.0248
+is the farm showing the sister to the army ? 0.1908
+can the earth takes the table away ? 0.7104
+can the earth take the table away ? 0.0102
+is the serve sees how the the rest works ? 1.2906
+is the serve seeing how the the rest works ? 0.7687
+is the figure plans to do something with the restaurant ? 1.1633
+is the figure planning to do something with the restaurant ? 0.4505
+is the doctor depends on the sister ? 0.3890
+is the doctor depending on the sister ? 1.4310
+is the slave tells me about the truck ? 1.8169
+is the slave telling me about the truck ? 1.4070
+can the slave gives the truck the daddy ? 2.1571
+can the slave give the truck the daddy ? 1.5823
+can the energy wants ? 0.7214
+can the energy want ? 0.8207
+is the trouble races ? 0.3413
+is the trouble racing ? 0.4147
+can the trouble uses the earth ? 0.6481
+can the trouble use the earth ? 0.5471
+is the show plans to do something with the direction ? 1.7365
+is the show planning to do something with the direction ? 0.6986
+can the show needs ? 0.6195
+can the show need ? 0.0153
+is the trouble gets the protection ? 1.6112
+is the trouble getting the protection ? 1.8424
+is the wheel plans to do something with her ? 1.0244
+is the wheel planning to do something with her ? 0.3568
+can the wheel gives her the daddy ? 0.0649
+can the wheel give her the daddy ? 0.0135
+can the poem takes the watch away ? 1.0485
+can the poem take the watch away ? 0.0148
+is the serve shows the watch to the temperature ? 0.3704
+is the serve showing the watch to the temperature ? 0.4204
+is the restaurant finds the wall ? 2.7884
+is the restaurant finding the wall ? 0.4449
+can the restaurant gives the wall the kiss ? 0.6932
+can the restaurant give the wall the kiss ? 0.0189
+is the wall depends on the crown ? 0.9016
+is the wall depending on the crown ? 1.1209
+can the wall uses the crown ? 0.0166
+can the wall use the crown ? 0.0032
+is the duke makes the wheel something ? 0.9186
+is the duke making the wheel something ? 0.5226
+can the duke uses the wheel ? 0.1701
+can the duke use the wheel ? 0.3576
+is the memory takes him away ? 0.4854
+is the memory taking him away ? 0.2704
+can the memory changes ? 1.0105
+can the memory change ? 0.1504
+is the cause says something ? 0.1087
+is the cause saying something ? 0.3855
+can the cause takes the cover away ? 0.6974
+can the cause take the cover away ? 1.1259
+is the temperature races ? 1.6824
+is the temperature racing ? 0.1515
+can the temperature gives the energy the brain ? 0.3160
+can the temperature give the energy the brain ? 0.2388
+is the memory turns ? 1.8853
+is the memory turning ? 1.6091
+can the daddy gives the lady the serve ? 0.0557
+can the daddy give the lady the serve ? 0.3900
+is the restaurant shows the fan to her ? 0.1753
+is the restaurant showing the fan to her ? 0.0559
+is the wall makes the apple something ? 0.0020
+is the wall making the apple something ? 0.0006
+can the wall changes ? 0.1185
+can the wall change ? 0.2674
+is the cause takes the trouble away ? 0.0088
+is the cause taking the trouble away ? 0.0979
+is the apple lives ? 0.0287
+is the apple living ? 0.0801
+can the apple needs ? 0.1122
+can the apple need ? 0.0098
+is the store depends on the brain ? 0.1706
+is the store depending on the brain ? 1.1657
+can the store changes ? 0.6018
+can the store change ? 0.1253
+is the doctor writes ? 0.0653
+is the doctor writing ? 0.1292
+can the doctor wants ? 0.4319
+can the doctor want ? 0.0033
+is the table takes the vacuum away ? 0.1505
+is the table taking the vacuum away ? 0.0132
+is the show says something ? 0.0827
+is the show saying something ? 0.1990
+is the whale shows the earth to the cover ? 0.1362
+is the whale showing the earth to the cover ? 0.1999
+can the whale uses the earth ? 0.9066
+can the whale use the earth ? 0.3672
+is the wheel tells me about her ? 0.0671
+is the wheel telling me about her ? 0.0013
+is the slave makes the tube something ? 1.3819
+is the slave making the tube something ? 1.3384
+is the daddy turns ? 0.0023
+is the daddy turning ? 0.0733
+can the daddy uses the figure ? 0.0767
+can the daddy use the figure ? 0.0003
+is the slave tells me about the show ? 0.7513
+is the slave telling me about the show ? 0.0750
+can the slave gives the show the vacuum ? 1.0110
+can the slave give the show the vacuum ? 0.8660
+is the brain races ? 0.9906
+is the brain racing ? 0.0592
+can the brain takes the wheel away ? 1.7407
+can the brain take the wheel away ? 1.6100
+is the watch uses you ? 0.1687
+is the watch using you ? 0.2151
+is the wheel lives ? 0.0126
+is the wheel living ? 0.0008
+is the table shows the energy to the crown ? 0.0521
+is the table showing the energy to the crown ? 0.1803
+is the wall sees how the the tube works ? 0.0800
+is the wall seeing how the the tube works ? 0.1881
+is the apple finds the earth ? 0.1348
+is the apple finding the earth ? 0.1740
+can the apple gives the earth the vote ? 1.6919
+can the apple give the earth the vote ? 1.2961
+is the ear gets the vote ? 1.1552
+is the ear getting the vote ? 0.1076
+is the vote plans to do something with the protection ? 1.8392
+is the vote planning to do something with the protection ? 1.9832
+can the vote orders ? 1.7916
+can the vote order ? 0.2325
+is the temperature finds the vote ? 0.9596
+is the temperature finding the vote ? 0.8761
+can the temperature gives the vote the trouble ? 0.7179
+can the temperature give the vote the trouble ? 1.1630
+is the show tells me about the garden ? 0.0042
+is the show telling me about the garden ? 0.0043
+can the show takes the garden away ? 0.3755
+can the show take the garden away ? 0.0182
+is the cover makes the brain something ? 0.0007
+is the cover making the brain something ? 0.0004
+is the garden tells me about the cover ? 0.0770
+is the garden telling me about the cover ? 0.0008
+can the garden takes the cover away ? 0.2026
+can the garden take the cover away ? 0.0035
+is the store races ? 0.5243
+is the store racing ? 0.0090
+is the fact starts ? 0.6484
+is the fact starting ? 0.0010
+can the fact takes him away ? 0.0151
+can the fact take him away ? 0.0010
+is the earth tells me about her ? 0.1267
+is the earth telling me about her ? 0.0587
+is the wall shows the apple to the farm ? 0.4983
+is the wall showing the apple to the farm ? 0.1102
+can the wall takes the apple away ? 0.5319
+can the wall take the apple away ? 0.0076
+is the watch shows the soil to the spread ? 0.5051
+is the watch showing the soil to the spread ? 0.7776
+is the store shows the ball to the truck ? 0.8394
+is the store showing the ball to the truck ? 0.0602
+can the store takes the ball away ? 0.2482
+can the store take the ball away ? 0.0024
+is the restaurant tells me about the book ? 0.4288
+is the restaurant telling me about the book ? 0.1860
+can the restaurant needs ? 0.0431
+can the restaurant need ? 0.0872
+is the brain starts ? 1.0315
+is the brain starting ? 0.6724
+is the protection makes the fan something ? 1.1921
+is the protection making the fan something ? 1.5954
+can the protection records ? 2.3661
+can the protection record ? 2.2681
+is the wolf takes the garden away ? 0.0007
+is the wolf taking the garden away ? 0.0053
+is the protection finds the figure ? 1.4290
+is the protection finding the figure ? 1.8125
+is the spread shows the protection to him ? 1.5680
+is the spread showing the protection to him ? 2.1769
+can the spread gives the protection him ? 2.0461
+can the spread give the protection him ? 1.8235
+can the wolf uses the book ? 0.0874
+can the wolf use the book ? 0.0095
+is the tube sees how the the table works ? 0.0695
+is the tube seeing how the the table works ? 0.0456
+can the tube changes ? 0.0341
+can the tube change ? 0.0406
+is the figure makes the energy something ? 1.1191
+is the figure making the energy something ? 1.4464
+is the fact gets the figure ? 0.0204
+is the fact getting the figure ? 0.0146
+is the rest shows the energy to the whale ? 0.7628
+is the rest showing the energy to the whale ? 1.0108
+can the rest records ? 0.2474
+can the rest record ? 0.1999
+is the boat starts ? 0.3960
+is the boat starting ? 0.0798
+is the whale finds the direction ? 0.0870
+is the whale finding the direction ? 1.0819
+can the boat takes the serve away ? 0.4892
+can the boat take the serve away ? 0.5795
+is the slave goes ? 0.8911
+is the slave going ? 0.6920
+is the restaurant looks ? 1.5542
+is the restaurant looking ? 0.3794
+can the restaurant wants ? 0.8386
+can the restaurant want ? 0.0183
+is the lady starts ? 0.6645
+is the lady starting ? 0.0015
+can the lady works ? 0.1837
+can the lady work ? 0.3988
+is the book takes the store away ? 0.2825
+is the book taking the store away ? 0.0009
+can the book records ? 0.3348
+can the book record ? 0.1743
+is the duke depends on the daddy ? 0.8464
+is the duke depending on the daddy ? 1.2699
+is the truck takes the book away ? 0.2924
+is the truck taking the book away ? 0.0647
+is the ear sees how the the wheel works ? 0.0202
+is the ear seeing how the the wheel works ? 0.0106
+is the tube says something ? 0.1266
+is the tube saying something ? 0.0082
+is the watch shows the book to the spread ? 0.5741
+is the watch showing the book to the spread ? 0.6678
+is the temperature looks ? 0.4954
+is the temperature looking ? 0.1550
+is the house goes ? 0.3053
+is the house going ? 0.1388
+is the poem tells me about the hat ? 0.2734
+is the poem telling me about the hat ? 0.0951
+can the poem takes the hat away ? 0.7726
+can the poem take the hat away ? 1.5663
+is the sister plans to do something with the whale ? 1.2449
+is the sister planning to do something with the whale ? 0.4830
+is the doctor plans to do something with the hat ? 1.2605
+is the doctor planning to do something with the hat ? 0.5956
+is the energy uses the restaurant ? 2.4740
+is the energy using the restaurant ? 2.5195
+can the energy takes the restaurant away ? 2.1202
+can the energy take the restaurant away ? 1.9552
+is the moon shows the house to the fact ? 0.5301
+is the moon showing the house to the fact ? 1.4051
+can the moon orders ? 1.0660
+can the moon order ? 0.7399
+can the farm uses the house ? 1.9768
+can the farm use the house ? 0.0017
+is the cause makes the show something ? 0.4203
+is the cause making the show something ? 0.2978
+can the cause uses the show ? 0.5228
+can the cause use the show ? 1.1021
+is the watch uses him ? 1.2088
+is the watch using him ? 0.0053
+can the watch takes him away ? 0.0193
+can the watch take him away ? 0.0003
+is the direction uses the memory ? 0.9898
+is the direction using the memory ? 0.6536
+is the army leaves ? 0.3965
+is the army leaving ? 0.0027
+can the army uses the earth ? 1.3738
+can the army use the earth ? 0.0581
+is the vacuum writes ? 0.3220
+is the vacuum writing ? 0.0426
+can the vacuum records ? 0.1582
+can the vacuum record ? 0.0178
+is the rest finds the truck ? 2.7536
+is the rest finding the truck ? 1.0212
+can the rest uses the truck ? 2.1458
+can the rest use the truck ? 0.0002
+is the wall takes the book away ? 0.1042
+is the wall taking the book away ? 0.0149
+is the temperature finds the table ? 1.9834
+is the temperature finding the table ? 0.7436
+can the temperature gives the table the temperature ? 0.8765
+can the temperature give the table the temperature ? 0.0379
+is the daddy plans to do something with the cover ? 1.5365
+is the daddy planning to do something with the cover ? 0.4100
+can the daddy gives the cover her ? 0.2823
+can the daddy give the cover her ? 0.0136
+is the book goes ? 0.1138
+is the book going ? 0.0002
+is the watch sees how the the picture works ? 0.2150
+is the watch seeing how the the picture works ? 0.0027
+is the show uses the rest ? 0.3541
+is the show using the rest ? 0.0880
+can the show uses the rest ? 0.7682
+can the show use the rest ? 0.0988
+is the wall turns ? 0.1534
+is the wall turning ? 0.0002
+can the wall uses the wall ? 0.1108
+can the wall use the wall ? 0.0900
+is the vote goes ? 0.0608
+is the vote going ? 0.7774
+is the whale depends on the soil ? 0.5374
+is the whale depending on the soil ? 1.0849
+can the whale works ? 0.0121
+can the whale work ? 0.0458
+is the apple looks ? 0.5584
+is the apple looking ? 0.0030
+can the apple gives the brain the rest ? 0.9103
+can the apple give the brain the rest ? 1.0441
+is the direction sees how the the hand works ? 0.5649
+is the direction seeing how the the hand works ? 0.1259
+can the direction gives the hand the daddy ? 0.7800
+can the direction give the hand the daddy ? 0.6578
+is the store plans to do something with the show ? 1.0125
+is the store planning to do something with the show ? 0.1274
+can the store takes the show away ? 0.3169
+can the store take the show away ? 0.0168
+is the slave races ? 0.0813
+is the slave racing ? 0.1821
+can the slave needs ? 1.4010
+can the slave need ? 1.3492
+is the wheel shows the picture to the direction ? 0.0328
+is the wheel showing the picture to the direction ? 0.3644
+is the poem shows the ear to the temperature ? 0.6016
+is the poem showing the ear to the temperature ? 0.2546
+is the hand shows the brain to the army ? 0.4377
+is the hand showing the brain to the army ? 0.0998
+can the doctor takes the farm away ? 0.1552
+can the doctor take the farm away ? 0.0017
+is the rest plans to do something with the hat ? 1.3374
+is the rest planning to do something with the hat ? 0.6281
+can the rest takes the hat away ? 0.9758
+can the rest take the hat away ? 0.0164
+can the energy takes the soil away ? 1.7479
+can the energy take the soil away ? 2.3378
+is the truck makes the energy something ? 0.3159
+is the truck making the energy something ? 1.3064
+can the truck gives the energy the cover ? 1.7779
+can the truck give the energy the cover ? 1.3868
+is the figure gets the fan ? 2.7472
+is the figure getting the fan ? 2.4952
+can the figure uses the fan ? 2.5927
+can the figure use the fan ? 2.2676
+is the boat sees how the the apple works ? 0.3828
+is the boat seeing how the the apple works ? 0.1534
+can the boat uses the apple ? 0.0802
+can the boat use the apple ? 0.0054
+is the crown goes ? 0.4760
+is the crown going ? 0.3321
+can the crown wants ? 0.1003
+can the crown want ? 0.7206
+is the house sees how the the whale works ? 0.1939
+is the house seeing how the the whale works ? 0.0044
+is the cause races ? 0.3455
+is the cause racing ? 0.9323
+is the wall makes you something ? 0.0004
+is the wall making you something ? 0.0001
+is the rest tells me about the hat ? 0.1822
+is the rest telling me about the hat ? 0.0139
+can the rest orders ? 2.6240
+can the rest order ? 0.2562
+is the fact depends on the whale ? 0.1933
+is the fact depending on the whale ? 0.6537
+is the memory gets the wall ? 0.6621
+is the memory getting the wall ? 0.4372
+is the egg plans to do something with the tube ? 1.2194
+is the egg planning to do something with the tube ? 0.2795
+is the cover writes ? 0.1058
+is the cover writing ? 0.0349
+is the ball plans to do something with the moon ? 1.0641
+is the ball planning to do something with the moon ? 0.5872
+can the ball becomes ? 1.2063
+can the ball become ? 0.0102
+is the table gets the farm ? 0.6124
+is the table getting the farm ? 0.0003
+can the table uses the farm ? 1.1374
+can the table use the farm ? 0.0027
+is the apple makes the ball something ? 0.0020
+is the apple making the ball something ? 0.0006
+can the apple orders ? 0.7913
+can the apple order ? 0.0270
+is the energy depends on the opportunity ? 0.9484
+is the energy depending on the opportunity ? 1.2919
+can the energy takes the opportunity away ? 0.7413
+can the energy take the opportunity away ? 0.9467
+is the kiss tells me about the truck ? 0.0170
+is the kiss telling me about the truck ? 0.0823
+can the soil changes ? 0.6111
+can the soil change ? 0.1964
+can the hat takes you away ? 0.1825
+can the hat take you away ? 0.0045
+is the picture finds the vote ? 0.6827
+is the picture finding the vote ? 0.5669
+can the picture works ? 0.5686
+can the picture work ? 1.4243
+is the sister sees how the the protection works ? 1.5079
+is the sister seeing how the the protection works ? 1.3724
+is the vacuum tells me about the crown ? 0.0179
+is the vacuum telling me about the crown ? 0.0522
+is the fan depends on the daddy ? 0.0721
+is the fan depending on the daddy ? 1.4588
+is the pig sees how the the trouble works ? 0.7668
+is the pig seeing how the the trouble works ? 0.4300
+is the hat takes it away ? 0.0621
+is the hat taking it away ? 0.0288
+is the wheel finds the store ? 1.0165
+is the wheel finding the store ? 0.2491
+can the duke gives the kiss the poem ? 0.0078
+can the duke give the kiss the poem ? 0.0301
+is the duke gets the fan ? 0.0732
+is the duke getting the fan ? 0.0245
+can the memory uses the rest ? 0.1033
+can the memory use the rest ? 0.0173
+is the picture makes the sister something ? 0.0118
+is the picture making the sister something ? 0.0028
+can the picture uses the sister ? 0.0318
+can the picture use the sister ? 1.0029
+can the table takes the energy away ? 0.0747
+can the table take the energy away ? 0.0040
+is the dinosaur finds the sister ? 0.0764
+is the dinosaur finding the sister ? 0.0051
+is the moon takes the store away ? 0.2711
+is the moon taking the store away ? 0.0933
+is the energy takes the direction away ? 1.7812
+is the energy taking the direction away ? 1.4441
+is the sister finds the house ? 2.1706
+is the sister finding the house ? 0.4906
+can the sister uses the house ? 0.0281
+can the sister use the house ? 0.0110
+is the trouble goes ? 0.6525
+is the trouble going ? 0.1124
+is the temperature tells me about the garden ? 0.0792
+is the temperature telling me about the garden ? 0.0649
+can the temperature becomes ? 1.2128
+can the temperature become ? 0.0807
+can the garden uses the serve ? 0.0472
+can the garden use the serve ? 0.0571
+is the show shows the watch to the ear ? 0.0202
+is the show showing the watch to the ear ? 0.0722
+can the show gives the watch the ear ? 0.4075
+can the show give the watch the ear ? 0.1633
+is the sister makes the ear something ? 0.1215
+is the sister making the ear something ? 0.2078
+is the pig takes the hand away ? 0.0187
+is the pig taking the hand away ? 0.0040
+can the pig takes the hand away ? 0.1224
+can the pig take the hand away ? 0.0001
+is the journey turns ? 2.2027
+is the journey turning ? 2.1698
+can the journey gives the moon her ? 1.2525
+can the journey give the moon her ? 2.0581
+is the table uses the hat ? 0.1613
+is the table using the hat ? 0.0303
+can the duke takes the ball away ? 0.0237
+can the duke take the ball away ? 0.0014
+is the journey takes the protection away ? 1.6432
+is the journey taking the protection away ? 1.6997
+is the army tells me about it ? 0.0498
+is the army telling me about it ? 0.0307
+can the army works ? 0.0423
+can the army work ? 0.2391
+is the sister says something ? 0.0490
+is the sister saying something ? 0.2630
+can the sister takes the vacuum away ? 0.0021
+can the sister take the vacuum away ? 0.0030
+can the memory takes the crown away ? 1.1348
+can the memory take the crown away ? 1.3319
+can the hand orders ? 1.8383
+can the hand order ? 0.0606
+is the apple sees how the the temperature works ? 0.4651
+is the apple seeing how the the temperature works ? 0.1786
+can the apple gives the temperature the hand ? 0.0625
+can the apple give the temperature the hand ? 1.0847
+is the brain takes the fact away ? 0.4749
+is the brain taking the fact away ? 0.7173
+can the brain records ? 2.0506
+can the brain record ? 0.1244
+is the crown tells me about the vacuum ? 0.4067
+is the crown telling me about the vacuum ? 0.0564
+can the crown works ? 0.5592
+can the crown work ? 0.0961
+is the spread uses the sister ? 2.0719
+is the spread using the sister ? 0.7524
+can the protection gives the poem the rest ? 1.5525
+can the protection give the poem the rest ? 1.4079
+is the apple races ? 1.4864
+is the apple racing ? 0.0131
+is the show sees how the the serve works ? 0.2005
+is the show seeing how the the serve works ? 0.0195
+can the show becomes ? 0.4729
+can the show become ? 0.0312
+is the army plans to do something with the memory ? 1.5012
+is the army planning to do something with the memory ? 1.6870
+can the army wants ? 0.4993
+can the army want ? 0.0014
+is the kiss uses the show ? 0.3215
+is the kiss using the show ? 0.0298
+can the kiss gives the show the house ? 0.8852
+can the kiss give the show the house ? 0.5741
+is the ball plans to do something with the restaurant ? 0.7137
+is the ball planning to do something with the restaurant ? 0.5674
+can the ball wants ? 0.2196
+can the ball want ? 0.0049
+is the ball depends on the whale ? 0.9755
+is the ball depending on the whale ? 1.0686
+is the fact gets the earth ? 1.4502
+is the fact getting the earth ? 1.1837
+can the fact gives the earth the lady ? 1.1147
+can the fact give the earth the lady ? 0.6089
+can the earth takes her away ? 0.2677
+can the earth take her away ? 0.0034
+is the egg gets the cause ? 0.0156
+is the egg getting the cause ? 0.0200
+can the egg becomes ? 0.2648
+can the egg become ? 0.2044
+can the restaurant gives the ball the daddy ? 0.2588
+can the restaurant give the ball the daddy ? 0.3541
+can the temperature uses the watch ? 0.0025
+can the temperature use the watch ? 1.0310
+is the soil shows the truck to the memory ? 1.1713
+is the soil showing the truck to the memory ? 1.2042
+is the earth makes the direction something ? 0.0092
+is the earth making the direction something ? 0.0298
+can the earth needs ? 0.0167
+can the earth need ? 0.1425
+is the hat uses it ? 0.0120
+is the hat using it ? 0.1968
+is the book takes the ear away ? 0.2944
+is the book taking the ear away ? 0.0010
+can the wall uses the store ? 0.0102
+can the wall use the store ? 0.4584
+is the egg shows the serve to the ball ? 1.5786
+is the egg showing the serve to the ball ? 1.4438
+is the energy looks ? 0.2372
+is the energy looking ? 0.2077
+can the energy records ? 1.5270
+can the energy record ? 0.1589
+is the house takes the memory away ? 0.9183
+is the house taking the memory away ? 0.8678
+can the house uses the memory ? 0.1080
+can the house use the memory ? 0.4348
+can the opportunity gives the serve the cover ? 1.5431
+can the opportunity give the serve the cover ? 1.3110
+is the brain writes ? 0.6365
+is the brain writing ? 0.2043
+is the fan says something ? 0.0295
+is the fan saying something ? 0.0187
+is the fan leaves ? 0.0344
+is the fan leaving ? 0.4046
+is the rest shows the ear to the direction ? 0.7420
+is the rest showing the ear to the direction ? 0.5046
+is the whale finds him ? 0.0535
+is the whale finding him ? 0.0524
+is the memory starts ? 0.2237
+is the memory starting ? 0.0359
+is the poem says something ? 0.2588
+is the poem saying something ? 0.3178
+is the protection says something ? 1.9592
+is the protection saying something ? 1.9281
+can the protection takes the egg away ? 1.9539
+can the protection take the egg away ? 1.7353
+is the trouble depends on the opportunity ? 0.5433
+is the trouble depending on the opportunity ? 0.3085
+is the wall takes the serve away ? 0.3423
+is the wall taking the serve away ? 0.2986
+can the boat uses the ear ? 0.0032
+can the boat use the ear ? 0.0065
+is the fact looks ? 0.7888
+is the fact looking ? 0.0021
+can the fact uses the watch ? 0.0201
+can the fact use the watch ? 0.1060
+is the rest plans to do something with the cause ? 1.5970
+is the rest planning to do something with the cause ? 0.2460
+can the rest uses the cause ? 0.5167
+can the rest use the cause ? 0.0899
+is the pig plans to do something with the energy ? 1.0340
+is the pig planning to do something with the energy ? 0.5898
+is the earth takes the store away ? 0.1972
+is the earth taking the store away ? 0.0114
+is the crown sees how the the spread works ? 1.0606
+is the crown seeing how the the spread works ? 1.5848
+is the whale gets the store ? 0.7640
+is the whale getting the store ? 0.1208
+is the ball depends on the farm ? 1.2485
+is the ball depending on the farm ? 1.8723
+is the figure gets it ? 0.4156
+is the figure getting it ? 0.5840
+can the figure uses it ? 0.8938
+can the figure use it ? 0.1091
+is the slave shows the opportunity to the crown ? 0.4120
+is the slave showing the opportunity to the crown ? 0.6562
+can the slave orders ? 1.2413
+can the slave order ? 0.7580
+is the ear tells me about you ? 0.0072
+is the ear telling me about you ? 0.0155
+can the ear takes you away ? 0.2304
+can the ear take you away ? 0.0010
+is the serve turns ? 0.2822
+is the serve turning ? 0.0410
+can the vote gives the brain her ? 0.9474
+can the vote give the brain her ? 0.4765
+is the earth makes the journey something ? 0.0414
+is the earth making the journey something ? 0.2381
+can the earth uses the journey ? 1.0865
+can the earth use the journey ? 0.2860
+is the spread gets the vote ? 2.2000
+is the spread getting the vote ? 1.8153
+can the spread uses the vote ? 1.4018
+can the spread use the vote ? 1.6998
+is the army plans to do something with the kiss ? 1.5157
+is the army planning to do something with the kiss ? 0.6886
+is the wolf plans to do something with the spread ? 1.5131
+is the wolf planning to do something with the spread ? 0.4488
+can the wolf gives the spread the temperature ? 0.1707
+can the wolf give the spread the temperature ? 0.0695
+is the cause sees how the the fan works ? 0.3428
+is the cause seeing how the the fan works ? 0.4140
+can the cause uses the fan ? 1.5110
+can the cause use the fan ? 1.6570
+is the restaurant makes you something ? 0.0051
+is the restaurant making you something ? 0.0006
+is the hand sees how the the direction works ? 0.6696
+is the hand seeing how the the direction works ? 0.2435
+is the farm takes the vote away ? 0.9171
+is the farm taking the vote away ? 0.8598
+can the apple takes her away ? 0.0748
+can the apple take her away ? 0.0057
+can the dinosaur gives the store the soil ? 1.8951
+can the dinosaur give the store the soil ? 1.3046
+is the table starts ? 0.1624
+is the table starting ? 0.0003
+can the table takes the memory away ? 1.0174
+can the table take the memory away ? 1.2274
+can the protection takes her away ? 1.2533
+can the protection take her away ? 1.2951
+is the fact sees how the the house works ? 0.3486
+is the fact seeing how the the house works ? 0.0092
+is the memory shows the store to the ear ? 1.0385
+is the memory showing the store to the ear ? 1.0027
+can the memory uses the store ? 0.9062
+can the memory use the store ? 0.9756
+is the opportunity sees how the the trouble works ? 1.4597
+is the opportunity seeing how the the trouble works ? 1.0879
+can the opportunity uses the trouble ? 2.0633
+can the opportunity use the trouble ? 1.6842
+is the wall finds the journey ? 0.4826
+is the wall finding the journey ? 0.6555
+is the cover gets the watch ? 0.2678
+is the cover getting the watch ? 0.0001
+can the cover takes the watch away ? 0.0583
+can the cover take the watch away ? 0.0009
+is the journey writes ? 2.8873
+is the journey writing ? 2.5978
+can the journey gives the fact the cover ? 2.1617
+can the journey give the fact the cover ? 1.8877
+is the moon takes the protection away ? 1.3833
+is the moon taking the protection away ? 1.2774
+is the vacuum finds the rest ? 0.0081
+is the vacuum finding the rest ? 0.0980
+is the house sees how the the soil works ? 1.6431
+is the house seeing how the the soil works ? 1.1503
+is the crown leaves ? 0.0479
+is the crown leaving ? 0.0237
+can the journey uses the fact ? 2.4893
+can the journey use the fact ? 2.2326
+is the apple finds her ? 0.6531
+is the apple finding her ? 0.9578
+is the ball plans to do something with her ? 0.8926
+is the ball planning to do something with her ? 0.5017
+is the slave plans to do something with the hat ? 2.5680
+is the slave planning to do something with the hat ? 1.4404
+is the trouble sees how the the egg works ? 0.7503
+is the trouble seeing how the the egg works ? 0.0494
+is the truck starts ? 0.4980
+is the truck starting ? 0.0021
+can the truck takes her away ? 0.0841
+can the truck take her away ? 0.0067
+is the duke leaves ? 0.1028
+is the duke leaving ? 0.0050
+can the duke works ? 0.2091
+can the duke work ? 0.0013
+is the lady gets the wheel ? 0.3998
+is the lady getting the wheel ? 0.0142
+can the lady gives the wheel the restaurant ? 0.1398
+can the lady give the wheel the restaurant ? 0.0129
+is the book looks ? 0.3022
+is the book looking ? 0.0004
+can the book works ? 0.0126
+can the book work ? 0.0006
+is the hat plans to do something with the wall ? 1.3360
+is the hat planning to do something with the wall ? 0.7971
+is the store gets the kiss ? 0.0402
+is the store getting the kiss ? 0.0032
+is the energy finds the fan ? 2.5164
+is the energy finding the fan ? 1.9728
+is the soil sees how the the figure works ? 1.4891
+is the soil seeing how the the figure works ? 1.1072
+can the soil uses the figure ? 1.6171
+can the soil use the figure ? 1.2318
+is the truck takes the daddy away ? 0.1270
+is the truck taking the daddy away ? 0.0075
+can the truck takes the daddy away ? 0.1515
+can the truck take the daddy away ? 0.0503
+can the store uses the energy ? 0.0462
+can the store use the energy ? 0.0110
+is the protection gets the hand ? 1.4998
+is the protection getting the hand ? 2.1394
+is the picture turns ? 0.0361
+is the picture turning ? 0.0003
+is the duke sees how the the lady works ? 0.0371
+is the duke seeing how the the lady works ? 0.1439
+is the rest finds the soil ? 0.2241
+is the rest finding the soil ? 0.4603
+is the truck uses the protection ? 1.5281
+is the truck using the protection ? 1.1215
+can the truck wants ? 0.3439
+can the truck want ? 0.0279
+can the apple becomes ? 1.2486
+can the apple become ? 0.7050
+is the direction lives ? 0.4989
+is the direction living ? 0.9988
+is the brain takes the earth away ? 1.7928
+is the brain taking the earth away ? 1.5554
+is the wall depends on the cover ? 0.9427
+is the wall depending on the cover ? 1.6782
+can the wall takes the cover away ? 0.4677
+can the wall take the cover away ? 0.0310
+is the wheel says something ? 0.0007
+is the wheel saying something ? 0.0002
+can the wheel takes him away ? 0.0399
+can the wheel take him away ? 0.0003
+is the soil depends on the hand ? 0.2042
+is the soil depending on the hand ? 1.1827
+can the soil uses the hand ? 0.1329
+can the soil use the hand ? 0.1809
+is the fact leaves ? 0.1825
+is the fact leaving ? 0.1140
+can the fact gives the whale the journey ? 0.6048
+can the fact give the whale the journey ? 0.8123
+is the moon shows the hand to the serve ? 0.1267
+is the moon showing the hand to the serve ? 0.9505
+is the poem finds the wall ? 1.0159
+is the poem finding the wall ? 1.0773
+can the pig uses the serve ? 0.2822
+can the pig use the serve ? 0.1252
+is the picture depends on the protection ? 1.6520
+is the picture depending on the protection ? 1.9798
+is the hand starts ? 0.4309
+is the hand starting ? 0.0063
+is the slave leaves ? 0.5901
+is the slave leaving ? 0.6345
+is the daddy takes the temperature away ? 0.2606
+is the daddy taking the temperature away ? 0.4079
+is the temperature leaves ? 0.0226
+is the temperature leaving ? 0.8095
+is the memory makes the table something ? 0.3809
+is the memory making the table something ? 0.2321
+can the memory gives the table the picture ? 0.9464
+can the memory give the table the picture ? 1.1922
+is the figure gets the store ? 1.0917
+is the figure getting the store ? 1.5469
+is the duke sees how the the vote works ? 0.4722
+is the duke seeing how the the vote works ? 0.9750
+is the memory shows the cause to the hat ? 1.5958
+is the memory showing the cause to the hat ? 0.2564
+can the memory orders ? 1.7609
+can the memory order ? 0.6018
+can the garden gives the garden the fact ? 0.6068
+can the garden give the garden the fact ? 0.5698
+is the daddy takes the house away ? 0.2589
+is the daddy taking the house away ? 0.0673
+is the picture tells me about the egg ? 0.6654
+is the picture telling me about the egg ? 0.9694
+is the vacuum starts ? 0.1450
+is the vacuum starting ? 0.0024
+can the vacuum orders ? 0.7672
+can the vacuum order ? 0.1082
+is the ear plans to do something with the watch ? 1.1082
+is the ear planning to do something with the watch ? 0.5097
+can the ear works ? 0.6265
+can the ear work ? 0.0077
+is the crown depends on the energy ? 0.7738
+is the crown depending on the energy ? 0.7239
+is the wheel shows the vote to the poem ? 1.3144
+is the wheel showing the vote to the poem ? 1.1393
+can the wheel becomes ? 2.1944
+can the wheel become ? 0.0479
+is the watch depends on the whale ? 0.9252
+is the watch depending on the whale ? 1.5963
+is the army turns ? 0.1034
+is the army turning ? 0.0336
+is the opportunity gets the ear ? 2.1760
+is the opportunity getting the ear ? 1.5097
+can the opportunity uses the ear ? 2.2531
+can the opportunity use the ear ? 2.0165
+is the show uses the cover ? 0.3818
+is the show using the cover ? 0.2371
+can the show records ? 0.5403
+can the show record ? 0.3054
+is the tube makes the poem something ? 0.1894
+is the tube making the poem something ? 0.1206
+is the vacuum makes the vote something ? 0.0589
+is the vacuum making the vote something ? 0.0136
+is the hat writes ? 0.1920
+is the hat writing ? 0.0040
+can the hat gives the book the wall ? 0.6250
+can the hat give the book the wall ? 0.0091
+is the ear shows the truck to the opportunity ? 0.8941
+is the ear showing the truck to the opportunity ? 1.6634
+is the sister plays ? 0.0917
+is the sister playing ? 0.0776
+is the tube shows the house to the spread ? 1.6529
+is the tube showing the house to the spread ? 0.8373
+can the tube records ? 0.2770
+can the tube record ? 0.0481
+is the trouble uses the picture ? 1.6704
+is the trouble using the picture ? 0.2082
+can the trouble uses the picture ? 0.2465
+can the trouble use the picture ? 0.0122
+is the temperature plans to do something with the serve ? 0.9514
+is the temperature planning to do something with the serve ? 0.7168
+can the temperature changes ? 0.3217
+can the temperature change ? 0.0182
+is the watch plans to do something with the soil ? 1.0002
+is the watch planning to do something with the soil ? 0.2523
+is the energy plans to do something with the earth ? 1.9386
+is the energy planning to do something with the earth ? 1.2621
+is the cause gets the table ? 0.5489
+is the cause getting the table ? 0.8208
+can the cause needs ? 0.2093
+can the cause need ? 0.3266
+is the hand leaves ? 0.0421
+is the hand leaving ? 0.0702
+can the hand changes ? 0.7053
+can the hand change ? 0.1334
+is the truck shows the figure to the egg ? 1.1046
+is the truck showing the figure to the egg ? 1.3615
+can the truck uses the figure ? 1.7888
+can the truck use the figure ? 2.0562
+is the restaurant tells me about the rest ? 0.4770
+is the restaurant telling me about the rest ? 0.6408
+can the restaurant gives the rest the hat ? 0.1599
+can the restaurant give the rest the hat ? 0.0047
+can the house uses the apple ? 0.0062
+can the house use the apple ? 0.0107
+is the whale takes the soil away ? 0.3496
+is the whale taking the soil away ? 0.0287
+is the spread finds him ? 0.9374
+is the spread finding him ? 0.8326
+is the cause plans to do something with it ? 1.4127
+is the cause planning to do something with it ? 0.2409
+can the cause takes it away ? 0.7289
+can the cause take it away ? 0.6705
+is the rest depends on the store ? 1.3541
+is the rest depending on the store ? 1.4221
+is the watch sees how the the tube works ? 0.3610
+is the watch seeing how the the tube works ? 0.0179
+is the watch shows the kiss to the earth ? 0.4079
+is the watch showing the kiss to the earth ? 0.7484
+can the watch gives the kiss the earth ? 0.2885
+can the watch give the kiss the earth ? 0.0120
+can the crown gives the fan the apple ? 0.4708
+can the crown give the fan the apple ? 0.0393
+can the brain gives the fan the energy ? 0.4896
+can the brain give the fan the energy ? 0.6236
+is the opportunity says something ? 1.5267
+is the opportunity saying something ? 1.6140
+can the garden uses the wall ? 0.0743
+can the garden use the wall ? 0.0134
+is the kiss plays ? 0.1804
+is the kiss playing ? 0.0086
+is the daddy takes the sister away ? 0.0887
+is the daddy taking the sister away ? 0.0021
+is the memory makes the wall something ? 0.6155
+is the memory making the wall something ? 0.3523
+is the lady plays ? 0.0091
+is the lady playing ? 0.0016
+is the daddy uses the restaurant ? 0.5640
+is the daddy using the restaurant ? 0.1753
+can the daddy gives the restaurant the fact ? 0.3776
+can the daddy give the restaurant the fact ? 0.3173
+is the energy depends on the wheel ? 1.1786
+is the energy depending on the wheel ? 1.9425
+is the serve takes the temperature away ? 0.1373
+is the serve taking the temperature away ? 0.1409
+can the serve orders ? 1.1105
+can the serve order ? 0.0090
+is the ball sees how the the fan works ? 0.2277
+is the ball seeing how the the fan works ? 0.0115
+is the serve sees how the the soil works ? 1.4612
+is the serve seeing how the the soil works ? 1.1982
+can the serve takes the soil away ? 0.1787
+can the serve take the soil away ? 0.1970
+is the doctor looks ? 0.1159
+is the doctor looking ? 0.0026
+is the figure sees how the the egg works ? 0.4562
+is the figure seeing how the the egg works ? 0.2000
+can the daddy becomes ? 0.2459
+can the daddy become ? 0.0463
+is the pig uses the restaurant ? 0.3971
+is the pig using the restaurant ? 0.5109
+is the farm plans to do something with the memory ? 0.8079
+is the farm planning to do something with the memory ? 1.0796
+is the soil gets the soil ? 0.3303
+is the soil getting the soil ? 0.2496
+can the soil gives the soil the tube ? 1.0318
+can the soil give the soil the tube ? 0.9798
+is the kiss races ? 0.8931
+is the kiss racing ? 0.0170
+is the soil sees how the the ball works ? 1.4308
+is the soil seeing how the the ball works ? 0.8265
+is the garden lives ? 0.2068
+is the garden living ? 0.0012
+is the truck makes the daddy something ? 0.1408
+is the truck making the daddy something ? 0.0088
+can the truck uses the daddy ? 0.0051
+can the truck use the daddy ? 0.0002
+is the wolf plays ? 0.0141
+is the wolf playing ? 0.0003
+is the garden looks ? 0.3647
+is the garden looking ? 0.0023
+is the wheel depends on the cover ? 1.2363
+is the wheel depending on the cover ? 1.7808
+is the kiss shows the table to the truck ? 1.1001
+is the kiss showing the table to the truck ? 0.6610
+can the kiss uses the table ? 0.0400
+can the kiss use the table ? 0.3917
+is the garden makes the garden something ? 0.6196
+is the garden making the garden something ? 0.0645
+can the garden uses the garden ? 0.0161
+can the garden use the garden ? 0.0170
+is the poem makes the hat something ? 1.1805
+is the poem making the hat something ? 1.0446
+is the spread leaves ? 0.0566
+is the spread leaving ? 0.0236
+can the spread works ? 0.5813
+can the spread work ? 0.0844
+is the picture depends on the vote ? 0.6727
+is the picture depending on the vote ? 1.1397
+can the picture uses the vote ? 0.7741
+can the picture use the vote ? 0.1671
+is the sister sees how the the moon works ? 0.4943
+is the sister seeing how the the moon works ? 0.0596
+is the daddy gets the fan ? 0.1871
+is the daddy getting the fan ? 0.0199
+is the boat makes the temperature something ? 0.8030
+is the boat making the temperature something ? 0.7674
+is the tube takes the watch away ? 0.0117
+is the tube taking the watch away ? 0.0016
+can the hand wants ? 0.2010
+can the hand want ? 0.2543
+can the duke takes the book away ? 0.1251
+can the duke take the book away ? 0.0028
+can the book takes the moon away ? 0.3716
+can the book take the moon away ? 0.0728
+is the wheel turns ? 0.0091
+is the wheel turning ? 0.0003
+can the wheel needs ? 0.0190
+can the wheel need ? 0.0081
+is the pig leaves ? 0.1747
+is the pig leaving ? 0.0039
+is the trouble sees how the him works ? 0.2131
+is the trouble seeing how the him works ? 0.1446
+is the lady says something ? 0.0039
+is the lady saying something ? 0.0007
+can the lady gives the ear the wall ? 0.1870
+can the lady give the ear the wall ? 0.3517
+is the lady finds the brain ? 0.0582
+is the lady finding the brain ? 0.4099
+can the lady uses the brain ? 0.0018
+can the lady use the brain ? 0.0051
+is the wall sees how the the protection works ? 1.5960
+is the wall seeing how the the protection works ? 1.4933
+is the spread tells me about the whale ? 0.8069
+is the spread telling me about the whale ? 0.5992
+is the poem gets the egg ? 0.2139
+is the poem getting the egg ? 0.1127
+is the journey depends on the cover ? 1.1827
+is the journey depending on the cover ? 2.4618
+can the journey takes the cover away ? 2.0455
+can the journey take the cover away ? 1.7489
+is the house sees how the the apple works ? 0.3166
+is the house seeing how the the apple works ? 0.0006
+is the earth tells me about the kiss ? 0.0041
+is the earth telling me about the kiss ? 0.0099
+can the book takes the garden away ? 0.3933
+can the book take the garden away ? 0.1871
+can the serve gives the brain the moon ? 1.8301
+can the serve give the brain the moon ? 1.7237
+is the wheel takes the opportunity away ? 1.6083
+is the wheel taking the opportunity away ? 1.2392
+can the wheel gives the opportunity the crown ? 0.9551
+can the wheel give the opportunity the crown ? 0.9634
+is the moon plans to do something with the wheel ? 1.2618
+is the moon planning to do something with the wheel ? 1.0224
+can the moon takes the wheel away ? 0.2988
+can the moon take the wheel away ? 0.0285
+is the direction sees how the the spread works ? 1.3791
+is the direction seeing how the the spread works ? 0.8835
+is the egg looks ? 0.9469
+is the egg looking ? 0.0779
+is the hand depends on you ? 0.6417
+is the hand depending on you ? 1.5889
+can the garden uses the show ? 0.0026
+can the garden use the show ? 0.0014
+is the moon finds the lady ? 0.0288
+is the moon finding the lady ? 0.0870
+is the army plans to do something with the whale ? 1.0289
+is the army planning to do something with the whale ? 0.6668
+is the whale sees how the the ball works ? 0.0483
+is the whale seeing how the the ball works ? 0.0055
+can the table orders ? 2.2749
+can the table order ? 0.3362
+is the protection depends on the vacuum ? 0.7786
+is the protection depending on the vacuum ? 2.1221
+is the garden finds the vote ? 0.5131
+is the garden finding the vote ? 0.5424
+is the dinosaur makes the whale something ? 0.0611
+is the dinosaur making the whale something ? 0.0820
+is the restaurant shows the picture to the apple ? 0.3744
+is the restaurant showing the picture to the apple ? 0.0576
+can the restaurant uses the picture ? 0.0745
+can the restaurant use the picture ? 0.3487
+is the egg finds the moon ? 0.1654
+is the egg finding the moon ? 0.2741
+is the fan gets the crown ? 0.3529
+is the fan getting the crown ? 0.0327
+can the fan uses the crown ? 0.0215
+can the fan use the crown ? 0.0176
+is the doctor plans to do something with him ? 0.9531
+is the doctor planning to do something with him ? 0.1511
+is the vote takes the store away ? 1.0976
+is the vote taking the store away ? 1.0313
+can the vote gives the store the rest ? 1.9446
+can the vote give the store the rest ? 1.6874
+is the wall looks ? 0.1989
+is the wall looking ? 0.0062
+is the store uses the house ? 1.8245
+is the store using the house ? 0.3250
+is the tube looks ? 0.3946
+is the tube looking ? 0.0028
+can the tube needs ? 1.3331
+can the tube need ? 0.2912
+can the watch takes the opportunity away ? 1.5131
+can the watch take the opportunity away ? 1.3243
+is the memory uses her ? 0.4863
+is the memory using her ? 0.5476
+can the memory takes her away ? 0.7353
+can the memory take her away ? 0.8323
+can the dinosaur uses the poem ? 0.3243
+can the dinosaur use the poem ? 0.3599
+is the ball looks ? 0.7309
+is the ball looking ? 0.0002
+can the ball gives the wall the egg ? 1.5053
+can the ball give the wall the egg ? 0.0024
+is the earth finds the temperature ? 0.2787
+is the earth finding the temperature ? 0.5939
+is the egg makes the energy something ? 0.1227
+is the egg making the energy something ? 0.5194
+is the tube uses the trouble ? 0.5912
+is the tube using the trouble ? 0.4002
+is the cover sees how the the egg works ? 0.3886
+is the cover seeing how the the egg works ? 0.1187
+can the cover gives the egg the temperature ? 0.2243
+can the cover give the egg the temperature ? 0.0198
+can the wall uses the apple ? 0.0004
+can the wall use the apple ? 0.0040
+can the journey gives the soil the protection ? 1.9846
+can the journey give the soil the protection ? 1.7401
+is the apple writes ? 0.3088
+is the apple writing ? 0.0228
+can the apple uses the brain ? 0.0304
+can the apple use the brain ? 0.0027
+is the army depends on her ? 1.0778
+is the army depending on her ? 1.8179
+can the army orders ? 1.0749
+can the army order ? 0.0203
+is the rest gets the spread ? 0.0331
+is the rest getting the spread ? 0.0078
+is the house lives ? 0.0868
+is the house living ? 0.1241
+can the house uses him ? 0.9188
+can the house use him ? 0.0022
+is the whale looks ? 0.3552
+is the whale looking ? 0.0800
+can the table gives the picture the egg ? 0.6780
+can the table give the picture the egg ? 0.0047
+is the duke depends on the picture ? 0.9549
+is the duke depending on the picture ? 1.0924
+is the protection looks ? 1.5804
+is the protection looking ? 1.6138
+can the protection becomes ? 2.9455
+can the protection become ? 1.4468
+is the whale depends on the army ? 0.8170
+is the whale depending on the army ? 1.3722
+is the crown writes ? 0.9243
+is the crown writing ? 0.2296
+can the crown gives the vote the show ? 1.2940
+can the crown give the vote the show ? 0.5613
+can the rest becomes ? 0.6935
+can the rest become ? 0.0110
+is the spread takes the whale away ? 0.8473
+is the spread taking the whale away ? 0.3461
+can the spread gives the whale the restaurant ? 0.1810
+can the spread give the whale the restaurant ? 1.6468
+is the tube depends on him ? 0.9237
+is the tube depending on him ? 1.6513
+is the direction shows the fan to him ? 1.4836
+is the direction showing the fan to him ? 0.9674
+can the direction needs ? 0.9646
+can the direction need ? 0.0542
+is the garden makes the daddy something ? 0.0136
+is the garden making the daddy something ? 0.0100
+can the garden uses the daddy ? 0.0114
+can the garden use the daddy ? 0.0019
+is the daddy makes the restaurant something ? 0.1535
+is the daddy making the restaurant something ? 0.1941
+can the daddy changes ? 0.2472
+can the daddy change ? 0.0480
+can the fact changes ? 1.0840
+can the fact change ? 0.4942
+is the fan takes the watch away ? 0.0611
+is the fan taking the watch away ? 0.0190
+can the fan uses the watch ? 0.0013
+can the fan use the watch ? 0.0021
+is the energy plans to do something with the apple ? 1.2433
+is the energy planning to do something with the apple ? 0.9818
+can the table gives the earth the garden ? 0.5214
+can the table give the earth the garden ? 0.0161
+is the apple goes ? 0.0121
+is the apple going ? 0.0017
+is the house takes the whale away ? 0.4588
+is the house taking the whale away ? 0.1526
+is the kiss says something ? 0.0128
+is the kiss saying something ? 0.0106
+is the fan tells me about the apple ? 0.1298
+is the fan telling me about the apple ? 0.0154
+can the fan uses the apple ? 0.0010
+can the fan use the apple ? 0.0020
+is the spread gets the poem ? 0.2205
+is the spread getting the poem ? 0.6387
+is the vacuum plays ? 0.2155
+is the vacuum playing ? 0.4138
+can the vacuum becomes ? 0.5546
+can the vacuum become ? 0.0886
+is the poem tells me about the serve ? 0.0815
+is the poem telling me about the serve ? 0.0381
+can the poem uses the serve ? 0.4984
+can the poem use the serve ? 0.1317
+is the duke depends on the hand ? 1.0165
+is the duke depending on the hand ? 1.6030
+is the poem starts ? 0.8239
+is the poem starting ? 0.0512
+can the poem gives the daddy the truck ? 1.4092
+can the poem give the daddy the truck ? 1.2202
+is the egg uses the wall ? 0.3879
+is the egg using the wall ? 0.3019
+can the vote gives the cause the brain ? 1.0658
+can the vote give the cause the brain ? 0.3895
+is the direction uses the show ? 0.9639
+is the direction using the show ? 1.0464
+is the watch writes ? 0.0534
+is the watch writing ? 0.0215
+is the journey tells me about the show ? 1.3229
+is the journey telling me about the show ? 1.2489
+is the egg writes ? 0.2155
+is the egg writing ? 0.0026
+is the figure depends on the picture ? 1.3304
+is the figure depending on the picture ? 1.5027
+can the figure gives the picture the cause ? 1.1407
+can the figure give the picture the cause ? 1.1502
+is the moon depends on the truck ? 1.2473
+is the moon depending on the truck ? 1.5456
+is the vacuum plans to do something with the truck ? 0.9197
+is the vacuum planning to do something with the truck ? 0.1734
+can the vacuum works ? 0.0108
+can the vacuum work ? 0.0026
+is the earth shows the wall to the cause ? 1.7116
+is the earth showing the wall to the cause ? 1.0443
+can the earth takes the wall away ? 0.3995
+can the earth take the wall away ? 0.0440
+is the wheel leaves ? 0.3987
+is the wheel leaving ? 0.1677
+is the pig uses the hat ? 0.0184
+is the pig using the hat ? 0.1050
+can the vacuum gives the cause the table ? 0.4638
+can the vacuum give the cause the table ? 0.3207
+can the brain uses the spread ? 0.0787
+can the brain use the spread ? 0.1398
+is the sister depends on the spread ? 0.6551
+is the sister depending on the spread ? 1.2822
+is the cause depends on the restaurant ? 1.4540
+is the cause depending on the restaurant ? 1.4853
+is the sister tells me about the daddy ? 0.0169
+is the sister telling me about the daddy ? 0.0351
+is the cause plans to do something with the hat ? 1.2683
+is the cause planning to do something with the hat ? 0.7050
+is the opportunity finds the direction ? 1.6727
+is the opportunity finding the direction ? 2.4520
+is the cause makes the brain something ? 0.2647
+is the cause making the brain something ? 0.2231
+is the ball makes the vote something ? 0.0144
+is the ball making the vote something ? 0.0140
+can the ball uses the vote ? 0.1335
+can the ball use the vote ? 0.0184
+is the protection plans to do something with the kiss ? 1.7097
+is the protection planning to do something with the kiss ? 2.0539
+can the protection takes the kiss away ? 2.2519
+can the protection take the kiss away ? 1.8318
+is the cover finds you ? 2.1717
+is the cover finding you ? 0.1939
+can the cover uses you ? 0.2418
+can the cover use you ? 0.0090
+is the memory makes the trouble something ? 0.6795
+is the memory making the trouble something ? 0.5233
+can the memory uses the trouble ? 0.5128
+can the memory use the trouble ? 0.2885
+is the soil races ? 0.5026
+is the soil racing ? 0.5183
+can the ball uses the journey ? 2.4378
+can the ball use the journey ? 2.1440
+can the sister needs ? 0.1636
+can the sister need ? 0.0843
+is the hat plans to do something with the vote ? 2.3110
+is the hat planning to do something with the vote ? 1.0409
+can the hat uses the vote ? 0.3188
+can the hat use the vote ? 0.3159
+can the earth gives the direction the direction ? 0.7276
+can the earth give the direction the direction ? 0.7218
+is the garden plans to do something with the daddy ? 0.9184
+is the garden planning to do something with the daddy ? 0.0308
+is the ball races ? 0.0303
+is the ball racing ? 0.0027
+can the ball needs ? 0.1071
+can the ball need ? 0.0087
+is the sister turns ? 0.0017
+is the sister turning ? 0.0601
+can the sister takes him away ? 0.0329
+can the sister take him away ? 0.0007
+is the picture takes the soil away ? 0.1247
+is the picture taking the soil away ? 0.0706
+is the ear tells me about the moon ? 0.0752
+is the ear telling me about the moon ? 0.0277
+is the book plans to do something with the wheel ? 1.3031
+is the book planning to do something with the wheel ? 0.8876
+can the farm uses the watch ? 1.9170
+can the farm use the watch ? 0.0014
+is the egg shows the wall to the poem ? 0.4806
+is the egg showing the wall to the poem ? 0.5963
+can the egg takes the wall away ? 0.0610
+can the egg take the wall away ? 0.0035
+is the trouble takes the daddy away ? 0.1679
+is the trouble taking the daddy away ? 0.0128
+is the memory plans to do something with the hat ? 1.4117
+is the memory planning to do something with the hat ? 0.7168
+is the fan depends on the opportunity ? 1.4851
+is the fan depending on the opportunity ? 1.5347
+is the garden plans to do something with the brain ? 1.0294
+is the garden planning to do something with the brain ? 0.5460
+is the cause plays ? 0.2697
+is the cause playing ? 0.0451
+is the wall tells me about the whale ? 0.2826
+is the wall telling me about the whale ? 1.3035
+is the duke sees how the the farm works ? 0.0764
+is the duke seeing how the the farm works ? 0.1223
+can the duke changes ? 0.1340
+can the duke change ? 0.0043
+is the hand finds the vote ? 0.9476
+is the hand finding the vote ? 0.6942
+can the hand uses the vote ? 0.0612
+can the hand use the vote ? 0.4395
+is the fact lives ? 0.0760
+is the fact living ? 0.0059
+is the wall uses the picture ? 0.1371
+is the wall using the picture ? 0.1911
+is the lady sees how the the serve works ? 0.3263
+is the lady seeing how the the serve works ? 0.0192
+can the temperature gives the direction the temperature ? 0.2225
+can the temperature give the direction the temperature ? 0.1116
+is the fan sees how the the soil works ? 1.4855
+is the fan seeing how the the soil works ? 1.2078
+is the wheel starts ? 0.1483
+is the wheel starting ? 0.0004
+can the wheel takes the hat away ? 0.1013
+can the wheel take the hat away ? 0.0006
+can the soil uses the wall ? 0.2923
+can the soil use the wall ? 0.1991
+is the memory plans to do something with the lady ? 2.1803
+is the memory planning to do something with the lady ? 1.2552
+can the memory uses the lady ? 1.0516
+can the memory use the lady ? 0.4556
+is the slave sees how the the army works ? 1.3840
+is the slave seeing how the the army works ? 0.8378
+can the slave uses the army ? 2.5179
+can the slave use the army ? 1.9947
+is the direction sees how the the house works ? 0.8563
+is the direction seeing how the the house works ? 0.0902
+can the direction gives the house the daddy ? 1.8710
+can the direction give the house the daddy ? 1.9323
+is the garden takes the vacuum away ? 0.0100
+is the garden taking the vacuum away ? 0.0200
+is the sister plans to do something with the watch ? 1.4515
+is the sister planning to do something with the watch ? 0.6412
+is the memory plans to do something with the table ? 1.4166
+is the memory planning to do something with the table ? 0.6740
+is the wheel depends on the energy ? 0.2861
+is the wheel depending on the energy ? 1.3929
+is the table plays ? 0.0323
+is the table playing ? 0.0230
+is the book makes the earth something ? 0.2703
+is the book making the earth something ? 0.0210
+is the hat sees how the the serve works ? 1.8550
+is the hat seeing how the the serve works ? 0.1021
+can the hat gives the serve the wheel ? 1.7224
+can the hat give the serve the wheel ? 1.8671
+is the vacuum tells me about the moon ? 0.0127
+is the vacuum telling me about the moon ? 0.1791
+is the doctor turns ? 0.0176
+is the doctor turning ? 0.0008
+is the doctor sees how the the brain works ? 0.8607
+is the doctor seeing how the the brain works ? 0.2564
+is the brain sees how the you works ? 0.6806
+is the brain seeing how the you works ? 0.6459
+is the moon writes ? 0.7155
+is the moon writing ? 0.0096
+is the hat races ? 0.0452
+is the hat racing ? 0.0120
+can the hat gives the energy the fact ? 0.3904
+can the hat give the energy the fact ? 0.2156
+is the store tells me about the rest ? 0.4174
+is the store telling me about the rest ? 0.2272
+is the wall uses the hand ? 0.0238
+is the wall using the hand ? 0.0315
+can the wall takes the hand away ? 0.2304
+can the wall take the hand away ? 0.0049
+is the duke depends on the memory ? 0.9551
+is the duke depending on the memory ? 1.4947
+can the duke takes the memory away ? 0.2217
+can the duke take the memory away ? 0.5257
+can the energy uses him ? 2.1269
+can the energy use him ? 1.8421
+can the moon gives the serve the store ? 1.9989
+can the moon give the serve the store ? 2.2917
+is the restaurant finds the protection ? 2.4705
+is the restaurant finding the protection ? 1.6177
+is the sister tells me about the fact ? 0.0186
+is the sister telling me about the fact ? 0.0627
+is the store goes ? 0.2510
+is the store going ? 0.0044
+can the store takes the army away ? 0.2432
+can the store take the army away ? 0.0380
+is the table makes the cover something ? 0.0076
+is the table making the cover something ? 0.0032
+is the fan sees how the the store works ? 0.2445
+is the fan seeing how the the store works ? 0.2431
+can the fan uses the store ? 0.1037
+can the fan use the store ? 0.0751
+can the poem works ? 0.1189
+can the poem work ? 0.0085
+can the protection gives the vote the lady ? 1.3604
+can the protection give the vote the lady ? 1.0509
+is the show gets the trouble ? 0.7162
+is the show getting the trouble ? 0.0130
+can the show uses the trouble ? 0.1963
+can the show use the trouble ? 0.0058
+is the dinosaur gets the protection ? 2.1850
+is the dinosaur getting the protection ? 1.8124
+is the army shows the watch to the cause ? 0.3728
+is the army showing the watch to the cause ? 0.2419
+is the figure finds the fact ? 0.3971
+is the figure finding the fact ? 1.3264
+can the figure gives the fact the whale ? 0.6317
+can the figure give the fact the whale ? 0.8516
+can the garden takes the crown away ? 0.0310
+can the garden take the crown away ? 0.0209
+is the apple takes the watch away ? 0.1292
+is the apple taking the watch away ? 0.0009
+is the brain uses the figure ? 0.7139
+is the brain using the figure ? 0.5183
+is the serve writes ? 0.0389
+is the serve writing ? 1.1230
+can the serve gives the cover the rest ? 1.4002
+can the serve give the cover the rest ? 1.5923
+is the egg plays ? 0.1298
+is the egg playing ? 0.0258
+is the vote uses the wheel ? 2.5309
+is the vote using the wheel ? 2.1007
+is the spread writes ? 0.5011
+is the spread writing ? 0.0610
+is the temperature plans to do something with the ball ? 1.0821
+is the temperature planning to do something with the ball ? 1.0197
+is the pig sees how the the table works ? 0.0613
+is the pig seeing how the the table works ? 0.0524
+is the house plans to do something with the poem ? 1.9629
+is the house planning to do something with the poem ? 1.0341
+can the house uses the poem ? 0.0282
+can the house use the poem ? 0.0328
+is the restaurant depends on the watch ? 0.2843
+is the restaurant depending on the watch ? 1.0417
+is the ear plans to do something with the journey ? 1.8476
+is the ear planning to do something with the journey ? 0.7077
+is the journey uses the brain ? 2.7158
+is the journey using the brain ? 2.6404
+is the wall sees how the the soil works ? 1.4169
+is the wall seeing how the the soil works ? 1.0903
+can the wall gives the soil the vote ? 1.4187
+can the wall give the soil the vote ? 0.7358
+is the moon tells me about her ? 0.2907
+is the moon telling me about her ? 0.0064
+is the slave makes the rest something ? 1.7707
+is the slave making the rest something ? 1.5492
+can the slave uses the rest ? 1.9708
+can the slave use the rest ? 1.7607
+is the figure plays ? 0.7698
+is the figure playing ? 0.7970
+is the earth plans to do something with the store ? 0.9770
+is the earth planning to do something with the store ? 0.0691
+is the earth shows the book to the tube ? 0.0404
+is the earth showing the book to the tube ? 0.1590
+is the trouble shows the table to the memory ? 1.6356
+is the trouble showing the table to the memory ? 1.2745
+is the whale goes ? 0.0649
+is the whale going ? 0.3121
+is the apple finds the store ? 1.8882
+is the apple finding the store ? 0.2973
+is the fan gets the journey ? 1.0265
+is the fan getting the journey ? 0.1228
+is the figure plans to do something with the earth ? 1.4248
+is the figure planning to do something with the earth ? 0.9556
+can the figure takes the earth away ? 2.0028
+can the figure take the earth away ? 1.9512
+is the kiss plans to do something with the moon ? 1.1597
+is the kiss planning to do something with the moon ? 0.3562
+is the direction depends on the fact ? 0.4334
+is the direction depending on the fact ? 0.5557
+is the house plans to do something with the memory ? 1.1492
+is the house planning to do something with the memory ? 0.7527
+is the vacuum takes the opportunity away ? 0.2387
+is the vacuum taking the opportunity away ? 0.0989
+can the vacuum uses the opportunity ? 0.5586
+can the vacuum use the opportunity ? 1.1569
+is the ball plans to do something with the opportunity ? 1.9432
+is the ball planning to do something with the opportunity ? 0.9924
+is the hand takes the apple away ? 0.1452
+is the hand taking the apple away ? 0.0001
+can the hand gives the apple the serve ? 0.2967
+can the hand give the apple the serve ? 0.2329
+is the garden plans to do something with the ear ? 0.8933
+is the garden planning to do something with the ear ? 0.5407
+is the wolf finds the vacuum ? 0.0033
+is the wolf finding the vacuum ? 0.0157
+is the whale makes the egg something ? 0.0737
+is the whale making the egg something ? 0.0004
+can the whale uses the egg ? 0.0243
+can the whale use the egg ? 0.0277
+is the energy shows the daddy to the fan ? 1.6647
+is the energy showing the daddy to the fan ? 1.5797
+can the energy gives the daddy the fan ? 2.2103
+can the energy give the daddy the fan ? 2.1304
+is the dinosaur shows the wheel to it ? 0.0407
+is the dinosaur showing the wheel to it ? 0.0109
+can the dinosaur gives the wheel it ? 1.3772
+can the dinosaur give the wheel it ? 0.4240
+is the army takes the cause away ? 0.2928
+is the army taking the cause away ? 0.0276
+is the whale depends on the ear ? 0.4523
+is the whale depending on the ear ? 1.5289
+is the rest takes the earth away ? 0.6087
+is the rest taking the earth away ? 0.0130
+can the rest takes the earth away ? 0.9560
+can the rest take the earth away ? 0.0626
+can the protection takes the cover away ? 1.8967
+can the protection take the cover away ? 1.1184
+is the whale makes the wheel something ? 0.0281
+is the whale making the wheel something ? 0.0039
+is the hand tells me about it ? 0.0444
+is the hand telling me about it ? 0.0259
+is the truck tells me about the trouble ? 0.1327
+is the truck telling me about the trouble ? 0.0075
+is the truck makes the apple something ? 0.1175
+is the truck making the apple something ? 0.0001
+can the journey records ? 2.6597
+can the journey record ? 1.8345
+is the fan depends on the table ? 1.1753
+is the fan depending on the table ? 1.6809
+can the fan gives the table the earth ? 1.2040
+can the fan give the table the earth ? 0.1358
+is the hat shows the whale to the memory ? 1.0859
+is the hat showing the whale to the memory ? 1.3329
+is the restaurant races ? 0.5878
+is the restaurant racing ? 0.0031
+can the restaurant gives you the earth ? 0.1408
+can the restaurant give you the earth ? 0.0265
+is the rest makes it something ? 0.0095
+is the rest making it something ? 0.0021
+can the rest uses it ? 0.1271
+can the rest use it ? 0.0126
+is the farm shows the watch to the opportunity ? 1.3391
+is the farm showing the watch to the opportunity ? 1.3938
+is the trouble uses the store ? 0.8191
+is the trouble using the store ? 0.0154
+is the journey takes the whale away ? 1.6643
+is the journey taking the whale away ? 1.9355
+can the journey gives the whale the journey ? 0.4952
+can the journey give the whale the journey ? 0.6125
+is the egg says something ? 0.3414
+is the egg saying something ? 0.0177
+can the egg takes the army away ? 0.0428
+can the egg take the army away ? 0.0574
+can the watch gives the rest the egg ? 0.2102
+can the watch give the rest the egg ? 0.0224
+is the memory gets the hat ? 1.3652
+is the memory getting the hat ? 0.7212
+is the ear depends on the cover ? 0.5492
+is the ear depending on the cover ? 1.2120
+is the doctor starts ? 0.6687
+is the doctor starting ? 0.0267
+is the pig starts ? 0.3930
+is the pig starting ? 0.0018
+is the fact writes ? 0.5651
+is the fact writing ? 0.8361
+can the fact needs ? 0.0737
+can the fact need ? 0.1121
+is the fact turns ? 0.0636
+is the fact turning ? 0.0141
+can the fact takes the trouble away ? 0.1275
+can the fact take the trouble away ? 0.1178
+is the protection tells me about the whale ? 1.5221
+is the protection telling me about the whale ? 1.5721
+is the spread tells me about the crown ? 0.4162
+is the spread telling me about the crown ? 0.6195
+is the pig makes the poem something ? 0.1183
+is the pig making the poem something ? 0.4257
+can the pig uses the poem ? 0.0957
+can the pig use the poem ? 0.1345
+is the figure takes the lady away ? 2.1481
+is the figure taking the lady away ? 2.4906
+can the figure gives the lady the whale ? 1.0574
+can the figure give the lady the whale ? 1.7024
+is the sister uses the apple ? 0.0506
+is the sister using the apple ? 0.0020
+is the brain goes ? 0.1378
+is the brain going ? 0.0536
+is the temperature plans to do something with the temperature ? 1.2286
+is the temperature planning to do something with the temperature ? 0.4739
+is the ball finds the vacuum ? 0.5051
+is the ball finding the vacuum ? 0.3680
+is the whale finds you ? 0.1336
+is the whale finding you ? 0.0264
+is the kiss leaves ? 0.0303
+is the kiss leaving ? 0.0156
+can the kiss uses the kiss ? 0.0423
+can the kiss use the kiss ? 0.0704
+is the whale plans to do something with the rest ? 1.4633
+is the whale planning to do something with the rest ? 0.7058
+is the army takes the kiss away ? 0.3202
+is the army taking the kiss away ? 0.1770
+can the energy uses the crown ? 2.4816
+can the energy use the crown ? 2.3505
+is the apple shows the egg to her ? 0.0241
+is the apple showing the egg to her ? 0.0932
+can the apple takes the egg away ? 0.3474
+can the apple take the egg away ? 0.0076
+is the sister takes the trouble away ? 0.1597
+is the sister taking the trouble away ? 0.0581
+can the sister uses the trouble ? 0.0271
+can the sister use the trouble ? 0.0110
+is the energy starts ? 0.5047
+is the energy starting ? 0.0312
+can the energy orders ? 0.8799
+can the energy order ? 0.3210
+can the ear needs ? 0.4811
+can the ear need ? 0.0463
+is the restaurant turns ? 0.0333
+is the restaurant turning ? 0.1299
+is the opportunity finds the fan ? 2.0269
+is the opportunity finding the fan ? 1.4693

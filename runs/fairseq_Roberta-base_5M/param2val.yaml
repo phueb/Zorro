@@ -1,0 +1,5 @@
+data_size: 5M
+framework: fairseq
+is_base: true
+model_size: Roberta-base
+corpora: AO-CHILDES

@@ -1,0 +1,4000 @@
+robert taken them this morning . 0.0205
+robert took them this morning . 0.0085
+robert had took them this morning . 0.0261
+robert had taken them this morning . 0.0036
+anne taken some food some time ago . 0.2737
+anne took some food some time ago . 0.0525
+anne had took some food some time ago . 0.0292
+anne had taken some food some time ago . 0.0353
+william known a lot of things last night . 0.1046
+william knew a lot of things last night . 0.0188
+william had knew a lot of things last night . 0.0803
+william had known a lot of things last night . 0.0029
+chris known a lot of things at home . 0.0461
+chris knew a lot of things at home . 0.0097
+chris had knew a lot of things at home . 0.0547
+chris had known a lot of things at home . 0.0027
+anne taken some food over there . 0.1068
+anne took some food over there . 0.0086
+anne had took some food over there . 0.0305
+anne had taken some food over there . 0.0061
+allen become someone else some time ago . 0.0364
+allen became someone else some time ago . 0.0031
+allen had became someone else some time ago . 0.0528
+allen had become someone else some time ago . 0.0030
+joseph chosen the good one some time ago . 0.0117
+joseph chose the good one some time ago . 0.0070
+joseph had chose the good one some time ago . 0.0160
+joseph had chosen the good one some time ago . 0.0250
+robert grown quickly over there . 0.0280
+robert grew quickly over there . 0.0180
+robert had grew quickly over there . 0.0190
+robert had grown quickly over there . 0.0032
+laura drawn a picture some time ago . 0.0475
+laura drew a picture some time ago . 0.0044
+laura had drew a picture some time ago . 0.0066
+laura had drawn a picture some time ago . 0.0028
+william taken a paper at home . 0.0056
+william took a paper at home . 0.0027
+william had took a paper at home . 0.0146
+william had taken a paper at home . 0.0006
+sarah taken some food last night . 0.1459
+sarah took some food last night . 0.0557
+sarah had took some food last night . 0.5344
+sarah had taken some food last night . 0.6139
+sarah grown quickly last night . 0.1544
+sarah grew quickly last night . 0.1007
+sarah had grew quickly last night . 0.7614
+sarah had grown quickly last night . 0.7104
+sarah spoken about many things this morning . 0.8153
+sarah spoke about many things this morning . 0.2178
+sarah had spoke about many things this morning . 0.6765
+sarah had spoken about many things this morning . 0.7449
+joseph given a book to a student at home . 0.0056
+joseph gave a book to a student at home . 0.0060
+joseph had gave a book to a student at home . 0.0208
+joseph had given a book to a student at home . 0.0017
+anne drawn a picture some time ago . 0.3624
+anne drew a picture some time ago . 0.2577
+anne had drew a picture some time ago . 0.0497
+anne had drawn a picture some time ago . 0.1299
+laura seen something over there . 0.3278
+laura saw something over there . 0.2489
+laura had saw something over there . 0.4247
+laura had seen something over there . 0.0411
+allen written with a large pen over there . 0.0064
+allen wrote with a large pen over there . 0.0032
+allen had wrote with a large pen over there . 0.0045
+allen had written with a large pen over there . 0.0049
+allen given money to the man some time ago . 0.0049
+allen gave money to the man some time ago . 0.0032
+allen had gave money to the man some time ago . 0.0203
+allen had given money to the man some time ago . 0.0010
+michael drawn a round circle this morning . 0.0114
+michael drew a round circle this morning . 0.0203
+michael had drew a round circle this morning . 0.0457
+michael had drawn a round circle this morning . 0.0244
+allen taken a paper last night . 0.0089
+allen took a paper last night . 0.0146
+allen had took a paper last night . 0.0126
+allen had taken a paper last night . 0.0027
+chris taken some food this morning . 0.0149
+chris took some food this morning . 0.0082
+chris had took some food this morning . 0.0181
+chris had taken some food this morning . 0.0078
+william given a book to a student at home . 0.0051
+william gave a book to a student at home . 0.0129
+william had gave a book to a student at home . 0.0658
+william had given a book to a student at home . 0.0018
+joseph chosen the good one at home . 0.0051
+joseph chose the good one at home . 0.0017
+joseph had chose the good one at home . 0.0038
+joseph had chosen the good one at home . 0.0052
+laura begun to work this morning . 0.0117
+laura began to work this morning . 0.0052
+laura had began to work this morning . 0.0212
+laura had begun to work this morning . 0.0043
+allen written a note some time ago . 0.0161
+allen wrote a note some time ago . 0.0014
+allen had wrote a note some time ago . 0.0037
+allen had written a note some time ago . 0.0037
+robert taken them at home . 0.0052
+robert took them at home . 0.0017
+robert had took them at home . 0.0091
+robert had taken them at home . 0.0005
+michael written with a large pen at home . 0.0163
+michael wrote with a large pen at home . 0.0258
+michael had wrote with a large pen at home . 0.0109
+michael had written with a large pen at home . 0.0189
+allen spoken without thinking this morning . 0.0621
+allen spoke without thinking this morning . 0.0025
+allen had spoke without thinking this morning . 0.0094
+allen had spoken without thinking this morning . 0.0027
+laura chosen the good one over there . 0.0128
+laura chose the good one over there . 0.0103
+laura had chose the good one over there . 0.0060
+laura had chosen the good one over there . 0.0062
+sarah chosen the best option at home . 0.0554
+sarah chose the best option at home . 0.0153
+sarah had chose the best option at home . 0.0530
+sarah had chosen the best option at home . 0.0644
+chris chosen the best option some time ago . 0.0045
+chris chose the best option some time ago . 0.0021
+chris had chose the best option some time ago . 0.0046
+chris had chosen the best option some time ago . 0.0030
+william become angry this morning . 0.0196
+william became angry this morning . 0.0260
+william had became angry this morning . 0.0984
+william had become angry this morning . 0.0117
+chris spoken to me last night . 0.0279
+chris spoke to me last night . 0.0075
+chris had spoke to me last night . 0.0179
+chris had spoken to me last night . 0.0038
+chris come just in time last night . 0.0093
+chris came just in time last night . 0.0177
+chris had came just in time last night . 0.1362
+chris had come just in time last night . 0.0035
+chris begun to work some time ago . 0.0134
+chris began to work some time ago . 0.0011
+chris had began to work some time ago . 0.0191
+chris had begun to work some time ago . 0.0016
+sam seen a bird last night . 0.0298
+sam saw a bird last night . 0.0188
+sam had saw a bird last night . 0.0588
+sam had seen a bird last night . 0.0394
+michael chosen the best option some time ago . 0.0072
+michael chose the best option some time ago . 0.0080
+michael had chose the best option some time ago . 0.0163
+michael had chosen the best option some time ago . 0.0108
+chris drawn a map at home . 0.0023
+chris drew a map at home . 0.0013
+chris had drew a map at home . 0.0010
+chris had drawn a map at home . 0.0007
+michael taken it over there . 0.1826
+michael took it over there . 0.1260
+michael had took it over there . 0.1081
+michael had taken it over there . 0.2130
+michael seen something over there . 0.0672
+michael saw something over there . 0.0188
+michael had saw something over there . 0.1150
+michael had seen something over there . 0.0640
+chris chosen the good one last night . 0.0095
+chris chose the good one last night . 0.0115
+chris had chose the good one last night . 0.0063
+chris had chosen the good one last night . 0.0063
+sarah seen something some time ago . 0.1348
+sarah saw something some time ago . 0.2546
+sarah had saw something some time ago . 0.4549
+sarah had seen something some time ago . 0.3077
+sam drawn a round circle at home . 0.0100
+sam drew a round circle at home . 0.0026
+sam had drew a round circle at home . 0.0210
+sam had drawn a round circle at home . 0.0512
+joseph seen a shape over there . 0.0091
+joseph saw a shape over there . 0.0055
+joseph had saw a shape over there . 0.0116
+joseph had seen a shape over there . 0.0089
+chris drawn a picture last night . 0.0009
+chris drew a picture last night . 0.0012
+chris had drew a picture last night . 0.0029
+chris had drawn a picture last night . 0.0013
+robert come when we needed her at home . 0.0224
+robert came when we needed her at home . 0.0017
+robert had came when we needed her at home . 0.0160
+robert had come when we needed her at home . 0.0010
+laura chosen the good one last night . 0.0131
+laura chose the good one last night . 0.0063
+laura had chose the good one last night . 0.0056
+laura had chosen the good one last night . 0.0069
+sarah taken a paper last night . 0.0364
+sarah took a paper last night . 0.0330
+sarah had took a paper last night . 0.3959
+sarah had taken a paper last night . 0.4162
+allen begun to work last night . 0.0093
+allen began to work last night . 0.0055
+allen had began to work last night . 0.0731
+allen had begun to work last night . 0.0039
+allen come just in time this morning . 0.0079
+allen came just in time this morning . 0.0125
+allen had came just in time this morning . 0.0998
+allen had come just in time this morning . 0.0016
+sam written into a book over there . 0.0960
+sam wrote into a book over there . 0.0167
+sam had wrote into a book over there . 0.0787
+sam had written into a book over there . 0.0870
+michael drawn a map this morning . 0.0237
+michael drew a map this morning . 0.1172
+michael had drew a map this morning . 0.1414
+michael had drawn a map this morning . 0.0406
+allen become someone else over there . 0.0313
+allen became someone else over there . 0.0157
+allen had became someone else over there . 0.0863
+allen had become someone else over there . 0.0026
+william seen a bird at home . 0.0263
+william saw a bird at home . 0.0014
+william had saw a bird at home . 0.0340
+william had seen a bird at home . 0.0025
+laura chosen the best option this morning . 0.0275
+laura chose the best option this morning . 0.0116
+laura had chose the best option this morning . 0.0080
+laura had chosen the best option this morning . 0.0071
+anne become someone else over there . 0.0532
+anne became someone else over there . 0.0171
+anne had became someone else over there . 0.1356
+anne had become someone else over there . 0.0060
+sam given a book to a student some time ago . 0.0161
+sam gave a book to a student some time ago . 0.0121
+sam had gave a book to a student some time ago . 0.0454
+sam had given a book to a student some time ago . 0.0266
+allen drawn a map some time ago . 0.0038
+allen drew a map some time ago . 0.0020
+allen had drew a map some time ago . 0.0086
+allen had drawn a map some time ago . 0.0063
+anne drawn a picture this morning . 0.2989
+anne drew a picture this morning . 0.0255
+anne had drew a picture this morning . 0.0178
+anne had drawn a picture this morning . 0.0329
+allen drawn a map at home . 0.0011
+allen drew a map at home . 0.0019
+allen had drew a map at home . 0.0010
+allen had drawn a map at home . 0.0004
+william chosen the good one last night . 0.0221
+william chose the good one last night . 0.0161
+william had chose the good one last night . 0.0098
+william had chosen the good one last night . 0.0124
+robert known a lot of things this morning . 0.1339
+robert knew a lot of things this morning . 0.0316
+robert had knew a lot of things this morning . 0.0589
+robert had known a lot of things this morning . 0.0212
+joseph chosen the good one over there . 0.0074
+joseph chose the good one over there . 0.0037
+joseph had chose the good one over there . 0.0064
+joseph had chosen the good one over there . 0.0096
+michael seen a bird last night . 0.3491
+michael saw a bird last night . 0.0094
+michael had saw a bird last night . 0.2348
+michael had seen a bird last night . 0.3333
+robert taken some food at home . 0.0030
+robert took some food at home . 0.0028
+robert had took some food at home . 0.0141
+robert had taken some food at home . 0.0012
+sam begun to work last night . 0.0299
+sam began to work last night . 0.0342
+sam had began to work last night . 0.0376
+sam had begun to work last night . 0.0294
+allen given a book to a student at home . 0.0018
+allen gave a book to a student at home . 0.0032
+allen had gave a book to a student at home . 0.0291
+allen had given a book to a student at home . 0.0013
+michael drawn a map some time ago . 0.0105
+michael drew a map some time ago . 0.0879
+michael had drew a map some time ago . 0.0690
+michael had drawn a map some time ago . 0.0217
+laura come to the store this morning . 0.0094
+laura came to the store this morning . 0.0124
+laura had came to the store this morning . 0.0179
+laura had come to the store this morning . 0.0048
+sarah spoken to me over there . 0.8169
+sarah spoke to me over there . 0.1196
+sarah had spoke to me over there . 1.0828
+sarah had spoken to me over there . 1.0056
+sarah seen something over there . 0.1807
+sarah saw something over there . 0.1509
+sarah had saw something over there . 0.8604
+sarah had seen something over there . 0.7401
+william seen a shape at home . 0.0578
+william saw a shape at home . 0.0027
+william had saw a shape at home . 0.0150
+william had seen a shape at home . 0.0086
+robert taken them last night . 0.0033
+robert took them last night . 0.0026
+robert had took them last night . 0.0343
+robert had taken them last night . 0.0016
+allen written into a book this morning . 0.0124
+allen wrote into a book this morning . 0.0066
+allen had wrote into a book this morning . 0.0146
+allen had written into a book this morning . 0.0096
+anne written with a large pen some time ago . 0.2927
+anne wrote with a large pen some time ago . 0.0220
+anne had wrote with a large pen some time ago . 0.0403
+anne had written with a large pen some time ago . 0.0510
+joseph come just in time at home . 0.0068
+joseph came just in time at home . 0.0022
+joseph had came just in time at home . 0.0498
+joseph had come just in time at home . 0.0009
+william given a book to a student some time ago . 0.0058
+william gave a book to a student some time ago . 0.0099
+william had gave a book to a student some time ago . 0.0214
+william had given a book to a student some time ago . 0.0028
+laura spoken to me some time ago . 0.1329
+laura spoke to me some time ago . 0.0071
+laura had spoke to me some time ago . 0.0210
+laura had spoken to me some time ago . 0.0091
+chris taken it at home . 0.0083
+chris took it at home . 0.0017
+chris had took it at home . 0.0049
+chris had taken it at home . 0.0012
+michael chosen the good one some time ago . 0.0136
+michael chose the good one some time ago . 0.0150
+michael had chose the good one some time ago . 0.0280
+michael had chosen the good one some time ago . 0.0276
+anne chosen the best option some time ago . 0.0576
+anne chose the best option some time ago . 0.0049
+anne had chose the best option some time ago . 0.0132
+anne had chosen the best option some time ago . 0.0143
+laura drawn a round circle some time ago . 0.0260
+laura drew a round circle some time ago . 0.0062
+laura had drew a round circle some time ago . 0.0066
+laura had drawn a round circle some time ago . 0.0043
+laura taken a paper over there . 0.0533
+laura took a paper over there . 0.0090
+laura had took a paper over there . 0.0145
+laura had taken a paper over there . 0.0047
+sarah given money to the man at home . 0.0553
+sarah gave money to the man at home . 0.0325
+sarah had gave money to the man at home . 0.3695
+sarah had given money to the man at home . 0.1644
+allen chosen the good one this morning . 0.0181
+allen chose the good one this morning . 0.0178
+allen had chose the good one this morning . 0.0147
+allen had chosen the good one this morning . 0.0159
+robert given something sweet to the baby last night . 0.0586
+robert gave something sweet to the baby last night . 0.0182
+robert had gave something sweet to the baby last night . 0.0205
+robert had given something sweet to the baby last night . 0.0080
+laura seen something this morning . 0.2891
+laura saw something this morning . 0.0297
+laura had saw something this morning . 0.0750
+laura had seen something this morning . 0.0103
+michael known she could do it last night . 0.2840
+michael knew she could do it last night . 0.1460
+michael had knew she could do it last night . 0.6597
+michael had known she could do it last night . 0.2912
+william drawn a round circle this morning . 0.0145
+william drew a round circle this morning . 0.0177
+william had drew a round circle this morning . 0.0293
+william had drawn a round circle this morning . 0.0118
+sam known she could do it some time ago . 0.7115
+sam knew she could do it some time ago . 0.2589
+sam had knew she could do it some time ago . 0.4003
+sam had known she could do it some time ago . 0.3257
+sarah written into a book last night . 0.0520
+sarah wrote into a book last night . 0.0637
+sarah had wrote into a book last night . 0.2197
+sarah had written into a book last night . 0.1270
+robert come just in time over there . 0.0018
+robert came just in time over there . 0.0049
+robert had came just in time over there . 0.0697
+robert had come just in time over there . 0.0012
+michael given money to the man over there . 0.0235
+michael gave money to the man over there . 0.0080
+michael had gave money to the man over there . 0.0262
+michael had given money to the man over there . 0.0045
+sarah taken them some time ago . 0.3468
+sarah took them some time ago . 0.2451
+sarah had took them some time ago . 0.4845
+sarah had taken them some time ago . 0.5630
+joseph drawn a picture at home . 0.0014
+joseph drew a picture at home . 0.0010
+joseph had drew a picture at home . 0.0030
+joseph had drawn a picture at home . 0.0010
+robert given money to the man this morning . 0.0089
+robert gave money to the man this morning . 0.0219
+robert had gave money to the man this morning . 0.0612
+robert had given money to the man this morning . 0.0051
+sam chosen the best option this morning . 0.0444
+sam chose the best option this morning . 0.0224
+sam had chose the best option this morning . 0.0174
+sam had chosen the best option this morning . 0.0260
+joseph seen a shape this morning . 0.0228
+joseph saw a shape this morning . 0.0104
+joseph had saw a shape this morning . 0.0216
+joseph had seen a shape this morning . 0.0202
+sarah chosen the good one some time ago . 0.0540
+sarah chose the good one some time ago . 0.0290
+sarah had chose the good one some time ago . 0.0877
+sarah had chosen the good one some time ago . 0.1568
+joseph written with a large pen last night . 0.0021
+joseph wrote with a large pen last night . 0.0054
+joseph had wrote with a large pen last night . 0.0384
+joseph had written with a large pen last night . 0.0018
+michael spoken without thinking some time ago . 0.0101
+michael spoke without thinking some time ago . 0.0078
+michael had spoke without thinking some time ago . 0.0197
+michael had spoken without thinking some time ago . 0.0171
+william written with a large pen at home . 0.0025
+william wrote with a large pen at home . 0.0026
+william had wrote with a large pen at home . 0.0251
+william had written with a large pen at home . 0.0028
+sam drawn a round circle some time ago . 0.0079
+sam drew a round circle some time ago . 0.0088
+sam had drew a round circle some time ago . 0.0346
+sam had drawn a round circle some time ago . 0.0724
+chris taken them last night . 0.0143
+chris took them last night . 0.0044
+chris had took them last night . 0.0587
+chris had taken them last night . 0.0032
+chris seen something over there . 0.0391
+chris saw something over there . 0.0030
+chris had saw something over there . 0.0103
+chris had seen something over there . 0.0044
+joseph come too late over there . 0.0086
+joseph came too late over there . 0.0036
+joseph had came too late over there . 0.0148
+joseph had come too late over there . 0.0016
+sarah spoken about many things at home . 0.1936
+sarah spoke about many things at home . 0.0991
+sarah had spoke about many things at home . 0.4516
+sarah had spoken about many things at home . 0.3801
+chris seen a bird some time ago . 0.0351
+chris saw a bird some time ago . 0.0017
+chris had saw a bird some time ago . 0.0066
+chris had seen a bird some time ago . 0.0040
+michael seen a shape over there . 0.1020
+michael saw a shape over there . 0.0766
+michael had saw a shape over there . 0.1116
+michael had seen a shape over there . 0.1137
+chris known a lot of things this morning . 0.0926
+chris knew a lot of things this morning . 0.0368
+chris had knew a lot of things this morning . 0.0807
+chris had known a lot of things this morning . 0.0214
+chris become angry over there . 0.0084
+chris became angry over there . 0.0034
+chris had became angry over there . 0.0615
+chris had become angry over there . 0.0030
+anne written with a large pen over there . 0.1960
+anne wrote with a large pen over there . 0.0098
+anne had wrote with a large pen over there . 0.0193
+anne had written with a large pen over there . 0.0223
+robert taken the bell some time ago . 0.0142
+robert took the bell some time ago . 0.0017
+robert had took the bell some time ago . 0.0060
+robert had taken the bell some time ago . 0.0023
+william become angry over there . 0.0135
+william became angry over there . 0.0119
+william had became angry over there . 0.1762
+william had become angry over there . 0.0013
+laura known a lot of things at home . 0.1540
+laura knew a lot of things at home . 0.0101
+laura had knew a lot of things at home . 0.0742
+laura had known a lot of things at home . 0.0052
+william spoken about many things last night . 0.0366
+william spoke about many things last night . 0.0105
+william had spoke about many things last night . 0.0470
+william had spoken about many things last night . 0.0117
+anne drawn a round circle over there . 0.2098
+anne drew a round circle over there . 0.0805
+anne had drew a round circle over there . 0.0106
+anne had drawn a round circle over there . 0.0330
+chris become very different over there . 0.0094
+chris became very different over there . 0.0035
+chris had became very different over there . 0.1001
+chris had become very different over there . 0.0047
+allen begun to work this morning . 0.0107
+allen began to work this morning . 0.0057
+allen had began to work this morning . 0.0556
+allen had begun to work this morning . 0.0063
+sam seen something some time ago . 0.0884
+sam saw something some time ago . 0.0580
+sam had saw something some time ago . 0.1213
+sam had seen something some time ago . 0.1614
+william begun to work over there . 0.0155
+william began to work over there . 0.0021
+william had began to work over there . 0.0614
+william had begun to work over there . 0.0024
+anne grown quickly last night . 0.0602
+anne grew quickly last night . 0.1691
+anne had grew quickly last night . 0.1920
+anne had grown quickly last night . 0.0319
+chris written a story over there . 0.0435
+chris wrote a story over there . 0.0074
+chris had wrote a story over there . 0.0035
+chris had written a story over there . 0.0022
+anne seen a shape this morning . 0.0830
+anne saw a shape this morning . 0.0322
+anne had saw a shape this morning . 0.0457
+anne had seen a shape this morning . 0.0263
+anne given something sweet to the baby last night . 0.0910
+anne gave something sweet to the baby last night . 0.0315
+anne had gave something sweet to the baby last night . 0.0469
+anne had given something sweet to the baby last night . 0.0347
+robert begun to work over there . 0.0100
+robert began to work over there . 0.0011
+robert had began to work over there . 0.0130
+robert had begun to work over there . 0.0011
+michael become very different over there . 0.3597
+michael became very different over there . 0.0951
+michael had became very different over there . 0.0729
+michael had become very different over there . 0.0386
+anne begun to work over there . 0.1442
+anne began to work over there . 0.0282
+anne had began to work over there . 0.1799
+anne had begun to work over there . 0.0119
+laura drawn a map this morning . 0.0514
+laura drew a map this morning . 0.0100
+laura had drew a map this morning . 0.0101
+laura had drawn a map this morning . 0.0115
+robert begun to work this morning . 0.0037
+robert began to work this morning . 0.0056
+robert had began to work this morning . 0.0205
+robert had begun to work this morning . 0.0036
+allen spoken without thinking over there . 0.0026
+allen spoke without thinking over there . 0.0012
+allen had spoke without thinking over there . 0.0155
+allen had spoken without thinking over there . 0.0012
+michael written a note at home . 0.0327
+michael wrote a note at home . 0.0122
+michael had wrote a note at home . 0.0098
+michael had written a note at home . 0.0287
+anne become angry this morning . 0.0415
+anne became angry this morning . 0.0113
+anne had became angry this morning . 0.0970
+anne had become angry this morning . 0.0207
+sam written with a large pen this morning . 0.1793
+sam wrote with a large pen this morning . 0.0521
+sam had wrote with a large pen this morning . 0.0758
+sam had written with a large pen this morning . 0.0336
+anne given money to the man this morning . 0.1146
+anne gave money to the man this morning . 0.0324
+anne had gave money to the man this morning . 0.1085
+anne had given money to the man this morning . 0.0199
+sarah become very different this morning . 0.2204
+sarah became very different this morning . 0.0954
+sarah had became very different this morning . 0.6304
+sarah had become very different this morning . 0.4435
+william drawn a map at home . 0.0015
+william drew a map at home . 0.0009
+william had drew a map at home . 0.0008
+william had drawn a map at home . 0.0007
+anne begun to work last night . 0.1526
+anne began to work last night . 0.0235
+anne had began to work last night . 0.1133
+anne had begun to work last night . 0.0204
+anne become very different some time ago . 0.1299
+anne became very different some time ago . 0.0723
+anne had became very different some time ago . 0.1390
+anne had become very different some time ago . 0.0916
+sarah chosen the good one at home . 0.0357
+sarah chose the good one at home . 0.0117
+sarah had chose the good one at home . 0.0532
+sarah had chosen the good one at home . 0.0826
+joseph seen a shape some time ago . 0.0122
+joseph saw a shape some time ago . 0.0064
+joseph had saw a shape some time ago . 0.0192
+joseph had seen a shape some time ago . 0.0205
+robert written into a book this morning . 0.0177
+robert wrote into a book this morning . 0.0115
+robert had wrote into a book this morning . 0.0188
+robert had written into a book this morning . 0.0173
+william come when we needed her over there . 0.0455
+william came when we needed her over there . 0.0042
+william had came when we needed her over there . 0.0244
+william had come when we needed her over there . 0.0011
+joseph grown quickly at home . 0.0256
+joseph grew quickly at home . 0.0518
+joseph had grew quickly at home . 0.0500
+joseph had grown quickly at home . 0.0114
+chris come when we needed her over there . 0.0370
+chris came when we needed her over there . 0.0056
+chris had came when we needed her over there . 0.0292
+chris had come when we needed her over there . 0.0021
+sarah seen a shape at home . 0.0610
+sarah saw a shape at home . 0.0244
+sarah had saw a shape at home . 0.4606
+sarah had seen a shape at home . 0.2448
+sam chosen the best option at home . 0.0174
+sam chose the best option at home . 0.0033
+sam had chose the best option at home . 0.0078
+sam had chosen the best option at home . 0.0139
+joseph seen a bird this morning . 0.0146
+joseph saw a bird this morning . 0.0123
+joseph had saw a bird this morning . 0.0371
+joseph had seen a bird this morning . 0.0091
+robert come to the store at home . 0.0025
+robert came to the store at home . 0.0055
+robert had came to the store at home . 0.0157
+robert had come to the store at home . 0.0033
+sam come to the store this morning . 0.1517
+sam came to the store this morning . 0.0355
+sam had came to the store this morning . 0.0518
+sam had come to the store this morning . 0.0487
+sarah come too late over there . 0.3975
+sarah came too late over there . 0.3059
+sarah had came too late over there . 0.8267
+sarah had come too late over there . 0.8215
+laura written a story this morning . 0.1076
+laura wrote a story this morning . 0.0072
+laura had wrote a story this morning . 0.0110
+laura had written a story this morning . 0.0071
+joseph become very different at home . 0.0216
+joseph became very different at home . 0.0025
+joseph had became very different at home . 0.0568
+joseph had become very different at home . 0.0010
+chris come too late last night . 0.0037
+chris came too late last night . 0.0048
+chris had came too late last night . 0.0289
+chris had come too late last night . 0.0021
+laura taken it this morning . 0.1363
+laura took it this morning . 0.0248
+laura had took it this morning . 0.0164
+laura had taken it this morning . 0.0087
+allen come to the store last night . 0.0055
+allen came to the store last night . 0.0052
+allen had came to the store last night . 0.0397
+allen had come to the store last night . 0.0010
+anne taken a paper at home . 0.1825
+anne took a paper at home . 0.0261
+anne had took a paper at home . 0.0295
+anne had taken a paper at home . 0.0143
+anne written with a large pen this morning . 0.3121
+anne wrote with a large pen this morning . 0.0123
+anne had wrote with a large pen this morning . 0.0416
+anne had written with a large pen this morning . 0.0260
+sam seen a shape some time ago . 0.0536
+sam saw a shape some time ago . 0.0147
+sam had saw a shape some time ago . 0.0865
+sam had seen a shape some time ago . 0.0324
+allen known she could do it last night . 0.1999
+allen knew she could do it last night . 0.0031
+allen had knew she could do it last night . 0.1224
+allen had known she could do it last night . 0.0019
+michael written a story over there . 0.0651
+michael wrote a story over there . 0.0212
+michael had wrote a story over there . 0.0251
+michael had written a story over there . 0.0373
+robert given a book to a student some time ago . 0.0053
+robert gave a book to a student some time ago . 0.0109
+robert had gave a book to a student some time ago . 0.0133
+robert had given a book to a student some time ago . 0.0023
+chris taken it this morning . 0.0238
+chris took it this morning . 0.0073
+chris had took it this morning . 0.0170
+chris had taken it this morning . 0.0045
+joseph grown quickly this morning . 0.0532
+joseph grew quickly this morning . 0.0763
+joseph had grew quickly this morning . 0.0488
+joseph had grown quickly this morning . 0.0216
+chris come too late at home . 0.0031
+chris came too late at home . 0.0023
+chris had came too late at home . 0.0081
+chris had come too late at home . 0.0010
+robert drawn a round circle last night . 0.0034
+robert drew a round circle last night . 0.0030
+robert had drew a round circle last night . 0.0067
+robert had drawn a round circle last night . 0.0042
+laura become someone else some time ago . 0.0249
+laura became someone else some time ago . 0.0048
+laura had became someone else some time ago . 0.1262
+laura had become someone else some time ago . 0.0058
+sam drawn a map some time ago . 0.0108
+sam drew a map some time ago . 0.0137
+sam had drew a map some time ago . 0.0548
+sam had drawn a map some time ago . 0.1234
+laura grown quickly last night . 0.0379
+laura grew quickly last night . 0.0727
+laura had grew quickly last night . 0.0730
+laura had grown quickly last night . 0.0110
+laura written a story some time ago . 0.0484
+laura wrote a story some time ago . 0.0025
+laura had wrote a story some time ago . 0.0082
+laura had written a story some time ago . 0.0030
+sarah seen something this morning . 0.2199
+sarah saw something this morning . 0.2193
+sarah had saw something this morning . 0.9221
+sarah had seen something this morning . 0.6940
+allen given something sweet to the baby over there . 0.0830
+allen gave something sweet to the baby over there . 0.0037
+allen had gave something sweet to the baby over there . 0.0166
+allen had given something sweet to the baby over there . 0.0028
+sarah chosen the best option last night . 0.1743
+sarah chose the best option last night . 0.0460
+sarah had chose the best option last night . 0.1969
+sarah had chosen the best option last night . 0.2080
+robert seen a bird at home . 0.0648
+robert saw a bird at home . 0.0036
+robert had saw a bird at home . 0.0231
+robert had seen a bird at home . 0.0013
+william seen something this morning . 0.1255
+william saw something this morning . 0.0120
+william had saw something this morning . 0.0494
+william had seen something this morning . 0.0095
+anne given something sweet to the baby at home . 0.0852
+anne gave something sweet to the baby at home . 0.0235
+anne had gave something sweet to the baby at home . 0.0516
+anne had given something sweet to the baby at home . 0.0280
+laura given a book to a student this morning . 0.0350
+laura gave a book to a student this morning . 0.0172
+laura had gave a book to a student this morning . 0.0270
+laura had given a book to a student this morning . 0.0089
+joseph become very different this morning . 0.0354
+joseph became very different this morning . 0.0105
+joseph had became very different this morning . 0.0604
+joseph had become very different this morning . 0.0054
+william begun to work some time ago . 0.0342
+william began to work some time ago . 0.0014
+william had began to work some time ago . 0.0683
+william had begun to work some time ago . 0.0024
+sam given a book to a student last night . 0.0161
+sam gave a book to a student last night . 0.0140
+sam had gave a book to a student last night . 0.0438
+sam had given a book to a student last night . 0.0405
+robert drawn a round circle some time ago . 0.0036
+robert drew a round circle some time ago . 0.0022
+robert had drew a round circle some time ago . 0.0054
+robert had drawn a round circle some time ago . 0.0048
+allen chosen the good one over there . 0.0175
+allen chose the good one over there . 0.0072
+allen had chose the good one over there . 0.0052
+allen had chosen the good one over there . 0.0054
+anne known a lot of things over there . 0.2105
+anne knew a lot of things over there . 0.0096
+anne had knew a lot of things over there . 0.0733
+anne had known a lot of things over there . 0.0137
+william written a note at home . 0.0250
+william wrote a note at home . 0.0010
+william had wrote a note at home . 0.0138
+william had written a note at home . 0.0012
+william become someone else at home . 0.0170
+william became someone else at home . 0.0021
+william had became someone else at home . 0.0778
+william had become someone else at home . 0.0005
+allen spoken very fast some time ago . 0.0562
+allen spoke very fast some time ago . 0.0172
+allen had spoke very fast some time ago . 0.0256
+allen had spoken very fast some time ago . 0.0120
+robert taken them over there . 0.0125
+robert took them over there . 0.0041
+robert had took them over there . 0.0181
+robert had taken them over there . 0.0023
+sarah grown quickly some time ago . 0.2740
+sarah grew quickly some time ago . 0.1379
+sarah had grew quickly some time ago . 0.4262
+sarah had grown quickly some time ago . 0.3975
+allen written a note at home . 0.0228
+allen wrote a note at home . 0.0016
+allen had wrote a note at home . 0.0018
+allen had written a note at home . 0.0012
+robert seen something over there . 0.0855
+robert saw something over there . 0.0073
+robert had saw something over there . 0.0217
+robert had seen something over there . 0.0108
+sam chosen the best option some time ago . 0.0197
+sam chose the best option some time ago . 0.0311
+sam had chose the best option some time ago . 0.0317
+sam had chosen the best option some time ago . 0.0442
+laura seen something some time ago . 0.1722
+laura saw something some time ago . 0.1317
+laura had saw something some time ago . 0.1821
+laura had seen something some time ago . 0.0181
+robert given something sweet to the baby some time ago . 0.0445
+robert gave something sweet to the baby some time ago . 0.0102
+robert had gave something sweet to the baby some time ago . 0.0145
+robert had given something sweet to the baby some time ago . 0.0043
+sam begun to work at home . 0.0076
+sam began to work at home . 0.0027
+sam had began to work at home . 0.0226
+sam had begun to work at home . 0.0161
+laura given money to the man some time ago . 0.0537
+laura gave money to the man some time ago . 0.0041
+laura had gave money to the man some time ago . 0.0153
+laura had given money to the man some time ago . 0.0028
+sam written a story at home . 0.0150
+sam wrote a story at home . 0.0034
+sam had wrote a story at home . 0.0239
+sam had written a story at home . 0.0097
+sam begun to work some time ago . 0.0247
+sam began to work some time ago . 0.0224
+sam had began to work some time ago . 0.0762
+sam had begun to work some time ago . 0.0864
+sam known she could do it last night . 0.6447
+sam knew she could do it last night . 0.2810
+sam had knew she could do it last night . 0.4541
+sam had known she could do it last night . 0.3831
+laura taken it some time ago . 0.1472
+laura took it some time ago . 0.0144
+laura had took it some time ago . 0.0230
+laura had taken it some time ago . 0.0136
+william chosen the good one over there . 0.0145
+william chose the good one over there . 0.0058
+william had chose the good one over there . 0.0062
+william had chosen the good one over there . 0.0073
+sarah drawn a round circle some time ago . 0.0222
+sarah drew a round circle some time ago . 0.0431
+sarah had drew a round circle some time ago . 0.0711
+sarah had drawn a round circle some time ago . 0.0655
+joseph taken the bell last night . 0.0024
+joseph took the bell last night . 0.0071
+joseph had took the bell last night . 0.0192
+joseph had taken the bell last night . 0.0013
+sarah known a lot of things some time ago . 0.1725
+sarah knew a lot of things some time ago . 0.1423
+sarah had knew a lot of things some time ago . 0.2304
+sarah had known a lot of things some time ago . 0.2977
+joseph become angry this morning . 0.0227
+joseph became angry this morning . 0.0221
+joseph had became angry this morning . 0.0358
+joseph had become angry this morning . 0.0152
+joseph taken a paper some time ago . 0.0117
+joseph took a paper some time ago . 0.0019
+joseph had took a paper some time ago . 0.0074
+joseph had taken a paper some time ago . 0.0023
+chris become very different this morning . 0.0160
+chris became very different this morning . 0.0083
+chris had became very different this morning . 0.0987
+chris had become very different this morning . 0.0066
+robert known a lot of things over there . 0.0883
+robert knew a lot of things over there . 0.0105
+robert had knew a lot of things over there . 0.0315
+robert had known a lot of things over there . 0.0083
+michael become very different this morning . 0.3941
+michael became very different this morning . 0.0974
+michael had became very different this morning . 0.0830
+michael had become very different this morning . 0.2688
+laura drawn a map at home . 0.0820
+laura drew a map at home . 0.0052
+laura had drew a map at home . 0.0031
+laura had drawn a map at home . 0.0012
+robert begun to work at home . 0.0068
+robert began to work at home . 0.0006
+robert had began to work at home . 0.0053
+robert had begun to work at home . 0.0006
+allen written a note this morning . 0.0462
+allen wrote a note this morning . 0.0073
+allen had wrote a note this morning . 0.0085
+allen had written a note this morning . 0.0081
+william known she could do it last night . 0.0583
+william knew she could do it last night . 0.0021
+william had knew she could do it last night . 0.0796
+william had known she could do it last night . 0.0014
+sam begun to work over there . 0.0098
+sam began to work over there . 0.0167
+sam had began to work over there . 0.0447
+sam had begun to work over there . 0.0166
+robert become angry some time ago . 0.0332
+robert became angry some time ago . 0.0067
+robert had became angry some time ago . 0.0347
+robert had become angry some time ago . 0.0026
+william given a book to a student this morning . 0.0234
+william gave a book to a student this morning . 0.0291
+william had gave a book to a student this morning . 0.0740
+william had given a book to a student this morning . 0.0077
+michael given a book to a student at home . 0.0106
+michael gave a book to a student at home . 0.0080
+michael had gave a book to a student at home . 0.0628
+michael had given a book to a student at home . 0.0034
+allen chosen the good one last night . 0.0146
+allen chose the good one last night . 0.0097
+allen had chose the good one last night . 0.0067
+allen had chosen the good one last night . 0.0081
+sarah spoken without thinking over there . 0.4559
+sarah spoke without thinking over there . 0.0566
+sarah had spoke without thinking over there . 0.3240
+sarah had spoken without thinking over there . 0.2537
+laura chosen the good one some time ago . 0.0122
+laura chose the good one some time ago . 0.0060
+laura had chose the good one some time ago . 0.0087
+laura had chosen the good one some time ago . 0.0115
+sarah grown quickly at home . 0.0513
+sarah grew quickly at home . 0.0293
+sarah had grew quickly at home . 0.4239
+sarah had grown quickly at home . 0.4305
+joseph known she could do it last night . 0.2228
+joseph knew she could do it last night . 0.0061
+joseph had knew she could do it last night . 0.0363
+joseph had known she could do it last night . 0.0031
+laura given money to the man last night . 0.0349
+laura gave money to the man last night . 0.0023
+laura had gave money to the man last night . 0.0162
+laura had given money to the man last night . 0.0019
+william begun to work this morning . 0.0077
+william began to work this morning . 0.0120
+william had began to work this morning . 0.0910
+william had begun to work this morning . 0.0243
+sam grown quickly at home . 0.0867
+sam grew quickly at home . 0.0949
+sam had grew quickly at home . 0.0651
+sam had grown quickly at home . 0.0640
+anne given a book to a student at home . 0.3469
+anne gave a book to a student at home . 0.1571
+anne had gave a book to a student at home . 0.1189
+anne had given a book to a student at home . 0.0938
+sam drawn a round circle this morning . 0.0118
+sam drew a round circle this morning . 0.0124
+sam had drew a round circle this morning . 0.0278
+sam had drawn a round circle this morning . 0.0831
+william come just in time at home . 0.0017
+william came just in time at home . 0.0011
+william had came just in time at home . 0.1104
+william had come just in time at home . 0.0005
+joseph written with a large pen over there . 0.0042
+joseph wrote with a large pen over there . 0.0046
+joseph had wrote with a large pen over there . 0.0078
+joseph had written with a large pen over there . 0.0028
+joseph taken it this morning . 0.0107
+joseph took it this morning . 0.0094
+joseph had took it this morning . 0.0154
+joseph had taken it this morning . 0.0051
+william given something sweet to the baby over there . 0.0244
+william gave something sweet to the baby over there . 0.0059
+william had gave something sweet to the baby over there . 0.0258
+william had given something sweet to the baby over there . 0.0024
+william written with a large pen last night . 0.0026
+william wrote with a large pen last night . 0.0024
+william had wrote with a large pen last night . 0.0923
+william had written with a large pen last night . 0.0023
+joseph spoken to me this morning . 0.0452
+joseph spoke to me this morning . 0.0161
+joseph had spoke to me this morning . 0.0256
+joseph had spoken to me this morning . 0.0028
+robert become angry at home . 0.0448
+robert became angry at home . 0.0049
+robert had became angry at home . 0.0806
+robert had become angry at home . 0.0006
+laura chosen the best option over there . 0.0301
+laura chose the best option over there . 0.0635
+laura had chose the best option over there . 0.0038
+laura had chosen the best option over there . 0.0030
+michael grown quickly last night . 0.0491
+michael grew quickly last night . 0.0383
+michael had grew quickly last night . 0.0933
+michael had grown quickly last night . 0.0491
+william given a book to a student last night . 0.0031
+william gave a book to a student last night . 0.0086
+william had gave a book to a student last night . 0.0460
+william had given a book to a student last night . 0.0020
+michael known she could do it over there . 0.2854
+michael knew she could do it over there . 0.1808
+michael had knew she could do it over there . 0.6217
+michael had known she could do it over there . 0.2703
+sam grown quickly over there . 0.1642
+sam grew quickly over there . 0.0442
+sam had grew quickly over there . 0.1058
+sam had grown quickly over there . 0.2265
+laura known she could do it some time ago . 0.6677
+laura knew she could do it some time ago . 0.8167
+laura had knew she could do it some time ago . 0.6601
+laura had known she could do it some time ago . 0.2508
+sam written with a large pen some time ago . 0.1156
+sam wrote with a large pen some time ago . 0.0226
+sam had wrote with a large pen some time ago . 0.0418
+sam had written with a large pen some time ago . 0.0281
+sarah come to the store over there . 0.5154
+sarah came to the store over there . 0.0515
+sarah had came to the store over there . 0.4043
+sarah had come to the store over there . 0.2857
+allen come when we needed her some time ago . 0.0986
+allen came when we needed her some time ago . 0.0044
+allen had came when we needed her some time ago . 0.0432
+allen had come when we needed her some time ago . 0.0015
+joseph written a note last night . 0.0029
+joseph wrote a note last night . 0.0031
+joseph had wrote a note last night . 0.0075
+joseph had written a note last night . 0.0015
+anne drawn a map last night . 0.6689
+anne drew a map last night . 0.2523
+anne had drew a map last night . 0.0992
+anne had drawn a map last night . 0.1037
+robert drawn a round circle over there . 0.0049
+robert drew a round circle over there . 0.0033
+robert had drew a round circle over there . 0.0054
+robert had drawn a round circle over there . 0.0055
+joseph chosen the best option last night . 0.0057
+joseph chose the best option last night . 0.0039
+joseph had chose the best option last night . 0.0024
+joseph had chosen the best option last night . 0.0020
+sarah given something sweet to the baby this morning . 0.6611
+sarah gave something sweet to the baby this morning . 0.0386
+sarah had gave something sweet to the baby this morning . 0.3927
+sarah had given something sweet to the baby this morning . 0.3230
+sam grown quickly this morning . 0.1733
+sam grew quickly this morning . 0.1926
+sam had grew quickly this morning . 0.1570
+sam had grown quickly this morning . 0.1649
+william given something sweet to the baby last night . 0.0093
+william gave something sweet to the baby last night . 0.0087
+william had gave something sweet to the baby last night . 0.0399
+william had given something sweet to the baby last night . 0.0029
+william seen something at home . 0.0277
+william saw something at home . 0.0013
+william had saw something at home . 0.0394
+william had seen something at home . 0.0017
+allen given a book to a student over there . 0.0149
+allen gave a book to a student over there . 0.0071
+allen had gave a book to a student over there . 0.0283
+allen had given a book to a student over there . 0.0048
+robert become angry this morning . 0.0254
+robert became angry this morning . 0.0134
+robert had became angry this morning . 0.0541
+robert had become angry this morning . 0.0057
+sam chosen the best option over there . 0.0434
+sam chose the best option over there . 0.0109
+sam had chose the best option over there . 0.0170
+sam had chosen the best option over there . 0.0242
+laura come too late some time ago . 0.0392
+laura came too late some time ago . 0.0107
+laura had came too late some time ago . 0.0454
+laura had come too late some time ago . 0.0060
+laura begun to work over there . 0.0240
+laura began to work over there . 0.0024
+laura had began to work over there . 0.0184
+laura had begun to work over there . 0.0044
+laura become very different at home . 0.0197
+laura became very different at home . 0.0033
+laura had became very different at home . 0.0343
+laura had become very different at home . 0.0028
+michael known she could do it at home . 0.1428
+michael knew she could do it at home . 0.0509
+michael had knew she could do it at home . 0.3970
+michael had known she could do it at home . 0.0285
+laura become angry at home . 0.0357
+laura became angry at home . 0.0049
+laura had became angry at home . 0.0584
+laura had become angry at home . 0.0026
+sam drawn a round circle last night . 0.0083
+sam drew a round circle last night . 0.0061
+sam had drew a round circle last night . 0.0169
+sam had drawn a round circle last night . 0.0719
+robert drawn a map this morning . 0.0124
+robert drew a map this morning . 0.0169
+robert had drew a map this morning . 0.0173
+robert had drawn a map this morning . 0.0138
+sam written a story last night . 0.0255
+sam wrote a story last night . 0.0061
+sam had wrote a story last night . 0.0263
+sam had written a story last night . 0.0124
+sam spoken to me at home . 0.1120
+sam spoke to me at home . 0.0401
+sam had spoke to me at home . 0.0659
+sam had spoken to me at home . 0.0423
+chris grown quickly last night . 0.0115
+chris grew quickly last night . 0.0372
+chris had grew quickly last night . 0.0808
+chris had grown quickly last night . 0.0043
+joseph drawn a map at home . 0.0012
+joseph drew a map at home . 0.0011
+joseph had drew a map at home . 0.0012
+joseph had drawn a map at home . 0.0009
+sam chosen the good one last night . 0.0180
+sam chose the good one last night . 0.0167
+sam had chose the good one last night . 0.0180
+sam had chosen the good one last night . 0.0361
+sam drawn a map last night . 0.0125
+sam drew a map last night . 0.0113
+sam had drew a map last night . 0.0334
+sam had drawn a map last night . 0.1202
+allen chosen the best option some time ago . 0.0037
+allen chose the best option some time ago . 0.0021
+allen had chose the best option some time ago . 0.0036
+allen had chosen the best option some time ago . 0.0023
+sam spoken to me over there . 0.5369
+sam spoke to me over there . 0.2143
+sam had spoke to me over there . 0.2258
+sam had spoken to me over there . 0.2434
+sarah taken it at home . 0.0584
+sarah took it at home . 0.0367
+sarah had took it at home . 0.5357
+sarah had taken it at home . 0.7032
+robert given money to the man last night . 0.0068
+robert gave money to the man last night . 0.0132
+robert had gave money to the man last night . 0.0314
+robert had given money to the man last night . 0.0015
+anne come to the store over there . 0.0057
+anne came to the store over there . 0.0077
+anne had came to the store over there . 0.0336
+anne had come to the store over there . 0.0043
+laura seen a shape last night . 0.0707
+laura saw a shape last night . 0.0136
+laura had saw a shape last night . 0.0201
+laura had seen a shape last night . 0.0322
+robert given a book to a student at home . 0.0056
+robert gave a book to a student at home . 0.0119
+robert had gave a book to a student at home . 0.0306
+robert had given a book to a student at home . 0.0011
+chris become someone else at home . 0.0176
+chris became someone else at home . 0.0064
+chris had became someone else at home . 0.0601
+chris had become someone else at home . 0.0021
+anne come too late over there . 0.0149
+anne came too late over there . 0.0068
+anne had came too late over there . 0.0533
+anne had come too late over there . 0.0141
+sam seen a bird some time ago . 0.0585
+sam saw a bird some time ago . 0.0252
+sam had saw a bird some time ago . 0.0711
+sam had seen a bird some time ago . 0.0498
+michael seen a bird over there . 0.9851
+michael saw a bird over there . 0.1329
+michael had saw a bird over there . 0.4769
+michael had seen a bird over there . 0.5071
+robert given something sweet to the baby over there . 0.0721
+robert gave something sweet to the baby over there . 0.0091
+robert had gave something sweet to the baby over there . 0.0150
+robert had given something sweet to the baby over there . 0.0038
+robert come to the store over there . 0.0029
+robert came to the store over there . 0.0045
+robert had came to the store over there . 0.0168
+robert had come to the store over there . 0.0011
+chris taken some food last night . 0.0113
+chris took some food last night . 0.0035
+chris had took some food last night . 0.0070
+chris had taken some food last night . 0.0051
+robert written into a book at home . 0.0070
+robert wrote into a book at home . 0.0037
+robert had wrote into a book at home . 0.0250
+robert had written into a book at home . 0.0120
+sam grown quickly some time ago . 0.2273
+sam grew quickly some time ago . 0.1695
+sam had grew quickly some time ago . 0.2250
+sam had grown quickly some time ago . 0.2729
+sarah given money to the man over there . 0.1340
+sarah gave money to the man over there . 0.1441
+sarah had gave money to the man over there . 0.5067
+sarah had given money to the man over there . 0.3272
+sarah begun to work some time ago . 0.1410
+sarah began to work some time ago . 0.1196
+sarah had began to work some time ago . 0.5184
+sarah had begun to work some time ago . 0.4464
+anne taken a paper over there . 0.1528
+anne took a paper over there . 0.0461
+anne had took a paper over there . 0.0369
+anne had taken a paper over there . 0.0053
+chris drawn a round circle at home . 0.0083
+chris drew a round circle at home . 0.0042
+chris had drew a round circle at home . 0.0036
+chris had drawn a round circle at home . 0.0027
+sam become angry this morning . 0.0815
+sam became angry this morning . 0.0098
+sam had became angry this morning . 0.0436
+sam had become angry this morning . 0.0363
+laura begun to work at home . 0.0180
+laura began to work at home . 0.0018
+laura had began to work at home . 0.0064
+laura had begun to work at home . 0.0027
+joseph given money to the man last night . 0.0033
+joseph gave money to the man last night . 0.0024
+joseph had gave money to the man last night . 0.0083
+joseph had given money to the man last night . 0.0014
+joseph seen something at home . 0.0073
+joseph saw something at home . 0.0108
+joseph had saw something at home . 0.0246
+joseph had seen something at home . 0.0024
+joseph given money to the man some time ago . 0.0037
+joseph gave money to the man some time ago . 0.0027
+joseph had gave money to the man some time ago . 0.0115
+joseph had given money to the man some time ago . 0.0021
+william come too late over there . 0.0015
+william came too late over there . 0.0015
+william had came too late over there . 0.0188
+william had come too late over there . 0.0010
+joseph written a story at home . 0.0184
+joseph wrote a story at home . 0.0009
+joseph had wrote a story at home . 0.0045
+joseph had written a story at home . 0.0015
+william become angry some time ago . 0.0179
+william became angry some time ago . 0.0030
+william had became angry some time ago . 0.0659
+william had become angry some time ago . 0.0028
+sarah come just in time at home . 0.0775
+sarah came just in time at home . 0.1211
+sarah had came just in time at home . 0.3159
+sarah had come just in time at home . 0.1339
+laura come too late over there . 0.0232
+laura came too late over there . 0.0048
+laura had came too late over there . 0.0361
+laura had come too late over there . 0.0084
+joseph come too late at home . 0.0056
+joseph came too late at home . 0.0025
+joseph had came too late at home . 0.0104
+joseph had come too late at home . 0.0020
+robert grown quickly some time ago . 0.0559
+robert grew quickly some time ago . 0.0751
+robert had grew quickly some time ago . 0.0631
+robert had grown quickly some time ago . 0.0166
+michael come too late last night . 0.1491
+michael came too late last night . 0.1531
+michael had came too late last night . 0.0605
+michael had come too late last night . 0.1441
+sam drawn a picture last night . 0.0080
+sam drew a picture last night . 0.0037
+sam had drew a picture last night . 0.0124
+sam had drawn a picture last night . 0.0419
+laura seen a bird some time ago . 0.1052
+laura saw a bird some time ago . 0.0125
+laura had saw a bird some time ago . 0.0219
+laura had seen a bird some time ago . 0.0047
+joseph begun to work over there . 0.0292
+joseph began to work over there . 0.0030
+joseph had began to work over there . 0.0443
+joseph had begun to work over there . 0.0024
+allen given something sweet to the baby last night . 0.0427
+allen gave something sweet to the baby last night . 0.0085
+allen had gave something sweet to the baby last night . 0.0187
+allen had given something sweet to the baby last night . 0.0060
+michael chosen the best option last night . 0.0231
+michael chose the best option last night . 0.0318
+michael had chose the best option last night . 0.0219
+michael had chosen the best option last night . 0.0137
+joseph taken some food over there . 0.0069
+joseph took some food over there . 0.0043
+joseph had took some food over there . 0.0094
+joseph had taken some food over there . 0.0018
+sam come too late over there . 0.1653
+sam came too late over there . 0.0808
+sam had came too late over there . 0.2256
+sam had come too late over there . 0.2951
+joseph spoken about many things this morning . 0.0857
+joseph spoke about many things this morning . 0.0182
+joseph had spoke about many things this morning . 0.0286
+joseph had spoken about many things this morning . 0.0130
+sarah begun to work this morning . 0.2643
+sarah began to work this morning . 0.3143
+sarah had began to work this morning . 0.7798
+sarah had begun to work this morning . 0.6905
+michael begun to work this morning . 0.0462
+michael began to work this morning . 0.1469
+michael had began to work this morning . 0.1469
+michael had begun to work this morning . 0.0492
+allen become very different last night . 0.0235
+allen became very different last night . 0.0040
+allen had became very different last night . 0.0587
+allen had become very different last night . 0.0113
+chris grown quickly over there . 0.0098
+chris grew quickly over there . 0.0070
+chris had grew quickly over there . 0.0167
+chris had grown quickly over there . 0.0039
+michael spoken very fast over there . 0.3810
+michael spoke very fast over there . 0.0143
+michael had spoke very fast over there . 0.3928
+michael had spoken very fast over there . 0.5452
+william begun to work last night . 0.0073
+william began to work last night . 0.0069
+william had began to work last night . 0.0814
+william had begun to work last night . 0.0070
+michael taken them over there . 0.2202
+michael took them over there . 0.0502
+michael had took them over there . 0.0367
+michael had taken them over there . 0.0392
+william become very different at home . 0.0084
+william became very different at home . 0.0015
+william had became very different at home . 0.0887
+william had become very different at home . 0.0008
+chris grown quickly this morning . 0.0203
+chris grew quickly this morning . 0.0257
+chris had grew quickly this morning . 0.0396
+chris had grown quickly this morning . 0.0094
+joseph taken some food last night . 0.0066
+joseph took some food last night . 0.0110
+joseph had took some food last night . 0.0178
+joseph had taken some food last night . 0.0026
+william taken them over there . 0.0174
+william took them over there . 0.0098
+william had took them over there . 0.0418
+william had taken them over there . 0.0056
+william seen a shape last night . 0.0538
+william saw a shape last night . 0.0140
+william had saw a shape last night . 0.0381
+william had seen a shape last night . 0.0400
+william drawn a picture over there . 0.0049
+william drew a picture over there . 0.0024
+william had drew a picture over there . 0.0029
+william had drawn a picture over there . 0.0013
+chris written with a large pen last night . 0.0050
+chris wrote with a large pen last night . 0.0051
+chris had wrote with a large pen last night . 0.0256
+chris had written with a large pen last night . 0.0029
+robert come too late this morning . 0.0039
+robert came too late this morning . 0.0118
+robert had came too late this morning . 0.0360
+robert had come too late this morning . 0.0070
+laura spoken without thinking at home . 0.0121
+laura spoke without thinking at home . 0.0028
+laura had spoke without thinking at home . 0.0177
+laura had spoken without thinking at home . 0.0020
+william taken some food some time ago . 0.0755
+william took some food some time ago . 0.0074
+william had took some food some time ago . 0.0094
+william had taken some food some time ago . 0.0055
+sam become someone else at home . 0.2246
+sam became someone else at home . 0.0156
+sam had became someone else at home . 0.0527
+sam had become someone else at home . 0.0145
+anne seen a bird this morning . 0.1974
+anne saw a bird this morning . 0.0139
+anne had saw a bird this morning . 0.0635
+anne had seen a bird this morning . 0.0324
+sarah written with a large pen some time ago . 0.1191
+sarah wrote with a large pen some time ago . 0.1287
+sarah had wrote with a large pen some time ago . 0.1536
+sarah had written with a large pen some time ago . 0.2826
+william seen something some time ago . 0.0131
+william saw something some time ago . 0.0045
+william had saw something some time ago . 0.0315
+william had seen something some time ago . 0.0052
+sarah spoken without thinking this morning . 0.5480
+sarah spoke without thinking this morning . 0.0932
+sarah had spoke without thinking this morning . 0.5254
+sarah had spoken without thinking this morning . 0.3724
+laura drawn a picture this morning . 0.0149
+laura drew a picture this morning . 0.0051
+laura had drew a picture this morning . 0.0077
+laura had drawn a picture this morning . 0.0035
+michael begun to work over there . 0.0468
+michael began to work over there . 0.1128
+michael had began to work over there . 0.1050
+michael had begun to work over there . 0.0371
+michael become someone else some time ago . 0.1991
+michael became someone else some time ago . 0.0294
+michael had became someone else some time ago . 0.0994
+michael had become someone else some time ago . 0.0084
+chris given money to the man some time ago . 0.0238
+chris gave money to the man some time ago . 0.0063
+chris had gave money to the man some time ago . 0.0282
+chris had given money to the man some time ago . 0.0021
+chris become very different some time ago . 0.0073
+chris became very different some time ago . 0.0039
+chris had became very different some time ago . 0.0559
+chris had become very different some time ago . 0.0040
+michael written into a book this morning . 0.0128
+michael wrote into a book this morning . 0.0153
+michael had wrote into a book this morning . 0.0476
+michael had written into a book this morning . 0.0191
+william become very different this morning . 0.0123
+william became very different this morning . 0.0064
+william had became very different this morning . 0.0980
+william had become very different this morning . 0.0055
+chris begun to work this morning . 0.0071
+chris began to work this morning . 0.0036
+chris had began to work this morning . 0.0291
+chris had begun to work this morning . 0.0037
+anne begun to work this morning . 0.1373
+anne began to work this morning . 0.0189
+anne had began to work this morning . 0.1385
+anne had begun to work this morning . 0.0106
+robert seen something this morning . 0.1110
+robert saw something this morning . 0.0099
+robert had saw something this morning . 0.0183
+robert had seen something this morning . 0.0076
+william written a story last night . 0.0192
+william wrote a story last night . 0.0031
+william had wrote a story last night . 0.0201
+william had written a story last night . 0.0025
+william spoken very fast over there . 0.0070
+william spoke very fast over there . 0.0069
+william had spoke very fast over there . 0.0220
+william had spoken very fast over there . 0.0040
+william grown quickly last night . 0.0233
+william grew quickly last night . 0.0951
+william had grew quickly last night . 0.1236
+william had grown quickly last night . 0.0161
+william become very different some time ago . 0.0082
+william became very different some time ago . 0.0029
+william had became very different some time ago . 0.0799
+william had become very different some time ago . 0.0084
+allen spoken to me some time ago . 0.0674
+allen spoke to me some time ago . 0.0049
+allen had spoke to me some time ago . 0.0220
+allen had spoken to me some time ago . 0.0050
+laura known a lot of things some time ago . 0.0986
+laura knew a lot of things some time ago . 0.0181
+laura had knew a lot of things some time ago . 0.0646
+laura had known a lot of things some time ago . 0.0054
+joseph taken the bell at home . 0.0014
+joseph took the bell at home . 0.0033
+joseph had took the bell at home . 0.0161
+joseph had taken the bell at home . 0.0005
+michael taken some food some time ago . 0.1304
+michael took some food some time ago . 0.0119
+michael had took some food some time ago . 0.0186
+michael had taken some food some time ago . 0.0164
+sarah become angry last night . 0.1051
+sarah became angry last night . 0.0535
+sarah had became angry last night . 0.5868
+sarah had become angry last night . 0.3574
+sam chosen the good one at home . 0.0110
+sam chose the good one at home . 0.0044
+sam had chose the good one at home . 0.0135
+sam had chosen the good one at home . 0.0200
+william drawn a picture at home . 0.0023
+william drew a picture at home . 0.0004
+william had drew a picture at home . 0.0036
+william had drawn a picture at home . 0.0006
+michael seen a bird this morning . 0.9414
+michael saw a bird this morning . 0.0680
+michael had saw a bird this morning . 0.4095
+michael had seen a bird this morning . 0.4774
+michael come just in time at home . 0.1184
+michael came just in time at home . 0.1075
+michael had came just in time at home . 0.0626
+michael had come just in time at home . 0.0228
+sarah taken a paper at home . 0.0207
+sarah took a paper at home . 0.0076
+sarah had took a paper at home . 0.2293
+sarah had taken a paper at home . 0.2393
+michael spoken to me over there . 0.0412
+michael spoke to me over there . 0.0652
+michael had spoke to me over there . 0.1013
+michael had spoken to me over there . 0.0926
+robert begun to work last night . 0.0054
+robert began to work last night . 0.0033
+robert had began to work last night . 0.0194
+robert had begun to work last night . 0.0021
+anne seen a bird some time ago . 0.1933
+anne saw a bird some time ago . 0.1409
+anne had saw a bird some time ago . 0.0795
+anne had seen a bird some time ago . 0.0770
+sam chosen the best option last night . 0.0316
+sam chose the best option last night . 0.0246
+sam had chose the best option last night . 0.0208
+sam had chosen the best option last night . 0.0306
+william spoken without thinking over there . 0.0018
+william spoke without thinking over there . 0.0031
+william had spoke without thinking over there . 0.0433
+william had spoken without thinking over there . 0.0016
+allen become angry some time ago . 0.0697
+allen became angry some time ago . 0.0019
+allen had became angry some time ago . 0.0178
+allen had become angry some time ago . 0.0023
+robert become very different last night . 0.0075
+robert became very different last night . 0.0048
+robert had became very different last night . 0.0595
+robert had become very different last night . 0.0033
+joseph begun to work some time ago . 0.0359
+joseph began to work some time ago . 0.0030
+joseph had began to work some time ago . 0.0759
+joseph had begun to work some time ago . 0.0037
+joseph come just in time this morning . 0.0069
+joseph came just in time this morning . 0.0039
+joseph had came just in time this morning . 0.0502
+joseph had come just in time this morning . 0.0019
+william seen something over there . 0.0868
+william saw something over there . 0.0036
+william had saw something over there . 0.0401
+william had seen something over there . 0.0050
+michael seen a shape some time ago . 0.0444
+michael saw a shape some time ago . 0.0093
+michael had saw a shape some time ago . 0.0371
+michael had seen a shape some time ago . 0.0348
+michael chosen the good one at home . 0.0108
+michael chose the good one at home . 0.0144
+michael had chose the good one at home . 0.0129
+michael had chosen the good one at home . 0.0099
+anne known she could do it over there . 0.1820
+anne knew she could do it over there . 0.0056
+anne had knew she could do it over there . 0.1087
+anne had known she could do it over there . 0.0128
+sarah taken the bell at home . 0.0264
+sarah took the bell at home . 0.0188
+sarah had took the bell at home . 0.3176
+sarah had taken the bell at home . 0.4136
+anne spoken about many things some time ago . 0.2536
+anne spoke about many things some time ago . 0.0257
+anne had spoke about many things some time ago . 0.0618
+anne had spoken about many things some time ago . 0.0462
+michael written into a book last night . 0.0114
+michael wrote into a book last night . 0.0289
+michael had wrote into a book last night . 0.0270
+michael had written into a book last night . 0.0097
+chris known a lot of things over there . 0.0515
+chris knew a lot of things over there . 0.0087
+chris had knew a lot of things over there . 0.0589
+chris had known a lot of things over there . 0.0045
+allen drawn a round circle last night . 0.0026
+allen drew a round circle last night . 0.0035
+allen had drew a round circle last night . 0.0044
+allen had drawn a round circle last night . 0.0023
+allen written a story last night . 0.0277
+allen wrote a story last night . 0.0020
+allen had wrote a story last night . 0.0092
+allen had written a story last night . 0.0019
+robert known a lot of things last night . 0.0500
+robert knew a lot of things last night . 0.0088
+robert had knew a lot of things last night . 0.0354
+robert had known a lot of things last night . 0.0026
+sarah seen a bird this morning . 0.4408
+sarah saw a bird this morning . 0.3101
+sarah had saw a bird this morning . 0.7985
+sarah had seen a bird this morning . 0.6361
+joseph written with a large pen at home . 0.0026
+joseph wrote with a large pen at home . 0.0020
+joseph had wrote with a large pen at home . 0.0067
+joseph had written with a large pen at home . 0.0016
+sarah become someone else over there . 0.6328
+sarah became someone else over there . 0.0420
+sarah had became someone else over there . 0.3357
+sarah had become someone else over there . 0.3242
+joseph spoken very fast some time ago . 0.0223
+joseph spoke very fast some time ago . 0.0212
+joseph had spoke very fast some time ago . 0.0431
+joseph had spoken very fast some time ago . 0.0245
+allen drawn a picture last night . 0.0014
+allen drew a picture last night . 0.0011
+allen had drew a picture last night . 0.0019
+allen had drawn a picture last night . 0.0014
+michael come too late some time ago . 0.7692
+michael came too late some time ago . 0.0408
+michael had came too late some time ago . 0.0414
+michael had come too late some time ago . 0.0211
+anne chosen the good one over there . 0.0269
+anne chose the good one over there . 0.0085
+anne had chose the good one over there . 0.0110
+anne had chosen the good one over there . 0.0166
+joseph taken them at home . 0.0039
+joseph took them at home . 0.0030
+joseph had took them at home . 0.0076
+joseph had taken them at home . 0.0007
+sam come just in time some time ago . 0.4762
+sam came just in time some time ago . 0.1598
+sam had came just in time some time ago . 0.1540
+sam had come just in time some time ago . 0.1399
+michael spoken without thinking this morning . 0.0631
+michael spoke without thinking this morning . 0.0511
+michael had spoke without thinking this morning . 0.1155
+michael had spoken without thinking this morning . 0.0555
+laura seen a bird last night . 0.0895
+laura saw a bird last night . 0.0077
+laura had saw a bird last night . 0.0205
+laura had seen a bird last night . 0.0047
+michael grown quickly some time ago . 0.0517
+michael grew quickly some time ago . 0.0361
+michael had grew quickly some time ago . 0.0591
+michael had grown quickly some time ago . 0.0203
+joseph given a book to a student last night . 0.0032
+joseph gave a book to a student last night . 0.0050
+joseph had gave a book to a student last night . 0.0122
+joseph had given a book to a student last night . 0.0013
+william drawn a picture this morning . 0.0067
+william drew a picture this morning . 0.0049
+william had drew a picture this morning . 0.0096
+william had drawn a picture this morning . 0.0081
+chris become someone else over there . 0.0114
+chris became someone else over there . 0.0067
+chris had became someone else over there . 0.1361
+chris had become someone else over there . 0.0039
+allen spoken about many things this morning . 0.1397
+allen spoke about many things this morning . 0.0124
+allen had spoke about many things this morning . 0.0623
+allen had spoken about many things this morning . 0.0137
+allen taken the bell some time ago . 0.0138
+allen took the bell some time ago . 0.0014
+allen had took the bell some time ago . 0.0038
+allen had taken the bell some time ago . 0.0015
+laura begun to work some time ago . 0.0177
+laura began to work some time ago . 0.0016
+laura had began to work some time ago . 0.0266
+laura had begun to work some time ago . 0.0026
+anne grown quickly over there . 0.0334
+anne grew quickly over there . 0.0548
+anne had grew quickly over there . 0.0797
+anne had grown quickly over there . 0.0171
+anne come just in time last night . 0.0511
+anne came just in time last night . 0.0350
+anne had came just in time last night . 0.1081
+anne had come just in time last night . 0.0174
+michael grown quickly at home . 0.1552
+michael grew quickly at home . 0.0315
+michael had grew quickly at home . 0.0304
+michael had grown quickly at home . 0.0353
+sarah given a book to a student some time ago . 0.1113
+sarah gave a book to a student some time ago . 0.0088
+sarah had gave a book to a student some time ago . 0.1238
+sarah had given a book to a student some time ago . 0.0812
+anne spoken about many things over there . 0.1833
+anne spoke about many things over there . 0.0074
+anne had spoke about many things over there . 0.0474
+anne had spoken about many things over there . 0.0047
+anne given money to the man at home . 0.1632
+anne gave money to the man at home . 0.0287
+anne had gave money to the man at home . 0.0954
+anne had given money to the man at home . 0.0191
+michael taken them this morning . 0.1527
+michael took them this morning . 0.0440
+michael had took them this morning . 0.0808
+michael had taken them this morning . 0.0469
+chris given something sweet to the baby over there . 0.0594
+chris gave something sweet to the baby over there . 0.0052
+chris had gave something sweet to the baby over there . 0.0234
+chris had given something sweet to the baby over there . 0.0038
+laura written with a large pen last night . 0.0071
+laura wrote with a large pen last night . 0.0027
+laura had wrote with a large pen last night . 0.0443
+laura had written with a large pen last night . 0.0040
+allen drawn a picture some time ago . 0.0023
+allen drew a picture some time ago . 0.0021
+allen had drew a picture some time ago . 0.0044
+allen had drawn a picture some time ago . 0.0029
+william spoken to me some time ago . 0.0112
+william spoke to me some time ago . 0.0057
+william had spoke to me some time ago . 0.0806
+william had spoken to me some time ago . 0.0328
+michael seen something last night . 0.0729
+michael saw something last night . 0.0734
+michael had saw something last night . 0.0710
+michael had seen something last night . 0.0489
+anne drawn a round circle at home . 0.3268
+anne drew a round circle at home . 0.1511
+anne had drew a round circle at home . 0.0145
+anne had drawn a round circle at home . 0.0414
+joseph seen a bird last night . 0.0040
+joseph saw a bird last night . 0.0035
+joseph had saw a bird last night . 0.0460
+joseph had seen a bird last night . 0.0029
+anne taken them last night . 0.0134
+anne took them last night . 0.0097
+anne had took them last night . 0.2332
+anne had taken them last night . 0.0073
+william grown quickly this morning . 0.0717
+william grew quickly this morning . 0.1435
+william had grew quickly this morning . 0.1401
+william had grown quickly this morning . 0.0374
+chris grown quickly at home . 0.0132
+chris grew quickly at home . 0.0157
+chris had grew quickly at home . 0.0112
+chris had grown quickly at home . 0.0041
+sarah become angry this morning . 0.3213
+sarah became angry this morning . 0.1378
+sarah had became angry this morning . 0.7273
+sarah had become angry this morning . 0.6210
+chris given a book to a student this morning . 0.0149
+chris gave a book to a student this morning . 0.0210
+chris had gave a book to a student this morning . 0.0333
+chris had given a book to a student this morning . 0.0059
+laura seen something last night . 0.0775
+laura saw something last night . 0.0140
+laura had saw something last night . 0.0271
+laura had seen something last night . 0.0046
+joseph seen something last night . 0.0258
+joseph saw something last night . 0.0044
+joseph had saw something last night . 0.0207
+joseph had seen something last night . 0.0043
+michael taken the bell this morning . 0.0279
+michael took the bell this morning . 0.0200
+michael had took the bell this morning . 0.0598
+michael had taken the bell this morning . 0.0469
+william taken a paper last night . 0.0064
+william took a paper last night . 0.0080
+william had took a paper last night . 0.0152
+william had taken a paper last night . 0.0023
+robert chosen the good one some time ago . 0.0141
+robert chose the good one some time ago . 0.0454
+robert had chose the good one some time ago . 0.0133
+robert had chosen the good one some time ago . 0.0181
+laura known she could do it last night . 0.2685
+laura knew she could do it last night . 0.2845
+laura had knew she could do it last night . 0.6135
+laura had known she could do it last night . 0.0176
+allen become very different this morning . 0.0207
+allen became very different this morning . 0.0045
+allen had became very different this morning . 0.0499
+allen had become very different this morning . 0.0048
+laura spoken without thinking some time ago . 0.0728
+laura spoke without thinking some time ago . 0.0052
+laura had spoke without thinking some time ago . 0.0268
+laura had spoken without thinking some time ago . 0.0060
+william given something sweet to the baby this morning . 0.0237
+william gave something sweet to the baby this morning . 0.0116
+william had gave something sweet to the baby this morning . 0.0365
+william had given something sweet to the baby this morning . 0.0050
+sam given something sweet to the baby last night . 0.0173
+sam gave something sweet to the baby last night . 0.0161
+sam had gave something sweet to the baby last night . 0.0431
+sam had given something sweet to the baby last night . 0.0444
+laura given a book to a student at home . 0.0189
+laura gave a book to a student at home . 0.0064
+laura had gave a book to a student at home . 0.0273
+laura had given a book to a student at home . 0.0033
+robert come too late last night . 0.0020
+robert came too late last night . 0.0041
+robert had came too late last night . 0.0279
+robert had come too late last night . 0.0028
+allen written a note last night . 0.0088
+allen wrote a note last night . 0.0022
+allen had wrote a note last night . 0.0073
+allen had written a note last night . 0.0016
+chris taken it some time ago . 0.0344
+chris took it some time ago . 0.0022
+chris had took it some time ago . 0.0040
+chris had taken it some time ago . 0.0014
+robert taken the bell last night . 0.0050
+robert took the bell last night . 0.0062
+robert had took the bell last night . 0.0107
+robert had taken the bell last night . 0.0032
+laura begun to work last night . 0.0159
+laura began to work last night . 0.0037
+laura had began to work last night . 0.0206
+laura had begun to work last night . 0.0026
+allen spoken to me last night . 0.1526
+allen spoke to me last night . 0.0056
+allen had spoke to me last night . 0.0151
+allen had spoken to me last night . 0.0070
+allen become very different at home . 0.0155
+allen became very different at home . 0.0015
+allen had became very different at home . 0.0239
+allen had become very different at home . 0.0011
+sam taken the bell last night . 0.0065
+sam took the bell last night . 0.0308
+sam had took the bell last night . 0.0809
+sam had taken the bell last night . 0.0962
+sam begun to work this morning . 0.0133
+sam began to work this morning . 0.0144
+sam had began to work this morning . 0.0413
+sam had begun to work this morning . 0.0251
+sam written a story some time ago . 0.0630
+sam wrote a story some time ago . 0.0222
+sam had wrote a story some time ago . 0.0655
+sam had written a story some time ago . 0.0516
+allen seen a shape over there . 0.2498
+allen saw a shape over there . 0.0082
+allen had saw a shape over there . 0.0208
+allen had seen a shape over there . 0.0157
+anne seen something over there . 0.0592
+anne saw something over there . 0.0086
+anne had saw something over there . 0.0410
+anne had seen something over there . 0.0160
+sam come just in time at home . 0.1221
+sam came just in time at home . 0.0421
+sam had came just in time at home . 0.0593
+sam had come just in time at home . 0.0597
+william seen a shape this morning . 0.0814
+william saw a shape this morning . 0.0112
+william had saw a shape this morning . 0.0312
+william had seen a shape this morning . 0.0161
+william become someone else last night . 0.0184
+william became someone else last night . 0.0298
+william had became someone else last night . 0.0541
+william had become someone else last night . 0.0026
+allen drawn a map this morning . 0.0059
+allen drew a map this morning . 0.0142
+allen had drew a map this morning . 0.0150
+allen had drawn a map this morning . 0.0119
+laura come when we needed her at home . 0.2154
+laura came when we needed her at home . 0.0147
+laura had came when we needed her at home . 0.0344
+laura had come when we needed her at home . 0.0152
+william grown quickly at home . 0.0719
+william grew quickly at home . 0.1228
+william had grew quickly at home . 0.1024
+william had grown quickly at home . 0.0317
+sam come too late this morning . 0.2133
+sam came too late this morning . 0.0553
+sam had came too late this morning . 0.1796
+sam had come too late this morning . 0.2291
+robert grown quickly last night . 0.0277
+robert grew quickly last night . 0.0406
+robert had grew quickly last night . 0.0757
+robert had grown quickly last night . 0.0085
+michael chosen the good one last night . 0.0299
+michael chose the good one last night . 0.0409
+michael had chose the good one last night . 0.0250
+michael had chosen the good one last night . 0.0188
+joseph drawn a round circle some time ago . 0.0053
+joseph drew a round circle some time ago . 0.0029
+joseph had drew a round circle some time ago . 0.0043
+joseph had drawn a round circle some time ago . 0.0038
+chris written with a large pen this morning . 0.0072
+chris wrote with a large pen this morning . 0.0044
+chris had wrote with a large pen this morning . 0.0214
+chris had written with a large pen this morning . 0.0046
+michael taken the bell at home . 0.0131
+michael took the bell at home . 0.0076
+michael had took the bell at home . 0.0369
+michael had taken the bell at home . 0.0166
+anne chosen the best option at home . 0.0494
+anne chose the best option at home . 0.0053
+anne had chose the best option at home . 0.0037
+anne had chosen the best option at home . 0.0059
+robert chosen the best option over there . 0.0165
+robert chose the best option over there . 0.0030
+robert had chose the best option over there . 0.0031
+robert had chosen the best option over there . 0.0027
+anne spoken very fast some time ago . 0.4552
+anne spoke very fast some time ago . 0.1363
+anne had spoke very fast some time ago . 0.0904
+anne had spoken very fast some time ago . 0.1074
+allen known she could do it this morning . 0.2710
+allen knew she could do it this morning . 0.0090
+allen had knew she could do it this morning . 0.1551
+allen had known she could do it this morning . 0.0048
+anne taken some food this morning . 0.1158
+anne took some food this morning . 0.0278
+anne had took some food this morning . 0.0278
+anne had taken some food this morning . 0.0181
+michael drawn a picture over there . 0.2525
+michael drew a picture over there . 0.0565
+michael had drew a picture over there . 0.4245
+michael had drawn a picture over there . 0.4901
+anne come too late at home . 0.0352
+anne came too late at home . 0.0150
+anne had came too late at home . 0.0542
+anne had come too late at home . 0.0402
+joseph come to the store last night . 0.0049
+joseph came to the store last night . 0.0044
+joseph had came to the store last night . 0.0123
+joseph had come to the store last night . 0.0013
+joseph taken it last night . 0.0067
+joseph took it last night . 0.0108
+joseph had took it last night . 0.0546
+joseph had taken it last night . 0.0035
+laura chosen the good one at home . 0.0196
+laura chose the good one at home . 0.0054
+laura had chose the good one at home . 0.0043
+laura had chosen the good one at home . 0.0048
+chris written a story this morning . 0.0882
+chris wrote a story this morning . 0.0045
+chris had wrote a story this morning . 0.0060
+chris had written a story this morning . 0.0060
+chris known she could do it over there . 0.1146
+chris knew she could do it over there . 0.0036
+chris had knew she could do it over there . 0.0530
+chris had known she could do it over there . 0.0019
+robert taken a paper this morning . 0.0163
+robert took a paper this morning . 0.0127
+robert had took a paper this morning . 0.0141
+robert had taken a paper this morning . 0.0053
+sam come when we needed her last night . 1.0057
+sam came when we needed her last night . 0.3470
+sam had came when we needed her last night . 0.3650
+sam had come when we needed her last night . 0.4932
+sam become someone else over there . 0.6406
+sam became someone else over there . 0.1149
+sam had became someone else over there . 0.1533
+sam had become someone else over there . 0.1372
+william spoken without thinking at home . 0.0017
+william spoke without thinking at home . 0.0032
+william had spoke without thinking at home . 0.0293
+william had spoken without thinking at home . 0.0017
+joseph spoken very fast at home . 0.0150
+joseph spoke very fast at home . 0.0014
+joseph had spoke very fast at home . 0.0032
+joseph had spoken very fast at home . 0.0024
+michael spoken about many things this morning . 0.5258
+michael spoke about many things this morning . 0.0394
+michael had spoke about many things this morning . 0.1059
+michael had spoken about many things this morning . 0.0601
+sarah written a story over there . 0.2960
+sarah wrote a story over there . 0.2101
+sarah had wrote a story over there . 0.6684
+sarah had written a story over there . 0.5316
+robert chosen the good one over there . 0.0136
+robert chose the good one over there . 0.0075
+robert had chose the good one over there . 0.0114
+robert had chosen the good one over there . 0.0063
+allen chosen the best option this morning . 0.0101
+allen chose the best option this morning . 0.0075
+allen had chose the best option this morning . 0.0110
+allen had chosen the best option this morning . 0.0057
+joseph come too late some time ago . 0.0164
+joseph came too late some time ago . 0.0089
+joseph had came too late some time ago . 0.0371
+joseph had come too late some time ago . 0.0056
+laura grown quickly over there . 0.0324
+laura grew quickly over there . 0.0225
+laura had grew quickly over there . 0.0163
+laura had grown quickly over there . 0.0039
+chris seen a bird over there . 0.0445
+chris saw a bird over there . 0.0146
+chris had saw a bird over there . 0.0199
+chris had seen a bird over there . 0.0128
+chris grown quickly some time ago . 0.0318
+chris grew quickly some time ago . 0.0361
+chris had grew quickly some time ago . 0.0562
+chris had grown quickly some time ago . 0.0088
+robert written a note last night . 0.0119
+robert wrote a note last night . 0.0015
+robert had wrote a note last night . 0.0062
+robert had written a note last night . 0.0012
+sam written a note over there . 0.0700
+sam wrote a note over there . 0.0841
+sam had wrote a note over there . 0.1244
+sam had written a note over there . 0.0632
+william written with a large pen some time ago . 0.0056
+william wrote with a large pen some time ago . 0.0040
+william had wrote with a large pen some time ago . 0.0490
+william had written with a large pen some time ago . 0.0048
+allen known she could do it at home . 0.3254
+allen knew she could do it at home . 0.0029
+allen had knew she could do it at home . 0.0609
+allen had known she could do it at home . 0.0010
+michael taken the bell last night . 0.0123
+michael took the bell last night . 0.0064
+michael had took the bell last night . 0.0226
+michael had taken the bell last night . 0.0167
+michael seen something at home . 0.0254
+michael saw something at home . 0.0399
+michael had saw something at home . 0.0833
+michael had seen something at home . 0.0249
+michael given something sweet to the baby at home . 0.0150
+michael gave something sweet to the baby at home . 0.0067
+michael had gave something sweet to the baby at home . 0.0295
+michael had given something sweet to the baby at home . 0.0042
+laura taken them this morning . 0.0736
+laura took them this morning . 0.0074
+laura had took them this morning . 0.0192
+laura had taken them this morning . 0.0053
+sam written into a book some time ago . 0.1325
+sam wrote into a book some time ago . 0.0276
+sam had wrote into a book some time ago . 0.0351
+sam had written into a book some time ago . 0.0544
+michael come just in time over there . 0.3083
+michael came just in time over there . 0.1452
+michael had came just in time over there . 0.0895
+michael had come just in time over there . 0.0467
+sarah spoken to me this morning . 0.7532
+sarah spoke to me this morning . 0.2430
+sarah had spoke to me this morning . 0.7135
+sarah had spoken to me this morning . 0.7814
+laura grown quickly at home . 0.0501
+laura grew quickly at home . 0.0231
+laura had grew quickly at home . 0.0194
+laura had grown quickly at home . 0.0117
+sam become very different at home . 0.3649
+sam became very different at home . 0.0188
+sam had became very different at home . 0.0926
+sam had become very different at home . 0.0521
+anne known a lot of things some time ago . 0.1633
+anne knew a lot of things some time ago . 0.0285
+anne had knew a lot of things some time ago . 0.0644
+anne had known a lot of things some time ago . 0.0286
+william taken the bell this morning . 0.0097
+william took the bell this morning . 0.0158
+william had took the bell this morning . 0.0537
+william had taken the bell this morning . 0.0185
+michael come to the store over there . 1.1026
+michael came to the store over there . 0.0612
+michael had came to the store over there . 0.0911
+michael had come to the store over there . 0.0406
+joseph written a story some time ago . 0.0173
+joseph wrote a story some time ago . 0.0027
+joseph had wrote a story some time ago . 0.0071
+joseph had written a story some time ago . 0.0036
+sam seen a shape this morning . 0.1366
+sam saw a shape this morning . 0.0307
+sam had saw a shape this morning . 0.0717
+sam had seen a shape this morning . 0.0252
+sam drawn a picture over there . 0.0788
+sam drew a picture over there . 0.0106
+sam had drew a picture over there . 0.0420
+sam had drawn a picture over there . 0.1245
+allen seen a shape this morning . 0.3562
+allen saw a shape this morning . 0.0179
+allen had saw a shape this morning . 0.0286
+allen had seen a shape this morning . 0.0242
+allen begun to work some time ago . 0.0449
+allen began to work some time ago . 0.0023
+allen had began to work some time ago . 0.0617
+allen had begun to work some time ago . 0.0022
+chris begun to work at home . 0.0226
+chris began to work at home . 0.0009
+chris had began to work at home . 0.0056
+chris had begun to work at home . 0.0011
+sarah come too late some time ago . 0.6142
+sarah came too late some time ago . 0.2830
+sarah had came too late some time ago . 0.5982
+sarah had come too late some time ago . 0.4479
+sam become very different some time ago . 0.4341
+sam became very different some time ago . 0.0389
+sam had became very different some time ago . 0.1294
+sam had become very different some time ago . 0.1646
+michael drawn a map over there . 0.0118
+michael drew a map over there . 0.1433
+michael had drew a map over there . 0.1989
+michael had drawn a map over there . 0.0766
+sam given money to the man at home . 0.0109
+sam gave money to the man at home . 0.0118
+sam had gave money to the man at home . 0.0810
+sam had given money to the man at home . 0.0162
+anne become angry some time ago . 0.0815
+anne became angry some time ago . 0.0341
+anne had became angry some time ago . 0.1530
+anne had become angry some time ago . 0.1912
+allen come to the store this morning . 0.0117
+allen came to the store this morning . 0.0142
+allen had came to the store this morning . 0.0226
+allen had come to the store this morning . 0.0035
+laura come just in time last night . 0.0115
+laura came just in time last night . 0.0104
+laura had came just in time last night . 0.0962
+laura had come just in time last night . 0.0034
+michael known a lot of things this morning . 0.1411
+michael knew a lot of things this morning . 0.0469
+michael had knew a lot of things this morning . 0.0536
+michael had known a lot of things this morning . 0.0390
+allen spoken very fast this morning . 0.0574
+allen spoke very fast this morning . 0.0050
+allen had spoke very fast this morning . 0.0193
+allen had spoken very fast this morning . 0.0071
+joseph drawn a round circle this morning . 0.0210
+joseph drew a round circle this morning . 0.0338
+joseph had drew a round circle this morning . 0.0164
+joseph had drawn a round circle this morning . 0.0107
+michael spoken to me last night . 0.0581
+michael spoke to me last night . 0.0242
+michael had spoke to me last night . 0.0663
+michael had spoken to me last night . 0.0643
+laura written a note this morning . 0.0453
+laura wrote a note this morning . 0.0130
+laura had wrote a note this morning . 0.0106
+laura had written a note this morning . 0.0102
+sarah come just in time over there . 0.2244
+sarah came just in time over there . 0.2988
+sarah had came just in time over there . 0.5732
+sarah had come just in time over there . 0.4077
+william known she could do it at home . 0.1193
+william knew she could do it at home . 0.0011
+william had knew she could do it at home . 0.0324
+william had known she could do it at home . 0.0007
+allen given money to the man at home . 0.0023
+allen gave money to the man at home . 0.0080
+allen had gave money to the man at home . 0.0498
+allen had given money to the man at home . 0.0014
+allen seen a shape some time ago . 0.1070
+allen saw a shape some time ago . 0.0033
+allen had saw a shape some time ago . 0.0159
+allen had seen a shape some time ago . 0.0133
+allen chosen the good one at home . 0.0075
+allen chose the good one at home . 0.0025
+allen had chose the good one at home . 0.0029
+allen had chosen the good one at home . 0.0039
+allen drawn a picture over there . 0.0035
+allen drew a picture over there . 0.0038
+allen had drew a picture over there . 0.0015
+allen had drawn a picture over there . 0.0011
+allen taken it this morning . 0.0630
+allen took it this morning . 0.0074
+allen had took it this morning . 0.0203
+allen had taken it this morning . 0.0057
+william taken some food at home . 0.0047
+william took some food at home . 0.0025
+william had took some food at home . 0.0110
+william had taken some food at home . 0.0014
+anne taken the bell over there . 0.0127
+anne took the bell over there . 0.0030
+anne had took the bell over there . 0.0237
+anne had taken the bell over there . 0.0026
+sam given money to the man over there . 0.0784
+sam gave money to the man over there . 0.0105
+sam had gave money to the man over there . 0.0851
+sam had given money to the man over there . 0.0419
+allen seen something last night . 0.0794
+allen saw something last night . 0.0073
+allen had saw something last night . 0.0180
+allen had seen something last night . 0.0107
+william taken it over there . 0.0124
+william took it over there . 0.0048
+william had took it over there . 0.0098
+william had taken it over there . 0.0013
+robert chosen the best option last night . 0.0098
+robert chose the best option last night . 0.0023
+robert had chose the best option last night . 0.0017
+robert had chosen the best option last night . 0.0024
+robert spoken to me some time ago . 0.0795
+robert spoke to me some time ago . 0.0049
+robert had spoke to me some time ago . 0.0213
+robert had spoken to me some time ago . 0.0153
+chris written with a large pen some time ago . 0.0098
+chris wrote with a large pen some time ago . 0.0062
+chris had wrote with a large pen some time ago . 0.0134
+chris had written with a large pen some time ago . 0.0041
+michael begun to work some time ago . 0.0441
+michael began to work some time ago . 0.0165
+michael had began to work some time ago . 0.0561
+michael had begun to work some time ago . 0.0088
+michael begun to work last night . 0.0373
+michael began to work last night . 0.0362
+michael had began to work last night . 0.0885
+michael had begun to work last night . 0.0253
+chris seen a shape at home . 0.1381
+chris saw a shape at home . 0.0065
+chris had saw a shape at home . 0.0089
+chris had seen a shape at home . 0.0114
+michael come just in time last night . 0.0799
+michael came just in time last night . 0.0809
+michael had came just in time last night . 0.0740
+michael had come just in time last night . 0.0218
+laura written with a large pen over there . 0.0102
+laura wrote with a large pen over there . 0.0028
+laura had wrote with a large pen over there . 0.0169
+laura had written with a large pen over there . 0.0058
+sam taken some food at home . 0.0111
+sam took some food at home . 0.0116
+sam had took some food at home . 0.0418
+sam had taken some food at home . 0.0285
+sarah known a lot of things over there . 0.2551
+sarah knew a lot of things over there . 0.1989
+sarah had knew a lot of things over there . 0.2893
+sarah had known a lot of things over there . 0.5721
+allen seen a bird last night . 0.0573
+allen saw a bird last night . 0.0033
+allen had saw a bird last night . 0.0256
+allen had seen a bird last night . 0.0035
+sarah drawn a picture last night . 0.0105
+sarah drew a picture last night . 0.0489
+sarah had drew a picture last night . 0.5410
+sarah had drawn a picture last night . 0.3401
+laura seen a shape at home . 0.0926
+laura saw a shape at home . 0.0079
+laura had saw a shape at home . 0.0142
+laura had seen a shape at home . 0.0124
+chris chosen the best option at home . 0.0128
+chris chose the best option at home . 0.0009
+chris had chose the best option at home . 0.0010
+chris had chosen the best option at home . 0.0013
+sam seen a bird at home . 0.0178
+sam saw a bird at home . 0.0074
+sam had saw a bird at home . 0.0243
+sam had seen a bird at home . 0.0146
+william chosen the best option at home . 0.0085
+william chose the best option at home . 0.0008
+william had chose the best option at home . 0.0013
+william had chosen the best option at home . 0.0021
+anne written a story over there . 0.1059
+anne wrote a story over there . 0.0232
+anne had wrote a story over there . 0.0443
+anne had written a story over there . 0.0099
+joseph spoken very fast last night . 0.0172
+joseph spoke very fast last night . 0.0037
+joseph had spoke very fast last night . 0.0365
+joseph had spoken very fast last night . 0.0022
+sam drawn a map this morning . 0.0237
+sam drew a map this morning . 0.0269
+sam had drew a map this morning . 0.0523
+sam had drawn a map this morning . 0.1546
+sarah known a lot of things at home . 0.2328
+sarah knew a lot of things at home . 0.0734
+sarah had knew a lot of things at home . 0.3609
+sarah had known a lot of things at home . 0.3868
+william come to the store this morning . 0.0081
+william came to the store this morning . 0.0118
+william had came to the store this morning . 0.0180
+william had come to the store this morning . 0.0041
+michael written into a book some time ago . 0.0112
+michael wrote into a book some time ago . 0.0079
+michael had wrote into a book some time ago . 0.0151
+michael had written into a book some time ago . 0.0139
+william seen a bird this morning . 0.0791
+william saw a bird this morning . 0.0223
+william had saw a bird this morning . 0.0539
+william had seen a bird this morning . 0.0207
+robert become very different over there . 0.0069
+robert became very different over there . 0.0023
+robert had became very different over there . 0.0585
+robert had become very different over there . 0.0024
+allen grown quickly over there . 0.0098
+allen grew quickly over there . 0.0171
+allen had grew quickly over there . 0.0128
+allen had grown quickly over there . 0.0043
+allen become someone else last night . 0.0224
+allen became someone else last night . 0.0301
+allen had became someone else last night . 0.0404
+allen had become someone else last night . 0.0069
+william given money to the man this morning . 0.0169
+william gave money to the man this morning . 0.0219
+william had gave money to the man this morning . 0.1028
+william had given money to the man this morning . 0.0247
+robert become very different some time ago . 0.0078
+robert became very different some time ago . 0.0033
+robert had became very different some time ago . 0.0338
+robert had become very different some time ago . 0.0045
+robert become very different this morning . 0.0101
+robert became very different this morning . 0.0068
+robert had became very different this morning . 0.0661
+robert had become very different this morning . 0.0052
+laura come when we needed her last night . 0.2265
+laura came when we needed her last night . 0.0237
+laura had came when we needed her last night . 0.0403
+laura had come when we needed her last night . 0.0074
+sarah taken them at home . 0.0959
+sarah took them at home . 0.0363
+sarah had took them at home . 0.3503
+sarah had taken them at home . 0.5013
+robert begun to work some time ago . 0.0102
+robert began to work some time ago . 0.0024
+robert had began to work some time ago . 0.0229
+robert had begun to work some time ago . 0.0024
+sam spoken very fast at home . 0.0322
+sam spoke very fast at home . 0.0210
+sam had spoke very fast at home . 0.0434
+sam had spoken very fast at home . 0.0202
+anne drawn a map over there . 0.3538
+anne drew a map over there . 0.1671
+anne had drew a map over there . 0.0830
+anne had drawn a map over there . 0.0968
+robert known she could do it some time ago . 0.1107
+robert knew she could do it some time ago . 0.0032
+robert had knew she could do it some time ago . 0.0250
+robert had known she could do it some time ago . 0.0033
+michael drawn a round circle last night . 0.0072
+michael drew a round circle last night . 0.0077
+michael had drew a round circle last night . 0.0147
+michael had drawn a round circle last night . 0.0103
+sam spoken very fast some time ago . 0.1161
+sam spoke very fast some time ago . 0.1790
+sam had spoke very fast some time ago . 0.1777
+sam had spoken very fast some time ago . 0.1351
+allen come too late over there . 0.0021
+allen came too late over there . 0.0056
+allen had came too late over there . 0.0209
+allen had come too late over there . 0.0009
+sam written into a book this morning . 0.0986
+sam wrote into a book this morning . 0.0240
+sam had wrote into a book this morning . 0.0396
+sam had written into a book this morning . 0.0425
+sam seen a bird this morning . 0.0990
+sam saw a bird this morning . 0.0273
+sam had saw a bird this morning . 0.1003
+sam had seen a bird this morning . 0.0426
+allen drawn a round circle this morning . 0.0082
+allen drew a round circle this morning . 0.0154
+allen had drew a round circle this morning . 0.0261
+allen had drawn a round circle this morning . 0.0106
+joseph drawn a map last night . 0.0012
+joseph drew a map last night . 0.0014
+joseph had drew a map last night . 0.0021
+joseph had drawn a map last night . 0.0012
+anne come too late this morning . 0.0408
+anne came too late this morning . 0.0094
+anne had came too late this morning . 0.0401
+anne had come too late this morning . 0.0267
+robert seen something at home . 0.0183
+robert saw something at home . 0.0028
+robert had saw something at home . 0.0114
+robert had seen something at home . 0.0022
+michael become angry last night . 0.1199
+michael became angry last night . 0.0732
+michael had became angry last night . 0.0745
+michael had become angry last night . 0.0455
+joseph drawn a map this morning . 0.0130
+joseph drew a map this morning . 0.0197
+joseph had drew a map this morning . 0.0114
+joseph had drawn a map this morning . 0.0096
+joseph come to the store at home . 0.0037
+joseph came to the store at home . 0.0043
+joseph had came to the store at home . 0.0058
+joseph had come to the store at home . 0.0027
+sarah taken it last night . 0.0843
+sarah took it last night . 0.0810
+sarah had took it last night . 0.7730
+sarah had taken it last night . 0.8282
+robert known she could do it this morning . 0.0680
+robert knew she could do it this morning . 0.0078
+robert had knew she could do it this morning . 0.0752
+robert had known she could do it this morning . 0.0046
+sarah written with a large pen over there . 0.0931
+sarah wrote with a large pen over there . 0.1011
+sarah had wrote with a large pen over there . 0.3543
+sarah had written with a large pen over there . 0.4304
+william known a lot of things over there . 0.1940
+william knew a lot of things over there . 0.0075
+william had knew a lot of things over there . 0.0547
+william had known a lot of things over there . 0.0079
+laura written a note some time ago . 0.0546
+laura wrote a note some time ago . 0.0076
+laura had wrote a note some time ago . 0.0062
+laura had written a note some time ago . 0.0044
+robert grown quickly this morning . 0.0389
+robert grew quickly this morning . 0.0612
+robert had grew quickly this morning . 0.0599
+robert had grown quickly this morning . 0.0121
+michael begun to work at home . 0.0477
+michael began to work at home . 0.0494
+michael had began to work at home . 0.0495
+michael had begun to work at home . 0.0178
+joseph spoken to me at home . 0.0147
+joseph spoke to me at home . 0.0094
+joseph had spoke to me at home . 0.0102
+joseph had spoken to me at home . 0.0009
+allen come to the store some time ago . 0.0280
+allen came to the store some time ago . 0.0037
+allen had came to the store some time ago . 0.0151
+allen had come to the store some time ago . 0.0026
+laura grown quickly some time ago . 0.0842
+laura grew quickly some time ago . 0.0845
+laura had grew quickly some time ago . 0.0613
+laura had grown quickly some time ago . 0.0180
+allen given a book to a student last night . 0.0030
+allen gave a book to a student last night . 0.0038
+allen had gave a book to a student last night . 0.0149
+allen had given a book to a student last night . 0.0022
+anne drawn a map some time ago . 0.4619
+anne drew a map some time ago . 0.3140
+anne had drew a map some time ago . 0.1414
+anne had drawn a map some time ago . 0.2793
+michael chosen the good one over there . 0.0167
+michael chose the good one over there . 0.0411
+michael had chose the good one over there . 0.0294
+michael had chosen the good one over there . 0.0157
+william spoken to me this morning . 0.0200
+william spoke to me this morning . 0.0206
+william had spoke to me this morning . 0.0847
+william had spoken to me this morning . 0.0108
+chris taken the bell last night . 0.0057
+chris took the bell last night . 0.0042
+chris had took the bell last night . 0.0090
+chris had taken the bell last night . 0.0037
+joseph come too late this morning . 0.0106
+joseph came too late this morning . 0.0112
+joseph had came too late this morning . 0.0208
+joseph had come too late this morning . 0.0036
+allen become very different over there . 0.0159
+allen became very different over there . 0.0021
+allen had became very different over there . 0.0714
+allen had become very different over there . 0.0037
+michael taken a paper this morning . 0.0292
+michael took a paper this morning . 0.0207
+michael had took a paper this morning . 0.0499
+michael had taken a paper this morning . 0.0515
+robert written into a book over there . 0.0119
+robert wrote into a book over there . 0.0053
+robert had wrote into a book over there . 0.0210
+robert had written into a book over there . 0.0225
+sarah become very different over there . 0.1785
+sarah became very different over there . 0.0703
+sarah had became very different over there . 0.4440
+sarah had become very different over there . 0.2144
+chris spoken very fast last night . 0.0057
+chris spoke very fast last night . 0.0057
+chris had spoke very fast last night . 0.0110
+chris had spoken very fast last night . 0.0023
+william written a story this morning . 0.0760
+william wrote a story this morning . 0.0062
+william had wrote a story this morning . 0.0193
+william had written a story this morning . 0.0081
+michael come when we needed her some time ago . 0.6646
+michael came when we needed her some time ago . 0.0317
+michael had came when we needed her some time ago . 0.2030
+michael had come when we needed her some time ago . 0.3801
+anne seen something last night . 0.0535
+anne saw something last night . 0.0052
+anne had saw something last night . 0.0158
+anne had seen something last night . 0.0123
+anne spoken very fast at home . 0.2146
+anne spoke very fast at home . 0.0607
+anne had spoke very fast at home . 0.1191
+anne had spoken very fast at home . 0.0917
+joseph chosen the best option over there . 0.0051
+joseph chose the best option over there . 0.0023
+joseph had chose the best option over there . 0.0024
+joseph had chosen the best option over there . 0.0033
+chris spoken to me over there . 0.0108
+chris spoke to me over there . 0.0059
+chris had spoke to me over there . 0.0153
+chris had spoken to me over there . 0.0042
+anne spoken without thinking this morning . 0.0437
+anne spoke without thinking this morning . 0.0050
+anne had spoke without thinking this morning . 0.0196
+anne had spoken without thinking this morning . 0.0124
+allen taken the bell this morning . 0.0115
+allen took the bell this morning . 0.0064
+allen had took the bell this morning . 0.0237
+allen had taken the bell this morning . 0.0076
+michael spoken very fast last night . 0.0197
+michael spoke very fast last night . 0.0160
+michael had spoke very fast last night . 0.0815
+michael had spoken very fast last night . 0.0766
+laura seen a bird at home . 0.0774
+laura saw a bird at home . 0.0060
+laura had saw a bird at home . 0.0126
+laura had seen a bird at home . 0.0033
+sam written into a book last night . 0.0874
+sam wrote into a book last night . 0.0497
+sam had wrote into a book last night . 0.0770
+sam had written into a book last night . 0.0573
+sam known a lot of things at home . 0.0963
+sam knew a lot of things at home . 0.0391
+sam had knew a lot of things at home . 0.1100
+sam had known a lot of things at home . 0.0724
+anne given a book to a student over there . 0.3565
+anne gave a book to a student over there . 0.1058
+anne had gave a book to a student over there . 0.0903
+anne had given a book to a student over there . 0.0677
+allen taken it last night . 0.0267
+allen took it last night . 0.0091
+allen had took it last night . 0.0206
+allen had taken it last night . 0.0039
+sarah begun to work at home . 0.0580
+sarah began to work at home . 0.0150
+sarah had began to work at home . 0.5102
+sarah had begun to work at home . 0.3371
+michael given something sweet to the baby some time ago . 0.0180
+michael gave something sweet to the baby some time ago . 0.0130
+michael had gave something sweet to the baby some time ago . 0.0213
+michael had given something sweet to the baby some time ago . 0.0062
+robert seen a bird this morning . 0.1229
+robert saw a bird this morning . 0.0237
+robert had saw a bird this morning . 0.0499
+robert had seen a bird this morning . 0.0154
+anne grown quickly this morning . 0.0874
+anne grew quickly this morning . 0.1446
+anne had grew quickly this morning . 0.1592
+anne had grown quickly this morning . 0.0713
+allen taken some food some time ago . 0.0256
+allen took some food some time ago . 0.0076
+allen had took some food some time ago . 0.0064
+allen had taken some food some time ago . 0.0032
+robert come just in time at home . 0.0016
+robert came just in time at home . 0.0015
+robert had came just in time at home . 0.0871
+robert had come just in time at home . 0.0006
+sam taken it over there . 0.0455
+sam took it over there . 0.0071
+sam had took it over there . 0.0867
+sam had taken it over there . 0.1598
+william spoken very fast some time ago . 0.0205
+william spoke very fast some time ago . 0.0256
+william had spoke very fast some time ago . 0.0892
+william had spoken very fast some time ago . 0.0385
+allen grown quickly some time ago . 0.0499
+allen grew quickly some time ago . 0.0425
+allen had grew quickly some time ago . 0.0443
+allen had grown quickly some time ago . 0.0141
+robert written a note at home . 0.0178
+robert wrote a note at home . 0.0025
+robert had wrote a note at home . 0.0019
+robert had written a note at home . 0.0016
+chris become angry at home . 0.0138
+chris became angry at home . 0.0026
+chris had became angry at home . 0.0617
+chris had become angry at home . 0.0015
+anne begun to work at home . 0.2743
+anne began to work at home . 0.0559
+anne had began to work at home . 0.1033
+anne had begun to work at home . 0.0149
+joseph become angry last night . 0.0103
+joseph became angry last night . 0.0106
+joseph had became angry last night . 0.0438
+joseph had become angry last night . 0.0031
+william seen a shape some time ago . 0.0110
+william saw a shape some time ago . 0.0021
+william had saw a shape some time ago . 0.0182
+william had seen a shape some time ago . 0.0142
+allen taken a paper some time ago . 0.0202
+allen took a paper some time ago . 0.0018
+allen had took a paper some time ago . 0.0033
+allen had taken a paper some time ago . 0.0010
+robert come too late over there . 0.0015
+robert came too late over there . 0.0020
+robert had came too late over there . 0.0130
+robert had come too late over there . 0.0013
+joseph known a lot of things this morning . 0.1542
+joseph knew a lot of things this morning . 0.0268
+joseph had knew a lot of things this morning . 0.0729
+joseph had known a lot of things this morning . 0.0161
+william seen a shape over there . 0.0579
+william saw a shape over there . 0.0042
+william had saw a shape over there . 0.0241
+william had seen a shape over there . 0.0131
+william chosen the best option over there . 0.0124
+william chose the best option over there . 0.0045
+william had chose the best option over there . 0.0053
+william had chosen the best option over there . 0.0067
+robert come just in time some time ago . 0.0031
+robert came just in time some time ago . 0.0120
+robert had came just in time some time ago . 0.1492
+robert had come just in time some time ago . 0.0012
+chris come when we needed her at home . 0.0488
+chris came when we needed her at home . 0.0031
+chris had came when we needed her at home . 0.0309
+chris had come when we needed her at home . 0.0015
+sarah begun to work over there . 0.3313
+sarah began to work over there . 0.1066
+sarah had began to work over there . 0.7962
+sarah had begun to work over there . 0.6824
+robert chosen the good one this morning . 0.0173
+robert chose the good one this morning . 0.0209
+robert had chose the good one this morning . 0.0169
+robert had chosen the good one this morning . 0.0129
+chris drawn a picture at home . 0.0014
+chris drew a picture at home . 0.0009
+chris had drew a picture at home . 0.0023
+chris had drawn a picture at home . 0.0008
+sarah spoken without thinking at home . 0.0872
+sarah spoke without thinking at home . 0.0175
+sarah had spoke without thinking at home . 0.2010
+sarah had spoken without thinking at home . 0.1055
+sam come when we needed her some time ago . 1.1726
+sam came when we needed her some time ago . 0.3941
+sam had came when we needed her some time ago . 0.3918
+sam had come when we needed her some time ago . 0.5188
+robert become someone else this morning . 0.0336
+robert became someone else this morning . 0.0146
+robert had became someone else this morning . 0.0872
+robert had become someone else this morning . 0.0069
+robert taken a paper last night . 0.0139
+robert took a paper last night . 0.0219
+robert had took a paper last night . 0.0104
+robert had taken a paper last night . 0.0030
+sarah known a lot of things this morning . 0.4924
+sarah knew a lot of things this morning . 0.3220
+sarah had knew a lot of things this morning . 0.6347
+sarah had known a lot of things this morning . 0.7773
+sarah chosen the good one over there . 0.0649
+sarah chose the good one over there . 0.0251
+sarah had chose the good one over there . 0.1352
+sarah had chosen the good one over there . 0.2537
+allen known a lot of things over there . 0.0814
+allen knew a lot of things over there . 0.0063
+allen had knew a lot of things over there . 0.0468
+allen had known a lot of things over there . 0.0035
+robert become angry last night . 0.0075
+robert became angry last night . 0.0076
+robert had became angry last night . 0.0920
+robert had become angry last night . 0.0035
+allen begun to work at home . 0.0159
+allen began to work at home . 0.0008
+allen had began to work at home . 0.0140
+allen had begun to work at home . 0.0010
+sarah come just in time this morning . 0.4870
+sarah came just in time this morning . 0.2814
+sarah had came just in time this morning . 0.6311
+sarah had come just in time this morning . 0.4490
+joseph seen something this morning . 0.0255
+joseph saw something this morning . 0.0100
+joseph had saw something this morning . 0.0363
+joseph had seen something this morning . 0.0085
+sam given money to the man this morning . 0.0337
+sam gave money to the man this morning . 0.0315
+sam had gave money to the man this morning . 0.1043
+sam had given money to the man this morning . 0.0410
+joseph written into a book at home . 0.0085
+joseph wrote into a book at home . 0.0017
+joseph had wrote into a book at home . 0.0127
+joseph had written into a book at home . 0.0030
+anne become very different last night . 0.0752
+anne became very different last night . 0.0211
+anne had became very different last night . 0.1432
+anne had become very different last night . 0.0328
+michael drawn a map last night . 0.0130
+michael drew a map last night . 0.0438
+michael had drew a map last night . 0.0472
+michael had drawn a map last night . 0.1037
+robert come when we needed her last night . 0.0088
+robert came when we needed her last night . 0.0019
+robert had came when we needed her last night . 0.0229
+robert had come when we needed her last night . 0.0010
+chris written a story some time ago . 0.0126
+chris wrote a story some time ago . 0.0011
+chris had wrote a story some time ago . 0.0044
+chris had written a story some time ago . 0.0021
+allen given something sweet to the baby this morning . 0.0648
+allen gave something sweet to the baby this morning . 0.0101
+allen had gave something sweet to the baby this morning . 0.0187
+allen had given something sweet to the baby this morning . 0.0073
+joseph come when we needed her some time ago . 0.0438
+joseph came when we needed her some time ago . 0.0061
+joseph had came when we needed her some time ago . 0.0162
+joseph had come when we needed her some time ago . 0.0015
+anne drawn a picture last night . 0.4566
+anne drew a picture last night . 0.0783
+anne had drew a picture last night . 0.0242
+anne had drawn a picture last night . 0.0350
+robert taken the bell over there . 0.0056
+robert took the bell over there . 0.0034
+robert had took the bell over there . 0.0132
+robert had taken the bell over there . 0.0009
+william grown quickly some time ago . 0.0561
+william grew quickly some time ago . 0.1243
+william had grew quickly some time ago . 0.1453
+william had grown quickly some time ago . 0.0520
+anne begun to work some time ago . 0.1980
+anne began to work some time ago . 0.0352
+anne had began to work some time ago . 0.1097
+anne had begun to work some time ago . 0.0152
+allen come too late at home . 0.0022
+allen came too late at home . 0.0041
+allen had came too late at home . 0.0080
+allen had come too late at home . 0.0010
+chris seen a shape some time ago . 0.0268
+chris saw a shape some time ago . 0.0026
+chris had saw a shape some time ago . 0.0103
+chris had seen a shape some time ago . 0.0100
+william given something sweet to the baby at home . 0.0158
+william gave something sweet to the baby at home . 0.0046
+william had gave something sweet to the baby at home . 0.0349
+william had given something sweet to the baby at home . 0.0013
+michael seen a bird at home . 0.5149
+michael saw a bird at home . 0.0040
+michael had saw a bird at home . 0.0791
+michael had seen a bird at home . 0.1241
+sarah seen something at home . 0.0683
+sarah saw something at home . 0.0506
+sarah had saw something at home . 0.5163
+sarah had seen something at home . 0.3618
+laura seen a shape over there . 0.0940
+laura saw a shape over there . 0.0156
+laura had saw a shape over there . 0.0372
+laura had seen a shape over there . 0.0190
+chris seen a shape this morning . 0.1460
+chris saw a shape this morning . 0.0101
+chris had saw a shape this morning . 0.0146
+chris had seen a shape this morning . 0.0181
+sam spoken about many things last night . 0.1138
+sam spoke about many things last night . 0.0546
+sam had spoke about many things last night . 0.1372
+sam had spoken about many things last night . 0.0831
+joseph given something sweet to the baby over there . 0.0037
+joseph gave something sweet to the baby over there . 0.0045
+joseph had gave something sweet to the baby over there . 0.0138
+joseph had given something sweet to the baby over there . 0.0017
+michael drawn a picture last night . 0.0100
+michael drew a picture last night . 0.0435
+michael had drew a picture last night . 0.3155
+michael had drawn a picture last night . 0.1909
+allen come when we needed her last night . 0.0448
+allen came when we needed her last night . 0.0030
+allen had came when we needed her last night . 0.0360
+allen had come when we needed her last night . 0.0014
+michael spoken about many things over there . 0.3483
+michael spoke about many things over there . 0.0150
+michael had spoke about many things over there . 0.0433
+michael had spoken about many things over there . 0.0266
+allen written with a large pen last night . 0.0027
+allen wrote with a large pen last night . 0.0018
+allen had wrote with a large pen last night . 0.0086
+allen had written with a large pen last night . 0.0022
+william known she could do it over there . 0.1338
+william knew she could do it over there . 0.0026
+william had knew she could do it over there . 0.0624
+william had known she could do it over there . 0.0014
+allen known a lot of things last night . 0.0308
+allen knew a lot of things last night . 0.0078
+allen had knew a lot of things last night . 0.0397
+allen had known a lot of things last night . 0.0018
+joseph become someone else some time ago . 0.0519
+joseph became someone else some time ago . 0.0067
+joseph had became someone else some time ago . 0.0565
+joseph had become someone else some time ago . 0.0081
+sam become angry over there . 0.0876
+sam became angry over there . 0.0062
+sam had became angry over there . 0.0741
+sam had become angry over there . 0.0399
+anne given something sweet to the baby over there . 0.1157
+anne gave something sweet to the baby over there . 0.0138
+anne had gave something sweet to the baby over there . 0.0358
+anne had given something sweet to the baby over there . 0.0133
+allen come just in time over there . 0.0038
+allen came just in time over there . 0.0089
+allen had came just in time over there . 0.1112
+allen had come just in time over there . 0.0010
+sarah known she could do it at home . 0.2471
+sarah knew she could do it at home . 0.2345
+sarah had knew she could do it at home . 0.4491
+sarah had known she could do it at home . 0.2480
+allen come when we needed her at home . 0.0809
+allen came when we needed her at home . 0.0041
+allen had came when we needed her at home . 0.0254
+allen had come when we needed her at home . 0.0012
+william drawn a picture last night . 0.0024
+william drew a picture last night . 0.0011
+william had drew a picture last night . 0.0041
+william had drawn a picture last night . 0.0013
+joseph written into a book some time ago . 0.0445
+joseph wrote into a book some time ago . 0.0049
+joseph had wrote into a book some time ago . 0.0132
+joseph had written into a book some time ago . 0.0084
+sam taken some food some time ago . 0.0510
+sam took some food some time ago . 0.0429
+sam had took some food some time ago . 0.0991
+sam had taken some food some time ago . 0.1285
+robert spoken without thinking last night . 0.0069
+robert spoke without thinking last night . 0.0014
+robert had spoke without thinking last night . 0.0266
+robert had spoken without thinking last night . 0.0011
+joseph become very different some time ago . 0.0541
+joseph became very different some time ago . 0.0056
+joseph had became very different some time ago . 0.0450
+joseph had become very different some time ago . 0.0081
+anne become someone else this morning . 0.0698
+anne became someone else this morning . 0.0187
+anne had became someone else this morning . 0.1052
+anne had become someone else this morning . 0.0112
+laura come when we needed her some time ago . 0.4770
+laura came when we needed her some time ago . 0.0239
+laura had came when we needed her some time ago . 0.0721
+laura had come when we needed her some time ago . 0.1213
+sarah spoken very fast at home . 0.0187
+sarah spoke very fast at home . 0.0613
+sarah had spoke very fast at home . 0.3964
+sarah had spoken very fast at home . 0.2419
+william chosen the best option this morning . 0.0157
+william chose the best option this morning . 0.0073
+william had chose the best option this morning . 0.0117
+william had chosen the best option this morning . 0.0095
+laura given something sweet to the baby this morning . 0.1108
+laura gave something sweet to the baby this morning . 0.0118
+laura had gave something sweet to the baby this morning . 0.0287
+laura had given something sweet to the baby this morning . 0.0086
+robert given a book to a student this morning . 0.0188
+robert gave a book to a student this morning . 0.0275
+robert had gave a book to a student this morning . 0.0328
+robert had given a book to a student this morning . 0.0076
+robert spoken very fast over there . 0.0091
+robert spoke very fast over there . 0.0052
+robert had spoke very fast over there . 0.0088
+robert had spoken very fast over there . 0.0027
+anne seen a bird at home . 0.1133
+anne saw a bird at home . 0.0399
+anne had saw a bird at home . 0.0540
+anne had seen a bird at home . 0.0242
+laura chosen the best option at home . 0.0328
+laura chose the best option at home . 0.0119
+laura had chose the best option at home . 0.0018
+laura had chosen the best option at home . 0.0030
+anne seen a shape last night . 0.0662
+anne saw a shape last night . 0.0509
+anne had saw a shape last night . 0.0674
+anne had seen a shape last night . 0.0504
+william spoken to me at home . 0.0013
+william spoke to me at home . 0.0085
+william had spoke to me at home . 0.0379
+william had spoken to me at home . 0.0008
+laura drawn a picture last night . 0.0160
+laura drew a picture last night . 0.0021
+laura had drew a picture last night . 0.0030
+laura had drawn a picture last night . 0.0014
+sarah known she could do it last night . 0.2610
+sarah knew she could do it last night . 0.3677
+sarah had knew she could do it last night . 0.6831
+sarah had known she could do it last night . 0.4413
+robert become someone else over there . 0.0378
+robert became someone else over there . 0.0129
+robert had became someone else over there . 0.1048
+robert had become someone else over there . 0.0033
+chris come when we needed her some time ago . 0.0570
+chris came when we needed her some time ago . 0.0063
+chris had came when we needed her some time ago . 0.0426
+chris had come when we needed her some time ago . 0.0017
+allen taken them last night . 0.0232
+allen took them last night . 0.0054
+allen had took them last night . 0.0312
+allen had taken them last night . 0.0060
+anne spoken to me at home . 0.0961
+anne spoke to me at home . 0.0231
+anne had spoke to me at home . 0.0906
+anne had spoken to me at home . 0.0228
+michael grown quickly this morning . 0.6667
+michael grew quickly this morning . 0.0824
+michael had grew quickly this morning . 0.0981
+michael had grown quickly this morning . 0.0665
+robert written into a book last night . 0.0115
+robert wrote into a book last night . 0.0092
+robert had wrote into a book last night . 0.0191
+robert had written into a book last night . 0.0110
+allen written a story over there . 0.0986
+allen wrote a story over there . 0.0025
+allen had wrote a story over there . 0.0072
+allen had written a story over there . 0.0015
+laura taken the bell this morning . 0.0322
+laura took the bell this morning . 0.0088
+laura had took the bell this morning . 0.0142
+laura had taken the bell this morning . 0.0079
+sarah become someone else this morning . 0.6506
+sarah became someone else this morning . 0.0515
+sarah had became someone else this morning . 0.3384
+sarah had become someone else this morning . 0.5452
+chris taken the bell at home . 0.0047
+chris took the bell at home . 0.0052
+chris had took the bell at home . 0.0240
+chris had taken the bell at home . 0.0022
+sarah taken the bell last night . 0.1039
+sarah took the bell last night . 0.0847
+sarah had took the bell last night . 0.5010
+sarah had taken the bell last night . 0.5931
+anne taken it last night . 0.1297
+anne took it last night . 0.0183
+anne had took it last night . 0.0903
+anne had taken it last night . 0.0418
+michael known a lot of things at home . 0.1399
+michael knew a lot of things at home . 0.0113
+michael had knew a lot of things at home . 0.0329
+michael had known a lot of things at home . 0.0094
+chris known she could do it last night . 0.0492
+chris knew she could do it last night . 0.0026
+chris had knew she could do it last night . 0.0419
+chris had known she could do it last night . 0.0017
+robert become angry over there . 0.0126
+robert became angry over there . 0.0127
+robert had became angry over there . 0.0729
+robert had become angry over there . 0.0010
+william written into a book this morning . 0.0115
+william wrote into a book this morning . 0.0103
+william had wrote into a book this morning . 0.0639
+william had written into a book this morning . 0.0146
+allen spoken very fast last night . 0.0492
+allen spoke very fast last night . 0.0046
+allen had spoke very fast last night . 0.0109
+allen had spoken very fast last night . 0.0070
+anne written a note at home . 0.2500
+anne wrote a note at home . 0.0952
+anne had wrote a note at home . 0.0427
+anne had written a note at home . 0.0343
+william taken the bell at home . 0.0019
+william took the bell at home . 0.0033
+william had took the bell at home . 0.0277
+william had taken the bell at home . 0.0007
+william written a note last night . 0.0127
+william wrote a note last night . 0.0037
+william had wrote a note last night . 0.0342
+william had written a note last night . 0.0026
+chris become angry last night . 0.0054
+chris became angry last night . 0.0069
+chris had became angry last night . 0.0670
+chris had become angry last night . 0.0030
+sam given money to the man last night . 0.0159
+sam gave money to the man last night . 0.0149
+sam had gave money to the man last night . 0.0619
+sam had given money to the man last night . 0.0593
+allen taken them this morning . 0.0597
+allen took them this morning . 0.0046
+allen had took them this morning . 0.0288
+allen had taken them this morning . 0.0061
+chris known she could do it some time ago . 0.1105
+chris knew she could do it some time ago . 0.0032
+chris had knew she could do it some time ago . 0.0258
+chris had known she could do it some time ago . 0.0021
+sarah grown quickly this morning . 0.3301
+sarah grew quickly this morning . 0.1238
+sarah had grew quickly this morning . 0.6830
+sarah had grown quickly this morning . 0.7524
+chris drawn a map last night . 0.0013
+chris drew a map last night . 0.0019
+chris had drew a map last night . 0.0030
+chris had drawn a map last night . 0.0018
+chris begun to work last night . 0.0110
+chris began to work last night . 0.0037
+chris had began to work last night . 0.0260
+chris had begun to work last night . 0.0034
+robert spoken without thinking at home . 0.0071
+robert spoke without thinking at home . 0.0036
+robert had spoke without thinking at home . 0.0147
+robert had spoken without thinking at home . 0.0021
+allen come to the store over there . 0.0116
+allen came to the store over there . 0.0034
+allen had came to the store over there . 0.0161
+allen had come to the store over there . 0.0011
+william taken the bell over there . 0.0025
+william took the bell over there . 0.0027
+william had took the bell over there . 0.0191
+william had taken the bell over there . 0.0009
+laura grown quickly this morning . 0.0498
+laura grew quickly this morning . 0.0613
+laura had grew quickly this morning . 0.0528
+laura had grown quickly this morning . 0.0231
+robert written a story over there . 0.0129
+robert wrote a story over there . 0.0039
+robert had wrote a story over there . 0.0063
+robert had written a story over there . 0.0024
+anne become someone else some time ago . 0.0573
+anne became someone else some time ago . 0.0100
+anne had became someone else some time ago . 0.1299
+anne had become someone else some time ago . 0.0269
+laura taken some food at home . 0.0248
+laura took some food at home . 0.0058
+laura had took some food at home . 0.0088
+laura had taken some food at home . 0.0033
+sam spoken very fast over there . 0.1553
+sam spoke very fast over there . 0.0972
+sam had spoke very fast over there . 0.1712
+sam had spoken very fast over there . 0.0704
+joseph given something sweet to the baby some time ago . 0.0060
+joseph gave something sweet to the baby some time ago . 0.0071
+joseph had gave something sweet to the baby some time ago . 0.0122
+joseph had given something sweet to the baby some time ago . 0.0030
+laura given something sweet to the baby last night . 0.0716
+laura gave something sweet to the baby last night . 0.0092
+laura had gave something sweet to the baby last night . 0.0297
+laura had given something sweet to the baby last night . 0.0053
+joseph come when we needed her last night . 0.0843
+joseph came when we needed her last night . 0.0032
+joseph had came when we needed her last night . 0.0127
+joseph had come when we needed her last night . 0.0017
+chris chosen the good one this morning . 0.0187
+chris chose the good one this morning . 0.0200
+chris had chose the good one this morning . 0.0150
+chris had chosen the good one this morning . 0.0130
+sarah drawn a picture this morning . 0.1408
+sarah drew a picture this morning . 0.0761
+sarah had drew a picture this morning . 0.6078
+sarah had drawn a picture this morning . 0.4971
+allen seen a bird at home . 0.0917
+allen saw a bird at home . 0.0031
+allen had saw a bird at home . 0.0176
+allen had seen a bird at home . 0.0021
+allen given something sweet to the baby at home . 0.0649
+allen gave something sweet to the baby at home . 0.0042
+allen had gave something sweet to the baby at home . 0.0250
+allen had given something sweet to the baby at home . 0.0020
+robert seen a bird over there . 0.0718
+robert saw a bird over there . 0.0258
+robert had saw a bird over there . 0.0332
+robert had seen a bird over there . 0.0134
+chris come just in time some time ago . 0.0150
+chris came just in time some time ago . 0.0136
+chris had came just in time some time ago . 0.1860
+chris had come just in time some time ago . 0.0022
+joseph given a book to a student this morning . 0.0094
+joseph gave a book to a student this morning . 0.0102
+joseph had gave a book to a student this morning . 0.0183
+joseph had given a book to a student this morning . 0.0032
+anne written into a book last night . 0.2761
+anne wrote into a book last night . 0.0126
+anne had wrote into a book last night . 0.0541
+anne had written into a book last night . 0.0346
+anne become someone else at home . 0.0673
+anne became someone else at home . 0.0078
+anne had became someone else at home . 0.0506
+anne had become someone else at home . 0.0091
+chris drawn a round circle over there . 0.0021
+chris drew a round circle over there . 0.0023
+chris had drew a round circle over there . 0.0035
+chris had drawn a round circle over there . 0.0027
+william chosen the best option some time ago . 0.0088
+william chose the best option some time ago . 0.0020
+william had chose the best option some time ago . 0.0071
+william had chosen the best option some time ago . 0.0056
+allen seen something at home . 0.0435
+allen saw something at home . 0.0039
+allen had saw something at home . 0.0200
+allen had seen something at home . 0.0029
+michael taken some food last night . 0.0287
+michael took some food last night . 0.0124
+michael had took some food last night . 0.0229
+michael had taken some food last night . 0.0384
+joseph become angry some time ago . 0.0668
+joseph became angry some time ago . 0.0056
+joseph had became angry some time ago . 0.0238
+joseph had become angry some time ago . 0.0059
+sam drawn a round circle over there . 0.0335
+sam drew a round circle over there . 0.0083
+sam had drew a round circle over there . 0.0924
+sam had drawn a round circle over there . 0.1985
+allen grown quickly this morning . 0.0265
+allen grew quickly this morning . 0.0573
+allen had grew quickly this morning . 0.0612
+allen had grown quickly this morning . 0.0152
+anne seen something some time ago . 0.0437
+anne saw something some time ago . 0.0387
+anne had saw something some time ago . 0.0646
+anne had seen something some time ago . 0.0445
+joseph known she could do it at home . 0.2778
+joseph knew she could do it at home . 0.0029
+joseph had knew she could do it at home . 0.0215
+joseph had known she could do it at home . 0.0016
+sarah written into a book over there . 0.0487
+sarah wrote into a book over there . 0.1504
+sarah had wrote into a book over there . 0.3698
+sarah had written into a book over there . 0.2421
+william chosen the good one this morning . 0.0247
+william chose the good one this morning . 0.0208
+william had chose the good one this morning . 0.0145
+william had chosen the good one this morning . 0.0153
+sam spoken to me this morning . 0.3775
+sam spoke to me this morning . 0.2692
+sam had spoke to me this morning . 0.2972
+sam had spoken to me this morning . 0.3011
+allen given money to the man over there . 0.0048
+allen gave money to the man over there . 0.0050
+allen had gave money to the man over there . 0.0481
+allen had given money to the man over there . 0.0046
+laura chosen the best option some time ago . 0.0177
+laura chose the best option some time ago . 0.0054
+laura had chose the best option some time ago . 0.0057
+laura had chosen the best option some time ago . 0.0034
+michael spoken very fast some time ago . 0.3492
+michael spoke very fast some time ago . 0.0190
+michael had spoke very fast some time ago . 0.0294
+michael had spoken very fast some time ago . 0.0245
+joseph chosen the good one this morning . 0.0149
+joseph chose the good one this morning . 0.0180
+joseph had chose the good one this morning . 0.0126
+joseph had chosen the good one this morning . 0.0183
+sam become very different last night . 0.2659
+sam became very different last night . 0.0296
+sam had became very different last night . 0.1799
+sam had become very different last night . 0.1619
+william given money to the man some time ago . 0.0050
+william gave money to the man some time ago . 0.0053
+william had gave money to the man some time ago . 0.0263
+william had given money to the man some time ago . 0.0018
+sam taken a paper at home . 0.0054
+sam took a paper at home . 0.0100
+sam had took a paper at home . 0.0280
+sam had taken a paper at home . 0.0279
+anne come when we needed her at home . 0.4928
+anne came when we needed her at home . 0.2075
+anne had came when we needed her at home . 0.0861
+anne had come when we needed her at home . 0.0877
+anne come too late some time ago . 0.1861
+anne came too late some time ago . 0.1328
+anne had came too late some time ago . 0.0760
+anne had come too late some time ago . 0.0850
+anne seen a bird over there . 0.0775
+anne saw a bird over there . 0.0243
+anne had saw a bird over there . 0.0502
+anne had seen a bird over there . 0.0276
+allen grown quickly at home . 0.0239
+allen grew quickly at home . 0.0246
+allen had grew quickly at home . 0.0215
+allen had grown quickly at home . 0.0101
+anne written a story last night . 0.0663
+anne wrote a story last night . 0.0128
+anne had wrote a story last night . 0.0198
+anne had written a story last night . 0.0105
+sam seen a bird over there . 0.1681
+sam saw a bird over there . 0.0445
+sam had saw a bird over there . 0.1195
+sam had seen a bird over there . 0.1103
+robert taken it this morning . 0.0162
+robert took it this morning . 0.0097
+robert had took it this morning . 0.0190
+robert had taken it this morning . 0.0058
+anne become angry at home . 0.0525
+anne became angry at home . 0.0102
+anne had became angry at home . 0.0789
+anne had become angry at home . 0.0320
+michael spoken to me some time ago . 0.0339
+michael spoke to me some time ago . 0.0252
+michael had spoke to me some time ago . 0.0440
+michael had spoken to me some time ago . 0.0438
+sam become angry last night . 0.0536
+sam became angry last night . 0.0213
+sam had became angry last night . 0.0855
+sam had become angry last night . 0.0515
+anne spoken very fast this morning . 0.1560
+anne spoke very fast this morning . 0.0096
+anne had spoke very fast this morning . 0.0348
+anne had spoken very fast this morning . 0.0338
+chris taken a paper last night . 0.0110
+chris took a paper last night . 0.0129
+chris had took a paper last night . 0.0184
+chris had taken a paper last night . 0.0056
+allen spoken to me over there . 0.0293
+allen spoke to me over there . 0.0048
+allen had spoke to me over there . 0.0215
+allen had spoken to me over there . 0.0032
+michael come to the store last night . 0.0966
+michael came to the store last night . 0.0782
+michael had came to the store last night . 0.0607
+michael had come to the store last night . 0.0195
+anne known she could do it at home . 0.1676
+anne knew she could do it at home . 0.0050
+anne had knew she could do it at home . 0.0543
+anne had known she could do it at home . 0.0084
+laura taken the bell some time ago . 0.0692
+laura took the bell some time ago . 0.0046
+laura had took the bell some time ago . 0.0065
+laura had taken the bell some time ago . 0.0026
+laura known she could do it at home . 0.3444
+laura knew she could do it at home . 0.2709
+laura had knew she could do it at home . 0.5576
+laura had known she could do it at home . 0.0438
+joseph become angry over there . 0.0184
+joseph became angry over there . 0.0094
+joseph had became angry over there . 0.0159
+joseph had become angry over there . 0.0021
+allen seen something this morning . 0.2346
+allen saw something this morning . 0.0113
+allen had saw something this morning . 0.0323
+allen had seen something this morning . 0.0091
+joseph spoken without thinking last night . 0.0021
+joseph spoke without thinking last night . 0.0018
+joseph had spoke without thinking last night . 0.0186
+joseph had spoken without thinking last night . 0.0009
+sarah taken some food over there . 0.3547
+sarah took some food over there . 0.1115
+sarah had took some food over there . 0.5987
+sarah had taken some food over there . 0.6710
+laura spoken without thinking over there . 0.0170
+laura spoke without thinking over there . 0.0023
+laura had spoke without thinking over there . 0.0461
+laura had spoken without thinking over there . 0.0063
+chris become someone else last night . 0.0091
+chris became someone else last night . 0.0168
+chris had became someone else last night . 0.0790
+chris had become someone else last night . 0.0036
+chris given a book to a student last night . 0.0027
+chris gave a book to a student last night . 0.0060
+chris had gave a book to a student last night . 0.0211
+chris had given a book to a student last night . 0.0017
+william written a note some time ago . 0.0177
+william wrote a note some time ago . 0.0016
+william had wrote a note some time ago . 0.0076
+william had written a note some time ago . 0.0045
+robert spoken about many things this morning . 0.0465
+robert spoke about many things this morning . 0.0283
+robert had spoke about many things this morning . 0.0536
+robert had spoken about many things this morning . 0.0192
+robert taken a paper some time ago . 0.0253
+robert took a paper some time ago . 0.0039
+robert had took a paper some time ago . 0.0035
+robert had taken a paper some time ago . 0.0019
+michael written with a large pen over there . 0.0272
+michael wrote with a large pen over there . 0.0399
+michael had wrote with a large pen over there . 0.0129
+michael had written with a large pen over there . 0.0297
+sarah written with a large pen this morning . 0.1834
+sarah wrote with a large pen this morning . 0.1793
+sarah had wrote with a large pen this morning . 0.4526
+sarah had written with a large pen this morning . 0.5483
+chris taken them this morning . 0.0341
+chris took them this morning . 0.0050
+chris had took them this morning . 0.0258
+chris had taken them this morning . 0.0034
+william come to the store some time ago . 0.0032
+william came to the store some time ago . 0.0044
+william had came to the store some time ago . 0.0187
+william had come to the store some time ago . 0.0052
+allen seen a shape last night . 0.1181
+allen saw a shape last night . 0.0101
+allen had saw a shape last night . 0.0224
+allen had seen a shape last night . 0.0490
+robert given money to the man some time ago . 0.0157
+robert gave money to the man some time ago . 0.0096
+robert had gave money to the man some time ago . 0.0217
+robert had given money to the man some time ago . 0.0025
+laura given a book to a student over there . 0.0247
+laura gave a book to a student over there . 0.0078
+laura had gave a book to a student over there . 0.0289
+laura had given a book to a student over there . 0.0052
+anne spoken to me over there . 0.0701
+anne spoke to me over there . 0.0044
+anne had spoke to me over there . 0.0359
+anne had spoken to me over there . 0.0118
+sarah spoken very fast last night . 0.0270
+sarah spoke very fast last night . 0.0896
+sarah had spoke very fast last night . 0.5914
+sarah had spoken very fast last night . 0.4342
+allen taken it at home . 0.0669
+allen took it at home . 0.0008
+allen had took it at home . 0.0037
+allen had taken it at home . 0.0004
+joseph begun to work this morning . 0.0083
+joseph began to work this morning . 0.0039
+joseph had began to work this morning . 0.0450
+joseph had begun to work this morning . 0.0026
+robert written a story this morning . 0.0206
+robert wrote a story this morning . 0.0054
+robert had wrote a story this morning . 0.0097
+robert had written a story this morning . 0.0081
+sam grown quickly last night . 0.0755
+sam grew quickly last night . 0.3437
+sam had grew quickly last night . 0.2388
+sam had grown quickly last night . 0.2058
+robert known a lot of things at home . 0.1077
+robert knew a lot of things at home . 0.0114
+robert had knew a lot of things at home . 0.0381
+robert had known a lot of things at home . 0.0045
+michael come to the store at home . 0.4994
+michael came to the store at home . 0.0615
+michael had came to the store at home . 0.0604
+michael had come to the store at home . 0.0162
+sarah written a story this morning . 0.4364
+sarah wrote a story this morning . 0.1683
+sarah had wrote a story this morning . 0.5840
+sarah had written a story this morning . 0.5835
+chris seen something this morning . 0.0704
+chris saw something this morning . 0.0056
+chris had saw something this morning . 0.0101
+chris had seen something this morning . 0.0043
+sarah given something sweet to the baby last night . 0.1897
+sarah gave something sweet to the baby last night . 0.0243
+sarah had gave something sweet to the baby last night . 0.2342
+sarah had given something sweet to the baby last night . 0.1498
+joseph taken a paper last night . 0.0029
+joseph took a paper last night . 0.0056
+joseph had took a paper last night . 0.0478
+joseph had taken a paper last night . 0.0015
+allen written a note over there . 0.0799
+allen wrote a note over there . 0.0012
+allen had wrote a note over there . 0.0025
+allen had written a note over there . 0.0022
+robert become someone else at home . 0.0539
+robert became someone else at home . 0.0043
+robert had became someone else at home . 0.0614
+robert had become someone else at home . 0.0014
+william given a book to a student over there . 0.0225
+william gave a book to a student over there . 0.0136
+william had gave a book to a student over there . 0.0687
+william had given a book to a student over there . 0.0136
+sarah taken some food at home . 0.0881
+sarah took some food at home . 0.0263
+sarah had took some food at home . 0.3233
+sarah had taken some food at home . 0.3968
+anne grown quickly at home . 0.1406
+anne grew quickly at home . 0.1076
+anne had grew quickly at home . 0.0859
+anne had grown quickly at home . 0.0412
+robert become very different at home . 0.0087
+robert became very different at home . 0.0023
+robert had became very different at home . 0.0452
+robert had become very different at home . 0.0008
+allen come just in time at home . 0.0054
+allen came just in time at home . 0.0060
+allen had came just in time at home . 0.0901
+allen had come just in time at home . 0.0007
+chris given money to the man over there . 0.0111
+chris gave money to the man over there . 0.0075
+chris had gave money to the man over there . 0.0482
+chris had given money to the man over there . 0.0034
+laura taken it last night . 0.0781
+laura took it last night . 0.0115
+laura had took it last night . 0.0106
+laura had taken it last night . 0.0037
+robert grown quickly at home . 0.0357
+robert grew quickly at home . 0.0283
+robert had grew quickly at home . 0.0224
+robert had grown quickly at home . 0.0080
+laura written a note last night . 0.0365
+laura wrote a note last night . 0.0082
+laura had wrote a note last night . 0.0065
+laura had written a note last night . 0.0021
+laura become very different last night . 0.0205
+laura became very different last night . 0.0074
+laura had became very different last night . 0.0705
+laura had become very different last night . 0.0046
+michael spoken about many things some time ago . 0.1535
+michael spoke about many things some time ago . 0.0105
+michael had spoke about many things some time ago . 0.0205
+michael had spoken about many things some time ago . 0.0157
+laura seen a bird this morning . 0.1553
+laura saw a bird this morning . 0.0166
+laura had saw a bird this morning . 0.0327
+laura had seen a bird this morning . 0.0135
+chris drawn a map some time ago . 0.0024
+chris drew a map some time ago . 0.0020
+chris had drew a map some time ago . 0.0055
+chris had drawn a map some time ago . 0.0043
+anne known a lot of things this morning . 0.2156
+anne knew a lot of things this morning . 0.0488
+anne had knew a lot of things this morning . 0.1373
+anne had known a lot of things this morning . 0.0432
+michael spoken about many things at home . 0.0918
+michael spoke about many things at home . 0.0290
+michael had spoke about many things at home . 0.0461
+michael had spoken about many things at home . 0.0236
+allen given a book to a student some time ago . 0.0036
+allen gave a book to a student some time ago . 0.0042
+allen had gave a book to a student some time ago . 0.0100
+allen had given a book to a student some time ago . 0.0026
+joseph grown quickly last night . 0.0166
+joseph grew quickly last night . 0.0764
+joseph had grew quickly last night . 0.1025
+joseph had grown quickly last night . 0.0107
+robert come just in time last night . 0.0066
+robert came just in time last night . 0.0088
+robert had came just in time last night . 0.1715
+robert had come just in time last night . 0.0027
+joseph chosen the best option this morning . 0.0102
+joseph chose the best option this morning . 0.0103
+joseph had chose the best option this morning . 0.0053
+joseph had chosen the best option this morning . 0.0050
+anne come just in time some time ago . 0.0911
+anne came just in time some time ago . 0.0472
+anne had came just in time some time ago . 0.2293
+anne had come just in time some time ago . 0.0565
+laura come to the store at home . 0.0094
+laura came to the store at home . 0.0070
+laura had came to the store at home . 0.0186
+laura had come to the store at home . 0.0075
+allen drawn a map last night . 0.0017
+allen drew a map last night . 0.0026
+allen had drew a map last night . 0.0018
+allen had drawn a map last night . 0.0012
+allen come when we needed her this morning . 0.0508
+allen came when we needed her this morning . 0.0049
+allen had came when we needed her this morning . 0.0354
+allen had come when we needed her this morning . 0.0030
+laura spoken to me at home . 0.0330
+laura spoke to me at home . 0.0050
+laura had spoke to me at home . 0.0126
+laura had spoken to me at home . 0.0018
+robert taken it some time ago . 0.0383
+robert took it some time ago . 0.0032
+robert had took it some time ago . 0.0038
+robert had taken it some time ago . 0.0025
+robert written with a large pen some time ago . 0.0075
+robert wrote with a large pen some time ago . 0.0049
+robert had wrote with a large pen some time ago . 0.0094
+robert had written with a large pen some time ago . 0.0043
+anne grown quickly some time ago . 0.2560
+anne grew quickly some time ago . 0.2797
+anne had grew quickly some time ago . 0.1401
+anne had grown quickly some time ago . 0.0479
+allen known she could do it over there . 0.3003
+allen knew she could do it over there . 0.0082
+allen had knew she could do it over there . 0.1195
+allen had known she could do it over there . 0.0017
+anne given money to the man over there . 0.0815
+anne gave money to the man over there . 0.0141
+anne had gave money to the man over there . 0.0639
+anne had given money to the man over there . 0.0082
+joseph begun to work at home . 0.0196
+joseph began to work at home . 0.0010
+joseph had began to work at home . 0.0277
+joseph had begun to work at home . 0.0015
+robert written a story some time ago . 0.0073
+robert wrote a story some time ago . 0.0019
+robert had wrote a story some time ago . 0.0062
+robert had written a story some time ago . 0.0027
+allen become angry over there . 0.0262
+allen became angry over there . 0.0040
+allen had became angry over there . 0.0642
+allen had become angry over there . 0.0026
+robert come to the store some time ago . 0.0086
+robert came to the store some time ago . 0.0088
+robert had came to the store some time ago . 0.0300
+robert had come to the store some time ago . 0.0061
+anne spoken to me last night . 0.2481
+anne spoke to me last night . 0.0123
+anne had spoke to me last night . 0.0451
+anne had spoken to me last night . 0.0142
+laura taken a paper at home . 0.0458
+laura took a paper at home . 0.0105
+laura had took a paper at home . 0.0120
+laura had taken a paper at home . 0.0048
+joseph come when we needed her over there . 0.1480
+joseph came when we needed her over there . 0.0023
+joseph had came when we needed her over there . 0.0085
+joseph had come when we needed her over there . 0.0013
+allen chosen the best option over there . 0.0206
+allen chose the best option over there . 0.0030
+allen had chose the best option over there . 0.0022
+allen had chosen the best option over there . 0.0031
+joseph grown quickly over there . 0.0104
+joseph grew quickly over there . 0.0125
+joseph had grew quickly over there . 0.0255
+joseph had grown quickly over there . 0.0029
+michael seen a bird some time ago . 0.8473
+michael saw a bird some time ago . 0.3358
+michael had saw a bird some time ago . 0.1486
+michael had seen a bird some time ago . 0.1508
+laura come when we needed her this morning . 0.1414
+laura came when we needed her this morning . 0.0120
+laura had came when we needed her this morning . 0.0366
+laura had come when we needed her this morning . 0.0122
+joseph drawn a round circle last night . 0.0033
+joseph drew a round circle last night . 0.0047
+joseph had drew a round circle last night . 0.0052
+joseph had drawn a round circle last night . 0.0013
+sam written a note some time ago . 0.0482
+sam wrote a note some time ago . 0.0579
+sam had wrote a note some time ago . 0.1154
+sam had written a note some time ago . 0.0773
+michael known a lot of things some time ago . 0.0898
+michael knew a lot of things some time ago . 0.0141
+michael had knew a lot of things some time ago . 0.0326
+michael had known a lot of things some time ago . 0.0080
+chris begun to work over there . 0.0181
+chris began to work over there . 0.0028
+chris had began to work over there . 0.0106
+chris had begun to work over there . 0.0019
+laura taken them some time ago . 0.0669
+laura took them some time ago . 0.0070
+laura had took them some time ago . 0.0124
+laura had taken them some time ago . 0.0049
+allen become angry this morning . 0.0467
+allen became angry this morning . 0.0231
+allen had became angry this morning . 0.0611
+allen had become angry this morning . 0.0170
+chris known she could do it at home . 0.1488
+chris knew she could do it at home . 0.0011
+chris had knew she could do it at home . 0.0219
+chris had known she could do it at home . 0.0007
+michael given a book to a student some time ago . 0.0142
+michael gave a book to a student some time ago . 0.0115
+michael had gave a book to a student some time ago . 0.0375
+michael had given a book to a student some time ago . 0.0061
+michael spoken to me this morning . 0.0534
+michael spoke to me this morning . 0.0652
+michael had spoke to me this morning . 0.0956
+michael had spoken to me this morning . 0.0516
+anne taken them some time ago . 0.2815
+anne took them some time ago . 0.0789
+anne had took them some time ago . 0.0482
+anne had taken them some time ago . 0.0486
+william come when we needed her last night . 0.0127
+william came when we needed her last night . 0.0027
+william had came when we needed her last night . 0.0251
+william had come when we needed her last night . 0.0010
+allen grown quickly last night . 0.0174
+allen grew quickly last night . 0.0927
+allen had grew quickly last night . 0.0984
+allen had grown quickly last night . 0.0088
+anne drawn a picture at home . 0.4366
+anne drew a picture at home . 0.0889
+anne had drew a picture at home . 0.0388
+anne had drawn a picture at home . 0.0584
+joseph come to the store some time ago . 0.0095
+joseph came to the store some time ago . 0.0055
+joseph had came to the store some time ago . 0.0145
+joseph had come to the store some time ago . 0.0063
+joseph begun to work last night . 0.0056
+joseph began to work last night . 0.0028
+joseph had began to work last night . 0.0747
+joseph had begun to work last night . 0.0023
+allen begun to work over there . 0.0184
+allen began to work over there . 0.0045
+allen had began to work over there . 0.0723
+allen had begun to work over there . 0.0023
+michael given a book to a student over there . 0.0098
+michael gave a book to a student over there . 0.0103
+michael had gave a book to a student over there . 0.0650
+michael had given a book to a student over there . 0.0074
+michael taken it at home . 0.1015
+michael took it at home . 0.0699
+michael had took it at home . 0.0705
+michael had taken it at home . 0.1212
+sam seen a shape at home . 0.0317
+sam saw a shape at home . 0.0098
+sam had saw a shape at home . 0.0212
+sam had seen a shape at home . 0.0148
+chris come to the store this morning . 0.0111
+chris came to the store this morning . 0.0143
+chris had came to the store this morning . 0.0185
+chris had come to the store this morning . 0.0036
+robert seen something some time ago . 0.0127
+robert saw something some time ago . 0.0086
+robert had saw something some time ago . 0.0161
+robert had seen something some time ago . 0.0114
+laura come just in time some time ago . 0.0950
+laura came just in time some time ago . 0.0238
+laura had came just in time some time ago . 0.1950
+laura had come just in time some time ago . 0.0049
+robert drawn a picture some time ago . 0.0023
+robert drew a picture some time ago . 0.0020
+robert had drew a picture some time ago . 0.0060
+robert had drawn a picture some time ago . 0.0026
+william chosen the good one some time ago . 0.0182
+william chose the good one some time ago . 0.0144
+william had chose the good one some time ago . 0.0188
+william had chosen the good one some time ago . 0.0289
+william known a lot of things this morning . 0.1567
+william knew a lot of things this morning . 0.0359
+william had knew a lot of things this morning . 0.0865
+william had known a lot of things this morning . 0.0258
+joseph written a story last night . 0.0069
+joseph wrote a story last night . 0.0026
+joseph had wrote a story last night . 0.0073
+joseph had written a story last night . 0.0023
+allen known a lot of things some time ago . 0.0297
+allen knew a lot of things some time ago . 0.0116
+allen had knew a lot of things some time ago . 0.0330
+allen had known a lot of things some time ago . 0.0051
+william seen something last night . 0.0732
+william saw something last night . 0.0042
+william had saw something last night . 0.0321
+william had seen something last night . 0.0035
+sarah seen a bird at home . 0.0913
+sarah saw a bird at home . 0.0349
+sarah had saw a bird at home . 0.5216
+sarah had seen a bird at home . 0.3372
+michael taken it last night . 0.1394
+michael took it last night . 0.0541
+michael had took it last night . 0.0828
+michael had taken it last night . 0.1629
+joseph taken it at home . 0.0053
+joseph took it at home . 0.0024
+joseph had took it at home . 0.0053
+joseph had taken it at home . 0.0009
+joseph chosen the best option some time ago . 0.0080
+joseph chose the best option some time ago . 0.0033
+joseph had chose the best option some time ago . 0.0051
+joseph had chosen the best option some time ago . 0.0071
+sam written a story over there . 0.0246
+sam wrote a story over there . 0.0059
+sam had wrote a story over there . 0.0558
+sam had written a story over there . 0.0433
+chris become angry this morning . 0.0131
+chris became angry this morning . 0.0065
+chris had became angry this morning . 0.0669
+chris had become angry this morning . 0.0039
+joseph grown quickly some time ago . 0.0258
+joseph grew quickly some time ago . 0.0718
+joseph had grew quickly some time ago . 0.0962
+joseph had grown quickly some time ago . 0.0210
+allen drawn a round circle over there . 0.0022
+allen drew a round circle over there . 0.0036
+allen had drew a round circle over there . 0.0038
+allen had drawn a round circle over there . 0.0024
+chris drawn a map over there . 0.0071
+chris drew a map over there . 0.0079
+chris had drew a map over there . 0.0029
+chris had drawn a map over there . 0.0021
+allen seen a shape at home . 0.3098
+allen saw a shape at home . 0.0240
+allen had saw a shape at home . 0.0105
+allen had seen a shape at home . 0.0142
+laura taken it at home . 0.1400
+laura took it at home . 0.0131
+laura had took it at home . 0.0072
+laura had taken it at home . 0.0050
+sarah taken some food this morning . 0.5762
+sarah took some food this morning . 0.2008
+sarah had took some food this morning . 0.5867
+sarah had taken some food this morning . 0.6478
+sam spoken without thinking over there . 0.0856
+sam spoke without thinking over there . 0.0821
+sam had spoke without thinking over there . 0.1494
+sam had spoken without thinking over there . 0.0614
+william chosen the best option last night . 0.0111
+william chose the best option last night . 0.0017
+william had chose the best option last night . 0.0024
+william had chosen the best option last night . 0.0031
+anne spoken without thinking some time ago . 0.0940
+anne spoke without thinking some time ago . 0.0114
+anne had spoke without thinking some time ago . 0.0207
+anne had spoken without thinking some time ago . 0.0168
+chris taken some food some time ago . 0.0285
+chris took some food some time ago . 0.0047
+chris had took some food some time ago . 0.0071
+chris had taken some food some time ago . 0.0052
+sarah seen a shape last night . 0.0539
+sarah saw a shape last night . 0.1187
+sarah had saw a shape last night . 0.6693
+sarah had seen a shape last night . 0.5325
+chris drawn a round circle this morning . 0.0074
+chris drew a round circle this morning . 0.0110
+chris had drew a round circle this morning . 0.0198
+chris had drawn a round circle this morning . 0.0097
+anne drawn a round circle some time ago . 0.1969
+anne drew a round circle some time ago . 0.1587
+anne had drew a round circle some time ago . 0.0388
+anne had drawn a round circle some time ago . 0.0985
+laura come to the store some time ago . 0.0123
+laura came to the store some time ago . 0.0096
+laura had came to the store some time ago . 0.0155
+laura had come to the store some time ago . 0.0033
+anne drawn a picture over there . 0.2597
+anne drew a picture over there . 0.0704
+anne had drew a picture over there . 0.0267
+anne had drawn a picture over there . 0.0233
+anne given something sweet to the baby some time ago . 0.1483
+anne gave something sweet to the baby some time ago . 0.0421
+anne had gave something sweet to the baby some time ago . 0.0563
+anne had given something sweet to the baby some time ago . 0.0596
+william begun to work at home . 0.0158
+william began to work at home . 0.0009
+william had began to work at home . 0.0252
+william had begun to work at home . 0.0010
+sam seen something last night . 0.1177
+sam saw something last night . 0.0651
+sam had saw something last night . 0.0903
+sam had seen something last night . 0.0789
+sarah begun to work last night . 0.2237
+sarah began to work last night . 0.0905
+sarah had began to work last night . 0.7198
+sarah had begun to work last night . 0.5502
+sarah chosen the good one this morning . 0.1909
+sarah chose the good one this morning . 0.0977
+sarah had chose the good one this morning . 0.3713
+sarah had chosen the good one this morning . 0.4441
+anne chosen the good one at home . 0.0179
+anne chose the good one at home . 0.0061
+anne had chose the good one at home . 0.0086
+anne had chosen the good one at home . 0.0224
+chris given a book to a student some time ago . 0.0035
+chris gave a book to a student some time ago . 0.0085
+chris had gave a book to a student some time ago . 0.0207
+chris had given a book to a student some time ago . 0.0020
+sam chosen the good one this morning . 0.0227
+sam chose the good one this morning . 0.0233
+sam had chose the good one this morning . 0.0319
+sam had chosen the good one this morning . 0.0277
+laura become angry last night . 0.0190
+laura became angry last night . 0.0099
+laura had became angry last night . 0.1015
+laura had become angry last night . 0.0036
+sarah spoken without thinking some time ago . 0.1115
+sarah spoke without thinking some time ago . 0.0409
+sarah had spoke without thinking some time ago . 0.2374
+sarah had spoken without thinking some time ago . 0.1714
+laura drawn a map last night . 0.0754
+laura drew a map last night . 0.0034
+laura had drew a map last night . 0.0029
+laura had drawn a map last night . 0.0024
+sam chosen the good one some time ago . 0.0240
+sam chose the good one some time ago . 0.0195
+sam had chose the good one some time ago . 0.0380
+sam had chosen the good one some time ago . 0.0532
+laura become angry over there . 0.0248
+laura became angry over there . 0.0071
+laura had became angry over there . 0.0795
+laura had become angry over there . 0.0032
+robert given money to the man over there . 0.0083
+robert gave money to the man over there . 0.0114
+robert had gave money to the man over there . 0.0357
+robert had given money to the man over there . 0.0020
+sam seen something over there . 0.1782
+sam saw something over there . 0.1276
+sam had saw something over there . 0.1637
+sam had seen something over there . 0.1363
+sarah drawn a picture at home . 0.0088
+sarah drew a picture at home . 0.0172
+sarah had drew a picture at home . 0.4870
+sarah had drawn a picture at home . 0.1774
+allen become very different some time ago . 0.0166
+allen became very different some time ago . 0.0030
+allen had became very different some time ago . 0.0280
+allen had become very different some time ago . 0.0047
+joseph given money to the man this morning . 0.0069
+joseph gave money to the man this morning . 0.0072
+joseph had gave money to the man this morning . 0.0196
+joseph had given money to the man this morning . 0.0026
+chris spoken about many things this morning . 0.0324
+chris spoke about many things this morning . 0.0213
+chris had spoke about many things this morning . 0.0274
+chris had spoken about many things this morning . 0.0152
+sarah become someone else last night . 0.4114
+sarah became someone else last night . 0.0327
+sarah had became someone else last night . 0.2256
+sarah had become someone else last night . 0.1796
+michael written a note over there . 0.0534
+michael wrote a note over there . 0.0226
+michael had wrote a note over there . 0.0711
+michael had written a note over there . 0.0122
+allen chosen the best option at home . 0.0052
+allen chose the best option at home . 0.0008
+allen had chose the best option at home . 0.0008
+allen had chosen the best option at home . 0.0012
+sarah spoken about many things last night . 0.3606
+sarah spoke about many things last night . 0.2123
+sarah had spoke about many things last night . 0.5563
+sarah had spoken about many things last night . 0.4714
+chris written a story at home . 0.0368
+chris wrote a story at home . 0.0014
+chris had wrote a story at home . 0.0030
+chris had written a story at home . 0.0009
+anne known a lot of things last night . 0.2051
+anne knew a lot of things last night . 0.0065
+anne had knew a lot of things last night . 0.0513
+anne had known a lot of things last night . 0.0061
+michael given money to the man this morning . 0.0246
+michael gave money to the man this morning . 0.0260
+michael had gave money to the man this morning . 0.0665
+michael had given money to the man this morning . 0.0133
+joseph spoken to me last night . 0.0424
+joseph spoke to me last night . 0.0075
+joseph had spoke to me last night . 0.0179
+joseph had spoken to me last night . 0.0020
+joseph spoken without thinking at home . 0.0012
+joseph spoke without thinking at home . 0.0010
+joseph had spoke without thinking at home . 0.0072
+joseph had spoken without thinking at home . 0.0008
+william drawn a round circle at home . 0.0058
+william drew a round circle at home . 0.0045
+william had drew a round circle at home . 0.0038
+william had drawn a round circle at home . 0.0034
+chris written into a book last night . 0.0049
+chris wrote into a book last night . 0.0049
+chris had wrote into a book last night . 0.0192
+chris had written into a book last night . 0.0058
+michael drawn a map at home . 0.0056
+michael drew a map at home . 0.0539
+michael had drew a map at home . 0.0271
+michael had drawn a map at home . 0.0786
+chris spoken very fast over there . 0.0076
+chris spoke very fast over there . 0.0038
+chris had spoke very fast over there . 0.0083
+chris had spoken very fast over there . 0.0029
+anne taken it at home . 0.0753
+anne took it at home . 0.0349
+anne had took it at home . 0.0279
+anne had taken it at home . 0.0289
+michael seen something this morning . 0.3999
+michael saw something this morning . 0.0245
+michael had saw something this morning . 0.0584
+michael had seen something this morning . 0.0267
+robert become someone else last night . 0.0135
+robert became someone else last night . 0.0316
+robert had became someone else last night . 0.0804
+robert had become someone else last night . 0.0049
+chris come to the store last night . 0.0049
+chris came to the store last night . 0.0055
+chris had came to the store last night . 0.0459
+chris had come to the store last night . 0.0019
+sarah known she could do it some time ago . 0.2326
+sarah knew she could do it some time ago . 0.2278
+sarah had knew she could do it some time ago . 0.8047
+sarah had known she could do it some time ago . 0.2303
+anne drawn a round circle this morning . 0.1586
+anne drew a round circle this morning . 0.0216
+anne had drew a round circle this morning . 0.0133
+anne had drawn a round circle this morning . 0.0198
+chris given money to the man this morning . 0.0125
+chris gave money to the man this morning . 0.0162
+chris had gave money to the man this morning . 0.0638
+chris had given money to the man this morning . 0.0056
+laura spoken about many things last night . 0.0568
+laura spoke about many things last night . 0.0077
+laura had spoke about many things last night . 0.0187
+laura had spoken about many things last night . 0.0095
+chris given something sweet to the baby this morning . 0.0466
+chris gave something sweet to the baby this morning . 0.0127
+chris had gave something sweet to the baby this morning . 0.0266
+chris had given something sweet to the baby this morning . 0.0071
+william become angry last night . 0.0154
+william became angry last night . 0.0289
+william had became angry last night . 0.1281
+william had become angry last night . 0.0066
+allen seen something over there . 0.2535
+allen saw something over there . 0.0072
+allen had saw something over there . 0.0241
+allen had seen something over there . 0.0098
+joseph known she could do it this morning . 0.2316
+joseph knew she could do it this morning . 0.0149
+joseph had knew she could do it this morning . 0.0514
+joseph had known she could do it this morning . 0.0065
+william grown quickly over there . 0.0181
+william grew quickly over there . 0.0499
+william had grew quickly over there . 0.0583
+william had grown quickly over there . 0.0116
+chris taken a paper this morning . 0.0194
+chris took a paper this morning . 0.0322
+chris had took a paper this morning . 0.0194
+chris had taken a paper this morning . 0.0105
+sarah given money to the man this morning . 0.2666
+sarah gave money to the man this morning . 0.2880
+sarah had gave money to the man this morning . 0.5844
+sarah had given money to the man this morning . 0.3882
+sam taken them at home . 0.0174
+sam took them at home . 0.0184
+sam had took them at home . 0.0732
+sam had taken them at home . 0.0760
+sam taken them last night . 0.0091
+sam took them last night . 0.0231
+sam had took them last night . 0.1835
+sam had taken them last night . 0.1223
+chris come just in time over there . 0.0033
+chris came just in time over there . 0.0043
+chris had came just in time over there . 0.1078
+chris had come just in time over there . 0.0015
+william spoken without thinking this morning . 0.0067
+william spoke without thinking this morning . 0.0069
+william had spoke without thinking this morning . 0.0374
+william had spoken without thinking this morning . 0.0054
+michael spoken to me at home . 0.0277
+michael spoke to me at home . 0.0420
+michael had spoke to me at home . 0.1029
+michael had spoken to me at home . 0.0540
+chris drawn a picture over there . 0.0025
+chris drew a picture over there . 0.0057
+chris had drew a picture over there . 0.0018
+chris had drawn a picture over there . 0.0011
+allen known she could do it some time ago . 0.1546
+allen knew she could do it some time ago . 0.0044
+allen had knew she could do it some time ago . 0.0484
+allen had known she could do it some time ago . 0.0024
+laura come when we needed her over there . 0.4535
+laura came when we needed her over there . 0.0258
+laura had came when we needed her over there . 0.0710
+laura had come when we needed her over there . 0.0816
+joseph written with a large pen some time ago . 0.0066
+joseph wrote with a large pen some time ago . 0.0099
+joseph had wrote with a large pen some time ago . 0.0355
+joseph had written with a large pen some time ago . 0.0026
+william come just in time last night . 0.0075
+william came just in time last night . 0.0104
+william had came just in time last night . 0.1415
+william had come just in time last night . 0.0019
+sarah become angry at home . 0.1663
+sarah became angry at home . 0.0225
+sarah had became angry at home . 0.4212
+sarah had become angry at home . 0.2575
+sarah known a lot of things last night . 0.1792
+sarah knew a lot of things last night . 0.1817
+sarah had knew a lot of things last night . 0.5781
+sarah had known a lot of things last night . 0.5873
+allen spoken to me this morning . 0.0668
+allen spoke to me this morning . 0.0148
+allen had spoke to me this morning . 0.0363
+allen had spoken to me this morning . 0.0102
+joseph written a story this morning . 0.0280
+joseph wrote a story this morning . 0.0044
+joseph had wrote a story this morning . 0.0147
+joseph had written a story this morning . 0.0082
+sam given money to the man some time ago . 0.0173
+sam gave money to the man some time ago . 0.0099
+sam had gave money to the man some time ago . 0.0618
+sam had given money to the man some time ago . 0.0403
+anne known she could do it this morning . 0.1816
+anne knew she could do it this morning . 0.0163
+anne had knew she could do it this morning . 0.1327
+anne had known she could do it this morning . 0.0192
+chris spoken about many things at home . 0.0294
+chris spoke about many things at home . 0.0063
+chris had spoke about many things at home . 0.0079
+chris had spoken about many things at home . 0.0077
+william written with a large pen over there . 0.0054
+william wrote with a large pen over there . 0.0033
+william had wrote with a large pen over there . 0.0305
+william had written with a large pen over there . 0.0057
+allen written a story this morning . 0.0819
+allen wrote a story this morning . 0.0027
+allen had wrote a story this morning . 0.0095
+allen had written a story this morning . 0.0053
+anne chosen the best option this morning . 0.0782
+anne chose the best option this morning . 0.0072
+anne had chose the best option this morning . 0.0097
+anne had chosen the best option this morning . 0.0136
+sam taken the bell at home . 0.0058
+sam took the bell at home . 0.0074
+sam had took the bell at home . 0.0505
+sam had taken the bell at home . 0.0297
+joseph become someone else at home . 0.0712
+joseph became someone else at home . 0.0029
+joseph had became someone else at home . 0.0245
+joseph had become someone else at home . 0.0010
+michael given a book to a student this morning . 0.0163
+michael gave a book to a student this morning . 0.0210
+michael had gave a book to a student this morning . 0.0653
+michael had given a book to a student this morning . 0.0091
+sam seen something this morning . 0.2735
+sam saw something this morning . 0.1275
+sam had saw something this morning . 0.1127
+sam had seen something this morning . 0.1133
+michael written into a book over there . 0.0143
+michael wrote into a book over there . 0.0172
+michael had wrote into a book over there . 0.0228
+michael had written into a book over there . 0.0145
+anne become very different this morning . 0.1133
+anne became very different this morning . 0.0295
+anne had became very different this morning . 0.1880
+anne had become very different this morning . 0.0513
+anne written with a large pen at home . 0.2114
+anne wrote with a large pen at home . 0.0073
+anne had wrote with a large pen at home . 0.0197
+anne had written with a large pen at home . 0.0287
+joseph spoken very fast over there . 0.0139
+joseph spoke very fast over there . 0.0020
+joseph had spoke very fast over there . 0.0053
+joseph had spoken very fast over there . 0.0024
+sam taken it last night . 0.0089
+sam took it last night . 0.0122
+sam had took it last night . 0.0666
+sam had taken it last night . 0.0410
+sarah written with a large pen at home . 0.0289
+sarah wrote with a large pen at home . 0.0127
+sarah had wrote with a large pen at home . 0.2033
+sarah had written with a large pen at home . 0.2220
+laura spoken to me last night . 0.1198
+laura spoke to me last night . 0.0070
+laura had spoke to me last night . 0.0162
+laura had spoken to me last night . 0.0036
+joseph come just in time some time ago . 0.0190
+joseph came just in time some time ago . 0.0126
+joseph had came just in time some time ago . 0.1144
+joseph had come just in time some time ago . 0.0017
+laura come too late last night . 0.0151
+laura came too late last night . 0.0074
+laura had came too late last night . 0.0365
+laura had come too late last night . 0.0054
+sam come too late last night . 0.0604
+sam came too late last night . 0.0699
+sam had came too late last night . 0.1659
+sam had come too late last night . 0.2284
+chris written into a book over there . 0.0124
+chris wrote into a book over there . 0.0044
+chris had wrote into a book over there . 0.0183
+chris had written into a book over there . 0.0149
+sam known a lot of things over there . 0.1003
+sam knew a lot of things over there . 0.0375
+sam had knew a lot of things over there . 0.0859
+sam had known a lot of things over there . 0.0419
+sam given something sweet to the baby over there . 0.0174
+sam gave something sweet to the baby over there . 0.0130
+sam had gave something sweet to the baby over there . 0.0346
+sam had given something sweet to the baby over there . 0.0158
+joseph known a lot of things last night . 0.0486
+joseph knew a lot of things last night . 0.0074
+joseph had knew a lot of things last night . 0.0547
+joseph had known a lot of things last night . 0.0034
+sarah seen a shape some time ago . 0.0932
+sarah saw a shape some time ago . 0.2657
+sarah had saw a shape some time ago . 0.4694
+sarah had seen a shape some time ago . 0.3767
+joseph given something sweet to the baby this morning . 0.0075
+joseph gave something sweet to the baby this morning . 0.0075
+joseph had gave something sweet to the baby this morning . 0.0176
+joseph had given something sweet to the baby this morning . 0.0040
+joseph given money to the man over there . 0.0093
+joseph gave money to the man over there . 0.0035
+joseph had gave money to the man over there . 0.0129
+joseph had given money to the man over there . 0.0024
+robert come when we needed her this morning . 0.0160
+robert came when we needed her this morning . 0.0042
+robert had came when we needed her this morning . 0.0122
+robert had come when we needed her this morning . 0.0032
+william written a story some time ago . 0.0083
+william wrote a story some time ago . 0.0017
+william had wrote a story some time ago . 0.0158
+william had written a story some time ago . 0.0038
+allen come to the store at home . 0.0063
+allen came to the store at home . 0.0053
+allen had came to the store at home . 0.0135
+allen had come to the store at home . 0.0036
+laura given something sweet to the baby over there . 0.1220
+laura gave something sweet to the baby over there . 0.0068
+laura had gave something sweet to the baby over there . 0.0233
+laura had given something sweet to the baby over there . 0.0051
+robert written a note over there . 0.0528
+robert wrote a note over there . 0.0012
+robert had wrote a note over there . 0.0027
+robert had written a note over there . 0.0027
+chris known a lot of things some time ago . 0.0402
+chris knew a lot of things some time ago . 0.0144
+chris had knew a lot of things some time ago . 0.0340
+chris had known a lot of things some time ago . 0.0045
+allen known a lot of things at home . 0.0971
+allen knew a lot of things at home . 0.0087
+allen had knew a lot of things at home . 0.0310
+allen had known a lot of things at home . 0.0031
+allen drawn a picture at home . 0.0012
+allen drew a picture at home . 0.0006
+allen had drew a picture at home . 0.0026
+allen had drawn a picture at home . 0.0004
+sarah written a note this morning . 0.1093
+sarah wrote a note this morning . 0.1255
+sarah had wrote a note this morning . 0.3813
+sarah had written a note this morning . 0.4072
+laura taken a paper some time ago . 0.0708
+laura took a paper some time ago . 0.0054
+laura had took a paper some time ago . 0.0076
+laura had taken a paper some time ago . 0.0025
+allen become angry at home . 0.0576
+allen became angry at home . 0.0021
+allen had became angry at home . 0.0344
+allen had become angry at home . 0.0012
+michael drawn a picture this morning . 0.4761
+michael drew a picture this morning . 0.0759
+michael had drew a picture this morning . 0.4123
+michael had drawn a picture this morning . 0.4588
+robert come too late at home . 0.0016
+robert came too late at home . 0.0014
+robert had came too late at home . 0.0059
+robert had come too late at home . 0.0009
+allen taken them over there . 0.0924
+allen took them over there . 0.0030
+allen had took them over there . 0.0339
+allen had taken them over there . 0.0030
+robert drawn a map last night . 0.0014
+robert drew a map last night . 0.0023
+robert had drew a map last night . 0.0037
+robert had drawn a map last night . 0.0009
+sam written a story this morning . 0.0798
+sam wrote a story this morning . 0.0105
+sam had wrote a story this morning . 0.0401
+sam had written a story this morning . 0.0229
+anne become someone else last night . 0.1272
+anne became someone else last night . 0.1015
+anne had became someone else last night . 0.0641
+anne had become someone else last night . 0.0113
+william drawn a round circle last night . 0.0029
+william drew a round circle last night . 0.0037
+william had drew a round circle last night . 0.0067
+william had drawn a round circle last night . 0.0029
+anne come too late last night . 0.0300
+anne came too late last night . 0.0187
+anne had came too late last night . 0.0483
+anne had come too late last night . 0.0331
+joseph given something sweet to the baby at home . 0.0034
+joseph gave something sweet to the baby at home . 0.0045
+joseph had gave something sweet to the baby at home . 0.0213
+joseph had given something sweet to the baby at home . 0.0015
+joseph drawn a round circle at home . 0.0043
+joseph drew a round circle at home . 0.0042
+joseph had drew a round circle at home . 0.0023
+joseph had drawn a round circle at home . 0.0017
+chris taken the bell some time ago . 0.0229
+chris took the bell some time ago . 0.0022
+chris had took the bell some time ago . 0.0054
+chris had taken the bell some time ago . 0.0031
+michael written with a large pen this morning . 0.0162
+michael wrote with a large pen this morning . 0.0297
+michael had wrote with a large pen this morning . 0.0239
+michael had written with a large pen this morning . 0.0513
+allen become someone else at home . 0.0364
+allen became someone else at home . 0.0036
+allen had became someone else at home . 0.0308
+allen had become someone else at home . 0.0015
+william drawn a round circle over there . 0.0034
+william drew a round circle over there . 0.0041
+william had drew a round circle over there . 0.0057
+william had drawn a round circle over there . 0.0039
