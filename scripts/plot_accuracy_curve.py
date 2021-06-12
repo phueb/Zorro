@@ -65,8 +65,8 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
 
     # print n
     for gn, model_output_paths in group_name2model_output_paths.items():
-        reps = get_reps(model_output_paths, pattern=str(steps[-1]))
-        print(f'{gn:.<64}n={reps}')
+        reps = get_reps(model_output_paths)
+        print(f'{gn:.<64}n={reps:>2}')
 
     # init data
     group_name2rep2curve = defaultdict(dict)

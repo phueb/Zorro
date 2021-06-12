@@ -14,14 +14,21 @@ from zorro.utils import shorten_tick_label
 
 MULTI_AXIS_LEG_NUM_COLS = 2  # 2 or 3 depending on space
 MULTI_AXIS_LEG_OFFSET = 0.12
-SUMMARY_LEG_OFFSET = 0.45
+STANDALONE_LEG_OFFSET = 0.45
 STANDALONE_FIG_SIZE = (4, 4)
 
+# lines figure
+Y_TICK_LABEL_FONTSIZE = 5
 
-def shorten(name: str):
-    """make name of phenomenon shorter to fit in figure"""
-    name = name.replace('demonstrative', 'det.')
-    return name
+
+def make_ax_title(name: str):
+    ax_title = name.replace('_', ' ')
+    ax_title = ax_title.replace('coordinate', 'coord.')
+    ax_title = ax_title.replace('structure', 'struct.')
+    ax_title = ax_title.replace('prepositional', 'prep.')
+    ax_title = ax_title.replace('agreement', 'agreem.')
+    ax_title = ax_title.replace('demonstrative', 'det.')
+    return ax_title
 
 
 @dataclass
@@ -37,7 +44,7 @@ class ParadigmDataLines:
     name: str = field(init=False)
 
     def __post_init__(self):
-        self.name = f'{shorten(self.phenomenon)}\n{self.paradigm}'
+        self.name = f'{self.phenomenon}\n{self.paradigm}'
 
 
 @dataclass
@@ -53,16 +60,16 @@ class ParadigmDataBars:
     name: str = field(init=False)
 
     def __post_init__(self):
-        self.name = f'{shorten(self.phenomenon)}\n{self.paradigm}'
+        self.name = f'{self.phenomenon}\n{self.paradigm}'
 
 
 class VisualizerBase:
     def __init__(self,
                  phenomena_paradigms: List[Tuple[str, str]],
                  y_lims: Optional[List[float]] = None,
-                 fig_size: int = (6, 6),
+                 fig_size: int = (6, 5),
                  dpi: int = 300,
-                 show_partial_figure: bool = False,
+                 show_partial_figure: bool = True,
                  confidence: float = 0.90,
                  ):
 
@@ -72,7 +79,7 @@ class VisualizerBase:
         self.confidence = confidence
 
         # calc num rows needed
-        self.num_cols = 4
+        self.num_cols = 5
         num_paradigms = len(phenomena_paradigms)
         num_paradigms_and_summary = num_paradigms + 1
         num_rows_for_data = num_paradigms_and_summary / self.num_cols
@@ -149,14 +156,17 @@ class VisualizerLines(VisualizerBase):
 
         # get next axis
         ax_id, ax = next(self.axes)
-        ax_title = pd.name.replace('_', ' ')
+
+        # title
+        ax_title = make_ax_title(pd.name)
         ax.set_title(ax_title, fontsize=configs.Figs.title_font_size)
+
         # y axis
         if ax_id % self.ax_mat.shape[1] == 0:
             ax.set_ylabel(self.y_axis_label, fontsize=configs.Figs.ax_font_size)
             y_ticks = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
             ax.set_yticks(y_ticks)
-            ax.set_yticklabels(y_ticks, fontsize=configs.Figs.tick_font_size)
+            ax.set_yticklabels(y_ticks, fontsize=Y_TICK_LABEL_FONTSIZE)
 
         # x-axis
         if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
@@ -206,7 +216,6 @@ class VisualizerLines(VisualizerBase):
         # get next axis in multi-axis figure and plot summary there
         ax_id, ax = next(self.axes)
         self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0, use_title=True)
-        self.fig.show()
 
         # remove axis decoration from any remaining axis
         for ax_id, ax in self.axes:
@@ -216,7 +225,10 @@ class VisualizerLines(VisualizerBase):
         fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=STANDALONE_FIG_SIZE, dpi=300)
         self._plot_summary_on_axis(ax1, label_y_axis=True, use_title=False)
         ax2.axis('off')
-        self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET, fig=fig_standalone)
+        self._plot_legend(offset_from_bottom=STANDALONE_LEG_OFFSET, fig=fig_standalone)
+
+        # show
+        self.fig.show()
         fig_standalone.show()
 
     def _plot_summary_on_axis(self, ax: plt.axis,
@@ -334,7 +346,9 @@ class VisualizerBars(VisualizerBase):
 
         # get next axis
         ax_id, ax = next(self.axes)
-        ax_title = pd.name.replace("_"," ")
+
+        # title
+        ax_title = make_ax_title(pd.name)
         ax.set_title(ax_title, fontsize=configs.Figs.title_font_size)
 
         # y axis
@@ -392,7 +406,6 @@ class VisualizerBars(VisualizerBase):
         # get next axis in multi-axis figure and plot summary there
         ax_id, ax = next(self.axes)
         self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0, use_title=True)
-        self.fig.show()
 
         # remove axis decoration from any remaining axis
         for ax_id, ax in self.axes:
@@ -403,7 +416,10 @@ class VisualizerBars(VisualizerBase):
         self._plot_boxplot_summary_on_axis(ax1)
         ax2.axis('off')
         fig_standalone.subplots_adjust(top=0.1, bottom=0.01)
-        self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET+0.02, fig=fig_standalone)
+        self._plot_legend(offset_from_bottom=STANDALONE_LEG_OFFSET + 0.02, fig=fig_standalone)
+
+        # show
+        self.fig.show()
         fig_standalone.show()
 
     def _plot_summary_on_axis(self,
@@ -426,6 +442,7 @@ class VisualizerBars(VisualizerBase):
         # x-axis
         ax.set_xticks([])
         ax.set_xticklabels([])
+
         # y axis
         if label_y_axis:
             ax.set_ylabel(y_axis_label, fontsize=configs.Figs.ax_font_size)

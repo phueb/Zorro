@@ -13,8 +13,9 @@ rcParams['axes.spines.top'] = False
 
 
 def get_reps(model_output_paths: List[Path],
-             pattern: str,
              ) -> int:
+    # pattern should only occur once per rep
+    pattern = 'probing_agreement_demonstrative_subject-across_1_adjective_results_260000.txt'
     return len([path for path in model_output_paths if path.stem.endswith(pattern)])
 
 
@@ -171,12 +172,16 @@ def get_legend_label(group_name,
     try:
         res += f'| {param2val["corpora"]} '
     except KeyError:
-        raise KeyError(f'Did not find "data_size" param2val for {group_name}')
+        raise KeyError(f'Did not find "corpora" param2val for {group_name}')
 
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
-            param2val_previous = load_param2val(param2val[c], runs_path.parent / 'runs_saved')
-            res += f'| previously trained on {param2val_previous["corpora"]} '
+            try:
+                param2val_previous = load_param2val(param2val[c], runs_path.parent / 'runs_saved')
+            except FileNotFoundError:
+                res += f'| loaded from {param2val[c]} '
+            else:
+                res += f'| previously trained on {param2val_previous["corpora"]} '
             continue
         try:
             val = param2val[c]
