@@ -1,4 +1,4 @@
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, List, Optional, Tuple, Union, Any
 import numpy as np
 from pathlib import Path
 from matplotlib import rcParams
@@ -13,12 +13,8 @@ rcParams['axes.spines.top'] = False
 
 
 def get_reps(model_output_paths: List[Path],
-             step: Union[int, None],
+             pattern: str,
              ) -> int:
-    if step is not None:
-        pattern = f'_{step}'
-    else:
-        pattern = ''
     return len([path for path in model_output_paths if path.stem.endswith(pattern)])
 
 
@@ -141,12 +137,11 @@ def shorten_tick_label(label: Union[str, int],
 
 
 def get_legend_label(group_name,
-                     reps,
                      conditions: Optional[List[str]] = None,
                      add_group_name: bool = False,
                      ) -> str:
 
-    conditions = conditions or configs.Eval.conditions
+    conditions = conditions or []
 
     if 'data_size' not in conditions:
         conditions.insert(0, 'data_size')
@@ -161,7 +156,7 @@ def get_legend_label(group_name,
 
     param2val = load_param2val(group_name, runs_path)
 
-    if 'BabyBERTa' in group_name:
+    if 'BabyBERTa' in group_name or 'param_' in group_name:
         model_name = 'BabyBERTa'
     elif 'RoBERTa-base' in group_name or 'Roberta-base' in group_name:
         model_name = 'RoBERTa-base'
@@ -169,10 +164,7 @@ def get_legend_label(group_name,
         raise AttributeError(f'Did not recognize {group_name}. BabyBERTa or RoBERTa-base?')
 
     # init label
-    if configs.Eval.add_reps_to_legend:
-        res = f'{model_name} | n={reps} '
-    else:
-        res = f'{model_name} '
+    res = f'{model_name} '
 
     # add corpora info
     try:
@@ -226,3 +218,40 @@ def load_param2val(group_name, runs_path):
     with path.open('r') as f:
         param2val = yaml.load(f, Loader=yaml.FullLoader)
     return param2val
+
+
+def load_group_names(param_names: Optional[List[str]] = None,
+                     included_params: Dict[str, Any] = None,
+                     ) -> List[str]:
+
+    # get files locally, where we have runs at single time points only
+    if configs.Eval.local_runs:
+        runs_path = configs.Dirs.runs_local
+    else:
+        runs_path = configs.Dirs.runs_remote
+
+    if param_names is None:
+        group_names_ = sorted([p.name for p in runs_path.glob('*')])
+    else:
+        group_names_ = param_names
+
+    # filter
+    if included_params:
+        res = []
+        for gn in group_names_:
+            path = runs_path / gn / 'param2val.yaml'
+            with path.open('r') as f:
+                param2val = yaml.load(f, Loader=yaml.FullLoader)
+            for k, v in included_params.items():
+                if param2val[k] == v:
+                    res.append(gn)
+    else:
+        res = group_names_
+
+    if not res:
+        raise RuntimeError(f'Did not find model output files for {res}.'
+                           f' Check configs.Eval.param_names')
+    else:
+        print(f'Found {res}')
+
+    return res

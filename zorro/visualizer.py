@@ -28,40 +28,32 @@ def shorten(name: str):
 class ParadigmDataLines:
     phenomenon: str
     paradigm: str
-    group_name2model_output_paths: Dict[str, List[Path]]
+    group_names: List[str]
+    labels: List[str]
     group_name2template2curve: Dict[str, Dict[str, List[float]]]  # grouped by template
     group_name2rep2curve: Dict[str, Dict[int, List[float]]]  # grouped by replication
 
     # init=False
-    labels: List[str] = field(init=False)
     name: str = field(init=False)
-    group_names: List[str] = field(init=False)
 
     def __post_init__(self):
-        self.labels = [get_legend_label(gn, reps=get_reps(model_output_paths, step=0))
-                       for gn, model_output_paths in self.group_name2model_output_paths.items()]
         self.name = f'{shorten(self.phenomenon)}\n{self.paradigm}'
-        self.group_names = [gn for gn in self.group_name2model_output_paths]
 
 
 @dataclass
 class ParadigmDataBars:
     phenomenon: str
     paradigm: str
-    group_name2model_output_paths: Dict[str, List[Path]]
+    group_names: List[str]
+    labels: List[str]
     group_name2template2acc: Dict[str, Dict[str, float]]  # grouped by template
     group_name2rep2acc: Dict[str, Dict[int, float]]  # grouped by replication
 
     # init=False
-    labels: List[str] = field(init=False)
     name: str = field(init=False)
-    group_names: List[str] = field(init=False)
 
     def __post_init__(self):
-        self.labels = [get_legend_label(gn, reps=get_reps(model_output_paths, step=None))
-                       for gn, model_output_paths in self.group_name2model_output_paths.items()]
         self.name = f'{shorten(self.phenomenon)}\n{self.paradigm}'
-        self.group_names = [gn for gn in self.group_name2model_output_paths]
 
 
 class VisualizerBase:
@@ -112,6 +104,7 @@ class VisualizerBase:
 
 class VisualizerLines(VisualizerBase):
     def __init__(self,
+                 steps: List[int],
                  line_width: int = 1,
                  **kwargs
                  ):
@@ -121,11 +114,11 @@ class VisualizerLines(VisualizerBase):
 
         self.line_width = line_width
         self.x_axis_label = 'Training Step'
-        self.x_ticks = configs.Eval.steps
+        self.x_ticks = steps
 
         self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
 
-        self.last_step = configs.Eval.steps[-1]
+        self.last_step = steps[-1]
 
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}

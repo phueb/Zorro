@@ -34,7 +34,6 @@ class Data:
 
 
 class Eval:
-    included_params = {}
     categorize_by_template = False
     excluded_paradigms = [
         'existential_there_2',  # too difficult
@@ -43,34 +42,6 @@ class Eval:
         'verb_in_passive_voice',  # not in BLiMP and redundant with other other "irregular" paradigm
     ]
     local_runs = False  # use model output stored locally in Zorro/runs/
-    add_reps_to_legend = False
-
-    # exp1 (part of experiment that is comparing unmasking only)
-    # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = []  # [f'param_{i:03}' for i in [28, 35]]
-    # conditions = ['corpora', 'leave_unmasked_prob']
-
-    # exp2
-    # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [1, 2, 3]]
-    # conditions = ['corpora', ]
-
-    # exp3
-    # steps = [i for i in range(0, 280_000, 20_000)]
-    # param_names = [f'param_{i:03}' for i in [1, 2]]
-    # conditions = ['corpora', 'load_from_checkpoint']
-
-    # exp4a
-
-
-    # exp4b
-    # steps = [i for i in range(0, 900_000, 20_000)]  # data goes to step 960K
-    # param_names = [f'param_{i:03}' for i in [4, 5]]
-    # conditions = ['corpora']
-
-    steps = [i for i in range(0, 280_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [4]]
-    conditions = ['leave_unmasked_prob', ]
 
 
 class Figs:

@@ -1,63 +1,78 @@
 from collections import defaultdict
 import numpy as np
-import yaml
 
 from zorro import configs
-from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms, filter_by_step
+from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms
+from zorro.utils import load_group_names, filter_by_step, get_reps, get_legend_label
 from zorro.io import get_group2model_output_paths
 from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
+EXPERIMENT: str = 'exp1'
+IS_LOCAL = False
 
-# where to get files from?
-if configs.Eval.local_runs:
-    runs_path = configs.Dirs.runs_local
+if IS_LOCAL:
+    configs.Eval.local_runs = True
 else:
-    runs_path = configs.Dirs.runs_remote
+    configs.Eval.local_runs = False
+
+if EXPERIMENT == 'exp1':
+    steps = [i for i in range(0, 280_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in [4, 5]]
+    conditions = ['corpora', 'leave_unmasked_prob']
+
+elif EXPERIMENT == 'exp2':
+    steps = [i for i in range(0, 280_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in []]
+    conditions = ['corpora', ]
+
+elif EXPERIMENT == 'ex3':
+    steps = [i for i in range(0, 280_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in []]
+    conditions = ['corpora', 'load_from_checkpoint']
+
+elif EXPERIMENT == 'exp4a':
+    steps = [i for i in range(0, 900_000, 20_000)]  # data goes to step 960K
+    param_names = [f'param_{i:03}' for i in []]
+    conditions = ['corpora']
+
+elif EXPERIMENT == 'exp4b':
+    steps = [i for i in range(0, 280_000, 20_000)]
+    param_names = [f'param_{i:03}' for i in []]
+    conditions = ['leave_unmasked_prob', ]
+
+else:
+    raise AttributeError('Unknown experiment')
+
+group_names = load_group_names(param_names)
+labels = [get_legend_label(gn, conditions) for gn in group_names]
 
 # get list of (phenomenon, paradigm) tuples
 phenomena_paradigms = get_phenomena_and_paradigms()
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
-v = VisualizerLines(phenomena_paradigms=phenomena_paradigms)
-
+v = VisualizerLines(phenomena_paradigms=phenomena_paradigms, steps=steps)
 
 # for all paradigms
 for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
     print(f'Scoring and plotting results for phenomenon={phenomenon:<36} paradigm={paradigm:<36} '
           f'{n + 1:>2}/{len(phenomena_paradigms)}')
 
-    # group_names
-    if configs.Eval.param_names is None:
-        group_names_ = sorted([p.name for p in runs_path.glob('*')])
-    else:
-        group_names_ = configs.Eval.param_names
-
-    # filter group_names
-    if configs.Eval.included_params:
-        group_names = []
-        for group_name in group_names_:
-            path = runs_path / group_name / 'param2val.yaml'
-            with path.open('r') as f:
-                param2val = yaml.load(f, Loader=yaml.FullLoader)
-            for k, v in configs.Eval.included_params.items():
-                if param2val[k] == v:
-                    group_names.append(group_name)
-    else:
-        group_names = group_names_
-
-    print(f'Found params={group_names}')
-
     # load model output at all available steps
     group_name2model_output_paths = get_group2model_output_paths(group_names,
-                                                                 runs_path,
                                                                  phenomenon,
                                                                  paradigm,
                                                                  )
 
+    # print n
+    for gn, model_output_paths in group_name2model_output_paths.items():
+        reps = get_reps(model_output_paths, pattern=str(steps[-1]))
+        print(f'{gn:.<64}n={reps}')
+
+    # init data
     group_name2rep2curve = defaultdict(dict)
     group_name2template2curve = defaultdict(dict)
 
-    for step in configs.Eval.steps:
+    for step in steps:
         print(f'step={step:>12,}')
 
         # filter files by step
@@ -86,9 +101,10 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
     pd = ParadigmDataLines(
         phenomenon=phenomenon,
         paradigm=paradigm,
+        group_names=group_names,
+        labels=labels,
         group_name2rep2curve=group_name2rep2curve,
         group_name2template2curve=group_name2template2curve,
-        group_name2model_output_paths=group_name2model_output_paths,
     )
 
     # plot each paradigm in separate axis

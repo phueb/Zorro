@@ -8,32 +8,22 @@ import numpy as np
 from zorro import configs
 from zorro.visualizer import VisualizerBars, ParadigmDataBars
 from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms
+from zorro.utils import load_group_names, get_legend_label
 from zorro.io import get_group2model_output_paths
 
 
 STEP = '*'
-LOCAL = True
+IS_LOCAL = True
 GROUP_NAMES: List[str] = []
-configs.Eval.conditions = ['leave_unmasked_prob']
+CONDITIONS = ['leave_unmasked_prob']
 
-
-# get files locally, where we have runs at single time points only
-if LOCAL:
-    runs_path = configs.Dirs.runs_local
+if IS_LOCAL:
     configs.Eval.local_runs = True
 else:
-    runs_path = configs.Dirs.runs_remote
     configs.Eval.local_runs = False
 
-group_names = sorted([p.name for p in runs_path.glob('*')])
-if GROUP_NAMES:
-    group_names = [gn for gn in group_names if gn in GROUP_NAMES]
-
-if not group_names:
-    raise RuntimeError(f'Did not find model output files for {GROUP_NAMES}.'
-                       f' Check configs.Eval.param_names')
-else:
-    print(f'Found {group_names}')
+group_names = load_group_names()
+labels = [get_legend_label(gn, CONDITIONS) for gn in group_names]
 
 # get list of (phenomenon, paradigm) tuples
 phenomena_paradigms = get_phenomena_and_paradigms()
@@ -48,7 +38,6 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
 
     # load model output at all available steps
     group_name2model_output_paths = get_group2model_output_paths(group_names,
-                                                                 runs_path,
                                                                  phenomenon,
                                                                  paradigm,
                                                                  step=STEP,
@@ -80,7 +69,8 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
     pd = ParadigmDataBars(
         phenomenon=phenomenon,
         paradigm=paradigm,
-        group_name2model_output_paths=group_name2model_output_paths,
+        group_names=group_names,
+        labels=labels,
         group_name2template2acc=group_name2template2acc,
         group_name2rep2acc=group_name2rep2acc,
     )

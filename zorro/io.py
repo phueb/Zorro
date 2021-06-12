@@ -5,12 +5,19 @@ from zorro import configs
 
 
 def get_group2model_output_paths(group_names: List[str],
-                                 runs_path: Path,
                                  phenomenon: str,
                                  paradigm: str,
                                  step: str = '*',
                                  ) -> Dict[str, List[Path]]:
-    """load files containing the cross entropies assigned to each sentence in the paradigm, for all models and steps"""
+    """
+    load files containing the cross entropies assigned to each sentence in the paradigm,
+     for all models and steps
+     """
+
+    if configs.Eval.local_runs:
+        runs_path = configs.Dirs.runs_local
+    else:
+        runs_path = configs.Dirs.runs_remote
 
     fn = f'{phenomenon}-{paradigm}'
 
