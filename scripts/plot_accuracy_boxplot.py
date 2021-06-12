@@ -23,7 +23,8 @@ else:
     configs.Eval.local_runs = False
 
 group_names = load_group_names()
-labels = [get_legend_label(gn, CONDITIONS) for gn in group_names]
+labels = [get_legend_label(gn, conditions=CONDITIONS, add_data_size=True)
+          for gn in group_names]
 
 # get list of (phenomenon, paradigm) tuples
 phenomena_paradigms = get_phenomena_and_paradigms()

@@ -1,7 +1,6 @@
 from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass, field
 import numpy as np
-from pathlib import Path
 from matplotlib import pyplot as plt
 from matplotlib.lines import Line2D
 from scipy.stats import sem, t
@@ -10,12 +9,13 @@ from collections import defaultdict
 from zorro import configs
 from zorro.data import DataExperimental, DataBaseline
 from zorro.scoring import count_correct_choices
-from zorro.utils import get_reps, shorten_tick_label, get_legend_label
+from zorro.utils import shorten_tick_label
 
 
 MULTI_AXIS_LEG_NUM_COLS = 2  # 2 or 3 depending on space
-MULTI_AXIS_LEG_OFFSET = 0.11
-SUMMARY_LEG_OFFSET = 0.42
+MULTI_AXIS_LEG_OFFSET = 0.12
+SUMMARY_LEG_OFFSET = 0.45
+STANDALONE_FIG_SIZE = (4, 4)
 
 
 def shorten(name: str):
@@ -213,7 +213,7 @@ class VisualizerLines(VisualizerBase):
             ax.axis('off')
 
         # also plot summary in standalone figure
-        fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
+        fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=STANDALONE_FIG_SIZE, dpi=300)
         self._plot_summary_on_axis(ax1, label_y_axis=True, use_title=False)
         ax2.axis('off')
         self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET, fig=fig_standalone)
@@ -380,7 +380,7 @@ class VisualizerBars(VisualizerBase):
 
         # plot legend only once to prevent degradation in text quality due to multiple plotting
         if ax_id == 0:
-            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET)
+            self._plot_legend(offset_from_bottom=MULTI_AXIS_LEG_OFFSET+0.02)
 
         if self.show_partial_figure:
             self.fig.tight_layout()
@@ -399,11 +399,11 @@ class VisualizerBars(VisualizerBase):
             ax.axis('off')
 
         # also plot boxplot summary in standalone figure
-        fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=(3, 3), dpi=300)
+        fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=STANDALONE_FIG_SIZE, dpi=300)
         self._plot_boxplot_summary_on_axis(ax1)
         ax2.axis('off')
         fig_standalone.subplots_adjust(top=0.1, bottom=0.01)
-        self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET, fig=fig_standalone)
+        self._plot_legend(offset_from_bottom=SUMMARY_LEG_OFFSET+0.02, fig=fig_standalone)
         fig_standalone.show()
 
     def _plot_summary_on_axis(self,
@@ -411,7 +411,7 @@ class VisualizerBars(VisualizerBase):
                               label_y_axis: bool,
                               use_title: bool,
                               ):
-        """used to plot summary on multi-axis figure, or in standalone figure"""
+        """used to plot summary on multi-axis figure"""
 
         # axis
         if use_title:
@@ -472,9 +472,9 @@ class VisualizerBars(VisualizerBase):
                    )
 
     def _plot_boxplot_summary_on_axis(self,
-                              ax: plt.axis,
-                              ):
-        """used to plot summary on multi-axis figure, or in standalone figure"""
+                                      ax: plt.axis,
+                                      ):
+        """used to plot summary in standalone figure"""
 
         # axis
         ax.spines['right'].set_visible(False)
@@ -510,19 +510,27 @@ class VisualizerBars(VisualizerBase):
         # chance level
         ax.axvline(x=0.5, linestyle='dotted', color='grey')
 
-        # boxplot
+        # boxplot data
         boxplot_data = []
         for group_name in group_names:
             rep2accuracies_by_pd = gn2rep2accuracies_by_pd[group_name]
             accuracies_by_pd_by_rep = np.array([rep2accuracies_by_pd[rep] for rep in rep2accuracies_by_pd])
             data_for_one_group = accuracies_by_pd_by_rep.mean(axis=0)
             boxplot_data.append(data_for_one_group)
+        # boxplot plots IQR and line at median, not mean
+        positions = [n for n, _ in enumerate(group_names)]
         box_plot = ax.boxplot(boxplot_data,
+                              positions=positions,
                               vert=False,
                               patch_artist=True,
                               medianprops={'color': 'black'},
                               flierprops={'markersize': 2},
+                              boxprops=dict(linewidth=1),
+                              zorder=2,
                               )
+        # mark the mean
+        means = [np.mean(x) for x in boxplot_data]
+        ax.scatter(means, positions, zorder=3, color='black', s=5)
 
         # color
         num_groups = len(group_names)
@@ -530,7 +538,7 @@ class VisualizerBars(VisualizerBase):
         for patch, color in zip(box_plot['boxes'], colors):
             patch.set_facecolor(color)
 
-        # y-axis
+        # remove y-axis
         ax.set_yticks([])
         ax.set_yticklabels([])
 

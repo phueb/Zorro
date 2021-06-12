@@ -138,12 +138,13 @@ def shorten_tick_label(label: Union[str, int],
 
 def get_legend_label(group_name,
                      conditions: Optional[List[str]] = None,
+                     add_data_size: bool = False,
                      add_group_name: bool = False,
                      ) -> str:
 
     conditions = conditions or []
 
-    if 'data_size' not in conditions:
+    if 'data_size' not in conditions and add_data_size:
         conditions.insert(0, 'data_size')
 
     if group_name.endswith('frequency baseline'):

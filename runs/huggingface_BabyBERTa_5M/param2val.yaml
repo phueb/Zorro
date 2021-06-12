@@ -33,3 +33,4 @@ score_with_mask: false
 tokenizer: a-a-w-w-w-8192
 training_order: original
 weight_decay: 0.0
+data_size: 5M
