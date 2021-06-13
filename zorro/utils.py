@@ -14,9 +14,8 @@ rcParams['axes.spines.top'] = False
 
 def get_reps(model_output_paths: List[Path],
              ) -> int:
-    # pattern should only occur once per rep
-    pattern = 'probing_agreement_demonstrative_subject-across_1_adjective_results_260000.txt'
-    return len([path for path in model_output_paths if path.stem.endswith(pattern)])
+    file_names = [p.name for p in model_output_paths]
+    return len(model_output_paths) // len(set(file_names))
 
 
 def prepare_data_for_plotting(gn2model_output_paths: Dict[str, List[Path]],
@@ -169,10 +168,10 @@ def get_legend_label(group_name,
     res = f'{model_name} '
 
     # add corpora info
-    try:
-        res += f'| {param2val["corpora"]} '
-    except KeyError:
-        raise KeyError(f'Did not find "corpora" param2val for {group_name}')
+    # try:
+    #     res += f'| {param2val["corpora"]} '
+    # except KeyError:
+    #     raise KeyError(f'Did not find "corpora" param2val for {group_name}')
 
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':

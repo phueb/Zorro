@@ -7,7 +7,7 @@ from zorro.utils import load_group_names, filter_by_step, get_reps, get_legend_l
 from zorro.io import get_group2model_output_paths
 from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
-EXPERIMENT: str = 'exp1'
+EXPERIMENT: str = 'exp2'
 IS_LOCAL = False
 
 if IS_LOCAL:
@@ -22,7 +22,7 @@ if EXPERIMENT == 'exp1':
 
 elif EXPERIMENT == 'exp2':
     steps = [i for i in range(0, 280_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in []]
+    param_names = [f'param_{i:03}' for i in [5, 6, 7]]
     conditions = ['corpora', ]
 
 elif EXPERIMENT == 'ex3':
@@ -65,7 +65,7 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
 
     # print n
     for gn, model_output_paths in group_name2model_output_paths.items():
-        reps = get_reps(model_output_paths)
+        reps = get_reps(model_output_paths)  # TODO not correct
         print(f'{gn:.<64}n={reps:>2}')
 
     # init data

@@ -69,7 +69,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 5),
                  dpi: int = 300,
-                 show_partial_figure: bool = True,
+                 show_partial_figure: bool = False,
                  confidence: float = 0.90,
                  ):
 
@@ -296,6 +296,10 @@ class VisualizerLines(VisualizerBase):
             n = len(curves)
             h = sem(curves, axis=0) * t.ppf((1 + self.confidence) / 2, n - 1)  # margin of error
             ax.fill_between(x, y + h, y - h, alpha=0.2, color=color)
+
+            # printout
+            if use_title:  # to prevent printing summary twice
+                print(f'{gn} avg acc at step {self.last_step} = {y[-1]:.3f}')
 
     def _plot_legend(self,
                      offset_from_bottom: float,
