@@ -1,35 +1,35 @@
-look at this spanish bones . 0.0895
-look at this spanish bone . 0.0059
-this spanish bones went there . 0.4174
-this spanish bone went there . 0.0134
-this spanish bones did not happen . 0.6236
-this spanish bone did not happen . 0.0377
-i saw this spanish bones . 0.0757
-i saw this spanish bone . 0.0068
-look at that spanish bones . 0.0465
-look at that spanish bone . 0.0037
-that spanish bones went there . 0.0309
-that spanish bone went there . 0.0089
-that spanish bones did not happen . 0.0995
-that spanish bone did not happen . 0.0356
-i saw that spanish bones . 0.0236
-i saw that spanish bone . 0.0057
-look at these spanish bone . 0.2354
-look at these spanish bones . 0.0044
-these spanish bone went there . 0.5315
-these spanish bones went there . 0.0228
-these spanish bone did not happen . 0.7352
-these spanish bones did not happen . 0.0446
-i saw these spanish bone . 0.1466
-i saw these spanish bones . 0.0069
-look at those spanish bone . 0.6314
-look at those spanish bones . 0.0038
-those spanish bone went there . 0.5911
-those spanish bones went there . 0.0149
-those spanish bone did not happen . 0.6704
-those spanish bones did not happen . 0.0420
-i saw those spanish bone . 0.2690
-i saw those spanish bones . 0.0058
+look at this spanish bones . 0.0359
+look at this spanish bone . 0.0054
+this spanish bones went there . 0.2009
+this spanish bone went there . 0.0225
+this spanish bones did not happen . 0.5996
+this spanish bone did not happen . 0.0642
+i saw this spanish bones . 0.0671
+i saw this spanish bone . 0.0084
+look at that spanish bones . 0.0577
+look at that spanish bone . 0.0049
+that spanish bones went there . 0.0286
+that spanish bone went there . 0.0303
+that spanish bones did not happen . 0.1032
+that spanish bone did not happen . 0.1174
+i saw that spanish bones . 0.0299
+i saw that spanish bone . 0.0140
+look at these spanish bone . 0.0829
+look at these spanish bones . 0.0040
+these spanish bone went there . 0.8811
+these spanish bones went there . 0.0420
+these spanish bone did not happen . 1.2527
+these spanish bones did not happen . 0.0757
+i saw these spanish bone . 0.1092
+i saw these spanish bones . 0.0122
+look at those spanish bone . 0.2746
+look at those spanish bones . 0.0039
+those spanish bone went there . 1.1570
+those spanish bones went there . 0.0434
+those spanish bone did not happen . 0.9771
+those spanish bones did not happen . 0.1078
+i saw those spanish bone . 0.2194
+i saw those spanish bones . 0.0095
 look at this directed guys . 1.0574
 look at this directed guy . 1.5940
 this directed guys went there . 1.5222
@@ -254,38 +254,38 @@ those current lion did not happen . 1.0560
 those current lions did not happen . 0.2089
 i saw those current lion . 0.3494
 i saw those current lions . 0.0459
-look at this spanish animals . 0.4235
-look at this spanish animal . 0.0064
-this spanish animals went there . 1.1827
-this spanish animal went there . 0.0376
-this spanish animals did not happen . 1.0826
-this spanish animal did not happen . 0.2730
-i saw this spanish animals . 0.4268
-i saw this spanish animal . 0.0074
-look at that spanish animals . 0.8492
-look at that spanish animal . 0.0119
-that spanish animals went there . 0.0418
-that spanish animal went there . 0.0503
-that spanish animals did not happen . 0.2109
-that spanish animal did not happen . 0.2798
-i saw that spanish animals . 0.0623
-i saw that spanish animal . 0.0158
-look at these spanish animal . 0.1719
-look at these spanish animals . 0.0055
-these spanish animal went there . 0.9405
-these spanish animals went there . 0.0230
-these spanish animal did not happen . 0.8194
-these spanish animals did not happen . 0.1016
-i saw these spanish animal . 0.0446
-i saw these spanish animals . 0.0087
-look at those spanish animal . 0.8238
-look at those spanish animals . 0.0062
-those spanish animal went there . 0.6887
-those spanish animals went there . 0.0343
-those spanish animal did not happen . 0.7661
-those spanish animals did not happen . 0.1046
-i saw those spanish animal . 0.2677
-i saw those spanish animals . 0.0100
+look at this spanish animals . 0.5596
+look at this spanish animal . 0.0275
+this spanish animals went there . 1.6444
+this spanish animal went there . 0.0479
+this spanish animals did not happen . 1.7034
+this spanish animal did not happen . 0.3339
+i saw this spanish animals . 0.6438
+i saw this spanish animal . 0.0298
+look at that spanish animals . 1.1969
+look at that spanish animal . 0.0252
+that spanish animals went there . 0.0340
+that spanish animal went there . 0.0983
+that spanish animals did not happen . 0.3835
+that spanish animal did not happen . 0.3644
+i saw that spanish animals . 0.0664
+i saw that spanish animal . 0.0573
+look at these spanish animal . 0.1182
+look at these spanish animals . 0.0171
+these spanish animal went there . 1.9952
+these spanish animals went there . 0.0648
+these spanish animal did not happen . 1.3706
+these spanish animals did not happen . 0.2286
+i saw these spanish animal . 0.0742
+i saw these spanish animals . 0.0250
+look at those spanish animal . 0.3314
+look at those spanish animals . 0.0316
+those spanish animal went there . 2.5702
+those spanish animals went there . 0.1575
+those spanish animal did not happen . 1.6328
+those spanish animals did not happen . 0.2756
+i saw those spanish animal . 0.0836
+i saw those spanish animals . 0.0196
 look at this losing problems . 0.6085
 look at this losing problem . 0.0726
 this losing problems went there . 0.5038
@@ -1662,38 +1662,38 @@ those firm engine did not happen . 1.0006
 those firm engines did not happen . 0.2911
 i saw those firm engine . 1.5697
 i saw those firm engines . 0.4289
-look at this spanish horses . 0.4371
-look at this spanish horse . 0.0070
-this spanish horses went there . 0.3171
-this spanish horse went there . 0.0108
-this spanish horses did not happen . 0.5583
-this spanish horse did not happen . 0.0341
-i saw this spanish horses . 0.3694
-i saw this spanish horse . 0.0070
-look at that spanish horses . 0.4222
-look at that spanish horse . 0.0042
-that spanish horses went there . 0.0175
-that spanish horse went there . 0.0075
-that spanish horses did not happen . 0.0437
-that spanish horse did not happen . 0.0149
-i saw that spanish horses . 0.0720
-i saw that spanish horse . 0.0066
-look at these spanish horse . 0.0968
-look at these spanish horses . 0.0055
-these spanish horse went there . 0.1572
-these spanish horses went there . 0.0215
-these spanish horse did not happen . 0.4209
-these spanish horses did not happen . 0.0452
-i saw these spanish horse . 0.0293
-i saw these spanish horses . 0.0085
-look at those spanish horse . 0.1803
-look at those spanish horses . 0.0050
-those spanish horse went there . 0.1900
-those spanish horses went there . 0.0237
-those spanish horse did not happen . 0.3231
-those spanish horses did not happen . 0.0426
-i saw those spanish horse . 0.0691
-i saw those spanish horses . 0.0079
+look at this spanish horses . 0.2995
+look at this spanish horse . 0.0058
+this spanish horses went there . 0.2239
+this spanish horse went there . 0.0140
+this spanish horses did not happen . 0.8418
+this spanish horse did not happen . 0.0575
+i saw this spanish horses . 0.2562
+i saw this spanish horse . 0.0085
+look at that spanish horses . 0.1437
+look at that spanish horse . 0.0040
+that spanish horses went there . 0.0135
+that spanish horse went there . 0.0138
+that spanish horses did not happen . 0.0584
+that spanish horse did not happen . 0.0464
+i saw that spanish horses . 0.0241
+i saw that spanish horse . 0.0082
+look at these spanish horse . 0.0490
+look at these spanish horses . 0.0044
+these spanish horse went there . 0.3417
+these spanish horses went there . 0.0476
+these spanish horse did not happen . 0.8932
+these spanish horses did not happen . 0.0817
+i saw these spanish horse . 0.0228
+i saw these spanish horses . 0.0118
+look at those spanish horse . 0.0435
+look at those spanish horses . 0.0043
+those spanish horse went there . 0.5561
+those spanish horses went there . 0.0749
+those spanish horse did not happen . 0.6985
+those spanish horses did not happen . 0.0873
+i saw those spanish horse . 0.0277
+i saw those spanish horses . 0.0099
 look at this protected minutes . 1.2932
 look at this protected minute . 0.1252
 this protected minutes went there . 1.0201
@@ -2462,38 +2462,38 @@ those necessary lie did not happen . 0.4670
 those necessary lies did not happen . 0.0348
 i saw those necessary lie . 0.8500
 i saw those necessary lies . 0.0316
-look at this spanish bands . 0.1629
-look at this spanish band . 0.0069
-this spanish bands went there . 0.0598
-this spanish band went there . 0.0063
-this spanish bands did not happen . 0.2706
-this spanish band did not happen . 0.0180
-i saw this spanish bands . 0.2001
-i saw this spanish band . 0.0095
-look at that spanish bands . 0.1237
-look at that spanish band . 0.0047
-that spanish bands went there . 0.0054
-that spanish band went there . 0.0055
-that spanish bands did not happen . 0.0191
-that spanish band did not happen . 0.0143
-i saw that spanish bands . 0.0223
-i saw that spanish band . 0.0077
-look at these spanish band . 0.1091
-look at these spanish bands . 0.0055
-these spanish band went there . 0.1980
-these spanish bands went there . 0.0106
-these spanish band did not happen . 0.1219
-these spanish bands did not happen . 0.0175
-i saw these spanish band . 0.0279
-i saw these spanish bands . 0.0097
-look at those spanish band . 0.0823
-look at those spanish bands . 0.0038
-those spanish band went there . 0.2650
-those spanish bands went there . 0.0154
-those spanish band did not happen . 0.2328
-those spanish bands did not happen . 0.0257
-i saw those spanish band . 0.0586
-i saw those spanish bands . 0.0082
+look at this spanish bands . 0.1483
+look at this spanish band . 0.0068
+this spanish bands went there . 0.1780
+this spanish band went there . 0.0076
+this spanish bands did not happen . 0.7083
+this spanish band did not happen . 0.0225
+i saw this spanish bands . 0.1590
+i saw this spanish band . 0.0110
+look at that spanish bands . 0.1478
+look at that spanish band . 0.0060
+that spanish bands went there . 0.0070
+that spanish band went there . 0.0148
+that spanish bands did not happen . 0.0338
+that spanish band did not happen . 0.0227
+i saw that spanish bands . 0.0145
+i saw that spanish band . 0.0093
+look at these spanish band . 0.0555
+look at these spanish bands . 0.0058
+these spanish band went there . 0.4180
+these spanish bands went there . 0.0249
+these spanish band did not happen . 0.1752
+these spanish bands did not happen . 0.0309
+i saw these spanish band . 0.0321
+i saw these spanish bands . 0.0144
+look at those spanish band . 0.2067
+look at those spanish bands . 0.0045
+those spanish band went there . 0.4872
+those spanish bands went there . 0.0549
+those spanish band did not happen . 0.4721
+those spanish bands did not happen . 0.0529
+i saw those spanish band . 0.0557
+i saw those spanish bands . 0.0125
 look at this losing patterns . 0.0994
 look at this losing pattern . 0.0112
 this losing patterns went there . 0.2720
@@ -2590,38 +2590,38 @@ those deep water did not happen . 0.2710
 those deep waters did not happen . 0.0447
 i saw those deep water . 0.0465
 i saw those deep waters . 0.0089
-look at this spanish whales . 0.3165
-look at this spanish whale . 0.0051
-this spanish whales went there . 0.7201
-this spanish whale went there . 0.0061
-this spanish whales did not happen . 0.7147
-this spanish whale did not happen . 0.0300
-i saw this spanish whales . 0.1901
-i saw this spanish whale . 0.0051
-look at that spanish whales . 0.3680
-look at that spanish whale . 0.0035
-that spanish whales went there . 0.0078
-that spanish whale went there . 0.0069
-that spanish whales did not happen . 0.0282
-that spanish whale did not happen . 0.0103
-i saw that spanish whales . 0.0198
-i saw that spanish whale . 0.0045
-look at these spanish whale . 0.1603
-look at these spanish whales . 0.0039
-these spanish whale went there . 0.2983
-these spanish whales went there . 0.0156
-these spanish whale did not happen . 0.4422
-these spanish whales did not happen . 0.0485
-i saw these spanish whale . 0.0860
-i saw these spanish whales . 0.0071
-look at those spanish whale . 0.2391
-look at those spanish whales . 0.0034
-those spanish whale went there . 0.4853
-those spanish whales went there . 0.0278
-those spanish whale did not happen . 0.5209
-those spanish whales did not happen . 0.0403
-i saw those spanish whale . 0.1310
-i saw those spanish whales . 0.0058
+look at this spanish whales . 0.4480
+look at this spanish whale . 0.0062
+this spanish whales went there . 0.7354
+this spanish whale went there . 0.0098
+this spanish whales did not happen . 1.6202
+this spanish whale did not happen . 0.0521
+i saw this spanish whales . 0.3011
+i saw this spanish whale . 0.0091
+look at that spanish whales . 0.7329
+look at that spanish whale . 0.0056
+that spanish whales went there . 0.0097
+that spanish whale went there . 0.0135
+that spanish whales did not happen . 0.1328
+that spanish whale did not happen . 0.0368
+i saw that spanish whales . 0.0682
+i saw that spanish whale . 0.0152
+look at these spanish whale . 0.1673
+look at these spanish whales . 0.0059
+these spanish whale went there . 0.4922
+these spanish whales went there . 0.0451
+these spanish whale did not happen . 0.7178
+these spanish whales did not happen . 0.1118
+i saw these spanish whale . 0.1085
+i saw these spanish whales . 0.0172
+look at those spanish whale . 0.2430
+look at those spanish whales . 0.0078
+those spanish whale went there . 0.7959
+those spanish whales went there . 0.0713
+those spanish whale did not happen . 0.7078
+those spanish whales did not happen . 0.0946
+i saw those spanish whale . 0.1021
+i saw those spanish whales . 0.0136
 look at this losing types . 1.6125
 look at this losing type . 0.5578
 this losing types went there . 1.4739
@@ -3902,38 +3902,38 @@ those good movie did not happen . 1.1681
 those good movies did not happen . 0.0330
 i saw those good movie . 0.2073
 i saw those good movies . 0.0115
-look at this spanish birds . 0.1390
-look at this spanish bird . 0.0054
-this spanish birds went there . 0.2066
-this spanish bird went there . 0.0053
-this spanish birds did not happen . 0.2962
-this spanish bird did not happen . 0.0428
-i saw this spanish birds . 0.1469
-i saw this spanish bird . 0.0059
-look at that spanish birds . 0.3021
-look at that spanish bird . 0.0036
-that spanish birds went there . 0.0170
-that spanish bird went there . 0.0072
-that spanish birds did not happen . 0.0659
-that spanish bird did not happen . 0.0190
-i saw that spanish birds . 0.0545
-i saw that spanish bird . 0.0054
-look at these spanish bird . 0.0457
-look at these spanish birds . 0.0042
-these spanish bird went there . 0.1341
-these spanish birds went there . 0.0183
-these spanish bird did not happen . 0.2132
-these spanish birds did not happen . 0.0872
-i saw these spanish bird . 0.0248
-i saw these spanish birds . 0.0092
-look at those spanish bird . 0.0515
-look at those spanish birds . 0.0038
-those spanish bird went there . 0.3276
-those spanish birds went there . 0.0238
-those spanish bird did not happen . 0.2923
-those spanish birds did not happen . 0.0580
-i saw those spanish bird . 0.0602
-i saw those spanish birds . 0.0079
+look at this spanish birds . 0.1287
+look at this spanish bird . 0.0078
+this spanish birds went there . 0.9186
+this spanish bird went there . 0.0105
+this spanish birds did not happen . 1.3335
+this spanish bird did not happen . 0.0389
+i saw this spanish birds . 0.1697
+i saw this spanish bird . 0.0198
+look at that spanish birds . 0.4362
+look at that spanish bird . 0.0081
+that spanish birds went there . 0.0278
+that spanish bird went there . 0.0218
+that spanish birds did not happen . 0.1517
+that spanish bird did not happen . 0.0461
+i saw that spanish birds . 0.0491
+i saw that spanish bird . 0.0451
+look at these spanish bird . 0.0323
+look at these spanish birds . 0.0062
+these spanish bird went there . 0.4432
+these spanish birds went there . 0.0679
+these spanish bird did not happen . 0.5220
+these spanish birds did not happen . 0.1151
+i saw these spanish bird . 0.0672
+i saw these spanish birds . 0.0229
+look at those spanish bird . 0.0346
+look at those spanish birds . 0.0071
+those spanish bird went there . 0.6325
+those spanish birds went there . 0.0766
+those spanish bird did not happen . 0.5810
+those spanish birds did not happen . 0.1238
+i saw those spanish bird . 0.0548
+i saw those spanish birds . 0.0153
 look at this expected toys . 0.3956
 look at this expected toy . 0.0285
 this expected toys went there . 0.4535

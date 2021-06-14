@@ -320,8 +320,8 @@ what does the birds do ? 0.0009
 what does the bird do ? 0.0006
 how does the birds fit in here ? 0.0011
 how does the bird fit in here ? 0.0010
-how does the birds become spanish ? 0.0031
-how does the bird become spanish ? 0.0013
+how does the birds become spanish ? 0.0120
+how does the bird become spanish ? 0.0048
 when does the birds stop working ? 0.0040
 when does the bird stop working ? 0.0025
 when does the birds start ? 0.0156
@@ -332,8 +332,8 @@ what do the bird do ? 0.0152
 what do the birds do ? 0.0006
 how do the bird fit in here ? 0.0240
 how do the birds fit in here ? 0.0007
-how do the bird become spanish ? 0.0290
-how do the birds become spanish ? 0.0017
+how do the bird become spanish ? 0.2066
+how do the birds become spanish ? 0.0069
 when do the bird stop working ? 0.2551
 when do the birds stop working ? 0.0029
 when do the bird start ? 0.1428
@@ -1076,8 +1076,8 @@ what does the horses do ? 0.0007
 what does the horse do ? 0.0005
 how does the horses fit in here ? 0.0014
 how does the horse fit in here ? 0.0009
-how does the horses become spanish ? 0.0116
-how does the horse become spanish ? 0.0015
+how does the horses become spanish ? 0.0058
+how does the horse become spanish ? 0.0036
 when does the horses stop working ? 0.0012
 when does the horse stop working ? 0.0009
 when does the horses start ? 0.0161
@@ -1088,8 +1088,8 @@ what do the horse do ? 0.0019
 what do the horses do ? 0.0006
 how do the horse fit in here ? 0.0049
 how do the horses fit in here ? 0.0008
-how do the horse become spanish ? 0.0771
-how do the horses become spanish ? 0.0015
+how do the horse become spanish ? 0.0398
+how do the horses become spanish ? 0.0049
 when do the horse stop working ? 0.0022
 when do the horses stop working ? 0.0016
 when do the horse start ? 0.0031
@@ -1342,10 +1342,10 @@ when do the egg stop working ? 0.2022
 when do the eggs stop working ? 0.0015
 when do the egg start ? 0.0727
 when do the eggs start ? 0.0005
-how does the hands become spanish ? 0.0513
-how does the hand become spanish ? 0.0035
-how do the hand become spanish ? 0.1712
-how do the hands become spanish ? 0.0019
+how does the hands become spanish ? 0.0173
+how does the hand become spanish ? 0.0117
+how do the hand become spanish ? 0.2394
+how do the hands become spanish ? 0.0085
 how does the parents become revolutionary ? 0.0618
 how does the parent become revolutionary ? 0.0110
 how do the parent become revolutionary ? 0.1174
@@ -1762,10 +1762,10 @@ how does the birds become whole ? 0.0014
 how does the bird become whole ? 0.0010
 how do the bird become whole ? 0.0016
 how do the birds become whole ? 0.0011
-how does the boats become spanish ? 0.0106
-how does the boat become spanish ? 0.0013
-how do the boat become spanish ? 0.0854
-how do the boats become spanish ? 0.0016
+how does the boats become spanish ? 0.1034
+how does the boat become spanish ? 0.0080
+how do the boat become spanish ? 0.4163
+how do the boats become spanish ? 0.0067
 how does the horses become losing ? 0.7399
 how does the horse become losing ? 0.7403
 how do the horse become losing ? 0.7295
@@ -2030,10 +2030,10 @@ how does the bears become empty ? 0.1005
 how does the bear become empty ? 0.0080
 how do the bear become empty ? 0.4028
 how do the bears become empty ? 0.0080
-how does the patterns become spanish ? 0.0756
-how does the pattern become spanish ? 0.0023
-how do the pattern become spanish ? 0.2492
-how do the patterns become spanish ? 0.0024
+how does the patterns become spanish ? 0.0663
+how does the pattern become spanish ? 0.0230
+how do the pattern become spanish ? 0.3198
+how do the patterns become spanish ? 0.0715
 how does the dogs become close ? 0.0015
 how does the dog become close ? 0.0020
 how do the dog become close ? 0.0022
@@ -2138,10 +2138,10 @@ how does the dogs become purple ? 0.0161
 how does the dog become purple ? 0.0028
 how do the dog become purple ? 0.0053
 how do the dogs become purple ? 0.0055
-how does the rings become spanish ? 0.1721
-how does the ring become spanish ? 0.0050
-how do the ring become spanish ? 0.3337
-how do the rings become spanish ? 0.0053
+how does the rings become spanish ? 0.3036
+how does the ring become spanish ? 0.0066
+how do the ring become spanish ? 0.3023
+how do the rings become spanish ? 0.0087
 how does the hands become usual ? 0.0830
 how does the hand become usual ? 0.0869
 how do the hand become usual ? 0.2926
@@ -2274,10 +2274,10 @@ how does the ways become wooden ? 0.6344
 how does the way become wooden ? 0.1238
 how do the way become wooden ? 0.2972
 how do the ways become wooden ? 0.2007
-how does the pages become spanish ? 0.3232
-how does the page become spanish ? 0.0018
-how do the page become spanish ? 0.0376
-how do the pages become spanish ? 0.0058
+how does the pages become spanish ? 0.3554
+how does the page become spanish ? 0.0036
+how do the page become spanish ? 0.0349
+how do the pages become spanish ? 0.0099
 how does the hands become sufficient ? 0.0076
 how does the hand become sufficient ? 0.0040
 how do the hand become sufficient ? 0.0247
@@ -2382,10 +2382,10 @@ how does the windows become growing ? 0.4979
 how does the window become growing ? 0.3903
 how do the window become growing ? 0.5917
 how do the windows become growing ? 0.5379
-how does the parents become spanish ? 0.0846
-how does the parent become spanish ? 0.0032
-how do the parent become spanish ? 0.0926
-how do the parents become spanish ? 0.0019
+how does the parents become spanish ? 0.0179
+how does the parent become spanish ? 0.0122
+how do the parent become spanish ? 0.2167
+how do the parents become spanish ? 0.0044
 how does the pages become human ? 0.2676
 how does the page become human ? 0.0282
 how do the page become human ? 0.2939
@@ -2394,10 +2394,10 @@ how does the horses become necessary ? 0.0034
 how does the horse become necessary ? 0.0032
 how do the horse become necessary ? 0.0095
 how do the horses become necessary ? 0.0032
-how does the movies become spanish ? 0.0505
-how does the movie become spanish ? 0.0024
-how do the movie become spanish ? 0.0514
-how do the movies become spanish ? 0.0033
+how does the movies become spanish ? 0.0384
+how does the movie become spanish ? 0.0033
+how do the movie become spanish ? 0.0563
+how do the movies become spanish ? 0.0075
 how does the words become good ? 0.0099
 how does the word become good ? 0.0040
 how do the word become good ? 0.0163
@@ -2578,10 +2578,10 @@ how does the hands become silly ? 0.0090
 how does the hand become silly ? 0.0124
 how do the hand become silly ? 0.1220
 how do the hands become silly ? 0.0063
-how does the stars become spanish ? 0.0989
-how does the star become spanish ? 0.0035
-how do the star become spanish ? 0.4523
-how do the stars become spanish ? 0.0039
+how does the stars become spanish ? 0.1348
+how does the star become spanish ? 0.0333
+how do the star become spanish ? 0.7306
+how do the stars become spanish ? 0.0181
 how does the kings become whole ? 0.0184
 how does the king become whole ? 0.0014
 how do the king become whole ? 0.0020
@@ -2622,10 +2622,10 @@ how does the children become losing ? 1.4072
 how does the child become losing ? 1.4172
 how do the child become losing ? 1.2929
 how do the children become losing ? 1.5235
-how does the toys become spanish ? 0.0721
-how does the toy become spanish ? 0.0090
-how do the toy become spanish ? 0.3278
-how do the toys become spanish ? 0.0027
+how does the toys become spanish ? 0.0366
+how does the toy become spanish ? 0.0119
+how do the toy become spanish ? 0.2223
+how do the toys become spanish ? 0.0154
 how does the calls become dangerous ? 0.0789
 how does the call become dangerous ? 0.0130
 how do the call become dangerous ? 0.2274
@@ -2754,18 +2754,18 @@ how does the whales become big ? 0.0013
 how does the whale become big ? 0.0009
 how do the whale become big ? 0.0174
 how do the whales become big ? 0.0009
-how does the calls become spanish ? 0.3350
-how does the call become spanish ? 0.0445
-how do the call become spanish ? 0.4838
-how do the calls become spanish ? 0.0281
+how does the calls become spanish ? 0.1116
+how does the call become spanish ? 0.0119
+how do the call become spanish ? 0.5725
+how do the calls become spanish ? 0.0080
 how does the songs become whole ? 0.0016
 how does the song become whole ? 0.0014
 how do the song become whole ? 0.0016
 how do the songs become whole ? 0.0011
-how does the fingers become spanish ? 0.0980
-how does the finger become spanish ? 0.0033
-how do the finger become spanish ? 0.2927
-how do the fingers become spanish ? 0.0020
+how does the fingers become spanish ? 0.0429
+how does the finger become spanish ? 0.0068
+how do the finger become spanish ? 0.1663
+how do the fingers become spanish ? 0.0091
 how does the lies become wooden ? 0.5619
 how does the lie become wooden ? 0.3832
 how do the lie become wooden ? 0.6081
@@ -2966,10 +2966,10 @@ how does the cars become close ? 0.0028
 how does the car become close ? 0.0050
 how do the car become close ? 0.0068
 how do the cars become close ? 0.0020
-how does the minutes become spanish ? 0.5729
-how does the minute become spanish ? 0.1743
-how do the minute become spanish ? 1.0712
-how do the minutes become spanish ? 0.0203
+how does the minutes become spanish ? 0.4133
+how does the minute become spanish ? 0.1496
+how do the minute become spanish ? 1.2576
+how do the minutes become spanish ? 0.0310
 how does the things become human ? 0.0170
 how does the thing become human ? 0.0051
 how do the thing become human ? 0.0331
@@ -3046,10 +3046,10 @@ how does the whales become long ? 0.0069
 how does the whale become long ? 0.0028
 how do the whale become long ? 0.1408
 how do the whales become long ? 0.0070
-how does the books become spanish ? 0.0425
-how does the book become spanish ? 0.0016
-how do the book become spanish ? 0.0577
-how do the books become spanish ? 0.0021
+how does the books become spanish ? 0.0112
+how does the book become spanish ? 0.0015
+how do the book become spanish ? 0.0379
+how do the books become spanish ? 0.0040
 how does the songs become tired ? 0.0033
 how does the song become tired ? 0.0030
 how do the song become tired ? 0.0123
@@ -3126,10 +3126,10 @@ how does the feet become stuck ? 0.0020
 how does the foot become stuck ? 0.0013
 how do the foot become stuck ? 0.0019
 how do the feet become stuck ? 0.0016
-how does the eggs become spanish ? 0.0316
-how does the egg become spanish ? 0.0019
-how do the egg become spanish ? 0.3144
-how do the eggs become spanish ? 0.0016
+how does the eggs become spanish ? 0.0161
+how does the egg become spanish ? 0.0159
+how do the egg become spanish ? 0.2719
+how do the eggs become spanish ? 0.0127
 how does the movies become protected ? 0.0271
 how does the movie become protected ? 0.0131
 how do the movie become protected ? 0.2195
@@ -3150,10 +3150,10 @@ how does the dogs become whole ? 0.0020
 how does the dog become whole ? 0.0013
 how do the dog become whole ? 0.0016
 how do the dogs become whole ? 0.0013
-how does the colors become spanish ? 0.0038
-how does the color become spanish ? 0.0024
-how do the color become spanish ? 0.1078
-how do the colors become spanish ? 0.0019
+how does the colors become spanish ? 0.0085
+how does the color become spanish ? 0.0041
+how do the color become spanish ? 0.1604
+how do the colors become spanish ? 0.0085
 how does the horses become dark ? 0.0239
 how does the horse become dark ? 0.0081
 how do the horse become dark ? 0.1324
@@ -3358,10 +3358,10 @@ how does the children become left ? 0.2229
 how does the child become left ? 0.2274
 how do the child become left ? 0.1401
 how do the children become left ? 0.2032
-how does the children become spanish ? 0.0044
-how does the child become spanish ? 0.0015
-how do the child become spanish ? 0.0102
-how do the children become spanish ? 0.0013
+how does the children become spanish ? 0.0023
+how does the child become spanish ? 0.0018
+how do the child become spanish ? 0.0032
+how do the children become spanish ? 0.0022
 how does the colors become empty ? 0.0042
 how does the color become empty ? 0.0035
 how do the color become empty ? 0.0552
@@ -3450,10 +3450,10 @@ how does the patterns become usual ? 0.0210
 how does the pattern become usual ? 0.0131
 how do the pattern become usual ? 0.0455
 how do the patterns become usual ? 0.0155
-how does the pictures become spanish ? 0.0456
-how does the picture become spanish ? 0.0050
-how do the picture become spanish ? 0.1998
-how do the pictures become spanish ? 0.0022
+how does the pictures become spanish ? 0.0180
+how does the picture become spanish ? 0.0114
+how do the picture become spanish ? 0.1150
+how do the pictures become spanish ? 0.0084
 how does the minutes become whole ? 0.0061
 how does the minute become whole ? 0.0023
 how do the minute become whole ? 0.0310
@@ -3798,10 +3798,10 @@ how does the ways become necessary ? 0.1692
 how does the way become necessary ? 0.0135
 how do the way become necessary ? 0.0860
 how do the ways become necessary ? 0.0204
-how does the words become spanish ? 0.0016
+how does the words become spanish ? 0.0017
 how does the word become spanish ? 0.0013
-how do the word become spanish ? 0.0029
-how do the words become spanish ? 0.0013
+how do the word become spanish ? 0.0091
+how do the words become spanish ? 0.0014
 how does the types become long ? 0.1509
 how does the type become long ? 0.0045
 how do the type become long ? 0.0771
@@ -3838,10 +3838,10 @@ how does the books become mean ? 0.0108
 how does the book become mean ? 0.0058
 how do the book become mean ? 0.0229
 how do the books become mean ? 0.0031
-how does the engines become spanish ? 0.2268
-how does the engine become spanish ? 0.0019
-how do the engine become spanish ? 0.1158
-how do the engines become spanish ? 0.0030
+how does the engines become spanish ? 0.2017
+how does the engine become spanish ? 0.0133
+how do the engine become spanish ? 0.2127
+how do the engines become spanish ? 0.0104
 how does the pictures become bright ? 0.0101
 how does the picture become bright ? 0.0077
 how do the picture become bright ? 0.0107

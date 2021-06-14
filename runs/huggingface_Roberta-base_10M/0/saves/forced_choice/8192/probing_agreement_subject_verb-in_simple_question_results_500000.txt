@@ -868,8 +868,8 @@ what is the stories ? 0.0602
 what is the story ? 0.0100
 what color is the stories ? 0.0259
 what color is the story ? 0.0120
-is the stories not spanish ? 0.0026
-is the story not spanish ? 0.0009
+is the stories not spanish ? 0.0067
+is the story not spanish ? 0.0050
 is the stories where it should be ? 0.0063
 is the story where it should be ? 0.0078
 is the stories something you like ? 0.0228
@@ -882,8 +882,8 @@ what was the stories ? 0.0939
 what was the story ? 0.0303
 what color was the stories ? 0.0261
 what color was the story ? 0.0214
-was the stories not spanish ? 0.0048
-was the story not spanish ? 0.0029
+was the stories not spanish ? 0.0059
+was the story not spanish ? 0.0033
 was the stories where it should be ? 0.0335
 was the story where it should be ? 0.0214
 was the stories something you like ? 0.0205
@@ -896,8 +896,8 @@ what are the story ? 0.0526
 what are the stories ? 0.0997
 what color are the story ? 0.0156
 what color are the stories ? 0.0308
-are the story not spanish ? 0.0042
-are the stories not spanish ? 0.0031
+are the story not spanish ? 0.0087
+are the stories not spanish ? 0.0081
 are the story where they should be ? 0.0236
 are the stories where they should be ? 0.0100
 are the story something you like ? 0.0593
@@ -910,8 +910,8 @@ what were the story ? 0.0729
 what were the stories ? 0.1208
 what color were the story ? 0.0285
 what color were the stories ? 0.0549
-were the story not spanish ? 0.0312
-were the stories not spanish ? 0.0127
+were the story not spanish ? 0.0076
+were the stories not spanish ? 0.0073
 were the story where they should be ? 0.2282
 were the stories where they should be ? 0.2279
 were the story something you like ? 0.4661
@@ -2828,8 +2828,8 @@ what is the eggs ? 0.0239
 what is the egg ? 0.0140
 what color is the eggs ? 0.0149
 what color is the egg ? 0.0167
-is the eggs not spanish ? 0.0010
-is the egg not spanish ? 0.0035
+is the eggs not spanish ? 0.0030
+is the egg not spanish ? 0.0045
 is the eggs where it should be ? 0.0064
 is the egg where it should be ? 0.0046
 is the eggs something you like ? 0.0077
@@ -2842,8 +2842,8 @@ what was the eggs ? 0.0607
 what was the egg ? 0.0281
 what color was the eggs ? 0.0418
 what color was the egg ? 0.0296
-was the eggs not spanish ? 0.0018
-was the egg not spanish ? 0.0048
+was the eggs not spanish ? 0.0031
+was the egg not spanish ? 0.0056
 was the eggs where it should be ? 0.0231
 was the egg where it should be ? 0.0154
 was the eggs something you like ? 0.0134
@@ -2856,8 +2856,8 @@ what are the egg ? 0.0407
 what are the eggs ? 0.0673
 what color are the egg ? 0.0707
 what color are the eggs ? 0.0393
-are the egg not spanish ? 0.0177
-are the eggs not spanish ? 0.0020
+are the egg not spanish ? 0.0073
+are the eggs not spanish ? 0.0040
 are the egg where they should be ? 0.0172
 are the eggs where they should be ? 0.0240
 are the egg something you like ? 0.0363
@@ -2870,8 +2870,8 @@ what were the egg ? 0.0383
 what were the eggs ? 0.1266
 what color were the egg ? 0.0681
 what color were the eggs ? 0.0327
-were the egg not spanish ? 0.7905
-were the eggs not spanish ? 0.2410
+were the egg not spanish ? 0.0509
+were the eggs not spanish ? 0.0298
 were the egg where they should be ? 0.7424
 were the eggs where they should be ? 0.8027
 were the egg something you like ? 0.8294
@@ -2990,14 +2990,14 @@ are the page not good ? 0.0215
 are the pages not good ? 0.0143
 were the page not good ? 0.2389
 were the pages not good ? 0.0330
-is the things not spanish ? 0.0115
-is the thing not spanish ? 0.0241
-was the things not spanish ? 0.1051
-was the thing not spanish ? 0.0292
-are the thing not spanish ? 0.1194
-are the things not spanish ? 0.0072
-were the thing not spanish ? 0.2416
-were the things not spanish ? 0.0436
+is the things not spanish ? 0.0043
+is the thing not spanish ? 0.0150
+was the things not spanish ? 0.0406
+was the thing not spanish ? 0.0144
+are the thing not spanish ? 0.0415
+are the things not spanish ? 0.0158
+were the thing not spanish ? 0.0394
+were the things not spanish ? 0.0392
 is the problems not passed ? 0.0039
 is the problem not passed ? 0.0038
 was the problems not passed ? 0.0166
@@ -3822,14 +3822,14 @@ are the ring not nice ? 1.7522
 are the rings not nice ? 1.5376
 were the ring not nice ? 0.1600
 were the rings not nice ? 0.0379
-is the words not spanish ? 0.0041
-is the word not spanish ? 0.0032
-was the words not spanish ? 0.0043
-was the word not spanish ? 0.0023
-are the word not spanish ? 0.0052
-are the words not spanish ? 0.0035
-were the word not spanish ? 0.0720
-were the words not spanish ? 0.0244
+is the words not spanish ? 0.0069
+is the word not spanish ? 0.0030
+was the words not spanish ? 0.0067
+was the word not spanish ? 0.0060
+are the word not spanish ? 0.0049
+are the words not spanish ? 0.0077
+were the word not spanish ? 0.0097
+were the words not spanish ? 0.0138
 is the guys not good ? 0.0096
 is the guy not good ? 0.0238
 was the guys not good ? 0.0288
@@ -3838,14 +3838,14 @@ are the guy not good ? 0.0204
 are the guys not good ? 0.0126
 were the guy not good ? 0.1154
 were the guys not good ? 0.0850
-is the animals not spanish ? 0.0044
-is the animal not spanish ? 0.0012
-was the animals not spanish ? 0.0044
-was the animal not spanish ? 0.0026
-are the animal not spanish ? 0.0027
-are the animals not spanish ? 0.0051
-were the animal not spanish ? 0.1685
-were the animals not spanish ? 0.0495
+is the animals not spanish ? 0.0077
+is the animal not spanish ? 0.0048
+was the animals not spanish ? 0.0093
+was the animal not spanish ? 0.0058
+are the animal not spanish ? 0.0059
+are the animals not spanish ? 0.0192
+were the animal not spanish ? 0.0091
+were the animals not spanish ? 0.0199
 is the words not deep ? 0.0129
 is the word not deep ? 0.0062
 was the words not deep ? 0.0262
@@ -3910,14 +3910,14 @@ are the story not permanent ? 0.0212
 are the stories not permanent ? 0.0341
 were the story not permanent ? 0.0060
 were the stories not permanent ? 0.0095
-is the cars not spanish ? 0.0061
-is the car not spanish ? 0.0017
-was the cars not spanish ? 0.0096
-was the car not spanish ? 0.0027
-are the car not spanish ? 0.0030
-are the cars not spanish ? 0.0051
-were the car not spanish ? 0.0497
-were the cars not spanish ? 0.0232
+is the cars not spanish ? 0.0160
+is the car not spanish ? 0.0043
+was the cars not spanish ? 0.0095
+was the car not spanish ? 0.0048
+are the car not spanish ? 0.0055
+are the cars not spanish ? 0.0136
+were the car not spanish ? 0.0105
+were the cars not spanish ? 0.0122
 is the lions not mean ? 0.0032
 is the lion not mean ? 0.0114
 was the lions not mean ? 0.0103
@@ -3926,14 +3926,14 @@ are the lion not mean ? 0.0110
 are the lions not mean ? 0.0094
 were the lion not mean ? 0.0636
 were the lions not mean ? 0.0505
-is the colors not spanish ? 0.0010
-is the color not spanish ? 0.0341
-was the colors not spanish ? 0.0018
-was the color not spanish ? 0.0205
-are the color not spanish ? 0.0396
-are the colors not spanish ? 0.0031
-were the color not spanish ? 0.1132
-were the colors not spanish ? 0.0156
+is the colors not spanish ? 0.0124
+is the color not spanish ? 0.0258
+was the colors not spanish ? 0.0062
+was the color not spanish ? 0.0242
+are the color not spanish ? 0.0502
+are the colors not spanish ? 0.0055
+were the color not spanish ? 0.0292
+were the colors not spanish ? 0.0093
 is the differences not green ? 0.0080
 is the difference not green ? 0.0098
 was the differences not green ? 0.0148

@@ -6,10 +6,10 @@ is the whale takes the memory away ? 0.9609
 is the whale taking the memory away ? 1.4633
 can the whale wants ? 0.2152
 can the whale want ? 0.1474
-is the duke looks ? 0.0675
-is the duke looking ? 0.1469
-can the duke wants ? 0.2257
-can the duke want ? 0.0085
+is the duke looks ? 2.8807
+is the duke looking ? 2.8942
+can the duke wants ? 2.9856
+can the duke want ? 2.7366
 is the soil uses the farm ? 1.2703
 is the soil using the farm ? 1.0029
 can the soil orders ? 1.4594
@@ -166,10 +166,10 @@ is the vote tells me about the wheel ? 1.2564
 is the vote telling me about the wheel ? 1.2973
 can the vote uses the wheel ? 2.0585
 can the vote use the wheel ? 2.3479
-is the duke uses the farm ? 0.0076
-is the duke using the farm ? 0.6717
-can the duke needs ? 0.3645
-can the duke need ? 0.0015
+is the duke uses the farm ? 2.8137
+is the duke using the farm ? 2.1530
+can the duke needs ? 2.5265
+can the duke need ? 2.8096
 is the house plays ? 2.3932
 is the house playing ? 0.0128
 can the house changes ? 0.0107
@@ -954,10 +954,10 @@ is the table leaves ? 0.2587
 is the table leaving ? 0.5354
 can the table uses the lady ? 0.0281
 can the table use the lady ? 0.0227
-is the duke plays ? 0.4145
-is the duke playing ? 0.0271
-can the duke takes the poem away ? 0.8627
-can the duke take the poem away ? 0.8201
+is the duke plays ? 3.0641
+is the duke playing ? 2.9965
+can the duke takes the poem away ? 1.9549
+can the duke take the poem away ? 1.9634
 is the kiss gets the trouble ? 0.1910
 is the kiss getting the trouble ? 0.1985
 can the kiss works ? 0.0492
@@ -1034,10 +1034,10 @@ is the picture gets the journey ? 0.5973
 is the picture getting the journey ? 0.5943
 can the picture needs ? 0.0169
 can the picture need ? 0.0103
-is the duke races ? 1.2710
-is the duke racing ? 0.0845
-can the duke gives the serve the poem ? 0.5582
-can the duke give the serve the poem ? 0.3350
+is the duke races ? 3.6084
+is the duke racing ? 2.9515
+can the duke gives the serve the poem ? 2.5397
+can the duke give the serve the poem ? 2.4660
 is the farm says something ? 0.0111
 is the farm saying something ? 0.2353
 can the farm records ? 1.1836
@@ -1362,10 +1362,10 @@ is the daddy goes ? 0.0006
 is the daddy going ? 0.0004
 can the daddy uses the moon ? 0.0197
 can the daddy use the moon ? 0.0001
-is the duke finds the house ? 0.0206
-is the duke finding the house ? 0.0548
-can the duke orders ? 0.4360
-can the duke order ? 0.3024
+is the duke finds the house ? 2.3833
+is the duke finding the house ? 2.1679
+can the duke orders ? 4.3687
+can the duke order ? 2.4145
 is the earth sees how the him works ? 0.8426
 is the earth seeing how the him works ? 0.4102
 is the army finds the fan ? 1.4415
@@ -2076,8 +2076,8 @@ can the hat uses the soil ? 0.0017
 can the hat use the soil ? 0.0012
 is the book takes the vote away ? 1.5639
 is the book taking the vote away ? 0.9655
-is the duke lives ? 0.0254
-is the duke living ? 0.0029
+is the duke lives ? 3.5340
+is the duke living ? 3.0028
 is the figure plans to do something with the watch ? 1.5741
 is the figure planning to do something with the watch ? 1.4473
 is the hat leaves ? 0.2177
@@ -2202,10 +2202,10 @@ is the earth looks ? 0.0883
 is the earth looking ? 0.1199
 can the earth records ? 0.5078
 can the earth record ? 0.0907
-is the duke sees how the the direction works ? 1.2289
-is the duke seeing how the the direction works ? 1.1478
-can the duke becomes ? 1.3884
-can the duke become ? 0.0085
+is the duke sees how the the direction works ? 1.6453
+is the duke seeing how the the direction works ? 1.5033
+can the duke becomes ? 3.8323
+can the duke become ? 2.4000
 is the restaurant sees how the the temperature works ? 0.5658
 is the restaurant seeing how the the temperature works ? 0.5723
 can the restaurant records ? 1.9913
@@ -2390,8 +2390,8 @@ is the fan plans to do something with the poem ? 2.4219
 is the fan planning to do something with the poem ? 0.8571
 can the brain gives the spread her ? 0.5421
 can the brain give the spread her ? 0.5954
-is the duke gets her ? 0.0116
-is the duke getting her ? 0.0063
+is the duke gets her ? 3.2180
+is the duke getting her ? 2.4415
 is the store takes the moon away ? 0.0137
 is the store taking the moon away ? 0.0003
 is the wheel takes the energy away ? 1.8362
@@ -2478,10 +2478,10 @@ is the wall depends on the crown ? 1.4996
 is the wall depending on the crown ? 1.2053
 can the wall uses the crown ? 0.0024
 can the wall use the crown ? 0.0025
-is the duke makes the wheel something ? 0.0013
-is the duke making the wheel something ? 0.0737
-can the duke uses the wheel ? 0.0018
-can the duke use the wheel ? 0.0112
+is the duke makes the wheel something ? 2.0331
+is the duke making the wheel something ? 2.2109
+can the duke uses the wheel ? 1.7738
+can the duke use the wheel ? 2.0996
 is the memory takes him away ? 2.0456
 is the memory taking him away ? 1.7900
 can the memory changes ? 1.3197
@@ -2644,8 +2644,8 @@ is the book takes the store away ? 0.0063
 is the book taking the store away ? 0.0021
 can the book records ? 0.7340
 can the book record ? 0.0001
-is the duke depends on the daddy ? 0.1215
-is the duke depending on the daddy ? 1.4857
+is the duke depends on the daddy ? 3.0273
+is the duke depending on the daddy ? 2.4054
 is the truck takes the book away ? 0.0002
 is the truck taking the book away ? 0.0001
 is the ear sees how the the wheel works ? 0.5541
@@ -2828,10 +2828,10 @@ is the hat takes it away ? 0.0009
 is the hat taking it away ? 0.0097
 is the wheel finds the store ? 2.5270
 is the wheel finding the store ? 0.1288
-can the duke gives the kiss the poem ? 0.5731
-can the duke give the kiss the poem ? 0.1934
-is the duke gets the fan ? 0.0017
-is the duke getting the fan ? 0.0169
+can the duke gives the kiss the poem ? 2.1506
+can the duke give the kiss the poem ? 1.7943
+is the duke gets the fan ? 2.3276
+is the duke getting the fan ? 2.4553
 can the memory uses the rest ? 1.0333
 can the memory use the rest ? 1.2726
 is the picture makes the sister something ? 0.2833
@@ -2874,8 +2874,8 @@ can the journey gives the moon her ? 0.9494
 can the journey give the moon her ? 1.5584
 is the table uses the hat ? 0.0131
 is the table using the hat ? 0.0015
-can the duke takes the ball away ? 0.0047
-can the duke take the ball away ? 0.0024
+can the duke takes the ball away ? 1.5718
+can the duke take the ball away ? 1.7377
 is the journey takes the protection away ? 1.5227
 is the journey taking the protection away ? 1.7039
 is the army tells me about it ? 0.0199
@@ -3098,10 +3098,10 @@ is the truck starts ? 1.7296
 is the truck starting ? 0.0147
 can the truck takes her away ? 0.0060
 can the truck take her away ? 0.0005
-is the duke leaves ? 0.0425
-is the duke leaving ? 0.0418
-can the duke works ? 0.0083
-can the duke work ? 0.0012
+is the duke leaves ? 2.6230
+is the duke leaving ? 3.0629
+can the duke works ? 2.5838
+can the duke work ? 2.7107
 is the lady gets the wheel ? 0.0011
 is the lady getting the wheel ? 0.0173
 can the lady gives the wheel the restaurant ? 0.4358
@@ -3130,8 +3130,8 @@ is the protection gets the hand ? 2.4624
 is the protection getting the hand ? 2.1745
 is the picture turns ? 0.1926
 is the picture turning ? 0.1664
-is the duke sees how the the lady works ? 0.1631
-is the duke seeing how the the lady works ? 0.3290
+is the duke sees how the the lady works ? 1.8936
+is the duke seeing how the the lady works ? 2.5211
 is the rest finds the soil ? 2.0652
 is the rest finding the soil ? 0.3506
 is the truck uses the protection ? 0.8454
@@ -3182,8 +3182,8 @@ can the memory gives the table the picture ? 2.1388
 can the memory give the table the picture ? 1.7154
 is the figure gets the store ? 1.5864
 is the figure getting the store ? 1.9640
-is the duke sees how the the vote works ? 0.9200
-is the duke seeing how the the vote works ? 0.7466
+is the duke sees how the the vote works ? 2.6970
+is the duke seeing how the the vote works ? 2.2079
 is the memory shows the cause to the hat ? 1.8610
 is the memory showing the cause to the hat ? 2.2946
 can the memory orders ? 2.5382
@@ -3372,8 +3372,8 @@ is the tube takes the watch away ? 0.0036
 is the tube taking the watch away ? 0.4108
 can the hand wants ? 0.4024
 can the hand want ? 0.0162
-can the duke takes the book away ? 0.0028
-can the duke take the book away ? 0.0039
+can the duke takes the book away ? 1.5675
+can the duke take the book away ? 1.8364
 can the book takes the moon away ? 0.0010
 can the book take the moon away ? 0.0004
 is the wheel turns ? 0.0016
@@ -3508,8 +3508,8 @@ is the whale looks ? 0.0176
 is the whale looking ? 0.0002
 can the table gives the picture the egg ? 0.6860
 can the table give the picture the egg ? 0.0127
-is the duke depends on the picture ? 0.6429
-is the duke depending on the picture ? 1.6097
+is the duke depends on the picture ? 3.2691
+is the duke depending on the picture ? 2.1999
 is the protection looks ? 2.5916
 is the protection looking ? 2.9852
 can the protection becomes ? 3.3796
@@ -3570,8 +3570,8 @@ is the poem tells me about the serve ? 0.8190
 is the poem telling me about the serve ? 1.0351
 can the poem uses the serve ? 0.8744
 can the poem use the serve ? 0.9573
-is the duke depends on the hand ? 0.3309
-is the duke depending on the hand ? 1.6427
+is the duke depends on the hand ? 3.7688
+is the duke depending on the hand ? 3.0190
 is the poem starts ? 0.1538
 is the poem starting ? 1.3459
 can the poem gives the daddy the truck ? 0.7335
@@ -3684,10 +3684,10 @@ is the cause plays ? 1.0897
 is the cause playing ? 1.2636
 is the wall tells me about the whale ? 0.1356
 is the wall telling me about the whale ? 0.0013
-is the duke sees how the the farm works ? 0.3715
-is the duke seeing how the the farm works ? 0.4675
-can the duke changes ? 0.0682
-can the duke change ? 0.0027
+is the duke sees how the the farm works ? 1.5132
+is the duke seeing how the the farm works ? 1.6512
+can the duke changes ? 2.4486
+can the duke change ? 2.3014
 is the hand finds the vote ? 0.7234
 is the hand finding the vote ? 0.2715
 can the hand uses the vote ? 1.1770
@@ -3756,10 +3756,10 @@ is the wall uses the hand ? 0.0157
 is the wall using the hand ? 0.0103
 can the wall takes the hand away ? 0.0038
 can the wall take the hand away ? 0.0040
-is the duke depends on the memory ? 0.5549
-is the duke depending on the memory ? 2.0264
-can the duke takes the memory away ? 0.8360
-can the duke take the memory away ? 1.4053
+is the duke depends on the memory ? 2.8600
+is the duke depending on the memory ? 2.8188
+can the duke takes the memory away ? 1.7627
+can the duke take the memory away ? 2.6221
 can the energy uses him ? 2.4792
 can the energy use him ? 2.5205
 can the moon gives the serve the store ? 2.6218

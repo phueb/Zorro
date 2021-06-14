@@ -10,14 +10,14 @@ no pig can catch at most ten movies . 0.0201
 no pig can catch fewer than ten movies . 0.0127
 no sister can exist without at most ten ways . 0.0032
 no sister can exist without fewer than ten ways . 0.0061
-no duke can open the door to at least thirty dollars . 0.0017
-no duke can open the door to more than thirty dollars . 0.0029
+no duke can open the door to at least thirty dollars . 0.0025
+no duke can open the door to more than thirty dollars . 0.0037
 no slave can leave at least one lie . 0.0354
 no slave can leave more than one lie . 0.0496
 no sister could exist without at most ten bears . 0.0054
 no sister could exist without fewer than ten bears . 0.0161
-no duke can stand on top of at most twenty engines . 0.0112
-no duke can stand on top of fewer than twenty engines . 0.0169
+no duke can stand on top of at most twenty engines . 0.0086
+no duke can stand on top of fewer than twenty engines . 0.0132
 no slave can catch at least twenty parents . 0.0358
 no slave can catch more than twenty parents . 0.0235
 no dinosaur can leave at least twenty dollars . 1.3852
@@ -70,24 +70,24 @@ no dinosaur could exist without at least twenty engines . 0.9225
 no dinosaur could exist without more than twenty engines . 0.3975
 no slave could catch at most twenty bones . 0.0144
 no slave could catch fewer than twenty bones . 0.0277
-no duke could catch at most ten books . 0.0064
-no duke could catch fewer than ten books . 0.0125
+no duke could catch at most ten books . 0.0102
+no duke could catch fewer than ten books . 0.0207
 no boat can carry at most six birds . 0.0137
 no boat can carry fewer than six birds . 0.0362
 no pig could catch at least twenty stories . 0.0018
 no pig could catch more than twenty stories . 0.0058
 no pig could move to at least six songs . 0.0037
 no pig could move to more than six songs . 0.0055
-no duke can carry at most ten waters . 0.0048
-no duke can carry fewer than ten waters . 0.1377
+no duke can carry at most ten waters . 0.0085
+no duke can carry fewer than ten waters . 0.0646
 no dinosaur could move to at least six ways . 0.7856
 no dinosaur could move to more than six ways . 0.0347
 no pig can stand on top of at most one child . 0.0078
 no pig can stand on top of fewer than one child . 0.0073
 no sister could carry at least ten books . 0.0029
 no sister could carry more than ten books . 0.0032
-no duke could leave at most one day . 0.0051
-no duke could leave fewer than one day . 0.0355
+no duke could leave at most one day . 0.0072
+no duke could leave fewer than one day . 0.0485
 no pig could leave at most ten pages . 0.0120
 no pig could leave fewer than ten pages . 0.0106
 no dinosaur could exist without at least one foot . 1.2859
@@ -106,8 +106,8 @@ no pig can stand on top of at most thirty lies . 0.0086
 no pig can stand on top of fewer than thirty lies . 0.0361
 no wolf could move to at least thirty things . 0.0039
 no wolf could move to more than thirty things . 0.0050
-no duke can open the door to at least one day . 0.0014
-no duke can open the door to more than one day . 0.0028
+no duke can open the door to at least one day . 0.0022
+no duke can open the door to more than one day . 0.0034
 no dinosaur can stand on top of at least twenty horses . 1.0142
 no dinosaur can stand on top of more than twenty horses . 0.8657
 no dinosaur can leave at most twenty ways . 0.9083
@@ -130,18 +130,18 @@ no boat could open the door to at least nine days . 0.0038
 no boat could open the door to more than nine days . 0.0035
 no pig can increase the size of at most six waters . 0.0075
 no pig can increase the size of fewer than six waters . 0.1583
-no duke can increase the size of at most thirty babies . 0.0054
-no duke can increase the size of fewer than thirty babies . 0.0072
+no duke can increase the size of at most thirty babies . 0.0091
+no duke can increase the size of fewer than thirty babies . 0.0108
 no dinosaur can move to at least nine bits . 0.6657
 no dinosaur can move to more than nine bits . 0.0341
 no wolf could move to at least ten days . 0.0033
 no wolf could move to more than ten days . 0.0060
 no wolf can catch at least thirty arms . 0.0206
 no wolf can catch more than thirty arms . 0.1111
-no duke can leave at least thirty stories . 0.0090
-no duke can leave more than thirty stories . 0.0149
-no duke could stand on top of at least thirty parents . 0.0028
-no duke could stand on top of more than thirty parents . 0.0024
+no duke can leave at least thirty stories . 0.0111
+no duke can leave more than thirty stories . 0.0140
+no duke could stand on top of at least thirty parents . 0.0095
+no duke could stand on top of more than thirty parents . 0.0016
 no pig could exist without at least one problem . 0.0149
 no pig could exist without more than one problem . 0.0065
 no boat could catch at most thirty stars . 0.4721
@@ -158,8 +158,8 @@ no boat could leave at most twenty days . 0.0276
 no boat could leave fewer than twenty days . 0.0317
 no boat could increase the size of at least twenty bits . 0.0151
 no boat could increase the size of more than twenty bits . 0.0107
-no duke could catch at most ten words . 0.0061
-no duke could catch fewer than ten words . 0.0101
+no duke could catch at most ten words . 0.0063
+no duke could catch fewer than ten words . 0.0125
 no boat can move to at most thirty songs . 0.0032
 no boat can move to fewer than thirty songs . 0.0097
 no pig can increase the size of at least one ring . 0.0012
@@ -174,12 +174,12 @@ no slave can carry at most thirty engines . 0.0078
 no slave can carry fewer than thirty engines . 0.0134
 no pig could leave at most six bones . 0.0280
 no pig could leave fewer than six bones . 0.0081
-no duke could open the door to at least ten words . 0.0028
-no duke could open the door to more than ten words . 0.0066
+no duke could open the door to at least ten words . 0.0038
+no duke could open the door to more than ten words . 0.0064
 no pig can leave at least six dollars . 0.0073
 no pig can leave more than six dollars . 0.0046
-no duke can exist without at least six hands . 0.0097
-no duke can exist without more than six hands . 0.0069
+no duke can exist without at least six hands . 0.0130
+no duke can exist without more than six hands . 0.0046
 no slave can increase the size of at least six whales . 0.0118
 no slave can increase the size of more than six whales . 0.0168
 no slave can increase the size of at most one movie . 0.0248
@@ -194,8 +194,8 @@ no sister could stand on top of at most thirty eggs . 0.0071
 no sister could stand on top of fewer than thirty eggs . 0.0033
 no boat could move to at least ten stories . 0.0035
 no boat could move to more than ten stories . 0.0066
-no duke could increase the size of at most one animal . 0.0410
-no duke could increase the size of fewer than one animal . 0.0065
+no duke could increase the size of at most one animal . 0.0243
+no duke could increase the size of fewer than one animal . 0.0166
 no wolf can increase the size of at most thirty eggs . 0.0098
 no wolf can increase the size of fewer than thirty eggs . 0.0101
 no wolf could stand on top of at most thirty engines . 0.0022
@@ -264,8 +264,8 @@ no pig could leave at most ten parents . 0.0195
 no pig could leave fewer than ten parents . 0.0101
 no sister can increase the size of at most one foot . 0.0083
 no sister can increase the size of fewer than one foot . 0.0057
-no duke could stand on top of at least nine ways . 0.0029
-no duke could stand on top of more than nine ways . 0.0033
+no duke could stand on top of at least nine ways . 0.0018
+no duke could stand on top of more than nine ways . 0.0019
 no dinosaur could catch at most thirty stands . 0.7904
 no dinosaur could catch fewer than thirty stands . 0.9415
 no doctor can leave at most ten eggs . 0.0220
@@ -280,8 +280,8 @@ no dinosaur could open the door to at most thirty hands . 1.0408
 no dinosaur could open the door to fewer than thirty hands . 1.0753
 no boat can move to at least nine children . 0.0072
 no boat can move to more than nine children . 0.0042
-no duke can increase the size of at least ten restaurants . 0.0033
-no duke can increase the size of more than ten restaurants . 0.0039
+no duke can increase the size of at least ten restaurants . 0.0045
+no duke can increase the size of more than ten restaurants . 0.0059
 no slave can catch at most thirty bones . 0.0035
 no slave can catch fewer than thirty bones . 0.0061
 no sister could carry at most nine fingers . 0.0168
@@ -300,8 +300,8 @@ no doctor can leave at most six patterns . 0.0210
 no doctor can leave fewer than six patterns . 0.0138
 no doctor could increase the size of at least thirty hands . 0.0038
 no doctor could increase the size of more than thirty hands . 0.0113
-no duke can catch at least thirty windows . 0.0073
-no duke can catch more than thirty windows . 0.0058
+no duke can catch at least thirty windows . 0.0111
+no duke can catch more than thirty windows . 0.0047
 no doctor can open the door to at least thirty problems . 0.0029
 no doctor can open the door to more than thirty problems . 0.0043
 no doctor can leave at least one picture . 0.0075
@@ -310,8 +310,8 @@ no doctor can increase the size of at least twenty engines . 0.0053
 no doctor can increase the size of more than twenty engines . 0.0065
 no slave can exist without at most twenty girls . 0.1184
 no slave can exist without fewer than twenty girls . 0.0260
-no duke can stand on top of at most twenty minutes . 0.0233
-no duke can stand on top of fewer than twenty minutes . 0.0242
+no duke can stand on top of at most twenty minutes . 0.0171
+no duke can stand on top of fewer than twenty minutes . 0.0201
 no wolf could exist without at least nine stories . 0.0027
 no wolf could exist without more than nine stories . 0.0031
 no boat could move to at least twenty minutes . 0.0031
@@ -336,8 +336,8 @@ no sister could increase the size of at most ten fingers . 0.0043
 no sister could increase the size of fewer than ten fingers . 0.0172
 no wolf can increase the size of at most one finger . 0.0194
 no wolf can increase the size of fewer than one finger . 0.0052
-no duke can catch at most one day . 0.0070
-no duke can catch fewer than one day . 0.0165
+no duke can catch at most one day . 0.0087
+no duke can catch fewer than one day . 0.0111
 no pig could leave at least thirty pages . 0.0047
 no pig could leave more than thirty pages . 0.0048
 no dinosaur could carry at most nine types . 0.0642
@@ -374,8 +374,8 @@ no dinosaur can carry at least ten days . 0.9113
 no dinosaur can carry more than ten days . 0.0269
 no pig could stand on top of at most six restaurants . 0.0417
 no pig could stand on top of fewer than six restaurants . 0.0091
-no duke can carry at least six hands . 0.0037
-no duke can carry more than six hands . 0.0033
+no duke can carry at least six hands . 0.0071
+no duke can carry more than six hands . 0.0030
 no slave could open the door to at least ten minutes . 0.0046
 no slave could open the door to more than ten minutes . 0.0077
 no pig can carry at most six stories . 0.0218
@@ -390,16 +390,16 @@ no slave can catch at most six pictures . 0.0148
 no slave can catch fewer than six pictures . 0.0067
 no sister could open the door to at most six colors . 0.0127
 no sister could open the door to fewer than six colors . 0.0047
-no duke could leave at least twenty lions . 0.4761
-no duke could leave more than twenty lions . 0.3666
+no duke could leave at least twenty lions . 0.4394
+no duke could leave more than twenty lions . 0.1017
 no wolf can leave at most nine bones . 0.0113
 no wolf can leave fewer than nine bones . 0.0099
 no wolf can increase the size of at least ten restaurants . 0.0076
 no wolf can increase the size of more than ten restaurants . 0.0093
-no duke could catch at least twenty patterns . 0.3326
-no duke could catch more than twenty patterns . 0.0742
-no duke can catch at most six engines . 0.0117
-no duke can catch fewer than six engines . 0.0173
+no duke could catch at least twenty patterns . 0.1694
+no duke could catch more than twenty patterns . 0.1890
+no duke can catch at most six engines . 0.0161
+no duke can catch fewer than six engines . 0.0348
 no dinosaur could stand on top of at most ten movies . 0.0228
 no dinosaur could stand on top of fewer than ten movies . 0.0419
 no wolf can catch at most thirty pages . 0.0277
@@ -412,8 +412,8 @@ no doctor could carry at most ten children . 0.0356
 no doctor could carry fewer than ten children . 0.0186
 no pig could carry at least six days . 0.0020
 no pig could carry more than six days . 0.0026
-no duke can catch at most one word . 0.0334
-no duke can catch fewer than one word . 0.0090
+no duke can catch at most one word . 0.0265
+no duke can catch fewer than one word . 0.0110
 no dinosaur could increase the size of at most ten babies . 0.6754
 no dinosaur could increase the size of fewer than ten babies . 1.0894
 no wolf could open the door to at most six lies . 0.0166
@@ -442,8 +442,8 @@ no dinosaur can stand on top of at least nine things . 0.1748
 no dinosaur can stand on top of more than nine things . 0.0160
 no pig can leave at least one thing . 0.0082
 no pig can leave more than one thing . 0.0089
-no duke could move to at least twenty waters . 0.0029
-no duke could move to more than twenty waters . 0.0058
+no duke could move to at least twenty waters . 0.0080
+no duke could move to more than twenty waters . 0.0543
 no boat could stand on top of at least six eggs . 0.0035
 no boat could stand on top of more than six eggs . 0.0084
 no wolf could carry at most ten movies . 0.0081
@@ -456,8 +456,8 @@ no slave can carry at most thirty days . 0.0228
 no slave can carry fewer than thirty days . 0.0079
 no wolf could carry at most thirty girls . 0.1387
 no wolf could carry fewer than thirty girls . 0.0637
-no duke could move to at most twenty kings . 0.0216
-no duke could move to fewer than twenty kings . 0.0126
+no duke could move to at most twenty kings . 0.0084
+no duke could move to fewer than twenty kings . 0.0107
 no slave can increase the size of at least thirty problems . 0.0050
 no slave can increase the size of more than thirty problems . 0.0083
 no wolf can carry at least six horses . 0.0103
@@ -478,10 +478,10 @@ no pig could carry at least thirty boats . 0.0025
 no pig could carry more than thirty boats . 0.0058
 no pig can move to at least twenty lies . 0.0300
 no pig can move to more than twenty lies . 0.0221
-no duke can open the door to at least ten bones . 0.0014
-no duke can open the door to more than ten bones . 0.0028
-no duke can catch at least one guy . 0.0418
-no duke can catch more than one guy . 0.0225
+no duke can open the door to at least ten bones . 0.0024
+no duke can open the door to more than ten bones . 0.0038
+no duke can catch at least one guy . 0.0573
+no duke can catch more than one guy . 0.0443
 no wolf can leave at least nine feet . 0.0151
 no wolf can leave more than nine feet . 0.0098
 no wolf could stand on top of at most six ways . 0.0056
@@ -502,10 +502,10 @@ no doctor can increase the size of at least ten restaurants . 0.0034
 no doctor can increase the size of more than ten restaurants . 0.0056
 no wolf could leave at most ten minutes . 0.0623
 no wolf could leave fewer than ten minutes . 0.0166
-no duke could catch at least one child . 0.0021
-no duke could catch more than one child . 0.0030
-no duke could catch at least six differences . 0.1983
-no duke could catch more than six differences . 0.1603
+no duke could catch at least one child . 0.0033
+no duke could catch more than one child . 0.0027
+no duke could catch at least six differences . 0.0542
+no duke could catch more than six differences . 0.0580
 no slave could exist without at least six whales . 0.0667
 no slave could exist without more than six whales . 0.0366
 no slave can increase the size of at least nine kings . 0.0026
@@ -514,8 +514,8 @@ no boat could increase the size of at most ten waters . 0.0049
 no boat could increase the size of fewer than ten waters . 0.0433
 no wolf can open the door to at most thirty patterns . 0.0040
 no wolf can open the door to fewer than thirty patterns . 0.0086
-no duke could move to at most six cars . 0.0037
-no duke could move to fewer than six cars . 0.0064
+no duke could move to at most six cars . 0.0048
+no duke could move to fewer than six cars . 0.0082
 no doctor could leave at least six bears . 0.0081
 no doctor could leave more than six bears . 0.0054
 no doctor could increase the size of at least nine stands . 0.0028
@@ -528,8 +528,8 @@ no dinosaur can carry at most one song . 0.0741
 no dinosaur can carry fewer than one song . 0.9130
 no dinosaur can exist without at least six days . 0.2337
 no dinosaur can exist without more than six days . 0.0127
-no duke can stand on top of at most one foot . 0.0233
-no duke can stand on top of fewer than one foot . 0.0148
+no duke can stand on top of at most one foot . 0.0067
+no duke can stand on top of fewer than one foot . 0.0189
 no sister can exist without at most nine stands . 0.0085
 no sister can exist without fewer than nine stands . 0.0094
 no doctor can move to at least thirty birds . 0.0035
@@ -552,20 +552,20 @@ no boat can move to at least thirty patterns . 0.2304
 no boat can move to more than thirty patterns . 0.0084
 no sister can increase the size of at least nine types . 0.0042
 no sister can increase the size of more than nine types . 0.0041
-no duke could leave at most thirty stars . 0.0122
-no duke could leave fewer than thirty stars . 0.0199
+no duke could leave at most thirty stars . 0.0098
+no duke could leave fewer than thirty stars . 0.0266
 no slave could move to at most ten rings . 0.0050
 no slave could move to fewer than ten rings . 0.0076
-no duke could carry at least nine patterns . 0.0124
-no duke could carry more than nine patterns . 0.0075
+no duke could carry at least nine patterns . 0.0104
+no duke could carry more than nine patterns . 0.0094
 no doctor could exist without at most thirty calls . 0.0083
 no doctor could exist without fewer than thirty calls . 0.0116
-no duke can increase the size of at least six pages . 0.0030
-no duke can increase the size of more than six pages . 0.0042
+no duke can increase the size of at least six pages . 0.0031
+no duke can increase the size of more than six pages . 0.0036
 no doctor could carry at least nine dogs . 0.0043
 no doctor could carry more than nine dogs . 0.0053
-no duke can carry at most six birds . 0.0119
-no duke can carry fewer than six birds . 0.0363
+no duke can carry at most six birds . 0.0082
+no duke can carry fewer than six birds . 0.0331
 no dinosaur can carry at most twenty fingers . 0.4785
 no dinosaur can carry fewer than twenty fingers . 0.6473
 no slave could stand on top of at least twenty words . 0.0008
@@ -592,16 +592,16 @@ no dinosaur can exist without at least one lie . 1.7173
 no dinosaur can exist without more than one lie . 1.5239
 no pig can carry at least nine ways . 0.0038
 no pig can carry more than nine ways . 0.0041
-no duke can open the door to at least one animal . 0.0018
-no duke can open the door to more than one animal . 0.0026
+no duke can open the door to at least one animal . 0.0029
+no duke can open the door to more than one animal . 0.0038
 no pig could carry at most thirty things . 0.0035
 no pig could carry fewer than thirty things . 0.0179
 no wolf can open the door to at most six types . 0.0119
 no wolf can open the door to fewer than six types . 0.0122
-no duke can leave at least nine patterns . 0.1048
-no duke can leave more than nine patterns . 0.0092
-no duke can catch at least twenty fingers . 0.0039
-no duke can catch more than twenty fingers . 0.0064
+no duke can leave at least nine patterns . 0.0275
+no duke can leave more than nine patterns . 0.0128
+no duke can catch at least twenty fingers . 0.0082
+no duke can catch more than twenty fingers . 0.0099
 no boat can carry at least one star . 0.0036
 no boat can carry more than one star . 0.0019
 no doctor can carry at least one movie . 0.0095
@@ -678,38 +678,38 @@ no boat could catch at most thirty things . 0.0052
 no boat could catch fewer than thirty things . 0.0401
 no doctor could exist without at least six waters . 0.0059
 no doctor could exist without more than six waters . 0.0088
-no duke can exist without at most nine animals . 0.0303
-no duke can exist without fewer than nine animals . 0.0592
+no duke can exist without at most nine animals . 0.1165
+no duke can exist without fewer than nine animals . 0.2419
 no sister could move to at most thirty pictures . 0.0046
 no sister could move to fewer than thirty pictures . 0.0116
 no boat could open the door to at most one hand . 0.0172
 no boat could open the door to fewer than one hand . 0.0082
 no doctor can catch at most nine songs . 0.0089
 no doctor can catch fewer than nine songs . 0.0178
-no duke can catch at least one animal . 0.0030
-no duke can catch more than one animal . 0.0035
+no duke can catch at least one animal . 0.0090
+no duke can catch more than one animal . 0.0069
 no pig could exist without at most six stands . 0.0185
 no pig could exist without fewer than six stands . 0.0130
 no dinosaur can open the door to at least twenty hands . 1.1298
 no dinosaur can open the door to more than twenty hands . 0.8048
 no slave could exist without at least one finger . 0.0025
 no slave could exist without more than one finger . 0.0034
-no duke could carry at most nine horses . 0.0132
-no duke could carry fewer than nine horses . 0.0247
+no duke could carry at most nine horses . 0.0106
+no duke could carry fewer than nine horses . 0.0268
 no boat could stand on top of at least six cars . 0.0467
 no boat could stand on top of more than six cars . 0.0273
 no wolf could leave at most nine engines . 0.0607
 no wolf could leave fewer than nine engines . 0.0331
 no dinosaur can open the door to at least nine windows . 1.0925
 no dinosaur can open the door to more than nine windows . 0.7776
-no duke could stand on top of at most nine bands . 0.0053
-no duke could stand on top of fewer than nine bands . 0.0051
+no duke could stand on top of at most nine bands . 0.0030
+no duke could stand on top of fewer than nine bands . 0.0058
 no doctor can stand on top of at most ten bands . 0.0027
 no doctor can stand on top of fewer than ten bands . 0.0086
 no doctor can increase the size of at most twenty restaurants . 0.0039
 no doctor can increase the size of fewer than twenty restaurants . 0.0087
-no duke can carry at least six stories . 0.0042
-no duke can carry more than six stories . 0.0039
+no duke can carry at least six stories . 0.1649
+no duke can carry more than six stories . 0.0050
 no pig could increase the size of at most one bird . 0.0150
 no pig could increase the size of fewer than one bird . 0.0131
 no doctor can increase the size of at least twenty bits . 0.0096
@@ -720,8 +720,8 @@ no sister can carry at least thirty colors . 0.0064
 no sister can carry more than thirty colors . 0.0058
 no dinosaur can increase the size of at least one animal . 0.2763
 no dinosaur can increase the size of more than one animal . 0.0189
-no duke could catch at least nine children . 0.0042
-no duke could catch more than nine children . 0.0043
+no duke could catch at least nine children . 0.0054
+no duke could catch more than nine children . 0.0040
 no boat could leave at least twenty parents . 0.1078
 no boat could leave more than twenty parents . 0.0108
 no pig can move to at least twenty eggs . 0.0052
@@ -734,32 +734,32 @@ no sister could exist without at most nine stories . 0.0069
 no sister could exist without fewer than nine stories . 0.0061
 no doctor could exist without at most ten guys . 0.0104
 no doctor could exist without fewer than ten guys . 0.0065
-no duke can leave at most thirty bears . 0.0418
-no duke can leave fewer than thirty bears . 0.1074
+no duke can leave at most thirty bears . 0.0132
+no duke can leave fewer than thirty bears . 0.0652
 no slave could move to at most nine toys . 0.0347
 no slave could move to fewer than nine toys . 0.0506
 no sister can stand on top of at least nine days . 0.0018
 no sister can stand on top of more than nine days . 0.0024
-no duke could leave at least twenty feet . 0.0094
-no duke could leave more than twenty feet . 0.0084
+no duke could leave at least twenty feet . 0.0096
+no duke could leave more than twenty feet . 0.0101
 no slave can carry at most one engine . 0.0122
 no slave can carry fewer than one engine . 0.0336
-no duke can increase the size of at least six windows . 0.0083
-no duke can increase the size of more than six windows . 0.0073
+no duke can increase the size of at least six windows . 0.0109
+no duke can increase the size of more than six windows . 0.0054
 no doctor could leave at least six things . 0.0194
 no doctor could leave more than six things . 0.0137
 no doctor could exist without at least twenty restaurants . 0.0744
 no doctor could exist without more than twenty restaurants . 0.0647
-no duke could leave at most one song . 0.0126
-no duke could leave fewer than one song . 0.0227
+no duke could leave at most one song . 0.0109
+no duke could leave fewer than one song . 0.0928
 no dinosaur can open the door to at most one difference . 0.8107
 no dinosaur can open the door to fewer than one difference . 1.2166
 no pig could exist without at most one girl . 0.0143
 no pig could exist without fewer than one girl . 0.0110
 no boat can stand on top of at least six hands . 0.0028
 no boat can stand on top of more than six hands . 0.0028
-no duke can move to at least one type . 0.0017
-no duke can move to more than one type . 0.0019
+no duke can move to at least one type . 0.0020
+no duke can move to more than one type . 0.0020
 no doctor can move to at least thirty animals . 0.0059
 no doctor can move to more than thirty animals . 0.0052
 no pig could exist without at least six lions . 0.1874
@@ -772,17 +772,17 @@ no doctor can move to at most ten minutes . 0.0097
 no doctor can move to fewer than ten minutes . 0.0152
 no pig could exist without at most one bit . 0.0054
 no pig could exist without fewer than one bit . 0.0066
-no duke could open the door to at most thirty toys . 0.0047
-no duke could open the door to fewer than thirty toys . 0.0040
-no duke can carry at most thirty restaurants . 0.0036
-no duke can carry fewer than thirty restaurants . 0.0130
+no duke could open the door to at most thirty toys . 0.0068
+no duke could open the door to fewer than thirty toys . 0.0099
+no duke can carry at most thirty restaurants . 0.0071
+no duke can carry fewer than thirty restaurants . 0.0099
 no dinosaur can move to at least nine whales . 0.5779
 no dinosaur can move to more than nine whales . 0.0242
 no doctor could move to at most twenty hands . 0.0047
 no doctor could move to fewer than twenty hands . 0.0267
 no boat could increase the size of at most ten eggs . 0.0133
 no boat could increase the size of fewer than ten eggs . 0.0087
-no duke can open the door to at least ten books . 0.0017
+no duke can open the door to at least ten books . 0.0027
 no duke can open the door to more than ten books . 0.0034
 no slave can open the door to at most twenty kings . 0.0084
 no slave can open the door to fewer than twenty kings . 0.0098
@@ -794,12 +794,12 @@ no boat can open the door to at most one picture . 0.0136
 no boat can open the door to fewer than one picture . 0.0557
 no sister could move to at least twenty movies . 0.0086
 no sister could move to more than twenty movies . 0.0100
-no duke could stand on top of at most thirty colors . 0.0114
-no duke could stand on top of fewer than thirty colors . 0.0044
+no duke could stand on top of at most thirty colors . 0.0281
+no duke could stand on top of fewer than thirty colors . 0.0091
 no doctor could open the door to at most one star . 0.0729
 no doctor could open the door to fewer than one star . 0.0047
-no duke could stand on top of at most twenty arms . 0.0107
-no duke could stand on top of fewer than twenty arms . 0.0116
+no duke could stand on top of at most twenty arms . 0.0285
+no duke could stand on top of fewer than twenty arms . 0.0410
 no pig can leave at most thirty hands . 0.0218
 no pig can leave fewer than thirty hands . 0.0468
 no wolf could leave at most twenty animals . 0.0360
@@ -820,8 +820,8 @@ no slave can open the door to at most twenty minutes . 0.0106
 no slave can open the door to fewer than twenty minutes . 0.0149
 no pig could catch at least thirty feet . 0.0021
 no pig could catch more than thirty feet . 0.0013
-no duke can increase the size of at least twenty eggs . 0.0052
-no duke can increase the size of more than twenty eggs . 0.0073
+no duke can increase the size of at least twenty eggs . 0.0049
+no duke can increase the size of more than twenty eggs . 0.0063
 no boat could move to at most six eggs . 0.1472
 no boat could move to fewer than six eggs . 0.0252
 no wolf can stand on top of at most thirty whales . 0.0084
@@ -846,8 +846,8 @@ no dinosaur can increase the size of at most twenty movies . 0.0084
 no dinosaur can increase the size of fewer than twenty movies . 0.0628
 no wolf could leave at least thirty babies . 0.0124
 no wolf could leave more than thirty babies . 0.0152
-no duke can catch at least ten kings . 0.0137
-no duke can catch more than ten kings . 0.0157
+no duke can catch at least ten kings . 0.0069
+no duke can catch more than ten kings . 0.0050
 no dinosaur could catch at most six girls . 1.1569
 no dinosaur could catch fewer than six girls . 1.4231
 no wolf could catch at most six dollars . 0.0183
@@ -858,12 +858,12 @@ no doctor could carry at least one star . 0.0010
 no doctor could carry more than one star . 0.0010
 no slave could exist without at least ten birds . 0.0272
 no slave could exist without more than ten birds . 0.0147
-no duke can carry at least thirty stories . 0.0061
-no duke can carry more than thirty stories . 0.0100
+no duke can carry at least thirty stories . 0.0093
+no duke can carry more than thirty stories . 0.0083
 no doctor can exist without at least one story . 0.0110
 no doctor can exist without more than one story . 0.0070
-no duke could carry at least nine waters . 0.0026
-no duke could carry more than nine waters . 0.0131
+no duke could carry at least nine waters . 0.0038
+no duke could carry more than nine waters . 0.0141
 no wolf could stand on top of at least one problem . 0.0027
 no wolf could stand on top of more than one problem . 0.0041
 no slave could carry at most one book . 0.0207
@@ -922,14 +922,14 @@ no pig can move to at most ten types . 0.0112
 no pig can move to fewer than ten types . 0.0322
 no slave can move to at most one bit . 0.0030
 no slave can move to fewer than one bit . 0.0054
-no duke can exist without at most ten lions . 0.0132
-no duke can exist without fewer than ten lions . 0.0333
+no duke can exist without at most ten lions . 0.1058
+no duke can exist without fewer than ten lions . 0.2620
 no slave can exist without at most twenty children . 0.0168
 no slave can exist without fewer than twenty children . 0.0173
 no dinosaur can leave at most twenty problems . 1.0652
 no dinosaur can leave fewer than twenty problems . 1.3877
-no duke can stand on top of at most one call . 0.0027
-no duke can stand on top of fewer than one call . 0.0136
+no duke can stand on top of at most one call . 0.0035
+no duke can stand on top of fewer than one call . 0.0094
 no slave could increase the size of at least nine lies . 0.0080
 no slave could increase the size of more than nine lies . 0.0230
 no slave can open the door to at least twenty birds . 0.0053
@@ -962,8 +962,8 @@ no wolf can move to at least nine guys . 0.0148
 no wolf can move to more than nine guys . 0.0074
 no slave can catch at most one baby . 0.0493
 no slave can catch fewer than one baby . 0.0102
-no duke could move to at most one movie . 0.0146
-no duke could move to fewer than one movie . 0.0114
+no duke could move to at most one movie . 0.0156
+no duke could move to fewer than one movie . 0.0449
 no sister can exist without at least six parents . 0.0072
 no sister can exist without more than six parents . 0.0044
 no dinosaur can leave at most one minute . 1.2212
@@ -978,12 +978,12 @@ no sister could increase the size of at most one toy . 0.0191
 no sister could increase the size of fewer than one toy . 0.0065
 no slave can open the door to at most six restaurants . 0.0147
 no slave can open the door to fewer than six restaurants . 0.0084
-no duke could leave at most ten guys . 0.0159
-no duke could leave fewer than ten guys . 0.0156
+no duke could leave at most ten guys . 0.0153
+no duke could leave fewer than ten guys . 0.0285
 no slave could open the door to at least ten days . 0.0047
 no slave could open the door to more than ten days . 0.0083
-no duke could stand on top of at most one horse . 0.0291
-no duke could stand on top of fewer than one horse . 0.0048
+no duke could stand on top of at most one horse . 0.0126
+no duke could stand on top of fewer than one horse . 0.0067
 no wolf can stand on top of at most one bird . 0.0234
 no wolf can stand on top of fewer than one bird . 0.0115
 no pig can catch at least nine differences . 0.1813
@@ -1032,10 +1032,10 @@ no boat could carry at least one bird . 0.0033
 no boat could carry more than one bird . 0.0032
 no boat can increase the size of at most twenty whales . 0.0206
 no boat can increase the size of fewer than twenty whales . 0.0245
-no duke could increase the size of at least twenty babies . 0.0125
-no duke could increase the size of more than twenty babies . 0.0134
-no duke can open the door to at most twenty things . 0.0031
-no duke can open the door to fewer than twenty things . 0.0114
+no duke could increase the size of at least twenty babies . 0.0219
+no duke could increase the size of more than twenty babies . 0.0147
+no duke can open the door to at most twenty things . 0.0026
+no duke can open the door to fewer than twenty things . 0.0129
 no boat can carry at most one baby . 0.0672
 no boat can carry fewer than one baby . 0.0163
 no sister can open the door to at least ten toys . 0.0139
@@ -1050,8 +1050,8 @@ no pig can move to at least nine arms . 0.0046
 no pig can move to more than nine arms . 0.0198
 no slave could exist without at most twenty windows . 0.1563
 no slave could exist without fewer than twenty windows . 0.2002
-no duke can exist without at most one engine . 0.0129
-no duke can exist without fewer than one engine . 0.0103
+no duke can exist without at most one engine . 0.0080
+no duke can exist without fewer than one engine . 0.0398
 no wolf could open the door to at least ten ways . 0.0049
 no wolf could open the door to more than ten ways . 0.0063
 no sister can stand on top of at least thirty movies . 0.0141
@@ -1060,8 +1060,8 @@ no doctor could increase the size of at most nine horses . 0.0035
 no doctor could increase the size of fewer than nine horses . 0.0066
 no dinosaur could move to at least six guys . 1.1468
 no dinosaur could move to more than six guys . 0.5138
-no duke can catch at least twenty movies . 0.0049
-no duke can catch more than twenty movies . 0.0095
+no duke can catch at least twenty movies . 0.0100
+no duke can catch more than twenty movies . 0.0158
 no wolf could increase the size of at least ten stars . 0.0024
 no wolf could increase the size of more than ten stars . 0.0043
 no wolf can stand on top of at least thirty dogs . 0.0101
@@ -1070,40 +1070,40 @@ no sister could increase the size of at most six guys . 0.0073
 no sister could increase the size of fewer than six guys . 0.0076
 no pig could exist without at least thirty problems . 0.0050
 no pig could exist without more than thirty problems . 0.0106
-no duke could increase the size of at least thirty minutes . 0.0018
-no duke could increase the size of more than thirty minutes . 0.0029
+no duke could increase the size of at least thirty minutes . 0.0016
+no duke could increase the size of more than thirty minutes . 0.0025
 no dinosaur could stand on top of at least twenty windows . 0.8072
 no dinosaur could stand on top of more than twenty windows . 0.5529
-no duke can increase the size of at most ten lions . 0.0024
-no duke can increase the size of fewer than ten lions . 0.0072
+no duke can increase the size of at most ten lions . 0.0070
+no duke can increase the size of fewer than ten lions . 0.0138
 no slave can carry at least thirty animals . 0.0043
 no slave can carry more than thirty animals . 0.0068
 no slave could leave at least twenty restaurants . 0.0082
 no slave could leave more than twenty restaurants . 0.0590
-no duke could carry at most one way . 0.0102
-no duke could carry fewer than one way . 0.0382
+no duke could carry at most one way . 0.0111
+no duke could carry fewer than one way . 0.0377
 no dinosaur could move to at least ten arms . 0.6985
 no dinosaur could move to more than ten arms . 0.0152
 no boat can carry at least nine days . 0.0051
 no boat can carry more than nine days . 0.0042
 no sister could move to at most ten bones . 0.0056
 no sister could move to fewer than ten bones . 0.0242
-no duke could move to at least thirty words . 0.0036
-no duke could move to more than thirty words . 0.0049
-no duke can leave at least nine guys . 0.0063
-no duke can leave more than nine guys . 0.0033
+no duke could move to at least thirty words . 0.0057
+no duke could move to more than thirty words . 0.0054
+no duke can leave at least nine guys . 0.0094
+no duke can leave more than nine guys . 0.0044
 no doctor can exist without at most ten babies . 0.0155
 no doctor can exist without fewer than ten babies . 0.0170
 no sister could increase the size of at least one bird . 0.0034
 no sister could increase the size of more than one bird . 0.0035
-no duke can leave at least six rings . 0.0094
-no duke can leave more than six rings . 0.0096
+no duke can leave at least six rings . 0.0500
+no duke can leave more than six rings . 0.0196
 no slave can leave at most twenty restaurants . 0.0295
 no slave can leave fewer than twenty restaurants . 0.0971
 no pig can exist without at most thirty songs . 0.0078
 no pig can exist without fewer than thirty songs . 0.0085
-no duke can open the door to at least ten things . 0.0039
-no duke can open the door to more than ten things . 0.0079
+no duke can open the door to at least ten things . 0.0069
+no duke can open the door to more than ten things . 0.0102
 no slave can move to at least twenty toys . 0.0215
 no slave can move to more than twenty toys . 0.0128
 no wolf can increase the size of at least nine bones . 0.0023
@@ -1112,12 +1112,12 @@ no wolf could move to at most twenty pictures . 0.0062
 no wolf could move to fewer than twenty pictures . 0.0231
 no boat can stand on top of at most one king . 0.0117
 no boat can stand on top of fewer than one king . 0.0038
-no duke could move to at least ten arms . 0.0016
-no duke could move to more than ten arms . 0.0028
+no duke could move to at least ten arms . 0.0027
+no duke could move to more than ten arms . 0.0143
 no sister can carry at least one lion . 0.1854
 no sister can carry more than one lion . 0.0986
-no duke could carry at most one difference . 0.0209
-no duke could carry fewer than one difference . 0.1249
+no duke could carry at most one difference . 0.0168
+no duke could carry fewer than one difference . 0.0602
 no wolf could exist without at least ten birds . 0.0394
 no wolf could exist without more than ten birds . 0.0108
 no slave can exist without at most six differences . 0.1512
@@ -1130,8 +1130,8 @@ no doctor can carry at least one call . 0.0052
 no doctor can carry more than one call . 0.0031
 no sister can exist without at most thirty lions . 0.1604
 no sister can exist without fewer than thirty lions . 0.2867
-no duke can open the door to at most six stands . 0.0164
-no duke can open the door to fewer than six stands . 0.0078
+no duke can open the door to at most six stands . 0.0132
+no duke can open the door to fewer than six stands . 0.0119
 no dinosaur could catch at least ten stories . 1.1073
 no dinosaur could catch more than ten stories . 0.5439
 no sister could stand on top of at least nine girls . 0.0085
@@ -1158,8 +1158,8 @@ no doctor could open the door to at least ten bears . 0.0029
 no doctor could open the door to more than ten bears . 0.0039
 no slave could move to at least nine bands . 0.0034
 no slave could move to more than nine bands . 0.0059
-no duke can move to at most six stories . 0.0028
-no duke can move to fewer than six stories . 0.0048
+no duke can move to at most six stories . 0.0033
+no duke can move to fewer than six stories . 0.0079
 no sister could catch at most thirty differences . 0.2848
 no sister could catch fewer than thirty differences . 0.0746
 no doctor can exist without at least nine horses . 0.0116
@@ -1186,10 +1186,10 @@ no slave could open the door to at most nine songs . 0.0091
 no slave could open the door to fewer than nine songs . 0.0065
 no wolf could move to at most ten lions . 0.0147
 no wolf could move to fewer than ten lions . 0.0639
-no duke can open the door to at most one book . 0.1276
-no duke can open the door to fewer than one book . 0.0294
-no duke can leave at least nine ways . 0.0103
-no duke can leave more than nine ways . 0.0065
+no duke can open the door to at most one book . 0.1077
+no duke can open the door to fewer than one book . 0.0167
+no duke can leave at least nine ways . 0.0073
+no duke can leave more than nine ways . 0.0054
 no slave can leave at most six days . 0.0712
 no slave can leave fewer than six days . 0.0107
 no doctor could carry at most six animals . 0.0321
@@ -1214,8 +1214,8 @@ no wolf can carry at least twenty girls . 0.0766
 no wolf can carry more than twenty girls . 0.0853
 no boat could increase the size of at least six babies . 0.0193
 no boat could increase the size of more than six babies . 0.0255
-no duke can move to at least ten bones . 0.0011
-no duke can move to more than ten bones . 0.0016
+no duke can move to at least ten bones . 0.0019
+no duke can move to more than ten bones . 0.0022
 no dinosaur could exist without at most twenty engines . 0.6525
 no dinosaur could exist without fewer than twenty engines . 0.5917
 no doctor could move to at most twenty books . 0.0035
@@ -1254,14 +1254,14 @@ no boat can stand on top of at least six pages . 0.0017
 no boat can stand on top of more than six pages . 0.0022
 no pig could leave at least six rings . 0.0305
 no pig could leave more than six rings . 0.0107
-no duke can leave at least nine windows . 0.0141
-no duke can leave more than nine windows . 0.0052
+no duke can leave at least nine windows . 0.0122
+no duke can leave more than nine windows . 0.0043
 no sister could leave at most thirty bones . 0.0071
 no sister could leave fewer than thirty bones . 0.0159
 no boat could leave at least thirty toys . 0.2265
 no boat could leave more than thirty toys . 0.0794
-no duke could carry at least twenty things . 0.0051
-no duke could carry more than twenty things . 0.0088
+no duke could carry at least twenty things . 0.0079
+no duke could carry more than twenty things . 0.0082
 no slave can move to at least nine lions . 0.9436
 no slave can move to more than nine lions . 0.6921
 no pig can stand on top of at most thirty types . 0.0040
@@ -1278,8 +1278,8 @@ no doctor can carry at least one bear . 0.0174
 no doctor can carry more than one bear . 0.0214
 no sister can leave at least one egg . 0.0086
 no sister can leave more than one egg . 0.0037
-no duke can open the door to at most nine bands . 0.0049
-no duke can open the door to fewer than nine bands . 0.0030
+no duke can open the door to at most nine bands . 0.0040
+no duke can open the door to fewer than nine bands . 0.0060
 no pig could catch at most ten feet . 0.0284
 no pig could catch fewer than ten feet . 0.0219
 no doctor could carry at least one pattern . 0.0043
@@ -1324,16 +1324,16 @@ no sister could open the door to at most thirty lies . 0.0171
 no sister could open the door to fewer than thirty lies . 0.0134
 no wolf could catch at least nine problems . 0.0050
 no wolf could catch more than nine problems . 0.0070
-no duke can open the door to at least twenty things . 0.0110
-no duke can open the door to more than twenty things . 0.0088
+no duke can open the door to at least twenty things . 0.0099
+no duke can open the door to more than twenty things . 0.0054
 no doctor could open the door to at least thirty feet . 0.0021
 no doctor could open the door to more than thirty feet . 0.0041
 no wolf could exist without at least one call . 0.0029
 no wolf could exist without more than one call . 0.0089
 no doctor could leave at least thirty books . 0.0061
 no doctor could leave more than thirty books . 0.0091
-no duke could increase the size of at most ten bears . 0.0018
-no duke could increase the size of fewer than ten bears . 0.0050
+no duke could increase the size of at most ten bears . 0.0034
+no duke could increase the size of fewer than ten bears . 0.0041
 no slave can open the door to at most nine eggs . 0.0187
 no slave can open the door to fewer than nine eggs . 0.0117
 no wolf could move to at least six problems . 0.0051
@@ -1366,8 +1366,8 @@ no boat could stand on top of at least twenty toys . 0.1597
 no boat could stand on top of more than twenty toys . 0.0216
 no doctor can open the door to at least one whale . 0.0032
 no doctor can open the door to more than one whale . 0.0033
-no duke could increase the size of at least twenty pictures . 0.0045
-no duke could increase the size of more than twenty pictures . 0.0105
+no duke could increase the size of at least twenty pictures . 0.0031
+no duke could increase the size of more than twenty pictures . 0.0050
 no slave could catch at most twenty feet . 0.0214
 no slave could catch fewer than twenty feet . 0.0246
 no sister can stand on top of at least thirty parents . 0.0042
@@ -1376,12 +1376,12 @@ no doctor can open the door to at most twenty words . 0.0054
 no doctor can open the door to fewer than twenty words . 0.0048
 no pig can exist without at most six dollars . 0.0140
 no pig can exist without fewer than six dollars . 0.0113
-no duke can move to at most twenty stands . 0.0119
-no duke can move to fewer than twenty stands . 0.0256
+no duke can move to at most twenty stands . 0.0077
+no duke can move to fewer than twenty stands . 0.0300
 no slave could move to at most nine types . 0.0055
 no slave could move to fewer than nine types . 0.0227
-no duke could exist without at most six patterns . 0.0592
-no duke could exist without fewer than six patterns . 0.1784
+no duke could exist without at most six patterns . 0.0276
+no duke could exist without fewer than six patterns . 0.1413
 no sister could open the door to at least ten ways . 0.0064
 no sister could open the door to more than ten ways . 0.0075
 no sister can stand on top of at most ten hands . 0.0028
@@ -1422,8 +1422,8 @@ no sister could leave at least six words . 0.0059
 no sister could leave more than six words . 0.0076
 no pig could carry at most one bear . 0.0775
 no pig could carry fewer than one bear . 0.0447
-no duke could move to at least nine engines . 0.0086
-no duke could move to more than nine engines . 0.0056
+no duke could move to at least nine engines . 0.0062
+no duke could move to more than nine engines . 0.0157
 no slave could exist without at least six pictures . 0.0056
 no slave could exist without more than six pictures . 0.0050
 no pig can exist without at most ten engines . 0.0093
@@ -1438,16 +1438,16 @@ no boat can leave at most twenty guys . 0.0167
 no boat can leave fewer than twenty guys . 0.0275
 no wolf can increase the size of at most nine bands . 0.0051
 no wolf can increase the size of fewer than nine bands . 0.0046
-no duke could exist without at least six things . 0.0131
-no duke could exist without more than six things . 0.0192
+no duke could exist without at least six things . 0.0152
+no duke could exist without more than six things . 0.0176
 no boat could leave at most six windows . 0.2156
 no boat could leave fewer than six windows . 0.0738
 no slave could carry at most twenty patterns . 0.1590
 no slave could carry fewer than twenty patterns . 0.5457
 no slave can increase the size of at least one toy . 0.0011
 no slave can increase the size of more than one toy . 0.0024
-no duke can open the door to at least six eggs . 0.0035
-no duke can open the door to more than six eggs . 0.0061
+no duke can open the door to at least six eggs . 0.0051
+no duke can open the door to more than six eggs . 0.0075
 no sister can stand on top of at most thirty windows . 0.0057
 no sister can stand on top of fewer than thirty windows . 0.0030
 no slave can move to at most ten babies . 0.0111
@@ -1494,8 +1494,8 @@ no boat could open the door to at most thirty babies . 0.0968
 no boat could open the door to fewer than thirty babies . 0.0202
 no boat could stand on top of at least one stand . 0.0027
 no boat could stand on top of more than one stand . 0.0022
-no duke can carry at most twenty girls . 0.0160
-no duke can carry fewer than twenty girls . 0.0255
+no duke can carry at most twenty girls . 0.0121
+no duke can carry fewer than twenty girls . 0.0193
 no sister can stand on top of at least six lions . 0.0054
 no sister can stand on top of more than six lions . 0.0052
 no slave can carry at least thirty words . 0.0029
@@ -1504,8 +1504,8 @@ no boat could catch at least nine lions . 0.1952
 no boat could catch more than nine lions . 0.0536
 no doctor could catch at most nine whales . 0.0295
 no doctor could catch fewer than nine whales . 0.0266
-no duke can catch at most six types . 0.0315
-no duke can catch fewer than six types . 0.0252
+no duke can catch at most six types . 0.0503
+no duke can catch fewer than six types . 0.0260
 no dinosaur can increase the size of at most thirty minutes . 0.1143
 no dinosaur can increase the size of fewer than thirty minutes . 0.7711
 no dinosaur could leave at least twenty children . 1.3684
@@ -1514,16 +1514,16 @@ no pig could carry at most six children . 0.0286
 no pig could carry fewer than six children . 0.0145
 no dinosaur could carry at most nine problems . 0.3920
 no dinosaur could carry fewer than nine problems . 0.7490
-no duke can open the door to at most six hands . 0.0101
-no duke can open the door to fewer than six hands . 0.0123
+no duke can open the door to at most six hands . 0.0063
+no duke can open the door to fewer than six hands . 0.0194
 no doctor can open the door to at least thirty parents . 0.0026
 no doctor can open the door to more than thirty parents . 0.0031
 no sister can move to at least nine eggs . 0.0067
 no sister can move to more than nine eggs . 0.0147
 no slave can increase the size of at most ten minutes . 0.0135
 no slave can increase the size of fewer than ten minutes . 0.0086
-no duke could increase the size of at most thirty stars . 0.0016
-no duke could increase the size of fewer than thirty stars . 0.0046
+no duke could increase the size of at most thirty stars . 0.0015
+no duke could increase the size of fewer than thirty stars . 0.0052
 no doctor could exist without at least one car . 0.0028
 no doctor could exist without more than one car . 0.0027
 no boat could catch at most six movies . 0.0276
@@ -1558,8 +1558,8 @@ no doctor could open the door to at most twenty cars . 0.0055
 no doctor could open the door to fewer than twenty cars . 0.0079
 no dinosaur can move to at least nine books . 0.3774
 no dinosaur can move to more than nine books . 0.0081
-no duke can stand on top of at most six feet . 0.0493
-no duke can stand on top of fewer than six feet . 0.0172
+no duke can stand on top of at most six feet . 0.0198
+no duke can stand on top of fewer than six feet . 0.0472
 no dinosaur could carry at least six bears . 1.1091
 no dinosaur could carry more than six bears . 0.7648
 no slave could stand on top of at most one whale . 0.0334
@@ -1630,8 +1630,8 @@ no dinosaur can open the door to at least twenty ways . 1.1837
 no dinosaur can open the door to more than twenty ways . 0.6110
 no wolf could leave at least nine whales . 0.0577
 no wolf could leave more than nine whales . 0.0590
-no duke could open the door to at most thirty birds . 0.0046
-no duke could open the door to fewer than thirty birds . 0.0050
+no duke could open the door to at most thirty birds . 0.0037
+no duke could open the door to fewer than thirty birds . 0.0056
 no sister can increase the size of at least ten whales . 0.0052
 no sister can increase the size of more than ten whales . 0.0078
 no slave could catch at least ten books . 0.0117
@@ -1650,22 +1650,22 @@ no boat could leave at least nine dogs . 0.0117
 no boat could leave more than nine dogs . 0.0198
 no slave could exist without at least ten guys . 0.0141
 no slave could exist without more than ten guys . 0.0447
-no duke can stand on top of at least twenty dollars . 0.0037
-no duke can stand on top of more than twenty dollars . 0.0037
+no duke can stand on top of at least twenty dollars . 0.0025
+no duke can stand on top of more than twenty dollars . 0.0030
 no wolf could move to at least ten cars . 0.0065
 no wolf could move to more than ten cars . 0.0045
-no duke could exist without at most ten days . 0.0037
-no duke could exist without fewer than ten days . 0.0073
+no duke could exist without at most ten days . 0.0059
+no duke could exist without fewer than ten days . 0.0112
 no sister could move to at least six stands . 0.0029
 no sister could move to more than six stands . 0.0030
-no duke could leave at least one pattern . 0.0262
-no duke could leave more than one pattern . 0.0160
+no duke could leave at least one pattern . 0.0200
+no duke could leave more than one pattern . 0.0072
 no sister can leave at least six eggs . 0.0496
 no sister can leave more than six eggs . 0.0423
 no dinosaur can stand on top of at least nine lions . 1.0093
 no dinosaur can stand on top of more than nine lions . 0.8912
-no duke could carry at most one toy . 0.0359
-no duke could carry fewer than one toy . 0.0269
+no duke could carry at most one toy . 0.0347
+no duke could carry fewer than one toy . 0.0434
 no wolf could catch at most thirty bits . 0.0132
 no wolf could catch fewer than thirty bits . 0.0190
 no doctor could open the door to at least ten windows . 0.0062
@@ -1720,18 +1720,18 @@ no dinosaur could move to at most one engine . 1.2042
 no dinosaur could move to fewer than one engine . 1.3918
 no doctor could leave at most nine guys . 0.0050
 no doctor could leave fewer than nine guys . 0.0162
-no duke could exist without at most ten hands . 0.0130
-no duke could exist without fewer than ten hands . 0.0200
+no duke could exist without at most ten hands . 0.0155
+no duke could exist without fewer than ten hands . 0.0166
 no sister could carry at least nine dogs . 0.0033
 no sister could carry more than nine dogs . 0.0054
 no dinosaur can catch at most ten patterns . 0.0451
 no dinosaur can catch fewer than ten patterns . 0.8184
 no doctor could stand on top of at most twenty kings . 0.0026
 no doctor could stand on top of fewer than twenty kings . 0.0038
-no duke can open the door to at most thirty stands . 0.0171
-no duke can open the door to fewer than thirty stands . 0.0106
-no duke can open the door to at most one egg . 0.0548
-no duke can open the door to fewer than one egg . 0.0146
+no duke can open the door to at most thirty stands . 0.0159
+no duke can open the door to fewer than thirty stands . 0.0117
+no duke can open the door to at most one egg . 0.0295
+no duke can open the door to fewer than one egg . 0.0166
 no dinosaur could catch at least ten feet . 1.1018
 no dinosaur could catch more than ten feet . 0.2178
 no doctor can increase the size of at least ten colors . 0.0041
@@ -1740,8 +1740,8 @@ no pig can increase the size of at least nine things . 0.0282
 no pig can increase the size of more than nine things . 0.0858
 no pig can exist without at most thirty animals . 0.0276
 no pig can exist without fewer than thirty animals . 0.0381
-no duke could leave at most nine dogs . 0.0244
-no duke could leave fewer than nine dogs . 0.0620
+no duke could leave at most nine dogs . 0.0182
+no duke could leave fewer than nine dogs . 0.0232
 no doctor can catch at most twenty animals . 0.0176
 no doctor can catch fewer than twenty animals . 0.0258
 no slave can carry at most twenty pictures . 0.0070
@@ -1778,8 +1778,8 @@ no sister could stand on top of at least one car . 0.0017
 no sister could stand on top of more than one car . 0.0020
 no sister could catch at most nine cars . 0.0049
 no sister could catch fewer than nine cars . 0.0103
-no duke can move to at least ten bands . 0.0014
-no duke can move to more than ten bands . 0.0016
+no duke can move to at least ten bands . 0.0015
+no duke can move to more than ten bands . 0.0020
 no doctor could move to at least one problem . 0.0041
 no doctor could move to more than one problem . 0.0058
 no pig can move to at least thirty stands . 0.0059
@@ -1794,12 +1794,12 @@ no wolf can move to at most one bit . 0.0055
 no wolf can move to fewer than one bit . 0.0073
 no slave could open the door to at most twenty waters . 0.0063
 no slave could open the door to fewer than twenty waters . 0.0311
-no duke could open the door to at least one girl . 0.0025
-no duke could open the door to more than one girl . 0.0040
+no duke could open the door to at least one girl . 0.0033
+no duke could open the door to more than one girl . 0.0041
 no doctor can open the door to at most six horses . 0.0039
 no doctor can open the door to fewer than six horses . 0.0076
-no duke could increase the size of at least thirty bones . 0.0009
-no duke could increase the size of more than thirty bones . 0.0015
+no duke could increase the size of at least thirty bones . 0.0013
+no duke could increase the size of more than thirty bones . 0.0021
 no doctor can increase the size of at most nine bones . 0.0053
 no doctor can increase the size of fewer than nine bones . 0.0156
 no sister could increase the size of at most one bird . 0.0217
@@ -1858,10 +1858,10 @@ no pig can exist without at least ten stories . 0.0023
 no pig can exist without more than ten stories . 0.0023
 no wolf can increase the size of at most ten things . 0.0094
 no wolf can increase the size of fewer than ten things . 0.0381
-no duke could open the door to at most ten ways . 0.0038
-no duke could open the door to fewer than ten ways . 0.0055
-no duke can exist without at least nine calls . 0.0668
-no duke can exist without more than nine calls . 0.0282
+no duke could open the door to at most ten ways . 0.0030
+no duke could open the door to fewer than ten ways . 0.0076
+no duke can exist without at least nine calls . 0.0275
+no duke can exist without more than nine calls . 0.0133
 no doctor could catch at most six words . 0.0070
 no doctor could catch fewer than six words . 0.0101
 no pig could stand on top of at least six dogs . 0.0136
@@ -1870,16 +1870,16 @@ no wolf could carry at most six stands . 0.0123
 no wolf could carry fewer than six stands . 0.0169
 no wolf can stand on top of at least one page . 0.0005
 no wolf can stand on top of more than one page . 0.0013
-no duke could leave at least thirty parents . 0.0941
-no duke could leave more than thirty parents . 0.0297
+no duke could leave at least thirty parents . 0.0432
+no duke could leave more than thirty parents . 0.0126
 no dinosaur could open the door to at most nine engines . 0.9330
 no dinosaur could open the door to fewer than nine engines . 1.0859
-no duke could stand on top of at most ten parents . 0.0052
-no duke could stand on top of fewer than ten parents . 0.0045
+no duke could stand on top of at most ten parents . 0.0042
+no duke could stand on top of fewer than ten parents . 0.0048
 no doctor could stand on top of at most ten stories . 0.0042
 no doctor could stand on top of fewer than ten stories . 0.0028
-no duke can move to at most ten engines . 0.0030
-no duke can move to fewer than ten engines . 0.0110
+no duke can move to at most ten engines . 0.0066
+no duke can move to fewer than ten engines . 0.0356
 no boat could exist without at most six parents . 0.0136
 no boat could exist without fewer than six parents . 0.0045
 no wolf can catch at most thirty animals . 0.0240
@@ -1920,8 +1920,8 @@ no boat can carry at most six bits . 0.0226
 no boat can carry fewer than six bits . 0.0280
 no sister can stand on top of at least twenty lions . 0.0046
 no sister can stand on top of more than twenty lions . 0.0076
-no duke could catch at least one color . 0.0022
-no duke could catch more than one color . 0.0026
+no duke could catch at least one color . 0.0024
+no duke could catch more than one color . 0.0015
 no slave could catch at least nine eggs . 0.2877
 no slave could catch more than nine eggs . 0.2834
 no slave could increase the size of at most twenty animals . 0.0078
@@ -1938,8 +1938,8 @@ no dinosaur could increase the size of at least six bears . 0.4043
 no dinosaur could increase the size of more than six bears . 0.0173
 no pig can exist without at least one finger . 0.0042
 no pig can exist without more than one finger . 0.0026
-no duke can increase the size of at most thirty guys . 0.0028
-no duke can increase the size of fewer than thirty guys . 0.0058
+no duke can increase the size of at most thirty guys . 0.0046
+no duke can increase the size of fewer than thirty guys . 0.0085
 no slave can catch at most ten bones . 0.0047
 no slave can catch fewer than ten bones . 0.0034
 no pig could carry at most six cars . 0.0156
@@ -1968,8 +1968,8 @@ no doctor could open the door to at least thirty types . 0.0151
 no doctor could open the door to more than thirty types . 0.0060
 no doctor can exist without at most nine waters . 0.0055
 no doctor can exist without fewer than nine waters . 0.1557
-no duke can increase the size of at least ten boats . 0.0017
-no duke can increase the size of more than ten boats . 0.0029
+no duke can increase the size of at least ten boats . 0.0025
+no duke can increase the size of more than ten boats . 0.0042
 no dinosaur can leave at least six eggs . 1.5686
 no dinosaur can leave more than six eggs . 0.8887
 no boat could stand on top of at least nine bones . 0.0026
@@ -1986,32 +1986,32 @@ no pig could increase the size of at least thirty fingers . 0.0062
 no pig could increase the size of more than thirty fingers . 0.0055
 no wolf can move to at least one dollar . 0.0023
 no wolf can move to more than one dollar . 0.0036
-no duke can move to at most twenty dollars . 0.0026
-no duke can move to fewer than twenty dollars . 0.0053
-no duke could carry at most ten guys . 0.0061
-no duke could carry fewer than ten guys . 0.0201
+no duke can move to at most twenty dollars . 0.0029
+no duke can move to fewer than twenty dollars . 0.0079
+no duke could carry at most ten guys . 0.0109
+no duke could carry fewer than ten guys . 0.0365
 no pig could move to at least twenty horses . 0.0494
 no pig could move to more than twenty horses . 0.0294
 no doctor could exist without at most nine differences . 0.0109
 no doctor could exist without fewer than nine differences . 0.0266
-no duke can carry at least twenty restaurants . 0.0057
-no duke can carry more than twenty restaurants . 0.0147
-no duke could catch at most thirty calls . 0.0144
-no duke could catch fewer than thirty calls . 0.0311
-no duke can carry at least thirty eggs . 0.0028
-no duke can carry more than thirty eggs . 0.0062
+no duke can carry at least twenty restaurants . 0.0050
+no duke can carry more than twenty restaurants . 0.0100
+no duke could catch at most thirty calls . 0.0057
+no duke could catch fewer than thirty calls . 0.0189
+no duke can carry at least thirty eggs . 0.0090
+no duke can carry more than thirty eggs . 0.0104
 no pig could move to at least six differences . 0.1049
 no pig could move to more than six differences . 0.0310
 no sister can leave at least ten arms . 0.0062
 no sister can leave more than ten arms . 0.0059
 no wolf can open the door to at least nine songs . 0.0031
 no wolf can open the door to more than nine songs . 0.0034
-no duke could increase the size of at least twenty arms . 0.0065
-no duke could increase the size of more than twenty arms . 0.0181
-no duke could move to at most thirty stories . 0.0039
-no duke could move to fewer than thirty stories . 0.0051
-no duke can leave at most twenty songs . 0.0056
-no duke can leave fewer than twenty songs . 0.0181
+no duke could increase the size of at least twenty arms . 0.0223
+no duke could increase the size of more than twenty arms . 0.0563
+no duke could move to at most thirty stories . 0.0031
+no duke could move to fewer than thirty stories . 0.0116
+no duke can leave at most twenty songs . 0.0068
+no duke can leave fewer than twenty songs . 0.0235
 no dinosaur can exist without at most ten books . 0.0080
 no dinosaur can exist without fewer than ten books . 0.0223
 no doctor can exist without at most twenty lions . 0.6366
@@ -2056,10 +2056,10 @@ no pig could exist without at most six rings . 0.1124
 no pig could exist without fewer than six rings . 0.0317
 no pig could catch at most six cars . 0.0149
 no pig could catch fewer than six cars . 0.0351
-no duke can stand on top of at most nine problems . 0.0057
-no duke can stand on top of fewer than nine problems . 0.0062
-no duke can open the door to at least six children . 0.0022
-no duke can open the door to more than six children . 0.0039
+no duke can stand on top of at most nine problems . 0.0048
+no duke can stand on top of fewer than nine problems . 0.0093
+no duke can open the door to at least six children . 0.0037
+no duke can open the door to more than six children . 0.0041
 no dinosaur can move to at least twenty pictures . 0.7813
 no dinosaur can move to more than twenty pictures . 0.0421
 no slave could increase the size of at least one whale . 0.0022
@@ -2072,8 +2072,8 @@ no dinosaur could open the door to at least one bit . 1.4049
 no dinosaur could open the door to more than one bit . 1.0010
 no dinosaur could move to at most thirty ways . 0.2856
 no dinosaur could move to fewer than thirty ways . 0.7968
-no duke could stand on top of at most six lions . 0.0157
-no duke could stand on top of fewer than six lions . 0.0068
+no duke could stand on top of at most six lions . 0.0106
+no duke could stand on top of fewer than six lions . 0.0057
 no doctor could open the door to at most six things . 0.0033
 no doctor could open the door to fewer than six things . 0.0109
 no doctor can increase the size of at least twenty parents . 0.0048
@@ -2092,24 +2092,24 @@ no doctor could stand on top of at most twenty pictures . 0.0034
 no doctor could stand on top of fewer than twenty pictures . 0.0044
 no wolf can carry at most ten engines . 0.0144
 no wolf can carry fewer than ten engines . 0.0267
-no duke can exist without at least twenty problems . 0.0083
-no duke can exist without more than twenty problems . 0.0276
+no duke can exist without at least twenty problems . 0.0038
+no duke can exist without more than twenty problems . 0.0158
 no pig can increase the size of at most thirty days . 0.0082
 no pig can increase the size of fewer than thirty days . 0.0107
 no slave can catch at least one foot . 0.0009
 no slave can catch more than one foot . 0.0009
 no wolf can carry at least twenty dogs . 0.0067
 no wolf can carry more than twenty dogs . 0.0176
-no duke can catch at least twenty kings . 0.0109
-no duke can catch more than twenty kings . 0.0239
+no duke can catch at least twenty kings . 0.0053
+no duke can catch more than twenty kings . 0.0085
 no pig can exist without at least nine stories . 0.0038
 no pig can exist without more than nine stories . 0.0026
 no boat could open the door to at most ten eggs . 0.0454
 no boat could open the door to fewer than ten eggs . 0.0102
 no sister can move to at most thirty birds . 0.0036
 no sister can move to fewer than thirty birds . 0.0308
-no duke can increase the size of at least six books . 0.0026
-no duke can increase the size of more than six books . 0.0041
+no duke can increase the size of at least six books . 0.0033
+no duke can increase the size of more than six books . 0.0043
 no doctor can exist without at most nine patterns . 0.0104
 no doctor can exist without fewer than nine patterns . 0.0336
 no dinosaur can carry at most nine bears . 0.7992
@@ -2120,8 +2120,8 @@ no boat can stand on top of at least six things . 0.0028
 no boat can stand on top of more than six things . 0.0036
 no pig can leave at most ten bands . 0.0078
 no pig can leave fewer than ten bands . 0.0079
-no duke could open the door to at most one bone . 0.0254
-no duke could open the door to fewer than one bone . 0.0076
+no duke could open the door to at most one bone . 0.0215
+no duke could open the door to fewer than one bone . 0.0090
 no slave can catch at least twenty fingers . 0.0077
 no slave can catch more than twenty fingers . 0.0133
 no boat can exist without at most ten parents . 0.0154
@@ -2140,20 +2140,20 @@ no wolf could increase the size of at most six pictures . 0.0078
 no wolf could increase the size of fewer than six pictures . 0.0084
 no sister could catch at least nine things . 0.0029
 no sister could catch more than nine things . 0.0025
-no duke can exist without at most one animal . 0.0144
-no duke can exist without fewer than one animal . 0.0143
+no duke can exist without at most one animal . 0.0100
+no duke can exist without fewer than one animal . 0.0476
 no doctor can exist without at least ten stories . 0.0128
 no doctor can exist without more than ten stories . 0.0071
-no duke could open the door to at least twenty lions . 0.0162
-no duke could open the door to more than twenty lions . 0.0141
+no duke could open the door to at least twenty lions . 0.0114
+no duke could open the door to more than twenty lions . 0.0080
 no boat could open the door to at least thirty stories . 0.0027
 no boat could open the door to more than thirty stories . 0.0027
 no sister could exist without at most ten movies . 0.0219
 no sister could exist without fewer than ten movies . 0.0140
 no dinosaur could open the door to at least six bears . 1.0934
 no dinosaur could open the door to more than six bears . 0.7618
-no duke could exist without at least nine eggs . 0.0028
-no duke could exist without more than nine eggs . 0.0055
+no duke could exist without at least nine eggs . 0.0178
+no duke could exist without more than nine eggs . 0.0622
 no wolf can increase the size of at most one parent . 0.1060
 no wolf can increase the size of fewer than one parent . 0.0189
 no slave can exist without at most twenty dogs . 0.0385
@@ -2168,20 +2168,20 @@ no slave could carry at most one child . 0.0374
 no slave could carry fewer than one child . 0.0108
 no slave could move to at most six songs . 0.0045
 no slave could move to fewer than six songs . 0.0106
-no duke could stand on top of at most twenty problems . 0.0033
-no duke could stand on top of fewer than twenty problems . 0.0057
-no duke could stand on top of at most twenty feet . 0.0172
-no duke could stand on top of fewer than twenty feet . 0.0198
+no duke could stand on top of at most twenty problems . 0.0074
+no duke could stand on top of fewer than twenty problems . 0.0430
+no duke could stand on top of at most twenty feet . 0.0137
+no duke could stand on top of fewer than twenty feet . 0.0197
 no boat can increase the size of at most nine types . 0.0040
 no boat can increase the size of fewer than nine types . 0.0115
 no pig could exist without at most nine horses . 0.0331
 no pig could exist without fewer than nine horses . 0.0374
 no pig could carry at least thirty bears . 0.0026
 no pig could carry more than thirty bears . 0.0043
-no duke could catch at most one lie . 0.1898
-no duke could catch fewer than one lie . 0.3957
-no duke can leave at least ten fingers . 0.0047
-no duke can leave more than ten fingers . 0.0076
+no duke could catch at most one lie . 0.0539
+no duke could catch fewer than one lie . 0.1505
+no duke can leave at least ten fingers . 0.0079
+no duke can leave more than ten fingers . 0.0073
 no slave could move to at least thirty dollars . 0.0030
 no slave could move to more than thirty dollars . 0.0051
 no sister could carry at least nine stories . 0.0036
@@ -2212,8 +2212,8 @@ no dinosaur can carry at most nine whales . 0.2332
 no dinosaur can carry fewer than nine whales . 0.1999
 no dinosaur can move to at least ten windows . 1.1142
 no dinosaur can move to more than ten windows . 0.6471
-no duke can catch at most ten animals . 0.0057
-no duke can catch fewer than ten animals . 0.0195
+no duke can catch at most ten animals . 0.0095
+no duke can catch fewer than ten animals . 0.0320
 no slave could open the door to at least one toy . 0.0058
 no slave could open the door to more than one toy . 0.0087
 no boat can open the door to at least thirty books . 0.0021
@@ -2234,8 +2234,8 @@ no sister can exist without at most nine patterns . 0.0216
 no sister can exist without fewer than nine patterns . 0.1136
 no dinosaur could exist without at most nine words . 0.4150
 no dinosaur could exist without fewer than nine words . 1.0479
-no duke can carry at least one type . 0.0026
-no duke can carry more than one type . 0.0024
+no duke can carry at least one type . 0.0044
+no duke can carry more than one type . 0.0021
 no boat can increase the size of at least nine lions . 0.1064
 no boat can increase the size of more than nine lions . 0.0267
 no sister could stand on top of at most thirty restaurants . 0.0096
@@ -2258,8 +2258,8 @@ no doctor could open the door to at most nine dogs . 0.0145
 no doctor could open the door to fewer than nine dogs . 0.0109
 no sister could stand on top of at most one water . 0.0135
 no sister could stand on top of fewer than one water . 0.0168
-no duke can exist without at least nine rings . 0.0021
-no duke can exist without more than nine rings . 0.0031
+no duke can exist without at least nine rings . 0.0084
+no duke can exist without more than nine rings . 0.0175
 no doctor could carry at most ten restaurants . 0.0117
 no doctor could carry fewer than ten restaurants . 0.0112
 no sister can catch at most thirty stories . 0.0149
@@ -2272,8 +2272,8 @@ no boat could increase the size of at least one girl . 0.0037
 no boat could increase the size of more than one girl . 0.0034
 no wolf can stand on top of at least ten animals . 0.0052
 no wolf can stand on top of more than ten animals . 0.0048
-no duke could move to at least twenty books . 0.0030
-no duke could move to more than twenty books . 0.0052
+no duke could move to at least twenty books . 0.0038
+no duke could move to more than twenty books . 0.0064
 no slave can move to at least nine songs . 0.0022
 no slave can move to more than nine songs . 0.0029
 no dinosaur can stand on top of at least six animals . 0.1786
@@ -2302,40 +2302,40 @@ no sister can stand on top of at most one egg . 0.0352
 no sister can stand on top of fewer than one egg . 0.0087
 no boat could increase the size of at most nine toys . 0.0037
 no boat could increase the size of fewer than nine toys . 0.0099
-no duke could catch at most ten cars . 0.0057
-no duke could catch fewer than ten cars . 0.0070
+no duke could catch at most ten cars . 0.0106
+no duke could catch fewer than ten cars . 0.0267
 no pig can catch at least nine stands . 0.0053
 no pig can catch more than nine stands . 0.0033
 no wolf could increase the size of at least ten feet . 0.0025
 no wolf could increase the size of more than ten feet . 0.0041
 no boat could increase the size of at least nine things . 0.0070
 no boat could increase the size of more than nine things . 0.0157
-no duke can increase the size of at least thirty arms . 0.0015
-no duke can increase the size of more than thirty arms . 0.0031
-no duke could leave at most ten waters . 0.0185
-no duke could leave fewer than ten waters . 0.0521
-no duke can exist without at most thirty stands . 0.0498
-no duke can exist without fewer than thirty stands . 0.1242
+no duke can increase the size of at least thirty arms . 0.0067
+no duke can increase the size of more than thirty arms . 0.0112
+no duke could leave at most ten waters . 0.0142
+no duke could leave fewer than ten waters . 0.1530
+no duke can exist without at most thirty stands . 0.0240
+no duke can exist without fewer than thirty stands . 0.1472
 no pig could exist without at least ten ways . 0.0079
 no pig could exist without more than ten ways . 0.0160
 no slave can catch at most thirty lies . 0.0212
 no slave can catch fewer than thirty lies . 0.0154
-no duke can stand on top of at least ten colors . 0.0016
-no duke can stand on top of more than ten colors . 0.0041
+no duke can stand on top of at least ten colors . 0.0030
+no duke can stand on top of more than ten colors . 0.0027
 no wolf can exist without at least one foot . 0.0024
 no wolf can exist without more than one foot . 0.0015
 no sister can increase the size of at least twenty things . 0.0220
 no sister can increase the size of more than twenty things . 0.0173
-no duke can move to at least thirty fingers . 0.0024
-no duke can move to more than thirty fingers . 0.0031
+no duke can move to at least thirty fingers . 0.0038
+no duke can move to more than thirty fingers . 0.0037
 no doctor can move to at most ten rings . 0.0040
 no doctor can move to fewer than ten rings . 0.0173
 no dinosaur can exist without at least nine birds . 0.2947
 no dinosaur can exist without more than nine birds . 0.0149
 no wolf can increase the size of at most six types . 0.0059
 no wolf can increase the size of fewer than six types . 0.0148
-no duke can increase the size of at least ten feet . 0.0015
-no duke can increase the size of more than ten feet . 0.0033
+no duke can increase the size of at least ten feet . 0.0018
+no duke can increase the size of more than ten feet . 0.0029
 no dinosaur can move to at least one minute . 1.2581
 no dinosaur can move to more than one minute . 0.3333
 no slave can catch at least one engine . 0.0036
@@ -2348,8 +2348,8 @@ no pig can open the door to at least nine dogs . 0.0078
 no pig can open the door to more than nine dogs . 0.0136
 no dinosaur can move to at least thirty dollars . 1.1014
 no dinosaur can move to more than thirty dollars . 0.5105
-no duke can catch at most ten movies . 0.0104
-no duke can catch fewer than ten movies . 0.0091
+no duke can catch at most ten movies . 0.0120
+no duke can catch fewer than ten movies . 0.0160
 no slave could stand on top of at most thirty calls . 0.0049
 no slave could stand on top of fewer than thirty calls . 0.0049
 no wolf can increase the size of at least twenty engines . 0.0043
@@ -2358,10 +2358,10 @@ no slave could move to at most ten stands . 0.0077
 no slave could move to fewer than ten stands . 0.0104
 no dinosaur could open the door to at least ten words . 1.1719
 no dinosaur could open the door to more than ten words . 0.8291
-no duke could exist without at most thirty dollars . 0.0174
-no duke could exist without fewer than thirty dollars . 0.0088
-no duke can carry at least ten parents . 0.0079
-no duke can carry more than ten parents . 0.0089
+no duke could exist without at most thirty dollars . 0.0090
+no duke could exist without fewer than thirty dollars . 0.0101
+no duke can carry at least ten parents . 0.0069
+no duke can carry more than ten parents . 0.0060
 no doctor could move to at least thirty toys . 0.0319
 no doctor could move to more than thirty toys . 0.0063
 no boat could open the door to at least six songs . 0.0028
@@ -2378,8 +2378,8 @@ no wolf could leave at least nine kings . 0.0725
 no wolf could leave more than nine kings . 0.0443
 no dinosaur could leave at least twenty songs . 1.5982
 no dinosaur could leave more than twenty songs . 1.4139
-no duke can increase the size of at least nine dogs . 0.0042
-no duke can increase the size of more than nine dogs . 0.0109
+no duke can increase the size of at least nine dogs . 0.0060
+no duke can increase the size of more than nine dogs . 0.0128
 no boat can carry at most thirty stories . 0.0121
 no boat can carry fewer than thirty stories . 0.0084
 no dinosaur can move to at most one call . 0.2719
@@ -2388,14 +2388,14 @@ no pig could stand on top of at most six days . 0.0208
 no pig could stand on top of fewer than six days . 0.0166
 no doctor can open the door to at least twenty bears . 0.0029
 no doctor can open the door to more than twenty bears . 0.0040
-no duke could open the door to at least ten babies . 0.0046
-no duke could open the door to more than ten babies . 0.0069
+no duke could open the door to at least ten babies . 0.0049
+no duke could open the door to more than ten babies . 0.0055
 no doctor could leave at least six types . 0.0062
 no doctor could leave more than six types . 0.0040
 no doctor can exist without at most nine animals . 0.0590
 no doctor can exist without fewer than nine animals . 0.1670
-no duke could stand on top of at most twenty patterns . 0.0028
-no duke could stand on top of fewer than twenty patterns . 0.0051
+no duke could stand on top of at most twenty patterns . 0.0015
+no duke could stand on top of fewer than twenty patterns . 0.3613
 no sister can move to at least six differences . 0.0136
 no sister can move to more than six differences . 0.0060
 no doctor can increase the size of at least ten hands . 0.0040
@@ -2414,12 +2414,12 @@ no wolf can move to at least nine books . 0.0069
 no wolf can move to more than nine books . 0.0059
 no boat could carry at least thirty eggs . 0.0170
 no boat could carry more than thirty eggs . 0.0140
-no duke can carry at most thirty stories . 0.0076
-no duke can carry fewer than thirty stories . 0.0124
+no duke can carry at most thirty stories . 0.0108
+no duke can carry fewer than thirty stories . 0.0109
 no dinosaur could open the door to at least thirty colors . 1.0921
 no dinosaur could open the door to more than thirty colors . 0.7091
-no duke could stand on top of at least thirty feet . 0.0011
-no duke could stand on top of more than thirty feet . 0.0018
+no duke could stand on top of at least thirty feet . 0.0007
+no duke could stand on top of more than thirty feet . 0.0008
 no pig can catch at most nine minutes . 0.0415
 no pig can catch fewer than nine minutes . 0.0226
 no slave can move to at most nine restaurants . 0.0219
@@ -2428,16 +2428,16 @@ no sister could catch at most one lion . 0.4664
 no sister could catch fewer than one lion . 0.4369
 no sister can move to at most thirty toys . 0.0052
 no sister can move to fewer than thirty toys . 0.0128
-no duke could stand on top of at most six feet . 0.0335
-no duke could stand on top of fewer than six feet . 0.0088
+no duke could stand on top of at most six feet . 0.0164
+no duke could stand on top of fewer than six feet . 0.0246
 no doctor could open the door to at least nine days . 0.0026
 no doctor could open the door to more than nine days . 0.0036
 no pig can increase the size of at most one book . 0.0887
 no pig can increase the size of fewer than one book . 0.0247
 no wolf could increase the size of at least one story . 0.0044
 no wolf could increase the size of more than one story . 0.0048
-no duke can open the door to at least twenty pictures . 0.0039
-no duke can open the door to more than twenty pictures . 0.0071
+no duke can open the door to at least twenty pictures . 0.0031
+no duke can open the door to more than twenty pictures . 0.0050
 no dinosaur can increase the size of at least twenty ways . 0.0498
 no dinosaur can increase the size of more than twenty ways . 0.0209
 no pig can stand on top of at least ten days . 0.0020
@@ -2448,8 +2448,8 @@ no doctor can catch at least ten differences . 0.0263
 no doctor can catch more than ten differences . 0.0140
 no dinosaur can move to at least one horse . 1.2750
 no dinosaur can move to more than one horse . 0.9901
-no duke could move to at least twenty windows . 0.0768
-no duke could move to more than twenty windows . 0.0281
+no duke could move to at least twenty windows . 0.0131
+no duke could move to more than twenty windows . 0.0100
 no slave can carry at most ten lions . 0.0164
 no slave can carry fewer than ten lions . 0.0874
 no sister can increase the size of at most six fingers . 0.0046
@@ -2462,8 +2462,8 @@ no doctor can leave at least thirty boats . 0.0099
 no doctor can leave more than thirty boats . 0.0065
 no pig could stand on top of at least six kings . 0.0043
 no pig could stand on top of more than six kings . 0.0050
-no duke can move to at least one minute . 0.0029
-no duke can move to more than one minute . 0.0068
+no duke can move to at least one minute . 0.0021
+no duke can move to more than one minute . 0.0077
 no wolf can move to at most twenty dollars . 0.0039
 no wolf can move to fewer than twenty dollars . 0.0108
 no dinosaur could exist without at least six movies . 0.7370
@@ -2472,14 +2472,14 @@ no doctor could leave at most one arm . 0.0888
 no doctor could leave fewer than one arm . 0.0321
 no pig could catch at most one story . 0.0132
 no pig could catch fewer than one story . 0.0073
-no duke can catch at most thirty minutes . 0.0169
-no duke can catch fewer than thirty minutes . 0.0219
+no duke can catch at most thirty minutes . 0.0287
+no duke can catch fewer than thirty minutes . 0.0316
 no wolf could exist without at most one car . 0.0226
 no wolf could exist without fewer than one car . 0.0120
 no dinosaur can exist without at least ten days . 0.1167
 no dinosaur can exist without more than ten days . 0.0083
-no duke could open the door to at least one toy . 0.0021
-no duke could open the door to more than one toy . 0.0032
+no duke could open the door to at least one toy . 0.0037
+no duke could open the door to more than one toy . 0.0043
 no dinosaur could increase the size of at least thirty things . 0.2728
 no dinosaur could increase the size of more than thirty things . 0.0417
 no slave could leave at least six children . 0.0072
@@ -2490,8 +2490,8 @@ no slave can catch at most twenty days . 0.0157
 no slave can catch fewer than twenty days . 0.0194
 no sister can carry at least six hands . 0.0030
 no sister can carry more than six hands . 0.0014
-no duke could exist without at least thirty stands . 0.2541
-no duke could exist without more than thirty stands . 0.0705
+no duke could exist without at least thirty stands . 0.2025
+no duke could exist without more than thirty stands . 0.0504
 no dinosaur could catch at least twenty horses . 1.5760
 no dinosaur could catch more than twenty horses . 1.4223
 no boat can stand on top of at most one finger . 0.0069
@@ -2520,8 +2520,8 @@ no pig can stand on top of at least one boat . 0.0087
 no pig can stand on top of more than one boat . 0.0089
 no boat can catch at least nine dollars . 0.0242
 no boat can catch more than nine dollars . 0.0034
-no duke can open the door to at least twenty books . 0.0044
-no duke can open the door to more than twenty books . 0.0053
+no duke can open the door to at least twenty books . 0.0031
+no duke can open the door to more than twenty books . 0.0039
 no slave could catch at most nine children . 0.0088
 no slave could catch fewer than nine children . 0.0080
 no sister could leave at least ten minutes . 0.0067
@@ -2554,8 +2554,8 @@ no pig could open the door to at least ten boats . 0.0025
 no pig could open the door to more than ten boats . 0.0039
 no wolf could carry at least twenty movies . 0.0107
 no wolf could carry more than twenty movies . 0.0206
-no duke could move to at most six lions . 0.0070
-no duke could move to fewer than six lions . 0.0155
+no duke could move to at most six lions . 0.0176
+no duke could move to fewer than six lions . 0.2239
 no sister could stand on top of at most nine animals . 0.0071
 no sister could stand on top of fewer than nine animals . 0.0119
 no slave can catch at most thirty bits . 0.0144
@@ -2564,20 +2564,20 @@ no dinosaur could carry at least thirty days . 1.0176
 no dinosaur could carry more than thirty days . 0.1954
 no doctor can increase the size of at most nine pictures . 0.0038
 no doctor can increase the size of fewer than nine pictures . 0.0097
-no duke can exist without at least one band . 0.0046
-no duke can exist without more than one band . 0.0024
+no duke can exist without at least one band . 0.0103
+no duke can exist without more than one band . 0.0045
 no sister can carry at least nine dogs . 0.0033
 no sister can carry more than nine dogs . 0.0042
-no duke could open the door to at least twenty rings . 0.0033
-no duke could open the door to more than twenty rings . 0.0053
+no duke could open the door to at least twenty rings . 0.0025
+no duke could open the door to more than twenty rings . 0.0048
 no doctor can exist without at most one egg . 0.0618
 no doctor can exist without fewer than one egg . 0.0841
 no wolf can open the door to at least nine problems . 0.0041
 no wolf can open the door to more than nine problems . 0.0051
 no wolf can catch at least thirty books . 0.0222
 no wolf can catch more than thirty books . 0.0193
-no duke could stand on top of at least thirty differences . 0.2567
-no duke could stand on top of more than thirty differences . 0.0242
+no duke could stand on top of at least thirty differences . 0.2693
+no duke could stand on top of more than thirty differences . 0.0898
 no dinosaur can catch at most twenty bits . 0.3455
 no dinosaur can catch fewer than twenty bits . 0.5332
 no sister could open the door to at most twenty rings . 0.0148
@@ -2586,14 +2586,14 @@ no boat could open the door to at least ten pictures . 0.0037
 no boat could open the door to more than ten pictures . 0.0038
 no dinosaur could carry at most nine hands . 0.4767
 no dinosaur could carry fewer than nine hands . 0.9932
-no duke can catch at least nine bears . 0.0062
-no duke can catch more than nine bears . 0.0144
+no duke can catch at least nine bears . 0.0090
+no duke can catch more than nine bears . 0.0077
 no boat could catch at least one movie . 0.0193
 no boat could catch more than one movie . 0.0077
-no duke can carry at least six waters . 0.0040
-no duke can carry more than six waters . 0.0037
-no duke can move to at least twenty movies . 0.0039
-no duke can move to more than twenty movies . 0.0073
+no duke can carry at least six waters . 0.0030
+no duke can carry more than six waters . 0.0021
+no duke can move to at least twenty movies . 0.0094
+no duke can move to more than twenty movies . 0.0150
 no sister can leave at most nine patterns . 0.3271
 no sister can leave fewer than nine patterns . 0.1673
 no sister could stand on top of at most one animal . 0.0092
@@ -2618,7 +2618,7 @@ no dinosaur could leave at most six engines . 1.1955
 no dinosaur could leave fewer than six engines . 1.4391
 no dinosaur can stand on top of at least twenty pictures . 0.0461
 no dinosaur can stand on top of more than twenty pictures . 0.0047
-no duke could move to at least six stands . 0.0033
+no duke could move to at least six stands . 0.0027
 no duke could move to more than six stands . 0.0032
 no slave can catch at most six waters . 0.0144
 no slave can catch fewer than six waters . 0.0570
@@ -2630,14 +2630,14 @@ no dinosaur can stand on top of at most twenty songs . 0.0299
 no dinosaur can stand on top of fewer than twenty songs . 0.5110
 no boat can stand on top of at most one song . 0.0104
 no boat can stand on top of fewer than one song . 0.0092
-no duke could open the door to at most six stories . 0.0193
-no duke could open the door to fewer than six stories . 0.0028
+no duke could open the door to at most six stories . 0.0108
+no duke could open the door to fewer than six stories . 0.0068
 no wolf could open the door to at most six waters . 0.0238
 no wolf could open the door to fewer than six waters . 0.0376
 no sister can open the door to at most six lies . 0.0131
 no sister can open the door to fewer than six lies . 0.0151
-no duke can leave at least ten pictures . 0.0087
-no duke can leave more than ten pictures . 0.0056
+no duke can leave at least ten pictures . 0.0062
+no duke can leave more than ten pictures . 0.0058
 no pig could carry at least one hand . 0.0013
 no pig could carry more than one hand . 0.0012
 no boat could move to at most nine ways . 0.0082
@@ -2696,12 +2696,12 @@ no boat can catch at least six lies . 0.0137
 no boat can catch more than six lies . 0.0211
 no doctor can catch at least six lies . 0.0164
 no doctor can catch more than six lies . 0.0123
-no duke could stand on top of at most ten hands . 0.0089
-no duke could stand on top of fewer than ten hands . 0.0058
+no duke could stand on top of at most ten hands . 0.0030
+no duke could stand on top of fewer than ten hands . 0.0074
 no sister could open the door to at least six girls . 0.0275
 no sister could open the door to more than six girls . 0.0165
-no duke can stand on top of at most nine types . 0.0097
-no duke can stand on top of fewer than nine types . 0.0293
+no duke can stand on top of at most nine types . 0.0182
+no duke can stand on top of fewer than nine types . 0.0163
 no sister can leave at least ten horses . 0.0132
 no sister can leave more than ten horses . 0.0072
 no slave could stand on top of at most thirty lions . 0.0012
@@ -2726,8 +2726,8 @@ no dinosaur can increase the size of at least thirty arms . 0.1731
 no dinosaur can increase the size of more than thirty arms . 0.0065
 no doctor could carry at least ten horses . 0.0066
 no doctor could carry more than ten horses . 0.0037
-no duke can carry at least six windows . 0.0152
-no duke can carry more than six windows . 0.0050
+no duke can carry at least six windows . 0.0177
+no duke can carry more than six windows . 0.0057
 no boat can stand on top of at most nine parents . 0.0142
 no boat can stand on top of fewer than nine parents . 0.0065
 no pig can leave at most thirty types . 0.0092
@@ -2746,12 +2746,12 @@ no slave could open the door to at least one movie . 0.0136
 no slave could open the door to more than one movie . 0.0138
 no doctor can catch at most one song . 0.0125
 no doctor can catch fewer than one song . 0.0203
-no duke can move to at least ten stands . 0.0023
-no duke can move to more than ten stands . 0.0019
+no duke can move to at least ten stands . 0.0025
+no duke can move to more than ten stands . 0.0024
 no wolf can open the door to at most ten restaurants . 0.0081
 no wolf can open the door to fewer than ten restaurants . 0.0054
-no duke could catch at most six bands . 0.0136
-no duke could catch fewer than six bands . 0.0085
+no duke could catch at most six bands . 0.0351
+no duke could catch fewer than six bands . 0.0169
 no slave could leave at most six kings . 0.0239
 no slave could leave fewer than six kings . 0.0284
 no doctor can carry at most one toy . 0.0474
@@ -2768,14 +2768,14 @@ no boat could leave at least twenty waters . 0.0046
 no boat could leave more than twenty waters . 0.0048
 no boat can carry at least one day . 0.0021
 no boat can carry more than one day . 0.0019
-no duke can move to at least ten horses . 0.0065
-no duke can move to more than ten horses . 0.0036
+no duke can move to at least ten horses . 0.0046
+no duke can move to more than ten horses . 0.0038
 no sister can exist without at most twenty minutes . 0.0170
 no sister can exist without fewer than twenty minutes . 0.0137
 no dinosaur can open the door to at most ten kings . 0.6272
 no dinosaur can open the door to fewer than ten kings . 1.2224
-no duke could stand on top of at least thirty toys . 0.0053
-no duke could stand on top of more than thirty toys . 0.0025
+no duke could stand on top of at least thirty toys . 0.0331
+no duke could stand on top of more than thirty toys . 0.0045
 no wolf could catch at least six days . 0.0056
 no wolf could catch more than six days . 0.0039
 no sister could catch at least six lies . 0.0077
@@ -2804,8 +2804,8 @@ no sister can catch at least six words . 0.0042
 no sister can catch more than six words . 0.0026
 no slave could stand on top of at most thirty arms . 0.0122
 no slave could stand on top of fewer than thirty arms . 0.0098
-no duke could exist without at most one animal . 0.0132
-no duke could exist without fewer than one animal . 0.0181
+no duke could exist without at most one animal . 0.0070
+no duke could exist without fewer than one animal . 0.0364
 no doctor can move to at least one dog . 0.0051
 no doctor can move to more than one dog . 0.0054
 no boat could leave at most ten stories . 0.0464
@@ -2824,14 +2824,14 @@ no doctor could open the door to at least nine ways . 0.0047
 no doctor could open the door to more than nine ways . 0.0056
 no wolf can move to at least nine problems . 0.0056
 no wolf can move to more than nine problems . 0.0064
-no duke can stand on top of at most nine ways . 0.0032
-no duke can stand on top of fewer than nine ways . 0.0076
-no duke can open the door to at least ten babies . 0.0042
-no duke can open the door to more than ten babies . 0.0057
+no duke can stand on top of at most nine ways . 0.0012
+no duke can stand on top of fewer than nine ways . 0.0095
+no duke can open the door to at least ten babies . 0.0052
+no duke can open the door to more than ten babies . 0.0061
 no slave can open the door to at least nine things . 0.0031
 no slave can open the door to more than nine things . 0.0050
-no duke could carry at least ten differences . 0.2357
-no duke could carry more than ten differences . 0.1520
+no duke could carry at least ten differences . 0.1073
+no duke could carry more than ten differences . 0.1543
 no boat could leave at least thirty bones . 0.0028
 no boat could leave more than thirty bones . 0.0064
 no boat can stand on top of at least ten kings . 0.0036
@@ -2841,15 +2841,15 @@ no wolf could leave fewer than one type . 0.0134
 no doctor could carry at least six boats . 0.0035
 no doctor could carry more than six boats . 0.0028
 no pig can exist without at least thirty arms . 0.0054
-no pig can exist without more than thirty arms . 0.0353
+no pig can exist without more than thirty arms . 0.0354
 no pig could move to at most twenty bears . 0.0140
 no pig could move to fewer than twenty bears . 0.0146
 no boat could open the door to at least six kings . 0.0128
 no boat could open the door to more than six kings . 0.0100
 no pig can catch at most twenty cars . 0.0119
 no pig can catch fewer than twenty cars . 0.0300
-no duke could move to at most six dollars . 0.0045
-no duke could move to fewer than six dollars . 0.0050
+no duke could move to at most six dollars . 0.0103
+no duke could move to fewer than six dollars . 0.0073
 no wolf could move to at most nine girls . 0.0795
 no wolf could move to fewer than nine girls . 0.0372
 no slave could exist without at most one lie . 0.1839
@@ -2876,8 +2876,8 @@ no pig could catch at least one animal . 0.0076
 no pig could catch more than one animal . 0.0074
 no sister can move to at least nine parents . 0.0243
 no sister can move to more than nine parents . 0.0089
-no duke can leave at least thirty colors . 0.0212
-no duke can leave more than thirty colors . 0.0123
+no duke can leave at least thirty colors . 0.0279
+no duke can leave more than thirty colors . 0.0115
 no slave could exist without at most nine windows . 0.1025
 no slave could exist without fewer than nine windows . 0.0536
 no sister could open the door to at least one dog . 0.0076
@@ -2910,12 +2910,12 @@ no wolf can open the door to at least thirty babies . 0.0259
 no wolf can open the door to more than thirty babies . 0.0134
 no wolf could catch at least nine hands . 0.1034
 no wolf could catch more than nine hands . 0.1238
-no duke can exist without at most thirty animals . 0.0310
-no duke can exist without fewer than thirty animals . 0.0678
+no duke can exist without at most thirty animals . 0.1056
+no duke can exist without fewer than thirty animals . 0.2640
 no boat can leave at most six pages . 0.0865
 no boat can leave fewer than six pages . 0.0091
-no duke could carry at least twenty rings . 0.0030
-no duke could carry more than twenty rings . 0.0088
+no duke could carry at least twenty rings . 0.0079
+no duke could carry more than twenty rings . 0.0186
 no pig can stand on top of at least ten girls . 0.0057
 no pig can stand on top of more than ten girls . 0.0088
 no dinosaur could leave at most nine cars . 1.4191
@@ -2924,30 +2924,30 @@ no doctor can exist without at most one day . 0.0236
 no doctor can exist without fewer than one day . 0.0217
 no pig can increase the size of at least twenty pages . 0.0059
 no pig can increase the size of more than twenty pages . 0.0073
-no duke can increase the size of at most twenty minutes . 0.0105
-no duke can increase the size of fewer than twenty minutes . 0.0165
-no duke can catch at least thirty songs . 0.0032
-no duke can catch more than thirty songs . 0.0041
+no duke can increase the size of at most twenty minutes . 0.0108
+no duke can increase the size of fewer than twenty minutes . 0.0182
+no duke can catch at least thirty songs . 0.0106
+no duke can catch more than thirty songs . 0.0153
 no wolf can increase the size of at least ten feet . 0.0019
 no wolf can increase the size of more than ten feet . 0.0043
 no sister could move to at most one book . 0.0131
 no sister could move to fewer than one book . 0.0321
 no wolf could move to at most six books . 0.0077
 no wolf could move to fewer than six books . 0.0154
-no duke can catch at most thirty things . 0.0051
-no duke can catch fewer than thirty things . 0.0312
+no duke can catch at most thirty things . 0.0072
+no duke can catch fewer than thirty things . 0.0287
 no wolf could increase the size of at least nine windows . 0.0239
 no wolf could increase the size of more than nine windows . 0.0088
 no slave can open the door to at least thirty lies . 0.0216
 no slave can open the door to more than thirty lies . 0.0162
 no wolf can open the door to at most thirty animals . 0.0062
 no wolf can open the door to fewer than thirty animals . 0.0126
-no duke could move to at least six stories . 0.0025
-no duke could move to more than six stories . 0.0025
+no duke could move to at least six stories . 0.0022
+no duke could move to more than six stories . 0.0020
 no doctor could carry at most one word . 0.0892
 no doctor could carry fewer than one word . 0.0218
-no duke could increase the size of at least one problem . 0.0058
-no duke could increase the size of more than one problem . 0.0058
+no duke could increase the size of at least one problem . 0.0057
+no duke could increase the size of more than one problem . 0.0050
 no doctor could leave at most one thing . 0.0191
 no doctor could leave fewer than one thing . 0.0333
 no slave could move to at most nine guys . 0.0064
@@ -2966,18 +2966,18 @@ no pig could increase the size of at least ten kings . 0.0035
 no pig could increase the size of more than ten kings . 0.0046
 no sister can catch at most one bear . 0.0164
 no sister can catch fewer than one bear . 0.0177
-no duke could open the door to at least one restaurant . 0.0207
-no duke could open the door to more than one restaurant . 0.0292
+no duke could open the door to at least one restaurant . 0.0410
+no duke could open the door to more than one restaurant . 0.0979
 no doctor can exist without at most six patterns . 0.0182
 no doctor can exist without fewer than six patterns . 0.0263
 no slave could increase the size of at least ten lies . 0.0032
 no slave could increase the size of more than ten lies . 0.0134
-no duke can exist without at most thirty bands . 0.0072
-no duke can exist without fewer than thirty bands . 0.0117
+no duke can exist without at most thirty bands . 0.0091
+no duke can exist without fewer than thirty bands . 0.0151
 no boat could exist without at most thirty fingers . 0.0208
 no boat could exist without fewer than thirty fingers . 0.0122
-no duke can stand on top of at most thirty words . 0.0023
-no duke can stand on top of fewer than thirty words . 0.0053
+no duke can stand on top of at most thirty words . 0.0016
+no duke can stand on top of fewer than thirty words . 0.0040
 no pig could leave at most ten pictures . 0.0140
 no pig could leave fewer than ten pictures . 0.0056
 no slave could increase the size of at least ten bones . 0.0016
@@ -2986,16 +2986,16 @@ no sister can catch at most ten ways . 0.0035
 no sister can catch fewer than ten ways . 0.0089
 no doctor could catch at least twenty bones . 0.0043
 no doctor could catch more than twenty bones . 0.0089
-no duke could move to at least twenty engines . 0.0033
-no duke could move to more than twenty engines . 0.0054
+no duke could move to at least twenty engines . 0.0035
+no duke could move to more than twenty engines . 0.0080
 no slave could exist without at most one finger . 0.0138
 no slave could exist without fewer than one finger . 0.0046
 no boat could catch at least twenty stars . 0.4168
 no boat could catch more than twenty stars . 0.1056
 no pig can leave at most ten animals . 0.0116
 no pig can leave fewer than ten animals . 0.0166
-no duke could leave at least one finger . 0.0092
-no duke could leave more than one finger . 0.0061
+no duke could leave at least one finger . 0.0222
+no duke could leave more than one finger . 0.0115
 no doctor can move to at least one bear . 0.0146
 no doctor can move to more than one bear . 0.0105
 no slave could increase the size of at least one day . 0.0017
@@ -3048,7 +3048,7 @@ no slave can exist without at least one star . 0.0016
 no slave can exist without more than one star . 0.0013
 no slave could stand on top of at least one problem . 0.0020
 no slave could stand on top of more than one problem . 0.0028
-no duke could move to at least thirty days . 0.0039
+no duke could move to at least thirty days . 0.0042
 no duke could move to more than thirty days . 0.0055
 no wolf could catch at least ten fingers . 0.0035
 no wolf could catch more than ten fingers . 0.0064
@@ -3070,8 +3070,8 @@ no pig could exist without at least six pages . 0.0082
 no pig could exist without more than six pages . 0.0040
 no slave can move to at most six dollars . 0.0058
 no slave can move to fewer than six dollars . 0.0064
-no duke could stand on top of at most six children . 0.0151
-no duke could stand on top of fewer than six children . 0.0074
+no duke could stand on top of at most six children . 0.0092
+no duke could stand on top of fewer than six children . 0.0067
 no boat could catch at least six arms . 0.0080
 no boat could catch more than six arms . 0.0105
 no boat can exist without at most six bits . 0.0226
@@ -3084,8 +3084,8 @@ no pig can increase the size of at most ten eggs . 0.0091
 no pig can increase the size of fewer than ten eggs . 0.0177
 no slave can catch at most thirty hands . 0.0060
 no slave can catch fewer than thirty hands . 0.0159
-no duke can catch at most ten dollars . 0.0054
-no duke can catch fewer than ten dollars . 0.0053
+no duke can catch at most ten dollars . 0.0059
+no duke can catch fewer than ten dollars . 0.0036
 no pig can catch at least thirty feet . 0.0027
 no pig can catch more than thirty feet . 0.0012
 no doctor could exist without at least thirty pictures . 0.0080
@@ -3096,13 +3096,13 @@ no boat could open the door to at least ten toys . 0.0163
 no boat could open the door to more than ten toys . 0.0080
 no wolf can leave at most thirty pictures . 0.0040
 no wolf can leave fewer than thirty pictures . 0.0076
-no duke can carry at least nine movies . 0.0104
-no duke can carry more than nine movies . 0.0096
+no duke can carry at least nine movies . 0.0171
+no duke can carry more than nine movies . 0.0103
 no wolf could leave at most twenty babies . 0.0781
 no wolf could leave fewer than twenty babies . 0.0327
 no boat can catch at least ten horses . 0.0085
 no boat can catch more than ten horses . 0.0055
-no duke could carry at least one egg . 0.0010
+no duke could carry at least one egg . 0.0024
 no duke could carry more than one egg . 0.0017
 no wolf could leave at least thirty things . 0.0055
 no wolf could leave more than thirty things . 0.0076
@@ -3124,14 +3124,14 @@ no slave could leave at most nine pages . 0.0265
 no slave could leave fewer than nine pages . 0.0132
 no slave could stand on top of at most nine babies . 0.0130
 no slave could stand on top of fewer than nine babies . 0.0127
-no duke could stand on top of at least ten parents . 0.0030
-no duke could stand on top of more than ten parents . 0.0042
+no duke could stand on top of at least ten parents . 0.0026
+no duke could stand on top of more than ten parents . 0.0035
 no dinosaur can carry at least nine dogs . 1.2794
 no dinosaur can carry more than nine dogs . 0.8292
 no dinosaur could exist without at most twenty restaurants . 1.2992
 no dinosaur could exist without fewer than twenty restaurants . 1.3733
-no duke could catch at most one horse . 0.0277
-no duke could catch fewer than one horse . 0.0105
+no duke could catch at most one horse . 0.0301
+no duke could catch fewer than one horse . 0.0174
 no doctor can leave at least nine feet . 0.0081
 no doctor can leave more than nine feet . 0.0080
 no sister could catch at least ten parents . 0.0074
@@ -3148,8 +3148,8 @@ no slave can increase the size of at most twenty dollars . 0.0072
 no slave can increase the size of fewer than twenty dollars . 0.0084
 no boat can stand on top of at least twenty cars . 0.0136
 no boat can stand on top of more than twenty cars . 0.0093
-no duke can leave at least nine differences . 0.5703
-no duke can leave more than nine differences . 0.3271
+no duke can leave at least nine differences . 0.2700
+no duke can leave more than nine differences . 0.1977
 no dinosaur can stand on top of at least thirty feet . 0.3189
 no dinosaur can stand on top of more than thirty feet . 0.0078
 no slave can move to at least thirty calls . 0.0175
@@ -3162,8 +3162,8 @@ no sister could open the door to at least one type . 0.0037
 no sister could open the door to more than one type . 0.0046
 no pig can open the door to at most twenty bears . 0.0117
 no pig can open the door to fewer than twenty bears . 0.0102
-no duke can open the door to at least six movies . 0.0044
-no duke can open the door to more than six movies . 0.0039
+no duke can open the door to at least six movies . 0.0055
+no duke can open the door to more than six movies . 0.0053
 no slave could catch at least one color . 0.0019
 no slave could catch more than one color . 0.0025
 no slave could move to at least thirty parents . 0.0059
@@ -3174,8 +3174,8 @@ no slave can open the door to at least thirty engines . 0.0050
 no slave can open the door to more than thirty engines . 0.0086
 no sister could increase the size of at least thirty calls . 0.0032
 no sister could increase the size of more than thirty calls . 0.0031
-no duke could increase the size of at most twenty kings . 0.0039
-no duke could increase the size of fewer than twenty kings . 0.0085
+no duke could increase the size of at most twenty kings . 0.0044
+no duke could increase the size of fewer than twenty kings . 0.0073
 no sister could move to at most nine animals . 0.0190
 no sister could move to fewer than nine animals . 0.0387
 no dinosaur could carry at least nine dollars . 1.0538
@@ -3184,8 +3184,8 @@ no pig could carry at least nine pages . 0.0030
 no pig could carry more than nine pages . 0.0027
 no wolf can increase the size of at most thirty restaurants . 0.0070
 no wolf can increase the size of fewer than thirty restaurants . 0.0104
-no duke can catch at least one girl . 0.0064
-no duke can catch more than one girl . 0.0059
+no duke can catch at least one girl . 0.0075
+no duke can catch more than one girl . 0.0084
 no pig can exist without at least thirty stars . 0.0049
 no pig can exist without more than thirty stars . 0.0056
 no slave could move to at least ten toys . 0.0242
@@ -3202,8 +3202,8 @@ no pig can leave at least one king . 0.0026
 no pig can leave more than one king . 0.0029
 no pig could carry at most ten pictures . 0.0106
 no pig could carry fewer than ten pictures . 0.0100
-no duke can leave at most one bone . 0.0237
-no duke can leave fewer than one bone . 0.0231
+no duke can leave at most one bone . 0.0193
+no duke can leave fewer than one bone . 0.0145
 no dinosaur could open the door to at most one whale . 0.3224
 no dinosaur could open the door to fewer than one whale . 0.8394
 no doctor could catch at least twenty pages . 0.0044
@@ -3216,16 +3216,16 @@ no boat could leave at most six eggs . 0.2641
 no boat could leave fewer than six eggs . 0.0396
 no boat could move to at most thirty types . 0.0152
 no boat could move to fewer than thirty types . 0.0205
-no duke can move to at least ten pages . 0.0062
-no duke can move to more than ten pages . 0.0024
+no duke can move to at least ten pages . 0.0072
+no duke can move to more than ten pages . 0.0036
 no sister can exist without at least twenty minutes . 0.0052
 no sister can exist without more than twenty minutes . 0.0040
 no boat could carry at most one problem . 0.0792
 no boat could carry fewer than one problem . 0.0395
 no pig can catch at least twenty movies . 0.0068
 no pig can catch more than twenty movies . 0.0114
-no duke could move to at least thirty bones . 0.0026
-no duke could move to more than thirty bones . 0.0021
+no duke could move to at least thirty bones . 0.0034
+no duke could move to more than thirty bones . 0.0035
 no sister can move to at least ten bits . 0.0169
 no sister can move to more than ten bits . 0.0047
 no wolf can stand on top of at least nine differences . 0.0065
@@ -3234,7 +3234,7 @@ no wolf could carry at most six eggs . 0.1691
 no wolf could carry fewer than six eggs . 0.0217
 no doctor can exist without at least nine songs . 0.0141
 no doctor can exist without more than nine songs . 0.0060
-no dinosaur could stand on top of at most one minute . 0.1356
+no dinosaur could stand on top of at most one minute . 0.1357
 no dinosaur could stand on top of fewer than one minute . 0.8102
 no wolf can increase the size of at most one pattern . 0.0617
 no wolf can increase the size of fewer than one pattern . 0.0220
@@ -3246,8 +3246,8 @@ no wolf could exist without at least nine animals . 0.0692
 no wolf could exist without more than nine animals . 0.0490
 no doctor can leave at most ten books . 0.0076
 no doctor can leave fewer than ten books . 0.0126
-no duke could stand on top of at most twenty eggs . 0.0252
-no duke could stand on top of fewer than twenty eggs . 0.0129
+no duke could stand on top of at most twenty eggs . 0.0148
+no duke could stand on top of fewer than twenty eggs . 0.0088
 no sister could stand on top of at least nine bits . 0.0025
 no sister could stand on top of more than nine bits . 0.0023
 no wolf can leave at most ten eggs . 0.0301
@@ -3262,12 +3262,12 @@ no slave can open the door to at least one horse . 0.0049
 no slave can open the door to more than one horse . 0.0058
 no pig could exist without at most six songs . 0.0135
 no pig could exist without fewer than six songs . 0.0364
-no duke can open the door to at least ten dogs . 0.0036
-no duke can open the door to more than ten dogs . 0.0052
+no duke can open the door to at least ten dogs . 0.0050
+no duke can open the door to more than ten dogs . 0.0067
 no dinosaur can move to at least nine birds . 0.7444
 no dinosaur can move to more than nine birds . 0.0997
-no duke could catch at least twenty animals . 0.0057
-no duke could catch more than twenty animals . 0.0139
+no duke could catch at least twenty animals . 0.0068
+no duke could catch more than twenty animals . 0.0249
 no boat can move to at most thirty dogs . 0.0054
 no boat can move to fewer than thirty dogs . 0.0150
 no pig can catch at least twenty minutes . 0.0034
@@ -3288,8 +3288,8 @@ no slave can move to at least ten engines . 0.0078
 no slave can move to more than ten engines . 0.0221
 no boat could exist without at least ten bits . 0.0289
 no boat could exist without more than ten bits . 0.0076
-no duke could exist without at least six dogs . 0.0824
-no duke could exist without more than six dogs . 0.0802
+no duke could exist without at least six dogs . 0.0519
+no duke could exist without more than six dogs . 0.0730
 no slave can open the door to at least nine engines . 0.0103
 no slave can open the door to more than nine engines . 0.0145
 no doctor could leave at most nine girls . 0.0201
@@ -3306,10 +3306,10 @@ no dinosaur can catch at most ten toys . 1.1953
 no dinosaur can catch fewer than ten toys . 1.4660
 no slave could stand on top of at most twenty calls . 0.0089
 no slave could stand on top of fewer than twenty calls . 0.0123
-no duke could stand on top of at least twenty problems . 0.0016
-no duke could stand on top of more than twenty problems . 0.0042
-no duke can leave at least one movie . 0.0072
-no duke can leave more than one movie . 0.0069
+no duke could stand on top of at least twenty problems . 0.0015
+no duke could stand on top of more than twenty problems . 0.0087
+no duke can leave at least one movie . 0.0131
+no duke can leave more than one movie . 0.0103
 no sister could catch at most nine minutes . 0.0114
 no sister could catch fewer than nine minutes . 0.0131
 no slave could stand on top of at most thirty pictures . 0.0021
@@ -3328,12 +3328,12 @@ no boat could exist without at least six parents . 0.0093
 no boat could exist without more than six parents . 0.0055
 no boat could exist without at most ten eggs . 0.0101
 no boat could exist without fewer than ten eggs . 0.0089
-no duke can leave at most ten birds . 0.0084
-no duke can leave fewer than ten birds . 0.0217
+no duke can leave at most ten birds . 0.0114
+no duke can leave fewer than ten birds . 0.0158
 no wolf can move to at most ten babies . 0.0060
 no wolf can move to fewer than ten babies . 0.0201
-no duke could stand on top of at most six bears . 0.0093
-no duke could stand on top of fewer than six bears . 0.0063
+no duke could stand on top of at most six bears . 0.0056
+no duke could stand on top of fewer than six bears . 0.0042
 no sister can increase the size of at most twenty calls . 0.0049
 no sister can increase the size of fewer than twenty calls . 0.0147
 no slave could open the door to at most one pattern . 0.0325
@@ -3342,16 +3342,16 @@ no sister can move to at most ten kings . 0.0047
 no sister can move to fewer than ten kings . 0.0101
 no sister can catch at least twenty pages . 0.0035
 no sister can catch more than twenty pages . 0.0062
-no duke can catch at most twenty restaurants . 0.0057
-no duke can catch fewer than twenty restaurants . 0.0251
+no duke can catch at most twenty restaurants . 0.0115
+no duke can catch fewer than twenty restaurants . 0.0408
 no boat could leave at most twenty lies . 0.0304
 no boat could leave fewer than twenty lies . 0.0468
 no sister could open the door to at most ten lies . 0.0083
 no sister could open the door to fewer than ten lies . 0.0095
 no pig could stand on top of at least nine parents . 0.0045
 no pig could stand on top of more than nine parents . 0.0032
-no duke could open the door to at least one window . 0.0011
-no duke could open the door to more than one window . 0.0019
+no duke could open the door to at least one window . 0.0017
+no duke could open the door to more than one window . 0.0026
 no dinosaur could exist without at most ten guys . 0.1040
 no dinosaur could exist without fewer than ten guys . 0.5250
 no doctor can catch at most six children . 0.0169
@@ -3370,22 +3370,22 @@ no boat can carry at least one page . 0.0018
 no boat can carry more than one page . 0.0009
 no doctor could stand on top of at most ten guys . 0.0096
 no doctor could stand on top of fewer than ten guys . 0.0062
-no duke could catch at least thirty words . 0.0033
-no duke could catch more than thirty words . 0.0051
-no duke can open the door to at least six differences . 0.0209
-no duke can open the door to more than six differences . 0.0088
+no duke could catch at least thirty words . 0.0041
+no duke could catch more than thirty words . 0.0053
+no duke can open the door to at least six differences . 0.0737
+no duke can open the door to more than six differences . 0.0077
 no slave can carry at least six dollars . 0.0054
 no slave can carry more than six dollars . 0.0044
 no boat could catch at most twenty bones . 0.0239
 no boat could catch fewer than twenty bones . 0.0230
 no doctor could carry at least nine babies . 0.0078
 no doctor could carry more than nine babies . 0.0064
-no duke could catch at most ten pictures . 0.0101
-no duke could catch fewer than ten pictures . 0.0115
-no duke can carry at least thirty colors . 0.0053
-no duke can carry more than thirty colors . 0.0043
-no duke can increase the size of at most twenty guys . 0.0046
-no duke can increase the size of fewer than twenty guys . 0.0148
+no duke could catch at most ten pictures . 0.0062
+no duke could catch fewer than ten pictures . 0.0101
+no duke can carry at least thirty colors . 0.0048
+no duke can carry more than thirty colors . 0.0041
+no duke can increase the size of at most twenty guys . 0.0064
+no duke can increase the size of fewer than twenty guys . 0.0165
 no doctor could leave at most ten minutes . 0.0398
 no doctor could leave fewer than ten minutes . 0.0166
 no sister can exist without at most twenty dogs . 0.0236
@@ -3406,14 +3406,14 @@ no slave could leave at most one girl . 0.0309
 no slave could leave fewer than one girl . 0.0099
 no dinosaur could open the door to at least thirty hands . 1.2187
 no dinosaur could open the door to more than thirty hands . 0.9274
-no duke can exist without at least thirty boats . 0.0633
-no duke can exist without more than thirty boats . 0.0231
+no duke can exist without at least thirty boats . 0.1260
+no duke can exist without more than thirty boats . 0.0656
 no sister could increase the size of at most six pictures . 0.0046
 no sister could increase the size of fewer than six pictures . 0.0081
 no wolf can leave at most one foot . 0.0590
 no wolf can leave fewer than one foot . 0.0070
-no duke can stand on top of at least one baby . 0.0010
-no duke can stand on top of more than one baby . 0.0015
+no duke can stand on top of at least one baby . 0.0009
+no duke can stand on top of more than one baby . 0.0013
 no slave could exist without at least nine babies . 0.0120
 no slave could exist without more than nine babies . 0.0233
 no boat can leave at least twenty waters . 0.0038
@@ -3538,10 +3538,10 @@ no doctor can exist without at least thirty books . 0.0109
 no doctor can exist without more than thirty books . 0.0118
 no wolf could move to at least one band . 0.0062
 no wolf could move to more than one band . 0.0077
-no duke could exist without at least twenty eggs . 0.0356
-no duke could exist without more than twenty eggs . 0.0091
-no duke can carry at most thirty problems . 0.0025
-no duke can carry fewer than thirty problems . 0.0163
+no duke could exist without at least twenty eggs . 0.0120
+no duke could exist without more than twenty eggs . 0.0151
+no duke can carry at most thirty problems . 0.0065
+no duke can carry fewer than thirty problems . 0.0134
 no boat can leave at least twenty things . 0.0106
 no boat can leave more than twenty things . 0.0116
 no slave could increase the size of at least nine animals . 0.0055
@@ -3558,12 +3558,12 @@ no dinosaur can exist without at most twenty parents . 0.1010
 no dinosaur can exist without fewer than twenty parents . 0.5808
 no doctor can move to at least one dollar . 0.0019
 no doctor can move to more than one dollar . 0.0024
-no duke can catch at most six bits . 0.0083
-no duke can catch fewer than six bits . 0.0095
+no duke can catch at most six bits . 0.0124
+no duke can catch fewer than six bits . 0.0170
 no sister can increase the size of at least nine stands . 0.0024
 no sister can increase the size of more than nine stands . 0.0054
-no duke can increase the size of at most six engines . 0.0086
-no duke can increase the size of fewer than six engines . 0.0099
+no duke can increase the size of at most six engines . 0.0077
+no duke can increase the size of fewer than six engines . 0.0139
 no wolf can exist without at least one stand . 0.0949
 no wolf can exist without more than one stand . 0.0247
 no sister could open the door to at most ten bands . 0.0084
@@ -3580,14 +3580,14 @@ no pig could increase the size of at most six windows . 0.0072
 no pig could increase the size of fewer than six windows . 0.0111
 no pig could move to at most ten bones . 0.0090
 no pig could move to fewer than ten bones . 0.0207
-no duke could stand on top of at most twenty waters . 0.0057
-no duke could stand on top of fewer than twenty waters . 0.0373
+no duke could stand on top of at most twenty waters . 0.0048
+no duke could stand on top of fewer than twenty waters . 0.0482
 no boat can move to at most ten minutes . 0.0340
 no boat can move to fewer than ten minutes . 0.0202
 no duke could carry at least thirty pictures . 0.0021
-no duke could carry more than thirty pictures . 0.0029
-no duke can move to at least thirty problems . 0.0033
-no duke can move to more than thirty problems . 0.0077
+no duke could carry more than thirty pictures . 0.0022
+no duke can move to at least thirty problems . 0.0026
+no duke can move to more than thirty problems . 0.0053
 no boat can open the door to at most six boats . 0.0075
 no boat can open the door to fewer than six boats . 0.0089
 no sister could exist without at least six cars . 0.0589
@@ -3600,8 +3600,8 @@ no sister could increase the size of at least thirty kings . 0.0045
 no sister could increase the size of more than thirty kings . 0.0029
 no sister can move to at least thirty pages . 0.0042
 no sister can move to more than thirty pages . 0.0030
-no duke could exist without at most twenty cars . 0.0084
-no duke could exist without fewer than twenty cars . 0.0110
+no duke could exist without at most twenty cars . 0.0165
+no duke could exist without fewer than twenty cars . 0.0580
 no boat could exist without at least twenty lions . 1.2089
 no boat could exist without more than twenty lions . 0.8933
 no wolf could increase the size of at most nine books . 0.0046
@@ -3624,10 +3624,10 @@ no wolf can open the door to at least twenty books . 0.0068
 no wolf can open the door to more than twenty books . 0.0088
 no boat can carry at least nine types . 0.0153
 no boat can carry more than nine types . 0.0138
-no duke can stand on top of at most ten minutes . 0.0492
-no duke can stand on top of fewer than ten minutes . 0.0179
-no duke can carry at least one finger . 0.0032
-no duke can carry more than one finger . 0.0027
+no duke can stand on top of at most ten minutes . 0.0194
+no duke can stand on top of fewer than ten minutes . 0.0167
+no duke can carry at least one finger . 0.0122
+no duke can carry more than one finger . 0.0038
 no slave could increase the size of at most nine lies . 0.0089
 no slave could increase the size of fewer than nine lies . 0.0367
 no sister could leave at least one egg . 0.0125
@@ -3658,8 +3658,8 @@ no doctor could leave at least six girls . 0.0216
 no doctor could leave more than six girls . 0.0184
 no dinosaur can carry at most thirty books . 0.3315
 no dinosaur can carry fewer than thirty books . 0.5644
-no duke can move to at most ten patterns . 0.0024
-no duke can move to fewer than ten patterns . 0.0124
+no duke can move to at most ten patterns . 0.0064
+no duke can move to fewer than ten patterns . 0.0174
 no boat can leave at most twenty ways . 0.0063
 no boat can leave fewer than twenty ways . 0.0186
 no sister can increase the size of at least thirty horses . 0.0041
@@ -3684,8 +3684,8 @@ no slave can move to at least twenty pages . 0.0032
 no slave can move to more than twenty pages . 0.0040
 no wolf can increase the size of at most twenty bands . 0.0045
 no wolf can increase the size of fewer than twenty bands . 0.0091
-no duke could exist without at most twenty kings . 0.0301
-no duke could exist without fewer than twenty kings . 0.0335
+no duke could exist without at most twenty kings . 0.0137
+no duke could exist without fewer than twenty kings . 0.0384
 no dinosaur could stand on top of at least twenty whales . 0.1137
 no dinosaur could stand on top of more than twenty whales . 0.0165
 no boat can increase the size of at most twenty arms . 0.0104
@@ -3700,14 +3700,14 @@ no dinosaur could move to at most twenty arms . 0.5446
 no dinosaur could move to fewer than twenty arms . 0.8503
 no slave can stand on top of at least six days . 0.0026
 no slave can stand on top of more than six days . 0.0051
-no duke could increase the size of at least nine waters . 0.0023
-no duke could increase the size of more than nine waters . 0.0060
+no duke could increase the size of at least nine waters . 0.0038
+no duke could increase the size of more than nine waters . 0.0121
 no slave could carry at least twenty feet . 0.0067
 no slave could carry more than twenty feet . 0.0155
 no wolf can exist without at least twenty movies . 0.0253
 no wolf can exist without more than twenty movies . 0.0214
-no duke can catch at most ten engines . 0.0051
-no duke can catch fewer than ten engines . 0.0130
+no duke can catch at most ten engines . 0.0081
+no duke can catch fewer than ten engines . 0.0210
 no sister can increase the size of at least one bit . 0.0026
 no sister can increase the size of more than one bit . 0.0029
 no slave can move to at most thirty pictures . 0.0040
@@ -3724,20 +3724,20 @@ no dinosaur could catch at most one story . 0.2735
 no dinosaur could catch fewer than one story . 0.8398
 no wolf can increase the size of at least one stand . 0.0026
 no wolf can increase the size of more than one stand . 0.0059
-no duke can move to at most ten parents . 0.0028
-no duke can move to fewer than ten parents . 0.0058
+no duke can move to at most ten parents . 0.0044
+no duke can move to fewer than ten parents . 0.0104
 no dinosaur could exist without at most twenty cars . 0.7346
 no dinosaur could exist without fewer than twenty cars . 0.7846
 no wolf can catch at most six kings . 0.0387
 no wolf can catch fewer than six kings . 0.0866
 no pig could open the door to at least ten bears . 0.0038
 no pig could open the door to more than ten bears . 0.0057
-no duke could carry at least ten windows . 0.0051
-no duke could carry more than ten windows . 0.0053
-no duke can catch at most thirty words . 0.0043
-no duke can catch fewer than thirty words . 0.0336
-no duke can increase the size of at most nine feet . 0.0029
-no duke can increase the size of fewer than nine feet . 0.0054
+no duke could carry at least ten windows . 0.0048
+no duke could carry more than ten windows . 0.0041
+no duke can catch at most thirty words . 0.0070
+no duke can catch fewer than thirty words . 0.0091
+no duke can increase the size of at most nine feet . 0.0032
+no duke can increase the size of fewer than nine feet . 0.0110
 no dinosaur can leave at least nine whales . 0.7261
 no dinosaur can leave more than nine whales . 0.0644
 no sister could carry at least ten hands . 0.0071
@@ -3754,8 +3754,8 @@ no slave can increase the size of at least thirty types . 0.0043
 no slave can increase the size of more than thirty types . 0.0039
 no sister could stand on top of at most six problems . 0.0089
 no sister could stand on top of fewer than six problems . 0.0062
-no duke could move to at most one arm . 0.0216
-no duke could move to fewer than one arm . 0.0140
+no duke could move to at most one arm . 0.0466
+no duke could move to fewer than one arm . 0.0423
 no doctor can catch at most nine stands . 0.0126
 no doctor can catch fewer than nine stands . 0.0168
 no boat can carry at least six books . 0.0061
@@ -3772,8 +3772,8 @@ no wolf can open the door to at least one word . 0.0089
 no wolf can open the door to more than one word . 0.0052
 no sister can catch at least twenty movies . 0.0067
 no sister can catch more than twenty movies . 0.0159
-no duke can leave at least one car . 0.0032
-no duke can leave more than one car . 0.0031
+no duke can leave at least one car . 0.0038
+no duke can leave more than one car . 0.0023
 no wolf can carry at most one call . 0.0168
 no wolf can carry fewer than one call . 0.0146
 no doctor can catch at most nine girls . 0.0348
@@ -3790,8 +3790,8 @@ no sister can open the door to at least twenty lies . 0.0164
 no sister can open the door to more than twenty lies . 0.0124
 no sister could increase the size of at least nine books . 0.0040
 no sister could increase the size of more than nine books . 0.0040
-no duke could catch at least twenty colors . 0.0015
-no duke could catch more than twenty colors . 0.0036
+no duke could catch at least twenty colors . 0.0026
+no duke could catch more than twenty colors . 0.0044
 no doctor could leave at least one ring . 0.0047
 no doctor could leave more than one ring . 0.0076
 no slave can exist without at least ten words . 0.0026
@@ -3812,21 +3812,21 @@ no dinosaur can open the door to at least thirty calls . 1.1293
 no dinosaur can open the door to more than thirty calls . 0.7434
 no wolf could carry at most ten bits . 0.0154
 no wolf could carry fewer than ten bits . 0.0093
-no duke could leave at most nine types . 0.0086
-no duke could leave fewer than nine types . 0.0218
+no duke could leave at most nine types . 0.0054
+no duke could leave fewer than nine types . 0.0248
 no doctor could open the door to at least twenty types . 0.0325
 no doctor could open the door to more than twenty types . 0.0083
 no boat could leave at most twenty things . 0.0117
 no boat could leave fewer than twenty things . 0.0396
 no wolf can leave at least one dollar . 0.0086
 no wolf can leave more than one dollar . 0.0054
-no duke could increase the size of at most twenty hands . 0.0209
-no duke could increase the size of fewer than twenty hands . 0.1183
-no duke can exist without at least thirty types . 0.0447
-no duke can exist without more than thirty types . 0.0183
-no duke can carry at most nine arms . 0.0135
-no duke can carry fewer than nine arms . 0.0557
-no boat could move to at most six bits . 0.0535
+no duke could increase the size of at most twenty hands . 0.0376
+no duke could increase the size of fewer than twenty hands . 0.2339
+no duke can exist without at least thirty types . 0.1237
+no duke can exist without more than thirty types . 0.0565
+no duke can carry at most nine arms . 0.0108
+no duke can carry fewer than nine arms . 0.0427
+no boat could move to at most six bits . 0.0536
 no boat could move to fewer than six bits . 0.0317
 no doctor could catch at most twenty horses . 0.0142
 no doctor could catch fewer than twenty horses . 0.0199
@@ -3838,8 +3838,8 @@ no slave could leave at least ten hands . 0.0149
 no slave could leave more than ten hands . 0.0332
 no sister can carry at least thirty girls . 0.0224
 no sister can carry more than thirty girls . 0.0157
-no duke can carry at most one picture . 0.0095
-no duke can carry fewer than one picture . 0.0587
+no duke can carry at most one picture . 0.0119
+no duke can carry fewer than one picture . 0.0483
 no sister can carry at most six ways . 0.0035
 no sister can carry fewer than six ways . 0.0089
 no wolf could stand on top of at most ten books . 0.0030
@@ -3906,10 +3906,10 @@ no pig can catch at most ten bones . 0.0133
 no pig can catch fewer than ten bones . 0.0108
 no pig can exist without at most nine stars . 0.0076
 no pig can exist without fewer than nine stars . 0.0187
-no dinosaur can move to at most ten bears . 0.2248
+no dinosaur can move to at most ten bears . 0.2249
 no dinosaur can move to fewer than ten bears . 0.8780
-no duke could stand on top of at least nine toys . 0.0039
-no duke could stand on top of more than nine toys . 0.0023
+no duke could stand on top of at least nine toys . 0.0250
+no duke could stand on top of more than nine toys . 0.0039
 no pig can move to at most one foot . 0.0119
 no pig can move to fewer than one foot . 0.0125
 no doctor can open the door to at most one baby . 0.0791
@@ -3928,14 +3928,14 @@ no dinosaur could exist without at most twenty things . 0.7709
 no dinosaur could exist without fewer than twenty things . 0.8408
 no boat can exist without at most twenty birds . 0.0754
 no boat can exist without fewer than twenty birds . 0.0282
-no duke can carry at most ten pages . 0.0061
-no duke can carry fewer than ten pages . 0.0102
+no duke can carry at most ten pages . 0.0135
+no duke can carry fewer than ten pages . 0.0116
 no wolf could increase the size of at most one day . 0.0233
 no wolf could increase the size of fewer than one day . 0.0071
 no wolf could open the door to at most one song . 0.0141
 no wolf could open the door to fewer than one song . 0.0263
-no duke can carry at least twenty dogs . 0.0049
-no duke can carry more than twenty dogs . 0.0138
+no duke can carry at least twenty dogs . 0.0044
+no duke can carry more than twenty dogs . 0.0088
 no dinosaur could leave at most six patterns . 0.4286
 no dinosaur could leave fewer than six patterns . 1.2866
 no slave can move to at most ten books . 0.0027
@@ -3948,8 +3948,8 @@ no pig can open the door to at most nine guys . 0.0067
 no pig can open the door to fewer than nine guys . 0.0065
 no sister can catch at least nine guys . 0.0030
 no sister can catch more than nine guys . 0.0019
-no duke could open the door to at least thirty differences . 0.4949
-no duke could open the door to more than thirty differences . 0.3306
+no duke could open the door to at least thirty differences . 0.5723
+no duke could open the door to more than thirty differences . 0.3780
 no boat could carry at least one baby . 0.0038
 no boat could carry more than one baby . 0.0055
 no wolf could increase the size of at least six hands . 0.0099
@@ -3986,8 +3986,8 @@ no pig could carry at least one page . 0.0011
 no pig could carry more than one page . 0.0012
 no doctor can leave at least twenty bits . 0.0177
 no doctor can leave more than twenty bits . 0.0118
-no duke could move to at least thirty restaurants . 0.0145
-no duke could move to more than thirty restaurants . 0.0443
+no duke could move to at least thirty restaurants . 0.0042
+no duke could move to more than thirty restaurants . 0.0059
 no pig can carry at least ten engines . 0.0051
 no pig can carry more than ten engines . 0.0053
 no doctor can increase the size of at least ten ways . 0.0032

@@ -505,9 +505,9 @@ class VisualizerBars(VisualizerBase):
 
         # x axis
         x_ticks = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
-        ax.set_xlabel('Average Accuracy', fontsize=8)
+        ax.set_xlabel('Average Accuracy', fontsize=configs.Figs.tick_font_size)
         ax.set_xticks(x_ticks)
-        ax.set_xticklabels(x_ticks, fontsize=8)
+        ax.set_xticklabels(x_ticks, fontsize=configs.Figs.tick_font_size)
 
         # collect last_accuracy for each replication across all paradigms
         gn2rep2accuracies_by_pd = defaultdict(dict)

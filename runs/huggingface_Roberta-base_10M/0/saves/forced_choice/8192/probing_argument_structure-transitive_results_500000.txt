@@ -12,18 +12,18 @@ could she show ? 0.0035
 could she know ? 0.0201
 did the boat show ? 0.0770
 did the boat trade ? 0.0351
-sarah organized . 0.1734
-sarah grew . 0.0272
-did sarah give ? 0.1943
-did sarah study ? 0.0370
+sarah organized . 0.0837
+sarah grew . 0.0266
+did sarah give ? 0.1178
+did sarah study ? 0.3104
 would your wolf close ? 0.9723
 would your wolf run ? 0.4843
 anne met . 0.2367
 anne stands . 0.2214
 could anne order ? 0.0992
 could anne trade ? 0.0524
-does chris put ? 0.0487
-does chris study ? 0.2540
+does chris put ? 0.0506
+does chris study ? 0.0363
 that sister hurt . 0.0247
 that sister works . 0.0050
 could that sister like ? 0.0109
@@ -38,44 +38,44 @@ would this dinosaur say ? 0.3433
 would this dinosaur change ? 0.0375
 will that sister make ? 0.0275
 will that sister live ? 0.0490
-allen gave . 0.0070
-allen knew . 0.1537
-will allen need ? 0.1626
-will allen trade ? 0.0246
+allen gave . 0.0287
+allen knew . 0.3344
+will allen need ? 0.0569
+will allen trade ? 0.1300
 did it free ? 0.3008
 did it trade ? 0.7824
 the boat ended . 0.0168
 the boat fell . 0.0058
 can the boat become ? 0.0310
 can the boat know ? 0.0139
-allen took . 0.0020
-allen lost . 0.0042
-could allen give ? 0.1415
-could allen run ? 0.4050
-laura opened . 0.1920
-laura moved . 0.0201
-would laura support ? 0.0673
-would laura study ? 0.2538
-william gave . 0.0068
-william matters . 0.0044
-will william be ? 0.0223
-will william know ? 0.3902
-allen opened . 0.0031
-allen refused . 0.0032
-would allen support ? 0.4647
-would allen play ? 0.1419
+allen took . 0.0573
+allen lost . 0.3178
+could allen give ? 0.0531
+could allen run ? 0.0932
+laura opened . 0.1428
+laura moved . 0.1840
+would laura support ? 0.1505
+would laura study ? 0.0337
+william gave . 0.0252
+william matters . 0.0147
+will william be ? 0.3576
+will william know ? 0.4125
+allen opened . 0.8338
+allen refused . 0.2700
+would allen support ? 0.3552
+would allen play ? 0.0491
 that wolf led . 0.1174
 that wolf fell . 0.0551
 would that wolf support ? 0.3305
 would that wolf know ? 0.2474
-robert advanced . 0.0034
-robert decided . 0.0191
-could robert be ? 0.0081
-could robert know ? 0.0072
-did michael take ? 1.7335
-did michael think ? 1.4483
-could joseph support ? 0.0431
-could joseph run ? 0.0235
+robert advanced . 0.1358
+robert decided . 0.0348
+could robert be ? 0.0539
+could robert know ? 0.0388
+did michael take ? 0.0574
+did michael think ? 0.0338
+could joseph support ? 0.0151
+could joseph run ? 0.0277
 his doctor organized . 0.0044
 his doctor lives . 0.0082
 did his doctor record ? 0.1055
@@ -86,10 +86,10 @@ the boat opened . 0.0098
 the boat grew . 0.0022
 would the boat become ? 0.0369
 would the boat change ? 0.0060
-allen advanced . 0.0017
-allen moves . 0.0041
-could allen take ? 0.1783
-could allen turn ? 0.1672
+allen advanced . 0.2308
+allen moves . 0.4607
+could allen take ? 0.0443
+could allen turn ? 0.0308
 could we take ? 0.0113
 could we read ? 0.0077
 will that doctor open ? 0.0051
@@ -108,8 +108,8 @@ would this doctor put ? 0.0290
 would this doctor live ? 0.0079
 did some doctor force ? 0.0478
 did some doctor study ? 0.0343
-could chris free ? 0.0790
-could chris work ? 0.0748
+could chris free ? 0.0122
+could chris work ? 0.2794
 this slave asked . 1.1768
 this slave fell . 0.0100
 can this slave say ? 0.0130
@@ -118,16 +118,16 @@ can sam take ? 0.7195
 can sam run ? 0.0190
 does your doctor show ? 0.1414
 does your doctor turn ? 0.0903
-did chris keep ? 0.2234
-did chris change ? 0.0058
-that duke took . 0.0043
-that duke started . 0.0128
-would that duke open ? 0.0167
-would that duke trade ? 0.0502
-michael said . 0.0141
-michael lived . 0.0639
-would michael order ? 1.5096
-would michael eat ? 1.1112
+did chris keep ? 0.1517
+did chris change ? 0.0114
+that duke took . 0.0149
+that duke started . 0.0250
+would that duke open ? 0.1888
+would that duke trade ? 0.1981
+michael said . 0.0353
+michael lived . 0.0396
+would michael order ? 0.0108
+would michael eat ? 0.4099
 some slave needed . 0.0861
 some slave refused . 0.0311
 could some slave have ? 1.7908
@@ -138,48 +138,48 @@ will your pig close ? 0.0219
 will your pig eat ? 0.0285
 did some sister give ? 0.0316
 did some sister trade ? 0.2252
-sarah hit . 0.3716
-sarah falls . 0.1379
-does sarah close ? 0.2721
-does sarah eat ? 1.0633
+sarah hit . 0.2208
+sarah falls . 0.2928
+does sarah close ? 0.1832
+does sarah eat ? 0.2567
 it closed . 0.0085
 it married . 0.0146
 would his wolf tell ? 0.2560
 would his wolf live ? 0.2347
-can robert become ? 0.0069
-can robert run ? 0.0109
-did sarah give ? 0.1943
-did sarah play ? 0.0901
-that duke helped . 0.0089
-that duke read . 0.0100
-can that duke keep ? 0.0148
-can that duke turn ? 0.0017
+can robert become ? 0.0868
+can robert run ? 0.0159
+did sarah give ? 0.1178
+did sarah play ? 0.0571
+that duke helped . 0.0220
+that duke read . 0.0267
+can that duke keep ? 0.0048
+can that duke turn ? 0.0096
 does that sister support ? 0.1045
 does that sister run ? 0.0626
-did joseph force ? 0.3845
-did joseph think ? 0.0958
-michael helped . 0.0175
-michael thought . 0.0127
-does michael become ? 1.9829
-does michael think ? 2.0595
-sarah supposed . 0.0219
-sarah moves . 0.0192
-would sarah make ? 0.1940
-would sarah work ? 0.0287
+did joseph force ? 0.2597
+did joseph think ? 0.0403
+michael helped . 0.0421
+michael thought . 0.0447
+does michael become ? 0.0626
+does michael think ? 0.0209
+sarah supposed . 0.1193
+sarah moves . 0.0292
+would sarah make ? 0.1061
+would sarah work ? 0.0558
 does his wolf give ? 0.2054
 does his wolf change ? 0.3964
 will some sister make ? 0.1256
 will some sister run ? 0.0115
 did some sister tell ? 0.1933
 did some sister read ? 0.1202
-does that duke order ? 0.3314
-does that duke play ? 0.3152
-could joseph control ? 0.0094
-could joseph play ? 0.0454
-will sarah take ? 0.6264
-will sarah eat ? 0.3198
-would this duke support ? 0.0220
-would this duke change ? 0.0413
+does that duke order ? 0.1111
+does that duke play ? 0.0564
+could joseph control ? 0.0566
+could joseph play ? 0.0208
+will sarah take ? 0.7332
+will sarah eat ? 0.0928
+would this duke support ? 0.0883
+would this duke change ? 0.1096
 sam led . 0.1440
 sam stands . 0.1917
 will sam like ? 0.5937
@@ -190,54 +190,54 @@ could some dinosaur order ? 0.1256
 could some dinosaur work ? 0.0886
 did sam like ? 0.4817
 did sam work ? 0.1812
-could joseph record ? 0.0191
-could joseph think ? 0.0400
+could joseph record ? 0.0275
+could joseph think ? 0.0143
 your wolf saw . 0.0946
 your wolf returned . 0.0824
 did your wolf be ? 0.0466
 did your wolf study ? 0.0299
-did joseph control ? 0.0624
-did joseph work ? 0.1150
+did joseph control ? 0.2673
+did joseph work ? 0.0921
 would it close ? 0.1229
 would it trade ? 0.2315
-would joseph show ? 0.0352
-would joseph run ? 0.0585
+would joseph show ? 0.0124
+would joseph run ? 0.0110
 will sam close ? 0.7065
 will sam think ? 0.9003
-will michael support ? 1.1362
-will michael study ? 1.6013
+will michael support ? 0.0061
+will michael study ? 0.0341
 the doctor planned . 0.0113
 the doctor falls . 0.0123
 could the doctor put ? 0.0109
 could the doctor study ? 0.0097
-could that duke have ? 0.0099
-could that duke study ? 0.0119
+could that duke have ? 0.1067
+could that duke study ? 0.2065
 could some slave close ? 0.8718
 could some slave eat ? 0.1504
 could that wolf use ? 0.1575
 could that wolf turn ? 0.0932
 does he be ? 0.2327
 does he study ? 0.0203
-would william order ? 0.0346
-would william live ? 0.2804
+would william order ? 0.0201
+would william live ? 0.0318
 will we make ? 0.0167
 will we play ? 0.0193
-can michael order ? 1.4327
-can michael trade ? 1.3701
-does chris use ? 0.1104
-does chris trade ? 0.4392
-could william say ? 0.2620
-could william live ? 0.1781
+can michael order ? 0.0047
+can michael trade ? 0.0935
+does chris use ? 0.0840
+does chris trade ? 0.0388
+could william say ? 0.0393
+could william live ? 0.0565
 did his dinosaur show ? 0.2365
 did his dinosaur study ? 0.2294
 some sister closed . 0.0650
 some sister started . 0.0349
-can robert show ? 0.0040
-can robert change ? 0.0032
+can robert show ? 0.0030
+can robert change ? 0.0063
 we opposed . 0.0055
 we started . 0.0093
-would joseph need ? 0.3546
-would joseph eat ? 0.9409
+would joseph need ? 0.2861
+would joseph eat ? 0.0887
 your slave closed . 1.2009
 your slave knows . 0.0543
 can your slave close ? 0.0139
@@ -256,30 +256,30 @@ it put . 0.0118
 it knows . 0.1313
 can it force ? 0.0615
 can it think ? 0.0519
-can allen have ? 0.0128
-can allen study ? 0.0026
+can allen have ? 0.1255
+can allen study ? 0.2387
 does sam put ? 0.7966
 does sam work ? 0.8064
 will she need ? 0.0787
 will she think ? 0.0205
-laura closed . 0.0940
-laura calls . 0.1279
-does laura take ? 0.2170
-does laura read ? 0.0914
+laura closed . 0.2154
+laura calls . 0.9318
+does laura take ? 0.0366
+does laura read ? 0.0165
 would that slave put ? 0.3762
 would that slave change ? 0.0808
 sam saw . 0.2972
 sam lives . 0.0533
 would sam have ? 0.5065
 would sam live ? 0.4756
-joseph shot . 0.0011
-joseph finished . 0.0193
-will joseph like ? 0.0021
-will joseph eat ? 0.0287
+joseph shot . 0.8473
+joseph finished . 0.0714
+will joseph like ? 0.0068
+will joseph eat ? 0.0249
 will every slave free ? 0.0284
 will every slave change ? 0.0020
-does chris free ? 0.1434
-does chris work ? 0.0677
+does chris free ? 0.0761
+does chris work ? 0.0183
 will some pig put ? 0.0087
 will some pig trade ? 0.0087
 they hit . 0.0487
@@ -292,30 +292,30 @@ does her wolf give ? 0.2322
 does her wolf run ? 0.4226
 would he free ? 0.0180
 would he trade ? 0.0274
-sarah shot . 0.1068
-sarah works . 0.0979
-could sarah control ? 0.0229
-could sarah change ? 0.0122
+sarah shot . 0.1495
+sarah works . 0.0108
+could sarah control ? 0.0661
+could sarah change ? 0.0407
 some dinosaur hurt . 0.1083
 some dinosaur started . 0.2539
 can some dinosaur use ? 0.1142
 can some dinosaur read ? 0.0915
-michael mixed . 0.0213
-michael refused . 0.0347
-would michael keep ? 1.8500
-would michael turn ? 0.9514
+michael mixed . 0.0401
+michael refused . 0.0234
+would michael keep ? 0.0315
+would michael turn ? 0.0629
 will we put ? 0.0124
 will we know ? 0.0058
-michael stopped . 0.0267
-michael joined . 0.0422
-could michael take ? 1.5986
-could michael change ? 1.6208
+michael stopped . 0.0498
+michael joined . 0.0438
+could michael take ? 0.0162
+could michael change ? 0.0058
 her wolf brought . 0.0582
 her wolf changed . 0.0127
 could her wolf open ? 0.0208
 could her wolf trade ? 0.0200
-can allen take ? 0.0909
-can allen play ? 0.0060
+can allen take ? 0.1319
+can allen play ? 0.1046
 she shared . 0.0147
 she changed . 0.0814
 did she be ? 0.0298
@@ -324,40 +324,40 @@ anne treated . 1.4504
 anne lies . 0.2542
 could anne make ? 0.1346
 could anne turn ? 0.0386
-will laura make ? 0.3361
-will laura work ? 0.0542
+will laura make ? 0.1223
+will laura work ? 0.2162
 could they control ? 0.0408
 could they think ? 0.0083
 every wolf opposed . 0.2693
 every wolf falls . 0.1669
 did every wolf take ? 0.0547
 did every wolf eat ? 0.2203
-sarah played . 0.0786
-sarah stands . 0.0829
-can sarah make ? 0.5748
-can sarah run ? 0.0120
-her duke closed . 0.0015
-her duke joined . 0.0150
-will her duke put ? 0.1419
-will her duke run ? 0.0018
+sarah played . 0.0854
+sarah stands . 0.0439
+can sarah make ? 0.0998
+can sarah run ? 0.0473
+her duke closed . 0.0096
+her duke joined . 0.0070
+will her duke put ? 0.3475
+will her duke run ? 0.1001
 it gave . 0.0054
 it calls . 0.3447
 could it open ? 0.0122
 could it know ? 0.0831
-laura put . 0.0522
-laura worked . 0.0194
-does laura record ? 0.2100
-does laura live ? 0.2061
+laura put . 0.2528
+laura worked . 0.2157
+does laura record ? 0.0930
+does laura live ? 0.0490
 did he become ? 0.4343
 did he turn ? 0.1024
 will she control ? 0.0186
 will she run ? 0.0041
 can it need ? 0.0634
 can it read ? 0.0044
-chris asked . 0.0156
-chris waves . 0.0041
-will chris free ? 0.0048
-will chris read ? 0.0104
+chris asked . 0.0348
+chris waves . 0.1924
+will chris free ? 0.0365
+will chris read ? 0.0653
 could she support ? 0.0349
 could she change ? 0.0025
 will we order ? 0.0063
@@ -366,16 +366,16 @@ some doctor advanced . 0.0048
 some doctor works . 0.0119
 would some doctor make ? 0.0273
 would some doctor read ? 0.1981
-will joseph have ? 0.0089
-will joseph run ? 0.0024
-allen connected . 0.0511
-allen joined . 0.0161
-does allen force ? 0.1192
-does allen run ? 0.0905
-sarah stopped . 0.2607
-sarah lost . 0.2172
-does sarah use ? 0.9540
-does sarah trade ? 0.5808
+will joseph have ? 0.0485
+will joseph run ? 0.0127
+allen connected . 0.6147
+allen joined . 0.5855
+does allen force ? 0.1311
+does allen run ? 0.0713
+sarah stopped . 0.1358
+sarah lost . 0.0629
+does sarah use ? 0.0980
+does sarah trade ? 0.0898
 some boat explained . 0.0152
 some boat moves . 0.0094
 will some boat order ? 0.0322
@@ -386,20 +386,20 @@ the wolf supposed . 0.0451
 the wolf races . 0.0603
 does the wolf take ? 0.1197
 does the wolf read ? 0.1354
-chris shot . 0.0025
-chris moves . 0.0044
-will chris support ? 0.0045
-will chris work ? 0.0079
+chris shot . 0.0149
+chris moves . 0.0108
+will chris support ? 0.0377
+will chris work ? 0.0865
 would it be ? 0.1811
 would it think ? 0.2316
-did joseph tell ? 0.2390
-did joseph live ? 0.1330
-william shared . 0.0045
-william thinks . 0.0338
-does william use ? 0.6402
-does william trade ? 0.5056
-did robert record ? 0.0527
-did robert turn ? 0.2488
+did joseph tell ? 0.0614
+did joseph live ? 0.0929
+william shared . 0.0112
+william thinks . 1.4672
+does william use ? 0.0439
+does william trade ? 0.1438
+did robert record ? 0.4075
+did robert turn ? 0.5385
 she asked . 0.3057
 she joined . 0.1517
 did she support ? 0.0179
@@ -424,22 +424,22 @@ this wolf led . 0.0559
 this wolf changes . 0.0381
 would this wolf force ? 0.2648
 would this wolf live ? 0.2413
-did joseph use ? 0.1030
-did joseph know ? 0.1500
+did joseph use ? 0.0530
+did joseph know ? 0.0273
 sam shared . 0.0482
 sam refused . 0.0933
 will sam keep ? 1.9628
 will sam turn ? 0.4724
-can chris tell ? 0.0102
-can chris eat ? 0.0911
+can chris tell ? 0.0145
+can chris eat ? 0.0321
 they hurt . 0.0472
 they worked . 0.0575
 can they control ? 0.0159
 can they know ? 0.0518
-allen took . 0.0020
-allen finished . 0.1262
-would allen use ? 0.0872
-would allen read ? 0.2178
+allen took . 0.0573
+allen finished . 0.6880
+would allen use ? 0.3087
+would allen read ? 0.4530
 your slave organized . 0.0682
 your slave matters . 0.0247
 could your slave need ? 0.1565
@@ -450,42 +450,42 @@ she supposed . 0.0121
 she broke . 0.1346
 does she open ? 0.0234
 does she run ? 0.0167
-chris needed . 0.0157
-chris leads . 0.0041
-does chris need ? 0.1077
-does chris change ? 0.0258
+chris needed . 0.0406
+chris leads . 0.1130
+does chris need ? 0.2603
+does chris change ? 0.0455
 can his dinosaur force ? 0.0054
 can his dinosaur change ? 0.0040
-sarah led . 0.4098
-sarah learned . 0.0637
-did sarah control ? 0.1335
-did sarah think ? 0.3122
+sarah led . 0.0455
+sarah learned . 0.0351
+did sarah control ? 0.5642
+did sarah think ? 0.0531
 can her boat tell ? 0.0375
 can her boat trade ? 0.0185
 would the dinosaur need ? 0.0520
 would the dinosaur live ? 0.0726
 would every slave force ? 0.1867
 would every slave live ? 0.0924
-allen saw . 0.0309
-allen accepted . 0.0132
+allen saw . 0.5306
+allen accepted . 0.1875
 this sister explained . 0.0704
 this sister worked . 0.0338
 could this sister force ? 0.0093
 could this sister work ? 0.0172
-joseph saw . 0.0273
-joseph read . 0.0086
-will joseph control ? 0.0013
-will joseph play ? 0.0016
+joseph saw . 0.0808
+joseph read . 0.0868
+will joseph control ? 0.0168
+will joseph play ? 0.0150
 would this dinosaur control ? 0.1139
 would this dinosaur work ? 0.0129
 they put . 0.0091
 they learned . 0.0212
 will they say ? 0.0100
 will they trade ? 0.1061
-robert helped . 0.0754
-robert broke . 0.0114
-will robert take ? 0.0062
-will robert eat ? 0.0138
+robert helped . 0.2425
+robert broke . 0.0654
+will robert take ? 0.0386
+will robert eat ? 0.0163
 does this wolf need ? 0.5315
 does this wolf know ? 0.2980
 does sam need ? 1.2253
@@ -498,64 +498,64 @@ that pig asked . 0.0094
 that pig dies . 0.0148
 would that pig make ? 0.0335
 would that pig play ? 0.0556
-william explained . 0.0129
-william lived . 0.0411
-would william record ? 0.0188
-would william run ? 0.0960
-allen brought . 0.0253
-allen improved . 0.0018
-would allen open ? 0.1570
-would allen change ? 0.0864
-could laura order ? 0.2580
-could laura study ? 0.1060
+william explained . 0.0537
+william lived . 0.0242
+would william record ? 0.0284
+would william run ? 0.0070
+allen brought . 0.2582
+allen improved . 0.2687
+would allen open ? 0.6473
+would allen change ? 0.0169
+could laura order ? 0.1069
+could laura study ? 0.0603
 some boat closed . 0.5393
 some boat joined . 0.2283
 could some boat free ? 0.1211
 could some boat turn ? 0.0330
-could robert take ? 0.0048
-could robert run ? 0.0062
-joseph shared . 0.0035
-joseph returned . 0.0036
-would joseph like ? 0.0804
-would joseph study ? 0.5556
+could robert take ? 0.0487
+could robert run ? 0.0682
+joseph shared . 0.0145
+joseph returned . 0.0175
+would joseph like ? 0.0099
+would joseph study ? 0.0194
 did he support ? 0.0259
 did he read ? 0.1298
 this dinosaur hurt . 0.0422
 this dinosaur joined . 0.0239
 can this dinosaur force ? 0.0063
 can this dinosaur study ? 0.0125
-joseph closed . 0.0015
-joseph lived . 0.0417
-can joseph open ? 0.0691
-can joseph live ? 0.0637
-can robert free ? 0.0204
-can robert turn ? 0.0090
+joseph closed . 0.0098
+joseph lived . 0.0971
+can joseph open ? 0.0342
+can joseph live ? 0.1287
+can robert free ? 0.0173
+can robert turn ? 0.0092
 sam went . 0.0647
 sam leads . 0.2099
 could sam say ? 0.3698
 could sam trade ? 0.4211
-will the duke give ? 0.0432
-will the duke change ? 0.0075
+will the duke give ? 0.0957
+will the duke change ? 0.0183
 could this pig free ? 0.0182
 could this pig play ? 0.0157
 could sam put ? 0.1225
 could sam know ? 0.1879
-joseph shot . 0.0011
-joseph lost . 0.0029
-could allen use ? 0.3181
-could allen change ? 0.2675
-michael explained . 0.0175
-michael calls . 0.2949
-laura advanced . 0.1443
-laura turns . 0.1187
-could laura close ? 0.3481
-could laura think ? 0.4739
+joseph shot . 0.8473
+joseph lost . 0.0110
+could allen use ? 0.1005
+could allen change ? 0.0262
+michael explained . 0.0279
+michael calls . 0.4412
+laura advanced . 0.2263
+laura turns . 0.5943
+could laura close ? 0.0147
+could laura think ? 0.0226
 would they free ? 0.0639
 would they change ? 0.0154
-william helped . 0.0047
-william came . 0.0333
-can william close ? 0.0146
-can william run ? 0.0092
+william helped . 0.3264
+william came . 1.1566
+can william close ? 0.0543
+can william run ? 0.0079
 can this sister open ? 0.0059
 can this sister eat ? 0.0209
 did this boat show ? 0.0623
@@ -568,16 +568,16 @@ did his slave order ? 0.3408
 did his slave work ? 0.3786
 will we use ? 0.1050
 will we study ? 0.0120
-robert ended . 0.0106
-robert improved . 0.0017
-could robert tell ? 0.0055
-could robert work ? 0.0088
+robert ended . 0.4238
+robert improved . 0.0366
+could robert tell ? 0.0262
+could robert work ? 0.2972
 would we have ? 0.0095
 would we trade ? 0.0548
 can her wolf open ? 0.1346
 can her wolf know ? 0.0364
-did laura support ? 0.3269
-did laura study ? 0.1965
+did laura support ? 0.7503
+did laura study ? 0.3190
 did some dinosaur say ? 1.1265
 did some dinosaur study ? 0.0889
 it stopped . 0.0520
@@ -598,8 +598,8 @@ his sister organized . 0.0215
 his sister lived . 0.0145
 does his sister keep ? 0.0437
 does his sister play ? 0.1770
-does allen have ? 0.0303
-does allen trade ? 0.2727
+does allen have ? 0.1027
+does allen trade ? 0.1815
 she asked . 0.3057
 she works . 0.1982
 would she be ? 0.0345
@@ -610,16 +610,16 @@ can sam open ? 0.5890
 can sam know ? 0.2940
 did some sister give ? 0.0316
 did some sister think ? 0.2901
-allen went . 0.0415
-allen learned . 0.0017
-did allen become ? 0.0172
-did allen study ? 0.0084
-could chris need ? 0.0514
-could chris play ? 0.1332
-chris supposed . 0.0169
-chris joined . 0.0124
-can chris control ? 0.0043
-can chris think ? 0.0099
+allen went . 0.0839
+allen learned . 0.3901
+did allen become ? 1.3091
+did allen study ? 1.7761
+could chris need ? 0.0573
+could chris play ? 0.0527
+chris supposed . 0.0748
+chris joined . 0.0745
+can chris control ? 0.0185
+can chris think ? 0.0253
 we treated . 0.0249
 we accepted . 0.0228
 could we tell ? 0.0118
@@ -630,16 +630,16 @@ did the doctor record ? 0.0042
 did the doctor eat ? 0.0070
 does anne put ? 0.0557
 does anne work ? 0.1810
-sarah played . 0.0786
-sarah races . 0.1659
-would sarah tell ? 0.1164
-would sarah live ? 0.0964
-did chris need ? 0.0260
-did chris play ? 0.0455
-does joseph be ? 0.0238
-does joseph turn ? 0.2669
-will william open ? 0.1329
-will william change ? 0.1069
+sarah played . 0.0854
+sarah races . 0.0644
+would sarah tell ? 0.1118
+would sarah live ? 0.0250
+did chris need ? 0.0365
+did chris play ? 0.0233
+does joseph be ? 0.0118
+does joseph turn ? 0.0182
+will william open ? 0.3354
+will william change ? 0.0525
 that slave stopped . 0.0110
 that slave returned . 0.0341
 can that slave say ? 0.1593
@@ -648,48 +648,48 @@ would she make ? 0.0277
 would she play ? 0.0287
 did some doctor become ? 0.0860
 did some doctor run ? 0.0153
-allen advanced . 0.0017
-allen married . 0.0082
-can allen close ? 0.0169
-can allen turn ? 0.0038
-robert advanced . 0.0034
-robert calls . 0.0541
-does robert use ? 0.0269
-does robert live ? 0.0367
+allen advanced . 0.2308
+allen married . 1.3747
+can allen close ? 0.0816
+can allen turn ? 0.0745
+robert advanced . 0.1358
+robert calls . 0.2146
+does robert use ? 0.0352
+does robert live ? 0.0536
 it put . 0.0118
 it lost . 0.0098
 does it make ? 0.3689
 does it live ? 0.2722
-laura saw . 0.0451
-laura broke . 0.0785
-does allen support ? 0.1030
-does allen play ? 0.0891
+laura saw . 0.4198
+laura broke . 0.1022
+does allen support ? 0.1507
+does allen play ? 0.0611
 will every wolf keep ? 0.6926
 will every wolf study ? 0.0372
 we connected . 0.0222
 we lost . 0.0074
-her duke wanted . 0.0126
-her duke decided . 0.0130
-will her duke free ? 0.0032
-will her duke know ? 0.0512
+her duke wanted . 0.0136
+her duke decided . 0.0173
+will her duke free ? 0.0815
+will her duke know ? 0.0206
 did your sister open ? 0.1048
 did your sister run ? 0.0963
-laura shared . 0.0069
-laura refused . 0.0840
-does laura need ? 0.2008
-does laura eat ? 0.3507
-laura brought . 0.0408
-laura lived . 0.0507
-could laura order ? 0.2580
-could laura read ? 0.1296
-allen ended . 0.0269
-allen leads . 0.0005
-will allen tell ? 0.2052
-will allen read ? 0.2237
-robert planned . 0.0101
-robert lives . 0.0209
-would robert support ? 0.0047
-would robert live ? 0.0042
+laura shared . 0.0894
+laura refused . 0.3620
+does laura need ? 0.2622
+does laura eat ? 0.1455
+laura brought . 0.0571
+laura lived . 0.5265
+could laura order ? 0.1069
+could laura read ? 0.0188
+allen ended . 0.7986
+allen leads . 0.6558
+will allen tell ? 0.1487
+will allen read ? 0.0198
+robert planned . 0.0850
+robert lives . 0.1751
+would robert support ? 0.1537
+would robert live ? 0.0236
 did this pig give ? 0.2801
 did this pig turn ? 0.2060
 would we keep ? 0.0479
@@ -716,34 +716,34 @@ some doctor went . 0.0330
 some doctor dies . 0.0213
 would some doctor need ? 0.5255
 would some doctor run ? 0.0328
-allen brought . 0.0253
-allen worked . 0.0558
-can allen free ? 0.0096
-can allen change ? 0.0078
+allen brought . 0.2582
+allen worked . 0.3019
+can allen free ? 0.7760
+can allen change ? 0.2950
 can your wolf become ? 0.0179
 can your wolf turn ? 0.0185
-chris closed . 0.0097
-chris races . 0.0172
+chris closed . 0.0224
+chris races . 0.1394
 could the pig control ? 0.0412
 could the pig think ? 0.0085
 some doctor met . 0.0350
 some doctor knows . 0.0378
 does some doctor like ? 0.0509
 does some doctor know ? 0.0164
-sarah mentioned . 0.1595
-sarah lies . 0.0772
-laura connected . 0.0887
-laura falls . 0.0887
-will laura support ? 0.0513
-will laura think ? 1.1780
+sarah mentioned . 0.8384
+sarah lies . 0.3641
+laura connected . 0.1841
+laura falls . 0.6986
+will laura support ? 0.0054
+will laura think ? 0.0368
 does it need ? 0.2471
 does it change ? 0.0487
-laura mentioned . 0.1958
-laura grew . 0.0297
-will laura become ? 0.0608
-will laura play ? 0.0239
-would sarah free ? 0.1155
-would sarah change ? 0.0190
+laura mentioned . 0.2587
+laura grew . 0.0945
+will laura become ? 0.1280
+will laura play ? 0.0249
+would sarah free ? 0.5732
+would sarah change ? 0.0432
 can some wolf say ? 0.0525
 can some wolf think ? 0.0612
 would your dinosaur order ? 0.0487
@@ -762,38 +762,38 @@ it took . 0.0024
 it leads . 0.0053
 will it use ? 0.0703
 will it turn ? 0.0082
-sarah played . 0.0786
-sarah started . 0.3548
-does sarah show ? 0.7209
-does sarah live ? 0.4044
+sarah played . 0.0854
+sarah started . 0.1234
+does sarah show ? 0.1976
+does sarah live ? 0.0622
 it opposed . 0.0103
 it happened . 0.0780
 could it control ? 0.0245
 could it trade ? 0.0543
-can michael like ? 1.1270
-can michael live ? 1.3307
-can sarah like ? 0.0364
-can sarah think ? 0.1889
-did allen say ? 0.0122
-did allen know ? 0.0280
-michael organized . 0.0335
-michael races . 0.0660
-did michael tell ? 1.5547
-did michael eat ? 1.6482
+can michael like ? 0.0324
+can michael live ? 0.0174
+can sarah like ? 0.0924
+can sarah think ? 0.0847
+did allen say ? 1.2523
+did allen know ? 0.8619
+michael organized . 0.0354
+michael races . 0.0685
+did michael tell ? 0.0830
+did michael eat ? 0.0545
 would his boat support ? 0.3720
 would his boat read ? 0.1402
 could they like ? 0.0093
 could they trade ? 0.0960
 did his doctor tell ? 0.0451
 did his doctor change ? 0.0249
-robert went . 0.0066
-robert matters . 0.0053
-could robert need ? 0.0177
-could robert study ? 0.0056
-sarah let . 0.0335
-sarah developed . 0.2055
-will sarah support ? 0.0077
-will sarah think ? 1.2331
+robert went . 0.0113
+robert matters . 0.0916
+could robert need ? 0.1329
+could robert study ? 0.0702
+sarah let . 0.0697
+sarah developed . 0.1183
+will sarah support ? 0.1221
+will sarah think ? 0.3573
 will they put ? 0.0304
 will they think ? 0.5482
 they advanced . 0.1809
@@ -812,26 +812,26 @@ his sister closed . 0.0066
 his sister came . 0.2556
 does his sister put ? 0.0661
 does his sister run ? 0.1768
-that duke wanted . 0.0098
-that duke waves . 0.0145
-could that duke show ? 0.0076
-could that duke trade ? 0.1128
-could sarah order ? 0.0119
-could sarah turn ? 0.0119
-chris closed . 0.0097
-chris matters . 0.0073
-could chris have ? 0.0623
-could chris study ? 0.0260
-chris ended . 0.0263
-chris stands . 0.0030
-would chris need ? 0.4490
-would chris read ? 0.0315
+that duke wanted . 0.0271
+that duke waves . 0.0453
+could that duke show ? 0.0838
+could that duke trade ? 0.2088
+could sarah order ? 0.2366
+could sarah turn ? 0.2590
+chris closed . 0.0224
+chris matters . 0.0302
+could chris have ? 0.0151
+could chris study ? 0.0297
+chris ended . 0.0335
+chris stands . 0.0074
+would chris need ? 0.3957
+would chris read ? 0.0404
 did it become ? 0.2340
 did it turn ? 0.7210
-chris planned . 0.0043
-chris refused . 0.0052
-can chris order ? 0.0037
-can chris read ? 0.0120
+chris planned . 0.0281
+chris refused . 0.0395
+can chris order ? 0.0061
+can chris read ? 0.0118
 anne helped . 0.2201
 anne lives . 0.0957
 did anne open ? 0.2616
@@ -844,48 +844,48 @@ did that dinosaur have ? 2.0860
 did that dinosaur study ? 0.0480
 will that slave show ? 0.0022
 will that slave live ? 0.0645
-did chris make ? 0.0355
-did chris turn ? 0.0090
+did chris make ? 0.0931
+did chris turn ? 0.0222
 this wolf put . 0.0433
 this wolf fell . 0.0055
 did this wolf give ? 0.0270
 did this wolf know ? 0.0341
 can some dinosaur force ? 0.1163
 can some dinosaur know ? 0.3334
-that duke shared . 0.0039
-that duke knew . 0.0113
-would that duke say ? 0.0169
-would that duke turn ? 0.0333
+that duke shared . 0.0204
+that duke knew . 0.0593
+would that duke say ? 0.2703
+would that duke turn ? 0.1113
 could he become ? 0.0096
 could he think ? 0.0059
-can joseph force ? 0.1819
-can joseph eat ? 0.0695
+can joseph force ? 0.0512
+can joseph eat ? 0.0625
 anne opposed . 0.1703
 anne moves . 0.3440
-can william say ? 0.0665
-can william think ? 0.0487
-can the duke say ? 0.0042
-can the duke study ? 0.0019
-would that duke record ? 0.0522
-would that duke change ? 0.0079
-michael opposed . 0.0151
-michael appears . 0.1040
-could michael open ? 1.1322
-could michael eat ? 1.4834
-can william be ? 0.0098
-can william play ? 0.0081
-michael mentioned . 0.0735
-michael waves . 0.0263
-did michael force ? 1.4818
-did michael trade ? 1.8881
-sarah played . 0.0786
-sarah knows . 0.2383
-did sarah open ? 0.4646
-did sarah eat ? 0.4469
-joseph hit . 0.0048
-joseph falls . 0.0147
-does joseph order ? 0.1576
-does joseph think ? 0.0607
+can william say ? 0.0911
+can william think ? 0.0329
+can the duke say ? 0.0049
+can the duke study ? 0.0053
+would that duke record ? 0.2290
+would that duke change ? 0.1333
+michael opposed . 0.0367
+michael appears . 0.1379
+could michael open ? 0.0141
+could michael eat ? 0.0245
+can william be ? 0.0841
+can william play ? 0.0156
+michael mentioned . 0.0989
+michael waves . 0.1681
+did michael force ? 0.2823
+did michael trade ? 0.2793
+sarah played . 0.0854
+sarah knows . 0.0607
+did sarah open ? 0.2634
+did sarah eat ? 0.1343
+joseph hit . 0.0283
+joseph falls . 0.3511
+does joseph order ? 0.0585
+does joseph think ? 0.0543
 did every wolf close ? 0.0668
 did every wolf run ? 0.0453
 the dinosaur led . 0.2873
@@ -894,74 +894,74 @@ can the dinosaur use ? 0.0121
 can the dinosaur turn ? 0.0422
 can she take ? 0.0524
 can she read ? 0.0844
-chris opposed . 0.0033
-chris works . 0.0068
-did chris like ? 0.0550
-did chris study ? 0.0250
-would joseph control ? 0.0602
-would joseph trade ? 0.7720
+chris opposed . 0.0194
+chris works . 0.0958
+did chris like ? 0.0238
+did chris study ? 0.0822
+would joseph control ? 0.0150
+would joseph trade ? 0.0354
 can he become ? 0.0269
 can he change ? 0.0031
-can michael put ? 1.1527
-can michael know ? 1.2925
+can michael put ? 0.0202
+can michael know ? 0.0277
 does every slave keep ? 0.2489
 does every slave play ? 0.1983
-will laura take ? 0.3081
-will laura live ? 0.0444
+will laura take ? 0.0312
+will laura live ? 0.0910
 would he put ? 0.0125
 would he think ? 0.0171
 did they keep ? 0.3650
 did they know ? 0.0334
-could sarah use ? 0.0643
-could sarah run ? 0.0088
+could sarah use ? 0.1692
+could sarah run ? 0.0425
 can he open ? 0.0212
 can he study ? 0.0208
-will william say ? 0.3550
-will william work ? 0.1728
+will william say ? 0.1344
+will william work ? 0.2621
 did some slave control ? 0.6847
 did some slave run ? 0.6237
-joseph treated . 0.0046
-joseph joined . 0.0065
-will joseph control ? 0.0013
-will joseph turn ? 0.3736
+joseph treated . 0.4097
+joseph joined . 0.0213
+will joseph control ? 0.0168
+will joseph turn ? 0.0152
 anne wanted . 0.1592
 anne knows . 0.0275
 will anne close ? 0.0101
 will anne play ? 0.0270
 can he support ? 0.0041
 can he know ? 0.0286
-would joseph open ? 0.0539
-would joseph change ? 0.0620
-laura met . 0.0707
-laura lies . 0.0334
-can laura open ? 0.3643
-can laura change ? 0.0593
-will robert support ? 0.0047
-will robert work ? 0.0101
-laura mentioned . 0.1958
-laura read . 0.1342
-could laura take ? 0.2497
-could laura play ? 0.1195
-did chris close ? 0.0095
-did chris eat ? 0.0599
+would joseph open ? 0.0332
+would joseph change ? 0.0201
+laura met . 0.4357
+laura lies . 0.4564
+can laura open ? 0.0215
+can laura change ? 0.0024
+will robert support ? 0.0088
+will robert work ? 0.2205
+laura mentioned . 0.2587
+laura read . 0.2242
+could laura take ? 0.0207
+could laura play ? 0.0433
+did chris close ? 0.0196
+did chris eat ? 0.0411
 he led . 0.0167
 he thought . 0.0081
-that duke affected . 0.0108
-that duke changed . 0.0052
-will that duke tell ? 0.0040
-will that duke run ? 0.0034
-sarah opened . 0.3250
-sarah improved . 0.2481
-can sarah order ? 0.0087
-can sarah work ? 0.0221
+that duke affected . 0.0450
+that duke changed . 0.0128
+will that duke tell ? 0.0321
+will that duke run ? 0.0078
+sarah opened . 0.3575
+sarah improved . 0.0382
+can sarah order ? 0.0929
+can sarah work ? 0.0799
 that boat said . 0.0234
 that boat lived . 0.0905
 can that boat need ? 0.0208
 can that boat eat ? 0.0529
-laura connected . 0.0887
-laura joined . 0.0157
-did laura support ? 0.3269
-did laura change ? 0.2123
+laura connected . 0.1841
+laura joined . 0.3389
+did laura support ? 0.7503
+did laura change ? 0.2421
 would every dinosaur be ? 0.1870
 would every dinosaur turn ? 0.1436
 could every dinosaur open ? 0.0585
@@ -970,18 +970,18 @@ the pig mentioned . 0.0763
 the pig knew . 0.0744
 will the pig record ? 0.0022
 will the pig change ? 0.0042
-joseph argued . 0.0019
-joseph changes . 0.0045
-can joseph force ? 0.1819
-can joseph turn ? 0.0820
+joseph argued . 0.0227
+joseph changes . 0.0159
+can joseph force ? 0.0512
+can joseph turn ? 0.0051
 sam closed . 0.0521
 sam broke . 0.2537
 could sam keep ? 1.6554
 could sam study ? 0.1671
 can his sister open ? 0.0164
 can his sister turn ? 0.0087
-will michael make ? 1.4529
-will michael work ? 1.4461
+will michael make ? 0.3812
+will michael work ? 0.0580
 that sister brought . 0.0118
 that sister read . 0.0096
 did that sister force ? 0.1452
@@ -994,40 +994,40 @@ does your wolf put ? 0.3196
 does your wolf read ? 0.3757
 could sam use ? 0.3342
 could sam think ? 0.4964
-robert organized . 0.0084
-robert moved . 0.0073
-does robert free ? 0.0314
-does robert study ? 0.0193
-would robert order ? 0.0022
-would robert work ? 0.0180
-does chris control ? 0.2858
-does chris play ? 0.1350
-could allen need ? 0.3831
-could allen live ? 0.1650
+robert organized . 0.0947
+robert moved . 0.0181
+does robert free ? 0.0493
+does robert study ? 0.0989
+would robert order ? 0.0678
+would robert work ? 0.1699
+does chris control ? 0.0567
+does chris play ? 0.0548
+could allen need ? 0.1516
+could allen live ? 0.0455
 did he be ? 0.0354
 did he run ? 0.0750
 will her slave put ? 0.0930
 will her slave work ? 0.0176
 they took . 0.0141
 they joined . 0.0729
-the duke wanted . 0.0215
-the duke falls . 0.0140
-did the duke have ? 0.0249
-did the duke trade ? 0.3019
+the duke wanted . 0.0392
+the duke falls . 0.0376
+did the duke have ? 0.0143
+did the duke trade ? 0.3143
 does his doctor open ? 0.3581
 does his doctor eat ? 0.1062
 this dinosaur supposed . 0.4306
 this dinosaur stands . 0.0268
 can this dinosaur keep ? 0.3806
 can this dinosaur run ? 0.0047
-chris planned . 0.0043
-chris learned . 0.0021
-will chris tell ? 0.0093
-will chris turn ? 0.0089
-would that duke tell ? 0.0098
-would that duke work ? 0.0213
-can sarah open ? 0.2568
-can sarah know ? 0.2208
+chris planned . 0.0281
+chris learned . 0.0431
+will chris tell ? 0.0351
+will chris turn ? 0.0200
+would that duke tell ? 0.0632
+would that duke work ? 0.2158
+can sarah open ? 0.2247
+can sarah know ? 0.0507
 anne shared . 0.0348
 anne learned . 0.0155
 does that wolf need ? 0.6524
@@ -1038,54 +1038,54 @@ some wolf brought . 0.0234
 some wolf waves . 0.0124
 did some wolf make ? 0.1362
 did some wolf eat ? 0.2136
-william gave . 0.0068
-william stands . 0.0007
-will william have ? 0.0857
-will william read ? 0.2793
+william gave . 0.0252
+william stands . 0.0050
+will william have ? 0.0783
+will william read ? 0.0698
 did she say ? 0.1876
 did she think ? 0.0390
-will joseph support ? 0.0009
-will joseph read ? 0.0139
-laura connected . 0.0887
-laura looked . 0.0708
-will laura have ? 0.0380
-will laura turn ? 0.0932
-could your duke say ? 0.1214
-could your duke study ? 0.0617
+will joseph support ? 0.0250
+will joseph read ? 0.0089
+laura connected . 0.1841
+laura looked . 0.1114
+will laura have ? 0.0250
+will laura turn ? 0.0248
+could your duke say ? 0.0694
+could your duke study ? 0.0441
 would anne say ? 0.0458
 would anne trade ? 0.0454
 it gave . 0.0054
 it broke . 0.0740
 did it show ? 0.0440
 did it play ? 0.0745
-will allen force ? 0.1223
-will allen change ? 0.0708
+will allen force ? 0.0616
+will allen change ? 0.0129
 some pig shown . 0.0592
 some pig broke . 0.0341
 did some pig like ? 0.7255
 did some pig change ? 0.1976
 does she close ? 0.0715
 does she study ? 0.0248
-laura planned . 0.3103
-laura tried . 0.1258
-does laura free ? 0.2667
-does laura study ? 0.2008
+laura planned . 0.3432
+laura tried . 0.1235
+does laura free ? 0.1687
+does laura study ? 0.1246
 would it free ? 0.2519
 would it eat ? 0.4853
-laura connected . 0.0887
-laura matters . 0.0260
-will laura give ? 0.2609
-will laura eat ? 0.0608
+laura connected . 0.1841
+laura matters . 0.2715
+will laura give ? 0.0188
+will laura eat ? 0.0110
 that doctor treated . 0.0089
 that doctor appears . 0.0579
 will that doctor support ? 0.0025
 will that doctor study ? 0.0492
 does it support ? 0.0189
 does it study ? 0.1152
-william explained . 0.0129
-william appears . 0.0666
-does william have ? 0.5956
-does william work ? 0.2952
+william explained . 0.0537
+william appears . 1.2735
+does william have ? 0.0147
+does william work ? 0.0267
 his wolf mixed . 0.0218
 his wolf dies . 0.0070
 will his wolf say ? 0.0261
@@ -1102,40 +1102,40 @@ her sister supposed . 0.0270
 her sister accepted . 0.0084
 did her sister say ? 0.0710
 did her sister trade ? 0.2430
-allen brought . 0.0253
-allen races . 0.0455
-will allen control ? 0.1010
-will allen live ? 0.4013
+allen brought . 0.2582
+allen races . 0.1334
+will allen control ? 0.0885
+will allen live ? 0.0377
 this slave connected . 0.0553
 this slave worked . 0.3788
 will this slave become ? 0.0280
 will this slave think ? 0.0780
-michael closed . 0.0323
-michael thinks . 0.0225
-would michael record ? 1.3192
-would michael live ? 1.1498
-did laura close ? 0.2287
-did laura turn ? 0.2857
+michael closed . 0.0983
+michael thinks . 0.1937
+would michael record ? 0.0067
+would michael live ? 0.0045
+did laura close ? 0.2546
+did laura turn ? 0.6465
 did we take ? 0.0143
 did we change ? 0.0080
 can sam give ? 0.2634
 can sam turn ? 1.4768
-could laura tell ? 0.1375
-could laura trade ? 0.0795
+could laura tell ? 0.0076
+could laura trade ? 0.0271
 she said . 0.0759
 she falls . 0.2186
 can she become ? 0.0399
 can she play ? 0.0320
 would her doctor support ? 0.1723
 would her doctor eat ? 0.3290
-did robert force ? 0.3763
-did robert trade ? 0.1001
-could michael become ? 1.8963
-could michael work ? 1.6416
+did robert force ? 0.7041
+did robert trade ? 0.5949
+could michael become ? 0.0195
+could michael work ? 0.1559
 did he have ? 0.0764
 did he think ? 0.0549
-could chris open ? 0.1746
-could chris think ? 0.0215
+could chris open ? 0.0210
+could chris think ? 0.0131
 did they free ? 0.3177
 did they turn ? 0.1002
 can every doctor open ? 0.0088
@@ -1148,10 +1148,10 @@ does your dinosaur use ? 0.4054
 does your dinosaur study ? 0.1632
 that pig advanced . 0.0259
 that pig learned . 0.0202
-could his duke keep ? 0.0297
-could his duke trade ? 0.1178
-could chris tell ? 0.0526
-could chris change ? 0.0120
+could his duke keep ? 0.0160
+could his duke trade ? 0.1170
+could chris tell ? 0.0163
+could chris change ? 0.0141
 we played . 0.0296
 we developed . 0.0191
 could his dinosaur force ? 0.0189
@@ -1160,14 +1160,14 @@ it met . 0.0301
 it stands . 0.0180
 did it close ? 0.2644
 did it read ? 0.0747
-did michael free ? 1.4360
-did michael play ? 1.1314
-would michael give ? 1.4656
-would michael study ? 1.8882
+did michael free ? 0.3625
+did michael play ? 0.0380
+would michael give ? 0.0553
+would michael study ? 0.0449
 will the boat give ? 0.0227
 will the boat live ? 0.0929
-does joseph open ? 0.1431
-does joseph eat ? 0.3849
+does joseph open ? 0.0969
+does joseph eat ? 0.0969
 does that pig become ? 0.1030
 does that pig eat ? 0.3191
 did every slave keep ? 0.3707
@@ -1178,28 +1178,28 @@ she treated . 0.0959
 she lived . 0.1235
 will she open ? 0.0054
 will she study ? 0.0312
-chris took . 0.0115
-chris fell . 0.0094
-could chris keep ? 0.1547
-could chris know ? 0.0195
+chris took . 0.0208
+chris fell . 0.0176
+could chris keep ? 0.0227
+could chris know ? 0.0555
 could it control ? 0.0245
 could it read ? 0.0053
-will her duke use ? 0.0723
-will her duke turn ? 0.0020
+will her duke use ? 0.1643
+will her duke turn ? 0.2142
 her slave organized . 0.0029
 her slave changed . 0.0119
 can her slave use ? 0.0087
 can her slave play ? 0.0028
-can the duke open ? 0.1098
-can the duke read ? 0.0028
-did robert tell ? 0.0648
-did robert run ? 0.0838
+can the duke open ? 0.0096
+can the duke read ? 0.0059
+did robert tell ? 0.2488
+did robert run ? 0.3178
 did we keep ? 0.1288
 did we live ? 0.0084
 does every wolf use ? 0.7189
 does every wolf think ? 0.2661
-would laura close ? 0.2602
-would laura change ? 0.1937
+would laura close ? 0.0228
+would laura change ? 0.0123
 can she open ? 0.0307
 can she live ? 0.0161
 did he have ? 0.0764
@@ -1212,10 +1212,10 @@ can this wolf put ? 0.0366
 can this wolf study ? 0.0040
 could some wolf force ? 0.0915
 could some wolf live ? 0.0226
-william explained . 0.0129
-william improved . 0.0051
-did william have ? 0.2445
-did william read ? 0.2457
+william explained . 0.0537
+william improved . 0.2073
+did william have ? 0.1720
+did william read ? 0.1973
 she ended . 0.4399
 she calls . 0.8462
 would she force ? 0.0441
@@ -1230,24 +1230,24 @@ they took . 0.0141
 they looked . 0.3808
 did they have ? 0.0286
 did they play ? 0.0237
-will robert like ? 0.0074
-will robert think ? 0.0030
-could allen give ? 0.1415
-could allen trade ? 0.5613
-every duke planned . 0.0230
-every duke decided . 0.0194
-would every duke force ? 0.1449
-would every duke study ? 0.0981
+will robert like ? 0.0112
+will robert think ? 0.0243
+could allen give ? 0.0531
+could allen trade ? 0.0289
+every duke planned . 0.1391
+every duke decided . 0.0755
+would every duke force ? 0.2211
+would every duke study ? 0.1952
 her pig shot . 0.0095
 her pig dies . 0.0070
 does her pig free ? 0.1922
 does her pig run ? 0.3131
-did michael make ? 1.8922
-did michael live ? 1.3090
+did michael make ? 0.1106
+did michael live ? 0.0250
 will we use ? 0.1050
 will we trade ? 0.1252
-can michael make ? 1.3043
-can michael change ? 1.1083
+can michael make ? 0.0613
+can michael change ? 0.0061
 anne argued . 0.0279
 anne changes . 0.0902
 does anne close ? 0.0594
@@ -1260,12 +1260,12 @@ can his sister open ? 0.0164
 can his sister work ? 0.1055
 would her slave tell ? 0.2520
 would her slave change ? 0.1106
-the duke helped . 0.0928
-the duke learned . 0.0227
-does the duke control ? 0.1591
-does the duke run ? 0.1114
-does william become ? 0.4708
-does william run ? 0.5567
+the duke helped . 0.1166
+the duke learned . 0.0183
+does the duke control ? 0.0134
+does the duke run ? 0.0122
+does william become ? 0.0374
+does william run ? 0.0350
 did he become ? 0.4343
 did he study ? 0.1238
 your pig met . 0.2566
@@ -1282,10 +1282,10 @@ the boat brought . 0.0215
 the boat looked . 0.0415
 can the boat have ? 0.0135
 can the boat play ? 0.0228
-would allen give ? 0.0313
-would allen run ? 0.0982
-laura saw . 0.0451
-laura fell . 0.1042
+would allen give ? 0.1015
+would allen run ? 0.0418
+laura saw . 0.4198
+laura fell . 0.0782
 would every boat free ? 0.3324
 would every boat run ? 0.1669
 could they order ? 0.0157
@@ -1296,18 +1296,18 @@ would she force ? 0.0441
 would she turn ? 0.1335
 every wolf hurt . 0.4730
 every wolf runs . 0.1513
-sarah shot . 0.1068
-sarah refused . 0.0521
-could sarah order ? 0.0119
-could sarah eat ? 0.0917
+sarah shot . 0.1495
+sarah refused . 0.1946
+could sarah order ? 0.2366
+could sarah eat ? 0.1362
 sam hit . 0.1964
 sam joined . 0.1090
 can sam order ? 0.1385
 can sam think ? 1.1534
-michael organized . 0.0335
-michael developed . 0.0299
-did michael become ? 2.2369
-did michael study ? 1.8588
+michael organized . 0.0354
+michael developed . 0.2774
+did michael become ? 0.2584
+did michael study ? 0.1257
 could we force ? 0.0689
 could we play ? 0.0113
 she connected . 0.6346
@@ -1326,26 +1326,26 @@ would we put ? 0.0059
 would we work ? 0.0161
 could we record ? 0.0292
 could we turn ? 0.0084
-would michael support ? 1.4594
-would michael trade ? 1.6822
-robert ended . 0.0106
-robert turns . 0.0040
-will robert keep ? 0.0920
-will robert know ? 0.0039
+would michael support ? 0.0410
+would michael trade ? 0.0323
+robert ended . 0.4238
+robert turns . 0.0318
+will robert keep ? 0.0625
+will robert know ? 0.0294
 does the boat record ? 0.1208
 does the boat play ? 0.0879
 would he take ? 0.0200
 would he live ? 0.0056
 will sam take ? 0.2474
 will sam work ? 0.0736
-william hit . 0.0067
-william calls . 0.0222
-does william control ? 0.4574
-does william turn ? 0.2347
-will chris need ? 0.0329
-will chris trade ? 0.0117
-did sarah show ? 0.0464
-did sarah change ? 0.0387
+william hit . 0.1284
+william calls . 1.2160
+does william control ? 0.0514
+does william turn ? 0.0526
+will chris need ? 0.1240
+will chris trade ? 0.0805
+did sarah show ? 0.2211
+did sarah change ? 0.0927
 he played . 0.0446
 he stands . 0.0247
 did your pig close ? 0.1122
@@ -1356,10 +1356,10 @@ would this doctor keep ? 0.0529
 would this doctor change ? 0.0698
 can that pig free ? 0.0079
 can that pig turn ? 0.0022
-that duke put . 0.0040
-that duke refused . 0.0058
-could that duke record ? 0.0078
-could that duke eat ? 0.0431
+that duke put . 0.0419
+that duke refused . 0.0159
+could that duke record ? 0.1993
+could that duke eat ? 0.1056
 will it control ? 0.0411
 will it change ? 0.0025
 did they order ? 0.0705
@@ -1378,22 +1378,22 @@ did she become ? 0.2345
 did she work ? 0.0604
 will that dinosaur put ? 0.0127
 will that dinosaur trade ? 0.0180
-does michael order ? 1.7339
-does michael eat ? 0.8948
-did robert need ? 0.1306
-did robert play ? 0.0274
+does michael order ? 0.0355
+does michael eat ? 0.0919
+did robert need ? 0.2530
+did robert play ? 0.3459
 will he use ? 0.1683
 will he eat ? 0.0321
 sam let . 0.0679
 sam developed . 0.5204
 did sam like ? 0.4817
 did sam know ? 0.8799
-laura wanted . 0.0902
-laura appears . 0.1084
-could laura open ? 0.3593
-could laura run ? 0.1006
-did michael record ? 1.6724
-did michael run ? 1.1313
+laura wanted . 0.2238
+laura appears . 0.2112
+could laura open ? 0.0162
+could laura run ? 0.0082
+did michael record ? 0.0566
+did michael run ? 0.0543
 anne mixed . 0.2177
 anne started . 0.5043
 would anne order ? 0.0446
@@ -1414,22 +1414,22 @@ could anne show ? 0.1375
 could anne play ? 0.0783
 can his slave control ? 0.0052
 can his slave trade ? 0.0226
-does sarah support ? 0.5199
-does sarah think ? 0.0760
+does sarah support ? 0.2053
+does sarah think ? 0.1308
 his pig connected . 0.0606
 his pig broke . 0.0117
 would his pig have ? 0.0412
 would his pig work ? 0.0291
 he hit . 0.0079
 he falls . 0.0155
-chris needed . 0.0157
-chris accepted . 0.0103
+chris needed . 0.0406
+chris accepted . 0.0208
 will some pig become ? 0.0810
 will some pig live ? 0.0305
 can some pig show ? 0.1076
 can some pig live ? 0.0254
-could joseph support ? 0.0431
-could joseph work ? 0.1087
+could joseph support ? 0.0151
+could joseph work ? 0.1057
 did this wolf like ? 0.1447
 did this wolf live ? 0.1391
 would anne have ? 0.0667
@@ -1438,10 +1438,10 @@ that boat organized . 0.0131
 that boat read . 0.0285
 can that boat record ? 0.0073
 can that boat work ? 0.0173
-every duke met . 0.0086
-every duke joined . 0.0555
-did every duke support ? 0.2623
-did every duke eat ? 0.3833
+every duke met . 0.2186
+every duke joined . 0.0465
+did every duke support ? 0.0878
+did every duke eat ? 0.3734
 your doctor met . 0.0360
 your doctor refused . 0.0111
 could your doctor free ? 0.0434
@@ -1450,12 +1450,12 @@ anne affected . 0.1252
 anne falls . 0.9737
 will anne control ? 0.0203
 will anne live ? 0.2488
-would laura take ? 0.1440
-would laura live ? 0.0959
+would laura take ? 0.0481
+would laura live ? 0.0095
 does some boat show ? 0.1888
 does some boat trade ? 0.2564
-could laura make ? 0.3003
-could laura change ? 0.1306
+could laura make ? 0.0535
+could laura change ? 0.0044
 the slave explained . 0.0309
 the slave started . 0.0287
 does the slave take ? 0.0287
@@ -1482,12 +1482,12 @@ would this doctor become ? 0.0381
 would this doctor study ? 0.1015
 does he like ? 0.1107
 does he change ? 0.0336
-could william like ? 0.0864
-could william study ? 0.0207
-robert closed . 0.0032
-robert moves . 0.0069
-could robert become ? 0.0055
-could robert live ? 0.0055
+could william like ? 0.0661
+could william study ? 0.0749
+robert closed . 0.0604
+robert moves . 0.1350
+could robert become ? 0.0933
+could robert live ? 0.0438
 would sam give ? 0.0881
 would sam trade ? 0.0514
 did your sister be ? 0.0829
@@ -1498,14 +1498,14 @@ anne opened . 0.1323
 anne returned . 0.6088
 can anne take ? 0.0225
 can anne eat ? 0.0411
-michael saw . 0.0480
-michael married . 0.0107
-can michael make ? 1.3043
-can michael turn ? 0.9572
-michael closed . 0.0323
-michael stands . 0.0052
-can michael support ? 0.8377
-can michael think ? 1.2983
+michael saw . 0.0814
+michael married . 0.0304
+can michael make ? 0.0613
+can michael turn ? 0.0065
+michael closed . 0.0983
+michael stands . 0.0670
+can michael support ? 0.0122
+can michael think ? 0.0587
 he went . 0.0146
 he refused . 0.0931
 could he force ? 0.0150
@@ -1516,32 +1516,32 @@ can the wolf put ? 0.0074
 can the wolf change ? 0.0032
 we affected . 0.0078
 we broke . 0.0100
-joseph opened . 0.0027
+joseph opened . 0.1066
 joseph accepted . 0.0111
-will joseph take ? 0.3193
-will joseph know ? 0.0234
-does chris take ? 0.0226
-does chris eat ? 0.5329
+will joseph take ? 0.0428
+will joseph know ? 0.0291
+does chris take ? 0.0289
+does chris eat ? 0.0478
 they asked . 0.0990
 they grew . 0.0496
 can they record ? 0.0399
 can they trade ? 0.0717
-william hurt . 0.0062
-william read . 0.0076
-will william take ? 0.4931
-will william run ? 0.4843
-allen met . 0.1166
-allen tried . 0.0116
-did allen show ? 0.0182
-did allen think ? 0.0043
-did laura have ? 0.3107
-did laura live ? 0.1745
+william hurt . 0.5041
+william read . 0.2943
+will william take ? 0.1774
+will william run ? 0.0125
+allen met . 0.3526
+allen tried . 0.3022
+did allen show ? 1.1345
+did allen think ? 0.6852
+did laura have ? 0.0719
+did laura live ? 0.2146
 can they force ? 0.0272
 can they turn ? 0.0573
-her duke hurt . 0.0369
-her duke lies . 0.0195
-would her duke become ? 0.0388
-would her duke trade ? 0.1637
+her duke hurt . 0.1543
+her duke lies . 0.0737
+would her duke become ? 0.1307
+would her duke trade ? 0.5032
 can the boat be ? 0.0042
 can the boat turn ? 0.0062
 she mentioned . 0.1125
@@ -1554,10 +1554,10 @@ did that wolf record ? 0.1292
 did that wolf trade ? 0.3351
 can his pig need ? 0.0252
 can his pig study ? 0.0048
-allen hit . 0.0054
-allen dies . 0.0081
-joseph shared . 0.0035
-joseph calls . 0.0619
+allen hit . 0.6463
+allen dies . 0.6222
+joseph shared . 0.0145
+joseph calls . 0.4998
 every slave supposed . 0.2402
 every slave married . 0.1082
 could every slave force ? 0.2133
@@ -1570,8 +1570,8 @@ will some wolf close ? 0.0305
 will some wolf change ? 0.0130
 would it have ? 0.2828
 would it play ? 0.0640
-did william be ? 0.1416
-did william study ? 0.1214
+did william be ? 0.2363
+did william study ? 0.1753
 they stopped . 0.0437
 they thought . 0.0309
 would they tell ? 0.0226
@@ -1590,12 +1590,12 @@ that slave mixed . 0.1803
 that slave started . 0.0143
 can that slave free ? 0.0068
 can that slave live ? 0.0525
-did chris take ? 0.0127
-did chris live ? 0.0117
+did chris take ? 0.0356
+did chris live ? 0.0341
 would some slave force ? 0.3480
 would some slave turn ? 0.6846
-does laura take ? 0.2170
-does laura trade ? 0.1126
+does laura take ? 0.0366
+does laura trade ? 0.0512
 will your wolf become ? 0.0806
 will your wolf study ? 0.0171
 can it have ? 0.0162
@@ -1606,22 +1606,22 @@ can it need ? 0.0634
 can it turn ? 0.0093
 will some doctor have ? 0.0152
 will some doctor read ? 0.0145
-did her duke need ? 0.2418
-did her duke read ? 0.3603
+did her duke need ? 0.2234
+did her duke read ? 0.3251
 could his dinosaur close ? 0.0059
 could his dinosaur trade ? 0.0133
 he asked . 0.0319
 he lived . 0.1133
 does he keep ? 0.0271
 does he know ? 0.0634
-laura gave . 0.0136
-laura lost . 0.0152
-can laura control ? 0.0602
-can laura trade ? 0.0284
+laura gave . 0.0637
+laura lost . 0.0726
+can laura control ? 0.0017
+can laura trade ? 0.0929
 could it make ? 0.0407
 could it eat ? 0.2099
-could sarah put ? 0.0297
-could sarah study ? 0.0163
+could sarah put ? 0.0758
+could sarah study ? 0.0688
 did every pig need ? 0.1099
 did every pig play ? 0.0343
 does her doctor put ? 0.0626
@@ -1634,12 +1634,12 @@ his sister met . 0.0120
 his sister started . 0.0084
 would his sister support ? 0.0344
 would his sister work ? 0.3080
-sarah hit . 0.3716
-sarah read . 0.1064
-could sarah become ? 0.0745
-could sarah live ? 0.0264
-does chris be ? 0.0143
-does chris run ? 0.3258
+sarah hit . 0.2208
+sarah read . 0.0556
+could sarah become ? 0.0495
+could sarah live ? 0.0314
+does chris be ? 0.0532
+does chris run ? 0.0192
 she organized . 0.0437
 she knew . 0.3841
 does she force ? 0.0587
@@ -1654,12 +1654,12 @@ anne organized . 0.0373
 anne knew . 0.2122
 can anne free ? 0.0082
 can anne think ? 0.0134
-joseph went . 0.0165
-joseph lies . 0.0133
+joseph went . 0.0305
+joseph lies . 0.1025
 did every dinosaur take ? 0.0527
 did every dinosaur know ? 0.3836
-would every duke put ? 0.0384
-would every duke run ? 0.2458
+would every duke put ? 0.1906
+would every duke run ? 0.4100
 could some pig give ? 0.0300
 could some pig change ? 0.0405
 her sister supposed . 0.0270
@@ -1668,20 +1668,20 @@ does her sister open ? 0.3062
 does her sister read ? 0.0798
 could we free ? 0.0057
 could we trade ? 0.1425
-laura saw . 0.0451
-laura dies . 0.0249
+laura saw . 0.4198
+laura dies . 0.1453
 does he have ? 0.0322
 does he play ? 0.0175
 would they close ? 0.0619
 would they know ? 0.1205
 does it like ? 0.1219
 does it know ? 0.0368
-will joseph have ? 0.0089
-will joseph live ? 0.1260
-robert put . 0.0025
-robert tried . 0.0084
-did robert close ? 0.0333
-did robert read ? 0.1997
+will joseph have ? 0.0485
+will joseph live ? 0.0482
+robert put . 0.1312
+robert tried . 0.0886
+did robert close ? 0.5607
+did robert read ? 0.6070
 will every pig order ? 0.0117
 will every pig run ? 0.0072
 can the dinosaur use ? 0.0121
@@ -1694,8 +1694,8 @@ does she close ? 0.0715
 does she play ? 0.3923
 she led . 0.0098
 she improved . 0.0180
-does chris put ? 0.0487
-does chris turn ? 0.1500
+does chris put ? 0.0506
+does chris turn ? 0.0180
 her doctor mixed . 0.0063
 her doctor falls . 0.0081
 does her doctor need ? 0.4294
@@ -1708,18 +1708,18 @@ will the slave force ? 0.0044
 will the slave know ? 0.0171
 could your slave control ? 0.1005
 could your slave live ? 0.0539
-chris organized . 0.0244
-chris broke . 0.0205
-would chris show ? 0.0637
-would chris play ? 0.1615
+chris organized . 0.0325
+chris broke . 0.0550
+would chris show ? 0.0077
+would chris play ? 0.0314
 could the boat keep ? 0.0189
 could the boat trade ? 0.0187
 does her doctor force ? 0.2720
 does her doctor turn ? 0.1954
 could the dinosaur keep ? 0.1094
 could the dinosaur play ? 0.0240
-did allen take ? 0.2345
-did allen run ? 0.0294
+did allen take ? 1.0218
+did allen run ? 1.3551
 every wolf put . 1.2860
 every wolf tried . 0.1012
 could every wolf show ? 0.0122
@@ -1730,8 +1730,8 @@ will her dinosaur have ? 0.2154
 will her dinosaur eat ? 0.7174
 would his pig make ? 0.0373
 would his pig play ? 0.0783
-does joseph need ? 0.3483
-does joseph change ? 0.0719
+does joseph need ? 0.1700
+does joseph change ? 0.1324
 it helped . 0.0393
 it knew . 0.2589
 would it like ? 0.1745
@@ -1740,8 +1740,8 @@ that pig shot . 0.0235
 that pig married . 0.0071
 does that pig control ? 0.3983
 does that pig change ? 0.3154
-would allen say ? 0.0571
-would allen turn ? 0.0131
+would allen say ? 0.0531
+would allen turn ? 0.2669
 her doctor organized . 0.0040
 her doctor changes . 0.0057
 can her doctor record ? 0.0037
@@ -1762,54 +1762,54 @@ will some wolf use ? 0.0319
 will some wolf read ? 0.0244
 we played . 0.0296
 we refused . 0.0909
-robert entered . 0.0049
-robert lies . 0.0188
-would robert tell ? 0.0035
-would robert eat ? 0.2890
+robert entered . 0.0420
+robert lies . 0.0996
+would robert tell ? 0.0399
+would robert eat ? 0.1406
 could her dinosaur give ? 0.0068
 could her dinosaur turn ? 0.0205
-would chris like ? 0.0666
-would chris eat ? 1.2145
+would chris like ? 0.0088
+would chris eat ? 0.3161
 your doctor opened . 0.0070
 your doctor changed . 0.0117
 can your doctor close ? 0.0250
 can your doctor read ? 0.0103
-can michael say ? 1.6473
-can michael run ? 0.6496
+can michael say ? 0.0768
+can michael run ? 0.0098
 he played . 0.0446
 he tried . 0.0398
 did he use ? 0.0382
 did he live ? 0.0886
-could sarah order ? 0.0119
-could sarah think ? 0.0372
-can joseph be ? 0.0085
-can joseph think ? 0.1083
+could sarah order ? 0.2366
+could sarah think ? 0.0330
+can joseph be ? 0.0280
+can joseph think ? 0.0087
 his slave mixed . 0.0394
 his slave lives . 1.3916
 will his slave put ? 0.0591
 will his slave think ? 0.2676
 did anne make ? 0.2680
 did anne think ? 0.1984
-can william have ? 0.0051
-can william turn ? 0.0164
+can william have ? 0.0131
+can william turn ? 0.0050
 will the boat give ? 0.0227
 will the boat trade ? 0.2257
-can sarah use ? 0.0745
-can sarah turn ? 0.0145
+can sarah use ? 0.1071
+can sarah turn ? 0.1523
 we wanted . 0.0063
 we thought . 0.0057
 it met . 0.0301
 it moved . 0.0631
 could that sister put ? 0.0057
 could that sister read ? 0.0050
-could your duke show ? 0.1348
-could your duke play ? 0.0397
+could your duke show ? 0.0363
+could your duke play ? 0.0367
 will we free ? 0.0021
 will we eat ? 0.0142
 would we open ? 0.0132
 would we turn ? 0.0223
-would laura become ? 0.1464
-would laura turn ? 0.2497
+would laura become ? 0.0934
+would laura turn ? 0.0730
 will his doctor keep ? 0.1175
 will his doctor play ? 0.0249
 does sam force ? 1.2951
@@ -1820,22 +1820,22 @@ could anne show ? 0.1375
 could anne know ? 0.0692
 his dinosaur wanted . 0.0147
 his dinosaur read . 0.4165
-will this duke close ? 0.0098
-will this duke work ? 0.0323
-did sarah open ? 0.4646
-did sarah know ? 0.3134
+will this duke close ? 0.0815
+will this duke work ? 0.4858
+did sarah open ? 0.2634
+did sarah know ? 0.0339
 that wolf let . 0.0562
 that wolf moves . 0.0122
 can that wolf control ? 0.0114
 can that wolf eat ? 0.0488
 would she need ? 0.3271
 would she live ? 0.0097
-could allen force ? 0.2770
-could allen work ? 0.2971
+could allen force ? 0.0730
+could allen work ? 0.0796
 does your doctor force ? 0.1174
 does your doctor think ? 0.0265
-william stopped . 0.0057
-william works . 0.0013
+william stopped . 0.4495
+william works . 0.8257
 his pig wanted . 0.0159
 his pig read . 0.0211
 can his pig give ? 0.0199
@@ -1846,28 +1846,28 @@ his wolf mixed . 0.0218
 his wolf broke . 0.0551
 will his wolf need ? 0.0174
 will his wolf read ? 0.0921
-joseph hit . 0.0048
-joseph decided . 0.0309
+joseph hit . 0.0283
+joseph decided . 0.0199
 your wolf mixed . 0.0417
 your wolf moves . 0.0426
 does your wolf keep ? 0.2058
 does your wolf play ? 0.5663
 can some slave open ? 0.2404
 can some slave turn ? 0.0800
-william treated . 0.0043
-william turns . 0.0012
-would william control ? 0.2707
-would william trade ? 0.1416
+william treated . 0.9099
+william turns . 0.0202
+would william control ? 0.0327
+would william trade ? 0.0310
 this sister shot . 0.0118
 this sister knew . 0.0548
 could this sister need ? 0.0259
 could this sister know ? 0.0077
-could joseph tell ? 0.0202
-could joseph trade ? 0.3930
+could joseph tell ? 0.0206
+could joseph trade ? 0.0739
 could this wolf tell ? 0.0088
 could this wolf trade ? 0.0603
-could william have ? 0.0256
-could william think ? 0.1338
+could william have ? 0.0330
+could william think ? 0.0818
 did his pig close ? 0.2978
 did his pig play ? 0.1699
 can he show ? 0.0087
@@ -1878,8 +1878,8 @@ did he have ? 0.0764
 did he eat ? 0.0689
 will some wolf become ? 0.1356
 will some wolf play ? 0.0219
-could his duke keep ? 0.0297
-could his duke work ? 0.0974
+could his duke keep ? 0.0160
+could his duke work ? 0.0337
 we closed . 0.0035
 we improved . 0.0028
 will every boat like ? 0.0084
@@ -1888,10 +1888,10 @@ can we become ? 0.0435
 can we turn ? 0.1454
 would that slave show ? 0.2495
 would that slave play ? 0.0335
-could william put ? 0.0127
-could william read ? 0.1201
-laura shown . 0.1348
-laura learned . 0.0204
+could william put ? 0.0760
+could william read ? 0.0427
+laura shown . 0.2984
+laura learned . 0.2308
 will her doctor control ? 0.0147
 will her doctor study ? 0.0126
 the dinosaur shared . 0.0248
@@ -1916,22 +1916,22 @@ can some wolf force ? 0.3223
 can some wolf change ? 0.0324
 she entered . 0.0657
 she refused . 0.1720
-can chris control ? 0.0043
-can chris study ? 0.0025
+can chris control ? 0.0185
+can chris study ? 0.0076
 that wolf wanted . 0.0127
 that wolf grew . 0.0146
 could that wolf become ? 0.0424
 could that wolf know ? 0.0160
-could laura be ? 0.4248
-could laura live ? 0.0895
+could laura be ? 0.0068
+could laura live ? 0.0096
 it supposed . 0.0199
 it looked . 0.0249
 could it support ? 0.0069
 could it turn ? 0.0119
-can michael like ? 1.1270
-can michael play ? 1.0537
-does her duke record ? 0.3843
-does her duke work ? 0.1602
+can michael like ? 0.0324
+can michael play ? 0.0422
+does her duke record ? 0.2168
+does her duke work ? 0.0361
 it affected . 0.0196
 it started . 0.0104
 would it say ? 0.2922
@@ -1942,8 +1942,8 @@ it needed . 0.1838
 it accepted . 0.0170
 could it tell ? 0.0200
 could it study ? 0.0240
-does that duke control ? 0.4241
-does that duke turn ? 0.2904
+does that duke control ? 0.1806
+does that duke turn ? 0.0403
 they needed . 0.0487
 they lost . 0.0393
 could sam like ? 0.6884
@@ -1964,52 +1964,52 @@ he ended . 0.1368
 he turns . 0.0200
 did he keep ? 0.1873
 did he change ? 0.0090
-did joseph support ? 0.0466
-did joseph change ? 0.0292
+did joseph support ? 0.0855
+did joseph change ? 0.0397
 her slave organized . 0.0029
 her slave lost . 0.0360
 would her slave tell ? 0.2520
 would her slave study ? 0.1986
 did his slave support ? 0.7274
 did his slave study ? 0.2721
-chris needed . 0.0157
-chris developed . 0.0151
-william supposed . 0.0230
-william returned . 0.0041
-will william need ? 0.3970
-will william study ? 0.0226
-michael asked . 0.0344
-michael finished . 0.1247
-does michael free ? 1.5349
-does michael change ? 1.4634
+chris needed . 0.0406
+chris developed . 0.1087
+william supposed . 0.1061
+william returned . 0.1068
+will william need ? 0.0497
+will william study ? 0.3109
+michael asked . 0.0370
+michael finished . 0.1540
+does michael free ? 0.0822
+does michael change ? 0.0836
 could it be ? 0.0089
 could it change ? 0.0031
-that duke let . 0.0040
-that duke joined . 0.0100
-did that duke take ? 0.0678
-did that duke live ? 0.1581
+that duke let . 0.0306
+that duke joined . 0.0212
+did that duke take ? 0.1529
+did that duke live ? 0.0937
 can she keep ? 0.0163
 can she know ? 0.0423
-sarah hurt . 0.2224
-sarah lived . 0.1602
+sarah hurt . 0.2390
+sarah lived . 0.1181
 would your wolf use ? 1.1505
 would your wolf think ? 0.5028
 does your dinosaur close ? 0.0896
 does your dinosaur know ? 0.5893
-can this duke tell ? 0.0073
-can this duke change ? 0.0074
+can this duke tell ? 0.0232
+can this duke change ? 0.0045
 will her sister keep ? 0.9113
 will her sister think ? 0.0648
 that dinosaur opposed . 0.9331
 that dinosaur returned . 0.0085
 does that dinosaur keep ? 0.2242
 does that dinosaur live ? 0.3507
-robert put . 0.0025
-robert grew . 0.0023
-will robert take ? 0.0062
-will robert play ? 0.0072
-would michael like ? 1.3150
-would michael know ? 1.1950
+robert put . 0.1312
+robert grew . 0.0113
+will robert take ? 0.0386
+will robert play ? 0.0217
+would michael like ? 0.0128
+would michael know ? 0.0089
 does some sister make ? 0.0988
 does some sister eat ? 0.2173
 your slave hurt . 0.0312
@@ -2026,16 +2026,16 @@ could some pig be ? 0.0162
 could some pig turn ? 0.0440
 could they free ? 0.0052
 could they live ? 0.0052
-sarah treated . 0.1108
-sarah came . 0.3109
-would sarah have ? 0.0451
-would sarah play ? 0.0247
-chris put . 0.0105
-chris came . 0.0151
-can chris free ? 0.0041
-can chris change ? 0.0015
-robert argued . 0.0086
-robert lived . 0.0248
+sarah treated . 0.1012
+sarah came . 0.0371
+would sarah have ? 0.2569
+would sarah play ? 0.0619
+chris put . 0.0314
+chris came . 0.0431
+can chris free ? 0.0130
+can chris change ? 0.0044
+robert argued . 0.0423
+robert lived . 0.0622
 some boat planned . 0.0073
 some boat lives . 0.0254
 would some boat put ? 0.2150
@@ -2048,8 +2048,8 @@ your wolf went . 0.1632
 your wolf read . 0.0943
 could your wolf show ? 0.0529
 could your wolf run ? 0.0208
-does joseph need ? 0.3483
-does joseph play ? 0.0833
+does joseph need ? 0.1700
+does joseph play ? 0.0506
 can this wolf close ? 0.0143
 can this wolf turn ? 0.0056
 that dinosaur went . 0.0406
@@ -2066,44 +2066,44 @@ anne opposed . 0.1703
 anne finished . 1.1633
 can that dinosaur order ? 0.0046
 can that dinosaur trade ? 0.0830
-william argued . 0.0127
-william fell . 0.0068
-can william tell ? 0.0781
-can william change ? 0.0034
-joseph mixed . 0.0014
-joseph worked . 0.0085
-can joseph make ? 0.4011
-can joseph run ? 0.0021
+william argued . 0.0182
+william fell . 0.0480
+can william tell ? 0.0295
+can william change ? 0.0058
+joseph mixed . 0.0231
+joseph worked . 0.0435
+can joseph make ? 0.0774
+can joseph run ? 0.0066
 she shared . 0.0147
 she turns . 0.0131
 can the slave take ? 0.0261
 can the slave study ? 0.0096
 he put . 0.0226
 he leads . 0.0018
-does laura put ? 0.0695
-does laura think ? 0.4623
+does laura put ? 0.0466
+does laura think ? 0.1175
 could some wolf show ? 0.0315
 could some wolf eat ? 0.0532
 anne affected . 0.1252
 anne broke . 0.2761
 can sam need ? 0.1816
 can sam trade ? 0.0157
-allen saw . 0.0309
-allen appears . 0.1409
-can allen keep ? 0.2745
-can allen work ? 0.0036
-will that duke close ? 0.0074
-will that duke play ? 0.0064
+allen saw . 0.5306
+allen appears . 0.7421
+can allen keep ? 0.0781
+can allen work ? 0.1279
+will that duke close ? 0.0238
+will that duke play ? 0.0429
 will anne keep ? 1.2395
 will anne turn ? 0.0224
 does every wolf use ? 0.7189
 does every wolf study ? 0.3639
 would that wolf put ? 0.1901
 would that wolf change ? 0.1791
-her duke hit . 0.0155
-her duke turns . 0.0029
-would her duke force ? 0.0877
-would her duke run ? 0.0487
+her duke hit . 0.0131
+her duke turns . 0.0101
+would her duke force ? 0.0827
+would her duke run ? 0.0695
 sam helped . 0.0588
 sam races . 0.1402
 will sam say ? 0.4440
@@ -2114,18 +2114,18 @@ would they control ? 0.0753
 would they work ? 0.0266
 can he open ? 0.0212
 can he live ? 0.0323
-did joseph control ? 0.0624
-did joseph run ? 0.0580
-michael mentioned . 0.0735
-michael decided . 0.0258
-will her duke become ? 0.0036
-will her duke live ? 0.2102
-did william like ? 0.7027
-did william think ? 0.1145
+did joseph control ? 0.2673
+did joseph run ? 0.0545
+michael mentioned . 0.0989
+michael decided . 0.0134
+will her duke become ? 0.0062
+will her duke live ? 0.7167
+did william like ? 0.4095
+did william think ? 0.0927
 can anne have ? 0.1357
 can anne turn ? 0.0225
-allen wanted . 0.0095
-allen knows . 0.0085
+allen wanted . 0.2142
+allen knows . 0.3156
 we planned . 0.0043
 we came . 0.0469
 it mixed . 0.0116
@@ -2138,16 +2138,16 @@ does some sister show ? 0.0706
 does some sister run ? 0.0686
 can we tell ? 0.1839
 can we read ? 0.0683
-will allen free ? 0.0781
-will allen eat ? 0.2207
+will allen free ? 0.5548
+will allen eat ? 0.0473
 can every dinosaur show ? 0.0054
 can every dinosaur study ? 0.0106
 will your sister open ? 0.0162
 will your sister play ? 0.0160
-this duke shown . 0.0133
-this duke stands . 0.0030
-did this duke need ? 0.3452
-did this duke play ? 0.0632
+this duke shown . 0.0284
+this duke stands . 0.0333
+did this duke need ? 0.0723
+did this duke play ? 0.0622
 that doctor put . 0.0242
 that doctor fell . 0.0420
 could that doctor put ? 0.0690
@@ -2166,8 +2166,8 @@ the dinosaur helped . 0.2751
 the dinosaur joined . 0.0802
 did the dinosaur show ? 0.0213
 did the dinosaur trade ? 0.0264
-could robert give ? 0.0059
-could robert read ? 0.0074
+could robert give ? 0.0302
+could robert read ? 0.0611
 this dinosaur helped . 0.3795
 this dinosaur improved . 0.0081
 does this dinosaur order ? 0.1605
@@ -2182,28 +2182,28 @@ can every boat tell ? 0.0293
 can every boat turn ? 0.0254
 would sam be ? 0.8562
 would sam play ? 0.0879
-does the duke tell ? 0.0928
-does the duke study ? 0.0249
+does the duke tell ? 0.0327
+does the duke study ? 0.0139
 could this boat keep ? 0.0219
 could this boat know ? 0.0153
-sarah helped . 0.1777
-sarah thought . 0.0133
+sarah helped . 0.4696
+sarah thought . 0.1038
 will that slave show ? 0.0022
 will that slave eat ? 0.0477
 could anne use ? 0.0607
 could anne work ? 0.2436
-joseph hurt . 0.0247
-joseph leads . 0.0006
-would joseph make ? 0.4301
-would joseph live ? 0.0399
+joseph hurt . 0.3525
+joseph leads . 0.0304
+would joseph make ? 0.0301
+would joseph live ? 0.0099
 they gave . 0.0217
 they lived . 0.0255
 will they force ? 0.0139
 will they work ? 0.0999
 can anne become ? 0.0576
 can anne run ? 0.0052
-will robert put ? 0.0088
-will robert read ? 0.0074
+will robert put ? 0.1218
+will robert read ? 0.0262
 your slave helped . 0.0468
 your slave improved . 0.0515
 does your slave keep ? 0.0546
@@ -2222,34 +2222,34 @@ sam put . 0.0897
 sam came . 0.3213
 did sam put ? 1.1704
 did sam eat ? 1.7523
-william treated . 0.0043
-william lost . 0.0047
-could william tell ? 0.0489
-could william eat ? 0.1166
+william treated . 0.9099
+william lost . 0.0195
+could william tell ? 0.0365
+could william eat ? 0.0962
 can his pig force ? 0.0143
 can his pig live ? 0.0350
-chris treated . 0.0125
-chris grew . 0.0034
+chris treated . 0.0532
+chris grew . 0.0121
 will this sister use ? 0.0548
 will this sister work ? 0.0125
 would some slave give ? 0.3527
 would some slave eat ? 0.9201
-laura mentioned . 0.1958
-laura changes . 0.1595
-would laura open ? 0.4156
-would laura think ? 0.3325
-did william support ? 0.1820
-did william play ? 0.0574
+laura mentioned . 0.2587
+laura changes . 0.2528
+would laura open ? 0.1169
+would laura think ? 0.0491
+did william support ? 0.2144
+did william play ? 0.1642
 your dinosaur asked . 0.1067
 your dinosaur came . 0.7857
 does your dinosaur support ? 0.4302
 does your dinosaur read ? 0.1594
-does michael like ? 2.0177
-does michael study ? 2.0156
+does michael like ? 0.0287
+does michael study ? 0.0821
 it shown . 0.0082
 it works . 0.0059
-sarah asked . 0.1397
-sarah knew . 0.1667
+sarah asked . 0.0845
+sarah knew . 0.4602
 would anne close ? 0.0178
 would anne study ? 0.3245
 will we become ? 0.0148
@@ -2290,36 +2290,36 @@ could he need ? 0.0253
 could he turn ? 0.0063
 would the pig become ? 0.0139
 would the pig work ? 0.0153
-did sarah show ? 0.0464
-did sarah turn ? 0.1111
+did sarah show ? 0.2211
+did sarah turn ? 0.5105
 this doctor wanted . 0.0152
 this doctor stands . 0.0026
 would this doctor control ? 0.0426
 would this doctor play ? 0.0202
-william advanced . 0.0045
-william broke . 0.0119
-would william be ? 0.3034
-would william eat ? 1.0146
-would this duke record ? 0.0233
-would this duke play ? 0.0220
+william advanced . 0.0794
+william broke . 0.0397
+would william be ? 0.1238
+would william eat ? 0.2960
+would this duke record ? 0.1046
+would this duke play ? 0.0626
 her boat hit . 0.0112
 her boat races . 0.1037
-his duke opposed . 0.0043
-his duke lost . 0.0041
-would his duke like ? 0.0958
-would his duke live ? 0.0401
-sarah hurt . 0.2224
-sarah lives . 0.1672
-did sarah put ? 0.1384
-did sarah trade ? 0.0739
+his duke opposed . 0.0120
+his duke lost . 0.0173
+would his duke like ? 0.1211
+would his duke live ? 0.0217
+sarah hurt . 0.2390
+sarah lives . 0.0887
+did sarah put ? 0.2652
+did sarah trade ? 0.3525
 would it be ? 0.1811
 would it run ? 0.0436
-did your duke say ? 0.1925
-did your duke work ? 0.3058
-that duke mixed . 0.0074
-that duke leads . 0.0050
-did that duke say ? 0.0680
-did that duke change ? 0.1134
+did your duke say ? 0.1931
+did your duke work ? 0.2701
+that duke mixed . 0.0222
+that duke leads . 0.0179
+did that duke say ? 0.8335
+did that duke change ? 0.2013
 this slave entered . 0.0256
 this slave moved . 0.4000
 does this slave make ? 0.0842
@@ -2336,8 +2336,8 @@ did that doctor be ? 0.0218
 did that doctor think ? 0.5159
 could his boat support ? 0.0233
 could his boat change ? 0.0084
-could michael become ? 1.8963
-could michael read ? 1.6831
+could michael become ? 0.0195
+could michael read ? 0.0219
 her wolf treated . 0.0662
 her wolf stands . 0.0274
 will her wolf need ? 0.0239
@@ -2348,14 +2348,14 @@ will some pig close ? 0.0146
 will some pig work ? 0.0115
 sam met . 0.5666
 sam grew . 0.0501
-joseph brought . 0.0248
-joseph learned . 0.0020
-could joseph take ? 0.0779
-could joseph turn ? 0.1672
-joseph planned . 0.0215
-joseph refused . 0.0132
-would joseph give ? 0.0954
-would joseph know ? 0.0199
+joseph brought . 0.0146
+joseph learned . 0.0077
+could joseph take ? 0.0208
+could joseph turn ? 0.0152
+joseph planned . 0.5285
+joseph refused . 0.0934
+would joseph give ? 0.0231
+would joseph know ? 0.0056
 will they need ? 0.2354
 will they eat ? 0.0216
 did we become ? 0.0658
@@ -2364,24 +2364,24 @@ her dinosaur let . 0.0435
 her dinosaur developed . 0.0796
 can her dinosaur close ? 0.0132
 can her dinosaur trade ? 0.0117
-does joseph order ? 0.1576
-does joseph know ? 0.0483
+does joseph order ? 0.0585
+does joseph know ? 0.0526
 will her wolf have ? 0.0357
 will her wolf eat ? 0.1507
-could allen become ? 0.3198
-could allen eat ? 0.3276
+could allen become ? 0.0391
+could allen eat ? 0.2416
 the wolf put . 0.0277
 the wolf moved . 0.0189
 did the wolf have ? 0.0140
 did the wolf trade ? 0.0436
-michael played . 0.0377
-michael broke . 0.0409
-will michael put ? 1.1637
-will michael run ? 0.8010
+michael played . 0.1000
+michael broke . 0.0305
+will michael put ? 0.0126
+will michael run ? 0.0101
 does sam open ? 1.0330
 does sam live ? 1.4644
-could robert record ? 0.0056
-could robert turn ? 0.0102
+could robert record ? 0.1502
+could robert turn ? 0.1255
 they took . 0.0141
 they read . 0.0492
 did they say ? 0.0758
@@ -2390,26 +2390,26 @@ will your doctor give ? 0.0204
 will your doctor eat ? 0.0057
 anne brought . 0.3695
 anne runs . 0.1387
-michael asked . 0.0344
-michael lives . 0.0482
-did michael make ? 1.8922
-did michael know ? 1.4677
-laura advanced . 0.1443
-laura returned . 0.0245
-does laura keep ? 0.2199
-does laura play ? 0.1057
+michael asked . 0.0370
+michael lives . 0.0371
+did michael make ? 0.1106
+did michael know ? 0.0148
+laura advanced . 0.2263
+laura returned . 0.2617
+does laura keep ? 0.0577
+does laura play ? 0.0726
 some boat asked . 0.0229
 some boat leads . 0.0852
 would some boat force ? 0.5007
 would some boat eat ? 1.0680
-joseph saw . 0.0273
-joseph appears . 0.0291
-would that duke tell ? 0.0098
-would that duke eat ? 0.4018
+joseph saw . 0.0808
+joseph appears . 0.0961
+would that duke tell ? 0.0632
+would that duke eat ? 0.1974
 will she keep ? 0.0285
 will she work ? 0.0317
-would the duke free ? 0.0048
-would the duke turn ? 0.0432
+would the duke free ? 0.0084
+would the duke turn ? 0.0025
 would this dinosaur order ? 0.0050
 would this dinosaur trade ? 0.0144
 he ended . 0.1368
@@ -2432,38 +2432,38 @@ will his dinosaur close ? 0.0085
 will his dinosaur change ? 0.0030
 will the wolf show ? 0.0020
 will the wolf run ? 0.0085
-laura shot . 0.0695
-laura thinks . 0.1132
-could laura support ? 0.0870
-could laura work ? 0.1093
+laura shot . 0.1789
+laura thinks . 0.1045
+could laura support ? 0.0123
+could laura work ? 0.4278
 will she have ? 0.0114
 will she eat ? 0.0180
 could some sister need ? 0.2709
 could some sister read ? 0.0298
-would william make ? 0.5737
-would william play ? 0.0417
-will michael force ? 1.4187
-will michael live ? 1.2343
-will the duke tell ? 0.0088
-will the duke know ? 0.0207
-would his duke control ? 0.1315
-would his duke eat ? 0.2055
+would william make ? 0.0613
+would william play ? 0.0219
+will michael force ? 0.0429
+will michael live ? 0.0099
+will the duke tell ? 0.0654
+will the duke know ? 0.0137
+would his duke control ? 0.1090
+would his duke eat ? 0.1316
 could some boat show ? 0.0621
 could some boat read ? 0.0422
 the wolf let . 0.0775
 the wolf read . 0.0224
 does the wolf show ? 0.2426
 does the wolf work ? 0.0765
-will robert free ? 0.0089
-will robert study ? 0.0054
+will robert free ? 0.0544
+will robert study ? 0.0550
 does it give ? 0.1028
 does it play ? 0.0645
 your sister hurt . 0.0218
 your sister runs . 0.0182
 can your sister keep ? 0.0453
 can your sister live ? 0.0278
-does sarah close ? 0.2721
-does sarah study ? 0.4516
+does sarah close ? 0.1832
+does sarah study ? 0.0589
 could he need ? 0.0253
 could he play ? 0.0129
 could every doctor show ? 0.0138
@@ -2476,16 +2476,16 @@ this sister needed . 0.0238
 this sister falls . 0.0622
 would this sister force ? 0.0852
 would this sister read ? 0.0536
-would sarah put ? 0.0236
-would sarah read ? 0.2036
-does his duke be ? 0.0588
-does his duke study ? 0.1566
+would sarah put ? 0.0299
+would sarah read ? 0.2752
+does his duke be ? 0.0159
+does his duke study ? 0.0285
 this sister wanted . 0.0188
 this sister moves . 0.0169
 can this sister free ? 0.0024
 can this sister live ? 0.0292
-could joseph control ? 0.0094
-could joseph know ? 0.0394
+could joseph control ? 0.0566
+could joseph know ? 0.0163
 did she force ? 0.0743
 did she run ? 0.0835
 did she show ? 0.0075
@@ -2496,22 +2496,22 @@ his slave closed . 1.0850
 his slave thinks . 0.0156
 can your pig keep ? 0.0192
 can your pig know ? 0.0501
-could some duke say ? 0.0142
-could some duke turn ? 0.0284
+could some duke say ? 0.0218
+could some duke turn ? 0.0638
 did sam record ? 0.5278
 did sam change ? 0.0490
-would sarah record ? 0.0369
-would sarah eat ? 0.3854
+would sarah record ? 0.1095
+would sarah eat ? 0.9107
 did every pig show ? 0.0634
 did every pig read ? 0.0949
-every duke shared . 0.0051
-every duke broke . 0.0281
-did every duke be ? 0.0390
-did every duke study ? 0.2186
+every duke shared . 0.0332
+every duke broke . 0.0574
+did every duke be ? 0.0363
+did every duke study ? 0.1259
 we met . 0.0828
 we returned . 0.0166
-can william take ? 0.0332
-can william live ? 0.0073
+can william take ? 0.0364
+can william live ? 0.1384
 did every sister take ? 0.0505
 did every sister change ? 0.0937
 this sister explained . 0.0704
@@ -2526,36 +2526,36 @@ would he keep ? 0.0313
 would he know ? 0.0176
 could the pig take ? 0.0123
 could the pig play ? 0.0153
-will sarah keep ? 0.3672
-will sarah turn ? 0.0040
-did laura open ? 0.9450
-did laura trade ? 0.1049
+will sarah keep ? 1.2188
+will sarah turn ? 0.7400
+did laura open ? 0.5051
+did laura trade ? 0.5812
 could he need ? 0.0253
 could he eat ? 0.0241
 that sister mixed . 0.0164
 that sister calls . 0.1225
 did that sister order ? 0.0408
 did that sister read ? 0.0213
-sarah hurt . 0.2224
-sarah tried . 0.1096
-would sarah keep ? 0.0691
-would sarah turn ? 0.0563
+sarah hurt . 0.2390
+sarah tried . 0.0674
+would sarah keep ? 0.2044
+would sarah turn ? 0.2358
 this pig led . 0.0786
 this pig works . 1.0321
 did this pig have ? 1.4441
 did this pig eat ? 0.1083
-can robert control ? 0.0043
-can robert know ? 0.0071
-did robert order ? 0.2007
-did robert change ? 0.0724
+can robert control ? 0.0049
+can robert know ? 0.0061
+did robert order ? 0.5190
+did robert change ? 0.1802
 could her slave keep ? 0.0450
 could her slave play ? 0.0140
-chris shot . 0.0025
-chris dies . 0.0054
-michael brought . 0.0165
-michael moves . 0.0250
-sarah played . 0.0786
-sarah runs . 0.0910
+chris shot . 0.0149
+chris dies . 0.0312
+michael brought . 0.0290
+michael moves . 0.0338
+sarah played . 0.0854
+sarah runs . 0.0734
 does it put ? 0.0458
 does it think ? 0.0653
 can it make ? 0.0084
@@ -2564,8 +2564,8 @@ it gave . 0.0054
 it tried . 0.0489
 would it record ? 0.4859
 would it live ? 0.1069
-laura shot . 0.0695
-laura waves . 0.0386
+laura shot . 0.1789
+laura waves . 0.1613
 he mixed . 0.0240
 he matters . 0.0339
 will he force ? 0.0310
@@ -2580,20 +2580,20 @@ can your doctor order ? 0.0093
 can your doctor think ? 0.0299
 the boat met . 0.1459
 the boat decided . 0.0048
-his duke explained . 0.0138
-his duke thought . 0.0043
-did his duke like ? 0.4915
-did his duke know ? 0.1410
+his duke explained . 0.0997
+his duke thought . 0.0211
+did his duke like ? 0.1401
+did his duke know ? 0.1169
 will some dinosaur force ? 0.0510
 will some dinosaur play ? 0.0453
-allen argued . 0.0035
-allen developed . 0.0181
-did allen record ? 0.0118
-did allen change ? 0.0164
+allen argued . 0.0432
+allen developed . 0.1662
+did allen record ? 0.8272
+did allen change ? 0.8231
 every dinosaur shown . 0.0734
 every dinosaur knew . 0.2237
-chris mentioned . 0.2342
-chris decided . 0.0153
+chris mentioned . 0.0343
+chris decided . 0.0216
 his sister mixed . 0.0099
 his sister races . 0.0124
 will his sister open ? 0.1317
@@ -2604,42 +2604,42 @@ her dinosaur hit . 0.0294
 her dinosaur tried . 0.0633
 does her dinosaur take ? 0.1488
 does her dinosaur trade ? 0.2342
-laura helped . 0.0443
-laura races . 0.0819
-would laura keep ? 0.2134
-would laura run ? 0.0680
+laura helped . 0.0621
+laura races . 0.4535
+would laura keep ? 0.1013
+would laura run ? 0.0065
 the slave saw . 0.0113
 the slave refused . 0.0120
-allen affected . 0.0059
-allen thinks . 0.0223
+allen affected . 0.5150
+allen thinks . 0.4578
 could he like ? 0.0069
 could he live ? 0.0106
 does this dinosaur control ? 0.1520
 does this dinosaur study ? 0.1374
-allen entered . 0.0049
-allen came . 0.0252
-will allen tell ? 0.2052
-will allen work ? 0.0162
+allen entered . 0.1405
+allen came . 0.1359
+will allen tell ? 0.1487
+will allen work ? 0.0244
 his boat planned . 0.0124
 his boat tried . 0.0292
 does his boat need ? 0.3107
 does his boat know ? 0.0635
 will his doctor be ? 0.0455
 will his doctor live ? 0.0780
-would allen record ? 0.0524
-would allen trade ? 0.4423
-would michael order ? 1.5096
-would michael change ? 1.3633
+would allen record ? 0.0498
+would allen trade ? 0.0623
+would michael order ? 0.0108
+would michael change ? 0.0103
 will it give ? 0.1012
 will it trade ? 0.1363
-his duke shot . 0.0033
-his duke grew . 0.0034
-does his duke record ? 0.3285
-does his duke know ? 0.0909
+his duke shot . 0.0216
+his duke grew . 0.0166
+does his duke record ? 0.1251
+does his duke know ? 0.0416
 did sam need ? 0.1684
 did sam trade ? 0.1934
-does joseph like ? 0.0819
-does joseph live ? 0.1077
+does joseph like ? 0.0619
+does joseph live ? 0.0708
 could your sister need ? 0.0419
 could your sister read ? 0.0102
 will her slave support ? 0.1529
@@ -2658,10 +2658,10 @@ they closed . 0.0187
 they married . 0.0179
 could they record ? 0.0323
 could they run ? 0.0055
-michael shown . 0.0176
-michael returned . 0.1274
-does michael keep ? 1.3967
-does michael work ? 1.5329
+michael shown . 1.0299
+michael returned . 0.0769
+does michael keep ? 0.0155
+does michael work ? 0.0193
 your dinosaur shown . 0.5795
 your dinosaur leads . 0.4771
 does your dinosaur order ? 0.3880
@@ -2678,8 +2678,8 @@ can she give ? 0.0171
 can she trade ? 0.0768
 will sam become ? 1.8417
 will sam eat ? 1.1444
-did laura need ? 0.2361
-did laura know ? 0.3695
+did laura need ? 0.0697
+did laura know ? 0.0583
 would her sister have ? 0.0930
 would her sister run ? 0.0207
 can every boat have ? 0.0101
@@ -2714,10 +2714,10 @@ every slave organized . 0.0133
 every slave learned . 0.0131
 does every slave order ? 0.4139
 does every slave study ? 0.2434
-joseph led . 0.0082
-joseph developed . 0.0135
-sarah organized . 0.1734
-sarah looked . 0.3767
+joseph led . 0.0208
+joseph developed . 0.0819
+sarah organized . 0.0837
+sarah looked . 0.2212
 it shared . 0.0158
 it falls . 2.1825
 will some doctor control ? 0.0080
@@ -2728,16 +2728,16 @@ does every boat like ? 0.5809
 does every boat live ? 0.3161
 did her pig show ? 0.0510
 did her pig eat ? 0.0977
-will william use ? 0.6229
-will william think ? 0.1477
-your duke shared . 0.0083
-your duke read . 0.0252
-would your duke be ? 0.0292
-would your duke turn ? 0.0876
+will william use ? 0.1431
+will william think ? 0.5955
+your duke shared . 0.0146
+your duke read . 0.0085
+would your duke be ? 0.0500
+would your duke turn ? 0.1156
 could her sister force ? 0.0276
 could her sister change ? 0.0061
-can allen show ? 0.0040
-can allen live ? 0.1325
+can allen show ? 0.1281
+can allen live ? 0.0455
 the doctor planned . 0.0113
 the doctor turns . 0.0097
 could the doctor take ? 0.0113
@@ -2746,16 +2746,16 @@ your pig hurt . 0.0254
 your pig calls . 0.0366
 could your pig like ? 0.0436
 could your pig think ? 0.1208
-your duke mixed . 0.0267
-your duke fell . 0.0063
-did your duke like ? 0.6088
-did your duke eat ? 0.2043
+your duke mixed . 0.0224
+your duke fell . 0.0108
+did your duke like ? 0.3827
+did your duke eat ? 0.1071
 does her pig use ? 0.3501
 does her pig think ? 0.1104
-this duke advanced . 0.0034
-this duke accepted . 0.0121
-could this duke become ? 0.0139
-could this duke play ? 0.0236
+this duke advanced . 0.0516
+this duke accepted . 0.1181
+could this duke become ? 0.0113
+could this duke play ? 0.0243
 they played . 0.0767
 they improved . 0.0308
 did they have ? 0.0286
@@ -2768,8 +2768,8 @@ anne hit . 0.0921
 anne calls . 0.7612
 would that pig say ? 0.0973
 would that pig study ? 0.1007
-did michael like ? 1.6109
-did michael work ? 1.4957
+did michael like ? 0.1626
+did michael work ? 0.1610
 he connected . 0.0402
 he knew . 0.1483
 does he support ? 0.0301
@@ -2778,8 +2778,8 @@ his boat shared . 0.0064
 his boat races . 0.0538
 will his boat be ? 0.1641
 will his boat read ? 0.0090
-would sarah free ? 0.1155
-would sarah study ? 0.0212
+would sarah free ? 0.5732
+would sarah study ? 0.1993
 her boat stopped . 0.0031
 her boat dies . 0.0044
 would her boat control ? 0.1455
@@ -2806,60 +2806,60 @@ it stopped . 0.0520
 it finished . 0.6885
 does it close ? 0.0909
 does it read ? 0.0119
-did robert take ? 0.0228
-did robert study ? 0.3940
-will michael like ? 0.7383
-will michael trade ? 1.6528
+did robert take ? 0.2984
+did robert study ? 0.4942
+will michael like ? 0.0187
+will michael trade ? 0.3196
 can your slave tell ? 0.0668
 can your slave play ? 0.0345
 will they say ? 0.0100
 will they live ? 0.0520
-will sarah be ? 0.0744
-will sarah live ? 0.1254
+will sarah be ? 0.3638
+will sarah live ? 0.3837
 does your dinosaur use ? 0.4054
 does your dinosaur play ? 0.2617
 will some pig have ? 0.7438
 will some pig turn ? 0.0127
-can joseph show ? 0.0015
-can joseph play ? 0.0019
+can joseph show ? 0.0011
+can joseph play ? 0.0061
 does some pig free ? 0.1436
 does some pig study ? 0.0268
-will chris use ? 0.0162
-will chris play ? 0.0130
+will chris use ? 0.1780
+will chris play ? 0.1194
 did this pig keep ? 0.1465
 did this pig trade ? 0.2282
 would he order ? 0.0077
 would he read ? 0.0071
 will her doctor order ? 0.0054
 will her doctor change ? 0.0128
-joseph asked . 0.0027
-joseph came . 0.0185
-can joseph make ? 0.4011
-can joseph study ? 0.0170
+joseph asked . 0.0348
+joseph came . 0.0499
+can joseph make ? 0.0774
+can joseph study ? 0.0169
 could this doctor close ? 0.0290
 could this doctor read ? 0.0135
 would he close ? 0.0170
 would he run ? 0.0163
 will every pig force ? 0.0258
 will every pig play ? 0.0145
-can sarah put ? 0.0100
-can sarah trade ? 0.0121
-robert argued . 0.0086
-robert read . 0.0177
-will robert record ? 0.0013
-will robert run ? 0.0027
-does laura show ? 0.1827
-does laura change ? 0.1274
+can sarah put ? 0.1242
+can sarah trade ? 0.3252
+robert argued . 0.0423
+robert read . 0.2821
+will robert record ? 0.0067
+will robert run ? 0.0137
+does laura show ? 0.1579
+does laura change ? 0.0375
 would your sister record ? 0.1581
 would your sister change ? 0.2208
 could sam free ? 0.4695
 could sam turn ? 0.8880
 he argued . 0.0191
 he moves . 0.1534
-sarah shared . 0.0420
-sarah waves . 0.0206
-can laura take ? 0.0844
-can laura play ? 0.0368
+sarah shared . 0.0352
+sarah waves . 0.2107
+can laura take ? 0.0082
+can laura play ? 0.0247
 can every slave say ? 0.0178
 can every slave think ? 0.0200
 every sister helped . 0.0497
@@ -2868,20 +2868,20 @@ would every sister order ? 0.3041
 would every sister change ? 0.1345
 does anne record ? 0.1768
 does anne think ? 0.0300
-will robert open ? 0.0096
-will robert change ? 0.0027
-his duke said . 0.0061
-his duke matters . 0.0165
-will his duke show ? 0.0028
-will his duke turn ? 0.0035
+will robert open ? 0.0110
+will robert change ? 0.0102
+his duke said . 0.0104
+his duke matters . 0.0755
+will his duke show ? 0.0124
+will his duke turn ? 0.1465
 did we record ? 0.0032
 did we think ? 0.0473
 would your dinosaur free ? 0.1293
 would your dinosaur work ? 0.0430
 did we put ? 0.0179
 did we know ? 0.0244
-robert stopped . 0.0080
-robert races . 0.0076
+robert stopped . 0.0795
+robert races . 0.0557
 would she force ? 0.0441
 would she know ? 0.0388
 will his boat have ? 0.0169
@@ -2892,32 +2892,32 @@ every sister gave . 0.0239
 every sister works . 0.0471
 would every sister support ? 0.2490
 would every sister play ? 0.2583
-robert helped . 0.0754
-robert joined . 0.0199
-can robert force ? 0.0038
-can robert think ? 0.0032
+robert helped . 0.2425
+robert joined . 0.1466
+can robert force ? 0.0082
+can robert think ? 0.0181
 would sam need ? 0.5471
 would sam read ? 0.6767
-robert hurt . 0.1514
-robert accepted . 0.0158
-laura brought . 0.0408
-laura works . 0.0121
-robert said . 0.0044
-robert knew . 0.0423
-can robert record ? 0.0014
-can robert work ? 0.0090
+robert hurt . 0.1260
+robert accepted . 0.0571
+laura brought . 0.0571
+laura works . 0.1614
+robert said . 0.0526
+robert knew . 0.3450
+can robert record ? 0.0072
+can robert work ? 0.1843
 will they be ? 0.1360
 will they read ? 0.0371
-sarah organized . 0.1734
-sarah worked . 0.0778
+sarah organized . 0.0837
+sarah worked . 0.0433
 did her dinosaur have ? 0.3442
 did her dinosaur study ? 0.1149
-chris affected . 0.0036
-chris falls . 0.0116
-will chris become ? 0.0206
-will chris change ? 0.0034
-can sarah keep ? 0.7413
-can sarah eat ? 0.3943
+chris affected . 0.0486
+chris falls . 0.0731
+will chris become ? 0.4043
+will chris change ? 0.0180
+can sarah keep ? 0.5780
+can sarah eat ? 0.1621
 this boat said . 0.0081
 this boat finished . 0.0379
 will this boat support ? 0.1357
@@ -2942,8 +2942,8 @@ does he free ? 0.0341
 does he work ? 0.0636
 did that doctor give ? 0.0253
 did that doctor turn ? 0.0097
-can laura have ? 0.0703
-can laura think ? 0.2468
+can laura have ? 0.0036
+can laura think ? 0.0080
 that slave connected . 0.2404
 that slave lost . 0.1214
 will that slave say ? 0.0319
@@ -2960,12 +2960,12 @@ this pig entered . 0.0582
 this pig calls . 0.1186
 would this pig be ? 0.0912
 would this pig play ? 0.0996
-can the duke control ? 0.0009
-can the duke know ? 0.0218
+can the duke control ? 0.0057
+can the duke know ? 0.0075
 will that pig show ? 0.0034
 will that pig trade ? 0.0067
-joseph supposed . 0.0377
-joseph looked . 0.1304
+joseph supposed . 0.0340
+joseph looked . 0.0396
 every slave mentioned . 0.0830
 every slave turns . 0.0167
 can every slave record ? 0.0031
@@ -2988,16 +2988,16 @@ does sam need ? 1.2253
 does sam eat ? 1.6756
 can he become ? 0.0269
 can he run ? 0.0111
-chris gave . 0.0036
-chris read . 0.0066
+chris gave . 0.0180
+chris read . 0.0148
 does your sister make ? 0.1468
 does your sister play ? 0.1542
-william went . 0.0043
-william races . 0.0080
-michael let . 0.0742
-michael falls . 0.0156
-could michael free ? 1.4303
-could michael study ? 1.9607
+william went . 0.0172
+william races . 0.0339
+michael let . 0.1028
+michael falls . 0.0710
+could michael free ? 0.0294
+could michael study ? 0.0334
 does every sister become ? 0.2976
 does every sister change ? 0.3681
 will he take ? 0.0216
@@ -3008,10 +3008,10 @@ can that doctor give ? 0.0211
 can that doctor run ? 0.0137
 did the sister make ? 0.0860
 did the sister know ? 0.0159
-chris argued . 0.0060
-chris moved . 0.0076
-could laura control ? 0.1449
-could laura know ? 0.2997
+chris argued . 0.0295
+chris moved . 0.0549
+could laura control ? 0.0125
+could laura know ? 0.0094
 does his sister record ? 0.2537
 does his sister trade ? 0.1370
 sam said . 0.0750
@@ -3026,28 +3026,28 @@ did his sister order ? 0.1356
 did his sister change ? 0.0391
 did his boat show ? 0.2844
 did his boat study ? 0.2143
-could your duke show ? 0.1348
-could your duke turn ? 0.0610
-does sarah force ? 0.6885
-does sarah turn ? 0.5940
-does robert need ? 0.2008
-does robert know ? 0.0066
-does sarah keep ? 0.3843
-does sarah read ? 0.3879
+could your duke show ? 0.0363
+could your duke turn ? 0.0426
+does sarah force ? 0.0753
+does sarah turn ? 0.0628
+does robert need ? 0.1122
+does robert know ? 0.0318
+does sarah keep ? 0.0575
+does sarah read ? 0.0507
 her boat took . 0.0144
 her boat worked . 0.0085
 can her boat record ? 0.0025
 can her boat change ? 0.0047
-could joseph make ? 0.2234
-could joseph eat ? 0.0929
+could joseph make ? 0.0612
+could joseph eat ? 0.0611
 does he record ? 0.0801
 does he read ? 0.0082
-chris asked . 0.0156
-chris knows . 0.0047
-can chris need ? 0.0160
-can chris turn ? 0.0030
-allen opened . 0.0031
-allen turns . 0.0018
+chris asked . 0.0348
+chris knows . 0.0740
+can chris need ? 0.0260
+can chris turn ? 0.0066
+allen opened . 0.8338
+allen turns . 0.8094
 he stopped . 0.0468
 he calls . 0.3270
 her wolf shown . 0.0110
@@ -3058,30 +3058,30 @@ can anne show ? 0.0063
 can anne live ? 0.0291
 did his sister put ? 0.0663
 did his sister run ? 0.0369
-would laura free ? 0.2406
-would laura eat ? 1.0944
-allen took . 0.0020
-allen runs . 0.0350
-does allen order ? 0.2315
-does allen eat ? 0.2506
-joseph opposed . 0.0035
-joseph changed . 0.0075
-would sarah have ? 0.0451
-would sarah run ? 0.0154
-does allen have ? 0.0303
-does allen think ? 0.0415
-does chris open ? 0.6580
-does chris read ? 0.0466
+would laura free ? 0.1728
+would laura eat ? 0.3421
+allen took . 0.0573
+allen runs . 1.0520
+does allen order ? 0.2009
+does allen eat ? 0.4400
+joseph opposed . 0.0442
+joseph changed . 0.0242
+would sarah have ? 0.2569
+would sarah run ? 0.0316
+does allen have ? 0.1027
+does allen think ? 0.0423
+does chris open ? 0.0616
+does chris read ? 0.0173
 could the doctor record ? 0.0499
 could the doctor turn ? 0.0164
 did every dinosaur take ? 0.0527
 did every dinosaur think ? 0.1956
-did the duke close ? 0.5128
-did the duke live ? 0.1770
-joseph treated . 0.0046
-joseph dies . 0.0025
-does joseph need ? 0.3483
-does joseph read ? 0.0469
+did the duke close ? 0.0535
+did the duke live ? 0.0987
+joseph treated . 0.4097
+joseph dies . 0.0472
+does joseph need ? 0.1700
+does joseph read ? 0.0609
 her pig played . 0.0108
 her pig thought . 0.0106
 could her pig show ? 0.0565
@@ -3090,12 +3090,12 @@ could some slave tell ? 0.4805
 could some slave play ? 0.0445
 could your sister open ? 0.0058
 could your sister eat ? 0.0118
-allen hurt . 0.0320
-allen works . 0.0014
+allen hurt . 0.9367
+allen works . 0.2162
 will his slave put ? 0.0591
 will his slave read ? 0.0193
-did allen free ? 0.0202
-did allen turn ? 0.0067
+did allen free ? 2.1254
+did allen turn ? 0.9691
 will your slave make ? 0.4070
 will your slave think ? 0.0726
 the doctor said . 0.0091
@@ -3122,30 +3122,30 @@ your wolf connected . 0.2287
 your wolf matters . 0.0315
 his pig hit . 0.0150
 his pig falls . 0.0111
-michael planned . 0.0471
-michael changes . 0.0353
+michael planned . 0.1063
+michael changes . 0.0967
 did that boat give ? 0.0740
 did that boat run ? 0.1754
 would he be ? 0.0252
 would he eat ? 0.0466
 could every sister take ? 0.0158
 could every sister turn ? 0.0162
-william hurt . 0.0062
-william changes . 0.0032
-did william have ? 0.2445
-did william work ? 0.2543
-michael went . 0.0465
-michael accepted . 0.0633
-would michael show ? 1.1662
-would michael think ? 1.4287
+william hurt . 0.5041
+william changes . 0.0140
+did william have ? 0.1720
+did william work ? 0.1610
+michael went . 0.0424
+michael accepted . 0.0284
+would michael show ? 0.0180
+would michael think ? 0.0342
 that boat entered . 0.0165
 that boat fell . 0.0150
 will that boat have ? 0.0255
 will that boat turn ? 0.0061
-joseph argued . 0.0019
-joseph works . 0.0012
-can joseph use ? 0.0081
-can joseph trade ? 0.3659
+joseph argued . 0.0227
+joseph works . 0.0261
+can joseph use ? 0.0309
+can joseph trade ? 0.3216
 can it put ? 0.0104
 can it play ? 0.0203
 it shown . 0.0082
@@ -3160,14 +3160,14 @@ that sister mentioned . 0.0804
 that sister married . 0.0268
 will that sister take ? 0.0078
 will that sister study ? 0.0207
-some duke put . 0.0088
-some duke stands . 0.0119
-did some duke take ? 0.1672
-did some duke know ? 0.1086
-chris asked . 0.0156
-chris looked . 0.0201
-would chris put ? 0.0098
-would chris turn ? 0.2221
+some duke put . 0.0562
+some duke stands . 0.1482
+did some duke take ? 0.1918
+did some duke know ? 0.3891
+chris asked . 0.0348
+chris looked . 0.0185
+would chris put ? 0.0078
+would chris turn ? 0.0217
 it affected . 0.0196
 it lies . 0.0135
 does it show ? 0.0301
@@ -3176,8 +3176,8 @@ that sister stopped . 0.0086
 that sister leads . 0.0053
 will that sister force ? 0.0130
 will that sister change ? 0.0249
-can laura say ? 0.2868
-can laura eat ? 0.1178
+can laura say ? 0.0257
+can laura eat ? 0.0260
 her boat gave . 0.0077
 her boat refused . 0.0044
 can her boat force ? 0.0604
@@ -3186,16 +3186,16 @@ his slave ended . 0.0640
 his slave appears . 0.0434
 does his slave need ? 0.3305
 does his slave turn ? 0.1308
-will sarah record ? 0.0095
-will sarah read ? 0.5922
+will sarah record ? 0.0278
+will sarah read ? 0.0750
 could every sister record ? 0.0297
 could every sister think ? 0.0167
 could her boat become ? 0.0268
 could her boat live ? 0.0282
-michael wanted . 0.0322
-michael grew . 0.0068
-joseph brought . 0.0248
-joseph broke . 0.0270
+michael wanted . 0.0165
+michael grew . 0.0271
+joseph brought . 0.0146
+joseph broke . 0.0259
 anne ended . 0.8366
 anne lived . 0.0882
 can anne make ? 0.0228
@@ -3204,12 +3204,12 @@ your sister planned . 0.0102
 your sister improved . 0.0101
 does your sister be ? 0.0442
 does your sister know ? 0.0299
-does laura make ? 0.3106
-does laura work ? 0.0758
-william advanced . 0.0045
-william refused . 0.0083
-does william be ? 0.5142
-does william study ? 0.3891
+does laura make ? 0.1545
+does laura work ? 0.0295
+william advanced . 0.0794
+william refused . 0.0578
+does william be ? 0.0237
+does william study ? 0.1905
 his doctor played . 0.0142
 his doctor calls . 0.0662
 does his doctor like ? 0.1708
@@ -3218,8 +3218,8 @@ your doctor helped . 0.0340
 your doctor accepted . 0.0102
 would the doctor record ? 0.0036
 would the doctor play ? 0.0097
-would sarah support ? 0.0390
-would sarah know ? 0.0565
+would sarah support ? 0.1054
+would sarah know ? 0.0658
 can that doctor put ? 0.0385
 can that doctor trade ? 0.0108
 that slave affected . 0.0427
@@ -3232,8 +3232,8 @@ will your sister force ? 0.0458
 will your sister read ? 0.0058
 that slave explained . 0.0301
 that slave changed . 0.0151
-does sarah show ? 0.7209
-does sarah know ? 0.0933
+does sarah show ? 0.1976
+does sarah know ? 0.1902
 your pig saw . 0.0533
 your pig joined . 0.0402
 does your pig say ? 0.0578
@@ -3250,10 +3250,10 @@ would some wolf like ? 0.5792
 would some wolf play ? 0.3361
 would your slave force ? 0.5711
 would your slave eat ? 0.6451
-would that duke have ? 0.0159
-would that duke live ? 0.0096
-could every duke need ? 0.1143
-could every duke live ? 0.0341
+would that duke have ? 0.1688
+would that duke live ? 0.0277
+could every duke need ? 0.0461
+could every duke live ? 0.0098
 did they become ? 0.2171
 did they read ? 0.0715
 some wolf planned . 0.1217
@@ -3270,12 +3270,12 @@ your slave let . 0.3742
 your slave lived . 0.1010
 every slave helped . 0.0349
 every slave lies . 0.0289
-did robert show ? 0.0491
-did robert work ? 0.0862
+did robert show ? 0.1158
+did robert work ? 0.5566
 could your doctor open ? 0.0076
 could your doctor trade ? 0.0274
-did her duke close ? 0.3697
-did her duke think ? 0.1056
+did her duke close ? 0.3269
+did her duke think ? 0.1729
 your doctor led . 0.0121
 your doctor thinks . 0.0743
 can your doctor support ? 0.0143
@@ -3290,8 +3290,8 @@ it put . 0.0118
 it appears . 0.0584
 could he free ? 0.0045
 could he run ? 0.0034
-would chris put ? 0.0098
-would chris live ? 0.0370
+would chris put ? 0.0078
+would chris live ? 0.0126
 does anne open ? 0.0794
 does anne run ? 0.0450
 some pig went . 0.1262
@@ -3316,20 +3316,20 @@ did some slave put ? 0.5669
 did some slave know ? 1.7766
 would this boat like ? 0.1859
 would this boat run ? 0.1370
-will that duke like ? 0.0100
-will that duke work ? 0.0209
+will that duke like ? 0.0169
+will that duke work ? 0.3117
 does this wolf need ? 0.5315
 does this wolf eat ? 0.5726
-could michael take ? 1.5986
-could michael play ? 1.3689
+could michael take ? 0.0162
+could michael play ? 0.0393
 did his dinosaur record ? 0.4130
 did his dinosaur run ? 0.2510
 does the slave be ? 0.0063
 does the slave eat ? 0.0530
 will they put ? 0.0304
 will they study ? 0.0382
-could the duke open ? 0.0181
-could the duke live ? 0.0089
+could the duke open ? 0.0115
+could the duke live ? 0.0110
 would she have ? 0.0643
 would she trade ? 0.0828
 does that slave free ? 0.1556
@@ -3340,32 +3340,32 @@ will it record ? 0.5669
 will it run ? 0.0039
 it affected . 0.0196
 it thought . 0.0134
-his duke argued . 0.0100
-his duke moved . 0.0068
-will his duke need ? 0.0293
-will his duke eat ? 0.0129
+his duke argued . 0.0298
+his duke moved . 0.0156
+will his duke need ? 0.0174
+will his duke eat ? 0.0267
 some pig gave . 0.0080
 some pig waves . 0.0064
 will some pig put ? 0.0087
 will some pig play ? 0.0122
-could robert control ? 0.0036
-could robert trade ? 0.0037
+could robert control ? 0.0448
+could robert trade ? 0.0416
 would some pig open ? 0.3633
 would some pig eat ? 0.7703
-did laura be ? 0.5192
-did laura eat ? 0.3162
+did laura be ? 0.0511
+did laura eat ? 0.2336
 would anne have ? 0.0667
 would anne think ? 0.0563
-your duke argued . 0.0166
-your duke married . 0.0123
-would your duke close ? 0.0599
-would your duke change ? 0.1469
+your duke argued . 0.0216
+your duke married . 0.0316
+would your duke close ? 0.2638
+would your duke change ? 0.3662
 would your slave tell ? 0.3918
 would your slave run ? 0.2134
-michael put . 0.0340
-michael started . 0.0217
-could michael open ? 1.1322
-could michael know ? 1.5334
+michael put . 0.0372
+michael started . 0.0459
+could michael open ? 0.0141
+could michael know ? 0.0122
 can anne have ? 0.1357
 can anne change ? 0.0046
 can every dinosaur show ? 0.0054
@@ -3374,10 +3374,10 @@ this slave brought . 0.1043
 this slave matters . 0.0117
 will this slave be ? 0.0228
 will this slave know ? 0.0128
-his duke played . 0.0204
-his duke lived . 0.0224
-would his duke open ? 0.0684
-would his duke change ? 0.1813
+his duke played . 0.0159
+his duke lived . 0.1142
+would his duke open ? 0.1073
+would his duke change ? 0.0986
 some pig explained . 0.0603
 some pig thinks . 0.0657
 would some pig use ? 0.1549
@@ -3406,12 +3406,12 @@ that wolf took . 0.0094
 that wolf decided . 0.0146
 can that wolf use ? 0.0232
 can that wolf read ? 0.0042
-can allen control ? 0.0020
-can allen read ? 0.0321
-her duke opened . 0.0058
-her duke finished . 0.0214
-would her duke like ? 0.0567
-would her duke study ? 0.0765
+can allen control ? 0.1640
+can allen read ? 0.1782
+her duke opened . 0.0074
+her duke finished . 0.0344
+would her duke like ? 0.0604
+would her duke study ? 0.3038
 would this wolf show ? 0.1184
 would this wolf turn ? 0.1034
 can it tell ? 0.0401
@@ -3438,8 +3438,8 @@ that sister gave . 0.0027
 that sister fell . 0.0149
 could that sister tell ? 0.0067
 could that sister run ? 0.0063
-does michael tell ? 2.0780
-does michael live ? 1.5252
+does michael tell ? 0.0380
+does michael live ? 0.0312
 did every doctor control ? 0.0249
 did every doctor read ? 0.0241
 he shown . 0.1204
@@ -3450,14 +3450,14 @@ anne connected . 0.4750
 anne refused . 0.1682
 can his wolf use ? 0.0117
 can his wolf turn ? 0.0491
-would every duke open ? 0.3490
-would every duke change ? 0.3457
+would every duke open ? 0.5563
+would every duke change ? 0.2438
 will that boat take ? 0.0157
 will that boat know ? 0.0143
 can every pig be ? 0.0030
 can every pig know ? 0.0087
-would michael give ? 1.4656
-would michael work ? 1.2610
+would michael give ? 0.0553
+would michael work ? 0.0700
 this boat hit . 0.0239
 this boat leads . 0.0099
 will this boat make ? 0.2414
@@ -3470,8 +3470,8 @@ would that dinosaur support ? 0.0520
 would that dinosaur run ? 0.0717
 could some wolf support ? 0.0346
 could some wolf run ? 0.0438
-could robert free ? 0.0046
-could robert change ? 0.0027
+could robert free ? 0.0760
+could robert change ? 0.0406
 can they become ? 0.0125
 can they work ? 0.0240
 that pig planned . 0.0186
@@ -3488,16 +3488,16 @@ would this dinosaur record ? 0.0142
 would this dinosaur turn ? 0.0512
 anne hit . 0.0921
 anne grew . 0.0310
-robert shot . 0.0037
-robert runs . 0.8068
-william led . 0.0034
-william grew . 0.0027
-did laura say ? 0.6418
-did laura read ? 0.2105
+robert shot . 0.4281
+robert runs . 0.0655
+william led . 0.0140
+william grew . 0.0100
+did laura say ? 0.5006
+did laura read ? 0.6015
 does this dinosaur take ? 0.1107
 does this dinosaur run ? 0.0578
-sarah shown . 0.1286
-sarah broke . 0.3564
+sarah shown . 0.6405
+sarah broke . 0.0793
 some sister entered . 0.0242
 some sister knows . 0.0082
 does some sister tell ? 0.0640
@@ -3516,50 +3516,50 @@ will that doctor close ? 0.0252
 will that doctor change ? 0.0051
 did her boat tell ? 0.0854
 did her boat study ? 0.0988
-would robert force ? 0.0036
-would robert change ? 0.0048
-did chris force ? 0.0207
-did chris run ? 0.0120
+would robert force ? 0.0506
+would robert change ? 0.0468
+did chris force ? 0.0164
+did chris run ? 0.0210
 could some slave record ? 0.3974
 could some slave run ? 0.0242
-does michael control ? 1.7384
-does michael play ? 1.7158
+does michael control ? 0.0288
+does michael play ? 0.0686
 did that doctor order ? 0.0490
 did that doctor run ? 0.0170
-his duke brought . 0.0155
-his duke joined . 0.0198
-will his duke free ? 0.0080
-will his duke live ? 0.2323
+his duke brought . 0.0182
+his duke joined . 0.0086
+will his duke free ? 0.0326
+will his duke live ? 0.6652
 this pig saw . 0.0919
 this pig finished . 0.1551
 will this pig force ? 0.0170
 will this pig know ? 0.0095
-can sarah become ? 0.3740
-can sarah play ? 0.0193
-william organized . 0.0035
-william joined . 0.0294
+can sarah become ? 0.2471
+can sarah play ? 0.0411
+william organized . 0.0409
+william joined . 0.9706
 we hurt . 0.0156
 we grew . 0.0016
-does some duke order ? 0.0896
-does some duke live ? 0.0918
+does some duke order ? 0.0147
+does some duke live ? 0.0241
 could this slave give ? 0.0222
 could this slave work ? 0.0076
-will robert record ? 0.0013
-will robert trade ? 0.0534
+will robert record ? 0.0067
+will robert trade ? 0.0751
 did her boat have ? 0.0740
 did her boat trade ? 0.4160
 does anne say ? 0.0661
 does anne change ? 0.1136
-did joseph become ? 0.1008
-did joseph read ? 0.1194
+did joseph become ? 0.5122
+did joseph read ? 0.2504
 would the pig need ? 0.1113
 would the pig think ? 0.0073
 can the pig tell ? 0.0299
 can the pig eat ? 0.0557
-would robert free ? 0.0259
-would robert read ? 0.0073
-could his duke make ? 0.0545
-could his duke play ? 0.0202
+would robert free ? 0.3562
+would robert read ? 0.1289
+could his duke make ? 0.0266
+could his duke play ? 0.0130
 that sister mentioned . 0.0804
 that sister joined . 0.0064
 can that sister say ? 0.0093
@@ -3570,14 +3570,14 @@ would this dinosaur make ? 0.0723
 would this dinosaur play ? 0.1071
 would some boat put ? 0.2150
 would some boat think ? 0.8140
-will michael give ? 1.4619
-will michael think ? 1.4268
+will michael give ? 0.0898
+will michael think ? 0.0103
 can the dinosaur control ? 0.0087
 can the dinosaur study ? 0.0126
-the duke brought . 0.0216
-the duke appears . 0.0639
-can the duke order ? 0.0010
-can the duke work ? 0.0084
+the duke brought . 0.0197
+the duke appears . 0.1506
+can the duke order ? 0.0032
+can the duke work ? 0.0456
 did this slave control ? 0.3879
 did this slave work ? 0.3231
 every boat closed . 0.1266
@@ -3586,12 +3586,12 @@ would every boat say ? 0.1899
 would every boat trade ? 0.1503
 does her boat control ? 0.2280
 does her boat trade ? 0.1269
-sarah brought . 0.1279
-sarah calls . 0.3025
-this duke opposed . 0.0053
-this duke looked . 0.0343
-can this duke close ? 0.0050
-can this duke play ? 0.0669
+sarah brought . 0.0821
+sarah calls . 0.1679
+this duke opposed . 0.0571
+this duke looked . 0.0882
+can this duke close ? 0.0045
+can this duke play ? 0.0404
 the pig saw . 0.0112
 the pig grew . 0.0052
 did the pig show ? 0.0262
@@ -3604,8 +3604,8 @@ they led . 0.0306
 they accepted . 0.0436
 does her pig order ? 0.2254
 does her pig study ? 0.1879
-william took . 0.0053
-william developed . 0.0259
+william took . 0.1033
+william developed . 1.6309
 his sister ended . 0.0120
 his sister stands . 0.0048
 will his sister force ? 0.2468
@@ -3614,10 +3614,10 @@ her boat went . 0.0167
 her boat improved . 0.0046
 will sam use ? 0.2024
 will sam study ? 0.2568
-joseph took . 0.0046
-joseph grew . 0.0087
-would joseph make ? 0.4301
-would joseph work ? 0.1102
+joseph took . 0.0072
+joseph grew . 0.0130
+would joseph make ? 0.0301
+would joseph work ? 0.0369
 this wolf opened . 0.0158
 this wolf thought . 0.0131
 does his wolf show ? 0.4492
@@ -3628,20 +3628,20 @@ would this boat show ? 0.0655
 would this boat play ? 0.1768
 does every boat make ? 0.5561
 does every boat know ? 0.2783
-does robert open ? 0.1019
-does robert run ? 0.0582
+does robert open ? 0.0174
+does robert run ? 0.0225
 this dinosaur met . 0.6919
 this dinosaur married . 0.0532
 could this dinosaur force ? 0.0224
 could this dinosaur run ? 0.0200
-could michael show ? 1.3999
-could michael trade ? 1.7804
+could michael show ? 0.0123
+could michael trade ? 0.0196
 could this wolf tell ? 0.0088
 could this wolf think ? 0.0107
 can his sister close ? 0.0146
 can his sister change ? 0.0016
-would your duke be ? 0.0292
-would your duke read ? 0.1057
+would your duke be ? 0.0500
+would your duke read ? 0.3673
 could his sister record ? 0.0147
 could his sister eat ? 0.0044
 could the sister say ? 0.0039
@@ -3654,18 +3654,18 @@ every pig gave . 0.0146
 every pig turns . 0.0966
 could every pig be ? 0.0039
 could every pig run ? 0.0215
-her duke saw . 0.0067
-her duke runs . 0.0044
-could her duke keep ? 0.0256
-could her duke eat ? 0.1542
+her duke saw . 0.0464
+her duke runs . 0.0083
+could her duke keep ? 0.0324
+could her duke eat ? 0.0622
 will anne need ? 0.0445
 will anne know ? 0.1022
 her dinosaur mixed . 0.0334
 her dinosaur moves . 0.0145
 would her dinosaur say ? 0.4018
 would her dinosaur trade ? 0.0596
-could allen order ? 0.3200
-could allen know ? 0.0634
+could allen order ? 0.1371
+could allen know ? 0.1414
 the sister needed . 0.0905
 the sister grew . 0.0158
 did the sister record ? 0.0553
@@ -3674,16 +3674,16 @@ your slave shown . 0.0611
 your slave knew . 0.0471
 would your slave tell ? 0.3918
 would your slave play ? 0.2767
-could allen tell ? 0.1690
-could allen study ? 0.1029
+could allen tell ? 0.0668
+could allen study ? 0.0452
 will her slave make ? 0.5792
 will her slave think ? 0.4180
 could his doctor keep ? 0.0216
 could his doctor know ? 0.0106
 did it put ? 0.0543
 did it work ? 0.1596
-michael brought . 0.0165
-michael looked . 0.0323
+michael brought . 0.0290
+michael looked . 0.0371
 would she open ? 0.0851
 would she change ? 0.0259
 will the dinosaur control ? 0.0054
@@ -3692,8 +3692,8 @@ sam mixed . 0.4054
 sam changed . 0.0617
 does sam record ? 1.2226
 does sam study ? 1.2765
-did joseph open ? 0.2145
-did joseph trade ? 0.5702
+did joseph open ? 0.0783
+did joseph trade ? 0.3120
 his slave mentioned . 0.0428
 his slave stands . 0.0107
 could his slave be ? 0.0100
@@ -3708,28 +3708,28 @@ that sister mixed . 0.0164
 that sister changes . 0.0084
 does that sister need ? 0.2371
 does that sister think ? 0.0292
-robert hurt . 0.1514
-robert appears . 0.0530
-does robert force ? 0.0188
-does robert work ? 0.0043
-can robert free ? 0.0204
-can robert play ? 0.0097
-does sarah tell ? 0.5438
-does sarah run ? 0.7106
+robert hurt . 0.1260
+robert appears . 0.2464
+does robert force ? 0.0483
+does robert work ? 0.0468
+can robert free ? 0.0173
+can robert play ? 0.0211
+does sarah tell ? 0.1074
+does sarah run ? 0.0371
 could he need ? 0.0253
 could he trade ? 0.0318
 the wolf explained . 0.0815
 the wolf leads . 0.0405
 could the wolf record ? 0.0550
 could the wolf read ? 0.0247
-joseph took . 0.0046
-joseph matters . 0.0016
-did william give ? 0.2311
-did william live ? 0.1035
-some duke supposed . 0.0064
-some duke moved . 0.0113
-can some duke take ? 0.0284
-can some duke play ? 0.0048
+joseph took . 0.0072
+joseph matters . 0.0097
+did william give ? 0.1112
+did william live ? 0.1662
+some duke supposed . 0.2499
+some duke moved . 0.0767
+can some duke take ? 0.1609
+can some duke play ? 0.0131
 some boat opened . 1.5647
 some boat thought . 0.0053
 did some boat put ? 0.2822
@@ -3738,28 +3738,28 @@ he stopped . 0.0468
 he waves . 0.1317
 did he support ? 0.0259
 did he trade ? 0.1585
-will chris take ? 0.0178
-will chris think ? 0.0128
+will chris take ? 0.0910
+will chris think ? 0.0509
 would they have ? 0.0494
 would they run ? 0.0144
-did that duke become ? 0.1939
-did that duke eat ? 0.2035
+did that duke become ? 0.2227
+did that duke eat ? 0.2894
 does some slave say ? 0.0597
 does some slave know ? 0.0475
 could that slave have ? 1.5196
 could that slave work ? 0.0393
 does anne put ? 0.0557
 does anne know ? 0.0713
-william let . 0.0153
-william decided . 0.0109
-could william say ? 0.2620
-could william change ? 0.0466
+william let . 2.3296
+william decided . 0.0198
+could william say ? 0.0393
+could william change ? 0.0453
 sam wanted . 0.0538
 sam worked . 0.0760
 can every pig order ? 0.0046
 can every pig think ? 0.0045
-could allen support ? 0.1406
-could allen read ? 0.1868
+could allen support ? 0.0589
+could allen read ? 0.1078
 some wolf planned . 0.1217
 some wolf stands . 0.0126
 would some wolf tell ? 0.4742
@@ -3790,8 +3790,8 @@ did every pig force ? 0.0720
 did every pig live ? 0.1095
 your slave took . 0.0132
 your slave races . 0.1921
-can joseph open ? 0.0691
-can joseph work ? 0.0240
+can joseph open ? 0.0342
+can joseph work ? 0.0543
 her boat mixed . 0.0089
 her boat lost . 0.0037
 will her boat force ? 0.1096
@@ -3800,14 +3800,14 @@ did they make ? 0.0334
 did they change ? 0.0134
 did your boat keep ? 0.2080
 did your boat run ? 0.0599
-would william free ? 0.1945
-would william know ? 0.1110
+would william free ? 0.0554
+would william know ? 0.0336
 some pig advanced . 0.0097
 some pig changes . 0.0131
 does some pig be ? 0.0210
 does some pig change ? 0.0365
-could that duke record ? 0.0078
-could that duke read ? 0.0067
+could that duke record ? 0.1993
+could that duke read ? 0.0594
 would she become ? 0.0222
 would she work ? 0.0572
 can his wolf open ? 0.2072
@@ -3820,16 +3820,16 @@ it played . 0.2481
 it changes . 0.0097
 could the boat close ? 0.0141
 could the boat change ? 0.0054
-sarah shot . 0.1068
-sarah changed . 0.1390
-does michael make ? 1.8177
-does michael trade ? 1.7991
+sarah shot . 0.1495
+sarah changed . 0.0300
+does michael make ? 0.2304
+does michael trade ? 0.1325
 could she show ? 0.0035
 could she think ? 0.0051
 would anne need ? 0.2781
 would anne change ? 0.3878
-could her duke use ? 0.0282
-could her duke work ? 0.0975
+could her duke use ? 0.1245
+could her duke work ? 0.0426
 his dinosaur opened . 0.0380
 his dinosaur came . 0.0813
 could his dinosaur show ? 0.0061
@@ -3842,16 +3842,16 @@ she wanted . 0.0092
 she lies . 0.0804
 can she have ? 0.0307
 can she run ? 0.0194
-did that duke open ? 0.2806
-did that duke play ? 0.0964
-would joseph record ? 0.1352
-would joseph turn ? 0.3589
-allen took . 0.0020
-allen started . 0.0022
-does allen open ? 0.2052
-does allen change ? 0.0609
-could sarah make ? 0.3912
-could sarah trade ? 0.0248
+did that duke open ? 0.4057
+did that duke play ? 0.1050
+would joseph record ? 0.0080
+would joseph turn ? 0.0060
+allen took . 0.0573
+allen started . 0.2858
+does allen open ? 0.1786
+does allen change ? 0.1652
+could sarah make ? 0.0703
+could sarah trade ? 0.1088
 she closed . 0.0425
 she fell . 0.0366
 can the dinosaur open ? 0.0456
@@ -3860,28 +3860,28 @@ his slave took . 0.0054
 his slave thought . 0.0098
 could his slave be ? 0.0100
 could his slave read ? 0.0055
-would chris make ? 0.0223
-would chris study ? 0.0763
-his duke mentioned . 0.0825
-his duke came . 0.0148
-would his duke close ? 0.1839
-would his duke think ? 0.0524
+would chris make ? 0.0203
+would chris study ? 0.0435
+his duke mentioned . 0.1647
+his duke came . 0.0460
+would his duke close ? 0.1572
+would his duke think ? 0.0332
 some dinosaur organized . 0.0282
 some dinosaur came . 0.4293
 your wolf opposed . 0.0314
 your wolf tried . 0.0420
 did your wolf take ? 0.0185
 did your wolf read ? 0.0743
-her duke affected . 0.0079
-her duke developed . 0.0038
-would her duke order ? 0.0324
-would her duke turn ? 0.0426
+her duke affected . 0.0071
+her duke developed . 0.0208
+would her duke order ? 0.0467
+would her duke turn ? 0.0720
 every boat gave . 0.0680
 every boat knows . 0.0497
 does every boat free ? 0.4245
 does every boat think ? 0.2139
-would laura give ? 0.1152
-would laura play ? 0.1418
+would laura give ? 0.0298
+would laura play ? 0.0404
 the dinosaur went . 0.3093
 the dinosaur waves . 0.0383
 would the dinosaur be ? 0.0915
@@ -3890,10 +3890,10 @@ the dinosaur took . 0.1765
 the dinosaur runs . 0.1002
 would the dinosaur be ? 0.0915
 would the dinosaur eat ? 0.0102
-allen advanced . 0.0017
-allen waves . 0.0133
-did allen make ? 0.4285
-did allen play ? 0.0087
+allen advanced . 0.2308
+allen waves . 0.1817
+did allen make ? 0.8434
+did allen play ? 1.3874
 her pig hit . 0.0197
 her pig stands . 0.0070
 can her pig keep ? 0.0181
@@ -3908,14 +3908,14 @@ could your boat free ? 0.0507
 could your boat read ? 0.0126
 she connected . 0.6346
 she decided . 0.0215
-could chris need ? 0.0514
-could chris eat ? 0.3602
+could chris need ? 0.0573
+could chris eat ? 0.0393
 it helped . 0.0393
 it races . 0.0421
 did it tell ? 0.2266
 did it live ? 0.1310
-did robert support ? 0.2540
-did robert live ? 0.0565
+did robert support ? 0.2954
+did robert live ? 0.2760
 did it record ? 0.0796
 did it run ? 0.1367
 can every doctor say ? 0.0179
@@ -3924,20 +3924,20 @@ can we open ? 0.0833
 can we know ? 0.0377
 does his pig control ? 0.3604
 does his pig know ? 0.0810
-chris put . 0.0105
-chris thinks . 0.0784
-could chris take ? 0.0111
-could chris run ? 0.1291
+chris put . 0.0314
+chris thinks . 0.0969
+could chris take ? 0.0243
+could chris run ? 0.0197
 will some slave control ? 0.0170
 will some slave know ? 0.0410
-robert advanced . 0.0034
-robert changes . 0.0106
-does chris give ? 0.0605
-does chris think ? 0.0081
-does robert show ? 0.0749
-does robert change ? 0.0180
-can william support ? 0.0022
-can william read ? 0.0272
+robert advanced . 0.1358
+robert changes . 0.0168
+does chris give ? 0.0417
+does chris think ? 0.0518
+does robert show ? 0.0256
+does robert change ? 0.0695
+can william support ? 0.0221
+can william read ? 0.0234
 did we be ? 0.0342
 did we turn ? 0.0285
 her wolf let . 0.0274
@@ -3948,38 +3948,38 @@ your wolf mixed . 0.0417
 your wolf decided . 0.0279
 did your wolf force ? 0.1196
 did your wolf think ? 0.0314
-does that duke like ? 0.6636
-does that duke think ? 0.2134
+does that duke like ? 0.3402
+does that duke think ? 0.0196
 that boat advanced . 0.0128
 that boat turns . 0.0084
 could that boat support ? 0.0259
 could that boat study ? 0.0188
-every duke went . 0.0304
-every duke started . 0.0193
-could every duke order ? 0.0821
-could every duke think ? 0.0265
-could joseph tell ? 0.0202
-could joseph study ? 0.2763
+every duke went . 0.0489
+every duke started . 0.0383
+could every duke order ? 0.0513
+could every duke think ? 0.0042
+could joseph tell ? 0.0206
+could joseph study ? 0.1093
 she put . 0.0372
 she stands . 0.0354
 did she say ? 0.1876
 did she live ? 0.0365
 will anne show ? 0.0234
 will anne change ? 0.0123
-can robert close ? 0.0107
-can robert trade ? 0.0071
-michael asked . 0.0344
-michael read . 0.0335
-does william order ? 0.7810
-does william play ? 0.2406
-allen shared . 0.0092
-allen returned . 0.0121
-could allen control ? 0.1598
-could allen think ? 0.1098
+can robert close ? 0.0082
+can robert trade ? 0.0517
+michael asked . 0.0370
+michael read . 0.0619
+does william order ? 0.0579
+does william play ? 0.0486
+allen shared . 0.1183
+allen returned . 0.2061
+could allen control ? 0.0772
+could allen think ? 0.1178
 sam went . 0.0647
 sam appears . 0.7042
-robert went . 0.0066
-robert refused . 0.0062
+robert went . 0.0113
+robert refused . 0.1411
 every sister needed . 0.0216
 every sister developed . 0.0410
 did every sister say ? 0.0398

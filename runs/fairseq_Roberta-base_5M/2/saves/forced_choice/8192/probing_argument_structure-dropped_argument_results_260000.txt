@@ -74,18 +74,18 @@ the slave asked us about . 0.4570
 ask us about the slave . 0.0508
 one slave changed the . 2.0803
 one slave changed her . 2.2207
-the nice duke gives me . 0.0350
-give me the nice duke . 0.0014
-the duke asked me about . 0.0019
-ask me about the duke . 0.0008
-a duke sold that to . 0.0098
-a duke sold them that . 0.0312
-the signed duke gives them . 1.6349
-give them the signed duke . 1.5775
-the duke tells them about . 0.0016
-tell them about the duke . 0.0025
-the duke sold that to . 0.0036
-the duke sold them that . 0.0124
+the nice duke gives me . 2.7261
+give me the nice duke . 2.3618
+the duke asked me about . 2.1660
+ask me about the duke . 2.3460
+a duke sold that to . 2.1204
+a duke sold them that . 2.0661
+the signed duke gives them . 2.9899
+give them the signed duke . 3.7403
+the duke tells them about . 2.1830
+tell them about the duke . 2.6781
+the duke sold that to . 2.3907
+the duke sold them that . 2.2853
 the moved wolf gives me . 2.5129
 give me the moved wolf . 1.1433
 my wolf moves to . 0.0678
@@ -102,14 +102,14 @@ the dinosaur tells me about . 0.0301
 tell me about the dinosaur . 0.0054
 some dinosaur thinks about one . 0.0340
 some dinosaur thinks about her . 0.0158
-the spanish duke gives me . 0.3186
-give me the spanish duke . 0.0032
-the duke asked him about . 0.0018
-the duke asked about him . 0.2079
-the good duke gives them . 0.0092
-give them the good duke . 0.0006
-his duke wanted to . 0.0124
-his duke wanted her . 0.0265
+the spanish duke gives me . 4.3696
+give me the spanish duke . 4.2541
+the duke asked him about . 2.1675
+the duke asked about him . 2.2355
+the good duke gives them . 2.1255
+give them the good duke . 2.1684
+his duke wanted to . 2.9758
+his duke wanted her . 2.4506
 the long slave gives us . 1.8968
 give us the long slave . 0.0042
 the slave works with . 2.2638
@@ -124,12 +124,12 @@ the slave asked her about . 0.8442
 ask her about the slave . 0.0419
 his slave plays with some . 0.0429
 his slave plays with her . 0.4116
-the present duke gives us . 0.0150
-give us the present duke . 0.0241
-the duke asked us about . 0.0057
-ask us about the duke . 0.0046
-some duke told him about a . 0.0006
-some duke told him about that . 0.0002
+the present duke gives us . 2.3040
+give us the present duke . 2.5557
+the duke asked us about . 2.1040
+ask us about the duke . 2.3723
+some duke told him about a . 2.4963
+some duke told him about that . 2.8843
 the old wolf gives them . 0.6060
 give them the old wolf . 0.0004
 the wolf asked them about . 0.0276
@@ -150,16 +150,16 @@ the pretty wolf gives them . 0.0602
 give them the pretty wolf . 0.0006
 his wolf looks at some . 0.0096
 his wolf looks at you . 0.0131
-the long duke gives me . 0.0145
-give me the long duke . 0.0021
-the duke asked them about . 0.0008
-the duke asked about them . 0.0343
-the whole duke gives him . 0.4440
-give him the whole duke . 0.0029
-the duke asked him about . 0.0018
-ask him about the duke . 0.0007
-the duke wrote him my . 0.0528
-the duke wrote him something . 0.0048
+the long duke gives me . 2.2703
+give me the long duke . 2.1942
+the duke asked them about . 2.1229
+the duke asked about them . 2.4556
+the whole duke gives him . 2.3934
+give him the whole duke . 2.4302
+the duke asked him about . 2.1675
+ask him about the duke . 2.4133
+the duke wrote him my . 2.6868
+the duke wrote him something . 2.3092
 the heavy dinosaur gives him . 0.9552
 give him the heavy dinosaur . 0.8801
 some dinosaur plays with the . 0.0034
@@ -176,12 +176,12 @@ the pig tells us about . 0.0005
 tell us about the pig . 0.0020
 some pig changed one . 0.0218
 some pig changed me . 0.0019
-the silly duke gives her . 0.0334
-give her the silly duke . 0.0006
-the duke tells her about . 0.0003
-tell her about the duke . 0.0019
-the duke thinks about some . 0.0101
-the duke thinks about her . 0.0011
+the silly duke gives her . 2.4076
+give her the silly duke . 2.6486
+the duke tells her about . 2.1278
+tell her about the duke . 2.5878
+the duke thinks about some . 2.8989
+the duke thinks about her . 2.1368
 the permanent pig gives us . 2.2106
 give us the permanent pig . 2.0572
 his pig looks at a . 0.0205
@@ -196,10 +196,10 @@ the sister asked me about . 0.0006
 ask me about the sister . 0.0002
 his sister moves to . 0.3779
 his sister moves fast . 0.5038
-the deep duke gives her . 0.0182
-give her the deep duke . 0.0041
-a duke plays with one . 0.0009
-a duke plays with her . 0.0008
+the deep duke gives her . 2.3853
+give her the deep duke . 3.1485
+a duke plays with one . 2.0604
+a duke plays with her . 1.9063
 the old sister gives them . 0.1340
 give them the old sister . 0.0072
 the sister tells them about . 0.0039
@@ -246,22 +246,22 @@ my wolf saw you by . 0.0043
 my wolf saw you there . 0.0380
 his dinosaur asked them about . 0.5524
 his dinosaur asked about them . 0.4041
-the permanent duke gives them . 2.2494
-give them the permanent duke . 1.3821
-the duke asked them about . 0.0008
-ask them about the duke . 0.0108
-his duke moves to . 0.0701
-his duke moves fast . 0.0618
+the permanent duke gives them . 2.5748
+give them the permanent duke . 4.0957
+the duke asked them about . 2.1229
+ask them about the duke . 2.4519
+his duke moves to . 2.9537
+his duke moves fast . 3.1187
 the purple pig gives them . 0.0175
 give them the purple pig . 0.0003
 the pig asked them about . 0.0671
 ask them about the pig . 0.0006
 my pig wanted to . 0.0320
 my pig wanted him . 0.0033
-the close duke gives us . 0.8783
-give us the close duke . 0.0528
-my duke plays with his . 0.1742
-my duke plays with you . 0.0417
+the close duke gives us . 2.3510
+give us the close duke . 2.4301
+my duke plays with his . 2.9649
+my duke plays with you . 3.3055
 the dramatic pig gives us . 2.3598
 give us the dramatic pig . 2.4642
 the pig plays with his . 0.0014
@@ -306,8 +306,8 @@ the wolf asked him about . 0.0259
 ask him about the wolf . 0.0003
 his wolf moves to . 0.0597
 his wolf moves fast . 0.0589
-some duke looks at one . 0.0280
-some duke looks at you . 0.0047
+some duke looks at one . 2.4439
+some duke looks at you . 2.6553
 the losing doctor gives her . 2.5694
 give her the losing doctor . 2.2950
 the doctor asked her about . 0.1359
@@ -336,12 +336,12 @@ the doctor asked us about . 0.0369
 ask us about the doctor . 0.0005
 some doctor told you about one . 0.0060
 some doctor told you about that . 0.0013
-the big duke gives him . 0.0053
-give him the big duke . 0.0009
-the duke tells him about . 0.0006
-tell him about the duke . 0.0014
-my duke saw him by . 0.0309
-my duke saw him there . 0.0150
+the big duke gives him . 2.4759
+give him the big duke . 2.6458
+the duke tells him about . 2.1476
+tell him about the duke . 2.8145
+my duke saw him by . 2.5590
+my duke saw him there . 2.5264
 the appropriate slave gives me . 1.3571
 give me the appropriate slave . 1.4103
 the slave asked me about . 0.8144
@@ -430,12 +430,12 @@ the wolf tells him about . 0.0219
 tell him about the wolf . 0.0005
 my wolf sold that to . 0.2341
 my wolf sold them that . 0.1815
-the whole duke gives me . 0.3432
-give me the whole duke . 0.0019
-the duke tells me about . 0.0005
-tell me about the duke . 0.0014
-his duke works and . 0.0104
-his duke works well . 0.0987
+the whole duke gives me . 2.6656
+give me the whole duke . 2.5827
+the duke tells me about . 2.1751
+tell me about the duke . 2.4655
+his duke works and . 3.3027
+his duke works well . 2.2859
 the known boat gives me . 0.2461
 give me the known boat . 1.5844
 the boat asked them about . 0.2038
@@ -476,10 +476,10 @@ the dinosaur asked him about . 0.1877
 ask him about the dinosaur . 0.0539
 his dinosaur created the . 1.2031
 his dinosaur created you . 2.0247
-the left duke gives me . 0.1764
-give me the left duke . 0.0015
-some duke wrote her one . 0.0008
-some duke wrote her something . 0.0046
+the left duke gives me . 2.5194
+give me the left duke . 2.8468
+some duke wrote her one . 2.7798
+some duke wrote her something . 2.6795
 the directed boat gives us . 3.6809
 give us the directed boat . 2.6269
 the boat asked us about . 0.0656
@@ -552,8 +552,8 @@ the nice pig gives us . 0.2140
 give us the nice pig . 0.0009
 one pig works but . 1.7027
 one pig works well . 0.0039
-the spanish boat gives me . 0.4308
-give me the spanish boat . 0.2254
+the spanish boat gives me . 3.4200
+give me the spanish boat . 2.8116
 his boat wanted to . 0.0138
 his boat wanted her . 0.0220
 the green doctor gives us . 0.0236
@@ -572,8 +572,8 @@ the losing dinosaur gives her . 3.0157
 give her the losing dinosaur . 2.1775
 some dinosaur changed the . 0.6780
 some dinosaur changed her . 0.0008
-the spanish dinosaur gives her . 0.0330
-give her the spanish dinosaur . 0.0142
+the spanish dinosaur gives her . 2.8386
+give her the spanish dinosaur . 2.3635
 the dinosaur asked her about . 0.2008
 ask her about the dinosaur . 0.0063
 my dinosaur created his . 0.6001
@@ -618,16 +618,16 @@ the present doctor gives her . 0.0774
 give her the present doctor . 0.0024
 my doctor looks at his . 0.1265
 my doctor looks at you . 0.0081
-the human duke gives him . 0.0070
-give him the human duke . 0.0008
-his duke looks at some . 0.0263
-his duke looks at you . 0.0620
+the human duke gives him . 2.0426
+give him the human duke . 1.9699
+his duke looks at some . 2.1320
+his duke looks at you . 2.3355
 the dinosaur thinks about some . 0.0232
 the dinosaur thinks about him . 0.0141
-the bright duke gives him . 2.1417
-give him the bright duke . 0.1129
-his duke wrote me my . 0.1965
-his duke wrote me something . 0.0364
+the bright duke gives him . 2.2918
+give him the bright duke . 2.5610
+his duke wrote me my . 2.5084
+his duke wrote me something . 2.5773
 the holy wolf gives me . 1.7399
 give me the holy wolf . 1.8936
 some wolf sold that to . 0.0389
@@ -700,14 +700,14 @@ the pretty pig gives them . 0.0455
 give them the pretty pig . 0.0032
 his pig plays with some . 0.0417
 his pig plays with her . 0.0158
-the present duke gives me . 0.0223
-give me the present duke . 0.0060
-one duke moves to . 0.5248
-one duke moves fast . 0.5107
-the whole duke gives them . 0.4100
-give them the whole duke . 0.0032
-his duke created my . 0.7400
-his duke created them . 1.2947
+the present duke gives me . 2.3598
+give me the present duke . 2.3902
+one duke moves to . 2.4850
+one duke moves fast . 2.6556
+the whole duke gives them . 2.7778
+give them the whole duke . 2.8372
+his duke created my . 4.0675
+his duke created them . 3.5531
 the deep sister gives me . 0.4269
 give me the deep sister . 0.0252
 some sister told you about his . 0.0106
@@ -720,10 +720,10 @@ the big boat gives him . 0.2194
 give him the big boat . 0.2263
 his boat sold that to . 0.3475
 his boat sold me that . 0.3479
-the little duke gives them . 0.0105
-give them the little duke . 0.0351
-his duke sold that to . 0.0151
-his duke sold him that . 0.1306
+the little duke gives them . 2.8203
+give them the little duke . 2.9970
+his duke sold that to . 2.4370
+his duke sold him that . 2.4852
 the directed dinosaur gives them . 3.0737
 give them the directed dinosaur . 2.0678
 one dinosaur created some . 1.1303
@@ -732,8 +732,8 @@ the close doctor gives me . 0.6205
 give me the close doctor . 0.0140
 his doctor sold that to . 0.1785
 his doctor sold him that . 0.6291
-the spanish doctor gives them . 0.0204
-give them the spanish doctor . 0.0005
+the spanish doctor gives them . 2.4418
+give them the spanish doctor . 2.4951
 my doctor created his . 0.5752
 my doctor created her . 0.6089
 the fluid pig gives her . 2.9656
@@ -746,18 +746,18 @@ the stuck boat gives him . 0.4448
 give him the stuck boat . 0.0632
 some boat looks at some . 0.6423
 some boat looks at you . 0.0659
-the present duke gives him . 0.0378
-give him the present duke . 0.0011
-some duke wrote him his . 0.0306
-some duke wrote him something . 0.0019
-the tired duke gives us . 0.7030
-give us the tired duke . 0.0412
-one duke plays with his . 0.0325
-one duke plays with him . 0.0840
-the big duke gives us . 0.0360
-give us the big duke . 0.0334
-some duke wanted to . 0.0014
-some duke wanted me . 0.0627
+the present duke gives him . 2.8616
+give him the present duke . 2.5842
+some duke wrote him his . 2.7948
+some duke wrote him something . 2.6853
+the tired duke gives us . 2.3130
+give us the tired duke . 2.1507
+one duke plays with his . 2.3027
+one duke plays with him . 2.3613
+the big duke gives us . 2.3587
+give us the big duke . 2.2815
+some duke wanted to . 2.8857
+some duke wanted me . 3.2091
 the flat wolf gives us . 0.5847
 give us the flat wolf . 0.0752
 the wolf asked us about . 0.0594
@@ -782,12 +782,12 @@ the fluid sister gives them . 2.6118
 give them the fluid sister . 2.2343
 his sister works with . 0.0002
 his sister works well . 0.0007
-the known duke gives us . 0.2157
-give us the known duke . 0.3398
-the duke tells us about . 0.0021
-tell us about the duke . 0.0246
-a duke wanted to . 0.0496
-a duke wanted you . 0.5710
+the known duke gives us . 2.2296
+give us the known duke . 2.3733
+the duke tells us about . 2.1037
+tell us about the duke . 2.7614
+a duke wanted to . 2.1974
+a duke wanted you . 2.3433
 the silly wolf gives us . 0.6325
 give us the silly wolf . 0.0101
 some wolf thinks about the . 0.1065
@@ -796,14 +796,14 @@ the sufficient pig gives him . 3.2528
 give him the sufficient pig . 2.5018
 his pig works with . 0.1324
 his pig works well . 0.0954
-the current duke gives them . 1.6353
-give them the current duke . 0.9743
+the current duke gives them . 4.1106
+give them the current duke . 3.7959
 the wooden sister gives them . 0.0228
 give them the wooden sister . 0.0231
-the moved duke gives them . 1.6681
-give them the moved duke . 0.8255
-a duke plays with some . 0.0061
-a duke plays with you . 0.0015
+the moved duke gives them . 3.8674
+give them the moved duke . 3.3544
+a duke plays with some . 2.2430
+a duke plays with you . 2.1450
 the growing wolf gives him . 2.3668
 give him the growing wolf . 1.1428
 the wolf moves to . 0.0614
@@ -824,12 +824,12 @@ the known slave gives us . 0.5569
 give us the known slave . 0.6670
 my slave plays with my . 0.6295
 my slave plays with them . 2.5529
-the dangerous duke gives her . 1.5034
-give her the dangerous duke . 0.7278
-the duke asked her about . 0.0012
-ask her about the duke . 0.0003
-his duke saw her by . 0.0217
-his duke saw her there . 0.0151
+the dangerous duke gives her . 3.0563
+give her the dangerous duke . 3.4958
+the duke asked her about . 2.1585
+ask her about the duke . 2.4093
+his duke saw her by . 2.3433
+his duke saw her there . 2.3060
 the dangerous doctor gives me . 1.4674
 give me the dangerous doctor . 0.0097
 my doctor moves to . 0.3818
@@ -854,8 +854,8 @@ the expected slave gives them . 4.7838
 give them the expected slave . 1.9502
 his slave wrote me his . 1.9153
 his slave wrote me something . 1.1834
-the dark duke gives them . 0.0047
-give them the dark duke . 0.0004
+the dark duke gives them . 2.3640
+give them the dark duke . 2.6021
 the deep doctor gives her . 0.3101
 give her the deep doctor . 0.0009
 one doctor wrote them a . 0.1048
@@ -878,10 +878,10 @@ the dangerous slave gives her . 2.5256
 give her the dangerous slave . 0.1342
 my slave told them about my . 1.1429
 my slave told them about that . 1.5837
-the directed duke gives me . 2.2176
-give me the directed duke . 1.7397
-some duke looks at one . 0.0280
-some duke looks at her . 0.0105
+the directed duke gives me . 4.2564
+give me the directed duke . 3.4813
+some duke looks at one . 2.4439
+some duke looks at her . 2.6569
 the close sister gives her . 0.9233
 give her the close sister . 0.0022
 the sister wrote them some . 0.0109
@@ -916,10 +916,10 @@ his slave created a . 1.7580
 his slave created him . 2.5765
 the deep doctor gives me . 0.1718
 give me the deep doctor . 0.0018
-the spanish duke gives him . 0.2327
-give him the spanish duke . 0.0032
-the duke told me about my . 0.0019
-the duke told me about that . 0.0019
+the spanish duke gives him . 4.5158
+give him the spanish duke . 4.1769
+the duke told me about my . 2.0613
+the duke told me about that . 1.8964
 the dark boat gives us . 0.1674
 give us the dark boat . 0.0111
 the boat tells us about . 0.1635
@@ -982,10 +982,10 @@ the necessary dinosaur gives him . 3.4208
 give him the necessary dinosaur . 2.2823
 the dinosaur created one . 1.5451
 the dinosaur created them . 1.5092
-the good duke gives her . 0.0329
-give her the good duke . 0.0026
-the duke changed his . 0.0020
-the duke changed her . 0.0005
+the good duke gives her . 2.0391
+give her the good duke . 2.2939
+the duke changed his . 2.8636
+the duke changed her . 3.0924
 the heavy boat gives her . 0.1477
 give her the heavy boat . 0.1369
 the boat asked her about . 0.0920
@@ -1014,8 +1014,8 @@ the empty pig gives him . 0.0403
 give him the empty pig . 0.0001
 some pig works with . 0.0006
 some pig works well . 0.0053
-the spanish pig gives me . 0.0707
-give me the spanish pig . 0.1045
+the spanish pig gives me . 2.9484
+give me the spanish pig . 2.4063
 some pig thinks about the . 0.0068
 some pig thinks about him . 0.0014
 the necessary wolf gives us . 3.6526
@@ -1024,8 +1024,8 @@ the wolf tells us about . 0.0026
 tell us about the wolf . 0.0612
 some wolf looks at a . 0.0244
 some wolf looks at me . 0.0237
-the appropriate duke gives him . 1.4716
-give him the appropriate duke . 1.1165
+the appropriate duke gives him . 2.3006
+give him the appropriate duke . 3.6088
 the flat dinosaur gives him . 0.8952
 give him the flat dinosaur . 0.3014
 the directed boat gives him . 3.7741
@@ -1036,10 +1036,10 @@ the pretty boat gives him . 0.1584
 give him the pretty boat . 0.1286
 his boat saw them by . 0.1783
 his boat saw them there . 0.1528
-the permanent duke gives us . 1.9665
-give us the permanent duke . 1.2759
-one duke works with . 0.0012
-one duke works well . 0.0587
+the permanent duke gives us . 2.4665
+give us the permanent duke . 2.9861
+one duke works with . 2.9733
+one duke works well . 2.6621
 the human slave gives her . 1.5554
 give her the human slave . 0.0217
 an slave sold that to . 1.7929
@@ -1058,16 +1058,16 @@ my sister saw you by . 0.0012
 my sister saw you there . 0.0003
 his boat wrote him a . 0.0965
 his boat wrote him something . 0.2880
-the dark duke gives me . 0.0148
-give me the dark duke . 0.0008
-his duke told me about some . 0.0234
-his duke told me about that . 0.0024
-the flat duke gives us . 0.0151
-give us the flat duke . 0.0059
-his duke changed some . 0.0010
-his duke changed them . 0.0010
-the spanish doctor gives me . 0.0338
-give me the spanish doctor . 0.0756
+the dark duke gives me . 2.5928
+give me the dark duke . 2.4964
+his duke told me about some . 2.3088
+his duke told me about that . 2.5779
+the flat duke gives us . 2.6401
+give us the flat duke . 2.3553
+his duke changed some . 2.8782
+his duke changed them . 2.7547
+the spanish doctor gives me . 2.8940
+give me the spanish doctor . 2.7377
 his doctor plays with the . 0.0044
 his doctor plays with you . 0.0174
 the mixed wolf gives me . 2.5160
@@ -1088,16 +1088,16 @@ the old dinosaur gives him . 0.0973
 give him the old dinosaur . 0.0579
 my dinosaur told you about the . 0.1061
 my dinosaur told you about that . 0.0130
-the spanish dinosaur gives me . 0.0905
-give me the spanish dinosaur . 0.0965
+the spanish dinosaur gives me . 3.1505
+give me the spanish dinosaur . 2.4993
 a dinosaur wanted to . 0.0508
 a dinosaur wanted him . 0.0099
 the good dinosaur gives me . 0.3556
 give me the good dinosaur . 0.0223
-the appropriate duke gives them . 1.4345
-give them the appropriate duke . 1.2986
-the duke plays with a . 0.0213
-the duke plays with them . 0.0098
+the appropriate duke gives them . 2.2512
+give them the appropriate duke . 3.4974
+the duke plays with a . 2.6189
+the duke plays with them . 2.3823
 the current wolf gives them . 2.5119
 give them the current wolf . 2.0327
 some wolf sold that to . 0.0389
@@ -1166,10 +1166,10 @@ the moved pig gives them . 2.8900
 give them the moved pig . 1.8297
 some pig asked you about . 0.0092
 some pig asked about you . 0.0036
-the mixed duke gives them . 1.1294
-give them the mixed duke . 1.8198
-the duke told her about the . 0.0009
-the duke told her about that . 0.0024
+the mixed duke gives them . 4.2442
+give them the mixed duke . 2.9015
+the duke told her about the . 2.1728
+the duke told her about that . 2.0512
 the wooden boat gives him . 0.1338
 give him the wooden boat . 0.1081
 the boat plays with the . 0.0039
@@ -1192,10 +1192,10 @@ the tired sister gives her . 0.0980
 give her the tired sister . 0.0033
 some sister told her about a . 0.0278
 some sister told her about that . 0.1812
-the heavy duke gives them . 2.2474
-give them the heavy duke . 0.6160
-one duke changed one . 0.1017
-one duke changed me . 0.1055
+the heavy duke gives them . 2.4170
+give them the heavy duke . 2.7225
+one duke changed one . 3.8578
+one duke changed me . 2.8004
 the dramatic dinosaur gives him . 2.9417
 give him the dramatic dinosaur . 1.8647
 one dinosaur told him about his . 0.0327
@@ -1208,18 +1208,18 @@ the holy sister gives her . 2.7493
 give her the holy sister . 1.8969
 one sister told me about some . 0.0376
 one sister told me about that . 0.0068
-the tired duke gives me . 0.2854
-give me the tired duke . 0.0116
-some duke saw her by . 0.0013
-some duke saw her there . 0.0008
+the tired duke gives me . 2.2132
+give me the tired duke . 2.2115
+some duke saw her by . 2.9438
+some duke saw her there . 2.9626
 the current boat gives her . 3.0947
 give her the current boat . 2.9277
 one boat wrote them one . 1.3511
 one boat wrote them something . 0.2856
-the growing duke gives them . 2.2432
-give them the growing duke . 1.6329
-his duke wrote you a . 0.0405
-his duke wrote you something . 0.0852
+the growing duke gives them . 2.9495
+give them the growing duke . 2.0832
+his duke wrote you a . 2.5271
+his duke wrote you something . 2.5732
 the good dinosaur gives her . 0.1399
 give her the good dinosaur . 0.0065
 his dinosaur wrote them one . 0.0257
@@ -1322,8 +1322,8 @@ the tired sister gives me . 0.1091
 give me the tired sister . 0.0011
 some sister works with . 0.0002
 some sister works well . 0.0002
-one duke thinks about some . 0.0350
-one duke thinks about her . 0.1768
+one duke thinks about some . 2.4760
+one duke thinks about her . 2.2726
 the pretty dinosaur gives us . 0.0344
 give us the pretty dinosaur . 0.0492
 a dinosaur moves to . 0.7459
@@ -1334,10 +1334,10 @@ one slave sold that to . 2.6582
 one slave sold her that . 2.3646
 the present sister gives us . 0.0861
 give us the present sister . 0.0065
-the protected duke gives them . 2.0052
-give them the protected duke . 1.2903
-the duke moves to . 0.1554
-the duke moves fast . 0.0543
+the protected duke gives them . 4.4457
+give them the protected duke . 3.9479
+the duke moves to . 2.5175
+the duke moves fast . 2.6985
 his doctor moves to . 0.3322
 his doctor moves fast . 0.6782
 the holy slave gives her . 3.0770
@@ -1362,16 +1362,16 @@ the protected wolf gives them . 3.1522
 give them the protected wolf . 1.9990
 one wolf works when . 0.0207
 one wolf works well . 0.0015
-the passed duke gives us . 0.8014
-give us the passed duke . 0.0325
-the human duke gives her . 0.0173
-give her the human duke . 0.0906
+the passed duke gives us . 1.9611
+give us the passed duke . 2.4166
+the human duke gives her . 1.8783
+give her the human duke . 1.8092
 the long sister gives us . 0.0727
 give us the long sister . 0.0014
 a sister thinks about some . 0.0035
 a sister thinks about them . 0.0003
-one duke wrote them my . 0.9549
-one duke wrote them something . 0.5819
+one duke wrote them my . 2.6298
+one duke wrote them something . 2.5172
 the old slave gives her . 1.5082
 give her the old slave . 0.0055
 a slave plays with his . 0.1192
@@ -1406,10 +1406,10 @@ the expected doctor gives him . 2.4726
 give him the expected doctor . 3.0169
 my doctor plays with my . 0.0024
 my doctor plays with them . 0.0020
-the dramatic duke gives him . 2.5907
-give him the dramatic duke . 1.9255
-a duke created the . 0.2513
-a duke created me . 0.8168
+the dramatic duke gives him . 4.4114
+give him the dramatic duke . 3.7651
+a duke created the . 3.7498
+a duke created me . 2.9458
 the silly boat gives them . 0.3768
 give them the silly boat . 0.0091
 his boat saw him by . 0.2514
@@ -1420,10 +1420,10 @@ my wolf looks at his . 0.0098
 my wolf looks at him . 0.0120
 the removed dinosaur gives them . 3.4949
 give them the removed dinosaur . 2.8713
-the necessary duke gives me . 2.6434
-give me the necessary duke . 1.7125
-some duke thinks about his . 0.0029
-some duke thinks about her . 0.0045
+the necessary duke gives me . 4.5877
+give me the necessary duke . 4.1854
+some duke thinks about his . 2.4267
+some duke thinks about her . 2.9868
 the long wolf gives him . 0.0542
 give him the long wolf . 0.1208
 the wolf told them about one . 0.0284
@@ -1440,20 +1440,20 @@ the purple wolf gives them . 0.0721
 give them the purple wolf . 0.0016
 his wolf told them about his . 0.3695
 his wolf told them about that . 0.1098
-the protected duke gives me . 1.7690
-give me the protected duke . 1.4168
-my duke wanted to . 0.0056
-my duke wanted her . 0.0273
+the protected duke gives me . 4.1076
+give me the protected duke . 3.3691
+my duke wanted to . 2.6727
+my duke wanted her . 2.3069
 the necessary doctor gives them . 3.3216
 give them the necessary doctor . 2.5656
 the doctor tells them about . 0.0078
 tell them about the doctor . 0.0001
 one doctor moves to . 0.4559
 one doctor moves fast . 0.3108
-the heavy duke gives us . 1.5736
-give us the heavy duke . 0.7695
-some duke looks at some . 0.0102
-some duke looks at me . 0.1626
+the heavy duke gives us . 2.4685
+give us the heavy duke . 2.5461
+some duke looks at some . 2.3324
+some duke looks at me . 2.6342
 the green pig gives us . 0.2870
 give us the green pig . 0.0002
 my pig sold that to . 0.6293
@@ -1478,10 +1478,10 @@ the growing wolf gives her . 2.3113
 give her the growing wolf . 1.8246
 his wolf works and . 0.0645
 his wolf works well . 0.0025
-the little duke gives him . 0.0072
-give him the little duke . 0.0013
-one duke sold that to . 0.1755
-one duke sold them that . 0.5466
+the little duke gives him . 2.5982
+give him the little duke . 3.0009
+one duke sold that to . 2.3472
+one duke sold them that . 2.3817
 the green slave gives him . 1.7208
 give him the green slave . 1.6086
 the slave looks at the . 1.7520
@@ -1494,10 +1494,10 @@ one boat wrote him the . 0.1744
 one boat wrote him something . 0.3111
 some dinosaur sold that to . 0.0731
 some dinosaur sold you that . 0.6328
-the directed duke gives them . 2.2892
-give them the directed duke . 1.5435
-one duke wrote him one . 0.9837
-one duke wrote him something . 1.1160
+the directed duke gives them . 4.4075
+give them the directed duke . 3.6807
+one duke wrote him one . 3.6459
+one duke wrote him something . 2.3039
 the appropriate wolf gives him . 1.3633
 give him the appropriate wolf . 2.6486
 some wolf changed my . 0.0112
@@ -1514,12 +1514,12 @@ the growing dinosaur gives me . 1.2019
 give me the growing dinosaur . 1.1875
 some dinosaur plays with one . 0.0279
 some dinosaur plays with her . 0.0164
-the green duke gives him . 0.0346
-give him the green duke . 0.0002
-some duke plays with my . 0.0223
-some duke plays with them . 0.0043
-one duke plays with one . 0.0216
-one duke plays with you . 0.0558
+the green duke gives him . 2.5501
+give him the green duke . 3.4284
+some duke plays with my . 2.2791
+some duke plays with them . 2.5826
+one duke plays with one . 2.4430
+one duke plays with you . 2.5531
 the long slave gives him . 1.6636
 give him the long slave . 0.0051
 a slave looks at my . 1.6469
@@ -1566,8 +1566,8 @@ the deep wolf gives him . 0.6842
 give him the deep wolf . 0.0222
 one wolf wanted to . 0.0036
 one wolf wanted you . 0.0312
-the spanish sister gives them . 0.1987
-give them the spanish sister . 0.0080
+the spanish sister gives them . 3.3026
+give them the spanish sister . 2.9656
 the sister works and . 0.0701
 the sister works well . 0.0003
 the expected doctor gives them . 2.5447
@@ -1608,10 +1608,10 @@ the directed pig gives them . 2.8703
 give them the directed pig . 2.8532
 some pig saw her by . 0.0009
 some pig saw her there . 0.0008
-the holy duke gives her . 1.8160
-give her the holy duke . 1.2721
-the duke works with . 0.0002
-the duke works well . 0.0074
+the holy duke gives her . 4.0915
+give her the holy duke . 3.7330
+the duke works with . 2.0534
+the duke works well . 2.3112
 the expected boat gives me . 3.1752
 give me the expected boat . 2.5089
 his boat plays with the . 0.0019
@@ -1714,8 +1714,8 @@ a dinosaur told him about my . 0.0294
 a dinosaur told him about that . 0.1856
 the losing dinosaur gives him . 3.2106
 give him the losing dinosaur . 1.9453
-the spanish sister gives him . 0.1089
-give him the spanish sister . 0.0101
+the spanish sister gives him . 3.3838
+give him the spanish sister . 2.8082
 a sister changed the . 0.0042
 a sister changed him . 0.0228
 the old pig gives her . 0.0731
@@ -1732,8 +1732,8 @@ the bright sister gives them . 1.1348
 give them the bright sister . 0.0388
 the sister moves to . 0.1056
 the sister moves fast . 0.4143
-his duke asked her about . 0.0465
-his duke asked about her . 0.4192
+his duke asked her about . 2.2895
+his duke asked about her . 2.5493
 the fluid pig gives them . 3.0780
 give them the fluid pig . 2.1422
 my pig asked her about . 0.0320
@@ -1750,12 +1750,12 @@ the old boat gives us . 0.2334
 give us the old boat . 0.0035
 my boat sold that to . 0.8482
 my boat sold her that . 0.9885
-the nice duke gives us . 0.0777
-give us the nice duke . 0.0021
-the losing duke gives us . 2.7359
-give us the losing duke . 1.4527
-an duke wrote me a . 0.0312
-an duke wrote me something . 0.0020
+the nice duke gives us . 2.2209
+give us the nice duke . 2.2786
+the losing duke gives us . 2.1757
+give us the losing duke . 1.9756
+an duke wrote me a . 2.7452
+an duke wrote me something . 2.6642
 the big wolf gives me . 0.2726
 give me the big wolf . 0.0008
 some wolf moves to . 0.1442
@@ -1766,10 +1766,10 @@ the pig wrote me the . 0.0008
 the pig wrote me something . 0.0351
 the dark sister gives her . 0.0090
 give her the dark sister . 0.0019
-the left duke gives him . 0.3747
-give him the left duke . 0.0022
-my duke sold that to . 0.0566
-my duke sold you that . 0.6144
+the left duke gives him . 2.5336
+give him the left duke . 2.6013
+my duke sold that to . 2.4980
+my duke sold you that . 2.8878
 the good doctor gives her . 0.0350
 give her the good doctor . 0.0023
 the doctor created my . 1.1075
@@ -1794,20 +1794,20 @@ the stuck dinosaur gives us . 0.0237
 give us the stuck dinosaur . 0.1431
 the dinosaur asked you about . 0.0482
 the dinosaur asked about you . 0.0114
-the human duke gives us . 0.0308
-give us the human duke . 0.0031
-the duke plays with a . 0.0213
-the duke plays with her . 0.0010
+the human duke gives us . 2.2002
+give us the human duke . 2.2141
+the duke plays with a . 2.6189
+the duke plays with her . 2.3239
 a dinosaur wanted to . 0.0508
 a dinosaur wanted me . 0.4777
-the fluid duke gives me . 1.9482
-give me the fluid duke . 1.6466
-a duke thinks about the . 0.0017
-a duke thinks about me . 0.0006
+the fluid duke gives me . 2.8546
+give me the fluid duke . 2.2454
+a duke thinks about the . 1.6176
+a duke thinks about me . 1.6136
 the dinosaur asked her about . 0.2008
 the dinosaur asked about her . 0.0732
-his duke wanted to . 0.0124
-his duke wanted them . 0.0266
+his duke wanted to . 2.9758
+his duke wanted them . 3.2214
 the stuck doctor gives her . 1.8499
 give her the stuck doctor . 0.0680
 some doctor moves to . 0.1841
@@ -1820,20 +1820,20 @@ the passed slave gives him . 2.0695
 give him the passed slave . 0.4645
 my slave created his . 2.6439
 my slave created me . 2.1415
-the present duke gives her . 0.0772
-give her the present duke . 0.0012
-a duke wrote her his . 0.1383
-a duke wrote her something . 0.0109
+the present duke gives her . 2.6180
+give her the present duke . 2.3138
+a duke wrote her his . 2.1649
+a duke wrote her something . 1.9354
 the close sister gives me . 0.8404
 give me the close sister . 0.0731
 one sister wrote you some . 0.2479
 one sister wrote you something . 0.1068
 the dangerous pig gives us . 0.9863
 give us the dangerous pig . 0.9849
-the wooden duke gives us . 0.3263
-give us the wooden duke . 0.0497
-some duke works with . 0.0034
-some duke works well . 0.0718
+the wooden duke gives us . 2.7927
+give us the wooden duke . 2.4823
+some duke works with . 2.8294
+some duke works well . 3.0500
 the silly sister gives us . 0.0315
 give us the silly sister . 0.0224
 the sister wanted to . 0.0004
@@ -1842,12 +1842,12 @@ the present sister gives me . 0.1847
 give me the present sister . 0.0199
 my sister plays with his . 0.0009
 my sister plays with you . 0.0004
-the permanent duke gives me . 1.9666
-give me the permanent duke . 1.2490
-my duke thinks about a . 0.0109
-my duke thinks about her . 0.0175
-his duke wrote them the . 0.0216
-his duke wrote them something . 0.0146
+the permanent duke gives me . 2.5562
+give me the permanent duke . 3.1428
+my duke thinks about a . 2.0207
+my duke thinks about her . 2.1409
+his duke wrote them the . 2.7896
+his duke wrote them something . 2.9591
 the pretty sister gives them . 0.2252
 give them the pretty sister . 0.0024
 my sister created a . 0.2001
@@ -1870,16 +1870,16 @@ the dinosaur moves to . 0.6208
 the dinosaur moves fast . 0.9982
 the dark doctor gives him . 0.1930
 give him the dark doctor . 0.0035
-the dark duke gives us . 0.0116
-give us the dark duke . 0.0015
-some duke told them about the . 0.0006
-some duke told them about that . 0.0001
+the dark duke gives us . 2.4479
+give us the dark duke . 2.4537
+some duke told them about the . 2.5228
+some duke told them about that . 2.4892
 the dark dinosaur gives him . 0.3054
 give him the dark dinosaur . 0.0048
 one dinosaur thinks about his . 0.0470
 one dinosaur thinks about them . 0.1118
-his duke created one . 1.7019
-his duke created me . 0.5710
+his duke created one . 3.9541
+his duke created me . 3.7026
 the removed wolf gives her . 2.7398
 give her the removed wolf . 3.1252
 the wolf told her about some . 0.0257
@@ -1898,14 +1898,14 @@ the long pig gives them . 0.0142
 give them the long pig . 0.2076
 some pig told me about my . 0.0021
 some pig told me about that . 0.0040
-the silly duke gives him . 0.0557
-give him the silly duke . 0.0004
-a duke works with . 0.0022
-a duke works well . 0.0948
-the holy duke gives us . 1.8534
-give us the holy duke . 1.3007
-a duke changed a . 0.0072
-a duke changed them . 0.0025
+the silly duke gives him . 2.4563
+give him the silly duke . 2.8155
+a duke works with . 2.1979
+a duke works well . 2.4319
+the holy duke gives us . 2.8213
+give us the holy duke . 3.3470
+a duke changed a . 2.4985
+a duke changed them . 2.3511
 the wooden pig gives me . 0.0503
 give me the wooden pig . 0.0046
 the pig wrote you my . 0.0021
@@ -1922,8 +1922,8 @@ the permanent doctor gives her . 1.9641
 give her the permanent doctor . 1.9816
 his doctor created one . 1.3543
 his doctor created her . 0.9799
-one duke wanted to . 0.0007
-one duke wanted you . 0.0880
+one duke wanted to . 3.6138
+one duke wanted you . 2.8290
 the purple dinosaur gives him . 0.8599
 give him the purple dinosaur . 0.0009
 one dinosaur wrote them the . 0.1614
@@ -1954,12 +1954,12 @@ my pig created some . 1.3389
 my pig created her . 0.4237
 my doctor told me about his . 0.0010
 my doctor told me about that . 0.0015
-the sufficient duke gives them . 2.0768
-give them the sufficient duke . 1.8909
-the current duke gives him . 1.7234
-give him the current duke . 0.8967
-my duke sold that to . 0.0566
-my duke sold them that . 0.0464
+the sufficient duke gives them . 4.7701
+give them the sufficient duke . 4.3234
+the current duke gives him . 4.1760
+give him the current duke . 3.3736
+my duke sold that to . 2.4980
+my duke sold them that . 2.4388
 the growing dinosaur gives him . 1.2872
 give him the growing dinosaur . 1.1745
 my dinosaur asked them about . 0.1256
@@ -1994,10 +1994,10 @@ some boat asked them about . 0.0186
 some boat asked about them . 0.0113
 the usual doctor gives him . 1.2886
 give him the usual doctor . 1.3154
-the good duke gives me . 0.0999
-give me the good duke . 0.0008
-my duke sold that to . 0.0566
-my duke sold her that . 0.2999
+the good duke gives me . 2.2916
+give me the good duke . 1.9002
+my duke sold that to . 2.4980
+my duke sold her that . 2.2016
 my sister wanted to . 0.0009
 my sister wanted her . 0.0075
 the mixed slave gives her . 2.6092
@@ -2016,8 +2016,8 @@ the permanent doctor gives us . 1.6787
 give us the permanent doctor . 1.8195
 some doctor asked them about . 0.0664
 some doctor asked about them . 0.0342
-the spanish dinosaur gives him . 0.0743
-give him the spanish dinosaur . 0.0485
+the spanish dinosaur gives him . 3.1469
+give him the spanish dinosaur . 2.3340
 one dinosaur thinks about some . 0.1330
 one dinosaur thinks about me . 0.0283
 the fluid pig gives him . 3.2593
@@ -2034,10 +2034,10 @@ one dinosaur created some . 1.1303
 one dinosaur created you . 1.3827
 a doctor plays with his . 0.0017
 a doctor plays with you . 0.0075
-the dangerous duke gives him . 1.8484
-give him the dangerous duke . 0.6718
-some duke moves to . 0.2234
-some duke moves fast . 0.3246
+the dangerous duke gives him . 2.9663
+give him the dangerous duke . 3.7380
+some duke moves to . 2.3244
+some duke moves fast . 3.2030
 one sister asked you about . 0.0014
 one sister asked about you . 0.0155
 the stuck dinosaur gives them . 0.5062
@@ -2056,8 +2056,8 @@ the little wolf gives us . 0.5673
 give us the little wolf . 0.0021
 my wolf thinks about some . 0.1941
 my wolf thinks about him . 0.0080
-the spanish slave gives them . 1.6450
-give them the spanish slave . 1.4117
+the spanish slave gives them . 2.8124
+give them the spanish slave . 2.1554
 some dinosaur works but . 1.8309
 some dinosaur works well . 0.0363
 the sufficient slave gives them . 2.6222
@@ -2082,8 +2082,8 @@ the long dinosaur gives her . 0.2998
 give her the long dinosaur . 0.0070
 a pig asked him about . 0.0328
 a pig asked about him . 0.0056
-the coming duke gives me . 1.5948
-give me the coming duke . 1.5374
+the coming duke gives me . 2.7478
+give me the coming duke . 2.2370
 the heavy doctor gives them . 0.9525
 give them the heavy doctor . 0.0010
 the passed wolf gives him . 1.9360
@@ -2112,14 +2112,14 @@ the close pig gives them . 0.6751
 give them the close pig . 0.0735
 a pig plays with one . 0.0015
 a pig plays with you . 0.0002
-the spanish duke gives us . 0.1044
-give us the spanish duke . 0.0044
-his duke plays with the . 0.0088
-his duke plays with him . 0.0055
-the flat duke gives me . 0.0249
-give me the flat duke . 0.0008
-my duke thinks about a . 0.0109
-my duke thinks about them . 0.0032
+the spanish duke gives us . 4.0656
+give us the spanish duke . 4.3689
+his duke plays with the . 2.7296
+his duke plays with him . 3.1188
+the flat duke gives me . 3.0251
+give me the flat duke . 2.6465
+my duke thinks about a . 2.0207
+my duke thinks about them . 2.2060
 the permanent boat gives her . 2.3924
 give her the permanent boat . 2.5596
 an boat looks at the . 0.0101
@@ -2130,10 +2130,10 @@ the doctor wanted to . 0.0088
 the doctor wanted her . 0.0215
 the close boat gives me . 0.4231
 give me the close boat . 0.0524
-the nice duke gives them . 0.4067
-give them the nice duke . 0.0007
-a duke asked them about . 0.0070
-a duke asked about them . 0.1606
+the nice duke gives them . 2.2897
+give them the nice duke . 2.4175
+a duke asked them about . 1.7837
+a duke asked about them . 2.0565
 his pig asked them about . 0.1611
 his pig asked about them . 0.0594
 his wolf looks at a . 0.0113
@@ -2142,14 +2142,14 @@ the dramatic doctor gives us . 2.1424
 give us the dramatic doctor . 2.3355
 a doctor wrote her the . 0.0169
 a doctor wrote her something . 0.0136
-an duke told them about the . 0.0021
-an duke told them about that . 0.0006
+an duke told them about the . 3.0221
+an duke told them about that . 2.6549
 the good doctor gives me . 0.1762
 give me the good doctor . 0.0056
 a doctor told me about a . 0.0120
 a doctor told me about that . 0.0044
-the spanish dinosaur gives them . 0.1675
-give them the spanish dinosaur . 0.1685
+the spanish dinosaur gives them . 3.3862
+give them the spanish dinosaur . 2.4409
 the protected dinosaur gives us . 3.3265
 give us the protected dinosaur . 2.4459
 his dinosaur saw him by . 0.3317
@@ -2158,20 +2158,20 @@ the stuck pig gives him . 0.0475
 give him the stuck pig . 0.0049
 a pig looks at his . 0.0431
 a pig looks at them . 0.0005
-the current duke gives us . 1.4588
-give us the current duke . 0.8219
-the duke plays with some . 0.0486
-the duke plays with you . 0.0038
+the current duke gives us . 3.4331
+give us the current duke . 3.6305
+the duke plays with some . 2.7860
+the duke plays with you . 2.4455
 the deep pig gives them . 0.1923
 give them the deep pig . 0.0210
 the growing pig gives her . 2.7987
 give her the growing pig . 1.6958
 some doctor sold that to . 0.2913
 some doctor sold her that . 0.7584
-the close duke gives them . 1.1348
-give them the close duke . 0.0254
-the duke wanted to . 0.0001
-the duke wanted him . 0.0587
+the close duke gives them . 2.3273
+give them the close duke . 2.4262
+the duke wanted to . 2.7249
+the duke wanted him . 2.9292
 the deep sister gives them . 0.2471
 give them the deep sister . 0.0178
 the sister thinks about some . 0.0171
@@ -2212,8 +2212,8 @@ the removed doctor gives her . 2.8725
 give her the removed doctor . 3.0393
 some slave saw him by . 2.5269
 some slave saw him there . 2.9741
-the spanish boat gives them . 0.7255
-give them the spanish boat . 0.2050
+the spanish boat gives them . 2.6578
+give them the spanish boat . 2.4790
 the mixed wolf gives her . 2.0015
 give her the mixed wolf . 2.9977
 the moved boat gives him . 2.8275
@@ -2290,10 +2290,10 @@ the stuck sister gives her . 2.1828
 give her the stuck sister . 0.6940
 the sister wrote you one . 0.0249
 the sister wrote you something . 0.0021
-the purple duke gives him . 0.0103
-give him the purple duke . 0.0003
-one duke told him about some . 0.0031
-one duke told him about that . 0.0112
+the purple duke gives him . 2.2702
+give him the purple duke . 2.6330
+one duke told him about some . 2.0166
+one duke told him about that . 2.0150
 an slave told me about some . 0.8708
 an slave told me about that . 1.1840
 the old doctor gives me . 0.3435
@@ -2348,10 +2348,10 @@ the pretty slave gives him . 1.2774
 give him the pretty slave . 0.0087
 his slave wanted to . 0.8368
 his slave wanted them . 1.4501
-the green duke gives us . 0.0667
-give us the green duke . 0.0026
-one duke sold that to . 0.1755
-one duke sold him that . 0.7771
+the green duke gives us . 2.3476
+give us the green duke . 3.1607
+one duke sold that to . 2.3472
+one duke sold him that . 2.3718
 the heavy slave gives them . 2.4232
 give them the heavy slave . 0.5522
 a slave changed his . 1.0370
@@ -2370,34 +2370,34 @@ the coming doctor gives us . 0.5582
 give us the coming doctor . 0.0149
 the doctor looks at some . 0.0354
 the doctor looks at me . 0.0120
-the bright duke gives her . 1.9155
-give her the bright duke . 0.2210
-his duke told him about a . 0.0376
-his duke told him about that . 0.0043
+the bright duke gives her . 2.2103
+give her the bright duke . 2.8573
+his duke told him about a . 2.1347
+his duke told him about that . 2.4344
 the passed boat gives him . 2.3468
 give him the passed boat . 2.0908
 the boat wanted to . 0.0294
 the boat wanted her . 0.0257
-the expected duke gives them . 2.1728
-give them the expected duke . 2.6473
-the duke wrote you the . 0.0128
-the duke wrote you something . 0.0167
+the expected duke gives them . 4.5037
+give them the expected duke . 3.9634
+the duke wrote you the . 2.4449
+the duke wrote you something . 2.2969
 the losing pig gives them . 3.1194
 give them the losing pig . 2.1495
 some pig changed one . 0.0218
 some pig changed them . 0.0013
-the good duke gives him . 0.0168
-give him the good duke . 0.0013
+the good duke gives him . 2.1677
+give him the good duke . 2.3631
 the protected wolf gives us . 3.0663
 give us the protected wolf . 1.7834
 one wolf sold that to . 0.1332
 one wolf sold you that . 1.0960
 a boat plays with a . 0.4127
 a boat plays with them . 0.0107
-the empty duke gives us . 0.0471
-give us the empty duke . 0.0018
-a duke thinks about the . 0.0017
-a duke thinks about him . 0.0003
+the empty duke gives us . 2.4543
+give us the empty duke . 2.5956
+a duke thinks about the . 1.6176
+a duke thinks about him . 1.6795
 the green dinosaur gives her . 0.2714
 give her the green dinosaur . 0.0024
 my dinosaur thinks about a . 0.0026
@@ -2428,8 +2428,8 @@ the removed dinosaur gives him . 2.9934
 give him the removed dinosaur . 2.5551
 one dinosaur created his . 2.1616
 one dinosaur created him . 1.9418
-one duke sold that to . 0.1755
-one duke sold me that . 0.3732
+one duke sold that to . 2.3472
+one duke sold me that . 2.5392
 the silly boat gives us . 0.0805
 give us the silly boat . 0.0113
 the boat saw me by . 0.0516
@@ -2460,18 +2460,18 @@ the usual dinosaur gives us . 2.0431
 give us the usual dinosaur . 0.9033
 his dinosaur created a . 0.4123
 his dinosaur created them . 1.6146
-my duke created the . 0.3250
-my duke created her . 0.6275
+my duke created the . 3.2327
+my duke created her . 2.6121
 my wolf created some . 0.3801
 my wolf created him . 0.7831
 some boat created the . 1.9321
 some boat created her . 1.4526
-the moved duke gives her . 1.6184
-give her the moved duke . 1.0862
-the dramatic duke gives us . 2.2886
-give us the dramatic duke . 1.9344
-my duke saw you by . 0.0059
-my duke saw you there . 0.0280
+the moved duke gives her . 3.8313
+give her the moved duke . 3.3018
+the dramatic duke gives us . 3.9178
+give us the dramatic duke . 3.9657
+my duke saw you by . 2.3707
+my duke saw you there . 2.2647
 the firm slave gives him . 0.6620
 give him the firm slave . 0.1362
 my slave looks at the . 1.7065
@@ -2496,10 +2496,10 @@ the usual pig gives her . 1.6546
 give her the usual pig . 1.5034
 my pig told you about the . 0.0107
 my pig told you about that . 0.0029
-the coming duke gives her . 1.8178
-give her the coming duke . 1.9934
-my duke moves to . 0.1579
-my duke moves fast . 0.0579
+the coming duke gives her . 2.5989
+give her the coming duke . 2.4290
+my duke moves to . 2.5277
+my duke moves fast . 3.2052
 the green doctor gives him . 0.0515
 give him the green doctor . 0.0014
 one doctor thinks about some . 0.0486
@@ -2554,8 +2554,8 @@ a doctor sold that to . 0.5196
 a doctor sold me that . 1.0124
 his wolf wrote me a . 0.0117
 his wolf wrote me something . 0.0155
-the revolutionary duke gives him . 2.0372
-give him the revolutionary duke . 1.3985
+the revolutionary duke gives him . 4.7667
+give him the revolutionary duke . 3.7897
 the growing boat gives them . 1.7546
 give them the growing boat . 0.8847
 his boat wrote them one . 1.2814
@@ -2608,18 +2608,18 @@ his boat sold that to . 0.3475
 his boat sold her that . 0.8821
 a boat changed my . 0.7933
 a boat changed me . 1.5018
-his duke plays with a . 0.0015
-his duke plays with me . 0.0593
+his duke plays with a . 2.5536
+his duke plays with me . 2.9132
 the wolf sold that to . 0.0598
 the wolf sold you that . 0.9087
 my dinosaur saw her by . 0.1718
 my dinosaur saw her there . 0.0103
 some boat sold that to . 0.5562
 some boat sold him that . 0.7820
-the stuck duke gives her . 1.5820
-give her the stuck duke . 0.6766
-an duke plays with some . 0.0230
-an duke plays with you . 0.0037
+the stuck duke gives her . 2.0167
+give her the stuck duke . 2.1547
+an duke plays with some . 2.3044
+an duke plays with you . 2.2907
 the dark wolf gives him . 0.5097
 give him the dark wolf . 0.0042
 some wolf saw him by . 0.0657
@@ -2652,8 +2652,8 @@ the green wolf gives me . 0.3814
 give me the green wolf . 0.0071
 the wolf wrote me the . 0.0011
 the wolf wrote me something . 0.0552
-his duke plays with one . 0.0012
-his duke plays with you . 0.1274
+his duke plays with one . 2.8468
+his duke plays with you . 2.9039
 my sister looks at one . 0.0036
 my sister looks at him . 0.0001
 some sister sold that to . 0.0872
@@ -2716,8 +2716,8 @@ my pig changed the . 0.0020
 my pig changed her . 0.0015
 some dinosaur told me about some . 0.0229
 some dinosaur told me about that . 0.1066
-the pretty duke gives us . 0.1176
-give us the pretty duke . 0.0056
+the pretty duke gives us . 2.2825
+give us the pretty duke . 2.7812
 the wolf changed his . 0.0430
 the wolf changed them . 0.0890
 the left slave gives us . 1.7040
@@ -2738,46 +2738,46 @@ one slave thinks about the . 1.8663
 one slave thinks about them . 2.0093
 some boat looks at some . 0.6423
 some boat looks at her . 0.1226
-the spanish doctor gives him . 0.0667
-give him the spanish doctor . 0.0091
+the spanish doctor gives him . 2.4845
+give him the spanish doctor . 2.8031
 a doctor thinks about my . 0.0004
 a doctor thinks about her . 0.0440
-the removed duke gives them . 1.9762
-give them the removed duke . 1.3697
-the duke wanted to . 0.0001
-the duke wanted her . 0.0556
+the removed duke gives them . 3.6551
+give them the removed duke . 2.9623
+the duke wanted to . 2.7249
+the duke wanted her . 2.7294
 the present boat gives me . 1.9926
 give me the present boat . 0.0156
 one boat created his . 2.4053
 one boat created them . 1.9879
-a duke sold that to . 0.0098
-a duke sold me that . 0.0725
+a duke sold that to . 2.1204
+a duke sold me that . 2.5775
 the nice sister gives them . 0.2045
 give them the nice sister . 0.0013
 one sister changed his . 0.0533
 one sister changed me . 0.0588
 a dinosaur works with . 0.0120
 a dinosaur works well . 0.0430
-the growing duke gives me . 1.7980
-give me the growing duke . 1.7929
+the growing duke gives me . 2.4723
+give me the growing duke . 2.0718
 the whole doctor gives us . 0.3160
 give us the whole doctor . 0.0039
 the appropriate wolf gives her . 0.4573
 give her the appropriate wolf . 2.1027
 my wolf wanted to . 0.0032
 my wolf wanted you . 0.0266
-the spanish slave gives her . 1.1367
-give her the spanish slave . 0.7541
+the spanish slave gives her . 2.6367
+give her the spanish slave . 2.2248
 some slave looks at the . 2.0084
 some slave looks at her . 2.5517
 his pig changed some . 0.2378
 his pig changed her . 0.2734
 the big pig gives us . 0.2269
 give us the big pig . 0.0003
-the purple duke gives me . 0.0278
-give me the purple duke . 0.0004
-his duke plays with the . 0.0088
-his duke plays with her . 0.0056
+the purple duke gives me . 2.2544
+give me the purple duke . 2.7571
+his duke plays with the . 2.7296
+his duke plays with her . 2.5694
 an dinosaur works and . 0.1214
 an dinosaur works well . 0.0783
 the mean wolf gives me . 0.6739
@@ -2834,10 +2834,10 @@ the purple doctor gives him . 0.1609
 give him the purple doctor . 0.0015
 one doctor plays with his . 0.0150
 one doctor plays with you . 0.0242
-the sufficient duke gives her . 1.9917
-give her the sufficient duke . 1.8066
-his duke created some . 0.7126
-his duke created her . 0.7267
+the sufficient duke gives her . 4.6017
+give her the sufficient duke . 4.3863
+his duke created some . 4.4239
+his duke created her . 3.2088
 the sufficient dinosaur gives him . 2.9892
 give him the sufficient dinosaur . 2.1430
 the dinosaur plays with some . 0.0229
@@ -2848,22 +2848,22 @@ my doctor works with . 0.0028
 my doctor works well . 0.0283
 one boat told me about a . 0.1656
 one boat told me about that . 0.1493
-the losing duke gives her . 2.5140
-give her the losing duke . 1.3943
+the losing duke gives her . 2.8377
+give her the losing duke . 2.7186
 the sister looks at the . 0.0068
 the sister looks at you . 0.0002
 some dinosaur saw me by . 0.1669
 some dinosaur saw me there . 0.1709
 the human wolf gives me . 0.3082
 give me the human wolf . 0.0247
-the passed duke gives him . 0.8141
-give him the passed duke . 0.2176
+the passed duke gives him . 2.1756
+give him the passed duke . 2.0810
 the removed boat gives her . 3.4949
 give her the removed boat . 4.2815
-the mean duke gives her . 0.0142
-give her the mean duke . 0.0353
-a duke asked her about . 0.0243
-a duke asked about her . 0.5367
+the mean duke gives her . 1.9900
+give her the mean duke . 2.0715
+a duke asked her about . 1.8347
+a duke asked about her . 1.9719
 the flat boat gives us . 0.1388
 give us the flat boat . 0.0268
 some boat changed my . 0.1274
@@ -2902,14 +2902,14 @@ some wolf wanted to . 0.0179
 some wolf wanted her . 0.0156
 the mean dinosaur gives him . 0.0340
 give him the mean dinosaur . 0.0272
-the holy duke gives him . 2.0496
-give him the holy duke . 1.2377
-a duke created his . 0.6567
-a duke created him . 0.8250
-the dark duke gives her . 0.0074
-give her the dark duke . 0.0024
-his duke told them about one . 0.0013
-his duke told them about that . 0.0005
+the holy duke gives him . 3.8972
+give him the holy duke . 3.6156
+a duke created his . 3.5201
+a duke created him . 3.4071
+the dark duke gives her . 2.3253
+give her the dark duke . 2.4500
+his duke told them about one . 2.4681
+his duke told them about that . 2.5609
 the losing boat gives us . 2.3216
 give us the losing boat . 2.3856
 the current pig gives us . 2.3218
@@ -2970,20 +2970,20 @@ the whole slave gives him . 1.3521
 give him the whole slave . 0.0017
 some slave plays with a . 0.7780
 some slave plays with them . 2.6767
-the known duke gives him . 0.4971
-give him the known duke . 0.6999
+the known duke gives him . 2.0979
+give him the known duke . 2.5785
 the old dinosaur gives her . 0.0735
 give her the old dinosaur . 0.0033
 the coming sister gives her . 2.1086
 give her the coming sister . 2.5554
 one sister wanted to . 0.0039
 one sister wanted him . 0.1502
-an duke wrote him my . 0.0227
-an duke wrote him something . 0.0086
-the purple duke gives them . 0.0331
-give them the purple duke . 0.0012
-the duke saw you by . 0.0036
-the duke saw you there . 0.0002
+an duke wrote him my . 3.0366
+an duke wrote him something . 2.5908
+the purple duke gives them . 2.5338
+give them the purple duke . 2.4739
+the duke saw you by . 1.9951
+the duke saw you there . 2.0210
 the mean pig gives us . 0.1915
 give us the mean pig . 0.0002
 some pig thinks about one . 0.0132
@@ -2996,8 +2996,8 @@ the tired dinosaur gives me . 1.0203
 give me the tired dinosaur . 0.0023
 an sister works with . 0.0000
 an sister works well . 0.0003
-my duke asked them about . 0.0025
-my duke asked about them . 0.0208
+my duke asked them about . 2.2356
+my duke asked about them . 2.5278
 the little wolf gives her . 0.2359
 give her the little wolf . 0.0013
 his wolf changed one . 0.0269
@@ -3040,10 +3040,10 @@ the slave wanted to . 0.8358
 the slave wanted him . 1.1995
 his slave wrote her his . 2.2760
 his slave wrote her something . 1.2938
-the stuck duke gives them . 1.5890
-give them the stuck duke . 0.5669
-my duke told you about some . 0.0323
-my duke told you about that . 0.0356
+the stuck duke gives them . 2.3317
+give them the stuck duke . 2.1329
+my duke told you about some . 2.2013
+my duke told you about that . 2.2670
 the pretty dinosaur gives them . 0.2964
 give them the pretty dinosaur . 0.0155
 one dinosaur wanted to . 0.0978
@@ -3064,26 +3064,26 @@ the revolutionary doctor gives her . 2.6305
 give her the revolutionary doctor . 2.4526
 one wolf thinks about a . 0.1207
 one wolf thinks about them . 0.0173
-the moved duke gives him . 1.7340
-give him the moved duke . 0.7839
-a duke asked him about . 0.0144
-a duke asked about him . 0.4184
+the moved duke gives him . 3.6653
+give him the moved duke . 3.1549
+a duke asked him about . 1.7846
+a duke asked about him . 1.9517
 the left pig gives him . 0.0069
 give him the left pig . 0.0025
-the current duke gives me . 1.2920
-give me the current duke . 0.7813
-one duke told them about the . 0.0025
-one duke told them about that . 0.0142
+the current duke gives me . 3.6757
+give me the current duke . 2.9635
+one duke told them about the . 2.2540
+one duke told them about that . 2.1494
 some slave wanted to . 2.1164
 some slave wanted them . 2.8824
-the pretty duke gives him . 0.0573
-give him the pretty duke . 0.0008
+the pretty duke gives him . 2.3585
+give him the pretty duke . 2.8202
 the close slave gives her . 1.2843
 give her the close slave . 0.1057
 some slave asked me about . 1.4686
 some slave asked about me . 2.2078
-some duke asked you about . 0.0010
-some duke asked about you . 0.0367
+some duke asked you about . 2.8904
+some duke asked about you . 3.1312
 the close wolf gives us . 0.8144
 give us the close wolf . 0.1922
 the slave thinks about his . 0.6201
@@ -3094,8 +3094,8 @@ the dark sister gives us . 0.0169
 give us the dark sister . 0.0108
 a sister saw him by . 0.0004
 a sister saw him there . 0.0006
-the duke saw me by . 0.0018
-the duke saw me there . 0.0005
+the duke saw me by . 2.0488
+the duke saw me there . 2.2205
 an pig plays with a . 0.0002
 an pig plays with me . 0.0005
 my slave asked them about . 0.9426
@@ -3134,8 +3134,8 @@ my sister moves to . 0.1123
 my sister moves fast . 0.5043
 a sister saw her by . 0.0020
 a sister saw her there . 0.0037
-a duke asked me about . 0.1551
-a duke asked about me . 0.1773
+a duke asked me about . 1.8875
+a duke asked about me . 2.0313
 his doctor created my . 1.0072
 his doctor created you . 0.8891
 the tired slave gives him . 1.5598
@@ -3148,8 +3148,8 @@ a sister saw them by . 0.0001
 a sister saw them there . 0.0001
 an boat looks at my . 0.0667
 an boat looks at her . 0.0013
-one duke sold that to . 0.1755
-one duke sold you that . 0.5005
+one duke sold that to . 2.3472
+one duke sold you that . 3.0878
 the stuck pig gives her . 0.1152
 give her the stuck pig . 0.0204
 a pig told him about a . 0.0514
@@ -3166,16 +3166,16 @@ his boat plays with my . 0.0023
 his boat plays with me . 0.0016
 his boat works when . 0.0044
 his boat works well . 0.0024
-the spanish slave gives us . 1.1793
-give us the spanish slave . 0.8236
+the spanish slave gives us . 3.1233
+give us the spanish slave . 2.0826
 one slave looks at the . 2.0752
 one slave looks at her . 2.6502
 the good doctor gives us . 0.0414
 give us the good doctor . 0.0064
 the expected dinosaur gives them . 3.4197
 give them the expected dinosaur . 2.7982
-some duke saw them by . 0.0004
-some duke saw them there . 0.0004
+some duke saw them by . 2.5309
+some duke saw them there . 2.8395
 the empty wolf gives him . 0.1716
 give him the empty wolf . 0.3126
 the wolf wanted to . 0.0439
@@ -3220,22 +3220,22 @@ some doctor saw me by . 0.0194
 some doctor saw me there . 0.0295
 some boat saw him by . 0.2737
 some boat saw him there . 0.8623
-the spanish sister gives her . 0.0733
-give her the spanish sister . 0.0043
+the spanish sister gives her . 3.1810
+give her the spanish sister . 3.0159
 one sister wrote me a . 0.2972
 one sister wrote me something . 0.3586
-the duke told them about some . 0.0069
-the duke told them about that . 0.0020
+the duke told them about some . 2.3575
+the duke told them about that . 2.1000
 the sister saw you by . 0.0011
 the sister saw you there . 0.0108
 the empty doctor gives her . 0.1044
 give her the empty doctor . 0.0023
 a doctor thinks about some . 0.1137
 a doctor thinks about me . 0.0033
-the sufficient duke gives him . 2.2619
-give him the sufficient duke . 1.7181
-one duke changed his . 0.0573
-one duke changed you . 0.0111
+the sufficient duke gives him . 4.8473
+give him the sufficient duke . 4.2290
+one duke changed his . 2.5935
+one duke changed you . 3.2250
 a dinosaur created a . 0.8814
 a dinosaur created him . 1.9811
 the protected pig gives her . 3.1302
@@ -3254,34 +3254,34 @@ the moved pig gives us . 2.6424
 give us the moved pig . 1.6234
 some pig looks at a . 0.0005
 some pig looks at you . 0.0029
-the flat duke gives them . 0.0033
-give them the flat duke . 0.0008
-a duke plays with some . 0.0061
-a duke plays with them . 0.0004
-the spanish boat gives him . 0.6551
-give him the spanish boat . 0.1888
-some duke plays with some . 0.0757
-some duke plays with him . 0.0065
+the flat duke gives them . 2.6672
+give them the flat duke . 2.4101
+a duke plays with some . 2.2430
+a duke plays with them . 1.8577
+the spanish boat gives him . 3.6218
+give him the spanish boat . 3.0257
+some duke plays with some . 2.6154
+some duke plays with him . 2.8590
 the whole wolf gives them . 0.4522
 give them the whole wolf . 0.0014
 the bright pig gives us . 0.3590
 give us the bright pig . 0.0004
 one pig changed his . 0.0108
 one pig changed me . 0.0072
-the little duke gives us . 0.0378
-give us the little duke . 0.0413
-some duke wrote them my . 0.0206
-some duke wrote them something . 0.0007
+the little duke gives us . 2.7918
+give us the little duke . 2.4668
+some duke wrote them my . 2.9798
+some duke wrote them something . 2.7297
 the dinosaur wanted to . 0.0233
 the dinosaur wanted him . 0.0143
 the growing slave gives them . 2.7148
 give them the growing slave . 1.0414
 one slave changed some . 2.1734
 one slave changed him . 2.5649
-the empty duke gives her . 0.0487
-give her the empty duke . 0.0012
-some duke asked her about . 0.0188
-some duke asked about her . 0.1799
+the empty duke gives her . 2.2636
+give her the empty duke . 2.5141
+some duke asked her about . 2.9101
+some duke asked about her . 3.0608
 the purple boat gives her . 0.3700
 give her the purple boat . 0.0006
 one boat told him about some . 0.2243
@@ -3298,16 +3298,16 @@ the present wolf gives them . 0.5366
 give them the present wolf . 0.0250
 a boat moves to . 0.0233
 a boat moves fast . 0.0181
-the coming duke gives them . 2.0335
-give them the coming duke . 1.9411
+the coming duke gives them . 2.4166
+give them the coming duke . 2.0153
 the holy slave gives me . 2.4056
 give me the holy slave . 1.7932
 the tired wolf gives me . 0.2400
 give me the tired wolf . 0.0011
-the revolutionary duke gives us . 1.9048
-give us the revolutionary duke . 1.5229
-his duke looks at his . 0.0353
-his duke looks at him . 0.0123
+the revolutionary duke gives us . 4.1857
+give us the revolutionary duke . 4.2638
+his duke looks at his . 2.3359
+his duke looks at him . 2.1044
 the deep boat gives us . 0.6481
 give us the deep boat . 0.0900
 some slave changed his . 2.2848
@@ -3358,8 +3358,8 @@ the sufficient dinosaur gives me . 3.4367
 give me the sufficient dinosaur . 2.3200
 some dinosaur wanted to . 0.0043
 some dinosaur wanted me . 0.1451
-his duke asked them about . 0.0017
-his duke asked about them . 0.0294
+his duke asked them about . 2.4522
+his duke asked about them . 2.6802
 the moved boat gives us . 1.7304
 give us the moved boat . 1.0745
 my boat looks at my . 0.0041
@@ -3374,8 +3374,8 @@ the long slave gives me . 2.0641
 give me the long slave . 0.0025
 some pig wrote you his . 0.2336
 some pig wrote you something . 0.1444
-a duke told you about one . 0.0135
-a duke told you about that . 0.0020
+a duke told you about one . 1.8724
+a duke told you about that . 1.6372
 the current slave gives him . 2.8936
 give him the current slave . 1.9309
 the nice boat gives me . 0.4762
@@ -3392,10 +3392,10 @@ the protected dinosaur gives him . 3.2288
 give him the protected dinosaur . 2.3666
 some dinosaur wrote me his . 0.0108
 some dinosaur wrote me something . 0.0068
-the losing duke gives me . 2.5303
-give me the losing duke . 1.5266
-a duke moves to . 0.1497
-a duke moves fast . 0.1488
+the losing duke gives me . 2.3186
+give me the losing duke . 2.9586
+a duke moves to . 2.4489
+a duke moves fast . 2.8506
 some dinosaur moves to . 0.4264
 some dinosaur moves fast . 0.4480
 his wolf wanted to . 0.2379
@@ -3460,10 +3460,10 @@ the dark dinosaur gives us . 0.0339
 give us the dark dinosaur . 0.0075
 the passed pig gives us . 1.5810
 give us the passed pig . 2.3657
-the old duke gives her . 0.0072
-give her the old duke . 0.0011
-my duke created some . 0.7972
-my duke created them . 1.3370
+the old duke gives her . 2.1600
+give her the old duke . 2.1838
+my duke created some . 3.4452
+my duke created them . 2.9789
 the permanent wolf gives me . 2.8794
 give me the permanent wolf . 2.9373
 his doctor saw him by . 0.1250
@@ -3476,8 +3476,8 @@ the left doctor gives them . 0.1633
 give them the left doctor . 0.0001
 one doctor saw me by . 0.0436
 one doctor saw me there . 0.0178
-the nice duke gives him . 0.1150
-give him the nice duke . 0.0016
+the nice duke gives him . 2.2030
+give him the nice duke . 2.8865
 the little boat gives us . 0.3645
 give us the little boat . 0.0017
 my boat plays with one . 0.0068
@@ -3516,22 +3516,22 @@ the little dinosaur gives her . 0.1524
 give her the little dinosaur . 0.0006
 some dinosaur thinks about his . 0.0394
 some dinosaur thinks about you . 0.0034
-the dangerous duke gives them . 1.7340
-give them the dangerous duke . 0.2647
-a duke wrote me a . 0.2137
-a duke wrote me something . 0.0105
+the dangerous duke gives them . 2.9309
+give them the dangerous duke . 3.8543
+a duke wrote me a . 2.3904
+a duke wrote me something . 2.0760
 the coming boat gives me . 1.2047
 give me the coming boat . 1.3898
 my doctor told him about a . 0.0009
 my doctor told him about that . 0.0012
-the coming duke gives him . 1.9507
-give him the coming duke . 1.9001
-his duke created his . 0.8131
-his duke created him . 0.8333
+the coming duke gives him . 2.9059
+give him the coming duke . 2.1953
+his duke created his . 4.1112
+his duke created him . 4.0213
 some boat looks at some . 0.6423
 some boat looks at him . 0.1533
-the spanish doctor gives us . 0.0637
-give us the spanish doctor . 0.0187
+the spanish doctor gives us . 2.3481
+give us the spanish doctor . 2.7803
 his doctor changed my . 0.0343
 his doctor changed her . 0.0572
 a wolf saw her by . 0.0010
@@ -3548,20 +3548,20 @@ my slave asked her about . 0.5524
 my slave asked about her . 1.0423
 his pig created his . 0.9274
 his pig created them . 0.8470
-the spanish wolf gives her . 0.0107
-give her the spanish wolf . 0.0025
+the spanish wolf gives her . 2.5540
+give her the spanish wolf . 2.5827
 an wolf changed one . 0.0440
 an wolf changed them . 0.2403
-my duke plays with some . 0.0102
-my duke plays with them . 0.0072
+my duke plays with some . 2.6854
+my duke plays with them . 3.0559
 the deep pig gives us . 0.2393
 give us the deep pig . 0.0052
 my pig told me about some . 0.0071
 my pig told me about that . 0.0046
-the dark duke gives him . 0.0082
-give him the dark duke . 0.0005
-some duke saw him by . 0.0018
-some duke saw him there . 0.0019
+the dark duke gives him . 2.3337
+give him the dark duke . 2.5589
+some duke saw him by . 3.1421
+some duke saw him there . 3.1846
 the left boat gives me . 0.6264
 give me the left boat . 0.0276
 some boat saw her by . 0.0159
@@ -3580,8 +3580,8 @@ the flat slave gives him . 1.8293
 give him the flat slave . 0.2002
 his slave works and . 1.6126
 his slave works well . 1.4443
-one duke saw her by . 0.0265
-one duke saw her there . 0.0047
+one duke saw her by . 2.0956
+one duke saw her there . 2.1829
 some doctor changed some . 0.0541
 some doctor changed me . 0.0069
 the empty dinosaur gives her . 0.2216
@@ -3650,8 +3650,8 @@ an sister plays with one . 0.0030
 an sister plays with you . 0.0001
 my slave thinks about my . 0.8436
 my slave thinks about him . 1.2310
-the spanish wolf gives him . 0.0367
-give him the spanish wolf . 0.0081
+the spanish wolf gives him . 2.8070
+give him the spanish wolf . 2.1847
 his wolf thinks about his . 0.1414
 his wolf thinks about me . 0.0153
 his wolf wrote you his . 0.1676
@@ -3664,8 +3664,8 @@ my slave sold that to . 1.4894
 my slave sold me that . 1.7128
 his wolf created a . 0.3665
 his wolf created you . 0.7134
-the duke created some . 0.4796
-the duke created me . 0.5378
+the duke created some . 4.0320
+the duke created me . 3.6137
 one doctor told her about one . 0.1088
 one doctor told her about that . 0.1247
 the deep wolf gives them . 0.4214
@@ -3688,10 +3688,10 @@ the big slave gives him . 1.0672
 give him the big slave . 0.0014
 a slave works but . 1.4987
 a slave works well . 1.3472
-the bright duke gives us . 1.4106
-give us the bright duke . 0.2637
-some duke wanted to . 0.0014
-some duke wanted them . 0.0581
+the bright duke gives us . 2.3116
+give us the bright duke . 2.5365
+some duke wanted to . 2.8857
+some duke wanted them . 3.0079
 the passed boat gives them . 1.4956
 give them the passed boat . 2.3303
 my boat asked me about . 0.1654
@@ -3728,8 +3728,8 @@ the passed slave gives us . 1.8169
 give us the passed slave . 0.0891
 some slave thinks about his . 1.2907
 some slave thinks about them . 2.0892
-the revolutionary duke gives her . 1.9269
-give her the revolutionary duke . 1.3478
+the revolutionary duke gives her . 4.4543
+give her the revolutionary duke . 3.9509
 the growing wolf gives them . 2.2133
 give them the growing wolf . 1.3293
 the wolf looks at a . 0.0011
@@ -3744,10 +3744,10 @@ the present pig gives her . 0.0343
 give her the present pig . 0.0017
 his pig thinks about the . 0.0481
 his pig thinks about him . 0.0482
-the firm duke gives her . 0.6478
-give her the firm duke . 0.1477
-his duke saw you by . 0.0101
-his duke saw you there . 0.0189
+the firm duke gives her . 1.9549
+give her the firm duke . 2.3274
+his duke saw you by . 2.3391
+his duke saw you there . 2.2498
 the good boat gives me . 0.4697
 give me the good boat . 0.0012
 the little doctor gives her . 0.0774
@@ -3776,16 +3776,16 @@ his doctor thinks about my . 0.0028
 his doctor thinks about me . 0.0010
 one doctor created some . 1.6656
 one doctor created her . 0.8424
-some duke told you about a . 0.0002
-some duke told you about that . 0.0001
+some duke told you about a . 2.4900
+some duke told you about that . 2.9435
 the heavy slave gives me . 1.6903
 give me the heavy slave . 0.3397
 a slave plays with a . 0.3352
 a slave plays with you . 0.3267
 his pig plays with his . 0.0082
 his pig plays with you . 0.0215
-the duke told him about the . 0.0012
-the duke told him about that . 0.0026
+the duke told him about the . 2.1045
+the duke told him about that . 1.9894
 the purple doctor gives me . 0.2018
 give me the purple doctor . 0.0037
 the empty boat gives them . 0.0822
@@ -3820,16 +3820,16 @@ the pretty pig gives him . 0.0229
 give him the pretty pig . 0.0077
 the purple doctor gives them . 0.1807
 give them the purple doctor . 0.0003
-the spanish boat gives her . 0.5146
-give her the spanish boat . 0.0624
+the spanish boat gives her . 3.1904
+give her the spanish boat . 2.7810
 the firm pig gives them . 0.3561
 give them the firm pig . 0.8525
 one pig sold that to . 0.1764
 one pig sold him that . 0.5043
 the removed doctor gives him . 3.1826
 give him the removed doctor . 2.2923
-some duke thinks about some . 0.0029
-some duke thinks about me . 0.0035
+some duke thinks about some . 2.7632
+some duke thinks about me . 2.5947
 the nice doctor gives her . 0.0265
 give her the nice doctor . 0.0002
 a doctor sold that to . 0.5196
@@ -3840,10 +3840,10 @@ the present doctor gives us . 0.1561
 give us the present doctor . 0.0048
 one doctor changed the . 0.0095
 one doctor changed me . 0.0807
-the human duke gives them . 0.0271
-give them the human duke . 0.0043
-a duke looks at some . 0.0031
-a duke looks at her . 0.0011
+the human duke gives them . 1.9905
+give them the human duke . 1.9666
+a duke looks at some . 2.3719
+a duke looks at her . 2.2077
 one pig looks at one . 0.0133
 one pig looks at them . 0.0090
 the stuck dinosaur gives him . 1.1982
@@ -3884,8 +3884,8 @@ a doctor plays with the . 0.0129
 a doctor plays with her . 0.0006
 the doctor changed the . 0.0107
 the doctor changed her . 0.0005
-the old duke gives me . 0.0165
-give me the old duke . 0.0005
+the old duke gives me . 2.6038
+give me the old duke . 2.2034
 a pig sold that to . 0.6713
 a pig sold him that . 0.6214
 the permanent boat gives him . 3.3881
@@ -3898,20 +3898,20 @@ the wolf told him about some . 0.0373
 the wolf told him about that . 0.0117
 his pig thinks about my . 0.0753
 his pig thinks about you . 0.1570
-my duke told me about my . 0.0150
-my duke told me about that . 0.0124
+my duke told me about my . 2.1610
+my duke told me about that . 2.0748
 the dangerous boat gives me . 0.8199
 give me the dangerous boat . 1.1088
 one boat sold that to . 0.5287
 one boat sold them that . 0.3576
 my wolf created his . 0.4871
 my wolf created them . 0.3396
-his duke changed a . 0.0003
-his duke changed him . 0.0015
-the empty duke gives them . 0.0230
-give them the empty duke . 0.0009
-a duke told her about some . 0.0036
-a duke told her about that . 0.0007
+his duke changed a . 2.5424
+his duke changed him . 2.7374
+the empty duke gives them . 2.3553
+give them the empty duke . 2.4190
+a duke told her about some . 1.8442
+a duke told her about that . 1.8191
 the long dinosaur gives him . 0.3605
 give him the long dinosaur . 0.0131
 my dinosaur created some . 1.2198
@@ -3958,10 +3958,10 @@ the removed sister gives them . 3.5255
 give them the removed sister . 3.1399
 some sister looks at a . 0.0005
 some sister looks at him . 0.0043
-the revolutionary duke gives me . 2.0107
-give me the revolutionary duke . 1.5141
-the duke changed his . 0.0020
-the duke changed them . 0.0063
+the revolutionary duke gives me . 4.5093
+give me the revolutionary duke . 3.8950
+the duke changed his . 2.8636
+the duke changed them . 2.9374
 his pig saw you by . 0.0638
 his pig saw you there . 0.0969
 the moved wolf gives them . 2.6368
