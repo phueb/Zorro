@@ -15,8 +15,14 @@ from zorro.io import get_group2model_output_paths
 STEP = '*'
 IS_LOCAL = True
 REP = 0
-PARAM_NAMES: Optional[List[str]] = None  # [f'param_{i:03}' for i in [1, 2]]
-CONDITIONS = ['leave_unmasked_prob', ]
+PARAM_NAMES: Optional[List[str]] = [
+    'huggingface_Roberta-base_30B',
+    'huggingface_Roberta-base_10M',
+    'fairseq_Roberta-base_5M',
+    'huggingface_BabyBERTa_5M+standard-unmasking',
+    'huggingface_BabyBERTa_5M',
+]
+CONDITIONS = ['corpora', 'leave_unmasked_prob', ]
 
 if IS_LOCAL:
     configs.Eval.local_runs = True

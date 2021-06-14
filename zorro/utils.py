@@ -87,7 +87,7 @@ def get_phenomena_and_paradigms(excluded_paradigms: Optional[List[str]] = None,
         # 4
         'agreement_subject_verb',
         # 2
-        'agreement_demonstrative_subject',
+        'agreement_determiner_noun',
         'filler-gap',
         'island-effects',
         'quantifiers',
@@ -205,15 +205,12 @@ def get_legend_label(group_name,
     res = res.replace("corpora=('wikipedia1', 'wikipedia2', 'wikipedia3')", 'Wiki-1 + Wiki-2 + Wiki-3')
     res = res.replace("corpora=('aochildes', 'aonewsela', 'wikipedia3')", 'AO-CHILDES + AO-Newsela + Wiki-3')
 
-    res = res.replace("corpora=('aochildes',)", 'AO-CHILDES')
-    res = res.replace("corpora=('aonewsela',)", 'AO-Newsela')
-    res = res.replace("corpora=('wikipedia1',)", 'Wikipedia-1')
-
     res = res.replace("('aochildes',)", 'AO-CHILDES')
     res = res.replace("('aonewsela',)", 'AO-Newsela')
     res = res.replace("('wikipedia1',)", 'Wikipedia-1')
 
     res = res.replace("data_size=", '')
+    res = res.replace("corpora=", '')
 
     return res
 
