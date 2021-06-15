@@ -29,8 +29,10 @@ There are 4 phenomena, each consisting of a set of paradigms:
 
 ## How words were chosen
 
-Words that make up test sentences are all derived from a BPE encoding vocab file 
- generated using the Python `tokenizers` package. 
+Words that make up test sentences are all derived from frequent nouns, verbs and adjectives in 5M words of child-directed speech, 
+5M words of child-directed written text from the Newsela corpus, and 10M words of adult-directed written text from English Wikipedia.
+
+Note: All words were derived from whole-words in a BPE vocabulary trained using the Python `tokenizers` package on the above corpora. 
 
 1. Using `script/tag_and_count_vocab_words.py`, we removed any word that is:
 - not a whole word in original corpus files (it is a sub-word)
@@ -43,7 +45,7 @@ Words that make up test sentences are all derived from a BPE encoding vocab file
 
 ## Usage
 
-To make test sentences for a new vocabulary:
+### To make test sentences based on a new vocabulary:
 
 1. get vocab from which words will be chosen for inclusion in test sentences using `scripts/tag_and_count_vocab_words.py`
 2. chose words to be included by part-of-speech using `scripts/chose_legal_words.py`
@@ -54,7 +56,7 @@ The grammatical correctness of each sentence is determined by its position in th
 - sentences on even numbered lines (2, 4, etc.) are grammatical
 
 
-To score predictions made by your models:
+### To score predictions made by your models:
 
 Use `scripts/plot_accuracy_single_time_point.py` or `scripts/plot_accuracy_curve.py`. 
 These scripts must be pointed to text files containing sentences alongside their cross-entropy scores, 
