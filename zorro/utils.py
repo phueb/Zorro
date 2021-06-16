@@ -6,10 +6,24 @@ import yaml
 
 from zorro.scoring import count_correct_choices
 from zorro.data import DataExperimental
+
 from zorro import configs
 
 rcParams['axes.spines.right'] = False
 rcParams['axes.spines.top'] = False
+
+names_ = (configs.Dirs.legal_words / 'names.txt').open().read().split()
+
+
+def capitalize_names_in_sentence(s: str):
+    """
+    case-sensitive models require upper-cased names otherwise they are split into sub-tokens,
+    and thus artificially deflates accuracy on grammar test suite
+    """
+    for name in names_:
+        if name in s:
+            s = s.replace(name + ' ', name.capitalize() + ' ')
+    return s
 
 
 def get_reps(model_output_paths: List[Path],

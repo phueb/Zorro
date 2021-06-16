@@ -17,8 +17,7 @@ class Data:
     mask_symbol = '<mask>'
     unk_symbol = '<unk>'
     space_symbol = 'Ġ'
-    vocab_size = 8192
-    vocab_name_template = 'wikipedia2-aonewsela-wikipedia1-aochildes-wikipedia3-{}'
+    vocab_name = 'babyberta'  # we use the vocab defined by babyberta model as default
     bias_tolerance = 1000  # for nouns and adjectives, but not necessarily verbs
     tag2num_words = {'NN': 50, 'JJ': 50, 'VB': 10, 'VBD': 10, 'VBG': 20, 'VBZ': 20}  # number of types for sampling
     min_num_words_per_slot = 20

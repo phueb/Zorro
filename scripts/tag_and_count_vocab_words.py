@@ -1,5 +1,5 @@
 """
-make csv file (e.g. vocab_words/a-a-w-w-w.csv) that contains words in a tokenizer configuration file,
+make csv file (e.g. vocab_words/babyberta.csv) that contains tokens in a tokenizer configuration file,
 alongside their frequency in corpora of interest (e.g. childes, newsela, wikipedia).
 
 A huggingface tokenizers v0.10 configuration file is expected.
@@ -10,8 +10,7 @@ from pathlib import Path
 import pandas as pd
 from zorro import configs
 
-VOCAB_SIZE = 16384
-PATH_TOKENIZER = f'/home/ph/BabyBERTa/data/tokenizers/a-a-w-w-w-{VOCAB_SIZE}.json'
+PATH_TOKENIZER = '/home/ph/BabyBERTa/data/tokenizers/babyberta.json'
 PATH_CORPORA = '/home/ph/BabyBERTa/data/corpora'
 DRY_RUN = False
 
@@ -129,6 +128,6 @@ if DRY_RUN:
     exit('Dy run completed after 100 sentences')
 
 # save to csv
-num_excluded = 0
-out_path = configs.Dirs.data / 'vocab_words' / f'{"-".join(corpus_names)}-{VOCAB_SIZE}.csv'
+fn = f'{Path(PATH_TOKENIZER).stem}.csv'
+out_path = configs.Dirs.data / 'vocab_words' / fn
 df.to_csv(out_path, index=True)

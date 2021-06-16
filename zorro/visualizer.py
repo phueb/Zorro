@@ -130,7 +130,7 @@ class VisualizerLines(VisualizerBase):
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
         self.paradigm2roberta_base_accuracy = {}
-        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_30B' / '0' / 'saves' / 'forced_choice' / '8192'
+        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_30B' / '0' / 'saves' / configs.Data.vocab_name
         for phenomenon, paradigm in self.phenomena_paradigms:
             model_output_path = base_path / f'probing_{phenomenon}-{paradigm}_results_500000.txt'
             data = DataExperimental(model_output_path, phenomenon, paradigm)

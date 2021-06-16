@@ -66,7 +66,7 @@ class DataBaseline:
 
         self.group_name = group_name
 
-        path = configs.Dirs.root / 'sentences' / str(configs.Data.vocab_size) / f'{phenomenon}-{paradigm}.txt'
+        path = configs.Dirs.root / 'sentences' / configs.Data.vocab_name / f'{phenomenon}-{paradigm}.txt'
         sentences_ordered = [s.split() for s in path.open().read().split('\n')]
         self.pairs: List[Tuple[List[str], List[str]]] = [(s1, s2) for s1, s2 in zip(sentences_ordered[0::2],
                                                                                     sentences_ordered[1::2])]

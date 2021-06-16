@@ -12,7 +12,7 @@ def get_vocab_words(vocab_name: Optional[str] = None,
                     ) -> List[str]:
 
     if vocab_name is None:
-        vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
+        vocab_name = configs.Data.vocab_name
 
     df = load_vocab_df(vocab_name, return_excluded_words)
     res = []
@@ -31,7 +31,7 @@ def get_frequency(vocab_name: Optional[str] = None,
                   ) -> List[int]:
 
     if vocab_name is None:
-        vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
+        vocab_name = configs.Data.vocab_name
 
     df = load_vocab_df(vocab_name, return_excluded_words)
     res = []
@@ -49,7 +49,7 @@ def load_vocab_df(vocab_name: Optional[str] = None,
                   ) -> pd.DataFrame:
 
     if vocab_name is None:
-        vocab_name = configs.Data.vocab_name_template.format(configs.Data.vocab_size)
+        vocab_name = configs.Data.vocab_name
 
     path = configs.Dirs.data / 'vocab_words' / f'{vocab_name}.csv'
     df = pd.read_csv(path, index_col=0, na_filter=False, dtype={'is_excluded': bool})
