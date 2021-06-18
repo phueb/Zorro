@@ -15,10 +15,10 @@ from zorro.io import get_group2model_output_paths
 IS_LOCAL = True
 REP = 0
 GROUP_NAME2STEP: Optional[Dict[str, int]] = {
-    'huggingface_Roberta-base_Liu2019': 500_000,
-    'huggingface_Roberta-base_Warstadt2020': 500_000,
-    'fairseq_Roberta-base_AO-CHILDES': 260_000,
-    'fairseq_Roberta-base_Wikipedia-1': 260_000,
+    'huggingface_RoBERTa-base_Liu2019': 500_000,
+    'huggingface_RoBERTa-base_Warstadt2020': 500_000,
+    'fairseq_RoBERTa-base_AO-CHILDES': 260_000,
+    'fairseq_RoBERTa-base_Wikipedia-1': 260_000,
     'huggingface_BabyBERTa_AO-CHILDES+standard-unmasking': 260_000,
     'huggingface_BabyBERTa_AO-CHILDES': 260_000,
     'huggingface_BabyBERTa_Wikipedia-1': 260_000,
