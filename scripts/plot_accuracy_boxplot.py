@@ -2,7 +2,7 @@
 compare accuracy between models saved in local or remote runs folder, at one time step.
 """
 from collections import defaultdict
-from typing import List, Optional
+from typing import Dict, Optional
 import numpy as np
 
 from zorro import configs
@@ -12,24 +12,25 @@ from zorro.utils import load_group_names, get_legend_label
 from zorro.io import get_group2model_output_paths
 
 
-STEP = '*'
 IS_LOCAL = True
 REP = 0
-PARAM_NAMES: Optional[List[str]] = [
-    'huggingface_Roberta-base_30B',
-    'huggingface_Roberta-base_10M',
-    'fairseq_Roberta-base_5M',
-    'huggingface_BabyBERTa_5M+standard-unmasking',
-    'huggingface_BabyBERTa_5M',
-]
-CONDITIONS = ['corpora', 'leave_unmasked_prob', ]
+GROUP_NAME2STEP: Optional[Dict[str, int]] = {
+    'huggingface_Roberta-base_Liu2019': 500_000,
+    'huggingface_Roberta-base_Warstadt2020': 500_000,
+    'fairseq_Roberta-base_AO-CHILDES': 260_000,
+    'fairseq_Roberta-base_Wikipedia-1': 260_000,
+    'huggingface_BabyBERTa_AO-CHILDES+standard-unmasking': 260_000,
+    'huggingface_BabyBERTa_AO-CHILDES': 260_000,
+    'huggingface_BabyBERTa_Wikipedia-1': 260_000,
+}
+CONDITIONS = ['corpora', 'leave_unmasked_prob']
 
 if IS_LOCAL:
     configs.Eval.local_runs = True
 else:
     configs.Eval.local_runs = False
 
-group_names = load_group_names(PARAM_NAMES)
+group_names = load_group_names(list(GROUP_NAME2STEP.keys()))
 labels = [get_legend_label(gn, conditions=CONDITIONS, add_data_size=True)
           for gn in group_names]
 
@@ -44,11 +45,11 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
     print(f'Scoring and plotting results for phenomenon={phenomenon:<36} paradigm={paradigm:<36} '
           f'{n + 1:>2}/{len(phenomena_paradigms)}')
 
-    # load model output at all available steps
+    # load model output at a specific step
     group_name2model_output_paths_ = get_group2model_output_paths(group_names,
                                                                   phenomenon,
                                                                   paradigm,
-                                                                  step=STEP,
+                                                                  group_name2step=GROUP_NAME2STEP,
                                                                   )
     # make sure there is only one rep per group name so that averaging works correctly
     group_name2model_output_paths = {}

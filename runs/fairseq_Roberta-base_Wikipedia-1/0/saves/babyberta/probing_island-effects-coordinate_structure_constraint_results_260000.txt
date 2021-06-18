@@ -1,0 +1,4000 @@
+who must Philip turn and the dinosaur ? 1.2491
+who must Philip and the dinosaur turn ? 1.3510
+who were Philip turn and the dinosaur ? 1.1558
+who were Philip and the dinosaur taking ? 1.1469
+what did Philip turn and the dinosaur ? 0.2432
+what did Philip and the dinosaur turn ? 1.1273
+what were Philip taking and the dinosaur ? 0.4304
+what were Philip and the dinosaur taking ? 0.0254
+what did Roger work for and the sister ? 0.1100
+what did Roger and the sister work for ? 0.0567
+what were Roger saying and the sister ? 0.4703
+what were Roger and the sister saying ? 0.6458
+who must Michael change and the doctor ? 0.4841
+who must Michael and the doctor change ? 0.0818
+who were Michael change and the doctor ? 1.0623
+who were Michael and the doctor housing ? 1.1611
+what did Michael change and the doctor ? 0.7306
+what did Michael and the doctor change ? 0.0127
+what were Michael housing and the doctor ? 1.3885
+what were Michael and the doctor housing ? 0.8790
+who must Alexander have and the dinosaur ? 0.3520
+who must Alexander and the dinosaur have ? 0.1529
+who were Alexander have and the dinosaur ? 0.4896
+who were Alexander and the dinosaur drawing ? 0.1302
+what did Alexander have and the dinosaur ? 0.3065
+what did Alexander and the dinosaur have ? 0.0322
+what were Alexander drawing and the dinosaur ? 0.0944
+what were Alexander and the dinosaur drawing ? 0.0618
+who must William close and the sister ? 0.7730
+who must William and the sister close ? 0.3528
+who were William close and the sister ? 0.5856
+who were William and the sister sleeping in ? 0.0088
+what did William close and the sister ? 0.5212
+what did William and the sister close ? 0.1446
+what were William sleeping in and the sister ? 0.1801
+what were William and the sister sleeping in ? 0.0078
+who must Michael change and the pig ? 0.4103
+who must Michael and the pig change ? 0.1012
+who were Michael change and the pig ? 0.9199
+who were Michael and the pig falling on ? 0.0151
+what did Michael change and the pig ? 0.6841
+what did Michael and the pig change ? 0.1165
+what were Michael falling on and the pig ? 0.7847
+what were Michael and the pig falling on ? 0.0224
+who must Donald become and the boat ? 0.2712
+who must Donald and the boat become ? 0.1327
+who were Donald become and the boat ? 0.9967
+who were Donald and the boat running to ? 0.0462
+what did Donald become and the boat ? 0.2863
+what did Donald and the boat become ? 0.0583
+what were Donald running to and the boat ? 0.0258
+what were Donald and the boat running to ? 0.0126
+who must Alexander become and the doctor ? 0.2227
+who must Alexander and the doctor become ? 0.0301
+who were Alexander become and the doctor ? 0.3901
+who were Alexander and the doctor talking about ? 0.0017
+what did Alexander become and the doctor ? 0.0607
+what did Alexander and the doctor become ? 0.0034
+what were Alexander talking about and the doctor ? 0.0665
+what were Alexander and the doctor talking about ? 0.0042
+who must Laura turn and the pig ? 0.7007
+who must Laura and the pig turn ? 0.9715
+who were Laura turn and the pig ? 0.9978
+who were Laura and the pig cutting ? 1.4672
+what did Laura turn and the pig ? 0.5284
+what did Laura and the pig turn ? 1.0320
+what were Laura cutting and the pig ? 0.2765
+what were Laura and the pig cutting ? 0.8843
+who must Donald close and the duke ? 0.6239
+who must Donald and the duke close ? 0.0644
+who were Donald close and the duke ? 0.3153
+who were Donald and the duke sleeping in ? 0.2891
+what did Donald close and the duke ? 0.3493
+what did Donald and the duke close ? 0.0042
+what were Donald sleeping in and the duke ? 0.3897
+what were Donald and the duke sleeping in ? 0.0103
+who must Alexander work for and the boat ? 0.0240
+who must Alexander and the boat work for ? 0.0127
+who were Alexander work for and the boat ? 0.0784
+who were Alexander and the boat talking about ? 0.0301
+what did Alexander work for and the boat ? 0.0407
+what did Alexander and the boat work for ? 0.0029
+what were Alexander talking about and the boat ? 0.0790
+what were Alexander and the boat talking about ? 0.0542
+who must William keep and the doctor ? 0.1237
+who must William and the doctor keep ? 0.1284
+who were William keep and the doctor ? 0.4327
+who were William and the doctor falling on ? 0.0118
+what did William keep and the doctor ? 0.1008
+what did William and the doctor keep ? 0.1019
+what were William falling on and the doctor ? 0.9139
+what were William and the doctor falling on ? 0.0366
+what were Donald eating and the duke ? 0.8615
+what were Donald and the duke eating ? 0.0371
+what did Richard need and the dinosaur ? 0.2327
+what did Richard and the dinosaur need ? 0.0905
+what were Richard looking for and the dinosaur ? 0.0112
+what were Richard and the dinosaur looking for ? 0.0116
+who must William close and the dinosaur ? 0.9837
+who must William and the dinosaur close ? 0.8147
+who were William close and the dinosaur ? 0.9144
+who were William and the dinosaur thinking about ? 0.9627
+what did William close and the dinosaur ? 0.8818
+what did William and the dinosaur close ? 0.0093
+what were William thinking about and the dinosaur ? 0.1070
+what were William and the dinosaur thinking about ? 0.4697
+who must Alexander keep and the slave ? 0.0215
+who must Alexander and the slave keep ? 0.1970
+who were Alexander keep and the slave ? 0.6256
+who were Alexander and the slave covering ? 1.0516
+what did Alexander keep and the slave ? 0.0587
+what did Alexander and the slave keep ? 0.3066
+what were Alexander covering and the slave ? 1.2723
+what were Alexander and the slave covering ? 1.0579
+who must Laura become and the slave ? 0.0717
+who must Laura and the slave become ? 0.0089
+who were Laura become and the slave ? 0.3099
+who were Laura and the slave reaching for ? 0.6992
+what did Laura become and the slave ? 0.0072
+what did Laura and the slave become ? 0.0066
+what were Laura reaching for and the slave ? 0.6773
+what were Laura and the slave reaching for ? 0.5991
+what did William keep and the dinosaur ? 0.3390
+what did William and the dinosaur keep ? 0.0771
+what were William saying and the dinosaur ? 0.6179
+what were William and the dinosaur saying ? 0.5445
+who must Philip have and the sister ? 0.1760
+who must Philip and the sister have ? 0.0681
+who were Philip have and the sister ? 0.2697
+who were Philip and the sister cutting ? 1.0908
+what did Philip have and the sister ? 0.0212
+what did Philip and the sister have ? 0.0193
+what were Philip cutting and the sister ? 1.3505
+what were Philip and the sister cutting ? 1.1036
+who must Roger present and the dinosaur ? 0.3519
+who must Roger and the dinosaur present ? 0.9250
+who were Roger present and the dinosaur ? 0.3174
+who were Roger and the dinosaur drawing ? 0.0249
+what did Roger present and the dinosaur ? 0.5540
+what did Roger and the dinosaur present ? 0.0465
+what were Roger drawing and the dinosaur ? 0.0768
+what were Roger and the dinosaur drawing ? 0.0158
+who must Sarah become and the pig ? 0.1933
+who must Sarah and the pig become ? 0.0062
+who were Sarah become and the pig ? 0.9933
+who were Sarah and the pig falling on ? 0.0134
+what did Sarah become and the pig ? 0.0155
+what did Sarah and the pig become ? 0.0040
+what were Sarah falling on and the pig ? 0.2763
+what were Sarah and the pig falling on ? 0.0793
+who must Philip become and the doctor ? 0.0787
+who must Philip and the doctor become ? 0.0368
+who were Philip become and the doctor ? 0.3041
+who were Philip and the doctor reaching for ? 1.0258
+what did Philip become and the doctor ? 0.0262
+what did Philip and the doctor become ? 0.0089
+what were Philip reaching for and the doctor ? 0.6941
+what were Philip and the doctor reaching for ? 0.9149
+who were Roger present and the dinosaur ? 0.3174
+who were Roger and the dinosaur taking ? 0.5412
+what were Roger taking and the dinosaur ? 0.2614
+what were Roger and the dinosaur taking ? 0.0477
+who must Michael tell something and the duke ? 0.0032
+who must Michael and the duke tell something ? 0.0210
+who were Michael tell something and the duke ? 0.2925
+who were Michael and the duke cutting ? 1.2346
+what did Michael tell something and the duke ? 0.0099
+what did Michael and the duke tell something ? 0.0047
+what were Michael cutting and the duke ? 0.4437
+what were Michael and the duke cutting ? 0.9424
+who must Donald work for and the dinosaur ? 0.2638
+who must Donald and the dinosaur work for ? 0.3473
+who were Donald work for and the dinosaur ? 0.1654
+who were Donald and the dinosaur running to ? 0.1222
+what did Donald work for and the dinosaur ? 0.1168
+what did Donald and the dinosaur work for ? 0.0207
+what were Donald running to and the dinosaur ? 0.3651
+what were Donald and the dinosaur running to ? 0.1483
+who must Laura tell something and the sister ? 0.1079
+who must Laura and the sister tell something ? 0.0424
+who were Laura tell something and the sister ? 0.3817
+who were Laura and the sister looking for ? 0.0027
+what did Laura tell something and the sister ? 0.1482
+what did Laura and the sister tell something ? 0.0037
+what were Laura looking for and the sister ? 0.0088
+what were Laura and the sister looking for ? 0.0010
+who must Donald present and the doctor ? 0.1569
+who must Donald and the doctor present ? 0.2086
+who were Donald present and the doctor ? 0.2034
+who were Donald and the doctor taking ? 0.0732
+what did Donald present and the doctor ? 0.1448
+what did Donald and the doctor present ? 0.0030
+what were Donald taking and the doctor ? 0.0355
+what were Donald and the doctor taking ? 0.0053
+who must Philip become and the dinosaur ? 0.8357
+who must Philip and the dinosaur become ? 0.1307
+who were Philip become and the dinosaur ? 0.8830
+who were Philip and the dinosaur trying ? 1.2773
+what did Philip become and the dinosaur ? 0.1506
+what did Philip and the dinosaur become ? 0.0097
+what were Philip trying and the dinosaur ? 1.0057
+what were Philip and the dinosaur trying ? 0.3384
+who must Roger change and the wolf ? 0.3646
+who must Roger and the wolf change ? 0.0579
+who were Roger change and the wolf ? 0.8285
+who were Roger and the wolf sleeping in ? 0.0068
+what did Roger change and the wolf ? 0.4137
+what did Roger and the wolf change ? 0.0078
+what were Roger sleeping in and the wolf ? 0.1647
+what were Roger and the wolf sleeping in ? 0.0113
+who must Michael keep and the duke ? 0.1931
+who must Michael and the duke keep ? 0.1749
+who were Michael keep and the duke ? 0.3187
+who were Michael and the duke fishing ? 0.0627
+what did Michael keep and the duke ? 0.0537
+what did Michael and the duke keep ? 0.0946
+what were Michael fishing and the duke ? 0.2335
+what were Michael and the duke fishing ? 0.0249
+who must Laura change and the dinosaur ? 0.7002
+who must Laura and the dinosaur change ? 0.1805
+who were Laura change and the dinosaur ? 0.6776
+who were Laura and the dinosaur covering ? 0.4738
+what did Laura change and the dinosaur ? 0.7659
+what did Laura and the dinosaur change ? 0.0789
+what were Laura covering and the dinosaur ? 0.6778
+what were Laura and the dinosaur covering ? 0.2257
+what did Donald change and the pig ? 0.3958
+what did Donald and the pig change ? 0.0289
+what were Donald saying and the pig ? 0.5087
+what were Donald and the pig saying ? 0.2643
+who must Roger change and the doctor ? 0.1216
+who must Roger and the doctor change ? 0.0833
+who were Roger change and the doctor ? 0.4367
+who were Roger and the doctor calling ? 0.0059
+what did Roger change and the doctor ? 0.0690
+what did Roger and the doctor change ? 0.0076
+what were Roger calling and the doctor ? 0.0047
+what were Roger and the doctor calling ? 0.0011
+what did Donald keep and the pig ? 0.3262
+what did Donald and the pig keep ? 0.1391
+what were Donald eating and the pig ? 0.2841
+what were Donald and the pig eating ? 0.1181
+who must Laura become and the dinosaur ? 0.4953
+who must Laura and the dinosaur become ? 0.1375
+who were Laura become and the dinosaur ? 0.7432
+who were Laura and the dinosaur looking for ? 0.3540
+what did Laura become and the dinosaur ? 0.1679
+what did Laura and the dinosaur become ? 0.0156
+what were Laura looking for and the dinosaur ? 0.0628
+what were Laura and the dinosaur looking for ? 0.2765
+what did Philip change and the pig ? 0.0539
+what did Philip and the pig change ? 0.0053
+what were Philip eating and the pig ? 0.4449
+what were Philip and the pig eating ? 0.2037
+who must Mark tell something and the duke ? 0.3742
+who must Mark and the duke tell something ? 0.0021
+who were Mark tell something and the duke ? 0.9149
+who were Mark and the duke falling on ? 0.0034
+what did Mark tell something and the duke ? 0.0406
+what did Mark and the duke tell something ? 0.0019
+what were Mark falling on and the duke ? 0.0810
+what were Mark and the duke falling on ? 0.0674
+who must Roger keep and the slave ? 0.1880
+who must Roger and the slave keep ? 0.1971
+who were Roger keep and the slave ? 0.7544
+who were Roger and the slave running to ? 0.0277
+what did Roger keep and the slave ? 0.0590
+what did Roger and the slave keep ? 0.1636
+what were Roger running to and the slave ? 0.0085
+what were Roger and the slave running to ? 0.0056
+who must Mark tell something and the wolf ? 0.5636
+who must Mark and the wolf tell something ? 0.0267
+who were Mark tell something and the wolf ? 1.6420
+who were Mark and the wolf housing ? 0.7941
+what did Mark tell something and the wolf ? 0.4103
+what did Mark and the wolf tell something ? 0.0048
+what were Mark housing and the wolf ? 1.6894
+what were Mark and the wolf housing ? 0.2848
+who must Michael have and the duke ? 0.0720
+who must Michael and the duke have ? 0.0153
+who were Michael have and the duke ? 0.1336
+who were Michael and the duke testing ? 0.6306
+what did Michael have and the duke ? 0.0030
+what did Michael and the duke have ? 0.0034
+what were Michael testing and the duke ? 0.2421
+what were Michael and the duke testing ? 0.3677
+who must Roger close and the sister ? 0.8687
+who must Roger and the sister close ? 0.7063
+who were Roger close and the sister ? 0.5758
+who were Roger and the sister fishing ? 0.7761
+what did Roger close and the sister ? 0.3909
+what did Roger and the sister close ? 0.1141
+what were Roger fishing and the sister ? 0.2818
+what were Roger and the sister fishing ? 0.6829
+who must Alexander change and the pig ? 0.3577
+who must Alexander and the pig change ? 0.0056
+who were Alexander change and the pig ? 0.9034
+who were Alexander and the pig sleeping in ? 0.0055
+what did Alexander change and the pig ? 0.1970
+what did Alexander and the pig change ? 0.0067
+what were Alexander sleeping in and the pig ? 0.0418
+what were Alexander and the pig sleeping in ? 0.0021
+what did William need and the boat ? 0.0052
+what did William and the boat need ? 0.0877
+what were William drawing and the boat ? 0.2351
+what were William and the boat drawing ? 0.7077
+who must Sarah turn and the sister ? 0.2549
+who must Sarah and the sister turn ? 0.1844
+who were Sarah turn and the sister ? 0.7252
+who were Sarah and the sister turning ? 0.2787
+what did Sarah turn and the sister ? 0.3367
+what did Sarah and the sister turn ? 0.3998
+what were Sarah turning and the sister ? 0.9066
+what were Sarah and the sister turning ? 0.0977
+who must Laura present and the doctor ? 0.1996
+who must Laura and the doctor present ? 0.0748
+who were Laura present and the doctor ? 0.1655
+who were Laura and the doctor calling ? 0.0026
+what did Laura present and the doctor ? 0.0983
+what did Laura and the doctor present ? 0.0046
+what were Laura calling and the doctor ? 0.1661
+what were Laura and the doctor calling ? 0.0015
+what did Donald need and the slave ? 0.4972
+what did Donald and the slave need ? 0.0440
+what were Donald sleeping in and the slave ? 0.0927
+what were Donald and the slave sleeping in ? 0.0056
+who must William change and the slave ? 0.1311
+who must William and the slave change ? 0.1704
+who were William change and the slave ? 0.2627
+who were William and the slave running to ? 0.1170
+what did William change and the slave ? 0.0068
+what did William and the slave change ? 0.0261
+what were William running to and the slave ? 0.0329
+what were William and the slave running to ? 0.0074
+who must Laura present and the slave ? 0.5040
+who must Laura and the slave present ? 0.0072
+what did Laura present and the slave ? 0.5264
+what did Laura and the slave present ? 0.0184
+who must Donald have and the sister ? 0.1573
+who must Donald and the sister have ? 0.1148
+who were Donald have and the sister ? 0.1951
+who were Donald and the sister housing ? 1.3365
+what did Donald have and the sister ? 0.0822
+what did Donald and the sister have ? 0.0131
+what were Donald housing and the sister ? 1.6727
+what were Donald and the sister housing ? 0.9574
+who must Michael present and the doctor ? 0.5134
+who must Michael and the doctor present ? 0.0981
+who were Michael present and the doctor ? 1.0293
+who were Michael and the doctor testing ? 0.0361
+what did Michael present and the doctor ? 0.4849
+what did Michael and the doctor present ? 0.0031
+what were Michael testing and the doctor ? 0.4344
+what were Michael and the doctor testing ? 0.0228
+what did Sarah work for and the boat ? 0.0297
+what did Sarah and the boat work for ? 0.0076
+what were Sarah eating and the boat ? 0.3761
+what were Sarah and the boat eating ? 0.0352
+who must Richard present and the boat ? 0.2033
+who must Richard and the boat present ? 0.2602
+who were Richard present and the boat ? 0.2332
+who were Richard and the boat running to ? 0.0847
+what did Richard present and the boat ? 0.2523
+what did Richard and the boat present ? 0.3512
+what were Richard running to and the boat ? 0.0247
+what were Richard and the boat running to ? 0.0486
+who must Roger have and the dinosaur ? 0.3628
+who must Roger and the dinosaur have ? 0.0929
+who were Roger have and the dinosaur ? 0.5725
+who were Roger and the dinosaur growing ? 0.4980
+what did Roger have and the dinosaur ? 0.2672
+what did Roger and the dinosaur have ? 0.0704
+what were Roger growing and the dinosaur ? 0.7196
+what were Roger and the dinosaur growing ? 0.2344
+what did Laura close and the sister ? 0.3547
+what did Laura and the sister close ? 0.0090
+what were Laura eating and the sister ? 0.8270
+what were Laura and the sister eating ? 0.2980
+who must Michael close and the slave ? 0.8454
+who must Michael and the slave close ? 0.7969
+who were Michael close and the slave ? 0.8200
+who were Michael and the slave reaching for ? 0.7518
+what did Michael close and the slave ? 0.7951
+what did Michael and the slave close ? 0.6081
+what were Michael reaching for and the slave ? 0.9052
+what were Michael and the slave reaching for ? 0.6040
+who were Michael tell something and the duke ? 0.2925
+who were Michael and the duke sleeping in ? 0.0030
+what were Michael sleeping in and the duke ? 0.2123
+what were Michael and the duke sleeping in ? 0.0030
+who must William turn and the sister ? 0.1452
+who must William and the sister turn ? 0.2485
+who were William turn and the sister ? 0.3609
+who were William and the sister thinking about ? 0.0479
+what did William turn and the sister ? 0.1549
+what did William and the sister turn ? 0.5148
+what were William thinking about and the sister ? 0.0918
+what were William and the sister thinking about ? 0.0239
+what did Mark tell and the boat ? 0.2682
+what did Mark and the boat tell ? 0.1070
+what were Mark saying and the boat ? 0.5314
+what were Mark and the boat saying ? 0.0667
+who must Laura have and the slave ? 0.1114
+who must Laura and the slave have ? 0.0236
+who were Laura have and the slave ? 0.7504
+who were Laura and the slave housing ? 0.6855
+what did Laura have and the slave ? 0.0085
+what did Laura and the slave have ? 0.0079
+what were Laura housing and the slave ? 1.1650
+what were Laura and the slave housing ? 0.3853
+who must Michael have and the sister ? 0.1064
+who must Michael and the sister have ? 0.0762
+who were Michael have and the sister ? 0.4256
+who were Michael and the sister housing ? 1.3090
+what did Michael have and the sister ? 0.1352
+what did Michael and the sister have ? 0.0138
+what were Michael housing and the sister ? 1.3152
+what were Michael and the sister housing ? 0.7857
+who must Sarah have and the sister ? 0.0862
+who must Sarah and the sister have ? 0.0298
+who were Sarah have and the sister ? 0.5190
+who were Sarah and the sister drawing ? 0.3531
+what did Sarah have and the sister ? 0.0410
+what did Sarah and the sister have ? 0.0078
+what were Sarah drawing and the sister ? 0.4306
+what were Sarah and the sister drawing ? 0.0654
+who must Sarah become and the doctor ? 0.1218
+who must Sarah and the doctor become ? 0.0160
+who were Sarah become and the doctor ? 0.7744
+who were Sarah and the doctor testing ? 0.0023
+what did Sarah become and the doctor ? 0.0143
+what did Sarah and the doctor become ? 0.0030
+what were Sarah testing and the doctor ? 0.0254
+what were Sarah and the doctor testing ? 0.0055
+who must Donald tell something and the doctor ? 0.0388
+who must Donald and the doctor tell something ? 0.1559
+who were Donald tell something and the doctor ? 0.1669
+who were Donald and the doctor drawing ? 0.1460
+what did Donald tell something and the doctor ? 0.1987
+what did Donald and the doctor tell something ? 0.0050
+what were Donald drawing and the doctor ? 0.0078
+what were Donald and the doctor drawing ? 0.0055
+who must Richard present and the sister ? 0.2837
+who must Richard and the sister present ? 0.1234
+who were Richard present and the sister ? 0.7079
+who were Richard and the sister talking about ? 0.0286
+what did Richard present and the sister ? 0.2595
+what did Richard and the sister present ? 0.0768
+what were Richard talking about and the sister ? 0.0316
+what were Richard and the sister talking about ? 0.0157
+what did Sarah become and the dinosaur ? 0.2362
+what did Sarah and the dinosaur become ? 0.0117
+what were Sarah eating and the dinosaur ? 0.8576
+what were Sarah and the dinosaur eating ? 0.0857
+who must Mark close and the slave ? 1.4539
+who must Mark and the slave close ? 0.8935
+who were Mark close and the slave ? 1.9562
+who were Mark and the slave falling on ? 0.3947
+what did Mark close and the slave ? 0.6616
+what did Mark and the slave close ? 0.1926
+what were Mark falling on and the slave ? 0.2093
+what were Mark and the slave falling on ? 0.0314
+who must Roger have and the doctor ? 0.2461
+who must Roger and the doctor have ? 0.0332
+who were Roger have and the doctor ? 0.1294
+who were Roger and the doctor fishing ? 0.5384
+what did Roger have and the doctor ? 0.0139
+what did Roger and the doctor have ? 0.0131
+what were Roger fishing and the doctor ? 0.2332
+what were Roger and the doctor fishing ? 0.3857
+who must Michael close and the boat ? 0.7609
+who must Michael and the boat close ? 0.0793
+who were Michael close and the boat ? 0.5510
+who were Michael and the boat reaching for ? 1.1586
+what did Michael close and the boat ? 0.5205
+what did Michael and the boat close ? 0.0269
+what were Michael reaching for and the boat ? 0.9945
+what were Michael and the boat reaching for ? 0.8275
+what did Alexander need and the sister ? 0.2116
+what did Alexander and the sister need ? 0.1601
+what were Alexander calling and the sister ? 0.8694
+what were Alexander and the sister calling ? 0.1754
+who must Mark become and the duke ? 0.4410
+who must Mark and the duke become ? 0.0027
+who were Mark become and the duke ? 0.8827
+who were Mark and the duke taking ? 0.0456
+what did Mark become and the duke ? 0.0044
+what did Mark and the duke become ? 0.0007
+what were Mark taking and the duke ? 0.2739
+what were Mark and the duke taking ? 0.0047
+who must Laura change and the wolf ? 0.6096
+who must Laura and the wolf change ? 0.0770
+who were Laura change and the wolf ? 0.8035
+who were Laura and the wolf covering ? 0.5964
+what did Laura change and the wolf ? 0.4769
+what did Laura and the wolf change ? 0.0134
+what were Laura covering and the wolf ? 0.7737
+what were Laura and the wolf covering ? 0.7027
+who must Donald have and the slave ? 0.1081
+who must Donald and the slave have ? 0.0424
+who were Donald have and the slave ? 0.2665
+who were Donald and the slave falling on ? 0.4260
+what did Donald have and the slave ? 0.0102
+what did Donald and the slave have ? 0.0101
+what were Donald falling on and the slave ? 0.3288
+what were Donald and the slave falling on ? 0.2646
+who were Alexander become and the doctor ? 0.3901
+who were Alexander and the doctor cutting ? 1.2267
+what were Alexander cutting and the doctor ? 1.0110
+what were Alexander and the doctor cutting ? 0.6344
+who must Mark become and the sister ? 0.6685
+who must Mark and the sister become ? 0.0218
+who were Mark become and the sister ? 1.0616
+who were Mark and the sister thinking about ? 0.0687
+what did Mark become and the sister ? 0.0891
+what did Mark and the sister become ? 0.0187
+what were Mark thinking about and the sister ? 0.0451
+what were Mark and the sister thinking about ? 0.0109
+who must Mark work for and the duke ? 0.0781
+who must Mark and the duke work for ? 0.0177
+who were Mark work for and the duke ? 0.6124
+who were Mark and the duke cutting ? 1.2578
+what did Mark work for and the duke ? 0.0016
+what did Mark and the duke work for ? 0.0050
+what were Mark cutting and the duke ? 0.0104
+what were Mark and the duke cutting ? 0.9276
+who must Roger tell something and the wolf ? 0.0229
+who must Roger and the wolf tell something ? 0.0714
+who were Roger tell something and the wolf ? 0.6866
+who were Roger and the wolf fishing ? 0.1203
+what did Roger tell something and the wolf ? 0.1119
+what did Roger and the wolf tell something ? 0.0085
+what were Roger fishing and the wolf ? 0.3778
+what were Roger and the wolf fishing ? 0.2149
+who must Alexander tell something and the wolf ? 0.0751
+who must Alexander and the wolf tell something ? 0.0063
+who were Alexander tell something and the wolf ? 0.4469
+who were Alexander and the wolf drawing ? 0.6708
+what did Alexander tell something and the wolf ? 0.1265
+what did Alexander and the wolf tell something ? 0.0045
+what were Alexander drawing and the wolf ? 0.5513
+what were Alexander and the wolf drawing ? 0.0587
+what did Sarah need and the wolf ? 0.3395
+what did Sarah and the wolf need ? 0.0375
+what were Sarah reaching for and the wolf ? 0.7432
+what were Sarah and the wolf reaching for ? 0.7847
+what did William need and the slave ? 0.0067
+what did William and the slave need ? 0.1089
+what were William testing and the slave ? 1.1317
+what were William and the slave testing ? 0.7883
+who must Michael keep and the boat ? 0.1873
+who must Michael and the boat keep ? 0.1257
+who were Michael keep and the boat ? 0.7984
+who were Michael and the boat growing ? 1.0513
+what did Michael keep and the boat ? 0.2186
+what did Michael and the boat keep ? 0.0455
+what were Michael growing and the boat ? 1.3495
+what were Michael and the boat growing ? 0.3977
+what did Donald need and the wolf ? 0.6352
+what did Donald and the wolf need ? 0.2578
+what were Donald running to and the wolf ? 0.1774
+what were Donald and the wolf running to ? 0.3482
+what did Roger have and the boat ? 0.0245
+what did Roger and the boat have ? 0.2192
+what were Roger eating and the boat ? 0.4242
+what were Roger and the boat eating ? 0.1864
+who must Donald keep and the boat ? 0.1810
+who must Donald and the boat keep ? 0.1852
+who were Donald keep and the boat ? 0.5724
+who were Donald and the boat falling on ? 0.0525
+what did Donald keep and the boat ? 0.1464
+what did Donald and the boat keep ? 0.0167
+what were Donald falling on and the boat ? 0.1125
+what were Donald and the boat falling on ? 0.1056
+who must Philip work for and the sister ? 0.0675
+who must Philip and the sister work for ? 0.1165
+who were Philip work for and the sister ? 0.0196
+who were Philip and the sister running to ? 0.4323
+what did Philip work for and the sister ? 0.0248
+what did Philip and the sister work for ? 0.0233
+what were Philip running to and the sister ? 0.1684
+what were Philip and the sister running to ? 0.2860
+who must Philip present and the doctor ? 0.1658
+who must Philip and the doctor present ? 0.0909
+who were Philip present and the doctor ? 0.2203
+who were Philip and the doctor cutting ? 1.1748
+what did Philip present and the doctor ? 0.0616
+what did Philip and the doctor present ? 0.0076
+what were Philip cutting and the doctor ? 1.0769
+what were Philip and the doctor cutting ? 0.9050
+who were Roger have and the dinosaur ? 0.5725
+who were Roger and the dinosaur housing ? 0.6824
+what were Roger housing and the dinosaur ? 1.2715
+what were Roger and the dinosaur housing ? 0.3090
+who must Richard become and the sister ? 0.1179
+who must Richard and the sister become ? 0.0395
+who were Richard become and the sister ? 0.7320
+who were Richard and the sister cutting ? 1.2158
+what did Richard become and the sister ? 0.0415
+what did Richard and the sister become ? 0.0297
+what were Richard cutting and the sister ? 1.0800
+what were Richard and the sister cutting ? 1.2069
+who must Michael tell something and the pig ? 0.1174
+who must Michael and the pig tell something ? 0.0473
+who were Michael tell something and the pig ? 0.2558
+who were Michael and the pig thinking about ? 0.2727
+what did Michael tell something and the pig ? 0.1378
+what did Michael and the pig tell something ? 0.0351
+what were Michael thinking about and the pig ? 0.0466
+what were Michael and the pig thinking about ? 0.0609
+who must Richard become and the doctor ? 0.1520
+who must Richard and the doctor become ? 0.0947
+who were Richard become and the doctor ? 0.7047
+who were Richard and the doctor trying ? 0.2546
+what did Richard become and the doctor ? 0.1555
+what did Richard and the doctor become ? 0.0304
+what were Richard trying and the doctor ? 0.3720
+what were Richard and the doctor trying ? 0.1073
+who must William become and the dinosaur ? 0.2706
+who must William and the dinosaur become ? 0.1852
+who were William become and the dinosaur ? 0.9835
+who were William and the dinosaur covering ? 0.0975
+what did William become and the dinosaur ? 0.9068
+what did William and the dinosaur become ? 0.0202
+what were William covering and the dinosaur ? 1.2424
+what were William and the dinosaur covering ? 0.0524
+what did Sarah have and the pig ? 0.0058
+what did Sarah and the pig have ? 0.0053
+what were Sarah saying and the pig ? 0.4713
+what were Sarah and the pig saying ? 0.0043
+who must William present and the pig ? 0.2217
+who must William and the pig present ? 0.2396
+who were William present and the pig ? 0.5111
+who were William and the pig thinking about ? 0.0209
+what did William present and the pig ? 0.1842
+what did William and the pig present ? 0.0012
+what were William thinking about and the pig ? 0.0180
+what were William and the pig thinking about ? 0.0129
+who must Roger tell something and the dinosaur ? 0.1478
+who must Roger and the dinosaur tell something ? 0.2353
+who were Roger tell something and the dinosaur ? 0.2430
+who were Roger and the dinosaur covering ? 0.1219
+what did Roger tell something and the dinosaur ? 0.0657
+what did Roger and the dinosaur tell something ? 0.1205
+what were Roger covering and the dinosaur ? 0.5985
+what were Roger and the dinosaur covering ? 0.1057
+who must Michael change and the dinosaur ? 0.9574
+who must Michael and the dinosaur change ? 1.1744
+who were Michael change and the dinosaur ? 0.6867
+who were Michael and the dinosaur thinking about ? 0.8609
+what did Michael change and the dinosaur ? 0.7757
+what did Michael and the dinosaur change ? 0.1070
+what were Michael thinking about and the dinosaur ? 0.3548
+what were Michael and the dinosaur thinking about ? 0.8292
+who must Donald tell something and the dinosaur ? 0.4708
+who must Donald and the dinosaur tell something ? 0.3054
+who were Donald tell something and the dinosaur ? 0.5492
+who were Donald and the dinosaur trying ? 0.4330
+what did Donald tell something and the dinosaur ? 0.2055
+what did Donald and the dinosaur tell something ? 0.0466
+what were Donald trying and the dinosaur ? 1.2815
+what were Donald and the dinosaur trying ? 0.3490
+who must Donald close and the slave ? 1.0519
+who must Donald and the slave close ? 0.8635
+who were Donald close and the slave ? 0.9400
+who were Donald and the slave covering ? 1.0129
+what did Donald close and the slave ? 0.9473
+what did Donald and the slave close ? 0.6642
+what were Donald covering and the slave ? 0.9795
+what were Donald and the slave covering ? 1.0882
+who must Richard have and the boat ? 0.1348
+who must Richard and the boat have ? 0.2891
+who were Richard have and the boat ? 0.4251
+who were Richard and the boat falling on ? 0.0809
+what did Richard have and the boat ? 0.0706
+what did Richard and the boat have ? 0.3507
+what were Richard falling on and the boat ? 0.1042
+what were Richard and the boat falling on ? 0.1357
+who must Richard tell something and the boat ? 0.1490
+who must Richard and the boat tell something ? 0.1422
+who were Richard tell something and the boat ? 0.5973
+who were Richard and the boat testing ? 0.0160
+what did Richard tell something and the boat ? 0.4405
+what did Richard and the boat tell something ? 0.1924
+what were Richard testing and the boat ? 0.1208
+what were Richard and the boat testing ? 0.0099
+what did Laura need and the duke ? 0.1849
+what did Laura and the duke need ? 0.0072
+what were Laura calling and the duke ? 0.4955
+what were Laura and the duke calling ? 0.0081
+who must Philip keep and the wolf ? 0.0997
+who must Philip and the wolf keep ? 0.0976
+who were Philip keep and the wolf ? 0.7866
+who were Philip and the wolf running to ? 0.0537
+what did Philip keep and the wolf ? 0.2081
+what did Philip and the wolf keep ? 0.0828
+what were Philip running to and the wolf ? 0.0860
+what were Philip and the wolf running to ? 0.2091
+who must Philip close and the dinosaur ? 1.0450
+who must Philip and the dinosaur close ? 1.0330
+who were Philip close and the dinosaur ? 1.1338
+who were Philip and the dinosaur falling on ? 0.0575
+what did Philip close and the dinosaur ? 0.8553
+what did Philip and the dinosaur close ? 0.0069
+what were Philip falling on and the dinosaur ? 0.3014
+what were Philip and the dinosaur falling on ? 0.0478
+who must Alexander work for and the doctor ? 0.0099
+who must Alexander and the doctor work for ? 0.0076
+who were Alexander work for and the doctor ? 0.0203
+who were Alexander and the doctor taking ? 0.0723
+what did Alexander work for and the doctor ? 0.1006
+what did Alexander and the doctor work for ? 0.0043
+what were Alexander taking and the doctor ? 0.2024
+what were Alexander and the doctor taking ? 0.0047
+who must Roger work for and the dinosaur ? 0.1174
+who must Roger and the dinosaur work for ? 0.2516
+who were Roger work for and the dinosaur ? 0.0339
+who were Roger and the dinosaur reaching for ? 0.9924
+what did Roger work for and the dinosaur ? 0.0550
+what did Roger and the dinosaur work for ? 0.0472
+what were Roger reaching for and the dinosaur ? 1.0480
+what were Roger and the dinosaur reaching for ? 0.9726
+who must Richard close and the doctor ? 0.6040
+who must Richard and the doctor close ? 0.1413
+who were Richard close and the doctor ? 0.3397
+who were Richard and the doctor falling on ? 0.0232
+what did Richard close and the doctor ? 0.2353
+what did Richard and the doctor close ? 0.0138
+what were Richard falling on and the doctor ? 0.2411
+what were Richard and the doctor falling on ? 0.0922
+who must Laura tell something and the wolf ? 0.1914
+who must Laura and the wolf tell something ? 0.0126
+who were Laura tell something and the wolf ? 0.5846
+who were Laura and the wolf reaching for ? 0.8478
+what did Laura tell something and the wolf ? 0.3461
+what did Laura and the wolf tell something ? 0.0052
+what were Laura reaching for and the wolf ? 0.7332
+what were Laura and the wolf reaching for ? 0.8243
+who must Laura have and the sister ? 0.3317
+who must Laura and the sister have ? 0.1582
+who were Laura have and the sister ? 0.5044
+who were Laura and the sister reaching for ? 0.9684
+what did Laura have and the sister ? 0.0346
+what did Laura and the sister have ? 0.0046
+what were Laura reaching for and the sister ? 0.9167
+what were Laura and the sister reaching for ? 0.9218
+what did Roger need and the sister ? 0.4036
+what did Roger and the sister need ? 0.5616
+what were Roger thinking about and the sister ? 0.0542
+what were Roger and the sister thinking about ? 0.0227
+who must Alexander keep and the sister ? 0.1549
+who must Alexander and the sister keep ? 0.0974
+who were Alexander keep and the sister ? 0.8597
+who were Alexander and the sister looking for ? 0.2051
+what did Alexander keep and the sister ? 0.2003
+what did Alexander and the sister keep ? 0.0210
+what were Alexander looking for and the sister ? 0.0902
+what were Alexander and the sister looking for ? 0.0620
+who must Mark present and the sister ? 0.6368
+who must Mark and the sister present ? 0.0476
+who were Mark present and the sister ? 0.7975
+who were Mark and the sister turning ? 0.3742
+what did Mark present and the sister ? 0.5203
+what did Mark and the sister present ? 0.0173
+what were Mark turning and the sister ? 0.6861
+what were Mark and the sister turning ? 0.1222
+who must Donald tell something and the pig ? 0.0198
+who must Donald and the pig tell something ? 0.1410
+who were Donald tell something and the pig ? 0.1047
+who were Donald and the pig running to ? 0.0052
+what did Donald tell something and the pig ? 0.0378
+what did Donald and the pig tell something ? 0.0074
+what were Donald running to and the pig ? 0.0791
+what were Donald and the pig running to ? 0.0154
+who were Michael present and the doctor ? 1.0293
+who were Michael and the doctor falling on ? 0.0311
+what were Michael falling on and the doctor ? 0.8557
+what were Michael and the doctor falling on ? 0.1021
+who must Alexander keep and the wolf ? 0.0621
+who must Alexander and the wolf keep ? 0.0172
+who were Alexander keep and the wolf ? 0.6713
+who were Alexander and the wolf testing ? 0.8273
+what did Alexander keep and the wolf ? 0.1995
+what did Alexander and the wolf keep ? 0.0101
+what were Alexander testing and the wolf ? 0.4543
+what were Alexander and the wolf testing ? 0.1765
+what did Laura need and the slave ? 0.2828
+what did Laura and the slave need ? 0.0665
+what were Laura eating and the slave ? 0.2356
+what were Laura and the slave eating ? 0.2604
+who must Alexander change and the sister ? 0.3411
+who must Alexander and the sister change ? 0.1017
+who were Alexander change and the sister ? 0.9801
+who were Alexander and the sister sleeping in ? 0.0219
+what did Alexander change and the sister ? 0.5811
+what did Alexander and the sister change ? 0.2485
+what were Alexander sleeping in and the sister ? 0.1693
+what were Alexander and the sister sleeping in ? 0.0153
+who must Donald become and the doctor ? 0.0898
+who must Donald and the doctor become ? 0.0421
+who were Donald become and the doctor ? 0.5738
+who were Donald and the doctor cutting ? 1.3174
+what did Donald become and the doctor ? 0.1158
+what did Donald and the doctor become ? 0.0214
+what were Donald cutting and the doctor ? 0.7869
+what were Donald and the doctor cutting ? 1.0483
+who must Donald present and the slave ? 0.4195
+who must Donald and the slave present ? 0.0903
+who were Donald present and the slave ? 0.7441
+who were Donald and the slave drawing ? 0.8345
+what did Donald present and the slave ? 0.6137
+what did Donald and the slave present ? 0.0118
+what were Donald drawing and the slave ? 0.3872
+what were Donald and the slave drawing ? 0.1349
+who must Laura close and the sister ? 0.7427
+who must Laura and the sister close ? 0.1367
+who were Laura close and the sister ? 0.2321
+who were Laura and the sister taking ? 0.9999
+what were Laura taking and the sister ? 0.8236
+what were Laura and the sister taking ? 0.4170
+who must Mark turn and the slave ? 0.6924
+who must Mark and the slave turn ? 0.5030
+who were Mark turn and the slave ? 1.9993
+who were Mark and the slave housing ? 1.3514
+what did Mark turn and the slave ? 0.5217
+what did Mark and the slave turn ? 0.4033
+what were Mark housing and the slave ? 1.8886
+what were Mark and the slave housing ? 0.1423
+who must Philip keep and the doctor ? 0.1951
+who must Philip and the doctor keep ? 0.1231
+who were Philip keep and the doctor ? 0.8914
+who were Philip and the doctor fishing ? 0.5852
+what did Philip keep and the doctor ? 0.0645
+what did Philip and the doctor keep ? 0.0440
+what were Philip fishing and the doctor ? 0.3153
+what were Philip and the doctor fishing ? 0.4087
+who were Richard close and the doctor ? 0.3397
+who were Richard and the doctor taking ? 0.0218
+what were Richard taking and the doctor ? 0.1481
+what were Richard and the doctor taking ? 0.0034
+who must Michael present and the sister ? 0.7271
+who must Michael and the sister present ? 0.2188
+who were Michael present and the sister ? 1.1975
+who were Michael and the sister reaching for ? 0.9609
+what did Michael present and the sister ? 0.6003
+what did Michael and the sister present ? 0.0084
+what were Michael reaching for and the sister ? 1.0351
+what were Michael and the sister reaching for ? 0.8425
+who must Michael keep and the pig ? 0.3550
+who must Michael and the pig keep ? 0.1188
+who were Michael keep and the pig ? 0.7110
+who were Michael and the pig covering ? 0.6207
+what did Michael keep and the pig ? 0.1273
+what did Michael and the pig keep ? 0.0401
+what were Michael covering and the pig ? 1.2175
+what were Michael and the pig covering ? 0.3574
+what did Michael need and the pig ? 0.2193
+what did Michael and the pig need ? 0.0369
+what were Michael trying and the pig ? 0.8582
+what were Michael and the pig trying ? 0.3578
+who must Donald close and the wolf ? 0.9775
+who must Donald and the wolf close ? 0.4472
+who were Donald close and the wolf ? 0.5586
+who were Donald and the wolf taking ? 0.2959
+what did Donald close and the wolf ? 0.5858
+what did Donald and the wolf close ? 0.0421
+what were Donald taking and the wolf ? 0.4230
+what were Donald and the wolf taking ? 0.0787
+who must Alexander become and the wolf ? 0.2302
+who must Alexander and the wolf become ? 0.0171
+who were Alexander become and the wolf ? 0.5723
+who were Alexander and the wolf running to ? 0.0753
+what did Alexander become and the wolf ? 0.0170
+what did Alexander and the wolf become ? 0.0027
+what were Alexander running to and the wolf ? 0.1158
+what were Alexander and the wolf running to ? 0.0992
+who must Sarah tell something and the wolf ? 0.0781
+who must Sarah and the wolf tell something ? 0.0099
+who were Sarah tell something and the wolf ? 0.4103
+who were Sarah and the wolf looking for ? 0.0014
+what did Sarah tell something and the wolf ? 0.1941
+what did Sarah and the wolf tell something ? 0.0111
+what were Sarah looking for and the wolf ? 0.0116
+what were Sarah and the wolf looking for ? 0.0016
+what did Roger need and the doctor ? 0.0271
+what did Roger and the doctor need ? 0.0203
+what were Roger covering and the doctor ? 1.1063
+what were Roger and the doctor covering ? 0.5982
+who were Donald tell something and the doctor ? 0.1669
+who were Donald and the doctor running to ? 0.0419
+what were Donald running to and the doctor ? 0.0301
+what were Donald and the doctor running to ? 0.0641
+what did Philip need and the dinosaur ? 0.0478
+what did Philip and the dinosaur need ? 0.1421
+what were Philip thinking about and the dinosaur ? 0.1383
+what were Philip and the dinosaur thinking about ? 0.6557
+who must William close and the wolf ? 1.0390
+who must William and the wolf close ? 0.6266
+who were William close and the wolf ? 0.7064
+who were William and the wolf trying ? 0.1668
+what did William close and the wolf ? 0.8648
+what did William and the wolf close ? 0.0429
+what were William trying and the wolf ? 1.0447
+what were William and the wolf trying ? 0.0367
+who must Sarah work for and the doctor ? 0.0220
+who must Sarah and the doctor work for ? 0.0110
+who were Sarah work for and the doctor ? 0.0777
+who were Sarah and the doctor covering ? 1.0098
+what did Sarah work for and the doctor ? 0.0103
+what did Sarah and the doctor work for ? 0.0130
+what were Sarah covering and the doctor ? 1.0431
+what were Sarah and the doctor covering ? 0.6327
+who must Philip change and the dinosaur ? 0.8274
+who must Philip and the dinosaur change ? 1.1469
+who were Philip change and the dinosaur ? 0.1389
+who were Philip and the dinosaur growing ? 1.2561
+what did Philip change and the dinosaur ? 0.4028
+what did Philip and the dinosaur change ? 0.0167
+what were Philip growing and the dinosaur ? 0.8790
+what were Philip and the dinosaur growing ? 0.1725
+what did Roger need and the slave ? 0.0946
+what did Roger and the slave need ? 0.0271
+what were Roger looking for and the slave ? 0.0016
+what were Roger and the slave looking for ? 0.0032
+who must Laura close and the doctor ? 0.7610
+who must Laura and the doctor close ? 0.2680
+who were Laura close and the doctor ? 0.2995
+who were Laura and the doctor testing ? 0.0064
+what did Laura close and the doctor ? 0.3134
+what did Laura and the doctor close ? 0.0575
+what were Laura testing and the doctor ? 0.0091
+what were Laura and the doctor testing ? 0.0484
+who must Sarah close and the wolf ? 0.9503
+who must Sarah and the wolf close ? 0.4298
+who were Sarah close and the wolf ? 0.5971
+who were Sarah and the wolf cutting ? 1.3449
+what did Sarah close and the wolf ? 0.7714
+what did Sarah and the wolf close ? 0.0763
+what were Sarah cutting and the wolf ? 0.8657
+what were Sarah and the wolf cutting ? 0.9829
+who must Philip present and the duke ? 0.1498
+who must Philip and the duke present ? 0.0540
+who were Philip present and the duke ? 0.0181
+who were Philip and the duke looking for ? 0.0015
+what did Philip present and the duke ? 0.0114
+what did Philip and the duke present ? 0.0066
+what were Philip looking for and the duke ? 0.0008
+what were Philip and the duke looking for ? 0.0006
+who must Laura close and the pig ? 0.6221
+who must Laura and the pig close ? 0.0141
+who were Laura close and the pig ? 0.2734
+who were Laura and the pig looking for ? 0.2055
+what did Laura close and the pig ? 0.5766
+what did Laura and the pig close ? 0.0599
+what were Laura looking for and the pig ? 0.0077
+what were Laura and the pig looking for ? 0.0068
+who must William change and the dinosaur ? 0.2604
+who must William and the dinosaur change ? 1.2459
+who were William change and the dinosaur ? 0.6099
+who were William and the dinosaur turning ? 1.2545
+what did William change and the dinosaur ? 0.8570
+what did William and the dinosaur change ? 0.0328
+what were William turning and the dinosaur ? 0.8753
+what were William and the dinosaur turning ? 0.3405
+who must William turn and the wolf ? 0.2663
+who must William and the wolf turn ? 0.1867
+who were William turn and the wolf ? 0.4438
+who were William and the wolf fishing ? 0.0846
+what did William turn and the wolf ? 0.1871
+what did William and the wolf turn ? 0.1123
+what were William fishing and the wolf ? 0.6671
+what were William and the wolf fishing ? 0.1316
+what did Sarah need and the boat ? 0.1391
+what did Sarah and the boat need ? 0.0206
+what were Sarah trying and the boat ? 0.3941
+what were Sarah and the boat trying ? 0.0505
+who must Michael tell something and the wolf ? 0.3421
+who must Michael and the wolf tell something ? 0.0241
+who were Michael tell something and the wolf ? 1.0041
+who were Michael and the wolf talking about ? 0.0074
+what did Michael tell something and the wolf ? 0.4931
+what did Michael and the wolf tell something ? 0.0063
+what were Michael talking about and the wolf ? 0.0023
+what were Michael and the wolf talking about ? 0.0080
+who were Roger tell something and the wolf ? 0.6866
+who were Roger and the wolf testing ? 0.4729
+what were Roger testing and the wolf ? 0.6642
+what were Roger and the wolf testing ? 0.3715
+who must Roger keep and the wolf ? 0.1610
+who must Roger and the wolf keep ? 0.1066
+who were Roger keep and the wolf ? 0.5904
+who were Roger and the wolf thinking about ? 0.0236
+what did Roger keep and the wolf ? 0.1186
+what did Roger and the wolf keep ? 0.0287
+what were Roger thinking about and the wolf ? 0.0080
+what were Roger and the wolf thinking about ? 0.0036
+who must Sarah become and the dinosaur ? 0.3776
+who must Sarah and the dinosaur become ? 0.0535
+who were Sarah become and the dinosaur ? 0.9006
+who were Sarah and the dinosaur turning ? 1.0705
+what were Sarah turning and the dinosaur ? 0.7552
+what were Sarah and the dinosaur turning ? 0.0138
+who must Mark turn and the pig ? 1.2850
+who must Mark and the pig turn ? 0.9201
+who were Mark turn and the pig ? 2.3818
+who were Mark and the pig drawing ? 0.1917
+what did Mark turn and the pig ? 0.7197
+what did Mark and the pig turn ? 0.0801
+what were Mark drawing and the pig ? 0.1858
+what were Mark and the pig drawing ? 0.0034
+who must Alexander become and the sister ? 0.1471
+who must Alexander and the sister become ? 0.0549
+who were Alexander become and the sister ? 0.3416
+who were Alexander and the sister falling on ? 0.4023
+what did Alexander become and the sister ? 0.0681
+what did Alexander and the sister become ? 0.0302
+what were Alexander falling on and the sister ? 0.7808
+what were Alexander and the sister falling on ? 0.6187
+who must Sarah become and the boat ? 0.1660
+who must Sarah and the boat become ? 0.0210
+who were Sarah become and the boat ? 0.9876
+who were Sarah and the boat falling on ? 0.0140
+what did Sarah become and the boat ? 0.0414
+what did Sarah and the boat become ? 0.0097
+what were Sarah falling on and the boat ? 0.1556
+what were Sarah and the boat falling on ? 0.0612
+who must Sarah work for and the dinosaur ? 0.1149
+who must Sarah and the dinosaur work for ? 0.0499
+who were Sarah work for and the dinosaur ? 0.1691
+who were Sarah and the dinosaur reaching for ? 1.0912
+what did Sarah work for and the dinosaur ? 0.0953
+what did Sarah and the dinosaur work for ? 0.0183
+what were Sarah reaching for and the dinosaur ? 0.8514
+what were Sarah and the dinosaur reaching for ? 0.8034
+who must Richard work for and the sister ? 0.1378
+who must Richard and the sister work for ? 0.2131
+who were Richard work for and the sister ? 0.1421
+who were Richard and the sister taking ? 0.8143
+what did Richard work for and the sister ? 0.2294
+what did Richard and the sister work for ? 0.1569
+what were Richard taking and the sister ? 0.5037
+what were Richard and the sister taking ? 0.3761
+who must Roger have and the duke ? 0.1433
+who must Roger and the duke have ? 0.0208
+who were Roger have and the duke ? 0.0533
+who were Roger and the duke cutting ? 1.1403
+what did Roger have and the duke ? 0.0040
+what did Roger and the duke have ? 0.0076
+what were Roger cutting and the duke ? 0.0096
+what were Roger and the duke cutting ? 0.7972
+who must Philip become and the boat ? 0.1695
+who must Philip and the boat become ? 0.2561
+who were Philip become and the boat ? 0.7008
+who were Philip and the boat drawing ? 0.6074
+what did Philip become and the boat ? 0.2033
+what did Philip and the boat become ? 0.1666
+what were Philip drawing and the boat ? 0.1364
+what were Philip and the boat drawing ? 0.8567
+who must Michael keep and the sister ? 0.3821
+who must Michael and the sister keep ? 0.1458
+who were Michael keep and the sister ? 0.6350
+who were Michael and the sister running to ? 0.4257
+what did Michael keep and the sister ? 0.1042
+what did Michael and the sister keep ? 0.0421
+what were Michael running to and the sister ? 0.3239
+what were Michael and the sister running to ? 0.3921
+who must Michael change and the sister ? 0.7078
+who must Michael and the sister change ? 0.1399
+who were Michael change and the sister ? 1.0161
+who were Michael and the sister cutting ? 1.1287
+what did Michael change and the sister ? 0.8515
+what did Michael and the sister change ? 0.1643
+what were Michael cutting and the sister ? 0.8393
+what were Michael and the sister cutting ? 1.1179
+who must Philip turn and the wolf ? 0.0956
+who must Philip and the wolf turn ? 0.0940
+who were Philip turn and the wolf ? 0.2735
+who were Philip and the wolf taking ? 0.0841
+what did Philip turn and the wolf ? 0.0433
+what did Philip and the wolf turn ? 0.0177
+what were Philip taking and the wolf ? 0.1979
+what were Philip and the wolf taking ? 0.0101
+what were Laura saying and the doctor ? 0.2717
+what were Laura and the doctor saying ? 0.0009
+who must Laura keep and the pig ? 0.2438
+who must Laura and the pig keep ? 0.1176
+who were Laura keep and the pig ? 0.6625
+who were Laura and the pig housing ? 1.0856
+what did Laura keep and the pig ? 0.0625
+what did Laura and the pig keep ? 0.3131
+what were Laura housing and the pig ? 0.8205
+what were Laura and the pig housing ? 0.1791
+what did Richard need and the sister ? 0.4044
+what did Richard and the sister need ? 0.4026
+what were Richard testing and the sister ? 0.1129
+what were Richard and the sister testing ? 0.4386
+who must Roger present and the duke ? 0.1083
+who must Roger and the duke present ? 0.0301
+who were Roger present and the duke ? 0.0695
+who were Roger and the duke trying ? 0.6926
+what did Roger present and the duke ? 0.0327
+what did Roger and the duke present ? 0.0147
+what were Roger trying and the duke ? 0.4350
+what were Roger and the duke trying ? 0.0300
+who were Alexander work for and the boat ? 0.0784
+who were Alexander and the boat turning ? 0.0071
+what were Alexander turning and the boat ? 0.0522
+what were Alexander and the boat turning ? 0.0138
+who must Philip present and the wolf ? 0.1463
+who must Philip and the wolf present ? 0.0598
+who were Philip present and the wolf ? 0.3055
+who were Philip and the wolf drawing ? 0.2574
+what did Philip present and the wolf ? 0.1710
+what did Philip and the wolf present ? 0.0086
+what were Philip drawing and the wolf ? 0.9200
+what were Philip and the wolf drawing ? 0.0108
+who must Richard tell something and the duke ? 0.0077
+who must Richard and the duke tell something ? 0.0327
+who were Richard tell something and the duke ? 0.2202
+who were Richard and the duke talking about ? 0.0030
+what did Richard tell something and the duke ? 0.0028
+what did Richard and the duke tell something ? 0.0034
+what were Richard talking about and the duke ? 0.0005
+what were Richard and the duke talking about ? 0.0027
+who must Donald work for and the wolf ? 0.1571
+who must Donald and the wolf work for ? 0.1785
+who were Donald work for and the wolf ? 0.0013
+who were Donald and the wolf covering ? 0.1465
+what did Donald work for and the wolf ? 0.0101
+what did Donald and the wolf work for ? 0.0039
+what were Donald covering and the wolf ? 0.6127
+what were Donald and the wolf covering ? 0.0636
+who must Laura keep and the duke ? 0.3455
+who must Laura and the duke keep ? 0.2549
+who were Laura keep and the duke ? 0.4576
+who were Laura and the duke talking about ? 0.0035
+what did Laura keep and the duke ? 0.0695
+what did Laura and the duke keep ? 0.1054
+what were Laura talking about and the duke ? 0.0012
+what were Laura and the duke talking about ? 0.0014
+who must Philip keep and the duke ? 0.1297
+who must Philip and the duke keep ? 0.1673
+who were Philip keep and the duke ? 0.7724
+who were Philip and the duke cutting ? 1.1194
+what did Philip keep and the duke ? 0.0307
+what did Philip and the duke keep ? 0.0198
+what were Philip cutting and the duke ? 1.0940
+what were Philip and the duke cutting ? 1.0325
+who must Laura turn and the slave ? 0.6330
+who must Laura and the slave turn ? 0.8783
+who were Laura turn and the slave ? 1.1252
+who were Laura and the slave sleeping in ? 0.0027
+what did Laura turn and the slave ? 0.6719
+what did Laura and the slave turn ? 0.7840
+what were Laura sleeping in and the slave ? 0.0084
+what were Laura and the slave sleeping in ? 0.0023
+who must William tell something and the doctor ? 0.0188
+who must William and the doctor tell something ? 0.0685
+who were William tell something and the doctor ? 0.0956
+who were William and the doctor covering ? 1.0660
+what did William tell something and the doctor ? 0.1357
+what did William and the doctor tell something ? 0.0048
+what were William covering and the doctor ? 1.7124
+what were William and the doctor covering ? 0.5236
+what did Philip need and the slave ? 0.0115
+what did Philip and the slave need ? 0.0239
+what were Philip talking about and the slave ? 0.0016
+what were Philip and the slave talking about ? 0.0031
+who must Philip present and the dinosaur ? 1.1637
+who must Philip and the dinosaur present ? 1.0689
+who were Philip present and the dinosaur ? 0.7059
+who were Philip and the dinosaur cutting ? 1.9004
+what did Philip present and the dinosaur ? 0.4501
+what did Philip and the dinosaur present ? 0.0434
+what were Philip cutting and the dinosaur ? 0.5778
+what were Philip and the dinosaur cutting ? 1.5539
+who must Philip work for and the pig ? 0.0470
+who must Philip and the pig work for ? 0.0370
+who were Philip work for and the pig ? 0.0035
+who were Philip and the pig covering ? 0.5552
+what did Philip work for and the pig ? 0.0040
+what did Philip and the pig work for ? 0.0038
+what were Philip covering and the pig ? 1.2781
+what were Philip and the pig covering ? 0.3205
+who must Mark tell something and the slave ? 0.4968
+who must Mark and the slave tell something ? 0.0053
+what did Mark tell something and the slave ? 0.0195
+what did Mark and the slave tell something ? 0.0084
+who must Alexander present and the dinosaur ? 0.3591
+who must Alexander and the dinosaur present ? 0.9231
+who were Alexander present and the dinosaur ? 0.5715
+who were Alexander and the dinosaur talking about ? 0.8264
+what did Alexander present and the dinosaur ? 0.3789
+what did Alexander and the dinosaur present ? 0.0169
+what were Alexander talking about and the dinosaur ? 0.4302
+what were Alexander and the dinosaur talking about ? 0.1257
+who were Michael keep and the duke ? 0.3187
+who were Michael and the duke reaching for ? 0.8829
+what were Michael reaching for and the duke ? 0.8146
+what were Michael and the duke reaching for ? 0.7238
+who must Sarah close and the boat ? 0.6988
+who must Sarah and the boat close ? 0.0274
+what did Sarah close and the boat ? 0.3919
+what did Sarah and the boat close ? 0.0110
+who must William work for and the boat ? 0.0889
+who must William and the boat work for ? 0.0699
+who were William work for and the boat ? 0.0363
+who were William and the boat covering ? 0.6119
+what did William work for and the boat ? 0.0246
+what did William and the boat work for ? 0.0086
+what were William covering and the boat ? 0.9383
+what were William and the boat covering ? 0.1965
+who must Alexander present and the wolf ? 0.3551
+who must Alexander and the wolf present ? 0.0107
+who were Alexander present and the wolf ? 0.6708
+who were Alexander and the wolf fishing ? 0.1852
+what did Alexander present and the wolf ? 0.4227
+what did Alexander and the wolf present ? 0.0044
+what were Alexander fishing and the wolf ? 0.4327
+what were Alexander and the wolf fishing ? 0.0383
+who must Donald keep and the sister ? 0.3919
+who must Donald and the sister keep ? 0.3238
+who were Donald keep and the sister ? 0.7045
+who were Donald and the sister reaching for ? 1.0088
+what did Donald keep and the sister ? 0.2599
+what did Donald and the sister keep ? 0.2399
+what were Donald reaching for and the sister ? 0.9619
+what were Donald and the sister reaching for ? 0.9086
+who must Richard become and the boat ? 0.1880
+who must Richard and the boat become ? 0.1275
+who were Richard become and the boat ? 1.0407
+who were Richard and the boat housing ? 0.6622
+what did Richard become and the boat ? 0.1618
+what did Richard and the boat become ? 0.1271
+what were Richard housing and the boat ? 0.4396
+what were Richard and the boat housing ? 0.2763
+what did Sarah need and the doctor ? 0.1314
+what did Sarah and the doctor need ? 0.0089
+what were Sarah talking about and the doctor ? 0.0933
+what were Sarah and the doctor talking about ? 0.0109
+who were Richard present and the boat ? 0.2332
+who were Richard and the boat thinking about ? 0.4215
+what were Richard thinking about and the boat ? 0.1210
+what were Richard and the boat thinking about ? 0.5463
+who must Laura have and the boat ? 0.4418
+who must Laura and the boat have ? 0.4654
+who were Laura have and the boat ? 0.7098
+who were Laura and the boat trying ? 0.8466
+what did Laura have and the boat ? 0.4366
+what did Laura and the boat have ? 0.6512
+what were Laura trying and the boat ? 0.6952
+what were Laura and the boat trying ? 0.6193
+who must Alexander present and the boat ? 0.0242
+who must Alexander and the boat present ? 0.0576
+who were Alexander present and the boat ? 0.0901
+who were Alexander and the boat sleeping in ? 0.0836
+what did Alexander present and the boat ? 0.3030
+what did Alexander and the boat present ? 0.0582
+what were Alexander sleeping in and the boat ? 0.0536
+what were Alexander and the boat sleeping in ? 0.1676
+what did Roger need and the boat ? 0.0739
+what did Roger and the boat need ? 0.0365
+what were Roger falling on and the boat ? 0.0368
+what were Roger and the boat falling on ? 0.0581
+who must Roger have and the sister ? 0.1236
+who must Roger and the sister have ? 0.0602
+who were Roger have and the sister ? 0.1034
+who were Roger and the sister talking about ? 0.0687
+what did Roger have and the sister ? 0.0336
+what did Roger and the sister have ? 0.0073
+what were Roger talking about and the sister ? 0.0140
+what were Roger and the sister talking about ? 0.0106
+who must Richard tell something and the doctor ? 0.0393
+who must Richard and the doctor tell something ? 0.0923
+who were Richard tell something and the doctor ? 0.2822
+who were Richard and the doctor thinking about ? 0.0105
+what did Richard tell something and the doctor ? 0.1758
+what did Richard and the doctor tell something ? 0.0081
+what were Richard thinking about and the doctor ? 0.0586
+what were Richard and the doctor thinking about ? 0.0029
+who must Richard work for and the dinosaur ? 0.2398
+who must Richard and the dinosaur work for ? 0.2754
+who were Richard work for and the dinosaur ? 0.0071
+who were Richard and the dinosaur cutting ? 0.8182
+what did Richard work for and the dinosaur ? 0.0270
+what did Richard and the dinosaur work for ? 0.0321
+what were Richard cutting and the dinosaur ? 0.1424
+what were Richard and the dinosaur cutting ? 0.7870
+who must Sarah turn and the boat ? 0.5484
+who must Sarah and the boat turn ? 0.0243
+who were Sarah turn and the boat ? 0.7336
+who were Sarah and the boat trying ? 0.1348
+what did Sarah turn and the boat ? 0.6528
+what did Sarah and the boat turn ? 0.0066
+what did Michael need and the boat ? 0.1549
+what did Michael and the boat need ? 0.0663
+what were Michael turning and the boat ? 0.6795
+what were Michael and the boat turning ? 0.0116
+what did Donald need and the dinosaur ? 0.7315
+what did Donald and the dinosaur need ? 0.2926
+what were Donald cutting and the dinosaur ? 0.2705
+what were Donald and the dinosaur cutting ? 0.4317
+who must William keep and the dinosaur ? 0.3859
+who must William and the dinosaur keep ? 1.2735
+who must Michael work for and the pig ? 0.1465
+who must Michael and the pig work for ? 0.2455
+who were Michael work for and the pig ? 0.0599
+who were Michael and the pig taking ? 0.8538
+what did Michael work for and the pig ? 0.0130
+what did Michael and the pig work for ? 0.1041
+what were Michael taking and the pig ? 0.8066
+what were Michael and the pig taking ? 0.6048
+who must Mark keep and the slave ? 0.6839
+who must Mark and the slave keep ? 0.0078
+who were Mark keep and the slave ? 1.3177
+who were Mark and the slave covering ? 0.4854
+what did Mark keep and the slave ? 0.2226
+what did Mark and the slave keep ? 0.0141
+what were Mark covering and the slave ? 1.0698
+what were Mark and the slave covering ? 0.5478
+who must Laura change and the boat ? 0.2934
+who must Laura and the boat change ? 0.0314
+who were Laura change and the boat ? 0.7753
+who were Laura and the boat growing ? 1.0831
+what did Laura change and the boat ? 0.7878
+what did Laura and the boat change ? 0.3777
+what were Laura growing and the boat ? 0.4928
+what were Laura and the boat growing ? 0.5157
+who were Sarah tell something and the wolf ? 0.4103
+who were Sarah and the wolf talking about ? 0.0043
+what were Sarah talking about and the wolf ? 0.0656
+what were Sarah and the wolf talking about ? 0.0074
+who must Sarah present and the pig ? 0.2273
+who must Sarah and the pig present ? 0.0038
+who were Sarah present and the pig ? 0.5303
+who were Sarah and the pig cutting ? 0.7633
+what did Sarah present and the pig ? 0.3008
+what did Sarah and the pig present ? 0.0048
+what were Sarah cutting and the pig ? 0.4037
+what were Sarah and the pig cutting ? 0.4009
+who must Roger close and the boat ? 0.2889
+who must Roger and the boat close ? 0.0166
+who were Roger close and the boat ? 0.3070
+who were Roger and the boat cutting ? 1.5043
+what did Roger close and the boat ? 0.1998
+what did Roger and the boat close ? 0.0134
+what were Roger cutting and the boat ? 0.0280
+what were Roger and the boat cutting ? 0.9780
+what did Alexander have and the slave ? 0.0279
+what did Alexander and the slave have ? 0.0148
+what were Alexander eating and the slave ? 0.5936
+what were Alexander and the slave eating ? 0.2902
+who must Michael become and the wolf ? 0.4214
+who must Michael and the wolf become ? 0.0283
+what did Michael become and the wolf ? 0.3588
+what did Michael and the wolf become ? 0.0026
+what did Laura need and the wolf ? 0.4279
+what did Laura and the wolf need ? 0.0410
+what were Laura fishing and the wolf ? 0.6440
+what were Laura and the wolf fishing ? 0.4174
+what did Sarah close and the dinosaur ? 0.5609
+what did Sarah and the dinosaur close ? 0.0061
+who must Roger change and the sister ? 0.1092
+who must Roger and the sister change ? 0.1151
+who were Roger change and the sister ? 0.1692
+who were Roger and the sister cutting ? 1.2232
+what did Roger change and the sister ? 0.2036
+what did Roger and the sister change ? 0.3332
+what were Roger cutting and the sister ? 0.3560
+what were Roger and the sister cutting ? 1.0617
+what did Sarah change and the wolf ? 0.2264
+what did Sarah and the wolf change ? 0.0084
+what were Sarah eating and the wolf ? 0.8264
+what were Sarah and the wolf eating ? 0.1255
+who must Sarah close and the pig ? 0.8943
+who must Sarah and the pig close ? 0.0074
+who were Sarah close and the pig ? 0.8126
+who were Sarah and the pig testing ? 0.3553
+what did Sarah close and the pig ? 0.7950
+what did Sarah and the pig close ? 0.0024
+what were Sarah testing and the pig ? 0.0817
+what were Sarah and the pig testing ? 0.1607
+who must William change and the doctor ? 0.0721
+who must William and the doctor change ? 0.1126
+who were William change and the doctor ? 0.8713
+who were William and the doctor turning ? 0.0869
+what did William change and the doctor ? 0.3986
+what did William and the doctor change ? 0.0295
+what were William turning and the doctor ? 0.8955
+what were William and the doctor turning ? 0.0114
+what did William become and the boat ? 0.3584
+what did William and the boat become ? 0.0369
+what were William saying and the boat ? 0.2681
+what were William and the boat saying ? 0.0795
+what were Philip reaching for and the dinosaur ? 0.9252
+what were Philip and the dinosaur reaching for ? 0.7540
+who must William close and the boat ? 0.6472
+who must William and the boat close ? 0.0172
+who were William close and the boat ? 0.5538
+who were William and the boat calling ? 0.0496
+what did William close and the boat ? 0.4065
+what did William and the boat close ? 0.0563
+what were William calling and the boat ? 0.1376
+what were William and the boat calling ? 0.0177
+who were Alexander change and the sister ? 0.9801
+who were Alexander and the sister calling ? 0.3949
+who must Michael close and the dinosaur ? 0.8442
+who must Michael and the dinosaur close ? 0.8445
+who were Michael close and the dinosaur ? 0.5907
+who were Michael and the dinosaur reaching for ? 1.3601
+what did Michael close and the dinosaur ? 0.7354
+what did Michael and the dinosaur close ? 0.0101
+what were Michael reaching for and the dinosaur ? 1.2490
+what were Michael and the dinosaur reaching for ? 0.8503
+who must Philip close and the pig ? 0.8973
+who must Philip and the pig close ? 0.0200
+who were Philip close and the pig ? 1.0284
+who were Philip and the pig looking for ? 0.0069
+what did Philip close and the pig ? 0.6628
+what did Philip and the pig close ? 0.0016
+what were Philip looking for and the pig ? 0.0030
+what were Philip and the pig looking for ? 0.0019
+who must Mark keep and the pig ? 0.1887
+who must Mark and the pig keep ? 0.0112
+what did Mark keep and the pig ? 0.1920
+what did Mark and the pig keep ? 0.0050
+who must William change and the pig ? 0.3234
+who must William and the pig change ? 0.1765
+who were William change and the pig ? 0.6823
+who were William and the pig looking for ? 0.0331
+what did William change and the pig ? 0.5546
+what did William and the pig change ? 0.0070
+what were William looking for and the pig ? 0.0122
+what were William and the pig looking for ? 0.0039
+who must William tell something and the slave ? 0.0108
+who must William and the slave tell something ? 0.0667
+who were William tell something and the slave ? 0.1212
+who were William and the slave turning ? 0.7551
+what did William tell something and the slave ? 0.0350
+what did William and the slave tell something ? 0.0024
+what were William turning and the slave ? 0.8299
+what were William and the slave turning ? 0.7071
+who must William change and the sister ? 0.1739
+who must William and the sister change ? 0.1167
+who were William change and the sister ? 0.4629
+who were William and the sister taking ? 0.6266
+what did William change and the sister ? 0.2750
+what did William and the sister change ? 0.1828
+what were William taking and the sister ? 0.6739
+what were William and the sister taking ? 0.2635
+who must Laura become and the doctor ? 0.1663
+who must Laura and the doctor become ? 0.0679
+who were Laura become and the doctor ? 0.2996
+who were Laura and the doctor growing ? 0.6939
+what did Laura become and the doctor ? 0.0219
+what did Laura and the doctor become ? 0.0054
+what were Laura growing and the doctor ? 0.1659
+what were Laura and the doctor growing ? 0.1192
+who must Mark tell something and the doctor ? 0.3610
+who must Mark and the doctor tell something ? 0.0128
+who were Mark tell something and the doctor ? 1.0661
+who were Mark and the doctor running to ? 0.0206
+what did Mark tell something and the doctor ? 0.0629
+what did Mark and the doctor tell something ? 0.0057
+what were Mark running to and the doctor ? 0.0111
+what were Mark and the doctor running to ? 0.0060
+what did Michael need and the dinosaur ? 0.2675
+what did Michael and the dinosaur need ? 0.3821
+who must Donald keep and the doctor ? 0.2815
+who must Donald and the doctor keep ? 0.2090
+who were Donald keep and the doctor ? 0.6196
+who were Donald and the doctor falling on ? 0.0251
+what did Donald keep and the doctor ? 0.0695
+what did Donald and the doctor keep ? 0.2138
+what were Donald falling on and the doctor ? 0.1592
+what were Donald and the doctor falling on ? 0.0580
+what were Sarah testing and the boat ? 0.1173
+what were Sarah and the boat testing ? 0.0044
+what did Donald need and the pig ? 0.4011
+what did Donald and the pig need ? 0.0507
+what were Donald housing and the pig ? 1.6684
+what were Donald and the pig housing ? 0.3314
+what did Mark need and the sister ? 0.9827
+what did Mark and the sister need ? 0.3416
+what were Mark cutting and the sister ? 1.0835
+what were Mark and the sister cutting ? 1.4130
+who were Donald keep and the boat ? 0.5724
+who were Donald and the boat growing ? 0.8369
+what were Donald growing and the boat ? 0.7307
+what were Donald and the boat growing ? 0.2735
+who were Michael keep and the duke ? 0.3187
+who were Michael and the duke growing ? 0.9355
+what were Michael growing and the duke ? 1.3866
+what were Michael and the duke growing ? 0.7759
+what did Roger need and the dinosaur ? 0.3171
+what did Roger and the dinosaur need ? 0.3156
+what were Roger looking for and the dinosaur ? 0.0285
+what were Roger and the dinosaur looking for ? 0.0972
+who must Donald keep and the wolf ? 0.2804
+who must Donald and the wolf keep ? 0.2492
+who were Donald keep and the wolf ? 0.7142
+who were Donald and the wolf drawing ? 0.3987
+what did Donald keep and the wolf ? 0.3944
+what did Donald and the wolf keep ? 0.1944
+what were Donald drawing and the wolf ? 0.7708
+what were Donald and the wolf drawing ? 0.2098
+who were William change and the dinosaur ? 0.6099
+who were William and the dinosaur sleeping in ? 0.0123
+what were William sleeping in and the dinosaur ? 0.7668
+what were William and the dinosaur sleeping in ? 0.0191
+who must Richard have and the wolf ? 0.0711
+who must Richard and the wolf have ? 0.0207
+who were Richard have and the wolf ? 0.1901
+who were Richard and the wolf drawing ? 0.5477
+what did Richard have and the wolf ? 0.0052
+what did Richard and the wolf have ? 0.0042
+what were Richard drawing and the wolf ? 0.4407
+what were Richard and the wolf drawing ? 0.1063
+who must Donald close and the dinosaur ? 1.0279
+who must Donald and the dinosaur close ? 0.1946
+who were Donald close and the dinosaur ? 0.9627
+who were Donald and the dinosaur testing ? 0.4185
+what did Donald close and the dinosaur ? 0.8223
+what did Donald and the dinosaur close ? 0.0119
+what were Donald testing and the dinosaur ? 1.1795
+what were Donald and the dinosaur testing ? 0.3539
+who must Alexander turn and the dinosaur ? 0.8409
+who must Alexander and the dinosaur turn ? 1.5591
+who were Alexander turn and the dinosaur ? 0.6269
+who were Alexander and the dinosaur looking for ? 0.2607
+what did Alexander turn and the dinosaur ? 0.4613
+what did Alexander and the dinosaur turn ? 1.2261
+what were Alexander looking for and the dinosaur ? 0.0340
+what were Alexander and the dinosaur looking for ? 0.1747
+who must Richard change and the slave ? 0.1847
+who must Richard and the slave change ? 0.0229
+who were Richard change and the slave ? 1.1643
+who were Richard and the slave running to ? 0.0738
+what did Richard change and the slave ? 0.2502
+what did Richard and the slave change ? 0.0244
+what were Richard running to and the slave ? 0.0413
+what were Richard and the slave running to ? 0.0039
+who must Sarah become and the wolf ? 0.2242
+who must Sarah and the wolf become ? 0.0095
+who were Sarah become and the wolf ? 1.1722
+who were Sarah and the wolf turning ? 0.1397
+what did Sarah become and the wolf ? 0.0102
+what did Sarah and the wolf become ? 0.0040
+what were Sarah turning and the wolf ? 0.8796
+what were Sarah and the wolf turning ? 0.0153
+who must Richard close and the duke ? 0.7501
+who must Richard and the duke close ? 0.0312
+who were Richard close and the duke ? 0.3600
+who were Richard and the duke thinking about ? 0.0109
+what did Richard close and the duke ? 0.2141
+what did Richard and the duke close ? 0.0038
+what were Richard thinking about and the duke ? 0.0058
+what were Richard and the duke thinking about ? 0.0013
+who must Alexander work for and the dinosaur ? 0.1655
+who must Alexander and the dinosaur work for ? 0.2522
+who were Alexander work for and the dinosaur ? 0.1437
+who were Alexander and the dinosaur running to ? 0.8315
+what did Alexander work for and the dinosaur ? 0.2082
+what did Alexander and the dinosaur work for ? 0.0214
+what were Alexander running to and the dinosaur ? 0.1723
+what were Alexander and the dinosaur running to ? 0.0602
+who must Philip change and the slave ? 0.1187
+who must Philip and the slave change ? 0.0504
+who were Philip change and the slave ? 0.6898
+who were Philip and the slave calling ? 0.0194
+what did Philip change and the slave ? 0.0167
+what did Philip and the slave change ? 0.0221
+what were Philip calling and the slave ? 0.4331
+what were Philip and the slave calling ? 0.0163
+who must Michael work for and the slave ? 0.0206
+who must Michael and the slave work for ? 0.0832
+who were Michael work for and the slave ? 0.0100
+who were Michael and the slave taking ? 0.1093
+what did Michael work for and the slave ? 0.0047
+what did Michael and the slave work for ? 0.0032
+what were Michael taking and the slave ? 0.8527
+what were Michael and the slave taking ? 0.0162
+who must Philip turn and the doctor ? 0.2454
+who must Philip and the doctor turn ? 0.1082
+who were Philip turn and the doctor ? 0.2773
+who were Philip and the doctor testing ? 0.0787
+what did Philip turn and the doctor ? 0.1843
+what did Philip and the doctor turn ? 0.0772
+what were Philip testing and the doctor ? 0.8574
+what were Philip and the doctor testing ? 0.0405
+who must Mark turn and the wolf ? 0.9829
+who must Mark and the wolf turn ? 0.1755
+what did Mark turn and the wolf ? 0.7814
+what did Mark and the wolf turn ? 0.1123
+what were Richard saying and the boat ? 0.6062
+what were Richard and the boat saying ? 0.4255
+who must Donald become and the slave ? 0.0519
+who must Donald and the slave become ? 0.0352
+who were Donald become and the slave ? 0.4411
+who were Donald and the slave thinking about ? 0.0062
+what did Donald become and the slave ? 0.0219
+what did Donald and the slave become ? 0.0361
+what were Donald thinking about and the slave ? 0.0040
+what were Donald and the slave thinking about ? 0.0075
+who must William present and the slave ? 0.2562
+who must William and the slave present ? 0.1900
+who were William present and the slave ? 0.4096
+who were William and the slave calling ? 0.0479
+what did William present and the slave ? 0.1400
+what did William and the slave present ? 0.0091
+what were William calling and the slave ? 0.2779
+what were William and the slave calling ? 0.0152
+what did Alexander tell and the doctor ? 0.1572
+what did Alexander and the doctor tell ? 0.0228
+what were Alexander saying and the doctor ? 0.2162
+what were Alexander and the doctor saying ? 0.0016
+who were William turn and the wolf ? 0.4438
+who were William and the wolf cutting ? 1.3300
+what were William cutting and the wolf ? 0.7485
+what were William and the wolf cutting ? 1.0319
+who must Alexander keep and the dinosaur ? 0.4313
+who must Alexander and the dinosaur keep ? 1.2771
+who were Alexander keep and the dinosaur ? 1.0101
+who were Alexander and the dinosaur covering ? 0.1700
+what did Alexander keep and the dinosaur ? 0.5497
+what did Alexander and the dinosaur keep ? 0.3063
+what were Alexander covering and the dinosaur ? 0.5892
+what were Alexander and the dinosaur covering ? 0.0929
+what did Michael close and the duke ? 0.3459
+what did Michael and the duke close ? 0.0146
+what were Michael saying and the duke ? 0.4103
+what were Michael and the duke saying ? 0.0026
+who must Laura keep and the dinosaur ? 0.6356
+who must Laura and the dinosaur keep ? 1.0232
+who were Laura keep and the dinosaur ? 0.4790
+who were Laura and the dinosaur cutting ? 1.0486
+what did Laura keep and the dinosaur ? 0.2957
+what did Laura and the dinosaur keep ? 0.3326
+what were Laura cutting and the dinosaur ? 0.5736
+what were Laura and the dinosaur cutting ? 1.0161
+who must Mark change and the slave ? 0.1993
+who must Mark and the slave change ? 0.0047
+who were Mark change and the slave ? 1.7557
+who were Mark and the slave drawing ? 0.2937
+what did Mark change and the slave ? 0.4555
+what did Mark and the slave change ? 0.0128
+what were Mark drawing and the slave ? 0.1163
+what were Mark and the slave drawing ? 0.0036
+who must Richard have and the dinosaur ? 0.2131
+who must Richard and the dinosaur have ? 0.0846
+who were Richard have and the dinosaur ? 0.4628
+who were Richard and the dinosaur sleeping in ? 0.2126
+what did Richard have and the dinosaur ? 0.0233
+what did Richard and the dinosaur have ? 0.0075
+what were Richard sleeping in and the dinosaur ? 0.8309
+what were Richard and the dinosaur sleeping in ? 0.4541
+what did Mark tell and the pig ? 0.0245
+what did Mark and the pig tell ? 0.0098
+what were Mark saying and the pig ? 0.4554
+what were Mark and the pig saying ? 0.0051
+who must Donald change and the duke ? 0.1237
+who must Donald and the duke change ? 0.1122
+who were Donald change and the duke ? 0.7600
+who were Donald and the duke cutting ? 1.3141
+what did Donald change and the duke ? 0.0140
+what did Donald and the duke change ? 0.0020
+what were Donald cutting and the duke ? 0.3788
+what were Donald and the duke cutting ? 1.0928
+who must Roger tell something and the boat ? 0.1458
+who must Roger and the boat tell something ? 0.2074
+what did Roger tell something and the boat ? 0.4296
+what did Roger and the boat tell something ? 0.0704
+what did Roger need and the duke ? 0.0278
+what did Roger and the duke need ? 0.0050
+what were Roger thinking about and the duke ? 0.0078
+what were Roger and the duke thinking about ? 0.0027
+who were Sarah work for and the dinosaur ? 0.1691
+who were Sarah and the dinosaur looking for ? 0.0481
+what were Sarah looking for and the dinosaur ? 0.1986
+what were Sarah and the dinosaur looking for ? 0.0439
+who must Mark close and the doctor ? 0.5025
+who must Mark and the doctor close ? 0.2800
+who were Mark close and the doctor ? 0.4854
+who were Mark and the doctor calling ? 0.0032
+what did Mark close and the doctor ? 0.1784
+what did Mark and the doctor close ? 0.0507
+what were Mark calling and the doctor ? 0.0141
+what were Mark and the doctor calling ? 0.0017
+who must Philip have and the pig ? 0.0842
+who must Philip and the pig have ? 0.0277
+who were Philip have and the pig ? 0.3825
+who were Philip and the pig drawing ? 0.5375
+what did Philip have and the pig ? 0.0172
+what did Philip and the pig have ? 0.0072
+what were Philip drawing and the pig ? 0.0146
+what were Philip and the pig drawing ? 0.0118
+who must Roger close and the wolf ? 0.9793
+who must Roger and the wolf close ? 0.5429
+who were Roger close and the wolf ? 0.6651
+who were Roger and the wolf looking for ? 0.0039
+what did Roger close and the wolf ? 0.6645
+what did Roger and the wolf close ? 0.0606
+what were Roger looking for and the wolf ? 0.0053
+what were Roger and the wolf looking for ? 0.0019
+who must Donald keep and the dinosaur ? 0.6370
+who must Donald and the dinosaur keep ? 0.9936
+who were Donald keep and the dinosaur ? 1.0833
+who were Donald and the dinosaur reaching for ? 0.9803
+what did Donald keep and the dinosaur ? 0.8876
+what did Donald and the dinosaur keep ? 0.2433
+what were Donald reaching for and the dinosaur ? 1.3090
+what were Donald and the dinosaur reaching for ? 0.9793
+who must William work for and the sister ? 0.1132
+who must William and the sister work for ? 0.0921
+who were William work for and the sister ? 0.0715
+who were William and the sister calling ? 0.2949
+what did William work for and the sister ? 0.1136
+what did William and the sister work for ? 0.0232
+what were William calling and the sister ? 0.7135
+what were William and the sister calling ? 0.1756
+who must Roger turn and the wolf ? 0.7789
+who must Roger and the wolf turn ? 0.2016
+who were Roger turn and the wolf ? 1.1287
+who were Roger and the wolf reaching for ? 0.9017
+what did Roger turn and the wolf ? 0.7694
+what did Roger and the wolf turn ? 0.0981
+what were Roger reaching for and the wolf ? 0.8609
+what were Roger and the wolf reaching for ? 0.8843
+who must Alexander close and the doctor ? 0.7178
+who must Alexander and the doctor close ? 0.2668
+who were Alexander close and the doctor ? 0.5550
+who were Alexander and the doctor reaching for ? 0.9955
+what did Alexander close and the doctor ? 0.4456
+what did Alexander and the doctor close ? 0.0266
+what were Alexander reaching for and the doctor ? 0.7990
+what were Alexander and the doctor reaching for ? 0.8102
+who must Philip tell something and the wolf ? 0.1335
+who must Philip and the wolf tell something ? 0.0217
+who were Philip tell something and the wolf ? 0.4257
+who were Philip and the wolf turning ? 0.1088
+what did Philip tell something and the wolf ? 0.2832
+what did Philip and the wolf tell something ? 0.0127
+what were Philip turning and the wolf ? 0.7015
+what were Philip and the wolf turning ? 0.0383
+what did William need and the dinosaur ? 0.0272
+what did William and the dinosaur need ? 0.2250
+who must Laura tell something and the doctor ? 0.0205
+who must Laura and the doctor tell something ? 0.0142
+who were Laura tell something and the doctor ? 0.1436
+who were Laura and the doctor turning ? 0.5094
+what did Laura tell something and the doctor ? 0.0814
+what did Laura and the doctor tell something ? 0.0042
+what were Laura turning and the doctor ? 0.8270
+what were Laura and the doctor turning ? 0.0877
+who must Mark close and the pig ? 0.7222
+who must Mark and the pig close ? 0.0025
+who were Mark close and the pig ? 1.6150
+who were Mark and the pig growing ? 0.5762
+what did Mark close and the pig ? 0.2517
+what did Mark and the pig close ? 0.0032
+what were Mark growing and the pig ? 0.9070
+what were Mark and the pig growing ? 0.2883
+who were Philip turn and the doctor ? 0.2773
+who were Philip and the doctor covering ? 1.1571
+what were Philip covering and the doctor ? 1.5791
+what were Philip and the doctor covering ? 0.7772
+who must William have and the wolf ? 0.0512
+who must William and the wolf have ? 0.0503
+who were William have and the wolf ? 0.0134
+who were William and the wolf talking about ? 0.0059
+what did William have and the wolf ? 0.0074
+what did William and the wolf have ? 0.0041
+what were William talking about and the wolf ? 0.0027
+what were William and the wolf talking about ? 0.0096
+what were Roger running to and the boat ? 0.0159
+what were Roger and the boat running to ? 0.0208
+who must Michael change and the duke ? 0.2971
+who must Michael and the duke change ? 0.0193
+who were Michael change and the duke ? 0.9718
+who were Michael and the duke falling on ? 0.0306
+what did Michael change and the duke ? 0.1912
+what did Michael and the duke change ? 0.0026
+what were Michael falling on and the duke ? 0.6609
+what were Michael and the duke falling on ? 0.0350
+what did Mark have and the duke ? 0.0035
+what did Mark and the duke have ? 0.0023
+what were Mark saying and the duke ? 0.3242
+what were Mark and the duke saying ? 0.0050
+who must Donald have and the pig ? 0.1032
+who must Donald and the pig have ? 0.0383
+who were Donald have and the pig ? 0.3498
+who were Donald and the pig thinking about ? 0.0485
+what did Donald have and the pig ? 0.0049
+what did Donald and the pig have ? 0.0021
+what were Donald thinking about and the pig ? 0.0207
+what were Donald and the pig thinking about ? 0.0137
+who were Donald close and the dinosaur ? 0.9627
+who were Donald and the dinosaur looking for ? 0.2149
+what were Donald looking for and the dinosaur ? 0.0501
+what were Donald and the dinosaur looking for ? 0.1898
+who must William have and the slave ? 0.1342
+who must William and the slave have ? 0.0893
+who were William have and the slave ? 0.0737
+who were William and the slave taking ? 0.1054
+what did William have and the slave ? 0.0053
+what did William and the slave have ? 0.0148
+what were William taking and the slave ? 0.2765
+what were William and the slave taking ? 0.0088
+who must Michael turn and the pig ? 1.0056
+who must Michael and the pig turn ? 0.7560
+who were Michael turn and the pig ? 1.1013
+who were Michael and the pig reaching for ? 1.0761
+what did Michael turn and the pig ? 0.6382
+what did Michael and the pig turn ? 0.7917
+what were Michael reaching for and the pig ? 0.9950
+what were Michael and the pig reaching for ? 1.0396
+who must Alexander close and the sister ? 0.8725
+who must Alexander and the sister close ? 0.3430
+who were Alexander close and the sister ? 0.4721
+who were Alexander and the sister thinking about ? 0.2707
+what did Alexander close and the sister ? 0.3029
+what did Alexander and the sister close ? 0.1313
+what were Alexander thinking about and the sister ? 0.1126
+what were Alexander and the sister thinking about ? 0.1104
+who must William become and the sister ? 0.1375
+who must William and the sister become ? 0.0417
+who were William become and the sister ? 0.5343
+who were William and the sister drawing ? 0.8194
+what did William become and the sister ? 0.1349
+what did William and the sister become ? 0.0340
+what were William drawing and the sister ? 0.7021
+what were William and the sister drawing ? 0.2225
+who must Richard have and the duke ? 0.1121
+who must Richard and the duke have ? 0.0240
+who were Richard have and the duke ? 0.1212
+who were Richard and the duke growing ? 0.8629
+what did Richard have and the duke ? 0.0019
+what did Richard and the duke have ? 0.0047
+what were Richard growing and the duke ? 1.1706
+what were Richard and the duke growing ? 0.6847
+who must Roger become and the boat ? 0.2563
+who must Roger and the boat become ? 0.0594
+who were Roger become and the boat ? 1.0952
+who were Roger and the boat taking ? 0.0321
+what did Roger become and the boat ? 0.0655
+what did Roger and the boat become ? 0.0073
+what were Roger taking and the boat ? 0.0209
+what were Roger and the boat taking ? 0.0135
+who must Roger work for and the wolf ? 0.1971
+who must Roger and the wolf work for ? 0.1477
+who were Roger work for and the wolf ? 0.0036
+who were Roger and the wolf turning ? 0.1389
+what did Roger work for and the wolf ? 0.0272
+what did Roger and the wolf work for ? 0.0123
+what were Roger turning and the wolf ? 1.2917
+what were Roger and the wolf turning ? 0.0890
+who were William work for and the boat ? 0.0363
+who were William and the boat housing ? 0.6676
+what were William housing and the boat ? 0.5482
+what were William and the boat housing ? 0.3385
+who must Sarah work for and the duke ? 0.0380
+who must Sarah and the duke work for ? 0.0100
+who were Sarah work for and the duke ? 0.0484
+who were Sarah and the duke falling on ? 0.0080
+what did Sarah work for and the duke ? 0.0022
+what did Sarah and the duke work for ? 0.0030
+what were Sarah falling on and the duke ? 0.1998
+what were Sarah and the duke falling on ? 0.0245
+who must Alexander tell something and the pig ? 0.0129
+who must Alexander and the pig tell something ? 0.0314
+who were Alexander tell something and the pig ? 0.1539
+who were Alexander and the pig trying ? 0.3243
+what did Alexander tell something and the pig ? 0.0093
+what did Alexander and the pig tell something ? 0.0283
+what were Alexander trying and the pig ? 0.4994
+what were Alexander and the pig trying ? 0.2714
+who must Philip keep and the boat ? 0.1066
+who must Philip and the boat keep ? 0.1131
+who were Philip keep and the boat ? 0.7054
+who were Philip and the boat thinking about ? 0.5370
+what did Philip keep and the boat ? 0.0768
+what did Philip and the boat keep ? 0.0158
+what were Philip thinking about and the boat ? 0.2313
+what were Philip and the boat thinking about ? 0.5276
+who must Richard have and the slave ? 0.0636
+who must Richard and the slave have ? 0.0263
+who were Richard have and the slave ? 0.4670
+who were Richard and the slave turning ? 0.8714
+what did Richard have and the slave ? 0.0041
+what did Richard and the slave have ? 0.0037
+what were Richard turning and the slave ? 1.1364
+what were Richard and the slave turning ? 0.9552
+who must Philip become and the wolf ? 0.0240
+who must Philip and the wolf become ? 0.0195
+who were Philip become and the wolf ? 0.4262
+who were Philip and the wolf looking for ? 0.0023
+what did Philip become and the wolf ? 0.0125
+what did Philip and the wolf become ? 0.0037
+what were Philip looking for and the wolf ? 0.0038
+what were Philip and the wolf looking for ? 0.0012
+who must Alexander turn and the duke ? 0.0259
+who must Alexander and the duke turn ? 0.0852
+who were Alexander turn and the duke ? 0.2325
+who were Alexander and the duke trying ? 0.5420
+what did Alexander turn and the duke ? 0.0060
+what did Alexander and the duke turn ? 0.0203
+what were Alexander trying and the duke ? 0.5077
+what were Alexander and the duke trying ? 0.0141
+who were Philip present and the doctor ? 0.2203
+who were Philip and the doctor calling ? 0.0041
+what were Philip calling and the doctor ? 0.7915
+what were Philip and the doctor calling ? 0.0035
+who must Richard keep and the doctor ? 0.2594
+who must Richard and the doctor keep ? 0.2028
+who were Richard keep and the doctor ? 0.4835
+who were Richard and the doctor calling ? 0.0021
+what did Richard keep and the doctor ? 0.1073
+what did Richard and the doctor keep ? 0.0629
+what were Richard calling and the doctor ? 0.3704
+what were Richard and the doctor calling ? 0.0046
+who must Sarah close and the sister ? 0.6267
+who must Sarah and the sister close ? 0.2917
+who were Sarah close and the sister ? 0.3829
+who were Sarah and the sister covering ? 0.9698
+what did Sarah close and the sister ? 0.2790
+what did Sarah and the sister close ? 0.0105
+what were Sarah covering and the sister ? 1.2282
+what were Sarah and the sister covering ? 0.6885
+who must William close and the duke ? 0.7706
+who must William and the duke close ? 0.1369
+who were William close and the duke ? 0.5652
+who were William and the duke trying ? 0.6868
+what did William close and the duke ? 0.4248
+what did William and the duke close ? 0.0136
+what were William trying and the duke ? 0.6115
+what were William and the duke trying ? 0.0150
+what did Michael need and the slave ? 0.2194
+what did Michael and the slave need ? 0.1556
+what were Michael eating and the slave ? 1.4496
+what were Michael and the slave eating ? 0.4778
+who must Philip tell something and the sister ? 0.0676
+who must Philip and the sister tell something ? 0.0831
+who were Philip tell something and the sister ? 0.1130
+who were Philip and the sister trying ? 0.8731
+what did Philip tell something and the sister ? 0.1131
+what did Philip and the sister tell something ? 0.0167
+what were Philip trying and the sister ? 0.6702
+what were Philip and the sister trying ? 0.6978
+who were William change and the pig ? 0.6823
+who were William and the pig housing ? 0.9003
+what were William housing and the pig ? 1.2753
+what were William and the pig housing ? 0.0520
+what were Roger thinking about and the dinosaur ? 0.1030
+what were Roger and the dinosaur thinking about ? 0.3389
+what did Donald tell and the wolf ? 0.0218
+what did Donald and the wolf tell ? 0.0106
+what were Donald eating and the wolf ? 0.6132
+what were Donald and the wolf eating ? 0.0604
+who were Michael close and the slave ? 0.8200
+who were Michael and the slave looking for ? 0.0013
+what were Michael looking for and the slave ? 0.0027
+what were Michael and the slave looking for ? 0.0026
+who must Michael tell something and the slave ? 0.0093
+who must Michael and the slave tell something ? 0.0045
+what did Michael tell something and the slave ? 0.0308
+what did Michael and the slave tell something ? 0.0046
+who must William change and the boat ? 0.1104
+who must William and the boat change ? 0.0805
+who were William change and the boat ? 0.1102
+who were William and the boat turning ? 0.0082
+what did William change and the boat ? 0.0440
+what did William and the boat change ? 0.0101
+what were William turning and the boat ? 0.1430
+what were William and the boat turning ? 0.0109
+what did Laura tell and the wolf ? 0.0209
+what did Laura and the wolf tell ? 0.0202
+what were Laura saying and the wolf ? 0.5358
+what were Laura and the wolf saying ? 0.0032
+who must Philip work for and the slave ? 0.0360
+who must Philip and the slave work for ? 0.0485
+who were Philip work for and the slave ? 0.0079
+who were Philip and the slave sleeping in ? 0.0035
+what did Philip work for and the slave ? 0.0124
+what did Philip and the slave work for ? 0.0063
+what were Philip sleeping in and the slave ? 0.0919
+what were Philip and the slave sleeping in ? 0.0138
+what did Alexander need and the doctor ? 0.0814
+what did Alexander and the doctor need ? 0.0056
+what were Alexander covering and the doctor ? 1.0785
+what were Alexander and the doctor covering ? 0.9711
+who were Roger tell something and the wolf ? 0.6866
+who were Roger and the wolf calling ? 0.0209
+what were Roger calling and the wolf ? 0.0524
+what were Roger and the wolf calling ? 0.0305
+who must William present and the wolf ? 0.2501
+who must William and the wolf present ? 0.1849
+who were William present and the wolf ? 0.5175
+who were William and the wolf reaching for ? 0.8324
+what did William present and the wolf ? 0.3159
+what did William and the wolf present ? 0.0076
+what were William reaching for and the wolf ? 0.7612
+what were William and the wolf reaching for ? 0.7274
+what did Richard change and the duke ? 0.0067
+what did Richard and the duke change ? 0.0026
+what were Richard saying and the duke ? 0.0910
+what were Richard and the duke saying ? 0.0011
+what did Michael need and the wolf ? 0.2329
+what did Michael and the wolf need ? 0.1381
+what were Michael drawing and the wolf ? 0.7158
+what were Michael and the wolf drawing ? 0.3100
+who must Richard turn and the duke ? 0.0623
+who must Richard and the duke turn ? 0.0660
+what did Richard turn and the duke ? 0.0108
+what did Richard and the duke turn ? 0.0163
+who were William change and the pig ? 0.6823
+who were William and the pig cutting ? 0.9061
+what were William cutting and the pig ? 0.3447
+what were William and the pig cutting ? 0.4854
+who must Roger tell something and the doctor ? 0.0324
+who must Roger and the doctor tell something ? 0.1388
+who were Roger tell something and the doctor ? 0.1920
+who were Roger and the doctor trying ? 0.0600
+what did Roger tell something and the doctor ? 0.1045
+what did Roger and the doctor tell something ? 0.0053
+what were Roger trying and the doctor ? 0.4616
+what were Roger and the doctor trying ? 0.0197
+who must Alexander tell something and the doctor ? 0.0426
+who must Alexander and the doctor tell something ? 0.0326
+who were Alexander tell something and the doctor ? 0.1458
+who were Alexander and the doctor growing ? 1.1524
+what did Alexander tell something and the doctor ? 0.2835
+what did Alexander and the doctor tell something ? 0.0051
+what were Alexander growing and the doctor ? 0.9427
+what were Alexander and the doctor growing ? 0.8171
+what did Laura present and the wolf ? 0.4544
+what did Laura and the wolf present ? 0.0062
+who must Richard change and the pig ? 0.4086
+who must Richard and the pig change ? 0.0416
+who were Richard change and the pig ? 0.8968
+who were Richard and the pig taking ? 0.8972
+what did Richard change and the pig ? 0.3381
+what did Richard and the pig change ? 0.0130
+what were Richard taking and the pig ? 0.2660
+what were Richard and the pig taking ? 0.6705
+who were Alexander close and the doctor ? 0.5550
+who were Alexander and the doctor housing ? 1.2757
+what were Alexander housing and the doctor ? 1.2446
+what were Alexander and the doctor housing ? 0.8207
+what did Laura keep and the wolf ? 0.0205
+what did Laura and the wolf keep ? 0.1530
+who must Philip become and the duke ? 0.0261
+who must Philip and the duke become ? 0.0187
+who were Philip become and the duke ? 0.5072
+who were Philip and the duke fishing ? 0.0356
+what did Philip become and the duke ? 0.0014
+what did Philip and the duke become ? 0.0019
+what were Philip fishing and the duke ? 0.2651
+what were Philip and the duke fishing ? 0.0200
+who must Laura work for and the sister ? 0.0439
+who must Laura and the sister work for ? 0.1142
+who were Laura work for and the sister ? 0.0046
+who were Laura and the sister running to ? 0.3646
+what did Laura work for and the sister ? 0.0120
+what did Laura and the sister work for ? 0.0046
+what were Laura running to and the sister ? 0.3629
+what were Laura and the sister running to ? 0.2380
+what were Alexander covering and the sister ? 1.3063
+what were Alexander and the sister covering ? 0.7800
+who must Mark present and the pig ? 0.9659
+who must Mark and the pig present ? 0.0066
+who were Mark present and the pig ? 1.4666
+who were Mark and the pig looking for ? 0.0882
+what did Mark present and the pig ? 0.4341
+what did Mark and the pig present ? 0.0060
+what were Mark looking for and the pig ? 0.2684
+what were Mark and the pig looking for ? 0.0016
+who were Roger present and the dinosaur ? 0.3174
+who were Roger and the dinosaur looking for ? 0.2027
+who must Mark present and the duke ? 0.4604
+who must Mark and the duke present ? 0.0043
+who were Mark present and the duke ? 0.4238
+who were Mark and the duke looking for ? 0.0017
+what did Mark present and the duke ? 0.1305
+what did Mark and the duke present ? 0.0083
+what were Mark looking for and the duke ? 0.0050
+what were Mark and the duke looking for ? 0.0015
+who were Mark change and the slave ? 1.7557
+who were Mark and the slave sleeping in ? 0.3813
+what were Mark sleeping in and the slave ? 0.0105
+what were Mark and the slave sleeping in ? 0.0042
+who were Richard turn and the duke ? 0.9317
+who were Richard and the duke cutting ? 1.2363
+what were Richard cutting and the duke ? 0.3880
+what were Richard and the duke cutting ? 0.9389
+what did Sarah need and the duke ? 0.0293
+what did Sarah and the duke need ? 0.0068
+what were Sarah sleeping in and the duke ? 0.0028
+what were Sarah and the duke sleeping in ? 0.0010
+who must Sarah turn and the duke ? 0.1731
+who must Sarah and the duke turn ? 0.0084
+who were Sarah turn and the duke ? 0.1552
+who were Sarah and the duke covering ? 0.9914
+what did Sarah turn and the duke ? 0.0115
+what did Sarah and the duke turn ? 0.0089
+what were Sarah covering and the duke ? 1.0310
+what were Sarah and the duke covering ? 0.5568
+who must Laura become and the wolf ? 0.2295
+who must Laura and the wolf become ? 0.0803
+who were Laura become and the wolf ? 0.7277
+who were Laura and the wolf calling ? 0.0037
+what did Laura become and the wolf ? 0.0072
+what did Laura and the wolf become ? 0.0078
+what were Laura calling and the wolf ? 0.4624
+what were Laura and the wolf calling ? 0.0019
+what did Sarah have and the duke ? 0.0044
+what did Sarah and the duke have ? 0.0037
+what were Sarah eating and the duke ? 0.2189
+what were Sarah and the duke eating ? 0.0129
+what did Alexander need and the slave ? 0.0064
+what did Alexander and the slave need ? 0.0315
+what were Alexander taking and the slave ? 0.3243
+what were Alexander and the slave taking ? 0.0167
+who must William work for and the doctor ? 0.0484
+who must William and the doctor work for ? 0.0479
+who were William work for and the doctor ? 0.0144
+who were William and the doctor looking for ? 0.0049
+what did William work for and the doctor ? 0.0183
+what did William and the doctor work for ? 0.0219
+what were William looking for and the doctor ? 0.0491
+what were William and the doctor looking for ? 0.0093
+who must Alexander change and the boat ? 0.0421
+who must Alexander and the boat change ? 0.0098
+who were Alexander change and the boat ? 0.4363
+who were Alexander and the boat falling on ? 0.0073
+what did Alexander change and the boat ? 0.1769
+what did Alexander and the boat change ? 0.0295
+what were Alexander falling on and the boat ? 0.1164
+what were Alexander and the boat falling on ? 0.0333
+who must Richard become and the slave ? 0.0324
+who must Richard and the slave become ? 0.0264
+who were Richard become and the slave ? 0.3309
+who were Richard and the slave taking ? 0.3319
+what did Richard become and the slave ? 0.0029
+what did Richard and the slave become ? 0.0045
+what were Richard taking and the slave ? 0.0374
+what were Richard and the slave taking ? 0.1007
+who must Richard keep and the boat ? 0.1287
+who must Richard and the boat keep ? 0.0584
+who were Richard keep and the boat ? 0.7691
+who were Richard and the boat fishing ? 0.0258
+what did Richard keep and the boat ? 0.0950
+what did Richard and the boat keep ? 0.0516
+what were Richard fishing and the boat ? 0.0762
+what were Richard and the boat fishing ? 0.0338
+what were Sarah running to and the duke ? 0.0089
+what were Sarah and the duke running to ? 0.0121
+what were Donald turning and the slave ? 1.5730
+what were Donald and the slave turning ? 0.9309
+who must William work for and the slave ? 0.0906
+who must William and the slave work for ? 0.0787
+who were William work for and the slave ? 0.0038
+who were William and the slave fishing ? 0.2719
+what did William work for and the slave ? 0.0025
+what did William and the slave work for ? 0.0118
+what were William fishing and the slave ? 0.4323
+what were William and the slave fishing ? 0.1534
+who must Mark become and the boat ? 0.9169
+who must Mark and the boat become ? 0.1547
+who were Mark become and the boat ? 1.4822
+who were Mark and the boat covering ? 0.4577
+what did Mark become and the boat ? 0.4853
+what did Mark and the boat become ? 0.0276
+what were Mark covering and the boat ? 0.7135
+what were Mark and the boat covering ? 0.1119
+what were Sarah growing and the boat ? 0.6508
+what were Sarah and the boat growing ? 0.1924
+who must Michael have and the slave ? 0.0339
+who must Michael and the slave have ? 0.0207
+who were Michael have and the slave ? 0.8134
+who were Michael and the slave talking about ? 0.0115
+what did Michael have and the slave ? 0.0182
+what did Michael and the slave have ? 0.0058
+what were Michael talking about and the slave ? 0.0030
+what were Michael and the slave talking about ? 0.0208
+what were Richard saying and the sister ? 0.3662
+what were Richard and the sister saying ? 0.3157
+who must Laura keep and the sister ? 0.3574
+who must Laura and the sister keep ? 0.1187
+what did Laura keep and the sister ? 0.0310
+what did Laura and the sister keep ? 0.1677
+who must Philip work for and the boat ? 0.0476
+who must Philip and the boat work for ? 0.0444
+who were Philip work for and the boat ? 0.0776
+who were Philip and the boat fishing ? 0.1695
+what did Philip work for and the boat ? 0.0653
+what did Philip and the boat work for ? 0.0062
+what were Philip fishing and the boat ? 0.0756
+what were Philip and the boat fishing ? 0.1411
+what were Michael saying and the slave ? 0.6253
+what were Michael and the slave saying ? 0.2507
+what were Laura saying and the duke ? 0.2744
+what were Laura and the duke saying ? 0.0032
+who must Laura change and the doctor ? 0.2726
+who must Laura and the doctor change ? 0.0478
+who were Laura change and the doctor ? 0.5403
+who were Laura and the doctor fishing ? 0.9980
+what did Laura change and the doctor ? 0.1657
+what did Laura and the doctor change ? 0.0123
+what were Laura fishing and the doctor ? 0.3709
+what were Laura and the doctor fishing ? 0.9282
+who must Sarah turn and the pig ? 1.1020
+who must Sarah and the pig turn ? 0.0551
+who were Sarah turn and the pig ? 1.2611
+who were Sarah and the pig covering ? 0.3238
+what did Sarah turn and the pig ? 0.8212
+what did Sarah and the pig turn ? 0.0966
+what were Sarah covering and the pig ? 1.0065
+what were Sarah and the pig covering ? 0.0437
+who must Michael tell something and the doctor ? 0.0723
+who must Michael and the doctor tell something ? 0.0419
+what did Michael tell something and the doctor ? 0.1488
+what did Michael and the doctor tell something ? 0.0068
+who were Roger work for and the wolf ? 0.0036
+who were Roger and the wolf growing ? 0.9424
+what were Roger growing and the wolf ? 0.7578
+what were Roger and the wolf growing ? 0.6360
+who must Roger turn and the pig ? 0.8945
+who must Roger and the pig turn ? 0.1402
+who were Roger turn and the pig ? 1.2212
+who were Roger and the pig drawing ? 0.1762
+what did Roger turn and the pig ? 0.6687
+what did Roger and the pig turn ? 0.1542
+what were Roger drawing and the pig ? 0.0050
+what were Roger and the pig drawing ? 0.0072
+who must Roger become and the duke ? 0.0563
+who must Roger and the duke become ? 0.0077
+who were Roger become and the duke ? 0.7171
+who were Roger and the duke testing ? 0.1728
+what did Roger become and the duke ? 0.0026
+what did Roger and the duke become ? 0.0018
+what were Roger testing and the duke ? 0.1532
+what were Roger and the duke testing ? 0.0862
+who must William keep and the wolf ? 0.0590
+who must William and the wolf keep ? 0.0845
+what did William keep and the wolf ? 0.0210
+what did William and the wolf keep ? 0.0129
+what did Alexander need and the pig ? 0.0247
+what did Alexander and the pig need ? 0.0035
+what were Alexander falling on and the pig ? 0.2870
+what were Alexander and the pig falling on ? 0.0192
+what were Philip saying and the boat ? 0.3128
+what were Philip and the boat saying ? 0.1241
+who must William turn and the pig ? 0.5438
+who must William and the pig turn ? 0.5039
+who were William turn and the pig ? 0.5865
+who were William and the pig trying ? 0.0878
+what did William turn and the pig ? 0.3612
+what did William and the pig turn ? 0.5717
+what were William trying and the pig ? 1.0047
+what were William and the pig trying ? 0.0701
+who must Michael turn and the sister ? 0.7529
+who must Michael and the sister turn ? 0.3636
+what did Michael turn and the sister ? 0.4248
+what did Michael and the sister turn ? 0.3360
+who must Donald turn and the boat ? 0.8258
+who must Donald and the boat turn ? 0.0957
+what did Donald turn and the boat ? 0.7864
+what did Donald and the boat turn ? 0.0057
+who must Alexander tell something and the boat ? 0.2788
+who must Alexander and the boat tell something ? 0.1682
+what did Alexander tell something and the boat ? 0.2974
+what did Alexander and the boat tell something ? 0.1236
+who were William change and the sister ? 0.4629
+who were William and the sister talking about ? 0.0182
+what were William talking about and the sister ? 0.0640
+what were William and the sister talking about ? 0.0143
+who were Laura turn and the slave ? 1.1252
+who were Laura and the slave taking ? 0.3134
+what were Laura taking and the slave ? 0.4788
+what were Laura and the slave taking ? 0.1003
+who must Michael present and the boat ? 0.4273
+who must Michael and the boat present ? 0.1211
+who were Michael present and the boat ? 1.0676
+who were Michael and the boat talking about ? 0.0328
+what did Michael present and the boat ? 0.4980
+what did Michael and the boat present ? 0.2808
+what were Michael talking about and the boat ? 0.0731
+what were Michael and the boat talking about ? 0.0174
+who must Donald turn and the doctor ? 0.7331
+who must Donald and the doctor turn ? 0.1744
+who were Donald turn and the doctor ? 1.2286
+who were Donald and the doctor housing ? 1.1170
+what did Donald turn and the doctor ? 0.5342
+what did Donald and the doctor turn ? 0.0448
+what were Donald housing and the doctor ? 1.7818
+what were Donald and the doctor housing ? 0.8175
+who must Richard become and the duke ? 0.0473
+who must Richard and the duke become ? 0.0257
+what did Richard become and the duke ? 0.0012
+what did Richard and the duke become ? 0.0011
+who must Roger work for and the pig ? 0.0470
+who must Roger and the pig work for ? 0.0606
+who were Roger work for and the pig ? 0.0022
+who were Roger and the pig reaching for ? 0.9934
+what did Roger work for and the pig ? 0.0091
+what did Roger and the pig work for ? 0.0058
+what were Roger reaching for and the pig ? 0.9422
+what were Roger and the pig reaching for ? 1.0130
+who were Roger turn and the pig ? 1.2212
+who were Roger and the pig talking about ? 0.0176
+what were Roger talking about and the pig ? 0.0060
+what were Roger and the pig talking about ? 0.0038
+who must Philip change and the pig ? 0.1155
+who must Philip and the pig change ? 0.0651
+who were Michael become and the wolf ? 1.1383
+who were Michael and the wolf testing ? 0.5103
+what were Michael testing and the wolf ? 0.8035
+what were Michael and the wolf testing ? 0.2659
+who must Mark have and the doctor ? 1.0120
+who must Mark and the doctor have ? 0.0136
+who were Mark have and the doctor ? 0.9672
+who were Mark and the doctor reaching for ? 0.9801
+what did Mark have and the doctor ? 0.0468
+what did Mark and the doctor have ? 0.0055
+what were Mark reaching for and the doctor ? 1.2476
+what were Mark and the doctor reaching for ? 0.9953
+who must Richard tell something and the wolf ? 0.0136
+who must Richard and the wolf tell something ? 0.0331
+who were Richard tell something and the wolf ? 0.8738
+who were Richard and the wolf covering ? 0.1342
+what did Richard tell something and the wolf ? 0.1316
+what did Richard and the wolf tell something ? 0.0088
+what were Richard covering and the wolf ? 0.7418
+what were Richard and the wolf covering ? 0.0058
+who must Sarah have and the boat ? 0.1172
+who must Sarah and the boat have ? 0.0488
+who were Sarah have and the boat ? 0.6810
+who were Sarah and the boat growing ? 1.0297
+what did Sarah have and the boat ? 0.0507
+what did Sarah and the boat have ? 0.1635
+who must Donald work for and the duke ? 0.0812
+who must Donald and the duke work for ? 0.0699
+who were Donald work for and the duke ? 0.0010
+who were Donald and the duke fishing ? 0.0759
+what did Donald work for and the duke ? 0.0022
+what did Donald and the duke work for ? 0.0016
+what were Donald fishing and the duke ? 0.6743
+what were Donald and the duke fishing ? 0.0746
+what were Michael calling and the dinosaur ? 0.5069
+what were Michael and the dinosaur calling ? 0.1819
+who were Sarah close and the boat ? 0.6790
+who were Sarah and the boat cutting ? 1.0599
+what were Sarah cutting and the boat ? 0.7302
+what were Sarah and the boat cutting ? 0.3777
+who must Donald become and the sister ? 0.1594
+who must Donald and the sister become ? 0.0615
+what did Donald become and the sister ? 0.0511
+what did Donald and the sister become ? 0.0238
+what were William sleeping in and the slave ? 0.0633
+what were William and the slave sleeping in ? 0.0091
+what did William need and the duke ? 0.0024
+what did William and the duke need ? 0.0018
+what were William fishing and the duke ? 0.3496
+what were William and the duke fishing ? 0.0404
+who must Roger present and the pig ? 0.1274
+who must Roger and the pig present ? 0.1622
+who were Roger present and the pig ? 0.3453
+who were Roger and the pig running to ? 0.0024
+what did Roger present and the pig ? 0.2217
+what did Roger and the pig present ? 0.0031
+what were Roger running to and the pig ? 0.0321
+what were Roger and the pig running to ? 0.0341
+what were Michael eating and the duke ? 1.4979
+what were Michael and the duke eating ? 1.0058
+what were Laura trying and the slave ? 0.3008
+what were Laura and the slave trying ? 0.3764
+what did Sarah change and the dinosaur ? 0.6313
+what did Sarah and the dinosaur change ? 0.0539
+who were Laura turn and the slave ? 1.1252
+who were Laura and the slave thinking about ? 0.0151
+what were Laura thinking about and the slave ? 0.0052
+what were Laura and the slave thinking about ? 0.0027
+who were Donald become and the slave ? 0.4411
+who were Donald and the slave looking for ? 0.0036
+what were Donald looking for and the slave ? 0.0019
+what were Donald and the slave looking for ? 0.0029
+who must Alexander close and the pig ? 0.8015
+who must Alexander and the pig close ? 0.0057
+who were Alexander close and the pig ? 0.8087
+who were Alexander and the pig falling on ? 0.0150
+what did Alexander close and the pig ? 0.6877
+what did Alexander and the pig close ? 0.0035
+who must Donald present and the boat ? 0.2086
+who must Donald and the boat present ? 0.3752
+who were Donald present and the boat ? 0.2876
+who were Donald and the boat taking ? 0.0217
+what did Donald present and the boat ? 0.2346
+what did Donald and the boat present ? 0.2606
+what were Donald taking and the boat ? 0.0314
+what were Donald and the boat taking ? 0.0208
+who must Richard change and the duke ? 0.1030
+who must Richard and the duke change ? 0.0514
+who were Richard change and the duke ? 1.1219
+who were Richard and the duke housing ? 1.1249
+what were Richard housing and the duke ? 1.6207
+what were Richard and the duke housing ? 0.0641
+who must Mark turn and the boat ? 0.1857
+who must Mark and the boat turn ? 0.0567
+who were Mark turn and the boat ? 1.4595
+who were Mark and the boat falling on ? 0.6902
+what did Mark turn and the boat ? 0.3799
+what did Mark and the boat turn ? 0.0204
+what were Mark falling on and the boat ? 0.3886
+what were Mark and the boat falling on ? 0.0698
+who were William close and the sister ? 0.5856
+who were William and the sister growing ? 0.8578
+what were William growing and the sister ? 1.1667
+what were William and the sister growing ? 0.5312
+who must Michael work for and the duke ? 0.1380
+who must Michael and the duke work for ? 0.0359
+who were Michael work for and the duke ? 0.0004
+who were Michael and the duke looking for ? 0.0015
+what did Michael work for and the duke ? 0.0015
+what did Michael and the duke work for ? 0.0022
+what were Michael looking for and the duke ? 0.0006
+what were Michael and the duke looking for ? 0.0006
+who were Roger turn and the pig ? 1.2212
+who were Roger and the pig thinking about ? 0.0433
+what were Roger thinking about and the pig ? 0.0261
+what were Roger and the pig thinking about ? 0.0084
+who must Mark become and the dinosaur ? 1.1106
+who must Mark and the dinosaur become ? 0.0793
+who were Mark become and the dinosaur ? 0.8723
+who were Mark and the dinosaur housing ? 0.5846
+what did Mark become and the dinosaur ? 0.3973
+what did Mark and the dinosaur become ? 0.0894
+what were Mark housing and the dinosaur ? 1.5614
+what were Mark and the dinosaur housing ? 0.1437
+what were Donald reaching for and the wolf ? 0.9029
+what were Donald and the wolf reaching for ? 0.8265
+what did Michael have and the doctor ? 0.0296
+what did Michael and the doctor have ? 0.0161
+what were Michael saying and the doctor ? 0.7289
+what were Michael and the doctor saying ? 0.0062
+who must Richard turn and the slave ? 0.4802
+who must Richard and the slave turn ? 0.7532
+who were Richard turn and the slave ? 1.2272
+who were Richard and the slave housing ? 1.0821
+what did Richard turn and the slave ? 0.3865
+what did Richard and the slave turn ? 0.8080
+what were Richard housing and the slave ? 1.6566
+what were Richard and the slave housing ? 0.8700
+who must Mark have and the wolf ? 1.1151
+who must Mark and the wolf have ? 0.1159
+who were Mark have and the wolf ? 0.9363
+who were Mark and the wolf testing ? 0.1506
+what did Mark have and the wolf ? 0.0249
+what did Mark and the wolf have ? 0.0062
+what were Mark testing and the wolf ? 1.2269
+what were Mark and the wolf testing ? 0.1031
+who were Roger turn and the pig ? 1.2212
+who were Roger and the pig sleeping in ? 0.0067
+what were Roger sleeping in and the pig ? 0.0078
+what were Roger and the pig sleeping in ? 0.0030
+what did Michael need and the sister ? 0.6187
+what did Michael and the sister need ? 0.6588
+what were Michael turning and the sister ? 1.4199
+what were Michael and the sister turning ? 0.4672
+who must Sarah become and the duke ? 0.0966
+who must Sarah and the duke become ? 0.0057
+what did Sarah become and the duke ? 0.0021
+what did Sarah and the duke become ? 0.0020
+who must Alexander turn and the slave ? 0.1050
+who must Alexander and the slave turn ? 0.4670
+who were Alexander turn and the slave ? 0.7116
+who were Alexander and the slave trying ? 0.4624
+what did Alexander turn and the slave ? 0.1257
+what did Alexander and the slave turn ? 0.3690
+what were Alexander trying and the slave ? 0.3991
+what were Alexander and the slave trying ? 0.1735
+who must Philip present and the pig ? 0.0903
+who must Philip and the pig present ? 0.0801
+who were Philip present and the pig ? 0.3304
+who were Philip and the pig fishing ? 0.0415
+what did Philip present and the pig ? 0.1134
+what did Philip and the pig present ? 0.0027
+what were Philip fishing and the pig ? 0.3332
+what were Philip and the pig fishing ? 0.1042
+who must William become and the wolf ? 0.0992
+who must William and the wolf become ? 0.0476
+who were William become and the wolf ? 0.7435
+who were William and the wolf running to ? 0.1703
+what did William become and the wolf ? 0.1944
+what did William and the wolf become ? 0.0052
+what were William running to and the wolf ? 0.1804
+what were William and the wolf running to ? 0.2992
+who were Richard tell something and the wolf ? 0.8738
+who were Richard and the wolf cutting ? 1.5060
+what were Richard cutting and the wolf ? 0.7936
+what were Richard and the wolf cutting ? 1.3114
+who must Donald have and the dinosaur ? 0.3299
+who must Donald and the dinosaur have ? 0.1693
+who were Donald have and the dinosaur ? 0.3920
+who were Donald and the dinosaur fishing ? 0.1908
+what did Donald have and the dinosaur ? 0.2444
+what did Donald and the dinosaur have ? 0.0595
+what were Donald fishing and the dinosaur ? 0.7225
+what were Donald and the dinosaur fishing ? 0.2358
+who were Laura change and the wolf ? 0.8035
+who were Laura and the wolf taking ? 0.3990
+what were Laura taking and the wolf ? 0.7954
+what were Laura and the wolf taking ? 0.0780
+what did Mark present and the slave ? 0.4756
+what did Mark and the slave present ? 0.0133
+what were Mark eating and the slave ? 0.5404
+what were Mark and the slave eating ? 0.1778
+who were William keep and the wolf ? 0.2926
+who were William and the wolf growing ? 0.8241
+what were William growing and the wolf ? 1.1621
+what were William and the wolf growing ? 0.2768
+who must Roger work for and the boat ? 0.0515
+who must Roger and the boat work for ? 0.0875
+who were Roger work for and the boat ? 0.0244
+who were Roger and the boat falling on ? 0.0762
+what did Roger work for and the boat ? 0.0202
+what did Roger and the boat work for ? 0.0072
+who were Laura change and the wolf ? 0.8035
+who were Laura and the wolf turning ? 0.4310
+what were Laura turning and the wolf ? 0.8755
+what were Laura and the wolf turning ? 0.3373
+who must Richard tell something and the sister ? 0.0683
+who must Richard and the sister tell something ? 0.1006
+who were Richard tell something and the sister ? 0.5244
+who were Richard and the sister housing ? 1.1532
+what did Richard tell something and the sister ? 0.1341
+what did Richard and the sister tell something ? 0.0200
+what were Richard housing and the sister ? 1.5976
+what were Richard and the sister housing ? 0.5017
+who must Richard keep and the dinosaur ? 0.5607
+who must Richard and the dinosaur keep ? 0.4320
+who were Richard keep and the dinosaur ? 0.5829
+who were Richard and the dinosaur falling on ? 0.0175
+what did Richard keep and the dinosaur ? 0.2680
+what did Richard and the dinosaur keep ? 0.3183
+what were Richard falling on and the dinosaur ? 0.1311
+what were Richard and the dinosaur falling on ? 0.0895
+who were Richard change and the slave ? 1.1643
+who were Richard and the slave trying ? 0.5907
+what were Richard trying and the slave ? 0.1524
+what were Richard and the slave trying ? 0.3529
+who must Sarah close and the dinosaur ? 1.0729
+who must Sarah and the dinosaur close ? 0.0225
+who were Sarah close and the dinosaur ? 0.6149
+who were Sarah and the dinosaur thinking about ? 0.7171
+what were Sarah thinking about and the dinosaur ? 0.5310
+what were Sarah and the dinosaur thinking about ? 0.0374
+what were Mark eating and the boat ? 1.0059
+what were Mark and the boat eating ? 0.3143
+who were Philip become and the boat ? 0.7008
+who were Philip and the boat taking ? 0.0259
+what were Philip taking and the boat ? 0.0102
+what were Philip and the boat taking ? 0.0072
+who must Alexander close and the dinosaur ? 0.6761
+who must Alexander and the dinosaur close ? 0.1539
+who were Alexander close and the dinosaur ? 0.9060
+who were Alexander and the dinosaur cutting ? 1.3386
+what did Alexander close and the dinosaur ? 0.5156
+what did Alexander and the dinosaur close ? 0.0091
+what were Alexander cutting and the dinosaur ? 1.1202
+what were Alexander and the dinosaur cutting ? 0.7817
+what were Donald fishing and the wolf ? 0.6100
+what were Donald and the wolf fishing ? 0.3112
+who were Michael close and the boat ? 0.5510
+who were Michael and the boat covering ? 1.0576
+what were Michael covering and the boat ? 0.9987
+what were Michael and the boat covering ? 0.5797
+who must Mark tell something and the dinosaur ? 0.3299
+who must Mark and the dinosaur tell something ? 0.2375
+who were Mark tell something and the dinosaur ? 1.2190
+who were Mark and the dinosaur calling ? 0.0782
+what did Mark tell something and the dinosaur ? 0.2562
+what did Mark and the dinosaur tell something ? 0.0211
+what were Mark calling and the dinosaur ? 0.3807
+what were Mark and the dinosaur calling ? 0.0474
+what were Donald eating and the sister ? 0.5702
+what were Donald and the sister eating ? 0.2001
+who must Alexander close and the wolf ? 0.9551
+who must Alexander and the wolf close ? 0.2002
+who were Alexander close and the wolf ? 0.4656
+who were Alexander and the wolf turning ? 0.2471
+what did Alexander close and the wolf ? 0.5440
+what did Alexander and the wolf close ? 0.0047
+what were Alexander turning and the wolf ? 0.8106
+what were Alexander and the wolf turning ? 0.1567
+what did Mark need and the duke ? 0.3164
+what did Mark and the duke need ? 0.0035
+what were Mark drawing and the duke ? 0.0078
+what were Mark and the duke drawing ? 0.0011
+who must Laura close and the boat ? 0.7632
+who must Laura and the boat close ? 0.0678
+what did Laura close and the boat ? 0.7363
+what did Laura and the boat close ? 0.1549
+who must Mark keep and the boat ? 0.4685
+who must Mark and the boat keep ? 0.1425
+who were Mark keep and the boat ? 1.1397
+who were Mark and the boat looking for ? 0.9160
+what did Mark keep and the boat ? 0.0750
+what did Mark and the boat keep ? 0.0092
+what were Mark looking for and the boat ? 0.6696
+what were Mark and the boat looking for ? 0.0373
+who must Roger work for and the sister ? 0.1321
+who must Roger and the sister work for ? 0.2397
+who were Roger work for and the sister ? 0.1455
+who were Roger and the sister trying ? 1.0747
+what were Roger trying and the sister ? 0.8074
+what were Roger and the sister trying ? 0.9279
+who must Alexander have and the boat ? 0.0522
+who must Alexander and the boat have ? 0.1337
+who were Alexander have and the boat ? 0.2028
+who were Alexander and the boat cutting ? 0.7479
+what did Alexander have and the boat ? 0.0572
+what did Alexander and the boat have ? 0.0510
+what were Alexander cutting and the boat ? 0.4066
+what were Alexander and the boat cutting ? 0.4109
+who were Alexander change and the pig ? 0.9034
+who were Alexander and the pig running to ? 0.0016
+what were Alexander running to and the pig ? 0.0080
+what were Alexander and the pig running to ? 0.0071
+who were Sarah close and the sister ? 0.3829
+who were Sarah and the sister cutting ? 1.3224
+what were Sarah cutting and the sister ? 1.1310
+what were Sarah and the sister cutting ? 1.2134
+who must William tell something and the wolf ? 0.0809
+who must William and the wolf tell something ? 0.0655
+what did William tell something and the wolf ? 0.2577
+what did William and the wolf tell something ? 0.0053
+who must Roger close and the doctor ? 0.6130
+who must Roger and the doctor close ? 0.1734
+who were Roger close and the doctor ? 0.5313
+who were Roger and the doctor growing ? 0.8394
+what did Roger close and the doctor ? 0.3560
+what did Roger and the doctor close ? 0.0230
+what were Roger growing and the doctor ? 0.6346
+what were Roger and the doctor growing ? 0.4044
+who were Michael close and the boat ? 0.5510
+who were Michael and the boat trying ? 0.7257
+what were Michael trying and the boat ? 0.7819
+what were Michael and the boat trying ? 0.4397
+what did Laura become and the duke ? 0.0019
+what did Laura and the duke become ? 0.0017
+who were Donald present and the slave ? 0.7441
+who were Donald and the slave talking about ? 0.0080
+what were Donald talking about and the slave ? 0.0044
+what were Donald and the slave talking about ? 0.0095
+who must Laura tell something and the pig ? 0.0663
+who must Laura and the pig tell something ? 0.0427
+who were Laura tell something and the pig ? 0.1886
+who were Laura and the pig sleeping in ? 0.0029
+what did Laura tell something and the pig ? 0.2037
+what did Laura and the pig tell something ? 0.3786
+what were Laura sleeping in and the pig ? 0.0057
+what were Laura and the pig sleeping in ? 0.0019
+what did Donald work for and the doctor ? 0.1086
+what did Donald and the doctor work for ? 0.0404
+what were Donald saying and the doctor ? 0.1766
+what were Donald and the doctor saying ? 0.0081
+who must Alexander have and the doctor ? 0.0208
+who must Alexander and the doctor have ? 0.0094
+who were Alexander have and the doctor ? 0.1151
+who were Alexander and the doctor turning ? 0.4186
+what did Alexander have and the doctor ? 0.0968
+what did Alexander and the doctor have ? 0.0065
+what were Alexander turning and the doctor ? 0.5372
+what were Alexander and the doctor turning ? 0.0428
+who were Mark turn and the pig ? 2.3818
+who were Mark and the pig testing ? 0.3119
+what were Mark testing and the pig ? 0.7474
+what were Mark and the pig testing ? 0.3144
+who were Richard work for and the sister ? 0.1421
+who were Richard and the sister fishing ? 0.6886
+what were Richard fishing and the sister ? 0.3562
+what were Richard and the sister fishing ? 0.5022
+who must Laura become and the sister ? 0.2177
+who must Laura and the sister become ? 0.0475
+who were Laura become and the sister ? 0.6626
+who were Laura and the sister turning ? 0.7000
+what did Laura become and the sister ? 0.0277
+what did Laura and the sister become ? 0.0039
+what were Laura turning and the sister ? 0.8816
+what were Laura and the sister turning ? 0.5323
+who must Richard become and the pig ? 0.0980
+who must Richard and the pig become ? 0.0154
+who were Richard become and the pig ? 0.7776
+who were Richard and the pig covering ? 0.2355
+what did Richard become and the pig ? 0.0126
+what did Richard and the pig become ? 0.0108
+what were Richard covering and the pig ? 0.7249
+what were Richard and the pig covering ? 0.1305
+who must Philip close and the wolf ? 1.1926
+who must Philip and the wolf close ? 0.5626
+who were Philip close and the wolf ? 0.9828
+who were Philip and the wolf calling ? 0.0051
+what did Philip close and the wolf ? 0.7781
+what did Philip and the wolf close ? 0.0464
+what were Philip calling and the wolf ? 0.8458
+what were Philip and the wolf calling ? 0.0074
+who were Donald turn and the doctor ? 1.2286
+who were Donald and the doctor looking for ? 0.0064
+what were Donald looking for and the doctor ? 0.0469
+what were Donald and the doctor looking for ? 0.0204
+who must Alexander turn and the boat ? 0.1070
+who must Alexander and the boat turn ? 0.0130
+who were Alexander turn and the boat ? 0.3145
+who were Alexander and the boat fishing ? 0.0879
+what did Alexander turn and the boat ? 0.2563
+what did Alexander and the boat turn ? 0.0045
+what were Alexander fishing and the boat ? 0.0107
+what were Alexander and the boat fishing ? 0.0639
+who were Michael change and the duke ? 0.9718
+who were Michael and the duke trying ? 0.7652
+what were Michael trying and the duke ? 0.7090
+what were Michael and the duke trying ? 0.1136
+who must Mark turn and the duke ? 0.1505
+who must Mark and the duke turn ? 0.0110
+who were Mark turn and the duke ? 0.1897
+who were Mark and the duke trying ? 0.7888
+what did Mark turn and the duke ? 0.1124
+what did Mark and the duke turn ? 0.0058
+what were Mark trying and the duke ? 0.3857
+what were Mark and the duke trying ? 0.0295
+what were Sarah eating and the doctor ? 0.4824
+what were Sarah and the doctor eating ? 0.0389
+who were Roger present and the pig ? 0.3453
+who were Roger and the pig housing ? 0.6308
+what were Roger housing and the pig ? 1.3466
+what were Roger and the pig housing ? 0.1988
+what were Sarah turning and the duke ? 0.2092
+what were Sarah and the duke turning ? 0.0018
+who were Alexander close and the dinosaur ? 0.9060
+who were Alexander and the dinosaur taking ? 0.7159
+what were Alexander taking and the dinosaur ? 0.7970
+what were Alexander and the dinosaur taking ? 0.0131
+what were Mark testing and the duke ? 0.4020
+what were Mark and the duke testing ? 0.0220
+who must William have and the dinosaur ? 0.4269
+who must William and the dinosaur have ? 0.3943
+who were William have and the dinosaur ? 0.1311
+who were William and the dinosaur calling ? 0.5066
+what did William have and the dinosaur ? 0.1458
+what did William and the dinosaur have ? 0.0124
+what were William calling and the dinosaur ? 0.8910
+what were William and the dinosaur calling ? 0.0495
+who must Sarah turn and the wolf ? 0.7723
+who must Sarah and the wolf turn ? 0.1008
+who were Sarah turn and the wolf ? 0.8084
+who were Sarah and the wolf calling ? 0.0042
+what did Sarah turn and the wolf ? 0.6330
+what did Sarah and the wolf turn ? 0.1562
+what were Sarah calling and the wolf ? 0.7213
+what were Sarah and the wolf calling ? 0.0078
+who must Roger present and the slave ? 0.1511
+who must Roger and the slave present ? 0.0642
+who were Roger present and the slave ? 0.4724
+who were Roger and the slave talking about ? 0.0179
+what did Roger present and the slave ? 0.2113
+what did Roger and the slave present ? 0.0099
+what were Roger talking about and the slave ? 0.0014
+what were Roger and the slave talking about ? 0.0090
+who must Mark change and the pig ? 0.0179
+who must Mark and the pig change ? 0.0074
+who were Mark change and the pig ? 0.7798
+who were Mark and the pig calling ? 0.0140
+what did Mark change and the pig ? 0.1135
+what did Mark and the pig change ? 0.0225
+what were Mark calling and the pig ? 0.1490
+what were Mark and the pig calling ? 0.0061
+who were Laura have and the sister ? 0.5044
+who were Laura and the sister covering ? 0.9539
+what were Laura covering and the sister ? 1.1100
+what were Laura and the sister covering ? 0.9129
+who must Richard turn and the dinosaur ? 0.7136
+who must Richard and the dinosaur turn ? 1.2305
+who were Richard turn and the dinosaur ? 0.7308
+who were Richard and the dinosaur looking for ? 0.0170
+what did Richard turn and the dinosaur ? 0.6937
+what did Richard and the dinosaur turn ? 0.1571
+who must Roger tell something and the duke ? 0.0108
+who must Roger and the duke tell something ? 0.0553
+who were Roger tell something and the duke ? 0.2702
+who were Roger and the duke looking for ? 0.0044
+what did Roger tell something and the duke ? 0.0059
+what did Roger and the duke tell something ? 0.0038
+what were Roger looking for and the duke ? 0.0020
+what were Roger and the duke looking for ? 0.0008
+who were Philip keep and the boat ? 0.7054
+who were Philip and the boat running to ? 0.1066
+what were Philip running to and the boat ? 0.0289
+what were Philip and the boat running to ? 0.0104
+who must Philip work for and the dinosaur ? 0.1218
+who must Philip and the dinosaur work for ? 0.1350
+who were Philip work for and the dinosaur ? 0.0455
+who were Philip and the dinosaur looking for ? 0.1079
+what did Philip work for and the dinosaur ? 0.0298
+what did Philip and the dinosaur work for ? 0.0137
+what were Philip looking for and the dinosaur ? 0.0088
+what were Philip and the dinosaur looking for ? 0.0209
+who must Alexander become and the duke ? 0.0827
+who must Alexander and the duke become ? 0.0592
+who were Alexander become and the duke ? 0.2809
+who were Alexander and the duke thinking about ? 0.0051
+what did Alexander become and the duke ? 0.0017
+what did Alexander and the duke become ? 0.0008
+what were Alexander thinking about and the duke ? 0.0084
+what were Alexander and the duke thinking about ? 0.0053
+who must Richard present and the pig ? 0.2030
+who must Richard and the pig present ? 0.0982
+who were Richard present and the pig ? 0.5689
+who were Richard and the pig looking for ? 0.0304
+what did Richard present and the pig ? 0.3437
+what did Richard and the pig present ? 0.0026
+what were Richard looking for and the pig ? 0.0043
+what were Richard and the pig looking for ? 0.0077
+who must Michael turn and the duke ? 0.1172
+who must Michael and the duke turn ? 0.1117
+what did Michael turn and the duke ? 0.0161
+what did Michael and the duke turn ? 0.0560
+what did Sarah tell and the dinosaur ? 0.0878
+what did Sarah and the dinosaur tell ? 0.0251
+what did Laura need and the pig ? 0.2202
+what did Laura and the pig need ? 0.1880
+what were Laura taking and the pig ? 0.7890
+what were Laura and the pig taking ? 0.8806
+who were Mark keep and the slave ? 1.3177
+who were Mark and the slave talking about ? 0.1466
+what were Mark talking about and the slave ? 0.0047
+what were Mark and the slave talking about ? 0.0101
+what did Sarah close and the doctor ? 0.3772
+what did Sarah and the doctor close ? 0.0301
+what were Sarah saying and the doctor ? 0.4295
+what were Sarah and the doctor saying ? 0.0015
+who must Laura change and the slave ? 0.2887
+who must Laura and the slave change ? 0.0436
+who were Laura change and the slave ? 0.5018
+who were Laura and the slave talking about ? 0.0106
+what did Laura change and the slave ? 0.2026
+what did Laura and the slave change ? 0.0543
+what were Laura talking about and the slave ? 0.0025
+what were Laura and the slave talking about ? 0.0033
+who must Sarah tell something and the pig ? 0.0113
+who must Sarah and the pig tell something ? 0.0064
+who were Sarah tell something and the pig ? 0.0867
+who were Sarah and the pig looking for ? 0.0069
+what did Sarah tell something and the pig ? 0.0158
+what did Sarah and the pig tell something ? 0.0111
+what were Sarah looking for and the pig ? 0.0076
+what were Sarah and the pig looking for ? 0.0017
+who were Sarah turn and the sister ? 0.7252
+who were Sarah and the sister trying ? 0.6307
+what were Sarah trying and the sister ? 0.5022
+what were Sarah and the sister trying ? 0.1708
+who must Sarah turn and the slave ? 0.6464
+who must Sarah and the slave turn ? 0.7826
+who were Sarah turn and the slave ? 0.9564
+who were Sarah and the slave taking ? 0.1481
+what did Sarah turn and the slave ? 0.6792
+what did Sarah and the slave turn ? 0.4848
+what were Sarah taking and the slave ? 0.6354
+what were Sarah and the slave taking ? 0.0095
+who were Alexander tell something and the boat ? 0.5902
+who were Alexander and the boat thinking about ? 0.5032
+what were Alexander thinking about and the boat ? 0.0621
+what were Alexander and the boat thinking about ? 0.4064
+who were Mark tell something and the dinosaur ? 1.2190
+who were Mark and the dinosaur taking ? 0.1070
+what were Mark taking and the dinosaur ? 0.7407
+what were Mark and the dinosaur taking ? 0.0422
+who must Michael become and the sister ? 0.3387
+who must Michael and the sister become ? 0.0373
+who were Michael become and the sister ? 1.0879
+who were Michael and the sister trying ? 1.0390
+what did Michael become and the sister ? 0.1683
+what did Michael and the sister become ? 0.0244
+what were Michael trying and the sister ? 1.0044
+what were Michael and the sister trying ? 0.8313
+who were Roger keep and the wolf ? 0.5904
+who were Roger and the wolf cutting ? 1.4142
+what were Roger cutting and the wolf ? 0.1212
+what were Roger and the wolf cutting ? 1.2588
+what were Philip eating and the duke ? 1.3058
+what were Philip and the duke eating ? 0.9109
+who were Donald close and the dinosaur ? 0.9627
+who were Donald and the dinosaur housing ? 0.5852
+what were Donald housing and the dinosaur ? 1.5607
+what were Donald and the dinosaur housing ? 0.2031
+who were Laura turn and the pig ? 0.9978
+who were Laura and the pig falling on ? 0.3221
+what were Laura falling on and the pig ? 0.4327
+what were Laura and the pig falling on ? 0.2024
+what did William turn and the slave ? 0.1988
+what did William and the slave turn ? 0.9377
+what were William eating and the slave ? 0.8571
+what were William and the slave eating ? 0.3313
+what did Mark need and the wolf ? 0.9377
+what did Mark and the wolf need ? 0.0196
+what were Mark looking for and the wolf ? 0.5263
+what were Mark and the wolf looking for ? 0.0015
+who were Donald have and the pig ? 0.3498
+who were Donald and the pig testing ? 0.7595
+what were Donald testing and the pig ? 0.7705
+what were Donald and the pig testing ? 0.6745
+who were Sarah turn and the wolf ? 0.8084
+who were Sarah and the wolf covering ? 0.1703
+what were Sarah covering and the wolf ? 1.0566
+what were Sarah and the wolf covering ? 0.1373
+who must Alexander work for and the sister ? 0.0310
+who must Alexander and the sister work for ? 0.0802
+who were Alexander work for and the sister ? 0.0683
+who were Alexander and the sister cutting ? 1.2194
+what did Alexander work for and the sister ? 0.1046
+what did Alexander and the sister work for ? 0.0773
+what were Alexander cutting and the sister ? 1.1049
+what were Alexander and the sister cutting ? 1.0491
+what did Sarah need and the pig ? 0.2222
+what did Sarah and the pig need ? 0.0058
+what were Sarah eating and the pig ? 0.4221
+what were Sarah and the pig eating ? 0.0648
+what did Mark work for and the pig ? 0.0100
+what did Mark and the pig work for ? 0.0057
+who were Richard have and the dinosaur ? 0.4628
+who were Richard and the dinosaur running to ? 0.0142
+what were Richard running to and the dinosaur ? 0.3697
+what were Richard and the dinosaur running to ? 0.3053
+who must Richard have and the sister ? 0.1327
+who must Richard and the sister have ? 0.0667
+who were Richard have and the sister ? 0.2784
+who were Richard and the sister turning ? 0.4949
+what did Richard have and the sister ? 0.0417
+what did Richard and the sister have ? 0.0112
+what were Richard turning and the sister ? 1.1353
+what were Richard and the sister turning ? 0.3520
+who must Alexander change and the duke ? 0.0736
+who must Alexander and the duke change ? 0.0158
+who were Alexander change and the duke ? 0.7078
+who were Alexander and the duke fishing ? 0.2531
+what did Alexander change and the duke ? 0.0110
+what did Alexander and the duke change ? 0.0026
+what were Alexander fishing and the duke ? 0.0840
+what were Alexander and the duke fishing ? 0.0625
+what did Mark turn and the doctor ? 0.3024
+what did Mark and the doctor turn ? 0.0376
+what were Mark saying and the doctor ? 0.2433
+what were Mark and the doctor saying ? 0.0035
+who must William present and the sister ? 0.1376
+who must William and the sister present ? 0.1803
+who were William present and the sister ? 0.3782
+who were William and the sister looking for ? 0.0156
+what did William present and the sister ? 0.2229
+what did William and the sister present ? 0.0227
+what were William looking for and the sister ? 0.1016
+what were William and the sister looking for ? 0.0071
+who were Alexander close and the pig ? 0.8087
+who were Alexander and the pig reaching for ? 0.9267
+what were Alexander reaching for and the pig ? 0.7325
+what were Alexander and the pig reaching for ? 0.7966
+who must Mark change and the sister ? 0.2752
+who must Mark and the sister change ? 0.0166
+who were Mark change and the sister ? 0.2019
+who were Mark and the sister fishing ? 0.4840
+what did Mark change and the sister ? 0.4687
+what did Mark and the sister change ? 0.3300
+what were Mark fishing and the sister ? 0.0111
+what were Mark and the sister fishing ? 0.2872
+who were Sarah turn and the sister ? 0.7252
+who were Sarah and the sister taking ? 0.3075
+what were Sarah taking and the sister ? 0.6392
+what were Sarah and the sister taking ? 0.0157
+what were Roger saying and the doctor ? 0.2585
+what were Roger and the doctor saying ? 0.0013
+who must Sarah present and the sister ? 0.1232
+who must Sarah and the sister present ? 0.0456
+what did Sarah present and the sister ? 0.1949
+what did Sarah and the sister present ? 0.0160
+who must Michael work for and the doctor ? 0.0791
+who must Michael and the doctor work for ? 0.0887
+who were Michael work for and the doctor ? 0.0056
+who were Michael and the doctor cutting ? 1.2565
+what did Michael work for and the doctor ? 0.0360
+what did Michael and the doctor work for ? 0.0086
+what were Michael cutting and the doctor ? 0.3224
+what were Michael and the doctor cutting ? 0.6486
+who must Alexander have and the duke ? 0.0654
+who must Alexander and the duke have ? 0.0161
+who were Alexander have and the duke ? 0.0811
+who were Alexander and the duke housing ? 1.1068
+what did Alexander have and the duke ? 0.0054
+what did Alexander and the duke have ? 0.0015
+what were Alexander housing and the duke ? 1.1387
+what were Alexander and the duke housing ? 0.7299
+who were Alexander become and the duke ? 0.2809
+who were Alexander and the duke sleeping in ? 0.0243
+what were Alexander sleeping in and the duke ? 0.0878
+what were Alexander and the duke sleeping in ? 0.0062
+who must William have and the boat ? 0.0807
+who must William and the boat have ? 0.2748
+who were William have and the boat ? 0.0793
+who were William and the boat fishing ? 0.0835
+what did William have and the boat ? 0.0091
+what did William and the boat have ? 0.3738
+what were William fishing and the boat ? 0.1032
+what were William and the boat fishing ? 0.1214
+what did Philip need and the wolf ? 0.0248
+what did Philip and the wolf need ? 0.0161
+what were Philip fishing and the wolf ? 0.4178
+what were Philip and the wolf fishing ? 0.0568
+who were Philip close and the pig ? 1.0284
+who were Philip and the pig growing ? 0.4283
+what were Philip growing and the pig ? 0.8418
+what were Philip and the pig growing ? 0.1200
+what did Laura need and the dinosaur ? 0.4336
+what did Laura and the dinosaur need ? 0.3071
+what were Laura trying and the dinosaur ? 0.8494
+what were Laura and the dinosaur trying ? 0.6851
+who must Sarah present and the dinosaur ? 0.1717
+who must Sarah and the dinosaur present ? 0.6748
+what did Sarah present and the dinosaur ? 0.5152
+what did Sarah and the dinosaur present ? 0.0185
+who must Laura work for and the duke ? 0.2987
+who must Laura and the duke work for ? 0.0353
+who were Laura work for and the duke ? 0.0024
+who were Laura and the duke falling on ? 0.1649
+what did Laura work for and the duke ? 0.0025
+what did Laura and the duke work for ? 0.0027
+what were Laura falling on and the duke ? 0.3756
+what were Laura and the duke falling on ? 0.0392
+who must William become and the pig ? 0.1624
+who must William and the pig become ? 0.0289
+what did William become and the pig ? 0.2098
+what did William and the pig become ? 0.0037
+who must Philip change and the doctor ? 0.2080
+who must Philip and the doctor change ? 0.0745
+who were Philip change and the doctor ? 0.8613
+who were Philip and the doctor looking for ? 0.0041
+what did Philip change and the doctor ? 0.1560
+what did Philip and the doctor change ? 0.0199
+what were Philip looking for and the doctor ? 0.0074
+what were Philip and the doctor looking for ? 0.0069
+who were Philip work for and the pig ? 0.0035
+who were Philip and the pig running to ? 0.0033
+what were Philip running to and the pig ? 0.1275
+what were Philip and the pig running to ? 0.0128
+who must William turn and the dinosaur ? 1.0991
+who must William and the dinosaur turn ? 1.4881
+what did William turn and the dinosaur ? 0.4419
+what did William and the dinosaur turn ? 0.8993
+who were Donald keep and the dinosaur ? 1.0833
+who were Donald and the dinosaur taking ? 0.1642
+what were Donald taking and the dinosaur ? 0.6052
+what were Donald and the dinosaur taking ? 0.1227
+what were Roger eating and the doctor ? 0.8356
+what were Roger and the doctor eating ? 0.1150
+who must Alexander have and the pig ? 0.0159
+who must Alexander and the pig have ? 0.0045
+what did Alexander have and the pig ? 0.0196
+what did Alexander and the pig have ? 0.0025
+who were Donald have and the pig ? 0.3498
+who were Donald and the pig housing ? 1.0512
+who must Michael work for and the boat ? 0.1034
+who must Michael and the boat work for ? 0.1238
+who were Michael work for and the boat ? 0.1064
+who were Michael and the boat looking for ? 0.2954
+what did Michael work for and the boat ? 0.1064
+what did Michael and the boat work for ? 0.0041
+what were Michael looking for and the boat ? 0.0686
+what were Michael and the boat looking for ? 0.1545
+what did Philip have and the dinosaur ? 0.3301
+what did Philip and the dinosaur have ? 0.0077
+what were Philip eating and the dinosaur ? 1.0716
+what were Philip and the dinosaur eating ? 0.2648
+who were Sarah present and the dinosaur ? 0.2976
+who were Sarah and the dinosaur growing ? 0.7312
+what were Sarah growing and the dinosaur ? 0.7070
+what were Sarah and the dinosaur growing ? 0.0964
+who must Donald turn and the pig ? 1.0144
+who must Donald and the pig turn ? 0.5490
+what did Donald turn and the pig ? 0.7312
+what did Donald and the pig turn ? 0.4521
+who must Laura turn and the sister ? 0.6523
+who must Laura and the sister turn ? 0.6563
+what did Laura turn and the sister ? 0.3828
+what did Laura and the sister turn ? 0.3956
+who must Mark become and the wolf ? 0.7225
+who must Mark and the wolf become ? 0.0833
+who were Mark become and the wolf ? 1.1135
+who were Mark and the wolf running to ? 0.0355
+what did Mark become and the wolf ? 0.0781
+what did Mark and the wolf become ? 0.0070
+what were Mark running to and the wolf ? 0.0998
+what were Mark and the wolf running to ? 0.1515
+who must Michael have and the boat ? 0.0916
+who must Michael and the boat have ? 0.2703
+what did Michael have and the boat ? 0.1149
+what did Michael and the boat have ? 0.1860
+who must Sarah tell something and the slave ? 0.0032
+who must Sarah and the slave tell something ? 0.0033
+who were Sarah tell something and the slave ? 0.1165
+who were Sarah and the slave fishing ? 0.1947
+what did Sarah tell something and the slave ? 0.0186
+what did Sarah and the slave tell something ? 0.0040
+what were Sarah fishing and the slave ? 0.2247
+what were Sarah and the slave fishing ? 0.2193
+who must Michael work for and the dinosaur ? 0.2744
+who must Michael and the dinosaur work for ? 0.3788
+who were Michael work for and the dinosaur ? 0.0884
+who were Michael and the dinosaur testing ? 0.6599
+what did Michael work for and the dinosaur ? 0.1373
+what did Michael and the dinosaur work for ? 0.0155
+what were Michael testing and the dinosaur ? 1.0959
+what were Michael and the dinosaur testing ? 0.1742
+what were Donald saying and the boat ? 0.5565
+what were Donald and the boat saying ? 0.1567
+who were Roger become and the boat ? 1.0952
+who were Roger and the boat housing ? 0.6968
+what were Roger housing and the boat ? 1.0372
+what were Roger and the boat housing ? 0.4175
+who were Mark tell something and the duke ? 0.9149
+who were Mark and the duke running to ? 0.0591
+what were Mark running to and the duke ? 0.0034
+what were Mark and the duke running to ? 0.0206
+who were William work for and the doctor ? 0.0144
+who were William and the doctor calling ? 0.0031
+what were William calling and the doctor ? 0.6527
+what were William and the doctor calling ? 0.0065
+what were Roger running to and the duke ? 0.0055
+what were Roger and the duke running to ? 0.0121
+who were Richard have and the slave ? 0.4670
+who were Richard and the slave falling on ? 0.1756
+what were Richard falling on and the slave ? 0.2807
+what were Richard and the slave falling on ? 0.3555
+who must Alexander change and the slave ? 0.5100
+who must Alexander and the slave change ? 0.2215
+who were Alexander change and the slave ? 0.9170
+who were Alexander and the slave looking for ? 0.0059
+what did Alexander change and the slave ? 0.3151
+what did Alexander and the slave change ? 0.0838
+what were Alexander looking for and the slave ? 0.0032
+what were Alexander and the slave looking for ? 0.0028
+who must Sarah tell something and the dinosaur ? 0.2023
+who must Sarah and the dinosaur tell something ? 0.0287
+who were Sarah tell something and the dinosaur ? 0.3327
+who were Sarah and the dinosaur taking ? 0.8849
+what did Sarah tell something and the dinosaur ? 0.1010
+what did Sarah and the dinosaur tell something ? 0.0275
+what were Sarah taking and the dinosaur ? 0.3689
+what were Sarah and the dinosaur taking ? 0.0714
+who must Roger keep and the dinosaur ? 0.3356
+who must Roger and the dinosaur keep ? 1.1469
+what did Roger keep and the dinosaur ? 0.1433
+what did Roger and the dinosaur keep ? 0.0964
+who must Sarah present and the doctor ? 0.0533
+who must Sarah and the doctor present ? 0.0093
+who were Sarah present and the doctor ? 0.2908
+who were Sarah and the doctor talking about ? 0.0031
+what did Sarah present and the doctor ? 0.0479
+what did Sarah and the doctor present ? 0.0058
+who must Roger have and the slave ? 0.1197
+who must Roger and the slave have ? 0.0236
+who were Roger have and the slave ? 0.3075
+who were Roger and the slave sleeping in ? 0.0050
+what did Roger have and the slave ? 0.0069
+what did Roger and the slave have ? 0.0156
+what were Roger sleeping in and the slave ? 0.0213
+what were Roger and the slave sleeping in ? 0.0209
+who must Laura work for and the pig ? 0.1135
+who must Laura and the pig work for ? 0.2389
+who were Laura work for and the pig ? 0.0806
+who were Laura and the pig turning ? 0.8128
+what did Laura work for and the pig ? 0.0310
+what did Laura and the pig work for ? 0.5575
+what were Laura turning and the pig ? 0.9198
+what were Laura and the pig turning ? 0.5391
+who must Donald become and the dinosaur ? 0.2808
+who must Donald and the dinosaur become ? 0.1794
+who were Donald become and the dinosaur ? 1.1346
+who were Donald and the dinosaur falling on ? 0.0272
+what did Donald become and the dinosaur ? 0.6417
+what did Donald and the dinosaur become ? 0.0185
+what were Donald falling on and the dinosaur ? 0.2756
+what were Donald and the dinosaur falling on ? 0.0503
+who were Mark tell something and the dinosaur ? 1.2190
+who were Mark and the dinosaur running to ? 0.1682
+what were Mark running to and the dinosaur ? 0.0216
+what were Mark and the dinosaur running to ? 0.0287
+who must William change and the wolf ? 0.4433
+who must William and the wolf change ? 0.1629
+what did William change and the wolf ? 0.4669
+what did William and the wolf change ? 0.0115
+who must Donald become and the wolf ? 0.0608
+who must Donald and the wolf become ? 0.0509
+who were Donald become and the wolf ? 0.7039
+who were Donald and the wolf falling on ? 0.0098
+what did Donald become and the wolf ? 0.0237
+what did Donald and the wolf become ? 0.0086
+what were Donald falling on and the wolf ? 0.2768
+what were Donald and the wolf falling on ? 0.0492
+what did Richard need and the boat ? 0.0422
+what did Richard and the boat need ? 0.0892
+what were Richard looking for and the boat ? 0.0355
+what were Richard and the boat looking for ? 0.5979
+who must Laura keep and the slave ? 0.1424
+who must Laura and the slave keep ? 0.0833
+who were Laura keep and the slave ? 0.5738
+who were Laura and the slave fishing ? 0.5971
+what did Laura keep and the slave ? 0.0222
+what did Laura and the slave keep ? 0.1152
+what were Laura fishing and the slave ? 0.3882
+what were Laura and the slave fishing ? 0.4181
+who must Roger keep and the doctor ? 0.1673
+who must Roger and the doctor keep ? 0.0907
+who were Roger keep and the doctor ? 0.5170
+who were Roger and the doctor testing ? 0.0095
+what did Roger keep and the doctor ? 0.0203
+what did Roger and the doctor keep ? 0.0484
+what were Roger testing and the doctor ? 0.2943
+what were Roger and the doctor testing ? 0.0094
+who were Donald work for and the wolf ? 0.0013
+who were Donald and the wolf reaching for ? 0.7438
+who were Michael present and the sister ? 1.1975
+who were Michael and the sister calling ? 0.5226
+what were Michael calling and the sister ? 0.9892
+what were Michael and the sister calling ? 0.6274
+what did William present and the dinosaur ? 0.8426
+what did William and the dinosaur present ? 0.0196
+what were William eating and the dinosaur ? 1.2239
+what were William and the dinosaur eating ? 0.1716
+who must Mark close and the duke ? 0.9577
+who must Mark and the duke close ? 0.4058
+what did Mark close and the duke ? 0.1386
+what did Mark and the duke close ? 0.0032
+who were Roger close and the doctor ? 0.5313
+who were Roger and the doctor looking for ? 0.0043
+what were Roger looking for and the doctor ? 0.0045
+what were Roger and the doctor looking for ? 0.0027
+who were Michael tell something and the duke ? 0.2925
+who were Michael and the duke drawing ? 0.0034
+what were Michael drawing and the duke ? 0.3470
+what were Michael and the duke drawing ? 0.0019
+who were Richard present and the boat ? 0.2332
+who were Richard and the boat covering ? 0.5583
+what were Richard covering and the boat ? 0.1890
+what were Richard and the boat covering ? 0.1766
+who were Sarah become and the doctor ? 0.7744
+who were Sarah and the doctor taking ? 0.0035
+what were Sarah taking and the doctor ? 0.4062
+what were Sarah and the doctor taking ? 0.0051
+who must Roger present and the wolf ? 0.1674
+who must Roger and the wolf present ? 0.0866
+what did Roger present and the wolf ? 0.2629
+what did Roger and the wolf present ? 0.0079
+who were Michael change and the dinosaur ? 0.6867
+who were Michael and the dinosaur calling ? 0.7487
+who must William turn and the duke ? 0.0554
+who must William and the duke turn ? 0.1254
+who were William turn and the duke ? 0.1339
+who were William and the duke fishing ? 0.0662
+what did William turn and the duke ? 0.0084
+what did William and the duke turn ? 0.0351
+who must Roger work for and the duke ? 0.1532
+who must Roger and the duke work for ? 0.0608
+who were Roger work for and the duke ? 0.0023
+who were Roger and the duke drawing ? 0.0060
+what did Roger work for and the duke ? 0.0057
+what did Roger and the duke work for ? 0.0103
+what were Roger drawing and the duke ? 0.0059
+what were Roger and the duke drawing ? 0.0038
+who must Alexander change and the doctor ? 0.2457
+who must Alexander and the doctor change ? 0.0111
+who were Alexander change and the doctor ? 0.8838
+who were Alexander and the doctor running to ? 0.0828
+what did Alexander change and the doctor ? 0.2985
+what did Alexander and the doctor change ? 0.0088
+what were Alexander running to and the doctor ? 0.0144
+what were Alexander and the doctor running to ? 0.0238
+who were Mark become and the wolf ? 1.1135
+who were Mark and the wolf cutting ? 1.2907
+what were Mark cutting and the wolf ? 0.4036
+what were Mark and the wolf cutting ? 0.9783
+who must Alexander turn and the sister ? 0.0436
+who must Alexander and the sister turn ? 0.2513
+who were Alexander turn and the sister ? 0.4223
+who were Alexander and the sister testing ? 1.2078
+what did Alexander turn and the sister ? 0.0971
+what did Alexander and the sister turn ? 0.5091
+what were Alexander testing and the sister ? 1.1800
+what were Alexander and the sister testing ? 0.9814
+who were Michael present and the boat ? 1.0676
+who were Michael and the boat running to ? 0.0431
+what were Michael running to and the boat ? 0.0978
+what were Michael and the boat running to ? 0.0209
+who must Mark have and the pig ? 1.4354
+who must Mark and the pig have ? 0.0325
+who were Mark have and the pig ? 1.7881
+who were Mark and the pig talking about ? 0.0606
+what did Mark have and the pig ? 0.0537
+what did Mark and the pig have ? 0.0049
+what were Mark talking about and the pig ? 0.0043
+what were Mark and the pig talking about ? 0.0050
+who must Sarah tell something and the duke ? 0.0368
+who must Sarah and the duke tell something ? 0.0125
+who were Sarah tell something and the duke ? 0.1353
+who were Sarah and the duke sleeping in ? 0.0004
+what did Sarah tell something and the duke ? 0.0082
+what did Sarah and the duke tell something ? 0.0033
+what were Laura saying and the sister ? 0.5591
+what were Laura and the sister saying ? 0.5065
+who were Alexander change and the sister ? 0.9801
+who were Alexander and the sister turning ? 0.5870
+what were Alexander turning and the sister ? 0.9373
+what were Alexander and the sister turning ? 0.4598
+who must William become and the slave ? 0.1633
+who must William and the slave become ? 0.0698
+who were William become and the slave ? 0.2993
+who were William and the slave looking for ? 0.0026
+what did William become and the slave ? 0.0172
+what did William and the slave become ? 0.0247
+what were William looking for and the slave ? 0.0013
+what were William and the slave looking for ? 0.0021
+who must Donald become and the duke ? 0.0653
+who must Donald and the duke become ? 0.0420
+who were Donald become and the duke ? 0.8047
+who were Donald and the duke thinking about ? 0.0057
+what did Donald become and the duke ? 0.0135
+what did Donald and the duke become ? 0.0006
+what were Donald thinking about and the duke ? 0.0052
+what were Donald and the duke thinking about ? 0.0040
+who must Roger become and the slave ? 0.0361
+who must Roger and the slave become ? 0.0265
+who were Roger become and the slave ? 0.6503
+who were Roger and the slave covering ? 1.0150
+what did Roger become and the slave ? 0.0121
+what did Roger and the slave become ? 0.0089
+what were Roger covering and the slave ? 1.3967
+what were Roger and the slave covering ? 0.9557
+who must William keep and the sister ? 0.2023
+who must William and the sister keep ? 0.1596
+who were William keep and the sister ? 0.5837
+who were William and the sister falling on ? 0.4195
+what did William keep and the sister ? 0.0962
+what did William and the sister keep ? 0.0566
+what were William falling on and the sister ? 0.6353
+what were William and the sister falling on ? 0.7056
+who were Mark have and the doctor ? 0.9672
+who were Mark and the doctor covering ? 0.4787
+what were Mark covering and the doctor ? 1.0050
+what were Mark and the doctor covering ? 0.1856
+who must Alexander become and the slave ? 0.0533
+who must Alexander and the slave become ? 0.0407
+what did Alexander become and the slave ? 0.0118
+what did Alexander and the slave become ? 0.0039
+who were Philip become and the doctor ? 0.3041
+who were Philip and the doctor housing ? 1.1604
+what were Philip housing and the doctor ? 1.9981
+what were Philip and the doctor housing ? 0.3331
+who were Roger have and the sister ? 0.1034
+who were Roger and the sister sleeping in ? 0.0194
+what were Roger sleeping in and the sister ? 0.0645
+what were Roger and the sister sleeping in ? 0.0092
+who were Donald work for and the dinosaur ? 0.1654
+who were Donald and the dinosaur turning ? 0.4564
+what were Donald turning and the dinosaur ? 1.7615
+what were Donald and the dinosaur turning ? 0.1474
+who must Richard close and the boat ? 0.4791
+who must Richard and the boat close ? 0.0159
+who were Richard close and the boat ? 0.4210
+who were Richard and the boat drawing ? 0.6845
+what did Richard close and the boat ? 0.2281
+what did Richard and the boat close ? 0.0112
+what were Richard drawing and the boat ? 0.0715
+what were Richard and the boat drawing ? 0.7079
+who must Philip turn and the pig ? 0.2789
+who must Philip and the pig turn ? 1.1227
+who were Philip turn and the pig ? 0.5582
+who were Philip and the pig talking about ? 0.0169
+what did Philip turn and the pig ? 0.1721
+what did Philip and the pig turn ? 0.8690
+what were Philip talking about and the pig ? 0.0047
+what were Philip and the pig talking about ? 0.0020
+who must Alexander present and the duke ? 0.0791
+who must Alexander and the duke present ? 0.1305
+who were Alexander present and the duke ? 0.1802
+who were Alexander and the duke falling on ? 0.0064
+what did Alexander present and the duke ? 0.1155
+what did Alexander and the duke present ? 0.0027
+what were Alexander falling on and the duke ? 0.3412
+what were Alexander and the duke falling on ? 0.0234
+who must Roger turn and the sister ? 0.3543
+who must Roger and the sister turn ? 0.3844
+who were Roger turn and the sister ? 0.6894
+who were Roger and the sister thinking about ? 0.2812
+what did Roger turn and the sister ? 0.2365
+what did Roger and the sister turn ? 0.3104
+who were Alexander tell something and the doctor ? 0.1458
+who were Alexander and the doctor calling ? 0.0765
+what were Alexander calling and the doctor ? 0.0254
+what were Alexander and the doctor calling ? 0.0020
+who must Richard change and the doctor ? 0.3696
+who must Richard and the doctor change ? 0.1069
+what did Richard change and the doctor ? 0.4678
+what did Richard and the doctor change ? 0.0276
+who were Sarah work for and the doctor ? 0.0777
+who were Sarah and the doctor thinking about ? 0.0160
+what were Sarah thinking about and the doctor ? 0.1105
+what were Sarah and the doctor thinking about ? 0.0045
+who were Philip have and the pig ? 0.3825
+who were Philip and the pig testing ? 0.8617
+what were Philip testing and the pig ? 0.9896
+what were Philip and the pig testing ? 0.8661
+what were William growing and the boat ? 1.2787
+what were William and the boat growing ? 0.2450
+who were Richard work for and the sister ? 0.1421
+who were Richard and the sister drawing ? 0.8880
+what were Richard drawing and the sister ? 0.2328
+what were Richard and the sister drawing ? 0.3196
+who were Richard change and the pig ? 0.8968
+who were Richard and the pig drawing ? 0.1834
+what were Richard drawing and the pig ? 0.0022
+what were Richard and the pig drawing ? 0.0234
+who were Sarah turn and the boat ? 0.7336
+who were Sarah and the boat housing ? 0.4369
+what were Sarah housing and the boat ? 0.4600
+what were Sarah and the boat housing ? 0.0980
+who must William present and the doctor ? 0.0900
+who must William and the doctor present ? 0.1423
+who were William present and the doctor ? 0.6947
+who were William and the doctor reaching for ? 0.9127
+what did William present and the doctor ? 0.1151
+what did William and the doctor present ? 0.0074
+what were William reaching for and the doctor ? 1.0441
+what were William and the doctor reaching for ? 0.8856
+who must Sarah have and the wolf ? 0.0418
+who must Sarah and the wolf have ? 0.0097
+who were Sarah have and the wolf ? 0.5322
+who were Sarah and the wolf falling on ? 0.0220
+what did Sarah have and the wolf ? 0.0150
+what did Sarah and the wolf have ? 0.0082
+what were Sarah falling on and the wolf ? 0.6963
+what were Sarah and the wolf falling on ? 0.1305
+who were William turn and the sister ? 0.3609
+who were William and the sister trying ? 0.8361
+what were William trying and the sister ? 0.8308
+what were William and the sister trying ? 0.7005
+who must Sarah change and the pig ? 0.2124
+who must Sarah and the pig change ? 0.0044
+who were Sarah change and the pig ? 0.5344
+who were Sarah and the pig reaching for ? 1.0764
+what did Sarah change and the pig ? 0.1504
+what did Sarah and the pig change ? 0.0085
+what were Sarah reaching for and the pig ? 0.8507
+what were Sarah and the pig reaching for ? 0.9401
+who must Laura have and the dinosaur ? 0.4509
+who must Laura and the dinosaur have ? 0.2162
+who were Laura have and the dinosaur ? 0.7753
+who were Laura and the dinosaur reaching for ? 0.9404
+what did Laura have and the dinosaur ? 0.2883
+what did Laura and the dinosaur have ? 0.0372
+what were Laura reaching for and the dinosaur ? 0.9707
+what were Laura and the dinosaur reaching for ? 0.7867
+who must Sarah turn and the dinosaur ? 1.1083
+who must Sarah and the dinosaur turn ? 1.2222
+who were Sarah turn and the dinosaur ? 0.7944
+who were Sarah and the dinosaur sleeping in ? 0.0014
+what did Sarah turn and the dinosaur ? 0.6606
+what did Sarah and the dinosaur turn ? 1.0772
+what were Sarah sleeping in and the dinosaur ? 0.0969
+what were Sarah and the dinosaur sleeping in ? 0.0037
+who were Donald turn and the pig ? 1.5770
+who were Donald and the pig trying ? 0.1601
+what were Donald trying and the pig ? 1.0025
+what were Donald and the pig trying ? 0.2648
+what did Roger turn and the slave ? 0.5270
+what did Roger and the slave turn ? 0.2177
+what were Roger saying and the slave ? 0.5032
+what were Roger and the slave saying ? 0.0873
+who must Philip close and the doctor ? 0.8955
+who must Philip and the doctor close ? 0.1381
+who were Philip close and the doctor ? 0.9954
+who were Philip and the doctor turning ? 0.1652
+what did Philip close and the doctor ? 0.3933
+what did Philip and the doctor close ? 0.0155
+what were Philip turning and the doctor ? 0.5292
+what were Philip and the doctor turning ? 0.0095
+what were Roger eating and the duke ? 0.9972
+what were Roger and the duke eating ? 0.0748
+who must Sarah close and the slave ? 0.9727
+who must Sarah and the slave close ? 0.6903
+who were Sarah close and the slave ? 1.0283
+who were Sarah and the slave testing ? 0.9626
+what did Sarah close and the slave ? 0.8920
+what did Sarah and the slave close ? 0.3015
+what were Sarah testing and the slave ? 1.1055
+what were Sarah and the slave testing ? 0.6539
+what did Philip need and the duke ? 0.0078
+what did Philip and the duke need ? 0.0029
+what were Philip testing and the duke ? 0.8174
+what were Philip and the duke testing ? 0.2206
+who must Alexander work for and the pig ? 0.0077
+who must Alexander and the pig work for ? 0.0045
+what did Alexander work for and the pig ? 0.0042
+what did Alexander and the pig work for ? 0.0018
+who were Richard have and the sister ? 0.2784
+who were Richard and the sister thinking about ? 0.1727
+what were Richard thinking about and the sister ? 0.0905
+what were Richard and the sister thinking about ? 0.0243
+who were Donald keep and the dinosaur ? 1.0833
+who were Donald and the dinosaur cutting ? 0.5838
+who must Donald work for and the doctor ? 0.0528
+who must Donald and the doctor work for ? 0.1134
+who were Mark present and the pig ? 1.4666
+who were Mark and the pig cutting ? 0.9578
+what were Mark cutting and the pig ? 0.0268
+what were Mark and the pig cutting ? 0.1913
+who were Michael keep and the boat ? 0.7984
+who were Michael and the boat falling on ? 0.1015
+what were Michael falling on and the boat ? 0.3305
+what were Michael and the boat falling on ? 0.1361
+who must Richard change and the sister ? 0.3095
+who must Richard and the sister change ? 0.0803
+what did Richard change and the sister ? 0.5733
+what did Richard and the sister change ? 0.2620
+what did Sarah need and the slave ? 0.0911
+what did Sarah and the slave need ? 0.0195
+what were Sarah sleeping in and the slave ? 0.0489
+what were Sarah and the slave sleeping in ? 0.0051
+who must Philip tell something and the duke ? 0.0116
+who must Philip and the duke tell something ? 0.0296
+who were Philip tell something and the duke ? 0.0542
+who were Philip and the duke falling on ? 0.0372
+what did Philip tell something and the duke ? 0.0057
+what did Philip and the duke tell something ? 0.0064
+what were Philip falling on and the duke ? 0.1670
+what were Philip and the duke falling on ? 0.0730
+what did William keep and the duke ? 0.0021
+what did William and the duke keep ? 0.0092
+what were William eating and the duke ? 1.0672
+what were William and the duke eating ? 0.0388
+who must Michael present and the slave ? 0.6516
+who must Michael and the slave present ? 0.0192
+who were Michael present and the slave ? 1.1663
+who were Michael and the slave calling ? 0.0365
+what did Michael present and the slave ? 0.6109
+what did Michael and the slave present ? 0.0149
+what were Michael calling and the slave ? 0.5132
+what were Michael and the slave calling ? 0.0262
+what did William turn and the boat ? 0.0721
+what did William and the boat turn ? 0.0028
+who must Michael work for and the sister ? 0.1091
+who must Michael and the sister work for ? 0.2451
+who were Michael work for and the sister ? 0.0529
+who were Michael and the sister covering ? 0.8675
+what did Michael work for and the sister ? 0.0752
+what did Michael and the sister work for ? 0.1088
+what were Michael covering and the sister ? 1.3654
+what were Michael and the sister covering ? 0.6547
+what did Donald tell and the duke ? 0.0069
+what did Donald and the duke tell ? 0.0047
+who must Sarah change and the doctor ? 0.0571
+who must Sarah and the doctor change ? 0.0149
+who were Sarah change and the doctor ? 0.2599
+who were Sarah and the doctor looking for ? 0.0014
+what did Sarah change and the doctor ? 0.0258
+what did Sarah and the doctor change ? 0.0099
+what were Sarah looking for and the doctor ? 0.0273
+what were Sarah and the doctor looking for ? 0.0022
+who must Philip turn and the boat ? 0.2027
+who must Philip and the boat turn ? 0.0997
+what did Philip turn and the boat ? 0.1405
+what did Philip and the boat turn ? 0.0097
+who were Roger work for and the sister ? 0.1455
+who were Roger and the sister falling on ? 0.2363
+what were Roger falling on and the sister ? 0.1732
+what were Roger and the sister falling on ? 0.2991
+what did Alexander need and the boat ? 0.0093
+what did Alexander and the boat need ? 0.0059
+what were Alexander housing and the boat ? 0.5286
+what were Alexander and the boat housing ? 0.2271
+what did Laura turn and the doctor ? 0.5101
+what did Laura and the doctor turn ? 0.0639
+who were Philip change and the slave ? 0.6898
+who were Philip and the slave covering ? 0.9220
+what were Philip covering and the slave ? 1.6391
+what were Philip and the slave covering ? 0.9022
+what were William saying and the doctor ? 0.2429
+what were William and the doctor saying ? 0.0103
+who were William work for and the doctor ? 0.0144
+who were William and the doctor growing ? 0.8446
+what were William growing and the doctor ? 1.4032
+what were William and the doctor growing ? 0.3494
+who must Michael become and the dinosaur ? 0.6397
+who must Michael and the dinosaur become ? 0.3396
+who were Michael become and the dinosaur ? 1.2030
+who were Michael and the dinosaur falling on ? 0.0290
+what did Michael become and the dinosaur ? 0.7077
+what did Michael and the dinosaur become ? 0.0342
+what were Michael falling on and the dinosaur ? 0.4191
+what were Michael and the dinosaur falling on ? 0.0376
+who were William have and the dinosaur ? 0.1311
+who were William and the dinosaur taking ? 0.9083
+what were William taking and the dinosaur ? 0.9615
+what were William and the dinosaur taking ? 0.0274
+who were Donald become and the duke ? 0.8047
+who were Donald and the duke turning ? 0.0599
+what were Donald turning and the duke ? 0.9021
+what were Donald and the duke turning ? 0.0064
+who must Sarah keep and the dinosaur ? 0.3960
+who must Sarah and the dinosaur keep ? 1.0171
+who were Sarah keep and the dinosaur ? 0.1491
+who were Sarah and the dinosaur covering ? 0.1063
+what did Sarah keep and the dinosaur ? 0.0537
+what did Sarah and the dinosaur keep ? 0.0192
+what were Sarah covering and the dinosaur ? 0.7382
+what were Sarah and the dinosaur covering ? 0.1632
+who must Richard change and the wolf ? 0.6756
+who must Richard and the wolf change ? 0.0491
+who were Richard change and the wolf ? 1.3117
+who were Richard and the wolf running to ? 0.2012
+what did Richard change and the wolf ? 0.3500
+what did Richard and the wolf change ? 0.0053
+what were Richard running to and the wolf ? 0.1854
+what were Richard and the wolf running to ? 0.3922
+who must Laura change and the duke ? 0.3329
+who must Laura and the duke change ? 0.0255
+who were Laura change and the duke ? 0.4506
+who were Laura and the duke housing ? 0.7810
+what did Laura change and the duke ? 0.0349
+what did Laura and the duke change ? 0.0056
+what were Laura housing and the duke ? 0.8001
+what were Laura and the duke housing ? 0.0764
+who must Roger have and the pig ? 0.0897
+who must Roger and the pig have ? 0.0335
+who were Roger have and the pig ? 0.3677
+who were Roger and the pig cutting ? 1.0498
+what did Roger have and the pig ? 0.0054
+what did Roger and the pig have ? 0.0049
+what were Roger cutting and the pig ? 0.0039
+what were Roger and the pig cutting ? 0.4209
+who must Richard close and the dinosaur ? 1.0805
+who must Richard and the dinosaur close ? 0.1509
+who were Richard close and the dinosaur ? 0.7105
+who were Richard and the dinosaur drawing ? 0.0066
+what did Richard close and the dinosaur ? 0.5857
+what did Richard and the dinosaur close ? 0.0106
+what were Richard drawing and the dinosaur ? 0.0119
+what were Richard and the dinosaur drawing ? 0.0132
+who must Mark work for and the slave ? 0.0083
+who must Mark and the slave work for ? 0.0123
+who were Mark work for and the slave ? 0.9717
+who were Mark and the slave turning ? 0.2499
+what did Mark work for and the slave ? 0.0070
+what did Mark and the slave work for ? 0.0302
+what were Mark turning and the slave ? 0.5414
+what were Mark and the slave turning ? 0.0374
+what were Sarah turning and the slave ? 0.9603
+what were Sarah and the slave turning ? 0.2121
+who must Mark change and the dinosaur ? 0.5164
+who must Mark and the dinosaur change ? 0.0210
+who were Mark change and the dinosaur ? 0.7910
+who were Mark and the dinosaur falling on ? 0.0213
+what did Mark change and the dinosaur ? 0.8441
+what did Mark and the dinosaur change ? 0.0276
+what were Mark falling on and the dinosaur ? 0.1868
+what were Mark and the dinosaur falling on ? 0.0314
+who were Mark change and the sister ? 0.2019
+who were Mark and the sister testing ? 0.4171
+what were Mark testing and the sister ? 0.6891
+what were Mark and the sister testing ? 0.3378
+what did Philip tell and the sister ? 0.0430
+what did Philip and the sister tell ? 0.0638
+what were Philip saying and the sister ? 0.0920
+what were Philip and the sister saying ? 0.2035
+who were Michael tell something and the pig ? 0.2558
+who were Michael and the pig turning ? 0.5765
+what were Michael turning and the pig ? 1.3180
+what were Michael and the pig turning ? 0.2820
+who were William close and the dinosaur ? 0.9144
+who were William and the dinosaur housing ? 0.3852
+what were William housing and the dinosaur ? 1.2795
+what were William and the dinosaur housing ? 0.0421
+who were Laura become and the doctor ? 0.2996
+who were Laura and the doctor looking for ? 0.0010
+what were Laura looking for and the doctor ? 0.0087
+what were Laura and the doctor looking for ? 0.0025
+who must Philip have and the dinosaur ? 0.6579
+who must Philip and the dinosaur have ? 0.1357
+who must Sarah change and the sister ? 0.0739
+who must Sarah and the sister change ? 0.0211
+who were Sarah change and the sister ? 0.3159
+who were Sarah and the sister reaching for ? 1.1054
+what did Sarah change and the sister ? 0.0862
+what did Sarah and the sister change ? 0.0201
+what were Sarah reaching for and the sister ? 0.8837
+what were Sarah and the sister reaching for ? 0.8800
+who must William present and the duke ? 0.0909
+who must William and the duke present ? 0.0691
+who were William present and the duke ? 0.0472
+who were William and the duke reaching for ? 0.7649
+what did William present and the duke ? 0.0188
+what did William and the duke present ? 0.0033
+what were William reaching for and the duke ? 0.6958
+what were William and the duke reaching for ? 0.5469
+who were Laura have and the dinosaur ? 0.7753
+who were Laura and the dinosaur trying ? 1.5317
+who must Donald close and the doctor ? 0.6930
+who must Donald and the doctor close ? 0.1593
+who were Donald close and the doctor ? 0.4025
+who were Donald and the doctor growing ? 0.9652
+what did Donald close and the doctor ? 0.2728
+what did Donald and the doctor close ? 0.0183
+what were Donald growing and the doctor ? 0.8292
+what were Donald and the doctor growing ? 0.9413
+who were Mark present and the duke ? 0.4238
+who were Mark and the duke talking about ? 0.0052
+what were Mark talking about and the duke ? 0.0031
+what were Mark and the duke talking about ? 0.0088
+who must Alexander turn and the pig ? 0.2803
+who must Alexander and the pig turn ? 0.2476
+what did Alexander turn and the pig ? 0.3451
+what did Alexander and the pig turn ? 0.0752
+who must Donald change and the wolf ? 0.2960
+who must Donald and the wolf change ? 0.0835
+who were Donald change and the wolf ? 1.0745
+who were Donald and the wolf growing ? 0.7424
+what did Donald change and the wolf ? 0.5956
+what did Donald and the wolf change ? 0.0045
+what were Donald growing and the wolf ? 0.6787
+what were Donald and the wolf growing ? 0.5336
+what were William sleeping in and the boat ? 0.0194
+what were William and the boat sleeping in ? 0.0819
+what were Donald looking for and the wolf ? 0.0050
+what were Donald and the wolf looking for ? 0.0020
+who were Mark become and the dinosaur ? 0.8723
+who were Mark and the dinosaur thinking about ? 0.1630
+what were Mark thinking about and the dinosaur ? 0.3375
+what were Mark and the dinosaur thinking about ? 0.0884
+who must Richard become and the dinosaur ? 0.4476
+who must Richard and the dinosaur become ? 0.1666
+who were Richard become and the dinosaur ? 1.0896
+who were Richard and the dinosaur housing ? 0.3147
+what did Richard become and the dinosaur ? 0.3574
+what did Richard and the dinosaur become ? 0.0107
+what were Richard housing and the dinosaur ? 1.1610
+what were Richard and the dinosaur housing ? 0.1819
+who were Alexander become and the sister ? 0.3416
+who were Alexander and the sister drawing ? 0.9335
+what were Alexander drawing and the sister ? 0.9737
+what were Alexander and the sister drawing ? 0.4776
+what were Michael eating and the doctor ? 1.3935
+what were Michael and the doctor eating ? 0.2228
+who were Richard become and the duke ? 0.7783
+who were Richard and the duke running to ? 0.0125
+what were Richard running to and the duke ? 0.0031
+what were Richard and the duke running to ? 0.0302
+who must Mark present and the doctor ? 0.3109
+who must Mark and the doctor present ? 0.0149
+who were Mark present and the doctor ? 0.2542
+who were Mark and the doctor sleeping in ? 0.0076
+what did Mark present and the doctor ? 0.0498
+what did Mark and the doctor present ? 0.0038
+what were Mark sleeping in and the doctor ? 0.0033
+what were Mark and the doctor sleeping in ? 0.0030
+what did Michael need and the doctor ? 0.3594
+what did Michael and the doctor need ? 0.0395
+what were Michael trying and the doctor ? 0.9235
+what were Michael and the doctor trying ? 0.0437
+what were Sarah turning and the boat ? 0.1504
+what were Sarah and the boat turning ? 0.0076
+who were Donald tell something and the doctor ? 0.1669
+who were Donald and the doctor calling ? 0.0038
+what were Donald calling and the doctor ? 0.2618
+what were Donald and the doctor calling ? 0.0042
+who were Sarah present and the doctor ? 0.2908
+who were Sarah and the doctor housing ? 0.2263
+what were Sarah housing and the doctor ? 0.8120
+what were Sarah and the doctor housing ? 0.0459
+who were Alexander change and the slave ? 0.9170
+who were Alexander and the slave calling ? 0.0619
+what were Alexander calling and the slave ? 0.0436
+what were Alexander and the slave calling ? 0.0246
+who must Michael become and the boat ? 0.4856
+who must Michael and the boat become ? 0.0588
+what did Michael become and the boat ? 0.6261
+what did Michael and the boat become ? 0.0118
+who must Mark close and the wolf ? 0.8834
+who must Mark and the wolf close ? 0.2742
+what did Mark close and the wolf ? 0.5731
+what did Mark and the wolf close ? 0.0253
+who must Donald present and the wolf ? 0.3802
+who must Donald and the wolf present ? 0.2168
+who were Donald present and the wolf ? 0.6161
+who were Donald and the wolf calling ? 0.0177
+what did Donald present and the wolf ? 0.4683
+what did Donald and the wolf present ? 0.0075
+what were Donald calling and the wolf ? 0.6953
+what were Donald and the wolf calling ? 0.0271
+what were William housing and the slave ? 1.4769
+what were William and the slave housing ? 0.6314
+who must William work for and the wolf ? 0.2305
+who must William and the wolf work for ? 0.1026
+who were William work for and the wolf ? 0.0184
+who were William and the wolf looking for ? 0.0012
+what did William work for and the wolf ? 0.0042
+what did William and the wolf work for ? 0.0069
+what were William looking for and the wolf ? 0.0253
+what were William and the wolf looking for ? 0.0017
+what did Mark need and the doctor ? 0.4737
+what did Mark and the doctor need ? 0.0160
+what were Mark talking about and the doctor ? 0.0066
+what were Mark and the doctor talking about ? 0.0045
+who must Alexander present and the slave ? 0.1109
+who must Alexander and the slave present ? 0.0178
+who were Alexander present and the slave ? 0.5625
+who were Alexander and the slave testing ? 0.8845
+what did Alexander present and the slave ? 0.3897
+what did Alexander and the slave present ? 0.0548
+what were Alexander testing and the slave ? 1.1847
+what were Alexander and the slave testing ? 0.7876
+who must Laura change and the pig ? 0.3010
+who must Laura and the pig change ? 0.0944
+who were Laura change and the pig ? 0.6091
+who were Laura and the pig drawing ? 0.7750
+what did Laura change and the pig ? 0.2630
+what did Laura and the pig change ? 0.5988
+what were Laura drawing and the pig ? 0.2777
+what were Laura and the pig drawing ? 0.5325
+who must Michael present and the dinosaur ? 0.9191
+who must Michael and the dinosaur present ? 0.8631
+who were Michael present and the dinosaur ? 0.6508
+who were Michael and the dinosaur turning ? 1.2002
+what did Michael present and the dinosaur ? 0.7912
+what did Michael and the dinosaur present ? 0.0813
+what were Michael turning and the dinosaur ? 1.3857
+what were Michael and the dinosaur turning ? 0.9484
+who must Donald have and the doctor ? 0.2217
+who must Donald and the doctor have ? 0.0885
+who were Donald have and the doctor ? 0.2108
+who were Donald and the doctor sleeping in ? 0.0031
+what did Donald have and the doctor ? 0.0498
+what did Donald and the doctor have ? 0.0382
+what were Donald sleeping in and the doctor ? 0.0227
+what were Donald and the doctor sleeping in ? 0.0051
+who must Michael close and the doctor ? 0.8063
+who must Michael and the doctor close ? 0.2182
+who were Michael close and the doctor ? 0.5112
+who were Michael and the doctor calling ? 0.0044
+what did Michael close and the doctor ? 0.5155
+what did Michael and the doctor close ? 0.0652
+what were Michael calling and the doctor ? 0.5937
+what were Michael and the doctor calling ? 0.0064
+who must Mark work for and the boat ? 0.0337
+who must Mark and the boat work for ? 0.0257
+who were Mark work for and the boat ? 0.4333
+who were Mark and the boat growing ? 1.2870
+what did Mark work for and the boat ? 0.1046
+what did Mark and the boat work for ? 0.0222
+what were Mark growing and the boat ? 1.3634
+what were Mark and the boat growing ? 0.6353
+what were Roger saying and the wolf ? 0.5329
+what were Roger and the wolf saying ? 0.0098
+who must Richard turn and the doctor ? 0.6226
+who must Richard and the doctor turn ? 0.2188
+who were Richard turn and the doctor ? 0.9505
+who were Richard and the doctor looking for ? 0.0018
+what did Richard turn and the doctor ? 0.4473
+what did Richard and the doctor turn ? 0.1234
+what were Richard looking for and the doctor ? 0.0188
+what were Richard and the doctor looking for ? 0.0103
+what were Alexander eating and the sister ? 0.9255
+what were Alexander and the sister eating ? 0.2001
+who must William turn and the boat ? 0.2544
+who must William and the boat turn ? 0.0658
+who were William turn and the boat ? 0.2378
+who were William and the boat cutting ? 1.4452
+what were William cutting and the boat ? 0.4093
+what were William and the boat cutting ? 1.0946
+what were Mark eating and the sister ? 0.4230
+what were Mark and the sister eating ? 0.0728
+who must Donald work for and the pig ? 0.0485
+who must Donald and the pig work for ? 0.1024
+who were Donald work for and the pig ? 0.0051
+who were Donald and the pig cutting ? 1.2644
+what did Donald work for and the pig ? 0.0065
+what did Donald and the pig work for ? 0.0052
+what were Donald cutting and the pig ? 0.1091
+what were Donald and the pig cutting ? 0.6140
+who must Philip change and the wolf ? 0.2820
+who must Philip and the wolf change ? 0.0879
+what did Philip change and the wolf ? 0.2750
+what did Philip and the wolf change ? 0.0061
+who were Richard have and the dinosaur ? 0.4628
+who were Richard and the dinosaur calling ? 0.0268
+what were Richard calling and the dinosaur ? 0.8132
+what were Richard and the dinosaur calling ? 0.2138
+who were Mark present and the sister ? 0.7975
+who were Mark and the sister reaching for ? 0.9272
+what were Mark reaching for and the sister ? 0.7611
+what were Mark and the sister reaching for ? 0.8002
+who must Roger have and the wolf ? 0.1268
+who must Roger and the wolf have ? 0.0321
+who were Roger have and the wolf ? 0.0750
+who were Roger and the wolf trying ? 0.4808
+what did Roger have and the wolf ? 0.0088
+what did Roger and the wolf have ? 0.0086
+what were Roger trying and the wolf ? 0.9596
+what were Roger and the wolf trying ? 0.2449
+who were Richard tell something and the duke ? 0.2202
+who were Richard and the duke looking for ? 0.0011
+what were Richard looking for and the duke ? 0.0008
+what were Richard and the duke looking for ? 0.0005
+what were Alexander testing and the boat ? 0.1365
+what were Alexander and the boat testing ? 0.0107
+who must Laura present and the dinosaur ? 0.7922
+who must Laura and the dinosaur present ? 0.5205
+who were Laura present and the dinosaur ? 0.8580
+who were Laura and the dinosaur talking about ? 0.7700
+what did Laura present and the dinosaur ? 0.7955
+what did Laura and the dinosaur present ? 0.0251
+what were Laura talking about and the dinosaur ? 0.3465
+what were Laura and the dinosaur talking about ? 0.0636
+who must Sarah change and the boat ? 0.0542
+who must Sarah and the boat change ? 0.0093
+what did Sarah change and the boat ? 0.0636
+what did Sarah and the boat change ? 0.0120
+who must Laura work for and the wolf ? 0.0967
+who must Laura and the wolf work for ? 0.1218
+who were Laura work for and the wolf ? 0.0012
+who were Laura and the wolf thinking about ? 0.0082
+what did Laura work for and the wolf ? 0.0208
+what did Laura and the wolf work for ? 0.0122
+what were Laura thinking about and the wolf ? 0.0068
+what were Laura and the wolf thinking about ? 0.0012
+what did William need and the wolf ? 0.0272
+what did William and the wolf need ? 0.0285
+what were Roger saying and the pig ? 0.5789
+what were Roger and the pig saying ? 0.2845
+what were Sarah growing and the wolf ? 0.6880
+what were Sarah and the wolf growing ? 0.6340
+what did Roger present and the doctor ? 0.0182
+what did Roger and the doctor present ? 0.0073
+what were Donald saying and the wolf ? 0.4661
+what were Donald and the wolf saying ? 0.0082
+who must Michael become and the slave ? 0.1219
+who must Michael and the slave become ? 0.0097
+who were Michael become and the slave ? 0.8313
+who were Michael and the slave thinking about ? 0.0092
+what did Michael become and the slave ? 0.0957
+what did Michael and the slave become ? 0.0047
+what were Michael thinking about and the slave ? 0.0050
+what were Michael and the slave thinking about ? 0.0114
+who were Richard become and the pig ? 0.7776
+who were Richard and the pig cutting ? 1.2329
+what were Richard cutting and the pig ? 0.0418
+what were Richard and the pig cutting ? 0.8783
+who must Mark keep and the wolf ? 0.5299
+who must Mark and the wolf keep ? 0.0514
+who were Mark keep and the wolf ? 0.3701
+who were Mark and the wolf reaching for ? 0.9164
+what did Mark keep and the wolf ? 0.1175
+what did Mark and the wolf keep ? 0.0243
+what were Mark reaching for and the wolf ? 1.0145
+what were Mark and the wolf reaching for ? 0.7586
+who must Richard keep and the sister ? 0.3151
+who must Richard and the sister keep ? 0.2301
+who were Richard keep and the sister ? 0.8473
+who were Richard and the sister sleeping in ? 0.0118
+what did Richard keep and the sister ? 0.2306
+what did Richard and the sister keep ? 0.1492
+what were Richard sleeping in and the sister ? 0.0952
+what were Richard and the sister sleeping in ? 0.0107
+who were Donald have and the dinosaur ? 0.3920
+who were Donald and the dinosaur growing ? 0.3924
+what were Donald growing and the dinosaur ? 1.0987
+what were Donald and the dinosaur growing ? 0.2270
+who must Sarah become and the sister ? 0.0804
+who must Sarah and the sister become ? 0.0126
+what did Sarah become and the sister ? 0.0296
+what did Sarah and the sister become ? 0.0078
+what did Michael change and the slave ? 0.6174
+what did Michael and the slave change ? 0.0467
+who must Laura become and the boat ? 0.5388
+who must Laura and the boat become ? 0.1192
+who were Laura become and the boat ? 1.1171
+who were Laura and the boat calling ? 0.2614
+what did Laura become and the boat ? 0.5138
+what did Laura and the boat become ? 0.3510
+what were Laura calling and the boat ? 0.7635
+what were Laura and the boat calling ? 0.0871
+who were Michael turn and the sister ? 1.0202
+who were Michael and the sister talking about ? 0.0107
+what were Michael talking about and the sister ? 0.0240
+what were Michael and the sister talking about ? 0.0158
+who were Sarah turn and the slave ? 0.9564
+who were Sarah and the slave turning ? 0.6284

@@ -86,7 +86,10 @@ def prepare_data_for_plotting(gn2model_output_paths: Dict[str, List[Path]],
                 assert pairs
 
                 # calc proportion correct - sentences on odd lines are bad, and sentences on even lines are good
-                num_correct = count_correct_choices(data)
+                try:
+                    num_correct = count_correct_choices(data)
+                except KeyError:  # can occur when model was evaluated on a different version of the test suite
+                    raise RuntimeError(f'The model {group_name} was evaluated on a pair that is not in test suite.')
                 accuracy = num_correct / len(pairs)
 
                 # populate vector of proportions - one vector per model group
@@ -180,12 +183,6 @@ def get_legend_label(group_name,
 
     # init label
     res = f'{model_name} '
-
-    # add corpora info
-    # try:
-    #     res += f'| {param2val["corpora"]} '
-    # except KeyError:
-    #     raise KeyError(f'Did not find "corpora" param2val for {group_name}')
 
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':

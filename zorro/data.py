@@ -41,6 +41,7 @@ class DataExperimental:
     @staticmethod
     def make_s2cross_entropies(model_output_path: Path,
                                ) -> Dict[Tuple[str], float]:
+
         lines = model_output_path.open().readlines()
 
         res = {}

@@ -1,3 +1,0 @@
-architecture: Roberta-base
-data_size: 30B
-framework: huggingface

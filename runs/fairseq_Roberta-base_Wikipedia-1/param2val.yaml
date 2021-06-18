@@ -1,0 +1,4 @@
+architecture: Roberta-base
+corpora: Wikipedia-1
+data_size: 13M
+framework: fairseq

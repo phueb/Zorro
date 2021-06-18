@@ -1,0 +1,4000 @@
+where is the ways ? 0.0167
+where is the way ? 0.0046
+what is the ways ? 0.0418
+what is the way ? 0.0107
+what color is the ways ? 0.0234
+what color is the way ? 0.0812
+is the ways not quick ? 0.0037
+is the way not quick ? 0.0026
+is the ways where it should be ? 0.0021
+is the way where it should be ? 0.0023
+is the ways something you like ? 0.0038
+is the way something you like ? 0.0068
+is the ways a good idea ? 0.0181
+is the way a good idea ? 0.0079
+where was the ways ? 0.0229
+where was the way ? 0.0130
+what was the ways ? 0.0297
+what was the way ? 0.0261
+what color was the ways ? 0.0396
+what color was the way ? 0.1431
+was the ways not quick ? 0.0043
+was the way not quick ? 0.0166
+was the ways where it should be ? 0.0783
+was the way where it should be ? 0.1712
+was the ways something you like ? 0.0065
+was the way something you like ? 0.0181
+was the ways a good idea ? 0.0424
+was the way a good idea ? 0.0394
+where are the way ? 0.0307
+where are the ways ? 0.0169
+what are the way ? 0.0770
+what are the ways ? 0.0782
+what color are the way ? 0.0215
+what color are the ways ? 0.0198
+are the way not quick ? 0.0430
+are the ways not quick ? 0.0037
+are the way where they should be ? 0.0972
+are the ways where they should be ? 0.0044
+are the way something you like ? 0.0644
+are the ways something you like ? 0.0068
+are the way a good idea ? 0.3242
+are the ways a good idea ? 0.0200
+where were the way ? 0.0490
+where were the ways ? 0.0140
+what were the way ? 0.0843
+what were the ways ? 0.0572
+what color were the way ? 0.0650
+what color were the ways ? 0.0491
+were the way not quick ? 0.1498
+were the ways not quick ? 0.0193
+were the way where they should be ? 0.5397
+were the ways where they should be ? 0.2675
+were the way something you like ? 0.8066
+were the ways something you like ? 0.1904
+were the way a good idea ? 0.3643
+were the ways a good idea ? 0.0413
+where is the calls ? 0.0573
+where is the call ? 0.0030
+what is the calls ? 0.1447
+what is the call ? 0.0058
+what color is the calls ? 0.1227
+what color is the call ? 0.0131
+is the calls not early ? 0.0107
+is the call not early ? 0.0091
+is the calls where it should be ? 0.0510
+is the call where it should be ? 0.0024
+is the calls something you like ? 0.0045
+is the call something you like ? 0.0040
+is the calls a good idea ? 0.0346
+is the call a good idea ? 0.0046
+where was the calls ? 0.0172
+where was the call ? 0.0052
+what was the calls ? 0.0853
+what was the call ? 0.0203
+what color was the calls ? 0.0706
+what color was the call ? 0.0130
+was the calls not early ? 0.0905
+was the call not early ? 0.0495
+was the calls where it should be ? 0.0819
+was the call where it should be ? 0.0121
+was the calls something you like ? 0.0126
+was the call something you like ? 0.0044
+was the calls a good idea ? 0.0994
+was the call a good idea ? 0.0098
+where are the call ? 0.0090
+where are the calls ? 0.0074
+what are the call ? 0.0343
+what are the calls ? 0.0978
+what color are the call ? 0.0176
+what color are the calls ? 0.0201
+are the call not early ? 0.0070
+are the calls not early ? 0.0082
+are the call where they should be ? 0.0052
+are the calls where they should be ? 0.0058
+are the call something you like ? 0.0098
+are the calls something you like ? 0.0066
+are the call a good idea ? 0.0096
+are the calls a good idea ? 0.0249
+where were the call ? 0.0153
+where were the calls ? 0.0081
+what were the call ? 0.0469
+what were the calls ? 0.0937
+what color were the call ? 0.0499
+what color were the calls ? 0.0255
+were the call not early ? 0.1313
+were the calls not early ? 0.0825
+were the call where they should be ? 0.3862
+were the calls where they should be ? 0.4207
+were the call something you like ? 0.5695
+were the calls something you like ? 0.1695
+were the call a good idea ? 0.2905
+were the calls a good idea ? 0.0499
+where is the songs ? 0.0445
+where is the song ? 0.0061
+what is the songs ? 0.1028
+what is the song ? 0.0044
+what color is the songs ? 0.1392
+what color is the song ? 0.0070
+is the songs not positive ? 0.0089
+is the song not positive ? 0.0075
+is the songs where it should be ? 0.0065
+is the song where it should be ? 0.0132
+is the songs something you like ? 0.0168
+is the song something you like ? 0.0032
+is the songs a good idea ? 0.0780
+is the song a good idea ? 0.0060
+where was the songs ? 0.0237
+where was the song ? 0.0072
+what was the songs ? 0.0434
+what was the song ? 0.0112
+what color was the songs ? 0.0394
+what color was the song ? 0.0160
+was the songs not positive ? 0.0135
+was the song not positive ? 0.0223
+was the songs where it should be ? 0.0203
+was the song where it should be ? 0.0267
+was the songs something you like ? 0.0275
+was the song something you like ? 0.0041
+was the songs a good idea ? 0.0605
+was the song a good idea ? 0.0119
+where are the song ? 0.0041
+where are the songs ? 0.0128
+what are the song ? 0.0217
+what are the songs ? 0.0608
+what color are the song ? 0.0091
+what color are the songs ? 0.0439
+are the song not positive ? 0.6636
+are the songs not positive ? 0.0159
+are the song where they should be ? 0.2086
+are the songs where they should be ? 0.0057
+are the song something you like ? 0.0221
+are the songs something you like ? 0.0207
+are the song a good idea ? 0.0384
+are the songs a good idea ? 0.0414
+where were the song ? 0.0065
+where were the songs ? 0.0085
+what were the song ? 0.0526
+what were the songs ? 0.0765
+what color were the song ? 0.0297
+what color were the songs ? 0.0218
+were the song not positive ? 0.0760
+were the songs not positive ? 0.0151
+were the song where they should be ? 0.2999
+were the songs where they should be ? 0.2024
+were the song something you like ? 0.4220
+were the songs something you like ? 0.2223
+were the song a good idea ? 0.0765
+were the songs a good idea ? 0.0515
+where is the bands ? 0.0316
+where is the band ? 0.0160
+what is the bands ? 0.0990
+what is the band ? 0.0095
+what color is the bands ? 0.0938
+what color is the band ? 0.0055
+is the bands not sacred ? 0.0285
+is the band not sacred ? 0.0140
+is the bands where it should be ? 0.0032
+is the band where it should be ? 0.0024
+is the bands something you like ? 0.0022
+is the band something you like ? 0.0025
+is the bands a good idea ? 0.0187
+is the band a good idea ? 0.0054
+where was the bands ? 0.0371
+where was the band ? 0.0091
+what was the bands ? 0.0489
+what was the band ? 0.0173
+what color was the bands ? 0.0500
+what color was the band ? 0.0089
+was the bands not sacred ? 0.0159
+was the band not sacred ? 0.0226
+was the bands where it should be ? 0.0167
+was the band where it should be ? 0.0114
+was the bands something you like ? 0.0156
+was the band something you like ? 0.0087
+was the bands a good idea ? 0.0247
+was the band a good idea ? 0.0220
+where are the band ? 0.0113
+where are the bands ? 0.0034
+what are the band ? 0.0321
+what are the bands ? 0.0356
+what color are the band ? 0.0121
+what color are the bands ? 0.0280
+are the band not sacred ? 0.0256
+are the bands not sacred ? 0.0196
+are the band where they should be ? 0.0299
+are the bands where they should be ? 0.0053
+are the band something you like ? 0.0085
+are the bands something you like ? 0.0057
+are the band a good idea ? 0.0143
+are the bands a good idea ? 0.0096
+where were the band ? 0.0089
+where were the bands ? 0.0059
+what were the band ? 0.0336
+what were the bands ? 0.0495
+what color were the band ? 0.0340
+what color were the bands ? 0.0421
+were the band not sacred ? 0.0657
+were the bands not sacred ? 0.0461
+were the band where they should be ? 0.4540
+were the bands where they should be ? 0.3158
+were the band something you like ? 0.3690
+were the bands something you like ? 0.2271
+were the band a good idea ? 0.0770
+were the bands a good idea ? 0.0447
+where is the stars ? 0.0758
+where is the star ? 0.0026
+what is the stars ? 0.0718
+what is the star ? 0.0156
+what color is the stars ? 0.0500
+what color is the star ? 0.0148
+is the stars not solid ? 0.0039
+is the star not solid ? 0.0028
+is the stars where it should be ? 0.0403
+is the star where it should be ? 0.0011
+is the stars something you like ? 0.0052
+is the star something you like ? 0.0022
+is the stars a good idea ? 0.0107
+is the star a good idea ? 0.0064
+where was the stars ? 0.0719
+where was the star ? 0.0036
+what was the stars ? 0.0803
+what was the star ? 0.0496
+what color was the stars ? 0.0649
+what color was the star ? 0.0363
+was the stars not solid ? 0.0096
+was the star not solid ? 0.0101
+was the stars where it should be ? 0.0554
+was the star where it should be ? 0.0098
+was the stars something you like ? 0.0106
+was the star something you like ? 0.0049
+was the stars a good idea ? 0.0329
+was the star a good idea ? 0.0218
+where are the star ? 0.0041
+where are the stars ? 0.0082
+what are the star ? 0.0904
+what are the stars ? 0.0890
+what color are the star ? 0.0154
+what color are the stars ? 0.0522
+are the star not solid ? 0.0064
+are the stars not solid ? 0.0441
+are the star where they should be ? 0.0027
+are the stars where they should be ? 0.1605
+are the star something you like ? 0.0119
+are the stars something you like ? 0.0063
+are the star a good idea ? 0.0169
+are the stars a good idea ? 0.0157
+where were the star ? 0.0080
+where were the stars ? 0.0138
+what were the star ? 0.0866
+what were the stars ? 0.1318
+what color were the star ? 0.0365
+what color were the stars ? 0.0827
+were the star not solid ? 0.0051
+were the stars not solid ? 0.0083
+were the star where they should be ? 0.1709
+were the stars where they should be ? 0.3033
+were the star something you like ? 0.3457
+were the stars something you like ? 0.0629
+were the star a good idea ? 0.0469
+were the stars a good idea ? 0.0212
+where is the babies ? 0.0077
+where is the baby ? 0.0040
+what is the babies ? 0.0402
+what is the baby ? 0.0078
+what color is the babies ? 0.0098
+what color is the baby ? 0.0045
+is the babies not finished ? 0.0055
+is the baby not finished ? 0.0133
+is the babies where it should be ? 0.0097
+is the baby where it should be ? 0.0057
+is the babies something you like ? 0.0048
+is the baby something you like ? 0.0054
+is the babies a good idea ? 0.0091
+is the baby a good idea ? 0.0100
+where was the babies ? 0.0118
+where was the baby ? 0.0090
+what was the babies ? 0.0389
+what was the baby ? 0.0164
+what color was the babies ? 0.0160
+what color was the baby ? 0.0077
+was the babies not finished ? 0.0101
+was the baby not finished ? 0.0223
+was the babies where it should be ? 0.0201
+was the baby where it should be ? 0.0138
+was the babies something you like ? 0.0083
+was the baby something you like ? 0.0061
+was the babies a good idea ? 0.0242
+was the baby a good idea ? 0.0245
+where are the baby ? 0.0069
+where are the babies ? 0.0080
+what are the baby ? 0.0368
+what are the babies ? 0.0681
+what color are the baby ? 0.0095
+what color are the babies ? 0.0150
+are the baby not finished ? 0.0293
+are the babies not finished ? 0.0218
+are the baby where they should be ? 0.0050
+are the babies where they should be ? 0.0087
+are the baby something you like ? 0.0081
+are the babies something you like ? 0.0117
+are the baby a good idea ? 0.0145
+are the babies a good idea ? 0.0130
+where were the baby ? 0.0111
+where were the babies ? 0.0138
+what were the baby ? 0.0274
+what were the babies ? 0.0446
+what color were the baby ? 0.0206
+what color were the babies ? 0.0167
+were the baby not finished ? 0.0324
+were the babies not finished ? 0.0143
+were the baby where they should be ? 0.5363
+were the babies where they should be ? 0.3086
+were the baby something you like ? 0.9249
+were the babies something you like ? 0.3149
+were the baby a good idea ? 0.2078
+were the babies a good idea ? 0.0447
+where is the parents ? 0.0510
+where is the parent ? 0.0149
+what is the parents ? 0.0336
+what is the parent ? 0.0283
+what color is the parents ? 0.0175
+what color is the parent ? 0.0102
+is the parents not solid ? 0.0061
+is the parent not solid ? 0.0052
+is the parents where it should be ? 0.0015
+is the parent where it should be ? 0.0077
+is the parents something you like ? 0.0050
+is the parent something you like ? 0.0099
+is the parents a good idea ? 0.0184
+is the parent a good idea ? 0.0447
+where was the parents ? 0.0310
+where was the parent ? 0.0112
+what was the parents ? 0.0457
+what was the parent ? 0.0298
+what color was the parents ? 0.0160
+what color was the parent ? 0.0109
+was the parents not solid ? 0.0106
+was the parent not solid ? 0.0049
+was the parents where it should be ? 0.0068
+was the parent where it should be ? 0.0041
+was the parents something you like ? 0.0186
+was the parent something you like ? 0.0095
+was the parents a good idea ? 0.0404
+was the parent a good idea ? 0.0274
+where are the parent ? 0.0441
+where are the parents ? 0.0077
+what are the parent ? 0.0361
+what are the parents ? 0.0435
+what color are the parent ? 0.0191
+what color are the parents ? 0.0263
+are the parent not solid ? 0.0104
+are the parents not solid ? 0.0099
+are the parent where they should be ? 0.0078
+are the parents where they should be ? 0.0020
+are the parent something you like ? 0.0325
+are the parents something you like ? 0.0067
+are the parent a good idea ? 0.0592
+are the parents a good idea ? 0.0328
+where were the parent ? 0.0130
+where were the parents ? 0.0123
+what were the parent ? 0.0285
+what were the parents ? 0.0433
+what color were the parent ? 0.0130
+what color were the parents ? 0.0233
+were the parent not solid ? 0.0059
+were the parents not solid ? 0.0149
+were the parent where they should be ? 0.2503
+were the parents where they should be ? 0.0990
+were the parent something you like ? 0.3665
+were the parents something you like ? 0.0699
+were the parent a good idea ? 0.1390
+were the parents a good idea ? 0.0323
+where is the guys ? 0.0135
+where is the guy ? 0.0126
+what is the guys ? 0.0602
+what is the guy ? 0.0183
+what color is the guys ? 0.0233
+what color is the guy ? 0.0161
+is the guys not yellow ? 0.0024
+is the guy not yellow ? 0.0168
+is the guys where it should be ? 0.0038
+is the guy where it should be ? 0.0157
+is the guys something you like ? 0.0035
+is the guy something you like ? 0.0069
+is the guys a good idea ? 0.0071
+is the guy a good idea ? 0.0366
+where was the guys ? 0.0249
+where was the guy ? 0.0153
+what was the guys ? 0.0602
+what was the guy ? 0.0223
+what color was the guys ? 0.0207
+what color was the guy ? 0.0188
+was the guys not yellow ? 0.0098
+was the guy not yellow ? 0.0159
+was the guys where it should be ? 0.0584
+was the guy where it should be ? 0.0199
+was the guys something you like ? 0.0127
+was the guy something you like ? 0.0107
+was the guys a good idea ? 0.0300
+was the guy a good idea ? 0.0595
+where are the guy ? 0.0379
+where are the guys ? 0.0109
+what are the guy ? 0.0386
+what are the guys ? 0.1239
+what color are the guy ? 0.0165
+what color are the guys ? 0.0239
+are the guy not yellow ? 0.0146
+are the guys not yellow ? 0.0035
+are the guy where they should be ? 0.0079
+are the guys where they should be ? 0.0232
+are the guy something you like ? 0.0208
+are the guys something you like ? 0.0187
+are the guy a good idea ? 0.0479
+are the guys a good idea ? 0.0293
+where were the guy ? 0.0235
+where were the guys ? 0.0103
+what were the guy ? 0.0438
+what were the guys ? 0.1260
+what color were the guy ? 0.0239
+what color were the guys ? 0.0258
+were the guy not yellow ? 0.0633
+were the guys not yellow ? 0.0999
+were the guy where they should be ? 0.5937
+were the guys where they should be ? 0.5355
+were the guy something you like ? 0.8032
+were the guys something you like ? 0.6987
+were the guy a good idea ? 0.4929
+were the guys a good idea ? 0.0958
+where is the minutes ? 0.0054
+where is the minute ? 0.0026
+what is the minutes ? 0.0522
+what is the minute ? 0.0133
+what color is the minutes ? 0.0185
+what color is the minute ? 0.0105
+is the minutes not extra ? 0.0693
+is the minute not extra ? 0.0185
+is the minutes where it should be ? 0.0109
+is the minute where it should be ? 0.0026
+is the minutes something you like ? 0.0445
+is the minute something you like ? 0.0029
+is the minutes a good idea ? 0.0150
+is the minute a good idea ? 0.0132
+where was the minutes ? 0.0115
+where was the minute ? 0.0048
+what was the minutes ? 0.0807
+what was the minute ? 0.0184
+what color was the minutes ? 0.0250
+what color was the minute ? 0.0139
+was the minutes not extra ? 0.0869
+was the minute not extra ? 0.0159
+was the minutes where it should be ? 0.0274
+was the minute where it should be ? 0.0085
+was the minutes something you like ? 0.0571
+was the minute something you like ? 0.0046
+was the minutes a good idea ? 0.0368
+was the minute a good idea ? 0.0349
+where are the minute ? 0.0177
+where are the minutes ? 0.0098
+what are the minute ? 0.0821
+what are the minutes ? 0.1697
+what color are the minute ? 0.0128
+what color are the minutes ? 0.0246
+are the minute not extra ? 0.4534
+are the minutes not extra ? 0.3281
+are the minute where they should be ? 0.0494
+are the minutes where they should be ? 0.0326
+are the minute something you like ? 0.0070
+are the minutes something you like ? 0.0211
+are the minute a good idea ? 0.3416
+are the minutes a good idea ? 0.0585
+where were the minute ? 0.0208
+where were the minutes ? 0.0101
+what were the minute ? 0.0563
+what were the minutes ? 0.1284
+what color were the minute ? 0.0163
+what color were the minutes ? 0.0455
+were the minute not extra ? 0.1268
+were the minutes not extra ? 0.1515
+were the minute where they should be ? 0.2965
+were the minutes where they should be ? 0.3213
+were the minute something you like ? 0.6376
+were the minutes something you like ? 0.2174
+were the minute a good idea ? 0.1369
+were the minutes a good idea ? 0.0770
+is the songs not good ? 0.0185
+is the song not good ? 0.0097
+was the songs not good ? 0.0189
+was the song not good ? 0.0074
+are the song not good ? 0.0713
+are the songs not good ? 0.0328
+were the song not good ? 0.0227
+were the songs not good ? 0.0191
+where is the bits ? 0.0320
+where is the bit ? 0.0037
+what is the bits ? 0.1501
+what is the bit ? 0.0143
+what color is the bits ? 0.1295
+what color is the bit ? 0.0049
+is the bits not good ? 0.0453
+is the bit not good ? 0.0212
+is the bits where it should be ? 0.0092
+is the bit where it should be ? 0.0072
+is the bits something you like ? 0.0086
+is the bit something you like ? 0.0022
+is the bits a good idea ? 0.0235
+is the bit a good idea ? 0.0127
+where was the bits ? 0.0265
+where was the bit ? 0.0110
+what was the bits ? 0.1384
+what was the bit ? 0.0379
+what color was the bits ? 0.1256
+what color was the bit ? 0.0116
+was the bits not good ? 0.0543
+was the bit not good ? 0.0299
+was the bits where it should be ? 0.0458
+was the bit where it should be ? 0.0584
+was the bits something you like ? 0.0523
+was the bit something you like ? 0.0057
+was the bits a good idea ? 0.1083
+was the bit a good idea ? 0.0286
+where are the bit ? 0.0147
+where are the bits ? 0.0100
+what are the bit ? 0.1194
+what are the bits ? 0.1330
+what color are the bit ? 0.0068
+what color are the bits ? 0.0252
+are the bit not good ? 0.0217
+are the bits not good ? 0.0735
+are the bit where they should be ? 0.0593
+are the bits where they should be ? 0.0091
+are the bit something you like ? 0.0271
+are the bits something you like ? 0.0241
+are the bit a good idea ? 0.0673
+are the bits a good idea ? 0.0431
+where were the bit ? 0.0162
+where were the bits ? 0.0076
+what were the bit ? 0.0942
+what were the bits ? 0.1011
+what color were the bit ? 0.0179
+what color were the bits ? 0.0334
+were the bit not good ? 0.1054
+were the bits not good ? 0.0354
+were the bit where they should be ? 0.5226
+were the bits where they should be ? 0.3559
+were the bit something you like ? 0.8595
+were the bits something you like ? 0.3043
+were the bit a good idea ? 0.1161
+were the bits a good idea ? 0.0563
+where is the toys ? 0.0181
+where is the toy ? 0.0041
+what is the toys ? 0.1320
+what is the toy ? 0.0128
+what color is the toys ? 0.0976
+what color is the toy ? 0.0189
+is the toys not winning ? 0.0977
+is the toy not winning ? 0.0032
+is the toys where it should be ? 0.2144
+is the toy where it should be ? 0.0055
+is the toys something you like ? 0.0684
+is the toy something you like ? 0.0044
+is the toys a good idea ? 0.0569
+is the toy a good idea ? 0.0070
+where was the toys ? 0.0247
+where was the toy ? 0.0041
+what was the toys ? 0.0938
+what was the toy ? 0.0429
+what color was the toys ? 0.0762
+what color was the toy ? 0.0329
+was the toys not winning ? 0.0917
+was the toy not winning ? 0.0097
+was the toys where it should be ? 0.2517
+was the toy where it should be ? 0.0107
+was the toys something you like ? 0.1315
+was the toy something you like ? 0.0085
+was the toys a good idea ? 0.0314
+was the toy a good idea ? 0.0183
+where are the toy ? 0.0188
+where are the toys ? 0.0114
+what are the toy ? 0.0976
+what are the toys ? 0.0534
+what color are the toy ? 0.0282
+what color are the toys ? 0.0458
+are the toy not winning ? 0.0573
+are the toys not winning ? 0.0610
+are the toy where they should be ? 0.0138
+are the toys where they should be ? 0.1185
+are the toy something you like ? 0.0123
+are the toys something you like ? 0.1115
+are the toy a good idea ? 0.1021
+are the toys a good idea ? 0.0263
+where were the toy ? 0.0092
+where were the toys ? 0.0190
+what were the toy ? 0.0587
+what were the toys ? 0.0642
+what color were the toy ? 0.0333
+what color were the toys ? 0.0413
+were the toy not winning ? 0.0192
+were the toys not winning ? 0.0384
+were the toy where they should be ? 0.2996
+were the toys where they should be ? 0.5488
+were the toy something you like ? 0.7450
+were the toys something you like ? 0.6098
+were the toy a good idea ? 0.1380
+were the toys a good idea ? 0.0371
+where is the whales ? 0.0212
+where is the whale ? 0.0052
+what is the whales ? 0.0653
+what is the whale ? 0.0137
+what color is the whales ? 0.0306
+what color is the whale ? 0.0159
+is the whales not sacred ? 0.0042
+is the whale not sacred ? 0.0039
+is the whales where it should be ? 0.0233
+is the whale where it should be ? 0.0010
+is the whales something you like ? 0.0237
+is the whale something you like ? 0.0049
+is the whales a good idea ? 0.0132
+is the whale a good idea ? 0.0044
+where was the whales ? 0.0550
+where was the whale ? 0.0046
+what was the whales ? 0.1103
+what was the whale ? 0.0269
+what color was the whales ? 0.0423
+what color was the whale ? 0.0345
+was the whales not sacred ? 0.0077
+was the whale not sacred ? 0.0100
+was the whales where it should be ? 0.1197
+was the whale where it should be ? 0.0021
+was the whales something you like ? 0.0528
+was the whale something you like ? 0.0051
+was the whales a good idea ? 0.0266
+was the whale a good idea ? 0.0160
+where are the whale ? 0.0119
+where are the whales ? 0.0219
+what are the whale ? 0.0327
+what are the whales ? 0.0474
+what color are the whale ? 0.0196
+what color are the whales ? 0.0236
+are the whale not sacred ? 0.0140
+are the whales not sacred ? 0.0075
+are the whale where they should be ? 0.0035
+are the whales where they should be ? 0.0124
+are the whale something you like ? 0.0214
+are the whales something you like ? 0.0199
+are the whale a good idea ? 0.0126
+are the whales a good idea ? 0.0049
+where were the whale ? 0.0073
+where were the whales ? 0.0237
+what were the whale ? 0.0243
+what were the whales ? 0.0717
+what color were the whale ? 0.0241
+what color were the whales ? 0.0323
+were the whale not sacred ? 0.0355
+were the whales not sacred ? 0.0267
+were the whale where they should be ? 0.3755
+were the whales where they should be ? 0.2852
+were the whale something you like ? 0.5412
+were the whales something you like ? 0.4313
+were the whale a good idea ? 0.1319
+were the whales a good idea ? 0.0455
+is the guys not contemporary ? 0.0106
+is the guy not contemporary ? 0.0294
+was the guys not contemporary ? 0.0223
+was the guy not contemporary ? 0.0318
+are the guy not contemporary ? 0.0287
+are the guys not contemporary ? 0.0228
+were the guy not contemporary ? 0.0474
+were the guys not contemporary ? 0.5311
+is the bands not soft ? 0.0151
+is the band not soft ? 0.0016
+was the bands not soft ? 0.0070
+was the band not soft ? 0.0030
+are the band not soft ? 0.0024
+are the bands not soft ? 0.0138
+were the band not soft ? 0.0078
+were the bands not soft ? 0.0183
+is the calls not soft ? 0.0075
+is the call not soft ? 0.0059
+was the calls not soft ? 0.0540
+was the call not soft ? 0.0135
+are the call not soft ? 0.0028
+are the calls not soft ? 0.0036
+were the call not soft ? 0.0747
+were the calls not soft ? 0.0528
+where is the lies ? 0.0158
+where is the lie ? 0.0085
+what is the lies ? 0.0207
+what is the lie ? 0.0151
+what color is the lies ? 0.0547
+what color is the lie ? 0.0170
+is the lies not purple ? 0.9646
+is the lie not purple ? 0.7371
+is the lies where it should be ? 0.2828
+is the lie where it should be ? 0.0075
+is the lies something you like ? 0.0083
+is the lie something you like ? 0.0080
+is the lies a good idea ? 0.2572
+is the lie a good idea ? 0.0094
+where was the lies ? 0.0408
+where was the lie ? 0.0109
+what was the lies ? 0.0437
+what was the lie ? 0.0336
+what color was the lies ? 0.1832
+what color was the lie ? 0.0248
+was the lies not purple ? 0.0118
+was the lie not purple ? 0.0179
+was the lies where it should be ? 0.0141
+was the lie where it should be ? 0.0044
+was the lies something you like ? 0.0088
+was the lie something you like ? 0.0062
+was the lies a good idea ? 0.0158
+was the lie a good idea ? 0.0268
+where are the lie ? 0.0146
+where are the lies ? 0.0127
+what are the lie ? 0.0532
+what are the lies ? 0.0443
+what color are the lie ? 0.0256
+what color are the lies ? 0.0417
+are the lie not purple ? 1.4991
+are the lies not purple ? 1.6388
+are the lie where they should be ? 0.1367
+are the lies where they should be ? 0.7691
+are the lie something you like ? 0.1814
+are the lies something you like ? 0.0777
+are the lie a good idea ? 1.0520
+are the lies a good idea ? 1.4073
+where were the lie ? 0.0213
+where were the lies ? 0.0277
+what were the lie ? 0.1032
+what were the lies ? 0.1157
+what color were the lie ? 0.0528
+what color were the lies ? 0.1087
+were the lie not purple ? 0.0749
+were the lies not purple ? 0.0791
+were the lie where they should be ? 0.2472
+were the lies where they should be ? 0.2209
+were the lie something you like ? 0.6042
+were the lies something you like ? 0.3399
+were the lie a good idea ? 0.0491
+were the lies a good idea ? 0.0220
+where is the horses ? 0.0093
+where is the horse ? 0.0048
+what is the horses ? 0.0316
+what is the horse ? 0.0129
+what color is the horses ? 0.0126
+what color is the horse ? 0.0125
+is the horses not abandoned ? 0.0051
+is the horse not abandoned ? 0.0082
+is the horses where it should be ? 0.0036
+is the horse where it should be ? 0.0016
+is the horses something you like ? 0.0066
+is the horse something you like ? 0.0058
+is the horses a good idea ? 0.0069
+is the horse a good idea ? 0.0070
+where was the horses ? 0.0111
+where was the horse ? 0.0037
+what was the horses ? 0.0494
+what was the horse ? 0.0278
+what color was the horses ? 0.0213
+what color was the horse ? 0.0167
+was the horses not abandoned ? 0.0115
+was the horse not abandoned ? 0.0169
+was the horses where it should be ? 0.0236
+was the horse where it should be ? 0.0148
+was the horses something you like ? 0.0072
+was the horse something you like ? 0.0119
+was the horses a good idea ? 0.0232
+was the horse a good idea ? 0.0108
+where are the horse ? 0.0072
+where are the horses ? 0.0126
+what are the horse ? 0.0343
+what are the horses ? 0.0456
+what color are the horse ? 0.0140
+what color are the horses ? 0.0134
+are the horse not abandoned ? 0.2937
+are the horses not abandoned ? 0.0213
+are the horse where they should be ? 0.0072
+are the horses where they should be ? 0.0154
+are the horse something you like ? 0.0156
+are the horses something you like ? 0.0055
+are the horse a good idea ? 0.0404
+are the horses a good idea ? 0.0157
+where were the horse ? 0.0045
+where were the horses ? 0.0100
+what were the horse ? 0.0362
+what were the horses ? 0.0592
+what color were the horse ? 0.0173
+what color were the horses ? 0.0149
+were the horse not abandoned ? 0.0509
+were the horses not abandoned ? 0.0282
+were the horse where they should be ? 0.3872
+were the horses where they should be ? 0.3485
+were the horse something you like ? 0.5467
+were the horses something you like ? 0.2280
+were the horse a good idea ? 0.2221
+were the horses a good idea ? 0.0451
+where is the engines ? 0.0154
+where is the engine ? 0.0037
+what is the engines ? 0.0302
+what is the engine ? 0.0177
+what color is the engines ? 0.0553
+what color is the engine ? 0.0206
+is the engines not wrong ? 0.0075
+is the engine not wrong ? 0.0107
+is the engines where it should be ? 0.0022
+is the engine where it should be ? 0.0028
+is the engines something you like ? 0.0104
+is the engine something you like ? 0.0032
+is the engines a good idea ? 0.0058
+is the engine a good idea ? 0.0068
+where was the engines ? 0.0076
+where was the engine ? 0.0106
+what was the engines ? 0.0346
+what was the engine ? 0.0341
+what color was the engines ? 0.0501
+what color was the engine ? 0.0367
+was the engines not wrong ? 0.0063
+was the engine not wrong ? 0.0094
+was the engines where it should be ? 0.1198
+was the engine where it should be ? 0.0330
+was the engines something you like ? 0.0330
+was the engine something you like ? 0.0251
+was the engines a good idea ? 0.0172
+was the engine a good idea ? 0.0230
+where are the engine ? 0.0064
+where are the engines ? 0.0044
+what are the engine ? 0.0294
+what are the engines ? 0.0450
+what color are the engine ? 0.0206
+what color are the engines ? 0.0542
+are the engine not wrong ? 0.0213
+are the engines not wrong ? 0.0363
+are the engine where they should be ? 0.0227
+are the engines where they should be ? 0.0127
+are the engine something you like ? 0.0088
+are the engines something you like ? 0.0091
+are the engine a good idea ? 0.0176
+are the engines a good idea ? 0.0102
+where were the engine ? 0.0097
+where were the engines ? 0.0045
+what were the engine ? 0.0292
+what were the engines ? 0.0489
+what color were the engine ? 0.0255
+what color were the engines ? 0.0500
+were the engine not wrong ? 0.0259
+were the engines not wrong ? 0.0290
+were the engine where they should be ? 0.5121
+were the engines where they should be ? 0.4283
+were the engine something you like ? 0.3415
+were the engines something you like ? 0.1911
+were the engine a good idea ? 0.2970
+were the engines a good idea ? 0.0668
+is the engines not bad ? 0.0025
+is the engine not bad ? 0.0040
+was the engines not bad ? 0.0073
+was the engine not bad ? 0.0091
+are the engine not bad ? 0.0091
+are the engines not bad ? 0.0043
+were the engine not bad ? 0.0295
+were the engines not bad ? 0.0394
+is the ways not hard ? 0.0032
+is the way not hard ? 0.0022
+was the ways not hard ? 0.0075
+was the way not hard ? 0.0177
+are the way not hard ? 0.0238
+are the ways not hard ? 0.0128
+were the way not hard ? 0.1598
+were the ways not hard ? 0.0221
+where is the birds ? 0.0464
+where is the bird ? 0.0058
+what is the birds ? 0.1111
+what is the bird ? 0.0116
+what color is the birds ? 0.0255
+what color is the bird ? 0.0122
+is the birds not white ? 0.0042
+is the bird not white ? 0.0055
+is the birds where it should be ? 0.0029
+is the bird where it should be ? 0.0023
+is the birds something you like ? 0.0040
+is the bird something you like ? 0.0029
+is the birds a good idea ? 0.0188
+is the bird a good idea ? 0.0090
+where was the birds ? 0.0419
+where was the bird ? 0.0050
+what was the birds ? 0.1157
+what was the bird ? 0.0330
+what color was the birds ? 0.0532
+what color was the bird ? 0.0205
+was the birds not white ? 0.0071
+was the bird not white ? 0.0068
+was the birds where it should be ? 0.0129
+was the bird where it should be ? 0.0071
+was the birds something you like ? 0.0208
+was the bird something you like ? 0.0064
+was the birds a good idea ? 0.0249
+was the bird a good idea ? 0.0316
+where are the bird ? 0.0099
+where are the birds ? 0.0126
+what are the bird ? 0.0351
+what are the birds ? 0.0895
+what color are the bird ? 0.0143
+what color are the birds ? 0.0266
+are the bird not white ? 0.0079
+are the birds not white ? 0.0055
+are the bird where they should be ? 0.0075
+are the birds where they should be ? 0.0053
+are the bird something you like ? 0.0188
+are the birds something you like ? 0.0068
+are the bird a good idea ? 0.0163
+are the birds a good idea ? 0.0155
+where were the bird ? 0.0105
+where were the birds ? 0.0113
+what were the bird ? 0.0397
+what were the birds ? 0.1057
+what color were the bird ? 0.0147
+what color were the birds ? 0.0301
+were the bird not white ? 0.0473
+were the birds not white ? 0.0709
+were the bird where they should be ? 0.5341
+were the birds where they should be ? 0.5224
+were the bird something you like ? 0.5582
+were the birds something you like ? 0.4737
+were the bird a good idea ? 0.2265
+were the birds a good idea ? 0.1994
+is the calls not good ? 0.0217
+is the call not good ? 0.0125
+was the calls not good ? 0.1623
+was the call not good ? 0.0904
+are the call not good ? 0.0072
+are the calls not good ? 0.0074
+were the call not good ? 0.1957
+were the calls not good ? 0.0684
+where is the things ? 0.0273
+where is the thing ? 0.0197
+what is the things ? 0.0331
+what is the thing ? 0.0234
+what color is the things ? 0.0318
+what color is the thing ? 0.0170
+is the things not extra ? 0.0402
+is the thing not extra ? 0.0300
+is the things where it should be ? 0.0065
+is the thing where it should be ? 0.0038
+is the things something you like ? 0.0066
+is the thing something you like ? 0.0040
+is the things a good idea ? 0.0231
+is the thing a good idea ? 0.0106
+where was the things ? 0.0193
+where was the thing ? 0.0198
+what was the things ? 0.0470
+what was the thing ? 0.0464
+what color was the things ? 0.0204
+what color was the thing ? 0.0300
+was the things not extra ? 0.1445
+was the thing not extra ? 0.0491
+was the things where it should be ? 0.1219
+was the thing where it should be ? 0.0479
+was the things something you like ? 0.0845
+was the thing something you like ? 0.0132
+was the things a good idea ? 0.0412
+was the thing a good idea ? 0.0408
+where are the thing ? 0.0381
+where are the things ? 0.0088
+what are the thing ? 0.1022
+what are the things ? 0.1037
+what color are the thing ? 0.0207
+what color are the things ? 0.0201
+are the thing not extra ? 0.2896
+are the things not extra ? 0.2005
+are the thing where they should be ? 0.0275
+are the things where they should be ? 0.0081
+are the thing something you like ? 0.0847
+are the things something you like ? 0.0089
+are the thing a good idea ? 0.0614
+are the things a good idea ? 0.0159
+where were the thing ? 0.0357
+where were the things ? 0.0046
+what were the thing ? 0.1136
+what were the things ? 0.0975
+what color were the thing ? 0.0420
+what color were the things ? 0.0243
+were the thing not extra ? 0.0796
+were the things not extra ? 0.1196
+were the thing where they should be ? 0.4356
+were the things where they should be ? 0.3924
+were the thing something you like ? 0.6345
+were the things something you like ? 0.3357
+were the thing a good idea ? 0.3124
+were the things a good idea ? 0.0395
+is the whales not last ? 0.0255
+is the whale not last ? 0.0046
+was the whales not last ? 0.0341
+was the whale not last ? 0.0068
+are the whale not last ? 0.0077
+are the whales not last ? 0.0112
+were the whale not last ? 0.0199
+were the whales not last ? 0.0365
+is the whales not hard ? 0.0303
+is the whale not hard ? 0.0020
+was the whales not hard ? 0.0642
+was the whale not hard ? 0.0019
+are the whale not hard ? 0.0040
+are the whales not hard ? 0.0118
+were the whale not hard ? 0.0452
+were the whales not hard ? 0.0345
+where is the bears ? 0.0144
+where is the bear ? 0.0052
+what is the bears ? 0.0702
+what is the bear ? 0.0129
+what color is the bears ? 0.0189
+what color is the bear ? 0.0094
+is the bears not expected ? 0.0084
+is the bear not expected ? 0.0092
+is the bears where it should be ? 0.0398
+is the bear where it should be ? 0.0025
+is the bears something you like ? 0.0044
+is the bear something you like ? 0.0043
+is the bears a good idea ? 0.0058
+is the bear a good idea ? 0.0142
+where was the bears ? 0.0090
+where was the bear ? 0.0095
+what was the bears ? 0.0473
+what was the bear ? 0.0166
+what color was the bears ? 0.0229
+what color was the bear ? 0.0111
+was the bears not expected ? 0.0209
+was the bear not expected ? 0.0222
+was the bears where it should be ? 0.0362
+was the bear where it should be ? 0.0066
+was the bears something you like ? 0.0063
+was the bear something you like ? 0.0048
+was the bears a good idea ? 0.0806
+was the bear a good idea ? 0.0643
+where are the bear ? 0.0102
+where are the bears ? 0.0070
+what are the bear ? 0.0857
+what are the bears ? 0.1208
+what color are the bear ? 0.0190
+what color are the bears ? 0.0475
+are the bear not expected ? 0.2773
+are the bears not expected ? 0.0325
+are the bear where they should be ? 0.0123
+are the bears where they should be ? 0.0131
+are the bear something you like ? 0.0102
+are the bears something you like ? 0.0053
+are the bear a good idea ? 0.0341
+are the bears a good idea ? 0.0074
+where were the bear ? 0.0166
+where were the bears ? 0.0047
+what were the bear ? 0.0684
+what were the bears ? 0.1536
+what color were the bear ? 0.0568
+what color were the bears ? 0.0806
+were the bear not expected ? 0.0312
+were the bears not expected ? 0.0311
+were the bear where they should be ? 0.3055
+were the bears where they should be ? 0.3725
+were the bear something you like ? 0.2491
+were the bears something you like ? 0.5416
+were the bear a good idea ? 0.0795
+were the bears a good idea ? 0.1796
+where is the cars ? 0.0390
+where is the car ? 0.0029
+what is the cars ? 0.1145
+what is the car ? 0.0069
+what color is the cars ? 0.0634
+what color is the car ? 0.0107
+is the cars not recommended ? 0.0355
+is the car not recommended ? 0.0064
+is the cars where it should be ? 0.0305
+is the car where it should be ? 0.0015
+is the cars something you like ? 0.0135
+is the car something you like ? 0.0040
+is the cars a good idea ? 0.0172
+is the car a good idea ? 0.0059
+where was the cars ? 0.0260
+where was the car ? 0.0035
+what was the cars ? 0.0479
+what was the car ? 0.0156
+what color was the cars ? 0.0433
+what color was the car ? 0.0205
+was the cars not recommended ? 0.0364
+was the car not recommended ? 0.0226
+was the cars where it should be ? 0.0471
+was the car where it should be ? 0.0337
+was the cars something you like ? 0.0362
+was the car something you like ? 0.0134
+was the cars a good idea ? 0.0196
+was the car a good idea ? 0.0211
+where are the car ? 0.0055
+where are the cars ? 0.0108
+what are the car ? 0.0231
+what are the cars ? 0.0769
+what color are the car ? 0.0121
+what color are the cars ? 0.0370
+are the car not recommended ? 0.0314
+are the cars not recommended ? 0.0289
+are the car where they should be ? 0.0042
+are the cars where they should be ? 0.0113
+are the car something you like ? 0.0048
+are the cars something you like ? 0.0153
+are the car a good idea ? 0.0128
+are the cars a good idea ? 0.0173
+where were the car ? 0.0078
+where were the cars ? 0.0072
+what were the car ? 0.0269
+what were the cars ? 0.0583
+what color were the car ? 0.0235
+what color were the cars ? 0.0305
+were the car not recommended ? 0.0497
+were the cars not recommended ? 0.0620
+were the car where they should be ? 0.3455
+were the cars where they should be ? 0.3129
+were the car something you like ? 0.3892
+were the cars something you like ? 0.1104
+were the car a good idea ? 0.0600
+were the cars a good idea ? 0.0251
+where is the stories ? 0.0247
+where is the story ? 0.0094
+what is the stories ? 0.0602
+what is the story ? 0.0100
+what color is the stories ? 0.0259
+what color is the story ? 0.0120
+is the stories not last ? 0.0179
+is the story not last ? 0.0143
+is the stories where it should be ? 0.0063
+is the story where it should be ? 0.0078
+is the stories something you like ? 0.0228
+is the story something you like ? 0.0067
+is the stories a good idea ? 0.0307
+is the story a good idea ? 0.0178
+where was the stories ? 0.0308
+where was the story ? 0.0052
+what was the stories ? 0.0939
+what was the story ? 0.0303
+what color was the stories ? 0.0261
+what color was the story ? 0.0214
+was the stories not last ? 0.0197
+was the story not last ? 0.0218
+was the stories where it should be ? 0.0335
+was the story where it should be ? 0.0214
+was the stories something you like ? 0.0205
+was the story something you like ? 0.0101
+was the stories a good idea ? 0.0516
+was the story a good idea ? 0.0325
+where are the story ? 0.0098
+where are the stories ? 0.0122
+what are the story ? 0.0526
+what are the stories ? 0.0997
+what color are the story ? 0.0156
+what color are the stories ? 0.0308
+are the story not last ? 0.0320
+are the stories not last ? 0.0249
+are the story where they should be ? 0.0236
+are the stories where they should be ? 0.0100
+are the story something you like ? 0.0593
+are the stories something you like ? 0.0167
+are the story a good idea ? 0.0728
+are the stories a good idea ? 0.0247
+where were the story ? 0.0145
+where were the stories ? 0.0089
+what were the story ? 0.0729
+what were the stories ? 0.1208
+what color were the story ? 0.0285
+what color were the stories ? 0.0549
+were the story not last ? 0.0188
+were the stories not last ? 0.0209
+were the story where they should be ? 0.2282
+were the stories where they should be ? 0.2279
+were the story something you like ? 0.4661
+were the stories something you like ? 0.4227
+were the story a good idea ? 0.1418
+were the stories a good idea ? 0.0561
+where is the movies ? 0.0663
+where is the movie ? 0.0121
+what is the movies ? 0.1326
+what is the movie ? 0.0163
+what color is the movies ? 0.1925
+what color is the movie ? 0.0426
+is the movies not good ? 0.0208
+is the movie not good ? 0.0159
+is the movies where it should be ? 0.0914
+is the movie where it should be ? 0.0090
+is the movies something you like ? 0.0125
+is the movie something you like ? 0.0041
+is the movies a good idea ? 0.0099
+is the movie a good idea ? 0.0040
+where was the movies ? 0.0480
+where was the movie ? 0.0138
+what was the movies ? 0.1121
+what was the movie ? 0.0397
+what color was the movies ? 0.1769
+what color was the movie ? 0.0582
+was the movies not good ? 0.0343
+was the movie not good ? 0.0210
+was the movies where it should be ? 0.0921
+was the movie where it should be ? 0.0209
+was the movies something you like ? 0.0127
+was the movie something you like ? 0.0076
+was the movies a good idea ? 0.0234
+was the movie a good idea ? 0.0152
+where are the movie ? 0.0091
+where are the movies ? 0.0152
+what are the movie ? 0.0282
+what are the movies ? 0.0768
+what color are the movie ? 0.0302
+what color are the movies ? 0.0901
+are the movie not good ? 0.0127
+are the movies not good ? 0.0185
+are the movie where they should be ? 0.0151
+are the movies where they should be ? 0.0107
+are the movie something you like ? 0.1132
+are the movies something you like ? 0.0128
+are the movie a good idea ? 0.1237
+are the movies a good idea ? 0.0153
+where were the movie ? 0.0121
+where were the movies ? 0.0116
+what were the movie ? 0.0410
+what were the movies ? 0.0853
+what color were the movie ? 0.0509
+what color were the movies ? 0.0923
+were the movie not good ? 0.0469
+were the movies not good ? 0.0297
+were the movie where they should be ? 0.4523
+were the movies where they should be ? 0.3742
+were the movie something you like ? 0.4377
+were the movies something you like ? 0.3275
+were the movie a good idea ? 0.1376
+were the movies a good idea ? 0.0485
+is the birds not carbon ? 0.0178
+is the bird not carbon ? 0.0394
+was the birds not carbon ? 0.0117
+was the bird not carbon ? 0.0179
+are the bird not carbon ? 0.1280
+are the birds not carbon ? 0.0827
+were the bird not carbon ? 0.0480
+were the birds not carbon ? 0.0614
+where is the problems ? 0.0149
+where is the problem ? 0.0066
+what is the problems ? 0.0586
+what is the problem ? 0.0363
+what color is the problems ? 0.0163
+what color is the problem ? 0.0228
+is the problems not next ? 0.0443
+is the problem not next ? 0.0265
+is the problems where it should be ? 0.0363
+is the problem where it should be ? 0.0647
+is the problems something you like ? 0.0203
+is the problem something you like ? 0.0060
+is the problems a good idea ? 0.0252
+is the problem a good idea ? 0.0047
+where was the problems ? 0.0108
+where was the problem ? 0.0055
+what was the problems ? 0.1169
+what was the problem ? 0.0844
+what color was the problems ? 0.0345
+what color was the problem ? 0.0505
+was the problems not next ? 0.0642
+was the problem not next ? 0.0526
+was the problems where it should be ? 0.1000
+was the problem where it should be ? 0.0770
+was the problems something you like ? 0.0466
+was the problem something you like ? 0.0132
+was the problems a good idea ? 0.0500
+was the problem a good idea ? 0.0293
+where are the problem ? 0.0213
+where are the problems ? 0.0056
+what are the problem ? 0.0777
+what are the problems ? 0.1489
+what color are the problem ? 0.0174
+what color are the problems ? 0.0178
+are the problem not next ? 0.0616
+are the problems not next ? 0.5656
+are the problem where they should be ? 0.1040
+are the problems where they should be ? 0.1018
+are the problem something you like ? 0.0060
+are the problems something you like ? 0.0189
+are the problem a good idea ? 0.0079
+are the problems a good idea ? 0.0161
+where were the problem ? 0.0245
+where were the problems ? 0.0039
+what were the problem ? 0.1203
+what were the problems ? 0.1478
+what color were the problem ? 0.0653
+what color were the problems ? 0.0488
+were the problem not next ? 0.0677
+were the problems not next ? 0.0987
+were the problem where they should be ? 0.3095
+were the problems where they should be ? 0.3955
+were the problem something you like ? 0.5934
+were the problems something you like ? 0.2429
+were the problem a good idea ? 0.1701
+were the problems a good idea ? 0.0423
+is the cars not worn ? 0.0042
+is the car not worn ? 0.0060
+was the cars not worn ? 0.0070
+was the car not worn ? 0.0088
+are the car not worn ? 0.0063
+are the cars not worn ? 0.0036
+were the car not worn ? 0.0178
+were the cars not worn ? 0.0094
+is the engines not rolling ? 0.0028
+is the engine not rolling ? 0.0024
+was the engines not rolling ? 0.0060
+was the engine not rolling ? 0.0073
+are the engine not rolling ? 0.0199
+are the engines not rolling ? 0.0265
+were the engine not rolling ? 0.0323
+were the engines not rolling ? 0.0921
+is the bands not good ? 0.0159
+is the band not good ? 0.0131
+was the bands not good ? 0.0103
+was the band not good ? 0.0156
+are the band not good ? 0.0162
+are the bands not good ? 0.0114
+were the band not good ? 0.0314
+were the bands not good ? 0.0312
+is the things not wrong ? 0.0107
+is the thing not wrong ? 0.0252
+was the things not wrong ? 0.0152
+was the thing not wrong ? 0.0186
+are the thing not wrong ? 0.0633
+are the things not wrong ? 0.0340
+were the thing not wrong ? 0.0314
+were the things not wrong ? 0.0294
+is the bits not soft ? 0.0077
+is the bit not soft ? 0.0022
+was the bits not soft ? 0.0351
+was the bit not soft ? 0.0036
+are the bit not soft ? 0.0046
+are the bits not soft ? 0.0075
+were the bit not soft ? 0.0385
+were the bits not soft ? 0.0178
+where is the waters ? 0.0203
+where is the water ? 0.0063
+what is the waters ? 0.0999
+what is the water ? 0.0226
+what color is the waters ? 0.0124
+what color is the water ? 0.0103
+is the waters not next ? 0.0601
+is the water not next ? 0.0751
+is the waters where it should be ? 0.0025
+is the water where it should be ? 0.0020
+is the waters something you like ? 0.0027
+is the water something you like ? 0.0038
+is the waters a good idea ? 0.0060
+is the water a good idea ? 0.0042
+where was the waters ? 0.0220
+where was the water ? 0.0091
+what was the waters ? 0.0673
+what was the water ? 0.0379
+what color was the waters ? 0.0157
+what color was the water ? 0.0179
+was the waters not next ? 0.0458
+was the water not next ? 0.0283
+was the waters where it should be ? 0.0397
+was the water where it should be ? 0.0261
+was the waters something you like ? 0.0039
+was the water something you like ? 0.0067
+was the waters a good idea ? 0.0334
+was the water a good idea ? 0.0243
+where are the water ? 0.0084
+where are the waters ? 0.0159
+what are the water ? 0.0502
+what are the waters ? 0.0553
+what color are the water ? 0.0121
+what color are the waters ? 0.0108
+are the water not next ? 1.2909
+are the waters not next ? 0.0540
+are the water where they should be ? 0.0311
+are the waters where they should be ? 0.0054
+are the water something you like ? 0.0461
+are the waters something you like ? 0.0063
+are the water a good idea ? 0.0245
+are the waters a good idea ? 0.0051
+where were the water ? 0.0124
+where were the waters ? 0.0298
+what were the water ? 0.0867
+what were the waters ? 0.0545
+what color were the water ? 0.0256
+what color were the waters ? 0.0343
+were the water not next ? 0.1928
+were the waters not next ? 0.1957
+were the water where they should be ? 0.4920
+were the waters where they should be ? 0.4504
+were the water something you like ? 0.7762
+were the waters something you like ? 0.2751
+were the water a good idea ? 0.2237
+were the waters a good idea ? 0.1115
+where is the lions ? 0.0265
+where is the lion ? 0.0059
+what is the lions ? 0.0287
+what is the lion ? 0.0111
+what color is the lions ? 0.0120
+what color is the lion ? 0.0112
+is the lions not early ? 0.0085
+is the lion not early ? 0.0085
+is the lions where it should be ? 0.0147
+is the lion where it should be ? 0.0021
+is the lions something you like ? 0.0079
+is the lion something you like ? 0.0101
+is the lions a good idea ? 0.0081
+is the lion a good idea ? 0.0102
+where was the lions ? 0.0242
+where was the lion ? 0.0060
+what was the lions ? 0.0409
+what was the lion ? 0.0163
+what color was the lions ? 0.0215
+what color was the lion ? 0.0140
+was the lions not early ? 0.0150
+was the lion not early ? 0.0090
+was the lions where it should be ? 0.0209
+was the lion where it should be ? 0.0052
+was the lions something you like ? 0.0187
+was the lion something you like ? 0.0076
+was the lions a good idea ? 0.0335
+was the lion a good idea ? 0.0315
+where are the lion ? 0.0080
+where are the lions ? 0.0214
+what are the lion ? 0.0353
+what are the lions ? 0.0755
+what color are the lion ? 0.0207
+what color are the lions ? 0.0185
+are the lion not early ? 0.0074
+are the lions not early ? 0.0079
+are the lion where they should be ? 0.0035
+are the lions where they should be ? 0.0084
+are the lion something you like ? 0.0077
+are the lions something you like ? 0.0106
+are the lion a good idea ? 0.0203
+are the lions a good idea ? 0.0172
+where were the lion ? 0.0078
+where were the lions ? 0.0199
+what were the lion ? 0.0270
+what were the lions ? 0.0866
+what color were the lion ? 0.0181
+what color were the lions ? 0.0186
+were the lion not early ? 0.0771
+were the lions not early ? 0.0561
+were the lion where they should be ? 0.2783
+were the lions where they should be ? 0.2459
+were the lion something you like ? 0.3985
+were the lions something you like ? 0.2491
+were the lion a good idea ? 0.0695
+were the lions a good idea ? 0.0328
+where is the hands ? 0.1181
+where is the hand ? 0.0055
+what is the hands ? 0.2391
+what is the hand ? 0.0154
+what color is the hands ? 0.0613
+what color is the hand ? 0.0321
+is the hands not forced ? 0.0141
+is the hand not forced ? 0.0032
+is the hands where it should be ? 0.0028
+is the hand where it should be ? 0.0017
+is the hands something you like ? 0.0048
+is the hand something you like ? 0.0041
+is the hands a good idea ? 0.0686
+is the hand a good idea ? 0.0059
+where was the hands ? 0.1810
+where was the hand ? 0.0065
+what was the hands ? 0.3495
+what was the hand ? 0.0293
+what color was the hands ? 0.1705
+what color was the hand ? 0.0643
+was the hands not forced ? 0.0156
+was the hand not forced ? 0.0072
+was the hands where it should be ? 0.0276
+was the hand where it should be ? 0.0035
+was the hands something you like ? 0.0174
+was the hand something you like ? 0.0043
+was the hands a good idea ? 0.0337
+was the hand a good idea ? 0.0226
+where are the hand ? 0.0069
+where are the hands ? 0.0423
+what are the hand ? 0.0351
+what are the hands ? 0.0753
+what color are the hand ? 0.0163
+what color are the hands ? 0.0226
+are the hand not forced ? 0.0093
+are the hands not forced ? 0.0537
+are the hand where they should be ? 0.0083
+are the hands where they should be ? 0.0249
+are the hand something you like ? 0.0047
+are the hands something you like ? 0.0071
+are the hand a good idea ? 0.0077
+are the hands a good idea ? 0.2997
+where were the hand ? 0.0096
+where were the hands ? 0.0617
+what were the hand ? 0.0368
+what were the hands ? 0.0917
+what color were the hand ? 0.0467
+what color were the hands ? 0.0739
+were the hand not forced ? 0.0910
+were the hands not forced ? 0.0632
+were the hand where they should be ? 0.3382
+were the hands where they should be ? 0.3714
+were the hand something you like ? 0.2400
+were the hands something you like ? 0.0721
+were the hand a good idea ? 0.0794
+were the hands a good idea ? 0.0707
+is the horses not simple ? 0.0145
+is the horse not simple ? 0.0055
+was the horses not simple ? 0.0382
+was the horse not simple ? 0.0068
+are the horse not simple ? 0.0079
+are the horses not simple ? 0.0227
+were the horse not simple ? 0.0864
+were the horses not simple ? 0.0545
+is the babies not sacred ? 0.0108
+is the baby not sacred ? 0.0154
+was the babies not sacred ? 0.0165
+was the baby not sacred ? 0.0204
+are the baby not sacred ? 0.0425
+are the babies not sacred ? 0.0506
+were the baby not sacred ? 0.2997
+were the babies not sacred ? 0.0698
+is the minutes not expected ? 0.0111
+is the minute not expected ? 0.0109
+was the minutes not expected ? 0.0084
+was the minute not expected ? 0.0100
+are the minute not expected ? 0.5739
+are the minutes not expected ? 0.0563
+were the minute not expected ? 0.0837
+were the minutes not expected ? 0.0242
+is the bands not hard ? 0.0169
+is the band not hard ? 0.0111
+was the bands not hard ? 0.0102
+was the band not hard ? 0.0088
+are the band not hard ? 0.0597
+are the bands not hard ? 0.0894
+were the band not hard ? 0.0184
+were the bands not hard ? 0.0321
+is the ways not winning ? 0.0006
+is the way not winning ? 0.0011
+was the ways not winning ? 0.0030
+was the way not winning ? 0.0167
+are the way not winning ? 0.7555
+are the ways not winning ? 0.0672
+were the way not winning ? 0.0966
+were the ways not winning ? 0.0040
+where is the bones ? 0.0047
+where is the bone ? 0.0205
+what is the bones ? 0.0202
+what is the bone ? 0.0224
+what color is the bones ? 0.0163
+what color is the bone ? 0.0083
+is the bones not complete ? 0.0123
+is the bone not complete ? 0.0076
+is the bones where it should be ? 0.0064
+is the bone where it should be ? 0.0033
+is the bones something you like ? 0.0056
+is the bone something you like ? 0.0044
+is the bones a good idea ? 0.0062
+is the bone a good idea ? 0.0103
+where was the bones ? 0.0050
+where was the bone ? 0.1133
+what was the bones ? 0.0323
+what was the bone ? 0.0703
+what color was the bones ? 0.0180
+what color was the bone ? 0.0122
+was the bones not complete ? 0.0079
+was the bone not complete ? 0.0036
+was the bones where it should be ? 0.0210
+was the bone where it should be ? 0.0142
+was the bones something you like ? 0.0112
+was the bone something you like ? 0.0044
+was the bones a good idea ? 0.0226
+was the bone a good idea ? 0.0250
+where are the bone ? 0.1664
+where are the bones ? 0.0036
+what are the bone ? 0.2088
+what are the bones ? 0.0447
+what color are the bone ? 0.0197
+what color are the bones ? 0.0174
+are the bone not complete ? 0.0057
+are the bones not complete ? 0.0218
+are the bone where they should be ? 0.0133
+are the bones where they should be ? 0.0041
+are the bone something you like ? 0.0098
+are the bones something you like ? 0.0052
+are the bone a good idea ? 0.0191
+are the bones a good idea ? 0.0055
+where were the bone ? 0.2608
+where were the bones ? 0.0040
+what were the bone ? 0.2461
+what were the bones ? 0.0327
+what color were the bone ? 0.0216
+what color were the bones ? 0.0160
+were the bone not complete ? 0.0164
+were the bones not complete ? 0.0262
+were the bone where they should be ? 0.4266
+were the bones where they should be ? 0.3450
+were the bone something you like ? 0.5534
+were the bones something you like ? 0.1951
+were the bone a good idea ? 0.1556
+were the bones a good idea ? 0.0398
+is the babies not worn ? 0.0039
+is the baby not worn ? 0.0037
+was the babies not worn ? 0.0053
+was the baby not worn ? 0.0029
+are the baby not worn ? 0.0056
+are the babies not worn ? 0.0039
+were the baby not worn ? 0.0442
+were the babies not worn ? 0.0189
+where is the boats ? 0.0787
+where is the boat ? 0.0038
+what is the boats ? 0.3560
+what is the boat ? 0.0215
+what color is the boats ? 0.1711
+what color is the boat ? 0.0366
+is the boats not positive ? 0.0202
+is the boat not positive ? 0.0165
+is the boats where it should be ? 0.0152
+is the boat where it should be ? 0.0016
+is the boats something you like ? 0.0024
+is the boat something you like ? 0.0018
+is the boats a good idea ? 0.0051
+is the boat a good idea ? 0.0050
+where was the boats ? 0.0923
+where was the boat ? 0.0052
+what was the boats ? 0.2333
+what was the boat ? 0.0430
+what color was the boats ? 0.0901
+what color was the boat ? 0.0475
+was the boats not positive ? 0.0408
+was the boat not positive ? 0.0138
+was the boats where it should be ? 0.0642
+was the boat where it should be ? 0.0465
+was the boats something you like ? 0.0103
+was the boat something you like ? 0.0061
+was the boats a good idea ? 0.0218
+was the boat a good idea ? 0.0219
+where are the boat ? 0.0111
+where are the boats ? 0.0235
+what are the boat ? 0.0590
+what are the boats ? 0.1625
+what color are the boat ? 0.0363
+what color are the boats ? 0.0660
+are the boat not positive ? 0.0305
+are the boats not positive ? 0.0162
+are the boat where they should be ? 0.0121
+are the boats where they should be ? 0.0154
+are the boat something you like ? 0.0073
+are the boats something you like ? 0.0043
+are the boat a good idea ? 0.0103
+are the boats a good idea ? 0.0068
+where were the boat ? 0.0134
+where were the boats ? 0.0244
+what were the boat ? 0.0572
+what were the boats ? 0.1046
+what color were the boat ? 0.0614
+what color were the boats ? 0.0520
+were the boat not positive ? 0.0512
+were the boats not positive ? 0.0540
+were the boat where they should be ? 0.4046
+were the boats where they should be ? 0.4185
+were the boat something you like ? 0.6068
+were the boats something you like ? 0.3071
+were the boat a good idea ? 0.1869
+were the boats a good idea ? 0.0748
+where is the windows ? 0.0315
+where is the window ? 0.0023
+what is the windows ? 0.1410
+what is the window ? 0.0191
+what color is the windows ? 0.0713
+what color is the window ? 0.0228
+is the windows not top ? 0.0092
+is the window not top ? 0.0065
+is the windows where it should be ? 0.2913
+is the window where it should be ? 0.4804
+is the windows something you like ? 0.0337
+is the window something you like ? 0.0043
+is the windows a good idea ? 0.0135
+is the window a good idea ? 0.7541
+where was the windows ? 0.0395
+where was the window ? 0.0101
+what was the windows ? 0.1039
+what was the window ? 0.0589
+what color was the windows ? 0.0484
+what color was the window ? 0.0496
+was the windows not top ? 0.0153
+was the window not top ? 0.0086
+was the windows where it should be ? 0.1537
+was the window where it should be ? 0.0630
+was the windows something you like ? 0.1341
+was the window something you like ? 0.0265
+was the windows a good idea ? 0.0469
+was the window a good idea ? 0.0134
+where are the window ? 0.0030
+where are the windows ? 0.0055
+what are the window ? 0.0847
+what are the windows ? 0.0582
+what color are the window ? 0.0252
+what color are the windows ? 0.0391
+are the window not top ? 1.5848
+are the windows not top ? 0.7108
+are the window where they should be ? 0.8151
+are the windows where they should be ? 0.9675
+are the window something you like ? 0.0655
+are the windows something you like ? 0.0457
+are the window a good idea ? 1.6108
+are the windows a good idea ? 0.9195
+where were the window ? 0.0103
+where were the windows ? 0.0102
+what were the window ? 0.0963
+what were the windows ? 0.0671
+what color were the window ? 0.0491
+what color were the windows ? 0.0601
+were the window not top ? 0.0572
+were the windows not top ? 0.0501
+were the window where they should be ? 0.7778
+were the windows where they should be ? 0.5356
+were the window something you like ? 0.9045
+were the windows something you like ? 0.3298
+were the window a good idea ? 0.0695
+were the windows a good idea ? 0.0544
+where is the colors ? 0.0038
+where is the color ? 0.0066
+what is the colors ? 0.0084
+what is the color ? 0.0137
+what color is the colors ? 0.0058
+what color is the color ? 0.0111
+is the colors not hard ? 0.0050
+is the color not hard ? 0.0109
+is the colors where it should be ? 0.0467
+is the color where it should be ? 0.0091
+is the colors something you like ? 0.0040
+is the color something you like ? 0.0056
+is the colors a good idea ? 0.0068
+is the color a good idea ? 0.0320
+where was the colors ? 0.0119
+where was the color ? 0.0072
+what was the colors ? 0.0188
+what was the color ? 0.0363
+what color was the colors ? 0.0115
+what color was the color ? 0.0191
+was the colors not hard ? 0.0056
+was the color not hard ? 0.0074
+was the colors where it should be ? 0.0728
+was the color where it should be ? 0.0183
+was the colors something you like ? 0.0101
+was the color something you like ? 0.0107
+was the colors a good idea ? 0.0288
+was the color a good idea ? 0.0730
+where are the color ? 0.0175
+where are the colors ? 0.0022
+what are the color ? 0.0492
+what are the colors ? 0.0177
+what color are the color ? 0.0203
+what color are the colors ? 0.0090
+are the color not hard ? 0.0189
+are the colors not hard ? 0.0119
+are the color where they should be ? 0.1379
+are the colors where they should be ? 0.3922
+are the color something you like ? 0.0344
+are the colors something you like ? 0.0127
+are the color a good idea ? 0.0898
+are the colors a good idea ? 0.0176
+where were the color ? 0.0119
+where were the colors ? 0.0044
+what were the color ? 0.0804
+what were the colors ? 0.0270
+what color were the color ? 0.0302
+what color were the colors ? 0.0262
+were the color not hard ? 0.0561
+were the colors not hard ? 0.0110
+were the color where they should be ? 0.2674
+were the colors where they should be ? 0.2753
+were the color something you like ? 0.5957
+were the colors something you like ? 0.3180
+were the color a good idea ? 0.1944
+were the colors a good idea ? 0.0286
+is the colors not wrong ? 0.0214
+is the color not wrong ? 0.0663
+was the colors not wrong ? 0.0446
+was the color not wrong ? 0.0476
+are the color not wrong ? 0.0875
+are the colors not wrong ? 0.0434
+were the color not wrong ? 0.0999
+were the colors not wrong ? 0.0834
+is the ways not ordered ? 0.0085
+is the way not ordered ? 0.0024
+was the ways not ordered ? 0.0038
+was the way not ordered ? 0.0066
+are the way not ordered ? 0.3141
+are the ways not ordered ? 0.0076
+were the way not ordered ? 0.0846
+were the ways not ordered ? 0.0100
+where is the differences ? 0.0168
+where is the difference ? 0.0063
+what is the differences ? 0.0230
+what is the difference ? 0.0203
+what color is the differences ? 0.0127
+what color is the difference ? 0.0250
+is the differences not needed ? 0.0109
+is the difference not needed ? 0.0050
+is the differences where it should be ? 0.0124
+is the difference where it should be ? 0.0271
+is the differences something you like ? 0.0080
+is the difference something you like ? 0.0118
+is the differences a good idea ? 0.1018
+is the difference a good idea ? 0.0135
+where was the differences ? 0.0182
+where was the difference ? 0.0056
+what was the differences ? 0.0747
+what was the difference ? 0.0353
+what color was the differences ? 0.0228
+what color was the difference ? 0.0445
+was the differences not needed ? 0.0209
+was the difference not needed ? 0.0134
+was the differences where it should be ? 0.0950
+was the difference where it should be ? 0.1005
+was the differences something you like ? 0.0398
+was the difference something you like ? 0.0390
+was the differences a good idea ? 0.0585
+was the difference a good idea ? 0.0495
+where are the difference ? 0.0258
+where are the differences ? 0.0073
+what are the difference ? 0.0838
+what are the differences ? 0.2327
+what color are the difference ? 0.0374
+what color are the differences ? 0.0396
+are the difference not needed ? 0.0168
+are the differences not needed ? 0.0999
+are the difference where they should be ? 0.0487
+are the differences where they should be ? 0.0354
+are the difference something you like ? 0.0277
+are the differences something you like ? 0.0150
+are the difference a good idea ? 0.0203
+are the differences a good idea ? 0.0532
+where were the difference ? 0.0141
+where were the differences ? 0.0103
+what were the difference ? 0.1080
+what were the differences ? 0.2730
+what color were the difference ? 0.0657
+what color were the differences ? 0.0587
+were the difference not needed ? 0.0516
+were the differences not needed ? 0.0398
+were the difference where they should be ? 0.1306
+were the differences where they should be ? 0.1778
+were the difference something you like ? 0.2573
+were the differences something you like ? 0.1395
+were the difference a good idea ? 0.0662
+were the differences a good idea ? 0.0385
+is the bits not tall ? 0.0080
+is the bit not tall ? 0.0058
+was the bits not tall ? 0.0070
+was the bit not tall ? 0.0027
+are the bit not tall ? 0.0083
+are the bits not tall ? 0.0085
+were the bit not tall ? 0.0085
+were the bits not tall ? 0.0075
+is the parents not last ? 0.0144
+is the parent not last ? 0.0438
+was the parents not last ? 0.0225
+was the parent not last ? 0.0319
+are the parent not last ? 0.0281
+are the parents not last ? 0.0133
+were the parent not last ? 0.0379
+were the parents not last ? 0.0316
+where is the stands ? 0.0018
+where is the stand ? 0.0077
+what is the stands ? 0.0079
+what is the stand ? 0.0079
+what color is the stands ? 0.0200
+what color is the stand ? 0.0355
+is the stands not personal ? 0.0066
+is the stand not personal ? 0.0114
+is the stands where it should be ? 0.0014
+is the stand where it should be ? 0.0117
+is the stands something you like ? 0.0031
+is the stand something you like ? 0.0097
+is the stands a good idea ? 0.0134
+is the stand a good idea ? 0.0103
+where was the stands ? 0.0041
+where was the stand ? 0.0089
+what was the stands ? 0.0147
+what was the stand ? 0.0150
+what color was the stands ? 0.0215
+what color was the stand ? 0.0262
+was the stands not personal ? 0.0100
+was the stand not personal ? 0.0167
+was the stands where it should be ? 0.0126
+was the stand where it should be ? 0.0049
+was the stands something you like ? 0.0039
+was the stand something you like ? 0.0166
+was the stands a good idea ? 0.0552
+was the stand a good idea ? 0.0589
+where are the stand ? 0.0164
+where are the stands ? 0.0019
+what are the stand ? 0.0367
+what are the stands ? 0.0376
+what color are the stand ? 0.0222
+what color are the stands ? 0.0210
+are the stand not personal ? 0.0322
+are the stands not personal ? 0.0119
+are the stand where they should be ? 0.1984
+are the stands where they should be ? 0.0044
+are the stand something you like ? 0.0284
+are the stands something you like ? 0.0087
+are the stand a good idea ? 1.0535
+are the stands a good idea ? 0.0194
+where were the stand ? 0.0316
+where were the stands ? 0.0056
+what were the stand ? 0.0382
+what were the stands ? 0.0497
+what color were the stand ? 0.0484
+what color were the stands ? 0.0434
+were the stand not personal ? 0.3075
+were the stands not personal ? 0.0109
+were the stand where they should be ? 0.3126
+were the stands where they should be ? 0.1811
+were the stand something you like ? 0.5395
+were the stands something you like ? 0.0584
+were the stand a good idea ? 0.0926
+were the stands a good idea ? 0.0218
+is the lions not nice ? 0.0073
+is the lion not nice ? 0.0114
+was the lions not nice ? 0.0198
+was the lion not nice ? 0.0415
+are the lion not nice ? 0.0348
+are the lions not nice ? 0.0151
+were the lion not nice ? 0.0747
+were the lions not nice ? 0.0222
+where is the restaurants ? 0.0460
+where is the restaurant ? 0.0069
+what is the restaurants ? 0.0499
+what is the restaurant ? 0.0198
+what color is the restaurants ? 0.0815
+what color is the restaurant ? 0.0155
+is the restaurants not kind ? 0.1727
+is the restaurant not kind ? 0.2148
+is the restaurants where it should be ? 0.0239
+is the restaurant where it should be ? 0.0200
+is the restaurants something you like ? 0.0051
+is the restaurant something you like ? 0.0026
+is the restaurants a good idea ? 0.0179
+is the restaurant a good idea ? 0.0063
+where was the restaurants ? 0.0285
+where was the restaurant ? 0.0070
+what was the restaurants ? 0.0437
+what was the restaurant ? 0.0408
+what color was the restaurants ? 0.0379
+what color was the restaurant ? 0.0495
+was the restaurants not kind ? 0.1842
+was the restaurant not kind ? 0.2595
+was the restaurants where it should be ? 0.0413
+was the restaurant where it should be ? 0.0470
+was the restaurants something you like ? 0.0392
+was the restaurant something you like ? 0.0125
+was the restaurants a good idea ? 0.0487
+was the restaurant a good idea ? 0.0251
+where are the restaurant ? 0.0200
+where are the restaurants ? 0.0263
+what are the restaurant ? 0.0399
+what are the restaurants ? 0.0516
+what color are the restaurant ? 0.0181
+what color are the restaurants ? 0.0352
+are the restaurant not kind ? 0.3048
+are the restaurants not kind ? 0.2544
+are the restaurant where they should be ? 1.0090
+are the restaurants where they should be ? 0.0255
+are the restaurant something you like ? 0.0739
+are the restaurants something you like ? 0.0090
+are the restaurant a good idea ? 0.4198
+are the restaurants a good idea ? 0.0409
+where were the restaurant ? 0.0150
+where were the restaurants ? 0.0162
+what were the restaurant ? 0.0457
+what were the restaurants ? 0.0574
+what color were the restaurant ? 0.0403
+what color were the restaurants ? 0.0373
+were the restaurant not kind ? 0.1954
+were the restaurants not kind ? 0.1811
+were the restaurant where they should be ? 0.5333
+were the restaurants where they should be ? 0.4032
+were the restaurant something you like ? 0.9277
+were the restaurants something you like ? 0.1954
+were the restaurant a good idea ? 0.1473
+were the restaurants a good idea ? 0.0461
+where is the fingers ? 0.0073
+where is the finger ? 0.0030
+what is the fingers ? 0.0188
+what is the finger ? 0.0107
+what color is the fingers ? 0.0102
+what color is the finger ? 0.0416
+is the fingers not simple ? 0.0198
+is the finger not simple ? 0.0159
+is the fingers where it should be ? 0.0047
+is the finger where it should be ? 0.0069
+is the fingers something you like ? 0.0070
+is the finger something you like ? 0.0065
+is the fingers a good idea ? 0.0078
+is the finger a good idea ? 0.0088
+where was the fingers ? 0.0061
+where was the finger ? 0.0046
+what was the fingers ? 0.0352
+what was the finger ? 0.0269
+what color was the fingers ? 0.0316
+what color was the finger ? 0.0759
+was the fingers not simple ? 0.0142
+was the finger not simple ? 0.0133
+was the fingers where it should be ? 0.0085
+was the finger where it should be ? 0.0065
+was the fingers something you like ? 0.0087
+was the finger something you like ? 0.0129
+was the fingers a good idea ? 0.0247
+was the finger a good idea ? 0.0166
+where are the finger ? 0.0069
+where are the fingers ? 0.0096
+what are the finger ? 0.0380
+what are the fingers ? 0.0371
+what color are the finger ? 0.1512
+what color are the fingers ? 0.0103
+are the finger not simple ? 0.0203
+are the fingers not simple ? 0.0155
+are the finger where they should be ? 0.0544
+are the fingers where they should be ? 0.0049
+are the finger something you like ? 0.0065
+are the fingers something you like ? 0.0062
+are the finger a good idea ? 0.0354
+are the fingers a good idea ? 0.0094
+where were the finger ? 0.0078
+where were the fingers ? 0.0060
+what were the finger ? 0.0190
+what were the fingers ? 0.0320
+what color were the finger ? 0.1532
+what color were the fingers ? 0.0201
+were the finger not simple ? 0.0766
+were the fingers not simple ? 0.0403
+were the finger where they should be ? 0.4235
+were the fingers where they should be ? 0.3150
+were the finger something you like ? 0.3659
+were the fingers something you like ? 0.1347
+were the finger a good idea ? 0.1569
+were the fingers a good idea ? 0.0470
+is the engines not flat ? 0.0099
+is the engine not flat ? 0.0060
+was the engines not flat ? 0.0207
+was the engine not flat ? 0.0134
+are the engine not flat ? 0.0127
+are the engines not flat ? 0.0121
+were the engine not flat ? 0.0407
+were the engines not flat ? 0.0858
+is the restaurants not worn ? 0.0058
+is the restaurant not worn ? 0.0083
+was the restaurants not worn ? 0.0134
+was the restaurant not worn ? 0.0131
+are the restaurant not worn ? 0.0965
+are the restaurants not worn ? 0.0047
+were the restaurant not worn ? 0.0450
+were the restaurants not worn ? 0.0161
+where is the pages ? 0.0079
+where is the page ? 0.0038
+what is the pages ? 0.0330
+what is the page ? 0.0140
+what color is the pages ? 0.0232
+what color is the page ? 0.0099
+is the pages not quick ? 0.0074
+is the page not quick ? 0.0073
+is the pages where it should be ? 0.0096
+is the page where it should be ? 0.0330
+is the pages something you like ? 0.0277
+is the page something you like ? 0.0032
+is the pages a good idea ? 0.0222
+is the page a good idea ? 0.0070
+where was the pages ? 0.0113
+where was the page ? 0.0062
+what was the pages ? 0.0535
+what was the page ? 0.0468
+what color was the pages ? 0.0216
+what color was the page ? 0.0132
+was the pages not quick ? 0.0150
+was the page not quick ? 0.0079
+was the pages where it should be ? 0.0406
+was the page where it should be ? 0.0268
+was the pages something you like ? 0.0887
+was the page something you like ? 0.0080
+was the pages a good idea ? 0.0348
+was the page a good idea ? 0.0283
+where are the page ? 0.0052
+where are the pages ? 0.0064
+what are the page ? 0.0575
+what are the pages ? 0.1667
+what color are the page ? 0.0139
+what color are the pages ? 0.0179
+are the page not quick ? 0.0707
+are the pages not quick ? 0.1710
+are the page where they should be ? 0.1987
+are the pages where they should be ? 0.0253
+are the page something you like ? 0.1288
+are the pages something you like ? 0.0595
+are the page a good idea ? 0.3140
+are the pages a good idea ? 0.0236
+where were the page ? 0.0046
+where were the pages ? 0.0059
+what were the page ? 0.0884
+what were the pages ? 0.1736
+what color were the page ? 0.0535
+what color were the pages ? 0.0330
+were the page not quick ? 0.1028
+were the pages not quick ? 0.0508
+were the page where they should be ? 0.5629
+were the pages where they should be ? 0.4445
+were the page something you like ? 0.8076
+were the pages something you like ? 0.4625
+were the page a good idea ? 0.2272
+were the pages a good idea ? 0.0357
+where is the feet ? 0.0022
+where is the foot ? 0.0028
+what is the feet ? 0.0148
+what is the foot ? 0.0130
+what color is the feet ? 0.0383
+what color is the foot ? 0.1030
+is the feet not contemporary ? 0.0297
+is the foot not contemporary ? 0.0104
+is the feet where it should be ? 0.0032
+is the foot where it should be ? 0.0121
+is the feet something you like ? 0.0098
+is the foot something you like ? 0.0035
+is the feet a good idea ? 0.0129
+is the foot a good idea ? 0.0096
+where was the feet ? 0.0054
+where was the foot ? 0.0044
+what was the feet ? 0.0313
+what was the foot ? 0.0246
+what color was the feet ? 0.0569
+what color was the foot ? 0.0857
+was the feet not contemporary ? 0.2584
+was the foot not contemporary ? 0.3283
+was the feet where it should be ? 0.0294
+was the foot where it should be ? 0.0124
+was the feet something you like ? 0.0404
+was the foot something you like ? 0.0051
+was the feet a good idea ? 0.4206
+was the foot a good idea ? 0.0291
+where are the foot ? 0.0045
+where are the feet ? 0.0024
+what are the foot ? 0.0383
+what are the feet ? 0.0378
+what color are the foot ? 0.0367
+what color are the feet ? 0.0154
+are the foot not contemporary ? 0.0094
+are the feet not contemporary ? 0.0171
+are the foot where they should be ? 0.4584
+are the feet where they should be ? 0.0067
+are the foot something you like ? 0.0164
+are the feet something you like ? 0.0249
+are the foot a good idea ? 0.8324
+are the feet a good idea ? 0.0245
+where were the foot ? 0.0054
+where were the feet ? 0.0038
+what were the foot ? 0.0411
+what were the feet ? 0.0421
+what color were the foot ? 0.0764
+what color were the feet ? 0.0269
+were the foot not contemporary ? 0.0700
+were the feet not contemporary ? 0.1951
+were the foot where they should be ? 0.5552
+were the feet where they should be ? 0.4904
+were the foot something you like ? 0.3060
+were the feet something you like ? 0.1987
+were the foot a good idea ? 0.1383
+were the feet a good idea ? 0.0786
+is the stands not tall ? 0.0072
+is the stand not tall ? 0.0132
+was the stands not tall ? 0.0059
+was the stand not tall ? 0.0088
+are the stand not tall ? 0.0146
+are the stands not tall ? 0.0083
+were the stand not tall ? 0.0185
+were the stands not tall ? 0.0109
+is the cars not polar ? 0.0145
+is the car not polar ? 0.0057
+was the cars not polar ? 0.0157
+was the car not polar ? 0.0110
+are the car not polar ? 0.0056
+are the cars not polar ? 0.0088
+were the car not polar ? 0.0234
+were the cars not polar ? 1.5142
+is the birds not little ? 0.0198
+is the bird not little ? 0.0254
+was the birds not little ? 0.0291
+was the bird not little ? 0.0550
+are the bird not little ? 0.2357
+are the birds not little ? 0.0362
+were the bird not little ? 0.0980
+were the birds not little ? 0.0865
+is the horses not positive ? 0.0085
+is the horse not positive ? 0.0145
+was the horses not positive ? 0.0143
+was the horse not positive ? 0.0164
+are the horse not positive ? 0.0395
+are the horses not positive ? 0.0251
+were the horse not positive ? 0.0693
+were the horses not positive ? 0.0528
+is the parents not healthy ? 0.0128
+is the parent not healthy ? 0.0026
+was the parents not healthy ? 0.0098
+was the parent not healthy ? 0.0037
+are the parent not healthy ? 0.0043
+are the parents not healthy ? 0.0147
+were the parent not healthy ? 0.0075
+were the parents not healthy ? 0.0171
+where is the words ? 0.0076
+where is the word ? 0.0028
+what is the words ? 0.0070
+what is the word ? 0.0052
+what color is the words ? 0.0106
+what color is the word ? 0.0139
+is the words not bad ? 0.0052
+is the word not bad ? 0.0032
+is the words where it should be ? 0.0027
+is the word where it should be ? 0.0043
+is the words something you like ? 0.0112
+is the word something you like ? 0.0081
+is the words a good idea ? 0.0126
+is the word a good idea ? 0.0101
+where was the words ? 0.0107
+where was the word ? 0.0050
+what was the words ? 0.0139
+what was the word ? 0.0072
+what color was the words ? 0.0080
+what color was the word ? 0.0124
+was the words not bad ? 0.0053
+was the word not bad ? 0.0038
+was the words where it should be ? 0.0149
+was the word where it should be ? 0.0096
+was the words something you like ? 0.0141
+was the word something you like ? 0.0081
+was the words a good idea ? 0.0508
+was the word a good idea ? 0.0388
+where are the word ? 0.0065
+where are the words ? 0.0052
+what are the word ? 0.0232
+what are the words ? 0.0825
+what color are the word ? 0.0121
+what color are the words ? 0.0403
+are the word not bad ? 0.0028
+are the words not bad ? 0.0061
+are the word where they should be ? 0.0266
+are the words where they should be ? 0.0068
+are the word something you like ? 0.0114
+are the words something you like ? 0.0121
+are the word a good idea ? 0.0278
+are the words a good idea ? 0.0199
+where were the word ? 0.0134
+where were the words ? 0.0035
+what were the word ? 0.0306
+what were the words ? 0.0631
+what color were the word ? 0.0181
+what color were the words ? 0.0226
+were the word not bad ? 0.0117
+were the words not bad ? 0.0149
+were the word where they should be ? 0.1699
+were the words where they should be ? 0.1974
+were the word something you like ? 0.3855
+were the words something you like ? 0.1750
+were the word a good idea ? 0.0726
+were the words a good idea ? 0.0517
+is the windows not kind ? 0.2499
+is the window not kind ? 0.1778
+was the windows not kind ? 0.2577
+was the window not kind ? 0.1849
+are the window not kind ? 0.1820
+are the windows not kind ? 0.2951
+were the window not kind ? 0.2257
+were the windows not kind ? 0.2999
+is the bands not forced ? 0.0079
+is the band not forced ? 0.0151
+was the bands not forced ? 0.0087
+was the band not forced ? 0.0172
+are the band not forced ? 0.0285
+are the bands not forced ? 0.0103
+were the band not forced ? 0.1384
+were the bands not forced ? 0.0821
+is the pages not simple ? 0.0093
+is the page not simple ? 0.0098
+was the pages not simple ? 0.0098
+was the page not simple ? 0.0055
+are the page not simple ? 0.0194
+are the pages not simple ? 0.0074
+were the page not simple ? 0.1004
+were the pages not simple ? 0.0399
+where is the dogs ? 0.0281
+where is the dog ? 0.0070
+what is the dogs ? 0.1450
+what is the dog ? 0.0201
+what color is the dogs ? 0.0302
+what color is the dog ? 0.0069
+is the dogs not expected ? 0.0155
+is the dog not expected ? 0.0198
+is the dogs where it should be ? 0.0122
+is the dog where it should be ? 0.0017
+is the dogs something you like ? 0.0041
+is the dog something you like ? 0.0048
+is the dogs a good idea ? 0.0044
+is the dog a good idea ? 0.0053
+where was the dogs ? 0.0292
+where was the dog ? 0.0069
+what was the dogs ? 0.1056
+what was the dog ? 0.0183
+what color was the dogs ? 0.0269
+what color was the dog ? 0.0127
+was the dogs not expected ? 0.0107
+was the dog not expected ? 0.0303
+was the dogs where it should be ? 0.0399
+was the dog where it should be ? 0.0068
+was the dogs something you like ? 0.0092
+was the dog something you like ? 0.0045
+was the dogs a good idea ? 0.0192
+was the dog a good idea ? 0.0157
+where are the dog ? 0.0153
+where are the dogs ? 0.0157
+what are the dog ? 0.0323
+what are the dogs ? 0.1174
+what color are the dog ? 0.0143
+what color are the dogs ? 0.0258
+are the dog not expected ? 0.0665
+are the dogs not expected ? 0.0220
+are the dog where they should be ? 0.0053
+are the dogs where they should be ? 0.0053
+are the dog something you like ? 0.0119
+are the dogs something you like ? 0.0068
+are the dog a good idea ? 0.0255
+are the dogs a good idea ? 0.0070
+where were the dog ? 0.0109
+where were the dogs ? 0.0280
+what were the dog ? 0.0232
+what were the dogs ? 0.1069
+what color were the dog ? 0.0182
+what color were the dogs ? 0.0204
+were the dog not expected ? 0.0337
+were the dogs not expected ? 0.0286
+were the dog where they should be ? 0.3419
+were the dogs where they should be ? 0.3651
+were the dog something you like ? 0.6367
+were the dogs something you like ? 0.5099
+were the dog a good idea ? 0.1085
+were the dogs a good idea ? 0.0499
+is the things not healthy ? 0.0043
+is the thing not healthy ? 0.0078
+was the things not healthy ? 0.0749
+was the thing not healthy ? 0.0100
+are the thing not healthy ? 0.0305
+are the things not healthy ? 0.0040
+were the thing not healthy ? 0.1050
+were the things not healthy ? 0.0720
+is the colors not red ? 0.0097
+is the color not red ? 0.0630
+was the colors not red ? 0.0170
+was the color not red ? 0.0435
+are the color not red ? 0.1331
+are the colors not red ? 0.2304
+were the color not red ? 0.0834
+were the colors not red ? 0.0215
+is the bits not healthy ? 0.0036
+is the bit not healthy ? 0.0010
+was the bits not healthy ? 0.0087
+was the bit not healthy ? 0.0025
+are the bit not healthy ? 0.0024
+are the bits not healthy ? 0.0044
+were the bit not healthy ? 0.0230
+were the bits not healthy ? 0.0259
+is the birds not english ? 1.8975
+is the bird not english ? 1.9259
+was the birds not english ? 1.7783
+was the bird not english ? 1.8530
+are the bird not english ? 2.1008
+are the birds not english ? 2.0090
+were the bird not english ? 1.8510
+were the birds not english ? 1.8145
+is the calls not kind ? 0.0259
+is the call not kind ? 0.0730
+was the calls not kind ? 0.0819
+was the call not kind ? 0.2014
+are the call not kind ? 0.2037
+are the calls not kind ? 0.0905
+were the call not kind ? 0.2742
+were the calls not kind ? 0.1461
+is the lions not contemporary ? 0.0120
+is the lion not contemporary ? 0.0138
+was the lions not contemporary ? 0.1213
+was the lion not contemporary ? 0.0485
+are the lion not contemporary ? 0.0105
+are the lions not contemporary ? 0.0090
+were the lion not contemporary ? 0.0528
+were the lions not contemporary ? 0.0569
+is the boats not simple ? 0.0284
+is the boat not simple ? 0.0201
+was the boats not simple ? 0.0229
+was the boat not simple ? 0.0104
+are the boat not simple ? 0.0402
+are the boats not simple ? 0.0228
+were the boat not simple ? 0.0759
+were the boats not simple ? 0.0581
+is the differences not fixed ? 0.0274
+is the difference not fixed ? 0.0295
+was the differences not fixed ? 0.0204
+was the difference not fixed ? 0.0092
+are the difference not fixed ? 0.0087
+are the differences not fixed ? 0.1106
+were the difference not fixed ? 0.0488
+were the differences not fixed ? 0.0377
+where is the books ? 0.0784
+where is the book ? 0.0192
+what is the books ? 0.1704
+what is the book ? 0.0141
+what color is the books ? 0.1479
+what color is the book ? 0.0162
+is the books not carbon ? 0.0158
+is the book not carbon ? 0.0452
+is the books where it should be ? 0.0207
+is the book where it should be ? 0.0026
+is the books something you like ? 0.0140
+is the book something you like ? 0.0041
+is the books a good idea ? 0.0117
+is the book a good idea ? 0.0105
+where was the books ? 0.0984
+where was the book ? 0.0097
+what was the books ? 0.2475
+what was the book ? 0.0500
+what color was the books ? 0.1259
+what color was the book ? 0.0279
+was the books not carbon ? 0.0133
+was the book not carbon ? 0.0428
+was the books where it should be ? 0.0928
+was the book where it should be ? 0.0130
+was the books something you like ? 0.0211
+was the book something you like ? 0.0065
+was the books a good idea ? 0.0372
+was the book a good idea ? 0.0269
+where are the book ? 0.0654
+where are the books ? 0.0812
+what are the book ? 0.0611
+what are the books ? 0.1025
+what color are the book ? 0.0189
+what color are the books ? 0.0596
+are the book not carbon ? 0.0862
+are the books not carbon ? 0.0646
+are the book where they should be ? 0.0081
+are the books where they should be ? 0.0161
+are the book something you like ? 0.0369
+are the books something you like ? 0.0201
+are the book a good idea ? 0.0200
+are the books a good idea ? 0.0180
+where were the book ? 0.0235
+where were the books ? 0.0472
+what were the book ? 0.1226
+what were the books ? 0.1956
+what color were the book ? 0.0373
+what color were the books ? 0.0740
+were the book not carbon ? 0.0610
+were the books not carbon ? 0.0344
+were the book where they should be ? 0.4297
+were the books where they should be ? 0.3773
+were the book something you like ? 0.5970
+were the books something you like ? 0.3578
+were the book a good idea ? 0.2000
+were the books a good idea ? 0.0657
+where is the arms ? 0.0027
+where is the arm ? 0.0028
+what is the arms ? 0.0044
+what is the arm ? 0.0050
+what color is the arms ? 0.0031
+what color is the arm ? 0.0046
+is the arms not solid ? 0.0037
+is the arm not solid ? 0.0080
+is the arms where it should be ? 0.0007
+is the arm where it should be ? 0.0011
+is the arms something you like ? 0.0044
+is the arm something you like ? 0.0044
+is the arms a good idea ? 0.0047
+is the arm a good idea ? 0.0052
+where was the arms ? 0.0041
+where was the arm ? 0.0065
+what was the arms ? 0.0103
+what was the arm ? 0.0157
+what color was the arms ? 0.0051
+what color was the arm ? 0.0136
+was the arms not solid ? 0.0119
+was the arm not solid ? 0.0122
+was the arms where it should be ? 0.0113
+was the arm where it should be ? 0.0122
+was the arms something you like ? 0.0069
+was the arm something you like ? 0.0059
+was the arms a good idea ? 0.0194
+was the arm a good idea ? 0.0209
+where are the arm ? 0.0053
+where are the arms ? 0.0042
+what are the arm ? 0.0216
+what are the arms ? 0.0143
+what color are the arm ? 0.0079
+what color are the arms ? 0.0083
+are the arm not solid ? 0.0326
+are the arms not solid ? 0.0110
+are the arm where they should be ? 0.0060
+are the arms where they should be ? 0.0099
+are the arm something you like ? 0.0072
+are the arms something you like ? 0.0041
+are the arm a good idea ? 0.0261
+are the arms a good idea ? 0.0091
+where were the arm ? 0.0082
+where were the arms ? 0.0056
+what were the arm ? 0.0345
+what were the arms ? 0.0168
+what color were the arm ? 0.0184
+what color were the arms ? 0.0092
+were the arm not solid ? 0.0103
+were the arms not solid ? 0.0063
+were the arm where they should be ? 0.3047
+were the arms where they should be ? 0.3562
+were the arm something you like ? 0.3392
+were the arms something you like ? 0.1628
+were the arm a good idea ? 0.1168
+were the arms a good idea ? 0.0489
+is the movies not top ? 0.0289
+is the movie not top ? 0.0301
+was the movies not top ? 0.0277
+was the movie not top ? 0.0274
+are the movie not top ? 0.0352
+are the movies not top ? 0.0307
+were the movie not top ? 0.0487
+were the movies not top ? 0.0364
+is the guys not rolling ? 0.0017
+is the guy not rolling ? 0.0234
+was the guys not rolling ? 0.0063
+was the guy not rolling ? 0.0139
+are the guy not rolling ? 0.0163
+are the guys not rolling ? 0.0127
+were the guy not rolling ? 0.0357
+were the guys not rolling ? 0.0446
+is the words not flat ? 0.0269
+is the word not flat ? 0.0166
+was the words not flat ? 0.0337
+was the word not flat ? 0.0386
+are the word not flat ? 0.0185
+are the words not flat ? 0.0326
+were the word not flat ? 0.0383
+were the words not flat ? 0.0442
+is the toys not healthy ? 0.1213
+is the toy not healthy ? 0.0042
+was the toys not healthy ? 0.0635
+was the toy not healthy ? 0.0059
+are the toy not healthy ? 0.0188
+are the toys not healthy ? 0.0882
+were the toy not healthy ? 0.0262
+were the toys not healthy ? 0.0673
+is the calls not poor ? 0.0267
+is the call not poor ? 0.0078
+was the calls not poor ? 0.1228
+was the call not poor ? 0.0306
+are the call not poor ? 0.0119
+are the calls not poor ? 0.0127
+were the call not poor ? 0.1481
+were the calls not poor ? 0.0889
+is the bits not white ? 0.0161
+is the bit not white ? 0.0061
+was the bits not white ? 0.0133
+was the bit not white ? 0.0084
+are the bit not white ? 0.3782
+are the bits not white ? 0.0126
+were the bit not white ? 0.0152
+were the bits not white ? 0.0171
+is the bones not electronic ? 0.0692
+is the bone not electronic ? 0.0505
+was the bones not electronic ? 0.0155
+was the bone not electronic ? 0.0176
+are the bone not electronic ? 0.0975
+are the bones not electronic ? 0.1189
+were the bone not electronic ? 0.0523
+were the bones not electronic ? 0.0502
+is the toys not flat ? 0.1502
+is the toy not flat ? 0.0108
+was the toys not flat ? 0.0611
+was the toy not flat ? 0.0109
+are the toy not flat ? 0.0181
+are the toys not flat ? 0.0766
+were the toy not flat ? 0.0203
+were the toys not flat ? 0.0462
+is the whales not purple ? 0.0051
+is the whale not purple ? 0.0037
+was the whales not purple ? 0.0120
+was the whale not purple ? 0.0043
+are the whale not purple ? 0.0087
+are the whales not purple ? 0.0075
+were the whale not purple ? 0.0164
+were the whales not purple ? 0.0108
+where is the kings ? 0.0687
+where is the king ? 0.0027
+what is the kings ? 0.3526
+what is the king ? 0.0214
+what color is the kings ? 0.2474
+what color is the king ? 0.0226
+is the kings not fixed ? 0.0261
+is the king not fixed ? 0.0060
+is the kings where it should be ? 0.0695
+is the king where it should be ? 0.0077
+is the kings something you like ? 0.0417
+is the king something you like ? 0.0045
+is the kings a good idea ? 0.1498
+is the king a good idea ? 0.0058
+where was the kings ? 0.0505
+where was the king ? 0.0043
+what was the kings ? 0.2079
+what was the king ? 0.0523
+what color was the kings ? 0.1249
+what color was the king ? 0.0399
+was the kings not fixed ? 0.0414
+was the king not fixed ? 0.0107
+was the kings where it should be ? 0.0871
+was the king where it should be ? 0.0049
+was the kings something you like ? 0.1036
+was the king something you like ? 0.0031
+was the kings a good idea ? 0.1390
+was the king a good idea ? 0.0119
+where are the king ? 0.0033
+where are the kings ? 0.0177
+what are the king ? 0.0366
+what are the kings ? 0.0904
+what color are the king ? 0.0244
+what color are the kings ? 0.0732
+are the king not fixed ? 0.3835
+are the kings not fixed ? 0.0411
+are the king where they should be ? 0.4277
+are the kings where they should be ? 0.0128
+are the king something you like ? 0.0299
+are the kings something you like ? 0.0498
+are the king a good idea ? 0.3877
+are the kings a good idea ? 0.1346
+where were the king ? 0.0046
+where were the kings ? 0.0207
+what were the king ? 0.0618
+what were the kings ? 0.0920
+what color were the king ? 0.0322
+what color were the kings ? 0.0423
+were the king not fixed ? 0.0877
+were the kings not fixed ? 0.1002
+were the king where they should be ? 0.2844
+were the kings where they should be ? 0.2394
+were the king something you like ? 0.7280
+were the kings something you like ? 0.3029
+were the king a good idea ? 0.0571
+were the kings a good idea ? 0.1188
+is the bands not polar ? 0.0155
+is the band not polar ? 0.0129
+was the bands not polar ? 0.0086
+was the band not polar ? 0.0541
+are the band not polar ? 0.0420
+are the bands not polar ? 0.0113
+were the band not polar ? 1.3904
+were the bands not polar ? 0.0167
+is the differences not winning ? 0.0068
+is the difference not winning ? 0.0015
+was the differences not winning ? 0.0501
+was the difference not winning ? 0.0039
+are the difference not winning ? 0.0068
+are the differences not winning ? 0.8624
+were the difference not winning ? 0.0148
+were the differences not winning ? 0.0176
+is the engines not sacred ? 0.0222
+is the engine not sacred ? 0.0955
+was the engines not sacred ? 0.0456
+was the engine not sacred ? 0.3848
+are the engine not sacred ? 0.2753
+are the engines not sacred ? 0.0911
+were the engine not sacred ? 0.6908
+were the engines not sacred ? 0.1785
+where is the rings ? 0.0084
+where is the ring ? 0.0025
+what is the rings ? 0.0291
+what is the ring ? 0.0188
+what color is the rings ? 0.0221
+what color is the ring ? 0.0197
+is the rings not early ? 0.0091
+is the ring not early ? 0.0096
+is the rings where it should be ? 0.0182
+is the ring where it should be ? 0.0162
+is the rings something you like ? 0.0046
+is the ring something you like ? 0.0061
+is the rings a good idea ? 0.0275
+is the ring a good idea ? 0.0132
+where was the rings ? 0.0129
+where was the ring ? 0.0044
+what was the rings ? 0.0240
+what was the ring ? 0.0278
+what color was the rings ? 0.0261
+what color was the ring ? 0.0325
+was the rings not early ? 0.0114
+was the ring not early ? 0.0055
+was the rings where it should be ? 0.0248
+was the ring where it should be ? 0.0195
+was the rings something you like ? 0.0087
+was the ring something you like ? 0.0051
+was the rings a good idea ? 0.0235
+was the ring a good idea ? 0.0155
+where are the ring ? 0.0058
+where are the rings ? 0.0081
+what are the ring ? 0.0445
+what are the rings ? 0.0688
+what color are the ring ? 0.0195
+what color are the rings ? 0.0430
+are the ring not early ? 0.0176
+are the rings not early ? 0.0200
+are the ring where they should be ? 0.1399
+are the rings where they should be ? 0.0679
+are the ring something you like ? 0.1161
+are the rings something you like ? 0.0113
+are the ring a good idea ? 0.0331
+are the rings a good idea ? 0.4842
+where were the ring ? 0.0076
+where were the rings ? 0.0090
+what were the ring ? 0.0448
+what were the rings ? 0.0464
+what color were the ring ? 0.0390
+what color were the rings ? 0.0500
+were the ring not early ? 0.0834
+were the rings not early ? 0.0427
+were the ring where they should be ? 0.4253
+were the rings where they should be ? 0.5388
+were the ring something you like ? 0.7338
+were the rings something you like ? 0.8743
+were the ring a good idea ? 0.3378
+were the rings a good idea ? 0.1174
+where is the types ? 0.0088
+where is the type ? 0.0058
+what is the types ? 0.0592
+what is the type ? 0.0125
+what color is the types ? 0.0382
+what color is the type ? 0.0201
+is the types not expected ? 0.0186
+is the type not expected ? 0.0041
+is the types where it should be ? 0.0334
+is the type where it should be ? 0.0010
+is the types something you like ? 0.0462
+is the type something you like ? 0.0026
+is the types a good idea ? 0.0798
+is the type a good idea ? 0.0111
+where was the types ? 0.0135
+where was the type ? 0.0075
+what was the types ? 0.0766
+what was the type ? 0.0304
+what color was the types ? 0.0355
+what color was the type ? 0.0406
+was the types not expected ? 0.0375
+was the type not expected ? 0.0075
+was the types where it should be ? 0.0447
+was the type where it should be ? 0.0086
+was the types something you like ? 0.0346
+was the type something you like ? 0.0044
+was the types a good idea ? 0.0726
+was the type a good idea ? 0.0281
+where are the type ? 0.0262
+where are the types ? 0.0052
+what are the type ? 0.0657
+what are the types ? 0.0832
+what color are the type ? 0.0367
+what color are the types ? 0.0322
+are the type not expected ? 0.0061
+are the types not expected ? 0.0527
+are the type where they should be ? 0.0029
+are the types where they should be ? 0.0187
+are the type something you like ? 0.0147
+are the types something you like ? 0.0437
+are the type a good idea ? 0.0103
+are the types a good idea ? 0.0481
+where were the type ? 0.0364
+where were the types ? 0.0071
+what were the type ? 0.0623
+what were the types ? 0.0965
+what color were the type ? 0.0592
+what color were the types ? 0.0412
+were the type not expected ? 0.0110
+were the types not expected ? 0.0188
+were the type where they should be ? 0.2620
+were the types where they should be ? 0.2986
+were the type something you like ? 0.5965
+were the types something you like ? 0.2340
+were the type a good idea ? 0.1447
+were the types a good idea ? 0.0441
+is the fingers not carbon ? 0.0271
+is the finger not carbon ? 0.0134
+was the fingers not carbon ? 0.0158
+was the finger not carbon ? 0.0182
+are the finger not carbon ? 0.0244
+are the fingers not carbon ? 0.1274
+were the finger not carbon ? 0.0435
+were the fingers not carbon ? 0.0480
+is the words not soft ? 0.0141
+is the word not soft ? 0.0071
+was the words not soft ? 0.0412
+was the word not soft ? 0.0147
+are the word not soft ? 0.0053
+are the words not soft ? 0.0142
+were the word not soft ? 0.0316
+were the words not soft ? 0.0253
+is the restaurants not carbon ? 0.0111
+is the restaurant not carbon ? 0.2595
+was the restaurants not carbon ? 0.0172
+was the restaurant not carbon ? 0.0436
+are the restaurant not carbon ? 1.3915
+are the restaurants not carbon ? 0.0150
+were the restaurant not carbon ? 0.1007
+were the restaurants not carbon ? 0.0237
+is the words not winning ? 0.0021
+is the word not winning ? 0.0086
+was the words not winning ? 0.0076
+was the word not winning ? 0.0160
+are the word not winning ? 0.0160
+are the words not winning ? 0.0051
+were the word not winning ? 0.0153
+were the words not winning ? 0.0054
+is the engines not contemporary ? 0.0073
+is the engine not contemporary ? 0.0149
+was the engines not contemporary ? 0.0254
+was the engine not contemporary ? 0.0197
+are the engine not contemporary ? 0.0250
+are the engines not contemporary ? 0.0085
+were the engine not contemporary ? 0.0626
+were the engines not contemporary ? 0.0266
+where is the children ? 0.0100
+where is the child ? 0.0028
+what is the children ? 0.0180
+what is the child ? 0.0063
+what color is the children ? 0.0131
+what color is the child ? 0.0052
+is the children not top ? 0.0191
+is the child not top ? 0.0063
+is the children where it should be ? 0.0021
+is the child where it should be ? 0.0014
+is the children something you like ? 0.0067
+is the child something you like ? 0.0040
+is the children a good idea ? 0.0138
+is the child a good idea ? 0.0090
+where was the children ? 0.0070
+where was the child ? 0.0049
+what was the children ? 0.0291
+what was the child ? 0.0226
+what color was the children ? 0.0163
+what color was the child ? 0.0091
+was the children not top ? 0.0194
+was the child not top ? 0.0108
+was the children where it should be ? 0.0125
+was the child where it should be ? 0.0036
+was the children something you like ? 0.0179
+was the child something you like ? 0.0075
+was the children a good idea ? 0.0391
+was the child a good idea ? 0.0183
+where are the child ? 0.0097
+where are the children ? 0.0122
+what are the child ? 0.0338
+what are the children ? 0.0506
+what color are the child ? 0.0311
+what color are the children ? 0.0216
+are the child not top ? 0.0099
+are the children not top ? 0.0714
+are the child where they should be ? 0.0028
+are the children where they should be ? 0.0027
+are the child something you like ? 0.0096
+are the children something you like ? 0.0173
+are the child a good idea ? 0.0071
+are the children a good idea ? 0.0177
+where were the child ? 0.0136
+where were the children ? 0.0055
+what were the child ? 0.0321
+what were the children ? 0.0564
+what color were the child ? 0.0199
+what color were the children ? 0.0227
+were the child not top ? 0.0568
+were the children not top ? 0.1430
+were the child where they should be ? 0.1556
+were the children where they should be ? 0.1391
+were the child something you like ? 0.2567
+were the children something you like ? 0.1065
+were the child a good idea ? 0.1562
+were the children a good idea ? 0.0334
+is the stories not healthy ? 0.0086
+is the story not healthy ? 0.0049
+was the stories not healthy ? 0.3267
+was the story not healthy ? 0.1997
+are the story not healthy ? 0.0542
+are the stories not healthy ? 0.0245
+were the story not healthy ? 0.2078
+were the stories not healthy ? 0.2435
+is the rings not quick ? 0.0088
+is the ring not quick ? 0.0070
+was the rings not quick ? 0.0084
+was the ring not quick ? 0.0075
+are the ring not quick ? 0.0976
+are the rings not quick ? 0.1981
+were the ring not quick ? 0.0830
+were the rings not quick ? 0.0760
+is the minutes not needed ? 0.0080
+is the minute not needed ? 0.0146
+was the minutes not needed ? 0.0068
+was the minute not needed ? 0.0139
+are the minute not needed ? 0.0460
+are the minutes not needed ? 0.0230
+were the minute not needed ? 0.1068
+were the minutes not needed ? 0.0588
+where is the animals ? 0.0222
+where is the animal ? 0.0026
+what is the animals ? 0.0601
+what is the animal ? 0.0123
+what color is the animals ? 0.0161
+what color is the animal ? 0.0104
+is the animals not ordered ? 0.0101
+is the animal not ordered ? 0.0166
+is the animals where it should be ? 0.0035
+is the animal where it should be ? 0.0014
+is the animals something you like ? 0.0107
+is the animal something you like ? 0.0076
+is the animals a good idea ? 0.0126
+is the animal a good idea ? 0.0053
+where was the animals ? 0.0302
+where was the animal ? 0.0037
+what was the animals ? 0.0927
+what was the animal ? 0.0303
+what color was the animals ? 0.0284
+what color was the animal ? 0.0168
+was the animals not ordered ? 0.0063
+was the animal not ordered ? 0.0100
+was the animals where it should be ? 0.0285
+was the animal where it should be ? 0.0043
+was the animals something you like ? 0.0207
+was the animal something you like ? 0.0078
+was the animals a good idea ? 0.0280
+was the animal a good idea ? 0.0211
+where are the animal ? 0.0030
+where are the animals ? 0.0241
+what are the animal ? 0.0291
+what are the animals ? 0.0904
+what color are the animal ? 0.0144
+what color are the animals ? 0.0277
+are the animal not ordered ? 0.0277
+are the animals not ordered ? 0.0825
+are the animal where they should be ? 0.0032
+are the animals where they should be ? 0.0043
+are the animal something you like ? 0.0209
+are the animals something you like ? 0.0085
+are the animal a good idea ? 0.0112
+are the animals a good idea ? 0.0216
+where were the animal ? 0.0058
+where were the animals ? 0.0192
+what were the animal ? 0.0363
+what were the animals ? 0.1075
+what color were the animal ? 0.0141
+what color were the animals ? 0.0273
+were the animal not ordered ? 0.0144
+were the animals not ordered ? 0.0198
+were the animal where they should be ? 0.3350
+were the animals where they should be ? 0.3849
+were the animal something you like ? 0.5563
+were the animals something you like ? 0.4075
+were the animal a good idea ? 0.0490
+were the animals a good idea ? 0.0544
+where is the days ? 0.0111
+where is the day ? 0.0059
+what is the days ? 0.0216
+what is the day ? 0.0154
+what color is the days ? 0.0092
+what color is the day ? 0.0155
+is the days not sacred ? 0.0028
+is the day not sacred ? 0.0092
+is the days where it should be ? 0.0036
+is the day where it should be ? 0.0016
+is the days something you like ? 0.0053
+is the day something you like ? 0.0049
+is the days a good idea ? 0.0161
+is the day a good idea ? 0.0120
+where was the days ? 0.0347
+where was the day ? 0.0102
+what was the days ? 0.0421
+what was the day ? 0.0376
+what color was the days ? 0.0120
+what color was the day ? 0.0220
+was the days not sacred ? 0.0038
+was the day not sacred ? 0.0099
+was the days where it should be ? 0.0414
+was the day where it should be ? 0.0302
+was the days something you like ? 0.0080
+was the day something you like ? 0.0117
+was the days a good idea ? 0.0568
+was the day a good idea ? 0.0526
+where are the day ? 0.0080
+where are the days ? 0.0102
+what are the day ? 0.0817
+what are the days ? 0.1534
+what color are the day ? 0.0151
+what color are the days ? 0.0141
+are the day not sacred ? 0.0325
+are the days not sacred ? 0.0054
+are the day where they should be ? 0.0190
+are the days where they should be ? 0.0167
+are the day something you like ? 0.0426
+are the days something you like ? 0.0097
+are the day a good idea ? 0.0203
+are the days a good idea ? 0.0193
+where were the day ? 0.0127
+where were the days ? 0.0145
+what were the day ? 0.1038
+what were the days ? 0.1925
+what color were the day ? 0.0287
+what color were the days ? 0.0188
+were the day not sacred ? 0.0698
+were the days not sacred ? 0.0199
+were the day where they should be ? 0.2832
+were the days where they should be ? 0.2643
+were the day something you like ? 0.4578
+were the days something you like ? 0.2028
+were the day a good idea ? 0.1235
+were the days a good idea ? 0.0489
+where is the eggs ? 0.0045
+where is the egg ? 0.0054
+what is the eggs ? 0.0239
+what is the egg ? 0.0140
+what color is the eggs ? 0.0149
+what color is the egg ? 0.0167
+is the eggs not needed ? 0.0212
+is the egg not needed ? 0.0210
+is the eggs where it should be ? 0.0064
+is the egg where it should be ? 0.0046
+is the eggs something you like ? 0.0077
+is the egg something you like ? 0.0029
+is the eggs a good idea ? 0.0129
+is the egg a good idea ? 0.0057
+where was the eggs ? 0.0077
+where was the egg ? 0.0082
+what was the eggs ? 0.0607
+what was the egg ? 0.0281
+what color was the eggs ? 0.0418
+what color was the egg ? 0.0296
+was the eggs not needed ? 0.0363
+was the egg not needed ? 0.0659
+was the eggs where it should be ? 0.0231
+was the egg where it should be ? 0.0154
+was the eggs something you like ? 0.0134
+was the egg something you like ? 0.0083
+was the eggs a good idea ? 0.0210
+was the egg a good idea ? 0.0136
+where are the egg ? 0.0098
+where are the eggs ? 0.0029
+what are the egg ? 0.0407
+what are the eggs ? 0.0673
+what color are the egg ? 0.0707
+what color are the eggs ? 0.0393
+are the egg not needed ? 0.0451
+are the eggs not needed ? 0.0419
+are the egg where they should be ? 0.0172
+are the eggs where they should be ? 0.0240
+are the egg something you like ? 0.0363
+are the eggs something you like ? 0.0284
+are the egg a good idea ? 0.0615
+are the eggs a good idea ? 0.0255
+where were the egg ? 0.0204
+where were the eggs ? 0.0027
+what were the egg ? 0.0383
+what were the eggs ? 0.1266
+what color were the egg ? 0.0681
+what color were the eggs ? 0.0327
+were the egg not needed ? 0.1696
+were the eggs not needed ? 0.1449
+were the egg where they should be ? 0.7424
+were the eggs where they should be ? 0.8027
+were the egg something you like ? 0.8294
+were the eggs something you like ? 0.7237
+were the egg a good idea ? 0.2275
+were the eggs a good idea ? 0.0998
+is the animals not filled ? 0.0066
+is the animal not filled ? 0.0095
+was the animals not filled ? 0.0429
+was the animal not filled ? 0.0156
+are the animal not filled ? 0.0178
+are the animals not filled ? 0.1211
+were the animal not filled ? 0.0135
+were the animals not filled ? 0.0149
+is the movies not contemporary ? 0.0153
+is the movie not contemporary ? 0.0147
+was the movies not contemporary ? 0.0217
+was the movie not contemporary ? 0.0107
+are the movie not contemporary ? 0.0109
+are the movies not contemporary ? 0.0138
+were the movie not contemporary ? 0.0114
+were the movies not contemporary ? 0.0150
+where is the pictures ? 0.0233
+where is the picture ? 0.0040
+what is the pictures ? 0.0473
+what is the picture ? 0.0233
+what color is the pictures ? 0.0312
+what color is the picture ? 0.0254
+is the pictures not sacred ? 0.0077
+is the picture not sacred ? 0.0037
+is the pictures where it should be ? 0.0047
+is the picture where it should be ? 0.0072
+is the pictures something you like ? 0.0118
+is the picture something you like ? 0.0028
+is the pictures a good idea ? 0.0062
+is the picture a good idea ? 0.0131
+where was the pictures ? 0.0197
+where was the picture ? 0.0064
+what was the pictures ? 0.0908
+what was the picture ? 0.0706
+what color was the pictures ? 0.0568
+what color was the picture ? 0.0600
+was the pictures not sacred ? 0.0216
+was the picture not sacred ? 0.0087
+was the pictures where it should be ? 0.0226
+was the picture where it should be ? 0.0255
+was the pictures something you like ? 0.0374
+was the picture something you like ? 0.0069
+was the pictures a good idea ? 0.0212
+was the picture a good idea ? 0.0486
+where are the picture ? 0.0047
+where are the pictures ? 0.0084
+what are the picture ? 0.0784
+what are the pictures ? 0.0935
+what color are the picture ? 0.0299
+what color are the pictures ? 0.0397
+are the picture not sacred ? 0.0137
+are the pictures not sacred ? 0.0349
+are the picture where they should be ? 0.0693
+are the pictures where they should be ? 0.0163
+are the picture something you like ? 0.0198
+are the pictures something you like ? 0.0139
+are the picture a good idea ? 0.0219
+are the pictures a good idea ? 0.0102
+where were the picture ? 0.0092
+where were the pictures ? 0.0113
+what were the picture ? 0.0993
+what were the pictures ? 0.1376
+what color were the picture ? 0.0626
+what color were the pictures ? 0.0667
+were the picture not sacred ? 0.0372
+were the pictures not sacred ? 0.0937
+were the picture where they should be ? 0.3269
+were the pictures where they should be ? 0.3980
+were the picture something you like ? 0.4706
+were the pictures something you like ? 0.4942
+were the picture a good idea ? 0.0797
+were the pictures a good idea ? 0.0455
+is the minutes not fixed ? 0.0321
+is the minute not fixed ? 0.0082
+was the minutes not fixed ? 0.0069
+was the minute not fixed ? 0.0100
+are the minute not fixed ? 0.0205
+are the minutes not fixed ? 0.0189
+were the minute not fixed ? 0.1007
+were the minutes not fixed ? 0.0282
+is the ways not tall ? 0.0056
+is the way not tall ? 0.0039
+was the ways not tall ? 0.0071
+was the way not tall ? 0.0097
+are the way not tall ? 0.0070
+are the ways not tall ? 0.0058
+were the way not tall ? 0.0355
+were the ways not tall ? 0.0088
+is the lies not fixed ? 0.0181
+is the lie not fixed ? 0.0201
+was the lies not fixed ? 0.0094
+was the lie not fixed ? 0.0129
+are the lie not fixed ? 0.0427
+are the lies not fixed ? 0.3729
+were the lie not fixed ? 0.0496
+were the lies not fixed ? 0.0546
+is the stands not top ? 0.0149
+is the stand not top ? 0.0054
+was the stands not top ? 0.0165
+was the stand not top ? 0.0090
+are the stand not top ? 0.6585
+are the stands not top ? 0.0102
+were the stand not top ? 0.0319
+were the stands not top ? 0.0156
+is the hands not white ? 0.0056
+is the hand not white ? 0.0055
+was the hands not white ? 0.0090
+was the hand not white ? 0.0060
+are the hand not white ? 0.0196
+are the hands not white ? 0.0114
+were the hand not white ? 0.0334
+were the hands not white ? 0.0196
+is the books not winning ? 0.0061
+is the book not winning ? 0.0010
+was the books not winning ? 0.0112
+was the book not winning ? 0.0015
+are the book not winning ? 0.0036
+are the books not winning ? 0.0148
+were the book not winning ? 0.0176
+were the books not winning ? 0.0145
+is the stands not silly ? 0.0082
+is the stand not silly ? 0.0084
+was the stands not silly ? 0.0080
+was the stand not silly ? 0.0104
+are the stand not silly ? 0.0289
+are the stands not silly ? 0.0079
+were the stand not silly ? 0.1725
+were the stands not silly ? 0.0406
+is the problems not carbon ? 0.1133
+is the problem not carbon ? 0.1952
+was the problems not carbon ? 0.0977
+was the problem not carbon ? 0.0856
+are the problem not carbon ? 0.1196
+are the problems not carbon ? 0.1114
+were the problem not carbon ? 0.2406
+were the problems not carbon ? 0.0629
+is the ways not english ? 1.7056
+is the way not english ? 1.7124
+was the ways not english ? 1.5663
+was the way not english ? 1.6672
+are the way not english ? 2.0073
+are the ways not english ? 1.8808
+were the way not english ? 1.8693
+were the ways not english ? 1.7830
+is the types not ready ? 0.0054
+is the type not ready ? 0.0029
+was the types not ready ? 0.0124
+was the type not ready ? 0.0032
+are the type not ready ? 0.0041
+are the types not ready ? 0.0075
+were the type not ready ? 0.0476
+were the types not ready ? 0.0378
+is the windows not complete ? 0.0032
+is the window not complete ? 0.0016
+was the windows not complete ? 0.0042
+was the window not complete ? 0.0030
+are the window not complete ? 0.0893
+are the windows not complete ? 0.0251
+were the window not complete ? 0.0111
+were the windows not complete ? 0.0071
+is the lions not simple ? 0.0278
+is the lion not simple ? 0.0202
+was the lions not simple ? 0.0395
+was the lion not simple ? 0.0233
+are the lion not simple ? 0.0163
+are the lions not simple ? 0.0315
+were the lion not simple ? 0.0820
+were the lions not simple ? 0.0851
+is the bits not quick ? 0.0070
+is the bit not quick ? 0.0026
+was the bits not quick ? 0.0095
+was the bit not quick ? 0.0056
+are the bit not quick ? 0.0793
+are the bits not quick ? 0.0110
+were the bit not quick ? 0.0377
+were the bits not quick ? 0.0107
+is the types not kind ? 0.0948
+is the type not kind ? 0.0637
+was the types not kind ? 0.1410
+was the type not kind ? 0.0846
+are the type not kind ? 0.1421
+are the types not kind ? 0.1561
+were the type not kind ? 0.1446
+were the types not kind ? 0.2150
+is the guys not full ? 0.0019
+is the guy not full ? 0.0060
+was the guys not full ? 0.0109
+was the guy not full ? 0.0083
+are the guy not full ? 0.0060
+are the guys not full ? 0.0045
+were the guy not full ? 0.0187
+were the guys not full ? 0.0404
+is the restaurants not extra ? 0.0896
+is the restaurant not extra ? 0.2596
+was the restaurants not extra ? 0.0657
+was the restaurant not extra ? 0.1622
+are the restaurant not extra ? 1.5555
+are the restaurants not extra ? 0.1199
+were the restaurant not extra ? 0.2330
+were the restaurants not extra ? 0.1169
+is the bands not little ? 0.0928
+is the band not little ? 0.1078
+was the bands not little ? 0.1760
+was the band not little ? 0.2371
+are the band not little ? 0.3712
+are the bands not little ? 0.1912
+were the band not little ? 0.2583
+were the bands not little ? 0.1090
+is the guys not tall ? 0.0070
+is the guy not tall ? 0.0105
+was the guys not tall ? 0.0049
+was the guy not tall ? 0.0046
+are the guy not tall ? 0.0082
+are the guys not tall ? 0.0069
+were the guy not tall ? 0.0235
+were the guys not tall ? 0.0343
+is the stories not abandoned ? 0.0099
+is the story not abandoned ? 0.0024
+was the stories not abandoned ? 0.0130
+was the story not abandoned ? 0.0074
+are the story not abandoned ? 0.0070
+are the stories not abandoned ? 0.0153
+were the story not abandoned ? 0.0088
+were the stories not abandoned ? 0.0109
+is the fingers not electronic ? 0.0598
+is the finger not electronic ? 0.0266
+was the fingers not electronic ? 0.0390
+was the finger not electronic ? 0.0435
+are the finger not electronic ? 0.0285
+are the fingers not electronic ? 0.0607
+were the finger not electronic ? 0.0686
+were the fingers not electronic ? 0.0615
+is the dogs not full ? 0.0047
+is the dog not full ? 0.0035
+was the dogs not full ? 0.0071
+was the dog not full ? 0.0069
+are the dog not full ? 0.0063
+are the dogs not full ? 0.0139
+were the dog not full ? 0.0124
+were the dogs not full ? 0.0260
+is the pictures not good ? 0.0177
+is the picture not good ? 0.0306
+was the pictures not good ? 0.0228
+was the picture not good ? 0.0354
+are the picture not good ? 0.0403
+are the pictures not good ? 0.0233
+were the picture not good ? 0.0551
+were the pictures not good ? 0.0442
+is the calls not contemporary ? 0.1186
+is the call not contemporary ? 0.0443
+was the calls not contemporary ? 0.1638
+was the call not contemporary ? 0.0523
+are the call not contemporary ? 0.0207
+are the calls not contemporary ? 0.0749
+were the call not contemporary ? 0.1106
+were the calls not contemporary ? 0.1259
+is the pictures not purple ? 0.0027
+is the picture not purple ? 0.0081
+was the pictures not purple ? 0.0045
+was the picture not purple ? 0.0058
+are the picture not purple ? 0.7738
+are the pictures not purple ? 0.0222
+were the picture not purple ? 0.0256
+were the pictures not purple ? 0.0128
+is the pages not hard ? 0.0132
+is the page not hard ? 0.0331
+was the pages not hard ? 0.0131
+was the page not hard ? 0.0138
+are the page not hard ? 0.1171
+are the pages not hard ? 0.0287
+were the page not hard ? 0.1471
+were the pages not hard ? 0.0428
+is the stories not close ? 0.0032
+is the story not close ? 0.0044
+was the stories not close ? 0.0040
+was the story not close ? 0.0044
+are the story not close ? 0.0050
+are the stories not close ? 0.0055
+were the story not close ? 0.0071
+were the stories not close ? 0.0042
+is the hands not filled ? 0.0030
+is the hand not filled ? 0.0045
+was the hands not filled ? 0.0064
+was the hand not filled ? 0.0122
+are the hand not filled ? 0.6554
+are the hands not filled ? 0.1846
+were the hand not filled ? 0.0248
+were the hands not filled ? 0.0144
+is the kings not healthy ? 0.0063
+is the king not healthy ? 0.0019
+was the kings not healthy ? 0.2117
+was the king not healthy ? 0.0069
+are the king not healthy ? 0.0165
+are the kings not healthy ? 0.0099
+were the king not healthy ? 0.1785
+were the kings not healthy ? 0.1000
+is the bits not expected ? 0.0095
+is the bit not expected ? 0.0057
+was the bits not expected ? 0.0292
+was the bit not expected ? 0.0066
+are the bit not expected ? 0.5852
+are the bits not expected ? 0.0798
+were the bit not expected ? 0.0148
+were the bits not expected ? 0.0271
+is the kings not positive ? 0.0078
+is the king not positive ? 0.0070
+was the kings not positive ? 0.0291
+was the king not positive ? 0.0160
+are the king not positive ? 0.2334
+are the kings not positive ? 0.0075
+were the king not positive ? 0.0457
+were the kings not positive ? 0.0342
+is the stands not english ? 1.4089
+is the stand not english ? 1.9017
+was the stands not english ? 1.5241
+was the stand not english ? 1.9736
+are the stand not english ? 1.9023
+are the stands not english ? 1.8678
+were the stand not english ? 1.8226
+were the stands not english ? 1.5077
+is the toys not sacred ? 0.0197
+is the toy not sacred ? 0.0074
+was the toys not sacred ? 0.0168
+was the toy not sacred ? 0.0068
+are the toy not sacred ? 0.0137
+are the toys not sacred ? 0.0255
+were the toy not sacred ? 0.0221
+were the toys not sacred ? 0.0367
+is the minutes not soft ? 0.0045
+is the minute not soft ? 0.0009
+was the minutes not soft ? 0.0035
+was the minute not soft ? 0.0024
+are the minute not soft ? 0.0019
+are the minutes not soft ? 0.0030
+were the minute not soft ? 0.0464
+were the minutes not soft ? 0.0175
+is the windows not carbon ? 0.0462
+is the window not carbon ? 0.4715
+was the windows not carbon ? 0.0176
+was the window not carbon ? 0.0337
+are the window not carbon ? 1.3324
+are the windows not carbon ? 0.8045
+were the window not carbon ? 0.0767
+were the windows not carbon ? 0.0352
+is the birds not positive ? 0.0062
+is the bird not positive ? 0.0097
+was the birds not positive ? 0.0107
+was the bird not positive ? 0.0157
+are the bird not positive ? 0.0210
+are the birds not positive ? 0.0114
+were the bird not positive ? 0.0591
+were the birds not positive ? 0.0279
+is the engines not purple ? 0.0053
+is the engine not purple ? 0.0033
+was the engines not purple ? 0.0057
+was the engine not purple ? 0.0043
+are the engine not purple ? 0.0085
+are the engines not purple ? 0.2103
+were the engine not purple ? 0.0121
+were the engines not purple ? 0.0209
+is the guys not poor ? 0.0114
+is the guy not poor ? 0.0186
+was the guys not poor ? 0.0261
+was the guy not poor ? 0.0300
+are the guy not poor ? 0.0193
+are the guys not poor ? 0.0143
+were the guy not poor ? 0.0521
+were the guys not poor ? 0.1028
+is the whales not filled ? 0.0340
+is the whale not filled ? 0.0020
+was the whales not filled ? 0.1271
+was the whale not filled ? 0.0071
+are the whale not filled ? 0.0067
+are the whales not filled ? 0.0114
+were the whale not filled ? 0.0161
+were the whales not filled ? 0.0754
+is the bits not little ? 0.0276
+is the bit not little ? 0.0281
+was the bits not little ? 0.0418
+was the bit not little ? 0.0660
+are the bit not little ? 0.0785
+are the bits not little ? 0.0422
+were the bit not little ? 0.2042
+were the bits not little ? 0.0416
+is the movies not simple ? 0.0151
+is the movie not simple ? 0.0344
+was the movies not simple ? 0.0188
+was the movie not simple ? 0.0380
+are the movie not simple ? 0.0265
+are the movies not simple ? 0.0129
+were the movie not simple ? 0.0570
+were the movies not simple ? 0.0237
+is the pictures not full ? 0.0054
+is the picture not full ? 0.0035
+was the pictures not full ? 0.0076
+was the picture not full ? 0.0043
+are the picture not full ? 0.0036
+are the pictures not full ? 0.0039
+were the picture not full ? 0.0182
+were the pictures not full ? 0.0268
+is the arms not early ? 0.0041
+is the arm not early ? 0.0110
+was the arms not early ? 0.0055
+was the arm not early ? 0.0082
+are the arm not early ? 0.0264
+are the arms not early ? 0.0089
+were the arm not early ? 0.0555
+were the arms not early ? 0.0385
+is the eggs not recommended ? 0.0115
+is the egg not recommended ? 0.0078
+was the eggs not recommended ? 0.0171
+was the egg not recommended ? 0.0139
+are the egg not recommended ? 0.0173
+are the eggs not recommended ? 0.0260
+were the egg not recommended ? 0.2280
+were the eggs not recommended ? 0.1176
+is the arms not expected ? 0.0273
+is the arm not expected ? 0.0156
+was the arms not expected ? 0.0071
+was the arm not expected ? 0.0108
+are the arm not expected ? 0.0811
+are the arms not expected ? 0.0650
+were the arm not expected ? 0.0389
+were the arms not expected ? 0.0515
+is the stands not healthy ? 0.0017
+is the stand not healthy ? 0.0012
+was the stands not healthy ? 0.0038
+was the stand not healthy ? 0.0020
+are the stand not healthy ? 0.0105
+are the stands not healthy ? 0.0038
+were the stand not healthy ? 0.0291
+were the stands not healthy ? 0.0225
+is the engines not white ? 0.0030
+is the engine not white ? 0.0064
+was the engines not white ? 0.0074
+was the engine not white ? 0.0079
+are the engine not white ? 0.0125
+are the engines not white ? 0.0059
+were the engine not white ? 0.0199
+were the engines not white ? 0.0199
+is the rings not positive ? 0.0101
+is the ring not positive ? 0.0065
+was the rings not positive ? 0.0144
+was the ring not positive ? 0.0070
+are the ring not positive ? 0.0183
+are the rings not positive ? 0.0221
+were the ring not positive ? 0.0146
+were the rings not positive ? 0.0282
+is the horses not white ? 0.0186
+is the horse not white ? 0.0068
+was the horses not white ? 0.0061
+was the horse not white ? 0.0064
+are the horse not white ? 0.1201
+are the horses not white ? 0.0120
+were the horse not white ? 0.0351
+were the horses not white ? 0.0324
+is the parents not finished ? 0.0271
+is the parent not finished ? 0.0203
+was the parents not finished ? 0.0177
+was the parent not finished ? 0.0280
+are the parent not finished ? 0.0261
+are the parents not finished ? 0.0273
+were the parent not finished ? 0.0379
+were the parents not finished ? 0.0381
+is the lions not silly ? 0.0106
+is the lion not silly ? 0.0141
+was the lions not silly ? 0.0354
+was the lion not silly ? 0.0170
+are the lion not silly ? 0.0157
+are the lions not silly ? 0.0388
+were the lion not silly ? 0.2612
+were the lions not silly ? 0.0772
+is the rings not nice ? 0.0147
+is the ring not nice ? 0.0168
+was the rings not nice ? 0.0374
+was the ring not nice ? 0.0309
+are the ring not nice ? 1.7522
+are the rings not nice ? 1.5376
+were the ring not nice ? 0.1600
+were the rings not nice ? 0.0379
+is the books not ready ? 0.0047
+is the book not ready ? 0.0015
+was the books not ready ? 0.0101
+was the book not ready ? 0.0037
+are the book not ready ? 0.0117
+are the books not ready ? 0.0210
+were the book not ready ? 0.1640
+were the books not ready ? 0.0462
+is the arms not filled ? 0.0020
+is the arm not filled ? 0.0119
+was the arms not filled ? 0.0028
+was the arm not filled ? 0.0187
+are the arm not filled ? 0.0732
+are the arms not filled ? 0.0051
+were the arm not filled ? 0.0228
+were the arms not filled ? 0.0094
+is the bones not top ? 0.0473
+is the bone not top ? 0.0179
+was the bones not top ? 0.0281
+was the bone not top ? 0.0153
+are the bone not top ? 0.0194
+are the bones not top ? 0.0424
+were the bone not top ? 0.1264
+were the bones not top ? 0.0611
+is the waters not needed ? 0.0043
+is the water not needed ? 0.0111
+was the waters not needed ? 0.0206
+was the water not needed ? 0.0537
+are the water not needed ? 0.1415
+are the waters not needed ? 0.0607
+were the water not needed ? 0.2206
+were the waters not needed ? 0.1400
+is the hands not purple ? 0.1941
+is the hand not purple ? 0.3802
+was the hands not purple ? 0.0079
+was the hand not purple ? 0.0075
+are the hand not purple ? 1.4637
+are the hands not purple ? 1.2134
+were the hand not purple ? 0.0645
+were the hands not purple ? 0.0159
+is the pages not soft ? 0.0021
+is the page not soft ? 0.0036
+was the pages not soft ? 0.0065
+was the page not soft ? 0.0050
+are the page not soft ? 0.0088
+are the pages not soft ? 0.0034
+were the page not soft ? 0.0715
+were the pages not soft ? 0.0133
+is the stands not simple ? 0.0108
+is the stand not simple ? 0.0089
+was the stands not simple ? 0.0095
+was the stand not simple ? 0.0090
+are the stand not simple ? 0.0195
+are the stands not simple ? 0.0125
+were the stand not simple ? 0.0636
+were the stands not simple ? 0.0249
+is the feet not personal ? 0.0027
+is the foot not personal ? 0.0052
+was the feet not personal ? 0.0063
+was the foot not personal ? 0.0091
+are the foot not personal ? 0.0094
+are the feet not personal ? 0.0050
+were the foot not personal ? 0.0618
+were the feet not personal ? 0.0218
+is the ways not extra ? 0.0264
+is the way not extra ? 0.0806
+was the ways not extra ? 0.0258
+was the way not extra ? 0.1017
+are the way not extra ? 0.2935
+are the ways not extra ? 0.1406
+were the way not extra ? 0.1963
+were the ways not extra ? 0.0479
+where is the patterns ? 0.0196
+where is the pattern ? 0.0046
+what is the patterns ? 0.1779
+what is the pattern ? 0.0125
+what color is the patterns ? 0.1559
+what color is the pattern ? 0.0128
+is the patterns not purple ? 0.3840
+is the pattern not purple ? 0.0160
+is the patterns where it should be ? 0.0138
+is the pattern where it should be ? 0.0072
+is the patterns something you like ? 0.0071
+is the pattern something you like ? 0.0047
+is the patterns a good idea ? 0.0090
+is the pattern a good idea ? 0.0077
+where was the patterns ? 0.0238
+where was the pattern ? 0.0085
+what was the patterns ? 0.1703
+what was the pattern ? 0.0348
+what color was the patterns ? 0.0726
+what color was the pattern ? 0.0279
+was the patterns not purple ? 0.0235
+was the pattern not purple ? 0.0122
+was the patterns where it should be ? 0.0405
+was the pattern where it should be ? 0.0173
+was the patterns something you like ? 0.0083
+was the pattern something you like ? 0.0074
+was the patterns a good idea ? 0.0500
+was the pattern a good idea ? 0.0473
+where are the pattern ? 0.0311
+where are the patterns ? 0.0076
+what are the pattern ? 0.0591
+what are the patterns ? 0.1600
+what color are the pattern ? 0.0229
+what color are the patterns ? 0.0510
+are the pattern not purple ? 1.1307
+are the patterns not purple ? 1.2845
+are the pattern where they should be ? 0.0361
+are the patterns where they should be ? 0.0358
+are the pattern something you like ? 0.0839
+are the patterns something you like ? 0.0100
+are the pattern a good idea ? 0.0403
+are the patterns a good idea ? 0.0123
+where were the pattern ? 0.0155
+where were the patterns ? 0.0058
+what were the pattern ? 0.0573
+what were the patterns ? 0.1238
+what color were the pattern ? 0.0472
+what color were the patterns ? 0.0331
+were the pattern not purple ? 0.0477
+were the patterns not purple ? 0.0883
+were the pattern where they should be ? 0.5027
+were the patterns where they should be ? 0.4808
+were the pattern something you like ? 0.6962
+were the patterns something you like ? 0.2288
+were the pattern a good idea ? 0.2537
+were the patterns a good idea ? 0.0433
+is the lions not tall ? 0.0084
+is the lion not tall ? 0.0101
+was the lions not tall ? 0.0082
+was the lion not tall ? 0.0058
+are the lion not tall ? 0.0127
+are the lions not tall ? 0.0158
+were the lion not tall ? 0.0260
+were the lions not tall ? 0.0282
+is the movies not sacred ? 0.0067
+is the movie not sacred ? 0.0079
+was the movies not sacred ? 0.0085
+was the movie not sacred ? 0.0139
+are the movie not sacred ? 0.0215
+are the movies not sacred ? 0.0115
+were the movie not sacred ? 0.0418
+were the movies not sacred ? 0.0208
+is the children not silly ? 0.0114
+is the child not silly ? 0.0088
+was the children not silly ? 0.0189
+was the child not silly ? 0.0156
+are the child not silly ? 0.0096
+are the children not silly ? 0.0136
+were the child not silly ? 0.0909
+were the children not silly ? 0.0547
+is the windows not extra ? 0.1732
+is the window not extra ? 0.7823
+was the windows not extra ? 0.0432
+was the window not extra ? 0.0595
+are the window not extra ? 1.6507
+are the windows not extra ? 1.4433
+were the window not extra ? 0.3571
+were the windows not extra ? 0.0947
+is the windows not expected ? 0.0968
+is the window not expected ? 0.8342
+was the windows not expected ? 0.0519
+was the window not expected ? 0.0631
+are the window not expected ? 1.5431
+are the windows not expected ? 1.0799
+were the window not expected ? 0.1587
+were the windows not expected ? 0.0491
+is the kings not flat ? 0.1744
+is the king not flat ? 0.0720
+was the kings not flat ? 0.1220
+was the king not flat ? 0.0476
+are the king not flat ? 0.7947
+are the kings not flat ? 0.1964
+were the king not flat ? 0.2531
+were the kings not flat ? 0.1778
+is the fingers not english ? 2.0188
+is the finger not english ? 1.6853
+was the fingers not english ? 1.7744
+was the finger not english ? 1.5331
+are the finger not english ? 1.7927
+are the fingers not english ? 2.0582
+were the finger not english ? 1.7159
+were the fingers not english ? 1.9655
+is the types not quick ? 0.0152
+is the type not quick ? 0.0033
+was the types not quick ? 0.0243
+was the type not quick ? 0.0045
+are the type not quick ? 0.0057
+are the types not quick ? 0.0139
+were the type not quick ? 0.0299
+were the types not quick ? 0.0168
+is the waters not summer ? 0.0381
+is the water not summer ? 0.0365
+was the waters not summer ? 0.0249
+was the water not summer ? 0.0573
+are the water not summer ? 1.3494
+are the waters not summer ? 0.0509
+were the water not summer ? 0.2167
+were the waters not summer ? 0.0594
+is the arms not last ? 0.0089
+is the arm not last ? 0.0372
+was the arms not last ? 0.0117
+was the arm not last ? 0.0404
+are the arm not last ? 0.0277
+are the arms not last ? 0.0069
+were the arm not last ? 0.0499
+were the arms not last ? 0.0224
+is the problems not electronic ? 0.0295
+is the problem not electronic ? 0.0287
+was the problems not electronic ? 0.0524
+was the problem not electronic ? 0.0503
+are the problem not electronic ? 0.0316
+are the problems not electronic ? 0.0138
+were the problem not electronic ? 0.1077
+were the problems not electronic ? 0.0210
+is the bones not expected ? 0.0163
+is the bone not expected ? 0.0544
+was the bones not expected ? 0.0128
+was the bone not expected ? 0.0260
+are the bone not expected ? 0.0806
+are the bones not expected ? 0.0238
+were the bone not expected ? 0.1002
+were the bones not expected ? 0.0372
+is the engines not abandoned ? 0.0041
+is the engine not abandoned ? 0.0075
+was the engines not abandoned ? 0.0135
+was the engine not abandoned ? 0.0171
+are the engine not abandoned ? 0.0195
+are the engines not abandoned ? 0.0144
+were the engine not abandoned ? 0.0321
+were the engines not abandoned ? 0.0458
+is the kings not yellow ? 0.0156
+is the king not yellow ? 0.5919
+was the kings not yellow ? 0.0145
+was the king not yellow ? 0.0415
+are the king not yellow ? 1.3412
+are the kings not yellow ? 0.0176
+were the king not yellow ? 0.7533
+were the kings not yellow ? 0.0834
+is the movies not needed ? 0.0256
+is the movie not needed ? 0.0460
+was the movies not needed ? 0.0391
+was the movie not needed ? 0.0636
+are the movie not needed ? 0.0399
+are the movies not needed ? 0.0930
+were the movie not needed ? 0.0558
+were the movies not needed ? 0.0518
+is the whales not contemporary ? 0.0153
+is the whale not contemporary ? 0.0122
+was the whales not contemporary ? 0.0510
+was the whale not contemporary ? 0.0109
+are the whale not contemporary ? 0.0186
+are the whales not contemporary ? 0.0147
+were the whale not contemporary ? 0.0200
+were the whales not contemporary ? 0.0364
+is the types not bad ? 0.0258
+is the type not bad ? 0.0061
+was the types not bad ? 0.0468
+was the type not bad ? 0.0051
+are the type not bad ? 0.0056
+are the types not bad ? 0.0172
+were the type not bad ? 0.0261
+were the types not bad ? 0.0324
+is the problems not top ? 0.0103
+is the problem not top ? 0.0129
+was the problems not top ? 0.0166
+was the problem not top ? 0.0129
+are the problem not top ? 0.0219
+are the problems not top ? 0.0332
+were the problem not top ? 0.0432
+were the problems not top ? 0.0152
+is the horses not recommended ? 0.1083
+is the horse not recommended ? 0.0176
+was the horses not recommended ? 0.0831
+was the horse not recommended ? 0.0259
+are the horse not recommended ? 0.0372
+are the horses not recommended ? 0.1977
+were the horse not recommended ? 0.1047
+were the horses not recommended ? 0.2119
+is the pictures not carbon ? 0.0198
+is the picture not carbon ? 0.0322
+was the pictures not carbon ? 0.0088
+was the picture not carbon ? 0.0078
+are the picture not carbon ? 0.0396
+are the pictures not carbon ? 0.0398
+were the picture not carbon ? 0.0386
+were the pictures not carbon ? 0.0482
+is the books not personal ? 0.0050
+is the book not personal ? 0.0047
+was the books not personal ? 0.0067
+was the book not personal ? 0.0033
+are the book not personal ? 0.0116
+are the books not personal ? 0.0064
+were the book not personal ? 0.0325
+were the books not personal ? 0.0198
+is the types not top ? 0.0183
+is the type not top ? 0.0112
+was the types not top ? 0.0200
+was the type not top ? 0.0094
+are the type not top ? 0.0192
+are the types not top ? 0.0591
+were the type not top ? 0.0231
+were the types not top ? 0.0278
+is the bones not tall ? 0.0206
+is the bone not tall ? 0.0233
+was the bones not tall ? 0.0100
+was the bone not tall ? 0.0101
+are the bone not tall ? 0.0141
+are the bones not tall ? 0.0255
+were the bone not tall ? 0.0764
+were the bones not tall ? 0.0372
+is the windows not finished ? 0.0400
+is the window not finished ? 0.3505
+was the windows not finished ? 0.0157
+was the window not finished ? 0.0373
+are the window not finished ? 1.7068
+are the windows not finished ? 0.6348
+were the window not finished ? 0.1309
+were the windows not finished ? 0.0378
+is the lions not personal ? 0.0071
+is the lion not personal ? 0.0060
+was the lions not personal ? 0.0145
+was the lion not personal ? 0.0112
+are the lion not personal ? 0.0073
+are the lions not personal ? 0.0075
+were the lion not personal ? 0.0352
+were the lions not personal ? 0.0292
+where is the dollars ? 0.0317
+where is the dollar ? 0.0054
+what is the dollars ? 0.1228
+what is the dollar ? 0.0106
+what color is the dollars ? 0.1304
+what color is the dollar ? 0.0136
+is the dollars not last ? 0.0108
+is the dollar not last ? 0.0131
+is the dollars where it should be ? 0.0085
+is the dollar where it should be ? 0.0114
+is the dollars something you like ? 0.0283
+is the dollar something you like ? 0.0032
+is the dollars a good idea ? 0.0283
+is the dollar a good idea ? 0.0120
+where was the dollars ? 0.0136
+where was the dollar ? 0.0046
+what was the dollars ? 0.0624
+what was the dollar ? 0.0292
+what color was the dollars ? 0.0646
+what color was the dollar ? 0.0207
+was the dollars not last ? 0.0115
+was the dollar not last ? 0.0147
+was the dollars where it should be ? 0.0360
+was the dollar where it should be ? 0.0181
+was the dollars something you like ? 0.0539
+was the dollar something you like ? 0.0087
+was the dollars a good idea ? 0.0361
+was the dollar a good idea ? 0.0298
+where are the dollar ? 0.0094
+where are the dollars ? 0.0284
+what are the dollar ? 0.0677
+what are the dollars ? 0.2180
+what color are the dollar ? 0.0185
+what color are the dollars ? 0.1086
+are the dollar not last ? 0.0168
+are the dollars not last ? 0.0123
+are the dollar where they should be ? 0.2105
+are the dollars where they should be ? 0.0192
+are the dollar something you like ? 0.0210
+are the dollars something you like ? 0.0149
+are the dollar a good idea ? 0.0155
+are the dollars a good idea ? 0.0159
+where were the dollar ? 0.0058
+where were the dollars ? 0.0229
+what were the dollar ? 0.0597
+what were the dollars ? 0.1379
+what color were the dollar ? 0.0246
+what color were the dollars ? 0.0528
+were the dollar not last ? 0.0249
+were the dollars not last ? 0.0282
+were the dollar where they should be ? 0.4430
+were the dollars where they should be ? 0.4323
+were the dollar something you like ? 0.6346
+were the dollars something you like ? 0.3973
+were the dollar a good idea ? 0.1097
+were the dollars a good idea ? 0.0655
+is the cars not fixed ? 0.0142
+is the car not fixed ? 0.0155
+was the cars not fixed ? 0.0240
+was the car not fixed ? 0.0252
+are the car not fixed ? 0.0586
+are the cars not fixed ? 0.0392
+were the car not fixed ? 0.0290
+were the cars not fixed ? 0.0208
+is the children not electronic ? 0.0160
+is the child not electronic ? 0.0245
+was the children not electronic ? 0.0225
+was the child not electronic ? 0.0710
+are the child not electronic ? 0.0746
+are the children not electronic ? 0.0255
+were the child not electronic ? 0.0441
+were the children not electronic ? 0.0188
+is the patterns not nice ? 0.0078
+is the pattern not nice ? 0.0071
+was the patterns not nice ? 0.0322
+was the pattern not nice ? 0.0204
+are the pattern not nice ? 0.3207
+are the patterns not nice ? 0.0619
+were the pattern not nice ? 0.1632
+were the patterns not nice ? 0.0474
+is the things not expected ? 0.0104
+is the thing not expected ? 0.0104
+was the things not expected ? 0.0394
+was the thing not expected ? 0.0134
+are the thing not expected ? 0.0335
+are the things not expected ? 0.0288
+were the thing not expected ? 0.0288
+were the things not expected ? 0.0612
+is the toys not solid ? 0.2376
+is the toy not solid ? 0.0119
+was the toys not solid ? 0.1911
+was the toy not solid ? 0.0221
+are the toy not solid ? 0.0268
+are the toys not solid ? 0.1799
+were the toy not solid ? 0.0392
+were the toys not solid ? 0.1335
+is the calls not english ? 1.8018
+is the call not english ? 1.9949
+was the calls not english ? 1.4948
+was the call not english ? 1.7382
+are the call not english ? 2.2511
+are the calls not english ? 1.9473
+were the call not english ? 1.8320
+were the calls not english ? 1.6680

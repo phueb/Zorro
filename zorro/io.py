@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, Optional
 from pathlib import Path
 
 from zorro import configs
@@ -8,6 +8,7 @@ def get_group2model_output_paths(group_names: List[str],
                                  phenomenon: str,
                                  paradigm: str,
                                  step: str = '*',
+                                 group_name2step: Optional[Dict[str, int]] = None,
                                  ) -> Dict[str, List[Path]]:
     """
     load files containing the cross entropies assigned to each sentence in the paradigm,
@@ -24,7 +25,9 @@ def get_group2model_output_paths(group_names: List[str],
     # find paths to files, for each group
     res = {}
     for group_name in group_names:
-        # print(f'Looking for prediction files for {group_name}')
+
+        if group_name2step is not None:
+            step = group_name2step[group_name]
 
         pattern = f'{group_name}/**/saves/{configs.Data.vocab_name}/probing_{fn}_results_{step}.txt'
         model_output_paths = [p for p in runs_path.rglob(pattern)]

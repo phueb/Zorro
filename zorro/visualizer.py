@@ -130,7 +130,7 @@ class VisualizerLines(VisualizerBase):
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
         self.paradigm2roberta_base_accuracy = {}
-        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_30B' / '0' / 'saves' / configs.Data.vocab_name
+        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_Liu2019' / '0' / 'saves' / configs.Data.vocab_name
         for phenomenon, paradigm in self.phenomena_paradigms:
             model_output_path = base_path / f'probing_{phenomenon}-{paradigm}_results_500000.txt'
             data = DataExperimental(model_output_path, phenomenon, paradigm)
@@ -300,6 +300,10 @@ class VisualizerLines(VisualizerBase):
             # printout
             if use_title:  # to prevent printing summary twice
                 print(f'{gn} avg acc at step {self.last_step} = {y[-1]:.3f}')
+
+        if use_title:
+            y_roberta_base = np.mean(list(self.paradigm2roberta_base_accuracy.values()))
+            print(f'roberta-base Liu2019 avg acc at step {self.last_step} = {y_roberta_base:.3f}')
 
     def _plot_legend(self,
                      offset_from_bottom: float,
@@ -518,6 +522,7 @@ class VisualizerBars(VisualizerBase):
         group_names = [gn for gn in gn2rep2accuracies_by_pd]
 
         # print average performance by group
+        print()
         for group_name in group_names:
             rep2accuracies_by_pd = gn2rep2accuracies_by_pd[group_name]
 
@@ -526,7 +531,7 @@ class VisualizerBars(VisualizerBase):
                                       for rep, accuracies_by_pd in rep2accuracies_by_pd.items()}
             accuracies = np.array([rep2acc_avg_across_pds[rep] for rep in rep2acc_avg_across_pds])  # one for each rep
             y = accuracies.mean()
-            print(f'{group_name:<96} y={y:.3f}')
+            print(f'{group_name:.<60} y={y:.3f}')
 
         # chance level
         ax.axvline(x=0.5, linestyle='dotted', color='grey')
