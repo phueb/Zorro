@@ -1,4 +1,0 @@
-architecture: Roberta-base
-data_size: 10M
-framework: huggingface
-corpora: Warstadt et al., 2020

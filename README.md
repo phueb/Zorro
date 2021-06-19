@@ -2,7 +2,7 @@
  <img src="images/logo.png" width="250"> 
 </div>
 
-A test suite for probing grammatical acceptability judgements of masked language models trained on child-directed input.
+Grammar test suite for masked language models.
 
 ## About
 
@@ -61,7 +61,7 @@ Because BabyBERTa is trained on lower-cased data, all words in test sentences, e
 
 ### To score predictions made by your models:
 
-Use `scripts/plot_accuracy_single_time_point.py` or `scripts/plot_accuracy_curve.py`. 
+Use `scripts/plot_accuracy_boxplot.py` or `scripts/plot_accuracy_curve.py`. 
 These scripts must be pointed to text files containing sentences alongside their cross-entropy scores, 
 each separated by a new line. Ordering of sentences does not matter - 
 whether a sentence is grammatical or not is decided by matching the sentence to its order in the original file in `sentences/`.

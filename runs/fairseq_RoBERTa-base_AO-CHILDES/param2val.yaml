@@ -1,4 +1,0 @@
-architecture: Roberta-base
-corpora: AO-CHILDES
-data_size: 5M
-framework: fairseq

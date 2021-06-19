@@ -11,6 +11,7 @@ from zorro.data import DataExperimental, DataBaseline
 from zorro.scoring import count_correct_choices
 from zorro.utils import shorten_tick_label
 
+SHOW_PARTIAL_FIGURE = True  # whether to show partially completed figure while making large figure
 
 MULTI_AXIS_LEG_NUM_COLS = 2  # 2 or 3 depending on space
 MULTI_AXIS_LEG_OFFSET = 0.12
@@ -69,7 +70,7 @@ class VisualizerBase:
                  y_lims: Optional[List[float]] = None,
                  fig_size: int = (6, 5),
                  dpi: int = 300,
-                 show_partial_figure: bool = False,
+                 show_partial_figure: bool = SHOW_PARTIAL_FIGURE,
                  confidence: float = 0.90,
                  ):
 
@@ -130,7 +131,7 @@ class VisualizerLines(VisualizerBase):
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
         self.paradigm2roberta_base_accuracy = {}
-        base_path = configs.Dirs.runs_local / 'huggingface_Roberta-base_Liu2019' / '0' / 'saves' / configs.Data.vocab_name
+        base_path = configs.Dirs.runs_local / 'huggingface_RoBERTa-base_Liu2019' / '0' / 'saves' / configs.Data.vocab_name
         for phenomenon, paradigm in self.phenomena_paradigms:
             model_output_path = base_path / f'probing_{phenomenon}-{paradigm}_results_500000.txt'
             data = DataExperimental(model_output_path, phenomenon, paradigm)

@@ -176,7 +176,7 @@ def get_legend_label(group_name,
 
     if 'BabyBERTa' in group_name or 'param_' in group_name:
         model_name = 'BabyBERTa'
-    elif 'RoBERTa-base' in group_name or 'Roberta-base' in group_name:
+    elif 'RoBERTa-base' in group_name:
         model_name = 'RoBERTa-base'
     else:
         raise AttributeError(f'Did not recognize {group_name}. BabyBERTa or RoBERTa-base?')
@@ -187,7 +187,7 @@ def get_legend_label(group_name,
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
             try:
-                param2val_previous = load_param2val(param2val[c], runs_path.parent / 'runs_saved')
+                param2val_previous = load_param2val(param2val[c], runs_path.parent / 'runs')
             except FileNotFoundError:
                 res += f'| loaded from {param2val[c]} '
             else:
