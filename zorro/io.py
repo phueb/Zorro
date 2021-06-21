@@ -15,11 +15,6 @@ def get_group2model_output_paths(group_names: List[str],
      for all models and steps
      """
 
-    if configs.Eval.local_runs:
-        runs_path = configs.Dirs.runs_local
-    else:
-        runs_path = configs.Dirs.runs_remote
-
     fn = f'{phenomenon}-{paradigm}'
 
     # find paths to files, for each group
@@ -30,7 +25,7 @@ def get_group2model_output_paths(group_names: List[str],
             step = group_name2step[group_name]
 
         pattern = f'{group_name}/**/saves/{configs.Data.vocab_name}/probing_{fn}_results_{step}.txt'
-        model_output_paths = [p for p in runs_path.rglob(pattern)]
+        model_output_paths = [p for p in configs.Dirs.runs.rglob(pattern)]
 
         if not model_output_paths:
             raise FileNotFoundError(f'Did not find model output'

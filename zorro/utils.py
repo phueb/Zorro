@@ -167,12 +167,7 @@ def get_legend_label(group_name,
     if group_name.endswith('frequency baseline'):
         return 'frequency baseline'
 
-    if configs.Eval.local_runs:
-        runs_path = configs.Dirs.runs_local
-    else:
-        runs_path = configs.Dirs.runs_remote
-
-    param2val = load_param2val(group_name, runs_path)
+    param2val = load_param2val(group_name)
 
     if 'BabyBERTa' in group_name or 'param_' in group_name:
         model_name = 'BabyBERTa'
@@ -187,7 +182,7 @@ def get_legend_label(group_name,
     for c in conditions:
         if c == 'load_from_checkpoint' and param2val[c] != 'none':
             try:
-                param2val_previous = load_param2val(param2val[c], runs_path.parent / 'runs')
+                param2val_previous = load_param2val(param2val[c])
             except FileNotFoundError:
                 res += f'| loaded from {param2val[c]} '
             else:
@@ -226,8 +221,8 @@ def get_legend_label(group_name,
     return res
 
 
-def load_param2val(group_name, runs_path):
-    path = runs_path / group_name / 'param2val.yaml'
+def load_param2val(group_name):
+    path = configs.Dirs.runs / group_name / 'param2val.yaml'
     with path.open('r') as f:
         param2val = yaml.load(f, Loader=yaml.FullLoader)
     return param2val
@@ -237,14 +232,8 @@ def load_group_names(param_names: Optional[List[str]] = None,
                      included_params: Dict[str, Any] = None,
                      ) -> List[str]:
 
-    # get files locally, where we have runs at single time points only
-    if configs.Eval.local_runs:
-        runs_path = configs.Dirs.runs_local
-    else:
-        runs_path = configs.Dirs.runs_remote
-
     if param_names is None:
-        group_names_ = sorted([p.name for p in runs_path.glob('*')])
+        group_names_ = sorted([p.name for p in configs.Dirs.runs.glob('*')])
     else:
         group_names_ = param_names
 
@@ -252,7 +241,7 @@ def load_group_names(param_names: Optional[List[str]] = None,
     if included_params:
         res = []
         for gn in group_names_:
-            path = runs_path / gn / 'param2val.yaml'
+            path = configs.Dirs.runs / gn / 'param2val.yaml'
             with path.open('r') as f:
                 param2val = yaml.load(f, Loader=yaml.FullLoader)
             for k, v in included_params.items():

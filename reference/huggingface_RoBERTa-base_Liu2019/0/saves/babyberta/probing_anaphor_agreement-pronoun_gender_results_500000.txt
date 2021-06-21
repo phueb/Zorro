@@ -1,0 +1,4000 @@
+will Mark want herself ? 0.1585
+will Mark want himself ? 0.0398
+will a woman want himself ? 0.2486
+will a woman want herself ? 0.0577
+Mark will not want herself . 0.3399
+Mark will not want himself . 0.0905
+a woman will not want himself . 0.2478
+a woman will not want herself . 0.0167
+should Alexander make herself the scale ? 0.0252
+should Alexander make himself the scale ? 0.0913
+should a woman make himself the scale ? 0.0922
+should a woman make herself the scale ? 0.0211
+Alexander should make herself the scale . 0.0335
+Alexander should make himself the scale . 0.0933
+a woman should make himself the scale . 0.0984
+a woman should make herself the scale . 0.0295
+must that man tell herself about the guess ? 0.6963
+must that man tell himself about the guess ? 0.3737
+must a woman tell himself about the guess ? 0.7387
+must a woman tell herself about the guess ? 0.5367
+that man did not tell herself about the guess . 0.3427
+that man did not tell himself about the guess . 0.2636
+a woman did not tell himself about the guess . 0.6903
+a woman did not tell herself about the guess . 0.4711
+must Roger work with herself on the stand ? 0.0644
+must Roger work with himself on the stand ? 0.0595
+must she work with himself on the stand ? 0.4494
+must she work with herself on the stand ? 0.0806
+Roger must work with herself on the stand . 0.0148
+Roger must work with himself on the stand . 0.0061
+she must work with himself on the stand . 0.1481
+she must work with herself on the stand . 0.0153
+will that man tell herself about the bear ? 0.0712
+will that man tell himself about the bear ? 0.0064
+will that woman tell himself about the bear ? 0.1938
+will that woman tell herself about the bear ? 0.0064
+that man will not tell herself about the bear . 0.0350
+that man will not tell himself about the bear . 0.0137
+that woman will not tell himself about the bear . 0.1014
+that woman will not tell herself about the bear . 0.0216
+can Michael be like herself ? 0.0064
+can Michael be like himself ? 0.0015
+can that woman be like himself ? 0.0889
+can that woman be like herself ? 0.0017
+Michael can be like herself . 0.0168
+Michael can be like himself . 0.0035
+that woman can be like himself . 0.1442
+that woman can be like herself . 0.0099
+should Philip tell herself about the rock ? 0.0776
+should Philip tell himself about the rock ? 0.0662
+should Sarah tell himself about the rock ? 0.1337
+should Sarah tell herself about the rock ? 0.0682
+Philip should not tell herself about the rock . 0.0553
+Philip should not tell himself about the rock . 0.0601
+Sarah should not tell himself about the rock . 0.1315
+Sarah should not tell herself about the rock . 0.0783
+can Michael run to herself ? 0.0150
+can Michael run to himself ? 0.0085
+can Sarah run to himself ? 0.0949
+can Sarah run to herself ? 0.0059
+Michael can run to herself . 0.0096
+Michael can run to himself . 0.0117
+Sarah can run to himself . 0.0752
+Sarah can run to herself . 0.0113
+could Alexander close herself ? 0.0224
+could Alexander close himself ? 0.0197
+could a woman close himself ? 0.0989
+could a woman close herself ? 0.0314
+Alexander could not close herself . 0.0080
+Alexander could not close himself . 0.0058
+a woman could not close himself . 0.0696
+a woman could not close herself . 0.0112
+would the man record herself ? 0.0103
+would the man record himself ? 0.0046
+would that woman record himself ? 0.0092
+would that woman record herself ? 0.0027
+the man would record herself . 0.0213
+the man would record himself . 0.0054
+that woman would record himself . 0.0262
+that woman would record herself . 0.0076
+could Richard work with herself on the boom ? 0.1696
+could Richard work with himself on the boom ? 0.0602
+could a woman work with himself on the boom ? 0.1780
+could a woman work with herself on the boom ? 0.2236
+Richard could not work with herself on the boom . 0.1397
+Richard could not work with himself on the boom . 0.0577
+a woman could not work with himself on the boom . 0.2756
+a woman could not work with herself on the boom . 0.2623
+could Mark read herself ? 0.0553
+could Mark read himself ? 0.0067
+could Sarah read himself ? 0.0526
+could Sarah read herself ? 0.0053
+Mark could read herself . 0.0501
+Mark could read himself . 0.0079
+Sarah could read himself . 0.1910
+Sarah could read herself . 0.0040
+will Alexander read herself ? 0.0095
+will Alexander read himself ? 0.0100
+will that woman read himself ? 0.0311
+will that woman read herself ? 0.0095
+Alexander will read herself . 0.0097
+Alexander will read himself . 0.0073
+that woman will read himself . 0.1386
+that woman will read herself . 0.0284
+should William make herself the whale ? 0.0131
+should William make himself the whale ? 0.0016
+should that woman make himself the whale ? 0.0125
+should that woman make herself the whale ? 0.0028
+William should make herself the whale . 0.0141
+William should make himself the whale . 0.0047
+that woman should make himself the whale . 0.0807
+that woman should make herself the whale . 0.0082
+must Michael record herself ? 0.1031
+must Michael record himself ? 0.1183
+must a woman record himself ? 0.0578
+must a woman record herself ? 0.0286
+Michael must record herself . 0.0030
+Michael must record himself . 0.0029
+a woman must record himself . 0.0356
+a woman must record herself . 0.0065
+could he record herself ? 0.0361
+could he record himself ? 0.0021
+could she record himself ? 0.1107
+could she record herself ? 0.0017
+he could record herself . 0.0168
+he could record himself . 0.0043
+she could record himself . 0.0653
+she could record herself . 0.0106
+must Philip make herself the back ? 0.1610
+must Philip make himself the back ? 0.4230
+must a woman make himself the back ? 0.2144
+must a woman make herself the back ? 0.1831
+Philip did not make herself the back . 0.1050
+Philip did not make himself the back . 0.1471
+a woman did not make himself the back . 0.2518
+a woman did not make herself the back . 0.2060
+should he work with herself on the drop ? 0.3473
+should he work with himself on the drop ? 0.0090
+should Sarah work with himself on the drop ? 0.0387
+should Sarah work with herself on the drop ? 0.0137
+he should not work with herself on the drop . 0.0348
+he should not work with himself on the drop . 0.0324
+Sarah should not work with himself on the drop . 0.0426
+Sarah should not work with herself on the drop . 0.0352
+will he want herself ? 0.4766
+will he want himself ? 0.0199
+will Sarah want himself ? 0.2344
+will Sarah want herself ? 0.0341
+he will want herself . 0.0340
+he will want himself . 0.0315
+Sarah will want himself . 0.4642
+Sarah will want herself . 0.1450
+can that man record herself ? 0.0051
+can that man record himself ? 0.0013
+can she record himself ? 0.1471
+can she record herself ? 0.0010
+that man can not record herself . 0.0292
+that man can not record himself . 0.0059
+she can not record himself . 0.0527
+she can not record herself . 0.0125
+will Philip read herself ? 0.0338
+will Philip read himself ? 0.0119
+will the woman read himself ? 0.0335
+will the woman read herself ? 0.0069
+Philip will not read herself . 0.0097
+Philip will not read himself . 0.0047
+the woman will not read himself . 0.0782
+the woman will not read herself . 0.0088
+should a man tell herself about the label ? 0.1593
+should a man tell himself about the label ? 0.0049
+should she tell himself about the label ? 0.4559
+should she tell herself about the label ? 0.0020
+a man should tell herself about the label . 0.0278
+a man should tell himself about the label . 0.0142
+she should tell himself about the label . 0.0875
+she should tell herself about the label . 0.0116
+can that man give herself the access ? 0.0066
+can that man give himself the access ? 0.0038
+can Sarah give himself the access ? 0.0146
+can Sarah give herself the access ? 0.0023
+that man can give herself the access . 0.0417
+that man can give himself the access . 0.0088
+Sarah can give himself the access . 0.0207
+Sarah can give herself the access . 0.0068
+can Richard want herself ? 0.0632
+can Richard want himself ? 0.0331
+can a woman want himself ? 0.2060
+can a woman want herself ? 0.0042
+Richard can not want herself . 0.0631
+Richard can not want himself . 0.2340
+a woman can not want himself . 0.0908
+a woman can not want herself . 0.0111
+should William be like herself ? 0.0072
+should William be like himself ? 0.0018
+should Laura be like himself ? 0.0075
+should Laura be like herself ? 0.0022
+William should not be like herself . 0.1656
+William should not be like himself . 0.0054
+Laura should not be like himself . 0.0420
+Laura should not be like herself . 0.0036
+could Michael work with herself on the tradition ? 0.0554
+could Michael work with himself on the tradition ? 0.0848
+could a woman work with himself on the tradition ? 0.1367
+could a woman work with herself on the tradition ? 0.0165
+Michael could work with herself on the tradition . 0.0838
+Michael could work with himself on the tradition . 0.0863
+a woman could work with himself on the tradition . 0.1222
+a woman could work with herself on the tradition . 0.0184
+would Philip give herself the plan ? 0.0547
+would Philip give himself the plan ? 0.0331
+would that woman give himself the plan ? 0.0775
+would that woman give herself the plan ? 0.0652
+Philip would not give herself the plan . 0.3345
+Philip would not give himself the plan . 0.0860
+that woman would not give himself the plan . 0.1554
+that woman would not give herself the plan . 0.1401
+will Richard make herself the access ? 0.0233
+will Richard make himself the access ? 0.0152
+will Laura make himself the access ? 0.0377
+will Laura make herself the access ? 0.0377
+Richard will make herself the access . 0.0347
+Richard will make himself the access . 0.0275
+Laura will make himself the access . 0.0462
+Laura will make herself the access . 0.0434
+will Laura want himself ? 0.1626
+will Laura want herself ? 0.0305
+Laura will want himself . 0.3923
+Laura will want herself . 0.1116
+should Donald close herself ? 0.7690
+should Donald close himself ? 0.0286
+should a woman close himself ? 0.2167
+should a woman close herself ? 0.0035
+Donald should not close herself . 0.1449
+Donald should not close himself . 0.0175
+a woman should not close himself . 0.1090
+a woman should not close herself . 0.0179
+can that man be like herself ? 0.0837
+can that man be like himself ? 0.0016
+that man can be like herself . 0.2065
+that man can be like himself . 0.0058
+will Alexander give herself the suit ? 0.0099
+will Alexander give himself the suit ? 0.0064
+will Laura give himself the suit ? 0.0306
+will Laura give herself the suit ? 0.0070
+Alexander did not give herself the suit . 0.0215
+Alexander did not give himself the suit . 0.0202
+Laura did not give himself the suit . 0.0843
+Laura did not give herself the suit . 0.0440
+must Roger run to herself ? 0.0328
+must Roger run to himself ? 0.0344
+must Sarah run to himself ? 0.1754
+must Sarah run to herself ? 0.0325
+Roger must not run to herself . 0.0141
+Roger must not run to himself . 0.0052
+Sarah must not run to himself . 0.0768
+Sarah must not run to herself . 0.0052
+must Roger want herself ? 0.3168
+must Roger want himself ? 0.4323
+must a woman want himself ? 0.2739
+must a woman want herself ? 0.0564
+Roger must not want herself . 0.0536
+Roger must not want himself . 0.0693
+a woman must not want himself . 0.1923
+a woman must not want herself . 0.0097
+could Alexander give herself the general ? 0.1129
+could Alexander give himself the general ? 0.0628
+could she give himself the general ? 0.2438
+could she give herself the general ? 0.1921
+Alexander could not give herself the general . 0.1506
+Alexander could not give himself the general . 0.0426
+she could not give himself the general . 0.1663
+she could not give herself the general . 0.1189
+should Donald tell herself about the stand ? 0.1758
+should Donald tell himself about the stand ? 0.0736
+should Sarah tell himself about the stand ? 0.2440
+should Sarah tell herself about the stand ? 0.0437
+Donald should not tell herself about the stand . 0.1079
+Donald should not tell himself about the stand . 0.1445
+Sarah should not tell himself about the stand . 0.2125
+Sarah should not tell herself about the stand . 0.0851
+can the man work with herself on the camera ? 0.0223
+can the man work with himself on the camera ? 0.0084
+can the woman work with himself on the camera ? 0.0761
+can the woman work with herself on the camera ? 0.0150
+the man can work with herself on the camera . 0.0786
+the man can work with himself on the camera . 0.0089
+the woman can work with himself on the camera . 0.0973
+the woman can work with herself on the camera . 0.0115
+will Mark work with herself on the hill ? 0.0222
+will Mark work with himself on the hill ? 0.0116
+will a woman work with himself on the hill ? 0.1285
+will a woman work with herself on the hill ? 0.0201
+Mark will work with herself on the hill . 0.2264
+Mark will work with himself on the hill . 0.0093
+a woman will work with himself on the hill . 0.2061
+a woman will work with herself on the hill . 0.0132
+can Donald close herself ? 0.1509
+can Donald close himself ? 0.0230
+can she close himself ? 0.2840
+can she close herself ? 0.0013
+Donald can close herself . 0.0956
+Donald can close himself . 0.0421
+she can close himself . 0.1285
+she can close herself . 0.0200
+should Michael close herself ? 0.0316
+should Michael close himself ? 0.0040
+Michael should close herself . 0.0727
+Michael should close himself . 0.0096
+a woman should close himself . 0.1028
+a woman should close herself . 0.0129
+should Mark give herself the movie ? 0.0521
+should Mark give himself the movie ? 0.0331
+should Sarah give himself the movie ? 0.0540
+should Sarah give herself the movie ? 0.0103
+Mark did not give herself the movie . 0.1991
+Mark did not give himself the movie . 0.0751
+Sarah did not give himself the movie . 0.0672
+Sarah did not give herself the movie . 0.0365
+should Richard tell herself about the cast ? 0.0329
+should Richard tell himself about the cast ? 0.0256
+should she tell himself about the cast ? 0.6678
+should she tell herself about the cast ? 0.0155
+Richard should not tell herself about the cast . 0.0251
+Richard should not tell himself about the cast . 0.0186
+she should not tell himself about the cast . 0.1131
+she should not tell herself about the cast . 0.0373
+should that man read herself ? 0.0295
+should that man read himself ? 0.0213
+should Sarah read himself ? 0.0999
+should Sarah read herself ? 0.0090
+that man should read herself . 0.1868
+that man should read himself . 0.0064
+Sarah should read himself . 0.4916
+Sarah should read herself . 0.0137
+could he give herself the home ? 0.2815
+could he give himself the home ? 0.0039
+could Sarah give himself the home ? 0.0216
+could Sarah give herself the home ? 0.0059
+he could give herself the home . 0.0137
+he could give himself the home . 0.0112
+Sarah could give himself the home . 0.0274
+Sarah could give herself the home . 0.0102
+can a man work with herself on the picture ? 0.1859
+can a man work with himself on the picture ? 0.0166
+can a woman work with himself on the picture ? 0.1154
+can a woman work with herself on the picture ? 0.0286
+a man can work with herself on the picture . 0.2111
+a man can work with himself on the picture . 0.0172
+a woman can work with himself on the picture . 0.2465
+a woman can work with herself on the picture . 0.0272
+will the man make herself the stand ? 0.0269
+will the man make himself the stand ? 0.0451
+will the woman make himself the stand ? 0.1341
+will the woman make herself the stand ? 0.0577
+the man will make herself the stand . 0.0257
+the man will make himself the stand . 0.0345
+the woman will make himself the stand . 0.1311
+the woman will make herself the stand . 0.0674
+could Philip make herself the home ? 0.0220
+could Philip make himself the home ? 0.0299
+could the woman make himself the home ? 0.0484
+could the woman make herself the home ? 0.0062
+Philip could not make herself the home . 0.0493
+Philip could not make himself the home . 0.0334
+the woman could not make himself the home . 0.2220
+the woman could not make herself the home . 0.0308
+could Mark work with herself on the mind ? 0.0514
+could Mark work with himself on the mind ? 0.0174
+could a woman work with himself on the mind ? 0.1058
+could a woman work with herself on the mind ? 0.0149
+Mark could not work with herself on the mind . 0.0324
+Mark could not work with himself on the mind . 0.0122
+a woman could not work with himself on the mind . 0.0949
+a woman could not work with herself on the mind . 0.0126
+can Donald read herself ? 0.0392
+can Donald read himself ? 0.0086
+can that woman read himself ? 0.0155
+can that woman read herself ? 0.0025
+Donald can read herself . 0.0945
+Donald can read himself . 0.0388
+that woman can read himself . 0.1346
+that woman can read herself . 0.0168
+must he tell herself about the clock ? 0.5843
+must he tell himself about the clock ? 0.0951
+must Sarah tell himself about the clock ? 0.0720
+must Sarah tell herself about the clock ? 0.1646
+he must tell herself about the clock . 0.0090
+he must tell himself about the clock . 0.0097
+Sarah must tell himself about the clock . 0.0507
+Sarah must tell herself about the clock . 0.0044
+would Mark run to herself ? 0.0913
+would Mark run to himself ? 0.0176
+would Laura run to himself ? 0.2386
+would Laura run to herself ? 0.0120
+Mark would not run to herself . 0.0357
+Mark would not run to himself . 0.0200
+Laura would not run to himself . 0.0852
+Laura would not run to herself . 0.0093
+will a man work with herself on the home ? 0.2151
+will a man work with himself on the home ? 0.0122
+will Sarah work with himself on the home ? 0.0608
+will Sarah work with herself on the home ? 0.0109
+a man will not work with herself on the home . 0.1529
+a man will not work with himself on the home . 0.0109
+Sarah will not work with himself on the home . 0.1176
+Sarah will not work with herself on the home . 0.0093
+will Alexander record herself ? 0.0078
+will Alexander record himself ? 0.0056
+will a woman record himself ? 0.0262
+will a woman record herself ? 0.0061
+Alexander did not record herself . 0.0030
+Alexander did not record himself . 0.0021
+a woman did not record himself . 0.0263
+a woman did not record herself . 0.0063
+could a man make herself the bet ? 0.1004
+could a man make himself the bet ? 0.0078
+could she make himself the bet ? 0.3766
+could she make herself the bet ? 0.0025
+a man could make herself the bet . 0.0963
+a man could make himself the bet . 0.0112
+she could make himself the bet . 0.0984
+she could make herself the bet . 0.0125
+would a man work with herself on the label ? 0.1540
+would a man work with himself on the label ? 0.0076
+would that woman work with himself on the label ? 0.0497
+would that woman work with herself on the label ? 0.0075
+a man would work with herself on the label . 0.0654
+a man would work with himself on the label . 0.0117
+that woman would work with himself on the label . 0.0962
+that woman would work with herself on the label . 0.0111
+will Philip want herself ? 0.2879
+will Philip want himself ? 0.0684
+will that woman want himself ? 0.2701
+will that woman want herself ? 0.0207
+Philip will not want herself . 0.3074
+Philip will not want himself . 0.1280
+that woman will not want himself . 0.2057
+that woman will not want herself . 0.0150
+can he record herself ? 0.1363
+can he record himself ? 0.0011
+he did not record herself . 0.0090
+he did not record himself . 0.0045
+she did not record himself . 0.0685
+she did not record herself . 0.0188
+should that man close herself ? 0.2199
+should that man close himself ? 0.0052
+should Sarah close himself ? 0.0610
+should Sarah close herself ? 0.0033
+that man should close herself . 0.0919
+that man should close himself . 0.0077
+Sarah should close himself . 0.4800
+Sarah should close herself . 0.0072
+will Alexander run to herself ? 0.0223
+will Alexander run to himself ? 0.0139
+will she run to himself ? 0.6880
+will she run to herself ? 0.0043
+Alexander will not run to herself . 0.0116
+Alexander will not run to himself . 0.0124
+she will not run to himself . 0.0575
+she will not run to herself . 0.0133
+can Alexander run to herself ? 0.0103
+can Alexander run to himself ? 0.0105
+can she run to himself ? 0.4575
+can she run to herself ? 0.0023
+Alexander can not run to herself . 0.0069
+Alexander can not run to himself . 0.0057
+she can not run to himself . 0.0480
+she can not run to herself . 0.0139
+would Michael run to herself ? 0.0178
+would Michael run to himself ? 0.0117
+would that woman run to himself ? 0.1637
+would that woman run to herself ? 0.0040
+Michael would not run to herself . 0.0154
+Michael would not run to himself . 0.0224
+that woman would not run to himself . 0.0724
+that woman would not run to herself . 0.0121
+would the man read herself ? 0.0206
+would the man read himself ? 0.0108
+would Sarah read himself ? 0.1155
+would Sarah read herself ? 0.0101
+the man would not read herself . 0.0317
+the man would not read himself . 0.0101
+Sarah would not read himself . 0.2800
+Sarah would not read herself . 0.0082
+will the man run to herself ? 0.0985
+will the man run to himself ? 0.0040
+will a woman run to himself ? 0.2785
+will a woman run to herself ? 0.0069
+the man will not run to herself . 0.1371
+the man will not run to himself . 0.0089
+a woman will not run to himself . 0.1555
+a woman will not run to herself . 0.0088
+must Donald run to herself ? 0.4926
+must Donald run to himself ? 0.1216
+must she run to himself ? 0.6787
+must she run to herself ? 0.0478
+Donald must run to herself . 0.0243
+Donald must run to himself . 0.0118
+she must run to himself . 0.1414
+she must run to herself . 0.0123
+can Donald work with herself on the access ? 0.0810
+can Donald work with himself on the access ? 0.0491
+can Laura work with himself on the access ? 0.0776
+can Laura work with herself on the access ? 0.1012
+Donald can not work with herself on the access . 0.0886
+Donald can not work with himself on the access . 0.0627
+Laura can not work with himself on the access . 0.0602
+Laura can not work with herself on the access . 0.0851
+can a man read herself ? 0.0196
+can a man read himself ? 0.0024
+can the woman read himself ? 0.0196
+can the woman read herself ? 0.0017
+a man can not read herself . 0.0689
+a man can not read himself . 0.0050
+the woman can not read himself . 0.0417
+the woman can not read herself . 0.0064
+will the man give herself the plan ? 0.0300
+will the man give himself the plan ? 0.0065
+will Laura give himself the plan ? 0.0534
+will Laura give herself the plan ? 0.0518
+the man will not give herself the plan . 0.0418
+the man will not give himself the plan . 0.0166
+Laura will not give himself the plan . 0.1255
+Laura will not give herself the plan . 0.1210
+should Richard tell herself about the fuel ? 0.0515
+should Richard tell himself about the fuel ? 0.0206
+should the woman tell himself about the fuel ? 0.3336
+should the woman tell herself about the fuel ? 0.0213
+Richard should tell herself about the fuel . 0.0329
+Richard should tell himself about the fuel . 0.0143
+the woman should tell himself about the fuel . 0.0818
+the woman should tell herself about the fuel . 0.0248
+can a man work with herself on the general ? 0.1606
+can a man work with himself on the general ? 0.0228
+can she work with himself on the general ? 0.5312
+can she work with herself on the general ? 0.1170
+a man can not work with herself on the general . 0.1856
+a man can not work with himself on the general . 0.0162
+she can not work with himself on the general . 0.0572
+she can not work with herself on the general . 0.0216
+must Donald want herself ? 1.0629
+must Donald want himself ? 0.5181
+must she want himself ? 0.7829
+must she want herself ? 0.1543
+Donald did not want herself . 0.1669
+Donald did not want himself . 0.0311
+she did not want himself . 0.1726
+she did not want herself . 0.0265
+could Roger give herself the night ? 0.0999
+could Roger give himself the night ? 0.0121
+could she give himself the night ? 0.1708
+could she give herself the night ? 0.0026
+Roger could give herself the night . 0.0406
+Roger could give himself the night . 0.0062
+she could give himself the night . 0.0723
+she could give herself the night . 0.0155
+would William work with herself on the couple ? 0.0373
+would William work with himself on the couple ? 0.0288
+would the woman work with himself on the couple ? 0.1589
+would the woman work with herself on the couple ? 0.0384
+William did not work with herself on the couple . 0.2624
+William did not work with himself on the couple . 0.0216
+the woman did not work with himself on the couple . 0.1066
+the woman did not work with herself on the couple . 0.0503
+must Philip want herself ? 0.5545
+must Philip want himself ? 0.5297
+Philip must not want herself . 0.1628
+Philip must not want himself . 0.0830
+she must not want himself . 0.1344
+she must not want herself . 0.0309
+would he be like herself ? 0.0578
+would he be like himself ? 0.0035
+would that woman be like himself ? 0.0436
+would that woman be like herself ? 0.0026
+he did not be like herself . 0.0163
+he did not be like himself . 0.0165
+that woman did not be like himself . 0.0467
+that woman did not be like herself . 0.0120
+should Sarah be like himself ? 0.0139
+should Sarah be like herself ? 0.0026
+William should be like herself . 0.1661
+William should be like himself . 0.0036
+Sarah should be like himself . 0.0812
+Sarah should be like herself . 0.0031
+could Richard work with herself on the valley ? 0.0660
+could Richard work with himself on the valley ? 0.0462
+could Laura work with himself on the valley ? 0.1736
+could Laura work with herself on the valley ? 0.0956
+Richard could work with herself on the valley . 0.0572
+Richard could work with himself on the valley . 0.0398
+Laura could work with himself on the valley . 0.0725
+Laura could work with herself on the valley . 0.0661
+will Alexander give herself the apple ? 0.0138
+will Alexander give himself the apple ? 0.0064
+will that woman give himself the apple ? 0.0260
+will that woman give herself the apple ? 0.0031
+Alexander did not give herself the apple . 0.0093
+Alexander did not give himself the apple . 0.0113
+that woman did not give himself the apple . 0.0291
+that woman did not give herself the apple . 0.0097
+must the man record herself ? 0.0769
+must the man record himself ? 0.0478
+must that woman record himself ? 0.2096
+must that woman record herself ? 0.1896
+the man must not record herself . 0.0094
+the man must not record himself . 0.0067
+that woman must not record himself . 0.0216
+that woman must not record herself . 0.0101
+would William tell herself about the lady ? 0.0166
+would William tell himself about the lady ? 0.0113
+would a woman tell himself about the lady ? 0.2122
+would a woman tell herself about the lady ? 0.0066
+William would not tell herself about the lady . 0.0687
+William would not tell himself about the lady . 0.0084
+a woman would not tell himself about the lady . 0.1068
+a woman would not tell herself about the lady . 0.0187
+will Roger work with herself on the general ? 0.1618
+will Roger work with himself on the general ? 0.0685
+will she work with himself on the general ? 0.5956
+will she work with herself on the general ? 0.1680
+Roger will not work with herself on the general . 0.0876
+Roger will not work with himself on the general . 0.0279
+she will not work with himself on the general . 0.0800
+she will not work with herself on the general . 0.0401
+should William give herself the color ? 0.0479
+should William give himself the color ? 0.0069
+should Laura give himself the color ? 0.0293
+should Laura give herself the color ? 0.0080
+William should give herself the color . 0.0232
+William should give himself the color . 0.0061
+Laura should give himself the color . 0.0515
+Laura should give herself the color . 0.0117
+would the man want herself ? 0.1827
+would the man want himself ? 0.0289
+would a woman want himself ? 0.2593
+would a woman want herself ? 0.0137
+the man would not want herself . 0.1057
+the man would not want himself . 0.0182
+a woman would not want himself . 0.2661
+a woman would not want herself . 0.0171
+could that man read herself ? 0.0130
+could that man read himself ? 0.0045
+could the woman read himself ? 0.0242
+could the woman read herself ? 0.0028
+that man could read herself . 0.0355
+that man could read himself . 0.0071
+the woman could read himself . 0.0474
+the woman could read herself . 0.0065
+should that man give herself the drop ? 0.0262
+should that man give himself the drop ? 0.0215
+should Sarah give himself the drop ? 0.0236
+should Sarah give herself the drop ? 0.0135
+that man should give herself the drop . 0.0404
+that man should give himself the drop . 0.0455
+Sarah should give himself the drop . 0.0412
+Sarah should give herself the drop . 0.0263
+would that man work with herself on the stand ? 0.0380
+would that man work with himself on the stand ? 0.0074
+would she work with himself on the stand ? 0.4722
+would she work with herself on the stand ? 0.0074
+that man would not work with herself on the stand . 0.0412
+that man would not work with himself on the stand . 0.0111
+she would not work with himself on the stand . 0.0903
+she would not work with herself on the stand . 0.0174
+would Mark tell herself about the scale ? 0.0486
+would Mark tell himself about the scale ? 0.0208
+would that woman tell himself about the scale ? 0.1548
+would that woman tell herself about the scale ? 0.0104
+Mark would tell herself about the scale . 0.0301
+Mark would tell himself about the scale . 0.0151
+that woman would tell himself about the scale . 0.0823
+that woman would tell herself about the scale . 0.0199
+should he run to herself ? 0.5828
+should he run to himself ? 0.0050
+should the woman run to himself ? 0.1302
+should the woman run to herself ? 0.0039
+he should not run to herself . 0.0267
+he should not run to himself . 0.0106
+the woman should not run to himself . 0.0647
+the woman should not run to herself . 0.0071
+should Mark read herself ? 0.0397
+should Mark read himself ? 0.0107
+should that woman read himself ? 0.0418
+should that woman read herself ? 0.0106
+Mark did not read herself . 0.0313
+Mark did not read himself . 0.0072
+that woman did not read himself . 0.0405
+that woman did not read herself . 0.0126
+could the man be like herself ? 0.0228
+could the man be like himself ? 0.0038
+could that woman be like himself ? 0.0664
+could that woman be like herself ? 0.0023
+the man could not be like herself . 0.0231
+the man could not be like himself . 0.0072
+that woman could not be like himself . 0.0554
+that woman could not be like herself . 0.0086
+could a man run to herself ? 0.2103
+could a man run to himself ? 0.0073
+could the woman run to himself ? 0.1126
+could the woman run to herself ? 0.0065
+a man could run to herself . 0.2982
+a man could run to himself . 0.0109
+the woman could run to himself . 0.0371
+the woman could run to herself . 0.0083
+could the man give herself the clock ? 0.0242
+could the man give himself the clock ? 0.0053
+could a woman give himself the clock ? 0.0566
+could a woman give herself the clock ? 0.0113
+the man did not give herself the clock . 0.0640
+the man did not give himself the clock . 0.0257
+a woman did not give himself the clock . 0.0788
+a woman did not give herself the clock . 0.0640
+should Philip record herself ? 0.0062
+should Philip record himself ? 0.0030
+should she record himself ? 0.2240
+should she record herself ? 0.0014
+Philip should record herself . 0.0078
+Philip should record himself . 0.0017
+she should record himself . 0.0444
+she should record herself . 0.0079
+can Roger give herself the dinner ? 0.0230
+can Roger give himself the dinner ? 0.0051
+can she give himself the dinner ? 0.2715
+can she give herself the dinner ? 0.0025
+Roger can not give herself the dinner . 0.0379
+Roger can not give himself the dinner . 0.0259
+she can not give himself the dinner . 0.0383
+she can not give herself the dinner . 0.0204
+must Donald be like herself ? 0.0251
+must Donald be like himself ? 0.0132
+must the woman be like himself ? 0.0393
+must the woman be like herself ? 0.0069
+Donald did not be like herself . 0.0227
+Donald did not be like himself . 0.0100
+the woman did not be like himself . 0.0357
+the woman did not be like herself . 0.0125
+should he tell herself about the bank ? 0.6029
+should he tell himself about the bank ? 0.0056
+should the woman tell himself about the bank ? 0.3225
+should the woman tell herself about the bank ? 0.0211
+he should tell herself about the bank . 0.0182
+he should tell himself about the bank . 0.0139
+the woman should tell himself about the bank . 0.0743
+the woman should tell herself about the bank . 0.0163
+would Roger want herself ? 0.1921
+would Roger want himself ? 0.1073
+would she want himself ? 0.4802
+would she want herself ? 0.0143
+Roger would not want herself . 0.1275
+Roger would not want himself . 0.0452
+she would not want himself . 0.1910
+she would not want herself . 0.0357
+would William make herself the plan ? 0.1089
+would William make himself the plan ? 0.0343
+would she make himself the plan ? 0.3814
+would she make herself the plan ? 0.0135
+William would not make herself the plan . 0.6832
+William would not make himself the plan . 0.0465
+she would not make himself the plan . 0.1219
+she would not make herself the plan . 0.0294
+can he tell herself about the lady ? 0.3601
+can he tell himself about the lady ? 0.0034
+can the woman tell himself about the lady ? 0.1235
+can the woman tell herself about the lady ? 0.0045
+he can tell herself about the lady . 0.0314
+he can tell himself about the lady . 0.0108
+the woman can tell himself about the lady . 0.0477
+the woman can tell herself about the lady . 0.0111
+can that woman run to himself ? 0.0810
+can that woman run to herself ? 0.0051
+Alexander can run to herself . 0.0110
+Alexander can run to himself . 0.0073
+that woman can run to himself . 0.0617
+that woman can run to herself . 0.0146
+should a man make herself the access ? 0.1303
+should a man make himself the access ? 0.1087
+should she make himself the access ? 0.2637
+should she make herself the access ? 0.0091
+a man should make herself the access . 0.1726
+a man should make himself the access . 0.1485
+she should make himself the access . 0.0807
+she should make herself the access . 0.0269
+should he make herself the hill ? 0.7514
+should he make himself the hill ? 0.0080
+should she make himself the hill ? 0.2358
+should she make herself the hill ? 0.0091
+he should make herself the hill . 0.0218
+he should make himself the hill . 0.0119
+she should make himself the hill . 0.0328
+she should make herself the hill . 0.0170
+will Richard read herself ? 0.0446
+will Richard read himself ? 0.0126
+Richard will not read herself . 0.0201
+Richard will not read himself . 0.0061
+that woman will not read himself . 0.0981
+that woman will not read herself . 0.0172
+must a man read herself ? 0.0904
+must a man read himself ? 0.0401
+must Laura read himself ? 0.0574
+must Laura read herself ? 0.0293
+a man must read herself . 0.0680
+a man must read himself . 0.0059
+Laura must read himself . 0.3081
+Laura must read herself . 0.0052
+will William want herself ? 0.1152
+will William want himself ? 0.0490
+will she want himself ? 0.6333
+will she want herself ? 0.0087
+William will want herself . 0.1187
+William will want himself . 0.1246
+she will want himself . 0.1345
+she will want herself . 0.0315
+must he close herself ? 0.5107
+must he close himself ? 0.1202
+must a woman close himself ? 0.1416
+must a woman close herself ? 0.0717
+he must not close herself . 0.0183
+he must not close himself . 0.0123
+a woman must not close himself . 0.1084
+a woman must not close herself . 0.0115
+can Richard give herself the person ? 0.0428
+can Richard give himself the person ? 0.0092
+can she give himself the person ? 0.1431
+can she give herself the person ? 0.0050
+Richard can give herself the person . 0.0643
+Richard can give himself the person . 0.0239
+she can give himself the person . 0.0572
+she can give herself the person . 0.0194
+will Roger record herself ? 0.0426
+will Roger record himself ? 0.0035
+Roger will not record herself . 0.0177
+Roger will not record himself . 0.0028
+a woman will not record himself . 0.0385
+a woman will not record herself . 0.0062
+can Philip read herself ? 0.0161
+can Philip read himself ? 0.0021
+can Laura read himself ? 0.0236
+can Laura read herself ? 0.0018
+Philip can not read herself . 0.0063
+Philip can not read himself . 0.0026
+Laura can not read himself . 0.1280
+Laura can not read herself . 0.0039
+can the man close herself ? 0.1180
+can the man close himself ? 0.0034
+can that woman close himself ? 0.0721
+can that woman close herself ? 0.0065
+the man can not close herself . 0.0724
+the man can not close himself . 0.0090
+that woman can not close himself . 0.1061
+that woman can not close herself . 0.0178
+would Michael record herself ? 0.0061
+would Michael record himself ? 0.0048
+would she record himself ? 0.1370
+would she record herself ? 0.0020
+Michael would record herself . 0.0029
+Michael would record himself . 0.0024
+she would record himself . 0.0696
+she would record herself . 0.0115
+can William work with herself on the bear ? 0.0479
+can William work with himself on the bear ? 0.0416
+can she work with himself on the bear ? 0.5232
+can she work with herself on the bear ? 0.0445
+William can not work with herself on the bear . 0.0371
+William can not work with himself on the bear . 0.0302
+she can not work with himself on the bear . 0.0981
+she can not work with herself on the bear . 0.0464
+can William read herself ? 0.0229
+can William read himself ? 0.0022
+can Sarah read himself ? 0.0323
+can Sarah read herself ? 0.0019
+William can read herself . 0.0191
+William can read himself . 0.0049
+Sarah can read himself . 0.1850
+Sarah can read herself . 0.0037
+should Mark be like herself ? 0.0133
+should Mark be like himself ? 0.0029
+Mark did not be like herself . 0.0354
+Mark did not be like himself . 0.0095
+Sarah did not be like himself . 0.0273
+Sarah did not be like herself . 0.0095
+should Philip tell herself about the cabinet ? 0.0251
+should Philip tell himself about the cabinet ? 0.0093
+should that woman tell himself about the cabinet ? 0.2132
+should that woman tell herself about the cabinet ? 0.0114
+Philip should tell herself about the cabinet . 0.0839
+Philip should tell himself about the cabinet . 0.0054
+that woman should tell himself about the cabinet . 0.1097
+that woman should tell herself about the cabinet . 0.0150
+could Richard make herself the rock ? 0.0576
+could Richard make himself the rock ? 0.0164
+could the woman make himself the rock ? 0.0174
+could the woman make herself the rock ? 0.0072
+Richard could make herself the rock . 0.0561
+Richard could make himself the rock . 0.0358
+the woman could make himself the rock . 0.0615
+the woman could make herself the rock . 0.0118
+will that man work with herself on the clock ? 0.0519
+will that man work with himself on the clock ? 0.0100
+will Sarah work with himself on the clock ? 0.0977
+will Sarah work with herself on the clock ? 0.0111
+that man will not work with herself on the clock . 0.1312
+that man will not work with himself on the clock . 0.0112
+Sarah will not work with himself on the clock . 0.1072
+Sarah will not work with herself on the clock . 0.0068
+could he make herself the night ? 0.5187
+could he make himself the night ? 0.0197
+could that woman make himself the night ? 0.2088
+could that woman make herself the night ? 0.0142
+he could not make herself the night . 0.0593
+he could not make himself the night . 0.0513
+that woman could not make himself the night . 0.2466
+that woman could not make herself the night . 0.0375
+could Roger read herself ? 0.0659
+could Roger read himself ? 0.0140
+Roger did not read herself . 0.0220
+Roger did not read himself . 0.0051
+the woman did not read himself . 0.0501
+the woman did not read herself . 0.0100
+can a man run to herself ? 0.2366
+can a man run to himself ? 0.0034
+a man did not run to herself . 0.3215
+a man did not run to himself . 0.0091
+she did not run to himself . 0.0646
+she did not run to herself . 0.0152
+must Mark close herself ? 0.0422
+must Mark close himself ? 0.0369
+must Laura close himself ? 0.0838
+must Laura close herself ? 0.0694
+Mark must not close herself . 0.0445
+Mark must not close himself . 0.0092
+Laura must not close himself . 0.0741
+Laura must not close herself . 0.0062
+must Mark give herself the whale ? 0.0387
+must Mark give himself the whale ? 0.0315
+must Sarah give himself the whale ? 0.0753
+must Sarah give herself the whale ? 0.0633
+Mark must give herself the whale . 0.0484
+Mark must give himself the whale . 0.0108
+Sarah must give himself the whale . 0.0663
+Sarah must give herself the whale . 0.0184
+would Philip want herself ? 0.3282
+would Philip want himself ? 0.1068
+would the woman want himself ? 0.2067
+would the woman want herself ? 0.0204
+Philip would not want herself . 0.2832
+Philip would not want himself . 0.0584
+the woman would not want himself . 0.1143
+the woman would not want herself . 0.0173
+can Mark want herself ? 0.0917
+can Mark want himself ? 0.0172
+can she want himself ? 0.4328
+can she want herself ? 0.0032
+Mark can not want herself . 0.1158
+Mark can not want himself . 0.3104
+she can not want himself . 0.0643
+she can not want herself . 0.0220
+should Michael make herself the stadium ? 0.0535
+should Michael make himself the stadium ? 0.2235
+should that woman make himself the stadium ? 0.1626
+should that woman make herself the stadium ? 0.1707
+Michael should make herself the stadium . 0.1062
+Michael should make himself the stadium . 0.1838
+that woman should make himself the stadium . 0.1897
+that woman should make herself the stadium . 0.2699
+will that man give herself the growth ? 0.2115
+will that man give himself the growth ? 0.1773
+will Sarah give himself the growth ? 0.1662
+will Sarah give herself the growth ? 0.2643
+that man will give herself the growth . 0.0955
+that man will give himself the growth . 0.1037
+Sarah will give himself the growth . 0.1975
+Sarah will give herself the growth . 0.2541
+would Roger close herself ? 0.0515
+would Roger close himself ? 0.0050
+would the woman close himself ? 0.0530
+would the woman close herself ? 0.0158
+Roger would close herself . 0.0154
+Roger would close himself . 0.0042
+the woman would close himself . 0.0500
+the woman would close herself . 0.0081
+would William give herself the back ? 0.0451
+would William give himself the back ? 0.0190
+would a woman give himself the back ? 0.0832
+would a woman give herself the back ? 0.0232
+William would give herself the back . 0.0448
+William would give himself the back . 0.0307
+a woman would give himself the back . 0.0962
+a woman would give herself the back . 0.0272
+will Donald run to herself ? 0.7998
+will Donald run to himself ? 0.0250
+will that woman run to himself ? 0.1519
+will that woman run to herself ? 0.0054
+Donald will run to herself . 0.1113
+Donald will run to himself . 0.0188
+that woman will run to himself . 0.0632
+that woman will run to herself . 0.0093
+should Donald run to herself ? 0.8262
+should Donald run to himself ? 0.0187
+should Sarah run to himself ? 0.2560
+should Sarah run to herself ? 0.0124
+Donald should run to herself . 0.1198
+Donald should run to himself . 0.0164
+Sarah should run to himself . 0.1213
+Sarah should run to herself . 0.0113
+would Roger be like herself ? 0.0191
+would Roger be like himself ? 0.0054
+would a woman be like himself ? 0.0878
+would a woman be like herself ? 0.0039
+Roger would not be like herself . 0.0186
+Roger would not be like himself . 0.0043
+a woman would not be like himself . 0.1450
+a woman would not be like herself . 0.0096
+will Michael want herself ? 0.1163
+will Michael want himself ? 0.0600
+Michael did not want herself . 0.0846
+Michael did not want himself . 0.0851
+will Alexander give herself the picture ? 0.0372
+will Alexander give himself the picture ? 0.0389
+will the woman give himself the picture ? 0.0717
+will the woman give herself the picture ? 0.0223
+Alexander will give herself the picture . 0.0335
+Alexander will give himself the picture . 0.0171
+the woman will give himself the picture . 0.1307
+the woman will give herself the picture . 0.0200
+can Alexander close herself ? 0.0065
+can Alexander close himself ? 0.0045
+can a woman close himself ? 0.0767
+can a woman close herself ? 0.0052
+Alexander can close herself . 0.0165
+Alexander can close himself . 0.0143
+a woman can close himself . 0.0945
+a woman can close herself . 0.0098
+would Richard work with herself on the baby ? 0.0235
+would Richard work with himself on the baby ? 0.0140
+would she work with himself on the baby ? 0.6074
+would she work with herself on the baby ? 0.0062
+Richard would not work with herself on the baby . 0.0324
+Richard would not work with himself on the baby . 0.0108
+she would not work with himself on the baby . 0.0851
+she would not work with herself on the baby . 0.0141
+should that man tell herself about the access ? 0.0974
+should that man tell himself about the access ? 0.0116
+should she tell himself about the access ? 0.5705
+should she tell herself about the access ? 0.0031
+that man should not tell herself about the access . 0.0495
+that man should not tell himself about the access . 0.0321
+she should not tell himself about the access . 0.0847
+she should not tell herself about the access . 0.0192
+will that woman record himself ? 0.0113
+will that woman record herself ? 0.0024
+that woman did not record himself . 0.0163
+that woman did not record herself . 0.0074
+can Michael want herself ? 0.0765
+can Michael want himself ? 0.0506
+Michael can want herself . 0.8371
+Michael can want himself . 1.2005
+a woman can want himself . 0.1308
+a woman can want herself . 0.0733
+should a man tell herself about the mirror ? 0.1394
+should a man tell himself about the mirror ? 0.0053
+should that woman tell himself about the mirror ? 0.1795
+should that woman tell herself about the mirror ? 0.0047
+a man should tell herself about the mirror . 0.0426
+a man should tell himself about the mirror . 0.0113
+that woman should tell himself about the mirror . 0.0482
+that woman should tell herself about the mirror . 0.0092
+will Alexander want herself ? 0.0517
+will Alexander want himself ? 0.0612
+Alexander will want herself . 0.0794
+Alexander will want himself . 0.0857
+that woman will want himself . 0.1670
+that woman will want herself . 0.0231
+will Mark work with herself on the picture ? 0.0205
+will Mark work with himself on the picture ? 0.0158
+will Sarah work with himself on the picture ? 0.0472
+will Sarah work with herself on the picture ? 0.0193
+Mark will work with herself on the picture . 0.3109
+Mark will work with himself on the picture . 0.0134
+Sarah will work with himself on the picture . 0.1840
+Sarah will work with herself on the picture . 0.0152
+should Richard want herself ? 0.1056
+should Richard want himself ? 0.0647
+should that woman want himself ? 0.2119
+should that woman want herself ? 0.0101
+Richard should want herself . 0.3938
+Richard should want himself . 0.4677
+that woman should want himself . 0.1543
+that woman should want herself . 0.0125
+could a man want herself ? 0.1249
+could a man want himself ? 0.0144
+could the woman want himself ? 0.1706
+could the woman want herself ? 0.0221
+a man could not want herself . 0.0990
+a man could not want himself . 0.0223
+the woman could not want himself . 0.0380
+the woman could not want herself . 0.0568
+will Richard make herself the couple ? 0.0677
+will Richard make himself the couple ? 0.0330
+will the woman make himself the couple ? 0.0814
+will the woman make herself the couple ? 0.0305
+Richard will make herself the couple . 0.4040
+Richard will make himself the couple . 0.0332
+the woman will make himself the couple . 0.0901
+the woman will make herself the couple . 0.0469
+will that man work with herself on the bank ? 0.1317
+will that man work with himself on the bank ? 0.0187
+will a woman work with himself on the bank ? 0.1757
+will a woman work with herself on the bank ? 0.0642
+that man will not work with herself on the bank . 0.1681
+that man will not work with himself on the bank . 0.0206
+a woman will not work with himself on the bank . 0.1076
+a woman will not work with herself on the bank . 0.0355
+would Mark close herself ? 0.0276
+would Mark close himself ? 0.0063
+would she close himself ? 0.4395
+would she close herself ? 0.0039
+Mark would not close herself . 0.0981
+Mark would not close himself . 0.0087
+she would not close himself . 0.1012
+she would not close herself . 0.0178
+Philip can read herself . 0.0127
+Philip can read himself . 0.0033
+would Richard close herself ? 0.1144
+would Richard close himself ? 0.0157
+would Sarah close himself ? 0.0278
+would Sarah close herself ? 0.0085
+Richard would not close herself . 0.0754
+Richard would not close himself . 0.0090
+Sarah would not close himself . 0.0805
+Sarah would not close herself . 0.0074
+must Sarah be like himself ? 0.0178
+must Sarah be like herself ? 0.0078
+Donald must not be like herself . 0.0202
+Donald must not be like himself . 0.0053
+Sarah must not be like himself . 0.0718
+Sarah must not be like herself . 0.0037
+would Philip run to herself ? 0.0306
+would Philip run to himself ? 0.0131
+would she run to himself ? 0.7193
+would she run to herself ? 0.0045
+Philip would run to herself . 0.0134
+Philip would run to himself . 0.0072
+she would run to himself . 0.1039
+she would run to herself . 0.0168
+can Roger run to herself ? 0.0239
+can Roger run to himself ? 0.0170
+can a woman run to himself ? 0.2246
+can a woman run to herself ? 0.0039
+Roger can run to herself . 0.0148
+Roger can run to himself . 0.0081
+a woman can run to himself . 0.1510
+a woman can run to herself . 0.0086
+can the woman want himself ? 0.1449
+can the woman want herself ? 0.0058
+the woman can want himself . 0.0663
+the woman can want herself . 0.0385
+will Mark be like herself ? 0.0211
+will Mark be like himself ? 0.0041
+will she be like himself ? 0.3231
+will she be like herself ? 0.0022
+Mark will not be like herself . 0.0294
+Mark will not be like himself . 0.0047
+she will not be like himself . 0.0635
+she will not be like herself . 0.0118
+would Roger run to herself ? 0.0482
+would Roger run to himself ? 0.0140
+Roger would run to herself . 0.0107
+Roger would run to himself . 0.0055
+that woman would run to himself . 0.0682
+that woman would run to herself . 0.0067
+can she read himself ? 0.2400
+can she read herself ? 0.0010
+she can not read himself . 0.0597
+she can not read herself . 0.0169
+would Mark tell herself about the growth ? 0.0390
+would Mark tell himself about the growth ? 0.0173
+would that woman tell himself about the growth ? 0.1452
+would that woman tell herself about the growth ? 0.0081
+Mark would not tell herself about the growth . 0.0277
+Mark would not tell himself about the growth . 0.0088
+that woman would not tell himself about the growth . 0.0776
+that woman would not tell herself about the growth . 0.0199
+will Donald want herself ? 1.0644
+will Donald want himself ? 0.1125
+Donald will not want herself . 0.4182
+Donald will not want himself . 0.1930
+will that man tell herself about the back ? 0.1845
+will that man tell himself about the back ? 0.0253
+will Laura tell himself about the back ? 0.1220
+will Laura tell herself about the back ? 0.1036
+that man will not tell herself about the back . 0.0526
+that man will not tell himself about the back . 0.0253
+Laura will not tell himself about the back . 0.2617
+Laura will not tell herself about the back . 0.1166
+could Richard be like herself ? 0.0111
+could Richard be like himself ? 0.0042
+Richard could be like herself . 0.0445
+Richard could be like himself . 0.0052
+that woman could be like himself . 0.0927
+that woman could be like herself . 0.0166
+could Richard close herself ? 0.1167
+could Richard close himself ? 0.0294
+could she close himself ? 0.2678
+could she close herself ? 0.0031
+Richard could close herself . 0.0288
+Richard could close himself . 0.0076
+she could close himself . 0.1223
+she could close herself . 0.0137
+can Donald tell herself about the book ? 0.0193
+can Donald tell himself about the book ? 0.0138
+can Sarah tell himself about the book ? 0.1300
+can Sarah tell herself about the book ? 0.0263
+Donald can tell herself about the book . 0.0351
+Donald can tell himself about the book . 0.0345
+Sarah can tell himself about the book . 0.3129
+Sarah can tell herself about the book . 0.0129
+could that man close herself ? 0.1511
+could that man close himself ? 0.0110
+could that woman close himself ? 0.1564
+could that woman close herself ? 0.0139
+that man could not close herself . 0.0780
+that man could not close himself . 0.0122
+that woman could not close himself . 0.0775
+that woman could not close herself . 0.0158
+could Mark record herself ? 0.0562
+could Mark record himself ? 0.0049
+could a woman record himself ? 0.0250
+could a woman record herself ? 0.0064
+Mark could record herself . 0.0788
+Mark could record himself . 0.0083
+a woman could record himself . 0.0403
+a woman could record herself . 0.0060
+can Roger read herself ? 0.0444
+can Roger read himself ? 0.0107
+Sarah did not read himself . 0.1670
+Sarah did not read herself . 0.0079
+would Alexander read herself ? 0.0200
+would Alexander read himself ? 0.0204
+would a woman read himself ? 0.0519
+would a woman read herself ? 0.0073
+Alexander would read herself . 0.0095
+Alexander would read himself . 0.0072
+a woman would read himself . 0.0780
+a woman would read herself . 0.0108
+the man would want herself . 0.1507
+the man would want himself . 0.0213
+the woman would want himself . 0.1382
+the woman would want herself . 0.0225
+can he run to herself ? 0.4052
+can he run to himself ? 0.0031
+he can run to herself . 0.0343
+he can run to himself . 0.0060
+must Mark give herself the lady ? 0.1550
+must Mark give himself the lady ? 0.0511
+must she give himself the lady ? 0.1393
+must she give herself the lady ? 0.0631
+Mark must not give herself the lady . 0.2149
+Mark must not give himself the lady . 0.0699
+she must not give himself the lady . 0.0882
+she must not give herself the lady . 0.0890
+can Mark work with herself on the suit ? 0.0083
+can Mark work with himself on the suit ? 0.0037
+can the woman work with himself on the suit ? 0.0643
+can the woman work with herself on the suit ? 0.0078
+Mark can not work with herself on the suit . 0.0164
+Mark can not work with himself on the suit . 0.0075
+the woman can not work with himself on the suit . 0.0339
+the woman can not work with herself on the suit . 0.0117
+should a man tell herself about the cast ? 0.0693
+should a man tell himself about the cast ? 0.0594
+should the woman tell himself about the cast ? 0.3252
+should the woman tell herself about the cast ? 0.0669
+a man should not tell herself about the cast . 0.0377
+a man should not tell himself about the cast . 0.0353
+the woman should not tell himself about the cast . 0.0647
+the woman should not tell herself about the cast . 0.0343
+Mark did not close herself . 0.0214
+Mark did not close himself . 0.0060
+she did not close himself . 0.1101
+she did not close herself . 0.0272
+must he run to herself ? 0.4506
+must he run to himself ? 0.0807
+must Laura run to himself ? 0.1544
+must Laura run to herself ? 0.0337
+he must not run to herself . 0.0148
+he must not run to himself . 0.0088
+Laura must not run to himself . 0.0522
+Laura must not run to herself . 0.0043
+should a man read herself ? 0.0593
+should a man read himself ? 0.0077
+a man should read herself . 0.1619
+a man should read himself . 0.0079
+can Mark make herself the scale ? 0.0269
+can Mark make himself the scale ? 0.0265
+can Sarah make himself the scale ? 0.0510
+can Sarah make herself the scale ? 0.0151
+Mark can make herself the scale . 0.0747
+Mark can make himself the scale . 0.0277
+Sarah can make himself the scale . 0.1272
+Sarah can make herself the scale . 0.0167
+would Laura tell himself about the growth ? 0.0679
+would Laura tell herself about the growth ? 0.0206
+Mark would tell herself about the growth . 0.0410
+Mark would tell himself about the growth . 0.0115
+Laura would tell himself about the growth . 0.1155
+Laura would tell herself about the growth . 0.0047
+should that man be like herself ? 0.0907
+should that man be like himself ? 0.0022
+should she be like himself ? 0.2677
+should she be like herself ? 0.0017
+that man should not be like herself . 0.1406
+that man should not be like himself . 0.0062
+she should not be like himself . 0.0672
+she should not be like herself . 0.0082
+could a man record herself ? 0.0072
+could a man record himself ? 0.0059
+could Sarah record himself ? 0.0197
+could Sarah record herself ? 0.0043
+a man could record herself . 0.0166
+a man could record himself . 0.0071
+Sarah could record himself . 0.0566
+Sarah could record herself . 0.0032
+can that man close herself ? 0.1825
+can that man close himself ? 0.0044
+that man can not close herself . 0.0640
+that man can not close himself . 0.0109
+a woman can not close himself . 0.0776
+a woman can not close herself . 0.0099
+must William want herself ? 0.3317
+must William want himself ? 0.4126
+William did not want herself . 0.1614
+William did not want himself . 0.0420
+would Alexander make herself the guess ? 0.0963
+would Alexander make himself the guess ? 0.1323
+would Sarah make himself the guess ? 0.1975
+would Sarah make herself the guess ? 0.1927
+Alexander would not make herself the guess . 0.1567
+Alexander would not make himself the guess . 0.2536
+Sarah would not make himself the guess . 0.2000
+Sarah would not make herself the guess . 0.1761
+should Mark close herself ? 0.0441
+should Mark close himself ? 0.0051
+should the woman close himself ? 0.0647
+should the woman close herself ? 0.0034
+Mark should close herself . 0.2045
+Mark should close himself . 0.0103
+the woman should close himself . 0.0341
+the woman should close herself . 0.0089
+must Donald record herself ? 0.1623
+must Donald record himself ? 0.1930
+must Sarah record himself ? 0.0657
+must Sarah record herself ? 0.0386
+Donald must not record herself . 0.0310
+Donald must not record himself . 0.0112
+Sarah must not record himself . 0.0305
+Sarah must not record herself . 0.0056
+should Michael run to herself ? 0.0253
+should Michael run to himself ? 0.0123
+should a woman run to himself ? 0.3600
+should a woman run to herself ? 0.0042
+Michael did not run to herself . 0.0111
+Michael did not run to himself . 0.0104
+a woman did not run to himself . 0.1846
+a woman did not run to herself . 0.0081
+should that man run to herself ? 0.1226
+should that man run to himself ? 0.0062
+that man should not run to herself . 0.1788
+that man should not run to himself . 0.0085
+a woman should not run to himself . 0.1867
+a woman should not run to herself . 0.0066
+should Philip work with herself on the camera ? 0.0073
+should Philip work with himself on the camera ? 0.0037
+should the woman work with himself on the camera ? 0.0626
+should the woman work with herself on the camera ? 0.0025
+Philip should not work with herself on the camera . 0.0118
+Philip should not work with himself on the camera . 0.0083
+the woman should not work with himself on the camera . 0.0333
+the woman should not work with herself on the camera . 0.0133
+will Richard record herself ? 0.0275
+will Richard record himself ? 0.0030
+will Laura record himself ? 0.0283
+will Laura record herself ? 0.0029
+Richard will record herself . 0.0167
+Richard will record himself . 0.0045
+Laura will record himself . 0.0575
+Laura will record herself . 0.0023
+will Roger tell herself about the home ? 0.0363
+will Roger tell himself about the home ? 0.0202
+will she tell himself about the home ? 0.6692
+will she tell herself about the home ? 0.0055
+Roger will tell herself about the home . 0.0305
+Roger will tell himself about the home . 0.0134
+she will tell himself about the home . 0.1848
+she will tell herself about the home . 0.0130
+can Roger record herself ? 0.0362
+can Roger record himself ? 0.0058
+can Sarah record himself ? 0.0111
+can Sarah record herself ? 0.0016
+Roger can not record herself . 0.0176
+Roger can not record himself . 0.0050
+Sarah can not record himself . 0.0201
+Sarah can not record herself . 0.0036
+will Roger read herself ? 0.0521
+will Roger read himself ? 0.0152
+will she read himself ? 0.3737
+will she read herself ? 0.0029
+Roger will read herself . 0.0366
+Roger will read himself . 0.0076
+she will read himself . 0.1092
+she will read herself . 0.0178
+could a man tell herself about the scale ? 0.0490
+could a man tell himself about the scale ? 0.0080
+could the woman tell himself about the scale ? 0.1680
+could the woman tell herself about the scale ? 0.0104
+a man could tell herself about the scale . 0.0176
+a man could tell himself about the scale . 0.0119
+the woman could tell himself about the scale . 0.0392
+the woman could tell herself about the scale . 0.0177
+should the man be like herself ? 0.0446
+should the man be like himself ? 0.0022
+should a woman be like himself ? 0.1201
+should a woman be like herself ? 0.0018
+the man should not be like herself . 0.0644
+the man should not be like himself . 0.0082
+a woman should not be like himself . 0.1720
+a woman should not be like herself . 0.0078
+would William run to herself ? 0.0411
+would William run to himself ? 0.0105
+would a woman run to himself ? 0.3523
+would a woman run to herself ? 0.0031
+William would not run to herself . 0.0177
+William would not run to himself . 0.0156
+a woman would not run to himself . 0.1296
+a woman would not run to herself . 0.0093
+will the woman be like himself ? 0.0468
+will the woman be like herself ? 0.0030
+Mark will be like herself . 0.0803
+Mark will be like himself . 0.0064
+the woman will be like himself . 0.0474
+the woman will be like herself . 0.0100
+can Richard read herself ? 0.0295
+can Richard read himself ? 0.0039
+can a woman read himself ? 0.0755
+can a woman read herself ? 0.0016
+Richard can not read herself . 0.0130
+Richard can not read himself . 0.0038
+a woman can not read himself . 0.0627
+a woman can not read herself . 0.0054
+Laura should be like himself . 0.0381
+Laura should be like herself . 0.0034
+can Alexander tell herself about the mirror ? 0.0117
+can Alexander tell himself about the mirror ? 0.0072
+can Laura tell himself about the mirror ? 0.0463
+can Laura tell herself about the mirror ? 0.0065
+Alexander did not tell herself about the mirror . 0.0058
+Alexander did not tell himself about the mirror . 0.0050
+Laura did not tell himself about the mirror . 0.0754
+Laura did not tell herself about the mirror . 0.0059
+can the man tell herself about the dance ? 0.0274
+can the man tell himself about the dance ? 0.0032
+can Laura tell himself about the dance ? 0.0328
+can Laura tell herself about the dance ? 0.0065
+the man can tell herself about the dance . 0.0215
+the man can tell himself about the dance . 0.0083
+Laura can tell himself about the dance . 0.1275
+Laura can tell herself about the dance . 0.0103
+must Philip tell herself about the apple ? 0.0925
+must Philip tell himself about the apple ? 0.2346
+must Laura tell himself about the apple ? 0.0806
+must Laura tell herself about the apple ? 0.1578
+Philip must tell herself about the apple . 0.0095
+Philip must tell himself about the apple . 0.0076
+Laura must tell himself about the apple . 0.0353
+Laura must tell herself about the apple . 0.0080
+should Alexander be like herself ? 0.0043
+should Alexander be like himself ? 0.0022
+Alexander should be like herself . 0.0079
+Alexander should be like himself . 0.0033
+should Roger close herself ? 0.0591
+should Roger close himself ? 0.0025
+Roger should not close herself . 0.0373
+Roger should not close himself . 0.0073
+Sarah should not close himself . 0.2747
+Sarah should not close herself . 0.0127
+would she read himself ? 0.3760
+would she read herself ? 0.0058
+she would not read himself . 0.0976
+she would not read herself . 0.0170
+could William make herself the back ? 0.0511
+could William make himself the back ? 0.1240
+could Laura make himself the back ? 0.3325
+could Laura make herself the back ? 0.1845
+William did not make herself the back . 0.1446
+William did not make himself the back . 0.2743
+Laura did not make himself the back . 0.2040
+Laura did not make herself the back . 0.2028
+could Alexander tell herself about the drop ? 0.0269
+could Alexander tell himself about the drop ? 0.0195
+could the woman tell himself about the drop ? 0.2363
+could the woman tell herself about the drop ? 0.0458
+Alexander could tell herself about the drop . 0.0339
+Alexander could tell himself about the drop . 0.0241
+the woman could tell himself about the drop . 0.0784
+the woman could tell herself about the drop . 0.0465
+would that man close herself ? 0.1506
+would that man close himself ? 0.0071
+would Laura close himself ? 0.0664
+would Laura close herself ? 0.0084
+that man would not close herself . 0.1050
+that man would not close himself . 0.0138
+Laura would not close himself . 0.0941
+Laura would not close herself . 0.0078
+must the man read herself ? 0.0717
+must the man read himself ? 0.0544
+must the woman read himself ? 0.0530
+must the woman read herself ? 0.0244
+the man must read herself . 0.0172
+the man must read himself . 0.0062
+the woman must read himself . 0.0841
+the woman must read herself . 0.0067
+must Michael tell herself about the rock ? 0.3157
+must Michael tell himself about the rock ? 0.3702
+must the woman tell himself about the rock ? 0.3657
+must the woman tell herself about the rock ? 0.1272
+Michael must tell herself about the rock . 0.0953
+Michael must tell himself about the rock . 0.0896
+the woman must tell himself about the rock . 0.0651
+the woman must tell herself about the rock . 0.0523
+would Michael give herself the night ? 0.0189
+would Michael give himself the night ? 0.0049
+would that woman give himself the night ? 0.0129
+would that woman give herself the night ? 0.0029
+Michael would give herself the night . 0.0057
+Michael would give himself the night . 0.0055
+that woman would give himself the night . 0.0323
+that woman would give herself the night . 0.0109
+would a man read herself ? 0.0254
+would a man read himself ? 0.0111
+a man would not read herself . 0.0693
+a man would not read himself . 0.0127
+a woman would not read himself . 0.1067
+a woman would not read herself . 0.0125
+can Donald want herself ? 0.3479
+can Donald want himself ? 0.0918
+can Sarah want himself ? 0.1766
+can Sarah want herself ? 0.0253
+Donald can not want herself . 0.0959
+Donald can not want himself . 0.6727
+Sarah can not want himself . 0.2161
+Sarah can not want herself . 0.1806
+will Roger be like herself ? 0.0201
+will Roger be like himself ? 0.0041
+will Sarah be like himself ? 0.0195
+will Sarah be like herself ? 0.0037
+Roger will not be like herself . 0.0236
+Roger will not be like himself . 0.0033
+Sarah will not be like himself . 0.0809
+Sarah will not be like herself . 0.0038
+could a man give herself the bank ? 0.0660
+could a man give himself the bank ? 0.0215
+could the woman give himself the bank ? 0.0557
+could the woman give herself the bank ? 0.0473
+a man could give herself the bank . 0.1079
+a man could give himself the bank . 0.0580
+the woman could give himself the bank . 0.1038
+the woman could give herself the bank . 0.0856
+should Mark work with herself on the growth ? 0.0306
+should Mark work with himself on the growth ? 0.0160
+should that woman work with himself on the growth ? 0.1242
+should that woman work with herself on the growth ? 0.0154
+Mark should work with herself on the growth . 0.0551
+Mark should work with himself on the growth . 0.0099
+that woman should work with himself on the growth . 0.1762
+that woman should work with herself on the growth . 0.0257
+Michael will want herself . 0.1140
+Michael will want himself . 0.1587
+William must want herself . 0.1277
+William must want himself . 0.0870
+she must want himself . 0.1081
+she must want herself . 0.0226
+must that man want herself ? 0.3314
+must that man want himself ? 0.2043
+must that woman want himself ? 0.4027
+must that woman want herself ? 0.2660
+that man must not want herself . 0.1098
+that man must not want himself . 0.0097
+that woman must not want himself . 0.0852
+that woman must not want herself . 0.0105
+would Roger give herself the home ? 0.0449
+would Roger give himself the home ? 0.0062
+would the woman give himself the home ? 0.0137
+would the woman give herself the home ? 0.0036
+Roger would give herself the home . 0.0210
+Roger would give himself the home . 0.0080
+the woman would give himself the home . 0.0370
+the woman would give herself the home . 0.0091
+will Richard tell herself about the bet ? 0.0247
+will Richard tell himself about the bet ? 0.0076
+will the woman tell himself about the bet ? 0.2262
+will the woman tell herself about the bet ? 0.0045
+Richard will tell herself about the bet . 0.0330
+Richard will tell himself about the bet . 0.0082
+the woman will tell himself about the bet . 0.0347
+the woman will tell herself about the bet . 0.0110
+must Roger make herself the dinner ? 0.0553
+must Roger make himself the dinner ? 0.0856
+must that woman make himself the dinner ? 0.0717
+must that woman make herself the dinner ? 0.0476
+Roger must not make herself the dinner . 0.0157
+Roger must not make himself the dinner . 0.0088
+that woman must not make himself the dinner . 0.1299
+that woman must not make herself the dinner . 0.0136
+can William close herself ? 0.0335
+can William close himself ? 0.0056
+William can close herself . 0.0370
+William can close himself . 0.0125
+can Donald be like herself ? 0.0139
+can Donald be like himself ? 0.0036
+can Sarah be like himself ? 0.0080
+can Sarah be like herself ? 0.0021
+Donald can not be like herself . 0.0215
+Donald can not be like himself . 0.0053
+Sarah can not be like himself . 0.0534
+Sarah can not be like herself . 0.0034
+would that man want herself ? 0.1364
+would that man want himself ? 0.0514
+that man would want herself . 0.2272
+that man would want himself . 0.0152
+could he make herself the rock ? 0.1929
+could he make himself the rock ? 0.0046
+could Sarah make himself the rock ? 0.0177
+could Sarah make herself the rock ? 0.0178
+he did not make herself the rock . 0.0179
+he did not make himself the rock . 0.0178
+Sarah did not make himself the rock . 0.0726
+Sarah did not make herself the rock . 0.0339
+can the man read herself ? 0.0114
+can the man read himself ? 0.0019
+the man can not read herself . 0.0235
+the man can not read himself . 0.0055
+can Mark record herself ? 0.0327
+can Mark record himself ? 0.0029
+can that woman record himself ? 0.0101
+can that woman record herself ? 0.0015
+Mark can record herself . 0.0478
+Mark can record himself . 0.0105
+that woman can record himself . 0.0621
+that woman can record herself . 0.0428
+could Richard run to herself ? 0.0514
+could Richard run to himself ? 0.0196
+could a woman run to himself ? 0.2479
+could a woman run to herself ? 0.0115
+Richard could run to herself . 0.0225
+Richard could run to himself . 0.0126
+a woman could run to himself . 0.1931
+a woman could run to herself . 0.0088
+will Richard give herself the memory ? 0.1002
+will Richard give himself the memory ? 0.0138
+will the woman give himself the memory ? 0.0318
+will the woman give herself the memory ? 0.0066
+Richard did not give herself the memory . 0.0356
+Richard did not give himself the memory . 0.0173
+the woman did not give himself the memory . 0.0376
+the woman did not give herself the memory . 0.0214
+would Donald record herself ? 0.0480
+would Donald record himself ? 0.0087
+would Laura record himself ? 0.0135
+would Laura record herself ? 0.0054
+Donald would not record herself . 0.0091
+Donald would not record himself . 0.0055
+Laura would not record himself . 0.0120
+Laura would not record herself . 0.0036
+should Mark make herself the memory ? 0.0256
+should Mark make himself the memory ? 0.0184
+should Laura make himself the memory ? 0.0476
+should Laura make herself the memory ? 0.0542
+Mark should not make herself the memory . 0.0468
+Mark should not make himself the memory . 0.0436
+Laura should not make himself the memory . 0.1297
+Laura should not make herself the memory . 0.0951
+must he want herself ? 0.6656
+must he want himself ? 0.1964
+he must not want herself . 0.0260
+he must not want himself . 0.0226
+would Donald give herself the dinner ? 0.0310
+would Donald give himself the dinner ? 0.0092
+would the woman give himself the dinner ? 0.0090
+would the woman give herself the dinner ? 0.0032
+Donald did not give herself the dinner . 0.0179
+Donald did not give himself the dinner . 0.0160
+the woman did not give himself the dinner . 0.0291
+the woman did not give herself the dinner . 0.0113
+could William make herself the mirror ? 0.0129
+could William make himself the mirror ? 0.0031
+could she make himself the mirror ? 0.1079
+could she make herself the mirror ? 0.0025
+William could not make herself the mirror . 0.0226
+William could not make himself the mirror . 0.0088
+she could not make himself the mirror . 0.2159
+she could not make herself the mirror . 0.0260
+must Alexander work with herself on the movie ? 0.1573
+must Alexander work with himself on the movie ? 0.1826
+must a woman work with himself on the movie ? 0.1480
+must a woman work with herself on the movie ? 0.0430
+Alexander must not work with herself on the movie . 0.0174
+Alexander must not work with himself on the movie . 0.0147
+a woman must not work with himself on the movie . 0.0671
+a woman must not work with herself on the movie . 0.0280
+must Mark read herself ? 0.0422
+must Mark read himself ? 0.0319
+Mark must read herself . 0.0460
+Mark must read himself . 0.0073
+can that man read herself ? 0.0111
+can that man read himself ? 0.0037
+that man can read herself . 0.1332
+that man can read himself . 0.0064
+a woman can read himself . 0.1208
+a woman can read herself . 0.0053
+could he want herself ? 0.1977
+could he want himself ? 0.0234
+could a woman want himself ? 0.2327
+could a woman want herself ? 0.0271
+he could not want herself . 0.0425
+he could not want himself . 0.0696
+a woman could not want himself . 0.0882
+a woman could not want herself . 0.0241
+could Roger give herself the color ? 0.2240
+could Roger give himself the color ? 0.0393
+could the woman give himself the color ? 0.0189
+could the woman give herself the color ? 0.0054
+Roger could give herself the color . 0.1149
+Roger could give himself the color . 0.0240
+the woman could give himself the color . 0.0219
+the woman could give herself the color . 0.0110
+will Richard give herself the plan ? 0.0587
+will Richard give himself the plan ? 0.0271
+will a woman give himself the plan ? 0.1307
+will a woman give herself the plan ? 0.0515
+Richard will not give herself the plan . 0.1537
+Richard will not give himself the plan . 0.0906
+a woman will not give himself the plan . 0.1246
+a woman will not give herself the plan . 0.0950
+could Mark run to herself ? 0.0883
+could Mark run to himself ? 0.0165
+could Laura run to himself ? 0.1550
+could Laura run to herself ? 0.0124
+Mark could not run to herself . 0.0208
+Mark could not run to himself . 0.0136
+Laura could not run to himself . 0.0611
+Laura could not run to herself . 0.0088
+can Richard give herself the plan ? 0.0278
+can Richard give himself the plan ? 0.0109
+can that woman give himself the plan ? 0.1150
+can that woman give herself the plan ? 0.0220
+Richard can not give herself the plan . 0.0373
+Richard can not give himself the plan . 0.0290
+that woman can not give himself the plan . 0.0861
+that woman can not give herself the plan . 0.0383
+should that man give herself the sky ? 0.0209
+should that man give himself the sky ? 0.0090
+should a woman give himself the sky ? 0.0417
+should a woman give herself the sky ? 0.0109
+that man should not give herself the sky . 0.0861
+that man should not give himself the sky . 0.0150
+a woman should not give himself the sky . 0.0402
+a woman should not give herself the sky . 0.0225
+will Alexander tell herself about the bird ? 0.0156
+will Alexander tell himself about the bird ? 0.0173
+will a woman tell himself about the bird ? 0.2859
+will a woman tell herself about the bird ? 0.0175
+Alexander will not tell herself about the bird . 0.0104
+Alexander will not tell himself about the bird . 0.0060
+a woman will not tell himself about the bird . 0.2031
+a woman will not tell herself about the bird . 0.0224
+must Roger give herself the counter ? 0.1570
+must Roger give himself the counter ? 0.1386
+must Sarah give himself the counter ? 0.1495
+must Sarah give herself the counter ? 0.2581
+Roger must not give herself the counter . 0.4780
+Roger must not give himself the counter . 0.3754
+Sarah must not give himself the counter . 0.4867
+Sarah must not give herself the counter . 0.6961
+can Roger be like herself ? 0.0120
+can Roger be like himself ? 0.0041
+Roger did not be like herself . 0.0256
+Roger did not be like himself . 0.0072
+would Alexander tell herself about the dinner ? 0.0153
+would Alexander tell himself about the dinner ? 0.0128
+would the woman tell himself about the dinner ? 0.2747
+would the woman tell herself about the dinner ? 0.0098
+Alexander would not tell herself about the dinner . 0.0065
+Alexander would not tell himself about the dinner . 0.0056
+the woman would not tell himself about the dinner . 0.1607
+the woman would not tell herself about the dinner . 0.0136
+should Michael work with herself on the procedure ? 0.0097
+should Michael work with himself on the procedure ? 0.0028
+should Laura work with himself on the procedure ? 0.0658
+should Laura work with herself on the procedure ? 0.0045
+Michael should not work with herself on the procedure . 0.0111
+Michael should not work with himself on the procedure . 0.0090
+Laura should not work with himself on the procedure . 0.0226
+Laura should not work with herself on the procedure . 0.0063
+would he give herself the general ? 0.6831
+would he give himself the general ? 0.0681
+would Sarah give himself the general ? 0.2097
+would Sarah give herself the general ? 0.3884
+he would give herself the general . 0.0478
+he would give himself the general . 0.0265
+Sarah would give himself the general . 0.1545
+Sarah would give herself the general . 0.0875
+should he record herself ? 0.3425
+should he record himself ? 0.0012
+should a woman record himself ? 0.0448
+should a woman record herself ? 0.0021
+he should record herself . 0.0095
+he should record himself . 0.0042
+a woman should record himself . 0.0409
+a woman should record herself . 0.0062
+must Mark be like herself ? 0.0130
+must Mark be like himself ? 0.0059
+must she be like himself ? 0.2426
+must she be like herself ? 0.0068
+Mark must be like herself . 0.0281
+Mark must be like himself . 0.0044
+she must be like himself . 0.0722
+she must be like herself . 0.0069
+would Michael work with herself on the apple ? 0.1600
+would Michael work with himself on the apple ? 0.1950
+would a woman work with himself on the apple ? 0.1107
+would a woman work with herself on the apple ? 0.0429
+Michael would work with herself on the apple . 0.1109
+Michael would work with himself on the apple . 0.1010
+a woman would work with himself on the apple . 0.1949
+a woman would work with herself on the apple . 0.0361
+could Philip make herself the media ? 0.0337
+could Philip make himself the media ? 0.1008
+could the woman make himself the media ? 0.1471
+could the woman make herself the media ? 0.0101
+Philip could not make herself the media . 0.4308
+Philip could not make himself the media . 0.1062
+the woman could not make himself the media . 0.2420
+the woman could not make herself the media . 0.0441
+can she be like himself ? 0.2155
+can she be like herself ? 0.0013
+Michael did not be like herself . 0.0114
+Michael did not be like himself . 0.0085
+she did not be like himself . 0.0614
+she did not be like herself . 0.0166
+would Sarah run to himself ? 0.2597
+would Sarah run to herself ? 0.0112
+Mark would run to herself . 0.0432
+Mark would run to himself . 0.0059
+Sarah would run to himself . 0.2816
+Sarah would run to herself . 0.0050
+can Roger work with herself on the guess ? 0.1481
+can Roger work with himself on the guess ? 0.0692
+can the woman work with himself on the guess ? 0.1386
+can the woman work with herself on the guess ? 0.3740
+Roger can work with herself on the guess . 0.2196
+Roger can work with himself on the guess . 0.0801
+the woman can work with himself on the guess . 0.2620
+the woman can work with herself on the guess . 0.7685
+must Alexander record herself ? 0.1056
+must Alexander record himself ? 0.2484
+must the woman record himself ? 0.0685
+must the woman record herself ? 0.0322
+the woman did not record himself . 0.0121
+the woman did not record herself . 0.0060
+Roger can record herself . 0.0368
+Roger can record himself . 0.0121
+Sarah can record himself . 0.1139
+Sarah can record herself . 0.0029
+must Mark give herself the dance ? 0.0537
+must Mark give himself the dance ? 0.0268
+must that woman give himself the dance ? 0.0506
+must that woman give herself the dance ? 0.0437
+Mark must give herself the dance . 0.0420
+Mark must give himself the dance . 0.0176
+that woman must give himself the dance . 0.0333
+that woman must give herself the dance . 0.0207
+can she give himself the plan ? 0.2150
+can she give herself the plan ? 0.0097
+she can not give himself the plan . 0.0430
+she can not give herself the plan . 0.0231
+must that man give herself the cabinet ? 0.0625
+must that man give himself the cabinet ? 0.0418
+must Sarah give himself the cabinet ? 0.0491
+must Sarah give herself the cabinet ? 0.0796
+that man must give herself the cabinet . 0.0319
+that man must give himself the cabinet . 0.0189
+Sarah must give himself the cabinet . 0.0435
+Sarah must give herself the cabinet . 0.0417
+should a man want herself ? 0.2831
+should a man want himself ? 0.0095
+should Laura want himself ? 0.1109
+should Laura want herself ? 0.0308
+a man should not want herself . 0.4982
+a man should not want himself . 0.0197
+Laura should not want himself . 0.4832
+Laura should not want herself . 0.4704
+could Michael be like herself ? 0.0091
+could Michael be like himself ? 0.0037
+could Laura be like himself ? 0.0137
+could Laura be like herself ? 0.0037
+Laura did not be like himself . 0.0176
+Laura did not be like herself . 0.0090
+should the man record herself ? 0.0088
+should the man record himself ? 0.0029
+the man should record herself . 0.0123
+the man should record himself . 0.0052
+would William read herself ? 0.0741
+would William read himself ? 0.0139
+William did not read herself . 0.0265
+William did not read himself . 0.0070
+would Roger make herself the baby ? 0.0315
+would Roger make himself the baby ? 0.0036
+would she make himself the baby ? 0.1219
+would she make herself the baby ? 0.0016
+Roger would make herself the baby . 0.0091
+Roger would make himself the baby . 0.0036
+she would make himself the baby . 0.0447
+she would make herself the baby . 0.0076
+must Richard record herself ? 0.1143
+must Richard record himself ? 0.1151
+Richard must record herself . 0.0180
+Richard must record himself . 0.0032
+that woman must record himself . 0.0182
+that woman must record herself . 0.0101
+must that man read herself ? 0.1124
+must that man read himself ? 0.0990
+must a woman read himself ? 0.0630
+must a woman read herself ? 0.0176
+that man must read herself . 0.0497
+that man must read himself . 0.0062
+a woman must read himself . 0.1394
+a woman must read herself . 0.0067
+must Alexander tell herself about the mind ? 0.0358
+must Alexander tell himself about the mind ? 0.2072
+must Sarah tell himself about the mind ? 0.1561
+must Sarah tell herself about the mind ? 0.0920
+Alexander must tell herself about the mind . 0.0153
+Alexander must tell himself about the mind . 0.0061
+Sarah must tell himself about the mind . 0.0365
+Sarah must tell herself about the mind . 0.0096
+must that man give herself the scale ? 0.1066
+must that man give himself the scale ? 0.0920
+must she give himself the scale ? 0.2804
+must she give herself the scale ? 0.0642
+that man must not give herself the scale . 0.1222
+that man must not give himself the scale . 0.1390
+she must not give himself the scale . 0.0941
+she must not give herself the scale . 0.0699
+should that woman be like himself ? 0.0685
+should that woman be like herself ? 0.0021
+the man should be like herself . 0.0822
+the man should be like himself . 0.0069
+that woman should be like himself . 0.0806
+that woman should be like herself . 0.0092
+would Roger record herself ? 0.0307
+would Roger record himself ? 0.0042
+Roger would not record herself . 0.0125
+Roger would not record himself . 0.0031
+must Richard want herself ? 0.3623
+must Richard want himself ? 0.3937
+must Laura want himself ? 0.3739
+must Laura want herself ? 0.4038
+Richard must want herself . 0.0661
+Richard must want himself . 0.0752
+Laura must want himself . 0.1166
+Laura must want herself . 0.0339
+will a man tell herself about the couple ? 0.2980
+will a man tell himself about the couple ? 0.0188
+will the woman tell himself about the couple ? 0.3253
+will the woman tell herself about the couple ? 0.0089
+a man will tell herself about the couple . 0.3518
+a man will tell himself about the couple . 0.0225
+the woman will tell himself about the couple . 0.1853
+the woman will tell herself about the couple . 0.0146
+will Mark close herself ? 0.0349
+will Mark close himself ? 0.0073
+will Sarah close himself ? 0.0577
+will Sarah close herself ? 0.0060
+Sarah did not close himself . 0.0376
+Sarah did not close herself . 0.0060
+could he be like herself ? 0.0512
+could he be like himself ? 0.0030
+could Sarah be like himself ? 0.0200
+could Sarah be like herself ? 0.0044
+he could be like herself . 0.0106
+he could be like himself . 0.0079
+Sarah could be like himself . 0.1329
+Sarah could be like herself . 0.0045
+must Richard tell herself about the apple ? 0.0679
+must Richard tell himself about the apple ? 0.1760
+must she tell himself about the apple ? 0.6048
+must she tell herself about the apple ? 0.1390
+Richard must not tell herself about the apple . 0.0179
+Richard must not tell himself about the apple . 0.0125
+she must not tell himself about the apple . 0.0931
+she must not tell herself about the apple . 0.0177
+would that man tell herself about the dinner ? 0.0571
+would that man tell himself about the dinner ? 0.0044
+would she tell himself about the dinner ? 0.6951
+would she tell herself about the dinner ? 0.0076
+that man would tell herself about the dinner . 0.0313
+that man would tell himself about the dinner . 0.0108
+she would tell himself about the dinner . 0.1973
+she would tell herself about the dinner . 0.0141
+can Michael read herself ? 0.0069
+can Michael read himself ? 0.0019
+Michael did not read herself . 0.0128
+Michael did not read himself . 0.0075
+Roger must run to herself . 0.0148
+Roger must run to himself . 0.0074
+Sarah must run to himself . 0.2177
+Sarah must run to herself . 0.0096
+can a man be like herself ? 0.0554
+can a man be like himself ? 0.0013
+a man can be like herself . 0.1523
+a man can be like himself . 0.0092
+will Donald be like herself ? 0.0677
+will Donald be like himself ? 0.0044
+will Laura be like himself ? 0.0171
+will Laura be like herself ? 0.0030
+Donald will not be like herself . 0.0665
+Donald will not be like himself . 0.0053
+Laura will not be like himself . 0.0301
+Laura will not be like herself . 0.0044
+will Philip be like herself ? 0.0156
+will Philip be like himself ? 0.0042
+will that woman be like himself ? 0.1179
+will that woman be like herself ? 0.0027
+Philip did not be like herself . 0.0094
+Philip did not be like himself . 0.0054
+will William read herself ? 0.0894
+will William read himself ? 0.0156
+will a woman read himself ? 0.0525
+will a woman read herself ? 0.0131
+William will read herself . 0.0196
+William will read himself . 0.0076
+a woman will read himself . 0.1195
+a woman will read herself . 0.0104
+will a man record herself ? 0.0169
+will a man record himself ? 0.0041
+a man will record herself . 0.0543
+a man will record himself . 0.0064
+must Alexander tell herself about the media ? 0.1561
+must Alexander tell himself about the media ? 0.2550
+must she tell himself about the media ? 0.5604
+must she tell herself about the media ? 0.3380
+Alexander must tell herself about the media . 0.0127
+Alexander must tell himself about the media . 0.0069
+she must tell himself about the media . 0.0991
+she must tell herself about the media . 0.0129
+must Michael close herself ? 0.1235
+must Michael close himself ? 0.1361
+must Sarah close himself ? 0.0757
+must Sarah close herself ? 0.0543
+Michael must not close herself . 0.0101
+Michael must not close himself . 0.0068
+Sarah must not close himself . 0.0797
+Sarah must not close herself . 0.0071
+will she record himself ? 0.1610
+will she record herself ? 0.0013
+Richard will not record herself . 0.0131
+Richard will not record himself . 0.0032
+she will not record himself . 0.0774
+she will not record herself . 0.0138
+can Laura close himself ? 0.0245
+can Laura close herself ? 0.0031
+Donald did not close herself . 0.0279
+Donald did not close himself . 0.0083
+Laura did not close himself . 0.0379
+Laura did not close herself . 0.0063
+would William work with herself on the mirror ? 0.0554
+would William work with himself on the mirror ? 0.0249
+would that woman work with himself on the mirror ? 0.0698
+would that woman work with herself on the mirror ? 0.0055
+William would not work with herself on the mirror . 0.0092
+William would not work with himself on the mirror . 0.0061
+that woman would not work with himself on the mirror . 0.0688
+that woman would not work with herself on the mirror . 0.0132
+must he work with herself on the drop ? 0.2963
+must he work with himself on the drop ? 0.0958
+must she work with himself on the drop ? 0.5414
+must she work with herself on the drop ? 0.0597
+he must work with herself on the drop . 0.0197
+he must work with himself on the drop . 0.0214
+she must work with himself on the drop . 0.1127
+she must work with herself on the drop . 0.0221
+must the man run to herself ? 0.1042
+must the man run to himself ? 0.0326
+must a woman run to himself ? 0.2287
+must a woman run to herself ? 0.0244
+the man must run to herself . 0.0774
+the man must run to himself . 0.0081
+a woman must run to himself . 0.2076
+a woman must run to herself . 0.0096
+could Philip work with herself on the bank ? 0.0438
+could Philip work with himself on the bank ? 0.0238
+could the woman work with himself on the bank ? 0.1101
+could the woman work with herself on the bank ? 0.0459
+Philip could work with herself on the bank . 0.0395
+Philip could work with himself on the bank . 0.0367
+the woman could work with himself on the bank . 0.1119
+the woman could work with herself on the bank . 0.0647
+should Philip work with herself on the procedure ? 0.0115
+should Philip work with himself on the procedure ? 0.0038
+should a woman work with himself on the procedure ? 0.1076
+should a woman work with herself on the procedure ? 0.0015
+Philip should work with herself on the procedure . 0.0200
+Philip should work with himself on the procedure . 0.0035
+a woman should work with himself on the procedure . 0.1492
+a woman should work with herself on the procedure . 0.0109
+Michael did not close herself . 0.0077
+Michael did not close himself . 0.0056
+must he record herself ? 0.1444
+must he record himself ? 0.0369
+he must record herself . 0.0080
+he must record himself . 0.0057
+would Richard work with herself on the apple ? 0.1290
+would Richard work with himself on the apple ? 0.1192
+would Laura work with himself on the apple ? 0.2058
+would Laura work with herself on the apple ? 0.1245
+Richard would work with herself on the apple . 0.0688
+Richard would work with himself on the apple . 0.0495
+Laura would work with himself on the apple . 0.1018
+Laura would work with herself on the apple . 0.0509
+could Richard record herself ? 0.0441
+could Richard record himself ? 0.0103
+could that woman record himself ? 0.0153
+could that woman record herself ? 0.0030
+Richard could not record herself . 0.0107
+Richard could not record himself . 0.0033
+that woman could not record himself . 0.0240
+that woman could not record herself . 0.0095
+will Mark run to herself ? 0.0661
+will Mark run to himself ? 0.0171
+Mark will run to herself . 0.2377
+Mark will run to himself . 0.0075
+should Alexander make herself the dance ? 0.0087
+should Alexander make himself the dance ? 0.0211
+should a woman make himself the dance ? 0.1797
+should a woman make herself the dance ? 0.0070
+Alexander should not make herself the dance . 0.0600
+Alexander should not make himself the dance . 0.2213
+a woman should not make himself the dance . 0.2447
+a woman should not make herself the dance . 0.0395
+could Alexander work with herself on the truck ? 0.0086
+could Alexander work with himself on the truck ? 0.0086
+could that woman work with himself on the truck ? 0.0815
+could that woman work with herself on the truck ? 0.0058
+Alexander could work with herself on the truck . 0.0076
+Alexander could work with himself on the truck . 0.0055
+that woman could work with himself on the truck . 0.1928
+that woman could work with herself on the truck . 0.0193
+will a woman be like himself ? 0.0933
+will a woman be like herself ? 0.0052
+a woman did not be like himself . 0.0886
+a woman did not be like herself . 0.0123
+must Michael want herself ? 0.3928
+must Michael want himself ? 0.4971
+must the woman want himself ? 0.2505
+must the woman want herself ? 0.0542
+Michael must want herself . 0.0742
+Michael must want himself . 0.0564
+the woman must want himself . 0.0618
+the woman must want herself . 0.0094
+must Michael make herself the fuel ? 0.0633
+must Michael make himself the fuel ? 0.0746
+must that woman make himself the fuel ? 0.0758
+must that woman make herself the fuel ? 0.0335
+Michael must make herself the fuel . 0.0209
+Michael must make himself the fuel . 0.0133
+that woman must make himself the fuel . 0.1616
+that woman must make herself the fuel . 0.0141
+would Donald tell herself about the bird ? 0.0382
+would Donald tell himself about the bird ? 0.0219
+would a woman tell himself about the bird ? 0.2509
+would a woman tell herself about the bird ? 0.0082
+Donald would not tell herself about the bird . 0.0214
+Donald would not tell himself about the bird . 0.0126
+a woman would not tell himself about the bird . 0.1514
+a woman would not tell herself about the bird . 0.0171
+would William want herself ? 0.1389
+would William want himself ? 0.0840
+would that woman want himself ? 0.2152
+would that woman want herself ? 0.0365
+William would not want herself . 0.1956
+William would not want himself . 0.0587
+that woman would not want himself . 0.2404
+that woman would not want herself . 0.0143
+would that man be like herself ? 0.0501
+would that man be like himself ? 0.0026
+that man would be like herself . 0.0953
+that man would be like himself . 0.0084
+that woman would be like himself . 0.0897
+that woman would be like herself . 0.0119
+must she record himself ? 0.2257
+must she record herself ? 0.0200
+he must not record herself . 0.0099
+he must not record himself . 0.0071
+she must not record himself . 0.0677
+she must not record herself . 0.0086
+should that man record herself ? 0.0135
+should that man record himself ? 0.0059
+should the woman record himself ? 0.0181
+should the woman record herself ? 0.0018
+that man did not record herself . 0.0204
+that man did not record himself . 0.0079
+will a man close herself ? 0.2110
+will a man close himself ? 0.0080
+will she close himself ? 0.4315
+will she close herself ? 0.0031
+a man did not close herself . 0.1150
+a man did not close himself . 0.0117
+could Donald close herself ? 0.1364
+could Donald close himself ? 0.0436
+a woman did not close himself . 0.0740
+a woman did not close herself . 0.0168
+will a man be like herself ? 0.1076
+will a man be like himself ? 0.0056
+a man did not be like herself . 0.1038
+a man did not be like himself . 0.0130
+a man will be like herself . 0.1286
+a man will be like himself . 0.0131
+that woman will be like himself . 0.1031
+that woman will be like herself . 0.0154
+can William record herself ? 0.0072
+can William record himself ? 0.0012
+can Laura record himself ? 0.0120
+can Laura record herself ? 0.0020
+William can record herself . 0.0129
+William can record himself . 0.0034
+Laura can record himself . 0.0979
+Laura can record herself . 0.0032
+she would not run to himself . 0.0677
+she would not run to herself . 0.0161
+will a man make herself the book ? 0.0779
+will a man make himself the book ? 0.0201
+will that woman make himself the book ? 0.0596
+will that woman make herself the book ? 0.0158
+a man will make herself the book . 0.1249
+a man will make himself the book . 0.0244
+that woman will make himself the book . 0.0771
+that woman will make herself the book . 0.0314
+would Donald work with herself on the hill ? 0.1220
+would Donald work with himself on the hill ? 0.0195
+would the woman work with himself on the hill ? 0.0905
+would the woman work with herself on the hill ? 0.0628
+Donald would work with herself on the hill . 0.0171
+Donald would work with himself on the hill . 0.0088
+the woman would work with himself on the hill . 0.1252
+the woman would work with herself on the hill . 0.0142
+can Donald run to herself ? 0.5116
+can Donald run to himself ? 0.0196
+can the woman run to himself ? 0.0577
+can the woman run to herself ? 0.0031
+Donald can run to herself . 0.0266
+Donald can run to himself . 0.0149
+the woman can run to himself . 0.0291
+the woman can run to herself . 0.0077
+will Michael tell herself about the bird ? 0.0205
+will Michael tell himself about the bird ? 0.0168
+will Laura tell himself about the bird ? 0.0531
+will Laura tell herself about the bird ? 0.0153
+Michael will not tell herself about the bird . 0.0215
+Michael will not tell himself about the bird . 0.0138
+Laura will not tell himself about the bird . 0.1692
+Laura will not tell herself about the bird . 0.0085
+would a man record herself ? 0.0048
+would a man record himself ? 0.0030
+would the woman record himself ? 0.0143
+would the woman record herself ? 0.0049
+a man would not record herself . 0.0237
+a man would not record himself . 0.0068
+the woman would not record himself . 0.0177
+the woman would not record herself . 0.0068
+will the woman want himself ? 0.2290
+will the woman want herself ? 0.0147
+he will not want herself . 0.0468
+he will not want himself . 0.0258
+the woman will not want himself . 0.1107
+the woman will not want herself . 0.0142
+will Roger work with herself on the plan ? 0.0184
+will Roger work with himself on the plan ? 0.0062
+will she work with himself on the plan ? 0.4388
+will she work with herself on the plan ? 0.0033
+Roger will work with herself on the plan . 0.1190
+Roger will work with himself on the plan . 0.0029
+she will work with himself on the plan . 0.0800
+she will work with herself on the plan . 0.0123
+should Roger want herself ? 0.2225
+should Roger want himself ? 0.1542
+Roger should want herself . 0.4574
+Roger should want himself . 0.3319
+could the man close herself ? 0.0865
+could the man close himself ? 0.0118
+could Sarah close himself ? 0.0322
+could Sarah close herself ? 0.0096
+the man could close herself . 0.0655
+the man could close himself . 0.0086
+Sarah could close himself . 0.1176
+Sarah could close herself . 0.0073
+can Roger make herself the mind ? 0.0634
+can Roger make himself the mind ? 0.0368
+can the woman make himself the mind ? 0.0394
+can the woman make herself the mind ? 0.0080
+Roger can make herself the mind . 0.0517
+Roger can make himself the mind . 0.0253
+the woman can make himself the mind . 0.1934
+the woman can make herself the mind . 0.0115
+would Donald make herself the growth ? 0.9190
+would Donald make himself the growth ? 1.2268
+would the woman make himself the growth ? 0.5536
+would the woman make herself the growth ? 0.6444
+Donald would make herself the growth . 0.7697
+Donald would make himself the growth . 0.5170
+the woman would make himself the growth . 0.2920
+the woman would make herself the growth . 0.4289
+Alexander did not be like herself . 0.0100
+Alexander did not be like himself . 0.0069
+will William work with herself on the picture ? 0.0329
+will William work with himself on the picture ? 0.0237
+will the woman work with himself on the picture ? 0.0940
+will the woman work with herself on the picture ? 0.0172
+William will not work with herself on the picture . 0.1484
+William will not work with himself on the picture . 0.0109
+the woman will not work with himself on the picture . 0.0657
+the woman will not work with herself on the picture . 0.0187
+a man would read herself . 0.0667
+a man would read himself . 0.0161
+Sarah would read himself . 0.4176
+Sarah would read herself . 0.0078
+Richard can read herself . 0.0215
+Richard can read himself . 0.0052
+Laura can read himself . 0.2384
+Laura can read herself . 0.0040
+Mark could not read herself . 0.0349
+Mark could not read himself . 0.0059
+Sarah could not read himself . 0.1095
+Sarah could not read herself . 0.0047
+would a man tell herself about the bear ? 0.0328
+would a man tell himself about the bear ? 0.0068
+would Laura tell himself about the bear ? 0.0516
+would Laura tell herself about the bear ? 0.0215
+a man would not tell herself about the bear . 0.0377
+a man would not tell himself about the bear . 0.0141
+Laura would not tell himself about the bear . 0.1277
+Laura would not tell herself about the bear . 0.0059
+should Richard work with herself on the dance ? 0.0522
+should Richard work with himself on the dance ? 0.0062
+should a woman work with himself on the dance ? 0.0621
+should a woman work with herself on the dance ? 0.0047
+Richard should work with herself on the dance . 0.0164
+Richard should work with himself on the dance . 0.0076
+a woman should work with himself on the dance . 0.1329
+a woman should work with herself on the dance . 0.0114
+can Michael make herself the lady ? 0.0131
+can Michael make himself the lady ? 0.0559
+can the woman make himself the lady ? 0.0040
+can the woman make herself the lady ? 0.0025
+Michael did not make herself the lady . 0.0165
+Michael did not make himself the lady . 0.0539
+the woman did not make himself the lady . 0.0284
+the woman did not make herself the lady . 0.0126
+could Donald tell herself about the cabinet ? 0.0303
+could Donald tell himself about the cabinet ? 0.0190
+could the woman tell himself about the cabinet ? 0.2289
+could the woman tell herself about the cabinet ? 0.0110
+Donald could not tell herself about the cabinet . 0.0234
+Donald could not tell himself about the cabinet . 0.0098
+the woman could not tell himself about the cabinet . 0.0536
+the woman could not tell herself about the cabinet . 0.0131
+could Mark be like herself ? 0.0151
+could Mark be like himself ? 0.0037
+Mark could be like herself . 0.0369
+Mark could be like himself . 0.0062
+must he tell herself about the mind ? 0.1972
+must he tell himself about the mind ? 0.0607
+must the woman tell himself about the mind ? 0.1615
+must the woman tell herself about the mind ? 0.0641
+he must tell herself about the mind . 0.0152
+he must tell himself about the mind . 0.0125
+the woman must tell himself about the mind . 0.0342
+the woman must tell herself about the mind . 0.0094
+a man can read herself . 0.0634
+a man can read himself . 0.0055
+would the man give herself the fuel ? 0.0104
+would the man give himself the fuel ? 0.0034
+would Laura give himself the fuel ? 0.0182
+would Laura give herself the fuel ? 0.0076
+the man did not give herself the fuel . 0.0291
+the man did not give himself the fuel . 0.0123
+Laura did not give himself the fuel . 0.0237
+Laura did not give herself the fuel . 0.0119
+Richard did not run to herself . 0.0546
+Richard did not run to himself . 0.0115
+Laura did not run to himself . 0.0991
+Laura did not run to herself . 0.0059
+would Roger tell herself about the general ? 0.3232
+would Roger tell himself about the general ? 0.1419
+would a woman tell himself about the general ? 0.3406
+would a woman tell herself about the general ? 0.1577
+Roger would not tell herself about the general . 0.1165
+Roger would not tell himself about the general . 0.0823
+a woman would not tell himself about the general . 0.2045
+a woman would not tell herself about the general . 0.0746
+should a man be like herself ? 0.1271
+should a man be like himself ? 0.0020
+should the woman be like himself ? 0.0442
+should the woman be like herself ? 0.0023
+a man should not be like herself . 0.2651
+a man should not be like himself . 0.0088
+the woman should not be like himself . 0.0604
+the woman should not be like herself . 0.0076
+could the man give herself the counter ? 0.0453
+could the man give himself the counter ? 0.0245
+could that woman give himself the counter ? 0.0622
+could that woman give herself the counter ? 0.0578
+the man could give herself the counter . 0.0735
+the man could give himself the counter . 0.0434
+that woman could give himself the counter . 0.1057
+that woman could give herself the counter . 0.0908
+must that man give herself the sky ? 0.0712
+must that man give himself the sky ? 0.0502
+must she give himself the sky ? 0.2092
+must she give herself the sky ? 0.0239
+that man must not give herself the sky . 0.0225
+that man must not give himself the sky . 0.0130
+she must not give himself the sky . 0.0411
+she must not give herself the sky . 0.0153
+will William work with herself on the hill ? 0.0397
+will William work with himself on the hill ? 0.0144
+William will not work with herself on the hill . 0.1548
+William will not work with himself on the hill . 0.0091
+a woman will not work with himself on the hill . 0.0756
+a woman will not work with herself on the hill . 0.0127
+will the man make herself the back ? 0.1043
+will the man make himself the back ? 0.1719
+will a woman make himself the back ? 0.2104
+will a woman make herself the back ? 0.2239
+the man will not make herself the back . 0.1430
+the man will not make himself the back . 0.1696
+a woman will not make himself the back . 0.2552
+a woman will not make herself the back . 0.2550
+will that man make herself the plan ? 0.0376
+will that man make himself the plan ? 0.0108
+will the woman make himself the plan ? 0.0509
+will the woman make herself the plan ? 0.0196
+that man will make herself the plan . 0.1071
+that man will make himself the plan . 0.0092
+the woman will make himself the plan . 0.0963
+the woman will make herself the plan . 0.0397
+would the man work with herself on the picture ? 0.0498
+would the man work with himself on the picture ? 0.0189
+would she work with himself on the picture ? 0.5597
+would she work with herself on the picture ? 0.0077
+the man would not work with herself on the picture . 0.0728
+the man would not work with himself on the picture . 0.0111
+she would not work with himself on the picture . 0.1806
+she would not work with herself on the picture . 0.0198
+will a man make herself the mind ? 0.1016
+will a man make himself the mind ? 0.0099
+will the woman make himself the mind ? 0.0515
+will the woman make herself the mind ? 0.0168
+a man will not make herself the mind . 0.2000
+a man will not make himself the mind . 0.0166
+the woman will not make himself the mind . 0.1548
+the woman will not make herself the mind . 0.0221
+should Michael tell herself about the access ? 0.0118
+should Michael tell himself about the access ? 0.0063
+should a woman tell himself about the access ? 0.3519
+should a woman tell herself about the access ? 0.0135
+Michael should not tell herself about the access . 0.0182
+Michael should not tell himself about the access . 0.0174
+a woman should not tell himself about the access . 0.1617
+a woman should not tell herself about the access . 0.0411
+will that man read herself ? 0.0211
+will that man read himself ? 0.0174
+that man will not read herself . 0.0976
+that man will not read himself . 0.0092
+would Richard make herself the bird ? 0.0550
+would Richard make himself the bird ? 0.0108
+would the woman make himself the bird ? 0.0117
+would the woman make herself the bird ? 0.0088
+Richard would make herself the bird . 0.0214
+Richard would make himself the bird . 0.0081
+the woman would make himself the bird . 0.0609
+the woman would make herself the bird . 0.0106
+Laura will not record himself . 0.0124
+Laura will not record herself . 0.0030
+can Mark close herself ? 0.0148
+can Mark close himself ? 0.0036
+Mark can not close herself . 0.0324
+Mark can not close himself . 0.0074
+she can not close himself . 0.0725
+she can not close herself . 0.0148
+can Richard record herself ? 0.0220
+can Richard record himself ? 0.0023
+Richard can not record herself . 0.0109
+Richard can not record himself . 0.0033
+that woman can not record himself . 0.0393
+that woman can not record herself . 0.0212
+must Alexander run to herself ? 0.0377
+must Alexander run to himself ? 0.0805
+Alexander did not run to herself . 0.0088
+Alexander did not run to himself . 0.0082
+Sarah did not run to himself . 0.1496
+Sarah did not run to herself . 0.0069
+must the man make herself the bear ? 0.0272
+must the man make himself the bear ? 0.0307
+must that woman make himself the bear ? 0.0474
+must that woman make herself the bear ? 0.0465
+the man must make herself the bear . 0.0117
+the man must make himself the bear . 0.0100
+that woman must make himself the bear . 0.1027
+that woman must make herself the bear . 0.0154
+will he tell herself about the guess ? 0.9891
+will he tell himself about the guess ? 0.3547
+will the woman tell himself about the guess ? 0.4134
+will the woman tell herself about the guess ? 0.2156
+he will tell herself about the guess . 0.1958
+he will tell himself about the guess . 0.1354
+the woman will tell himself about the guess . 0.2818
+the woman will tell herself about the guess . 0.2645
+the woman would record himself . 0.0225
+the woman would record herself . 0.0060
+that woman can close himself . 0.1263
+that woman can close herself . 0.0294
+will William be like herself ? 0.0169
+will William be like himself ? 0.0039
+William will not be like herself . 0.1754
+William will not be like himself . 0.0058
+the woman will not be like himself . 0.0546
+the woman will not be like herself . 0.0087
+would Richard make herself the book ? 0.0577
+would Richard make himself the book ? 0.0416
+would Laura make himself the book ? 0.1842
+would Laura make herself the book ? 0.0176
+Richard would make herself the book . 0.0227
+Richard would make himself the book . 0.0548
+Laura would make himself the book . 0.0959
+Laura would make herself the book . 0.0139
+should he work with herself on the memory ? 0.3433
+should he work with himself on the memory ? 0.0033
+should Sarah work with himself on the memory ? 0.0509
+should Sarah work with herself on the memory ? 0.0060
+he should not work with herself on the memory . 0.0211
+he should not work with himself on the memory . 0.0101
+Sarah should not work with himself on the memory . 0.0287
+Sarah should not work with herself on the memory . 0.0075
+that woman will not be like himself . 0.0970
+that woman will not be like herself . 0.0105
+will Philip give herself the clock ? 0.1109
+will Philip give himself the clock ? 0.0269
+will the woman give himself the clock ? 0.0260
+will the woman give herself the clock ? 0.0082
+Philip will not give herself the clock . 0.3280
+Philip will not give himself the clock . 0.0238
+the woman will not give himself the clock . 0.0450
+the woman will not give herself the clock . 0.0432
+must William run to herself ? 0.0406
+must William run to himself ? 0.0479
+William must run to herself . 0.0355
+William must run to himself . 0.0143
+must William work with herself on the apple ? 0.1332
+must William work with himself on the apple ? 0.1380
+must that woman work with himself on the apple ? 0.2871
+must that woman work with herself on the apple ? 0.2060
+William must work with herself on the apple . 0.0424
+William must work with himself on the apple . 0.0209
+that woman must work with himself on the apple . 0.1597
+that woman must work with herself on the apple . 0.0346
+must Mark tell herself about the truck ? 0.0435
+must Mark tell himself about the truck ? 0.0647
+must Laura tell himself about the truck ? 0.1171
+must Laura tell herself about the truck ? 0.1796
+Mark must not tell herself about the truck . 0.0213
+Mark must not tell himself about the truck . 0.0117
+Laura must not tell himself about the truck . 0.0378
+Laura must not tell herself about the truck . 0.0102
+could he run to herself ? 0.4809
+could he run to himself ? 0.0063
+he could not run to herself . 0.0277
+he could not run to himself . 0.0126
+the woman could not run to himself . 0.0346
+the woman could not run to herself . 0.0120
+would William be like herself ? 0.0179
+would William be like himself ? 0.0043
+would the woman be like himself ? 0.0327
+would the woman be like herself ? 0.0036
+William would not be like herself . 0.0440
+William would not be like himself . 0.0052
+the woman would not be like himself . 0.0529
+the woman would not be like herself . 0.0090
+should he want herself ? 0.5177
+should he want himself ? 0.0181
+he should not want herself . 0.0658
+he should not want himself . 0.0848
+could William run to herself ? 0.0279
+could William run to himself ? 0.0144
+William could run to herself . 0.0134
+William could run to himself . 0.0196
+will Mark read herself ? 0.0351
+will Mark read himself ? 0.0111
+Mark will not read herself . 0.0551
+Mark will not read himself . 0.0093
+she will not read himself . 0.0806
+she will not read herself . 0.0167
+will Richard want herself ? 0.1363
+will Richard want himself ? 0.0467
+Richard did not want herself . 0.1725
+Richard did not want himself . 0.0372
+Laura did not want himself . 0.1841
+Laura did not want herself . 0.0234
+Laura did not record himself . 0.0082
+Laura did not record herself . 0.0029
+could Mark want herself ? 0.0903
+could Mark want himself ? 0.0629
+Mark could not want herself . 0.1732
+Mark could not want himself . 0.6359
+should Donald work with herself on the bank ? 0.1138
+should Donald work with himself on the bank ? 0.1121
+should Laura work with himself on the bank ? 0.1405
+should Laura work with herself on the bank ? 0.0756
+Donald should not work with herself on the bank . 0.0583
+Donald should not work with himself on the bank . 0.0605
+Laura should not work with himself on the bank . 0.0438
+Laura should not work with herself on the bank . 0.0445
+could Alexander run to herself ? 0.0214
+could Alexander run to himself ? 0.0161
+Alexander could not run to herself . 0.0103
+Alexander could not run to himself . 0.0122
+would William close herself ? 0.0623
+would William close himself ? 0.0151
+William would not close herself . 0.0475
+William would not close himself . 0.0075
+Roger will be like herself . 0.0420
+Roger will be like himself . 0.0040
+she will be like himself . 0.0541
+she will be like herself . 0.0152
+can Roger make herself the person ? 0.0338
+can Roger make himself the person ? 0.0090
+can the woman make himself the person ? 0.0128
+can the woman make herself the person ? 0.0031
+Roger can not make herself the person . 0.0394
+Roger can not make himself the person . 0.0196
+the woman can not make himself the person . 0.0803
+the woman can not make herself the person . 0.0112
+will William make herself the cabinet ? 0.0202
+will William make himself the cabinet ? 0.0060
+will that woman make himself the cabinet ? 0.0376
+will that woman make herself the cabinet ? 0.0043
+William will make herself the cabinet . 0.0117
+William will make himself the cabinet . 0.0078
+that woman will make himself the cabinet . 0.0390
+that woman will make herself the cabinet . 0.0102
+could Richard make herself the mirror ? 0.0317
+could Richard make himself the mirror ? 0.0051
+could Sarah make himself the mirror ? 0.0230
+could Sarah make herself the mirror ? 0.0043
+Richard could not make herself the mirror . 0.0306
+Richard could not make himself the mirror . 0.0075
+Sarah could not make himself the mirror . 0.1865
+Sarah could not make herself the mirror . 0.0137
+can he close herself ? 0.3830
+can he close himself ? 0.0029
+he can close herself . 0.0149
+he can close himself . 0.0100
+should that man work with herself on the mirror ? 0.0210
+should that man work with himself on the mirror ? 0.0080
+should Sarah work with himself on the mirror ? 0.0564
+should Sarah work with herself on the mirror ? 0.0023
+that man should work with herself on the mirror . 0.1487
+that man should work with himself on the mirror . 0.0062
+Sarah should work with himself on the mirror . 0.0418
+Sarah should work with herself on the mirror . 0.0028
+could William make herself the media ? 0.0374
+could William make himself the media ? 0.0649
+could Laura make himself the media ? 0.3144
+could Laura make herself the media ? 0.0464
+William could not make herself the media . 0.1828
+William could not make himself the media . 0.2280
+Laura could not make himself the media . 0.3894
+Laura could not make herself the media . 0.1192
+could Mark tell herself about the back ? 0.0834
+could Mark tell himself about the back ? 0.0590
+could a woman tell himself about the back ? 0.2572
+could a woman tell herself about the back ? 0.0243
+Mark could tell herself about the back . 0.0560
+Mark could tell himself about the back . 0.0257
+a woman could tell himself about the back . 0.1416
+a woman could tell herself about the back . 0.0246
+will he run to herself ? 0.6137
+will he run to himself ? 0.0055
+he will not run to herself . 0.0252
+he will not run to himself . 0.0096
+could William record herself ? 0.0163
+could William record himself ? 0.0099
+William could not record herself . 0.0064
+William could not record himself . 0.0028
+she could not record himself . 0.0695
+she could not record herself . 0.0150
+would Richard run to herself ? 0.0579
+would Richard run to himself ? 0.0199
+Richard would not run to herself . 0.0250
+Richard would not run to himself . 0.0192
+could she want himself ? 0.4088
+could she want herself ? 0.0143
+he could want herself . 0.0795
+he could want himself . 0.1431
+she could want himself . 0.1645
+she could want herself . 0.1582
+could she read himself ? 0.2657
+could she read herself ? 0.0016
+she did not read himself . 0.0741
+she did not read herself . 0.0176
+should Roger make herself the procedure ? 0.1134
+should Roger make himself the procedure ? 0.1947
+should the woman make himself the procedure ? 0.1840
+should the woman make herself the procedure ? 0.0295
+Roger should not make herself the procedure . 0.2456
+Roger should not make himself the procedure . 0.6794
+the woman should not make himself the procedure . 0.1840
+the woman should not make herself the procedure . 0.1603
+can Michael give herself the suit ? 0.0180
+can Michael give himself the suit ? 0.0129
+can she give himself the suit ? 0.2864
+can she give herself the suit ? 0.0033
+Michael can not give herself the suit . 0.0721
+Michael can not give himself the suit . 0.0940
+she can not give himself the suit . 0.0436
+she can not give herself the suit . 0.0233
+must Michael work with herself on the hill ? 0.0701
+must Michael work with himself on the hill ? 0.1171
+must Laura work with himself on the hill ? 0.1013
+must Laura work with herself on the hill ? 0.0754
+Michael must not work with herself on the hill . 0.0135
+Michael must not work with himself on the hill . 0.0126
+Laura must not work with himself on the hill . 0.0186
+Laura must not work with herself on the hill . 0.0102
+must he make herself the fuel ? 0.4928
+must he make himself the fuel ? 0.0203
+must Laura make himself the fuel ? 0.0341
+must Laura make herself the fuel ? 0.0594
+he must make herself the fuel . 0.0165
+he must make himself the fuel . 0.0132
+Laura must make himself the fuel . 0.1380
+Laura must make herself the fuel . 0.0197
+that man could close herself . 0.0574
+that man could close himself . 0.0114
+that woman could close himself . 0.1043
+that woman could close herself . 0.0262
+could that man want herself ? 0.0850
+could that man want himself ? 0.0199
+could that woman want himself ? 0.1899
+could that woman want herself ? 0.0179
+that man could want herself . 0.1502
+that man could want himself . 0.0167
+that woman could want himself . 0.1288
+that woman could want herself . 0.0407
+Richard did not record herself . 0.0088
+Richard did not record himself . 0.0029
+could Philip want herself ? 0.1266
+could Philip want himself ? 0.1373
+could Sarah want himself ? 0.1635
+could Sarah want herself ? 0.0841
+Philip could not want herself . 0.0926
+Philip could not want himself . 0.6133
+Sarah could not want himself . 0.4555
+Sarah could not want herself . 0.4111
+will Michael give herself the procedure ? 0.0213
+will Michael give himself the procedure ? 0.0092
+will she give himself the procedure ? 0.3018
+will she give herself the procedure ? 0.0032
+Michael will not give herself the procedure . 0.0619
+Michael will not give himself the procedure . 0.0389
+she will not give himself the procedure . 0.0806
+she will not give herself the procedure . 0.0159
+will the man give herself the color ? 0.0210
+will the man give himself the color ? 0.0083
+will a woman give himself the color ? 0.0431
+will a woman give herself the color ? 0.0072
+the man will not give herself the color . 0.0253
+the man will not give himself the color . 0.0173
+a woman will not give himself the color . 0.0328
+a woman will not give herself the color . 0.0185
+can the man run to herself ? 0.1297
+can the man run to himself ? 0.0030
+the man did not run to herself . 0.1548
+the man did not run to himself . 0.0085
+the woman did not run to himself . 0.0872
+the woman did not run to herself . 0.0092
+could she be like himself ? 0.2047
+could she be like herself ? 0.0023
+the man could be like herself . 0.0404
+the man could be like himself . 0.0072
+she could be like himself . 0.0600
+she could be like herself . 0.0097
+could Philip be like herself ? 0.0082
+could Philip be like himself ? 0.0034
+could the woman be like himself ? 0.0329
+could the woman be like herself ? 0.0040
+Philip could not be like herself . 0.0065
+Philip could not be like himself . 0.0038
+the woman could not be like himself . 0.0346
+the woman could not be like herself . 0.0077
+should William record herself ? 0.0081
+should William record himself ? 0.0072
+William did not record herself . 0.0051
+William did not record himself . 0.0019
+would Roger make herself the night ? 0.0379
+would Roger make himself the night ? 0.0271
+would the woman make himself the night ? 0.0746
+would the woman make herself the night ? 0.0225
+Roger did not make herself the night . 0.0249
+Roger did not make himself the night . 0.0233
+the woman did not make himself the night . 0.1919
+the woman did not make herself the night . 0.0396
+should Donald give herself the movie ? 0.0580
+should Donald give himself the movie ? 0.0693
+should Laura give himself the movie ? 0.0709
+should Laura give herself the movie ? 0.0164
+Donald should give herself the movie . 0.0512
+Donald should give himself the movie . 0.0557
+Laura should give himself the movie . 0.1083
+Laura should give herself the movie . 0.0217
+can Michael close herself ? 0.0139
+can Michael close himself ? 0.0038
+Michael can not close herself . 0.0107
+Michael can not close himself . 0.0067
+must Philip work with herself on the scale ? 0.0405
+must Philip work with himself on the scale ? 0.0578
+must that woman work with himself on the scale ? 0.2322
+must that woman work with herself on the scale ? 0.1895
+Philip must not work with herself on the scale . 0.0093
+Philip must not work with himself on the scale . 0.0066
+that woman must not work with himself on the scale . 0.0976
+that woman must not work with herself on the scale . 0.0131
+could Michael make herself the whale ? 0.0083
+could Michael make himself the whale ? 0.0033
+could Laura make himself the whale ? 0.0384
+could Laura make herself the whale ? 0.0034
+Michael could not make herself the whale . 0.0173
+Michael could not make himself the whale . 0.0111
+Laura could not make himself the whale . 0.1144
+Laura could not make herself the whale . 0.0102
+should Alexander work with herself on the movie ? 0.0081
+should Alexander work with himself on the movie ? 0.0056
+should she work with himself on the movie ? 0.4822
+should she work with herself on the movie ? 0.0023
+Alexander should work with herself on the movie . 0.0066
+Alexander should work with himself on the movie . 0.0051
+she should work with himself on the movie . 0.0546
+she should work with herself on the movie . 0.0138
+should William work with herself on the boom ? 0.2475
+should William work with himself on the boom ? 0.0836
+should she work with himself on the boom ? 0.7637
+should she work with herself on the boom ? 0.2414
+William should not work with herself on the boom . 0.1093
+William should not work with himself on the boom . 0.0511
+she should not work with himself on the boom . 0.1163
+she should not work with herself on the boom . 0.1339
+would Mark make herself the game ? 0.0232
+would Mark make himself the game ? 0.0281
+would a woman make himself the game ? 0.1860
+would a woman make herself the game ? 0.0112
+Mark would make herself the game . 0.0292
+Mark would make himself the game . 0.0288
+a woman would make himself the game . 0.1329
+a woman would make herself the game . 0.0178
+would Donald run to herself ? 0.4885
+would Donald run to himself ? 0.0184
+Donald would run to herself . 0.0296
+Donald would run to himself . 0.0133
+Laura would run to himself . 0.2394
+Laura would run to herself . 0.0045
+Donald will be like herself . 0.0789
+Donald will be like himself . 0.0084
+Laura will be like himself . 0.0779
+Laura will be like herself . 0.0067
+will William tell herself about the whale ? 0.0620
+will William tell himself about the whale ? 0.0151
+will Sarah tell himself about the whale ? 0.0891
+will Sarah tell herself about the whale ? 0.0148
+William will not tell herself about the whale . 0.1001
+William will not tell himself about the whale . 0.0131
+Sarah will not tell himself about the whale . 0.2664
+Sarah will not tell herself about the whale . 0.0117
+could Donald work with herself on the guess ? 0.1933
+could Donald work with himself on the guess ? 0.0906
+could the woman work with himself on the guess ? 0.1430
+could the woman work with herself on the guess ? 0.3995
+Donald did not work with herself on the guess . 0.6620
+Donald did not work with himself on the guess . 0.4744
+the woman did not work with himself on the guess . 0.2980
+the woman did not work with herself on the guess . 0.5929
+will he read herself ? 0.1829
+will he read himself ? 0.0058
+he will not read herself . 0.0125
+he will not read himself . 0.0093
+must Laura record himself ? 0.0542
+must Laura record herself ? 0.0388
+Richard must not record herself . 0.0200
+Richard must not record himself . 0.0043
+Laura must not record himself . 0.0129
+Laura must not record herself . 0.0043
+will Philip close herself ? 0.0936
+will Philip close himself ? 0.0076
+will Laura close himself ? 0.1180
+will Laura close herself ? 0.0069
+Philip will close herself . 0.0256
+Philip will close himself . 0.0056
+Laura will close himself . 0.2669
+Laura will close herself . 0.0051
+will Richard run to herself ? 0.0677
+will Richard run to himself ? 0.0180
+will Laura run to himself ? 0.2833
+will Laura run to herself ? 0.0095
+Richard will not run to herself . 0.1465
+Richard will not run to himself . 0.0138
+Laura will not run to himself . 0.1003
+Laura will not run to herself . 0.0072
+would Roger work with herself on the mirror ? 0.0731
+would Roger work with himself on the mirror ? 0.0189
+Roger would not work with herself on the mirror . 0.0153
+Roger would not work with himself on the mirror . 0.0071
+will Roger tell herself about the rock ? 0.1091
+will Roger tell himself about the rock ? 0.1108
+will a woman tell himself about the rock ? 0.3809
+will a woman tell herself about the rock ? 0.1291
+Roger will tell herself about the rock . 0.1175
+Roger will tell himself about the rock . 0.1102
+a woman will tell himself about the rock . 0.3128
+a woman will tell herself about the rock . 0.0992
+would Mark give herself the apple ? 0.0472
+would Mark give himself the apple ? 0.0091
+would that woman give himself the apple ? 0.0150
+would that woman give herself the apple ? 0.0031
+Mark would not give herself the apple . 0.0395
+Mark would not give himself the apple . 0.0090
+that woman would not give himself the apple . 0.0574
+that woman would not give herself the apple . 0.0112
+can Richard tell herself about the apple ? 0.0269
+can Richard tell himself about the apple ? 0.0187
+can Laura tell himself about the apple ? 0.0509
+can Laura tell herself about the apple ? 0.0134
+Richard can tell herself about the apple . 0.0351
+Richard can tell himself about the apple . 0.0195
+Laura can tell himself about the apple . 0.1848
+Laura can tell herself about the apple . 0.0146
+must Donald make herself the mirror ? 0.0271
+must Donald make himself the mirror ? 0.0924
+must Laura make himself the mirror ? 0.0223
+must Laura make herself the mirror ? 0.0180
+Donald did not make herself the mirror . 0.0102
+Donald did not make himself the mirror . 0.0064
+Laura did not make himself the mirror . 0.0823
+Laura did not make herself the mirror . 0.0076
+should a man record herself ? 0.0452
+should a man record himself ? 0.0057
+should that woman record himself ? 0.0111
+should that woman record herself ? 0.0022
+a man should record herself . 0.0896
+a man should record himself . 0.0055
+that woman should record himself . 0.0204
+that woman should record herself . 0.0087
+will Donald tell herself about the label ? 0.0555
+will Donald tell himself about the label ? 0.0326
+will she tell himself about the label ? 0.4984
+will she tell herself about the label ? 0.0068
+Donald will tell herself about the label . 0.0487
+Donald will tell himself about the label . 0.0479
+she will tell himself about the label . 0.0946
+she will tell herself about the label . 0.0139
+Roger could not read herself . 0.0230
+Roger could not read himself . 0.0044
+she could not read himself . 0.0629
+she could not read herself . 0.0217
+should that man want herself ? 0.1683
+should that man want himself ? 0.0208
+that man should not want herself . 0.2757
+that man should not want himself . 0.0124
+the woman would not close himself . 0.0480
+the woman would not close herself . 0.0111
+will Roger give herself the book ? 0.0448
+will Roger give himself the book ? 0.0135
+will Laura give himself the book ? 0.0978
+will Laura give herself the book ? 0.0107
+Roger will not give herself the book . 0.1246
+Roger will not give himself the book . 0.0217
+Laura will not give himself the book . 0.1807
+Laura will not give herself the book . 0.0394
+could Roger work with herself on the person ? 0.0400
+could Roger work with himself on the person ? 0.0104
+could that woman work with himself on the person ? 0.2242
+could that woman work with herself on the person ? 0.0095
+Roger could work with herself on the person . 0.0302
+Roger could work with himself on the person . 0.0136
+that woman could work with himself on the person . 0.2547
+that woman could work with herself on the person . 0.0256
+should Philip make herself the tradition ? 0.0990
+should Philip make himself the tradition ? 0.4296
+should Laura make himself the tradition ? 0.3714
+should Laura make herself the tradition ? 0.2517
+Philip should not make herself the tradition . 0.4774
+Philip should not make himself the tradition . 0.5970
+Laura should not make himself the tradition . 0.4751
+Laura should not make herself the tradition . 0.4584
+could the man give herself the game ? 0.0152
+could the man give himself the game ? 0.0041
+could that woman give himself the game ? 0.0435
+could that woman give herself the game ? 0.0033
+the man could give herself the game . 0.0207
+the man could give himself the game . 0.0063
+that woman could give himself the game . 0.0658
+that woman could give herself the game . 0.0199
+must that woman read himself ? 0.0816
+must that woman read herself ? 0.0937
+a man did not read herself . 0.0750
+a man did not read himself . 0.0093
+will Sarah run to himself ? 0.2962
+will Sarah run to herself ? 0.0099
+Sarah will run to himself . 0.2152
+Sarah will run to herself . 0.0087
+will William give herself the apple ? 0.0798
+will William give himself the apple ? 0.0056
+will Sarah give himself the apple ? 0.0247
+will Sarah give herself the apple ? 0.0061
+William will not give herself the apple . 0.0489
+William will not give himself the apple . 0.0050
+Sarah will not give himself the apple . 0.0393
+Sarah will not give herself the apple . 0.0068
+would Philip work with herself on the ball ? 0.0801
+would Philip work with himself on the ball ? 0.0358
+would that woman work with himself on the ball ? 0.0384
+would that woman work with herself on the ball ? 0.0066
+Philip would work with herself on the ball . 0.0698
+Philip would work with himself on the ball . 0.0021
+that woman would work with himself on the ball . 0.1842
+that woman would work with herself on the ball . 0.0145
+would Donald read herself ? 0.0443
+would Donald read himself ? 0.0157
+would the woman read himself ? 0.0421
+would the woman read herself ? 0.0097
+Donald would not read herself . 0.0271
+Donald would not read himself . 0.0133
+the woman would not read himself . 0.0820
+the woman would not read herself . 0.0111
+should the man want herself ? 0.2475
+should the man want himself ? 0.0114
+should a woman want himself ? 0.2402
+should a woman want herself ? 0.0050
+the man should not want herself . 0.1482
+the man should not want himself . 0.0264
+a woman should not want himself . 0.1830
+a woman should not want herself . 0.0218
+could Alexander be like herself ? 0.0056
+could Alexander be like himself ? 0.0034
+Alexander could not be like herself . 0.0057
+Alexander could not be like himself . 0.0048
+would Alexander make herself the picture ? 0.0251
+would Alexander make himself the picture ? 0.0285
+would that woman make himself the picture ? 0.1323
+would that woman make herself the picture ? 0.0143
+Alexander would make herself the picture . 0.0281
+Alexander would make himself the picture . 0.0642
+that woman would make himself the picture . 0.1394
+that woman would make herself the picture . 0.0183
+would that man run to herself ? 0.0810
+would that man run to himself ? 0.0045
+that man did not run to herself . 0.1582
+that man did not run to himself . 0.0102
+can the woman close himself ? 0.0345
+can the woman close herself ? 0.0038
+Michael can close herself . 0.0194
+Michael can close himself . 0.0149
+the woman can close himself . 0.0354
+the woman can close herself . 0.0077
+will Richard be like herself ? 0.0178
+will Richard be like himself ? 0.0041
+Richard will be like herself . 0.1111
+Richard will be like himself . 0.0072
+must Roger work with herself on the bank ? 0.0792
+must Roger work with himself on the bank ? 0.0837
+must a woman work with himself on the bank ? 0.2371
+must a woman work with herself on the bank ? 0.0845
+Roger must not work with herself on the bank . 0.0354
+Roger must not work with himself on the bank . 0.0356
+a woman must not work with himself on the bank . 0.1328
+a woman must not work with herself on the bank . 0.0361
+can the man tell herself about the bear ? 0.0502
+can the man tell himself about the bear ? 0.0031
+can Laura tell himself about the bear ? 0.0421
+can Laura tell herself about the bear ? 0.0061
+the man can tell herself about the bear . 0.0311
+the man can tell himself about the bear . 0.0093
+Laura can tell himself about the bear . 0.1964
+Laura can tell herself about the bear . 0.0081
+can William want herself ? 0.0424
+can William want himself ? 0.0360
+William can not want herself . 0.0547
+William can not want himself . 0.1874
+Philip could want herself . 0.1899
+Philip could want himself . 0.4958
+will he close herself ? 0.5980
+will he close himself ? 0.0051
+he will not close herself . 0.0211
+he will not close himself . 0.0107
+she will not close himself . 0.0917
+she will not close herself . 0.0180
+could Richard make herself the ball ? 0.0480
+could Richard make himself the ball ? 0.0244
+could a woman make himself the ball ? 0.0823
+could a woman make herself the ball ? 0.0132
+Richard did not make herself the ball . 0.0854
+Richard did not make himself the ball . 0.0214
+a woman did not make himself the ball . 0.2063
+a woman did not make herself the ball . 0.0222
+should the man give herself the camera ? 0.0374
+should the man give himself the camera ? 0.0058
+should a woman give himself the camera ? 0.0703
+should a woman give herself the camera ? 0.0067
+the man should give herself the camera . 0.0295
+the man should give himself the camera . 0.0121
+a woman should give himself the camera . 0.0759
+a woman should give herself the camera . 0.0171
+could Philip make herself the cabinet ? 0.0057
+could Philip make himself the cabinet ? 0.0039
+could she make himself the cabinet ? 0.1278
+could she make herself the cabinet ? 0.0019
+Philip could make herself the cabinet . 0.0056
+Philip could make himself the cabinet . 0.0136
+she could make himself the cabinet . 0.0348
+she could make herself the cabinet . 0.0094
+can Donald make herself the game ? 0.0253
+can Donald make himself the game ? 0.0196
+can the woman make himself the game ? 0.0534
+can the woman make herself the game ? 0.0082
+Donald can make herself the game . 0.0408
+Donald can make himself the game . 0.0135
+the woman can make himself the game . 0.1068
+the woman can make herself the game . 0.0127
+Alexander will not record herself . 0.0046
+Alexander will not record himself . 0.0027
+would the man tell herself about the growth ? 0.0505
+would the man tell himself about the growth ? 0.0129
+would she tell himself about the growth ? 0.5917
+would she tell herself about the growth ? 0.0076
+the man would not tell herself about the growth . 0.0229
+the man would not tell himself about the growth . 0.0125
+she would not tell himself about the growth . 0.1013
+she would not tell herself about the growth . 0.0194
+must the man make herself the couple ? 0.1328
+must the man make himself the couple ? 0.1477
+must Sarah make himself the couple ? 0.2264
+must Sarah make herself the couple ? 0.0357
+the man must make herself the couple . 0.1297
+the man must make himself the couple . 0.1360
+Sarah must make himself the couple . 0.1667
+Sarah must make herself the couple . 0.0292
+would Alexander want herself ? 0.0941
+would Alexander want himself ? 0.1150
+would Laura want himself ? 0.2218
+would Laura want herself ? 0.0554
+Alexander would want herself . 0.0313
+Alexander would want himself . 0.0414
+Laura would want himself . 0.3621
+Laura would want herself . 0.0346
+could a man be like herself ? 0.0639
+could a man be like himself ? 0.0058
+must he tell herself about the growth ? 0.5184
+must he tell himself about the growth ? 0.0979
+must she tell himself about the growth ? 0.4544
+must she tell herself about the growth ? 0.0890
+he must not tell herself about the growth . 0.0131
+he must not tell himself about the growth . 0.0106
+she must not tell himself about the growth . 0.0575
+she must not tell herself about the growth . 0.0140
+must Philip give herself the truck ? 0.1464
+must Philip give himself the truck ? 0.1290
+must a woman give himself the truck ? 0.1956
+must a woman give herself the truck ? 0.1253
+Philip must not give herself the truck . 0.1605
+Philip must not give himself the truck . 0.2232
+a woman must not give himself the truck . 0.1191
+a woman must not give herself the truck . 0.2766
+could Mark work with herself on the tradition ? 0.0358
+could Mark work with himself on the tradition ? 0.0279
+could Laura work with himself on the tradition ? 0.2886
+could Laura work with herself on the tradition ? 0.0370
+Mark could work with herself on the tradition . 0.0591
+Mark could work with himself on the tradition . 0.0453
+Laura could work with himself on the tradition . 0.0849
+Laura could work with herself on the tradition . 0.0637
+can Michael record herself ? 0.0071
+can Michael record himself ? 0.0012
+can the woman record himself ? 0.0114
+can the woman record herself ? 0.0014
+Michael can record herself . 0.0062
+Michael can record himself . 0.0034
+the woman can record himself . 0.0165
+the woman can record herself . 0.0056
+could a woman be like himself ? 0.0843
+could a woman be like herself ? 0.0066
+would a woman close himself ? 0.1253
+would a woman close herself ? 0.0060
+a woman would not close himself . 0.0868
+a woman would not close herself . 0.0197
+would Michael give herself the truck ? 0.0535
+would Michael give himself the truck ? 0.0105
+would that woman give himself the truck ? 0.0446
+would that woman give herself the truck ? 0.0084
+Michael would not give herself the truck . 0.4314
+Michael would not give himself the truck . 0.1347
+that woman would not give himself the truck . 0.1807
+that woman would not give herself the truck . 0.0362
+should Laura read himself ? 0.1308
+should Laura read herself ? 0.0042
+Laura should read himself . 0.4069
+Laura should read herself . 0.0108
+Richard will not want herself . 0.3174
+Richard will not want himself . 0.1333
+could Philip read herself ? 0.0249
+could Philip read himself ? 0.0076
+could Laura read himself ? 0.0388
+could Laura read herself ? 0.0043
+Philip could not read herself . 0.0057
+Philip could not read himself . 0.0029
+Laura could not read himself . 0.1173
+Laura could not read herself . 0.0054
+will that man make herself the clock ? 0.0113
+will that man make himself the clock ? 0.0039
+will Laura make himself the clock ? 0.0480
+will Laura make herself the clock ? 0.0040
+that man will make herself the clock . 0.0212
+that man will make himself the clock . 0.0060
+Laura will make himself the clock . 0.0902
+Laura will make herself the clock . 0.0035
+must Richard give herself the clock ? 0.0625
+must Richard give himself the clock ? 0.0679
+must that woman give himself the clock ? 0.0563
+must that woman give herself the clock ? 0.0486
+Richard did not give herself the clock . 0.0398
+Richard did not give himself the clock . 0.0232
+that woman did not give himself the clock . 0.0554
+that woman did not give herself the clock . 0.0464
+could Donald make herself the boom ? 0.5376
+could Donald make himself the boom ? 0.8966
+could Sarah make himself the boom ? 0.5599
+could Sarah make herself the boom ? 0.7964
+Donald could make herself the boom . 0.3992
+Donald could make himself the boom . 0.3472
+Sarah could make himself the boom . 0.4749
+Sarah could make herself the boom . 0.4727
+can Sarah close himself ? 0.0160
+can Sarah close herself ? 0.0026
+Donald can not close herself . 0.0708
+Donald can not close himself . 0.0133
+Sarah can not close himself . 0.0798
+Sarah can not close herself . 0.0055
+he must run to herself . 0.0224
+he must run to himself . 0.0113
+will Mark make herself the dance ? 0.0317
+will Mark make himself the dance ? 0.0258
+will Sarah make himself the dance ? 0.1896
+will Sarah make herself the dance ? 0.0148
+Mark will make herself the dance . 0.0252
+Mark will make himself the dance . 0.0175
+Sarah will make himself the dance . 0.1029
+Sarah will make herself the dance . 0.0109
+that man would not run to herself . 0.0951
+that man would not run to himself . 0.0122
+should William make herself the book ? 0.0650
+should William make himself the book ? 0.0399
+should a woman make himself the book ? 0.1517
+should a woman make herself the book ? 0.0622
+William should make herself the book . 0.1345
+William should make himself the book . 0.0313
+a woman should make himself the book . 0.1735
+a woman should make herself the book . 0.0462
+could William want herself ? 0.0960
+could William want himself ? 0.0858
+William could want herself . 0.3359
+William could want himself . 0.5005
+a woman could want himself . 0.1643
+a woman could want herself . 0.1209
+must Roger give herself the night ? 0.0449
+must Roger give himself the night ? 0.0422
+must Laura give himself the night ? 0.0330
+must Laura give herself the night ? 0.0359
+Roger must give herself the night . 0.0201
+Roger must give himself the night . 0.0066
+Laura must give himself the night . 0.0170
+Laura must give herself the night . 0.0078
+can William tell herself about the couple ? 0.0258
+can William tell himself about the couple ? 0.0083
+can she tell himself about the couple ? 0.5552
+can she tell herself about the couple ? 0.0028
+William can not tell herself about the couple . 0.0169
+William can not tell himself about the couple . 0.0068
+she can not tell himself about the couple . 0.0883
+she can not tell herself about the couple . 0.0206
+William did not close herself . 0.0191
+William did not close himself . 0.0053
+that woman did not close himself . 0.0551
+that woman did not close herself . 0.0185
+could Donald be like herself ? 0.0101
+could Donald be like himself ? 0.0057
+Donald could not be like herself . 0.0121
+Donald could not be like himself . 0.0066
+can a man tell herself about the tradition ? 0.1048
+can a man tell himself about the tradition ? 0.0109
+can she tell himself about the tradition ? 0.4721
+can she tell herself about the tradition ? 0.0040
+a man can tell herself about the tradition . 0.0805
+a man can tell himself about the tradition . 0.0158
+she can tell himself about the tradition . 0.1009
+she can tell herself about the tradition . 0.0246
+should a man make herself the mind ? 0.0987
+should a man make himself the mind ? 0.0135
+should Sarah make himself the mind ? 0.4837
+should Sarah make herself the mind ? 0.1493
+a man should not make herself the mind . 0.2372
+a man should not make himself the mind . 0.0200
+Sarah should not make himself the mind . 0.6600
+Sarah should not make herself the mind . 0.1144
+must the man tell herself about the bear ? 0.1089
+must the man tell himself about the bear ? 0.0656
+must she tell himself about the bear ? 0.5697
+must she tell herself about the bear ? 0.1347
+the man must not tell herself about the bear . 0.0155
+the man must not tell himself about the bear . 0.0101
+she must not tell himself about the bear . 0.0886
+she must not tell herself about the bear . 0.0139
+should Philip tell herself about the sky ? 0.0207
+should Philip tell himself about the sky ? 0.0166
+should the woman tell himself about the sky ? 0.1778
+should the woman tell herself about the sky ? 0.0066
+Philip should tell herself about the sky . 0.0202
+Philip should tell himself about the sky . 0.0105
+the woman should tell himself about the sky . 0.0370
+the woman should tell herself about the sky . 0.0108
+should Roger give herself the growth ? 0.3565
+should Roger give himself the growth ? 0.2603
+should the woman give himself the growth ? 0.1004
+should the woman give herself the growth ? 0.0993
+Roger should give herself the growth . 0.3936
+Roger should give himself the growth . 0.3219
+the woman should give himself the growth . 0.1309
+the woman should give herself the growth . 0.1362
+must he read herself ? 0.1671
+must he read himself ? 0.0319
+he must not read herself . 0.0147
+he must not read himself . 0.0099
+the woman must not read himself . 0.0486
+the woman must not read herself . 0.0068
+should Mark want herself ? 0.1190
+should Mark want himself ? 0.0509
+Mark should not want herself . 0.1964
+Mark should not want himself . 0.4957
+can that woman want himself ? 0.2091
+can that woman want herself ? 0.0082
+that woman can not want himself . 0.0906
+that woman can not want herself . 0.0112
+would the man make herself the tradition ? 0.0673
+would the man make himself the tradition ? 0.1230
+would Laura make himself the tradition ? 0.3246
+would Laura make herself the tradition ? 0.1408
+the man would make herself the tradition . 0.1294
+the man would make himself the tradition . 0.1302
+Laura would make himself the tradition . 0.2517
+Laura would make herself the tradition . 0.1808
+would a woman give himself the fuel ? 0.0418
+would a woman give herself the fuel ? 0.0036
+the man would give herself the fuel . 0.0157
+the man would give himself the fuel . 0.0075
+a woman would give himself the fuel . 0.0558
+a woman would give herself the fuel . 0.0106
+must Richard read herself ? 0.0882
+must Richard read himself ? 0.0750
+Richard must read herself . 0.0151
+Richard must read himself . 0.0053
+he did not close herself . 0.0157
+he did not close himself . 0.0082
+could Sarah run to himself ? 0.1268
+could Sarah run to herself ? 0.0110
+Sarah could run to himself . 0.0928
+Sarah could run to herself . 0.0102
+would Mark give herself the sky ? 0.0509
+would Mark give himself the sky ? 0.0133
+would the woman give himself the sky ? 0.0146
+would the woman give herself the sky ? 0.0075
+Mark would not give herself the sky . 0.0464
+Mark would not give himself the sky . 0.0159
+the woman would not give himself the sky . 0.0255
+the woman would not give herself the sky . 0.0127
+would that man make herself the bank ? 0.0147
+would that man make himself the bank ? 0.0083
+would Laura make himself the bank ? 0.0445
+would Laura make herself the bank ? 0.0279
+that man would not make herself the bank . 0.1057
+that man would not make himself the bank . 0.0216
+Laura would not make himself the bank . 0.0898
+Laura would not make herself the bank . 0.0372
+Richard will want herself . 0.1409
+Richard will want himself . 0.1262
+a woman will want himself . 0.2108
+a woman will want herself . 0.0284
+would Donald tell herself about the drop ? 0.0651
+would Donald tell himself about the drop ? 0.0315
+would the woman tell himself about the drop ? 0.2649
+would the woman tell herself about the drop ? 0.0418
+Donald did not tell herself about the drop . 0.0385
+Donald did not tell himself about the drop . 0.0192
+the woman did not tell himself about the drop . 0.1665
+the woman did not tell herself about the drop . 0.0448
+should she close himself ? 0.5281
+should she close herself ? 0.0018
+that man did not close herself . 0.2203
+that man did not close himself . 0.0136
+will a man work with herself on the stand ? 0.1743
+will a man work with himself on the stand ? 0.0270
+will Laura work with himself on the stand ? 0.0828
+will Laura work with herself on the stand ? 0.0211
+a man will not work with herself on the stand . 0.0940
+a man will not work with himself on the stand . 0.0148
+Laura will not work with himself on the stand . 0.0263
+Laura will not work with herself on the stand . 0.0095
+could that man be like herself ? 0.0648
+could that man be like himself ? 0.0022
+that man could not be like herself . 0.0550
+that man could not be like himself . 0.0066
+Laura could not be like himself . 0.0220
+Laura could not be like herself . 0.0049
+should Roger be like herself ? 0.0152
+should Roger be like himself ? 0.0030
+Roger should be like herself . 0.0285
+Roger should be like himself . 0.0027
+the woman should be like himself . 0.0553
+the woman should be like herself . 0.0065
+could that man work with herself on the valley ? 0.0689
+could that man work with himself on the valley ? 0.0122
+could a woman work with himself on the valley ? 0.1131
+could a woman work with herself on the valley ? 0.0836
+that man could not work with herself on the valley . 0.0871
+that man could not work with himself on the valley . 0.0204
+a woman could not work with himself on the valley . 0.1381
+a woman could not work with herself on the valley . 0.1092
+must a man tell herself about the person ? 0.2001
+must a man tell himself about the person ? 0.1233
+must Sarah tell himself about the person ? 0.1196
+must Sarah tell herself about the person ? 0.1756
+a man must tell herself about the person . 0.0744
+a man must tell himself about the person . 0.0104
+Sarah must tell himself about the person . 0.0424
+Sarah must tell herself about the person . 0.0069
+would he record herself ? 0.1097
+would he record himself ? 0.0019
+he would record herself . 0.0081
+he would record himself . 0.0040
+Laura would record himself . 0.0727
+Laura would record herself . 0.0025
+will William work with herself on the stand ? 0.0538
+will William work with himself on the stand ? 0.0164
+William will not work with herself on the stand . 0.0409
+William will not work with himself on the stand . 0.0105
+can Philip make herself the bank ? 0.0159
+can Philip make himself the bank ? 0.0318
+can she make himself the bank ? 0.3810
+can she make herself the bank ? 0.0131
+Philip can make herself the bank . 0.0279
+Philip can make himself the bank . 0.0181
+she can make himself the bank . 0.2086
+she can make herself the bank . 0.0285
+would Mark read herself ? 0.0340
+would Mark read himself ? 0.0098
+Mark would not read herself . 0.0385
+Mark would not read himself . 0.0101
+could Philip tell herself about the baby ? 0.0146
+could Philip tell himself about the baby ? 0.0093
+could Laura tell himself about the baby ? 0.1057
+could Laura tell herself about the baby ? 0.0101
+Philip could tell herself about the baby . 0.0069
+Philip could tell himself about the baby . 0.0052
+Laura could tell himself about the baby . 0.0550
+Laura could tell herself about the baby . 0.0085
+he could not record herself . 0.0138
+he could not record himself . 0.0071
+a woman could not record himself . 0.0306
+a woman could not record herself . 0.0068
+can Donald tell herself about the sky ? 0.0624
+can Donald tell himself about the sky ? 0.0304
+can that woman tell himself about the sky ? 0.2242
+can that woman tell herself about the sky ? 0.0070
+Donald can not tell herself about the sky . 0.0323
+Donald can not tell himself about the sky . 0.0172
+that woman can not tell himself about the sky . 0.0461
+that woman can not tell herself about the sky . 0.0175
+can a woman work with himself on the suit ? 0.0888
+can a woman work with herself on the suit ? 0.0083
+a woman can not work with himself on the suit . 0.0715
+a woman can not work with herself on the suit . 0.0124
+can Richard tell herself about the night ? 0.0135
+can Richard tell himself about the night ? 0.0053
+can Sarah tell himself about the night ? 0.0673
+can Sarah tell herself about the night ? 0.0118
+Richard can tell herself about the night . 0.0299
+Richard can tell himself about the night . 0.0086
+Sarah can tell himself about the night . 0.2114
+Sarah can tell herself about the night . 0.0109
+could Alexander read herself ? 0.0088
+could Alexander read himself ? 0.0053
+Alexander could not read herself . 0.0051
+Alexander could not read himself . 0.0041
+should Donald be like herself ? 0.0738
+should Donald be like himself ? 0.0026
+Donald should be like herself . 0.0533
+Donald should be like himself . 0.0043
+a woman should be like himself . 0.1030
+a woman should be like herself . 0.0073
+will Donald read herself ? 0.1289
+will Donald read himself ? 0.0261
+will Sarah read himself ? 0.0816
+will Sarah read herself ? 0.0062
+Donald will read herself . 0.0977
+Donald will read himself . 0.0365
+Sarah will read himself . 0.4177
+Sarah will read herself . 0.0090
+could William read herself ? 0.0564
+could William read himself ? 0.0066
+William could not read herself . 0.0096
+William could not read himself . 0.0038
+could that man give herself the access ? 0.0069
+could that man give himself the access ? 0.0036
+could she give himself the access ? 0.0994
+could she give herself the access ? 0.0018
+that man could give herself the access . 0.0562
+that man could give himself the access . 0.0102
+she could give himself the access . 0.0415
+she could give herself the access . 0.0094
+must Donald give herself the tradition ? 0.4703
+must Donald give himself the tradition ? 0.9402
+must Sarah give himself the tradition ? 0.3171
+must Sarah give herself the tradition ? 0.2810
+Donald must give herself the tradition . 0.4947
+Donald must give himself the tradition . 0.5799
+Sarah must give himself the tradition . 0.2548
+Sarah must give herself the tradition . 0.2691
+can he read herself ? 0.0436
+can he read himself ? 0.0014
+he can read herself . 0.0237
+he can read himself . 0.0060
+she can read himself . 0.1298
+she can read herself . 0.0194
+must Sarah want himself ? 0.4292
+must Sarah want herself ? 0.3185
+Philip must want herself . 0.0492
+Philip must want himself . 0.0907
+Sarah must want himself . 0.1687
+Sarah must want herself . 0.0369
+must Richard close herself ? 0.1236
+must Richard close himself ? 0.1052
+must the woman close himself ? 0.1365
+must the woman close herself ? 0.1076
+Richard must close herself . 0.0158
+Richard must close himself . 0.0053
+the woman must close himself . 0.0242
+the woman must close herself . 0.0081
+the woman could not read himself . 0.0266
+the woman could not read herself . 0.0092
+could Roger run to herself ? 0.0492
+could Roger run to himself ? 0.0175
+Roger could not run to herself . 0.0149
+Roger could not run to himself . 0.0121
+a woman did not want himself . 0.2706
+a woman did not want herself . 0.0138
+should Mark record herself ? 0.0351
+should Mark record himself ? 0.0033
+Mark did not record herself . 0.0120
+Mark did not record himself . 0.0033
+should Mark tell herself about the hill ? 0.0623
+should Mark tell himself about the hill ? 0.0116
+should she tell himself about the hill ? 0.6653
+should she tell herself about the hill ? 0.0040
+Mark should not tell herself about the hill . 0.0252
+Mark should not tell himself about the hill . 0.0159
+she should not tell himself about the hill . 0.0686
+she should not tell herself about the hill . 0.0159
+must that woman run to himself ? 0.1567
+must that woman run to herself ? 0.0632
+Donald must not run to herself . 0.0197
+Donald must not run to himself . 0.0089
+that woman must not run to himself . 0.0944
+that woman must not run to herself . 0.0089
+should Michael read herself ? 0.0236
+should Michael read himself ? 0.0110
+Michael should not read herself . 0.0147
+Michael should not read himself . 0.0081
+that woman should not read himself . 0.1395
+that woman should not read herself . 0.0109
+could Alexander record herself ? 0.0095
+could Alexander record himself ? 0.0216
+could Laura record himself ? 0.0164
+could Laura record herself ? 0.0037
+Alexander could not record herself . 0.0054
+Alexander could not record himself . 0.0031
+Laura could not record himself . 0.0126
+Laura could not record herself . 0.0039
+will Alexander be like herself ? 0.0068
+will Alexander be like himself ? 0.0037
+Alexander will be like herself . 0.0135
+Alexander will be like himself . 0.0047
+the woman can not run to himself . 0.0333
+the woman can not run to herself . 0.0079
+would Roger work with herself on the sky ? 0.0619
+would Roger work with himself on the sky ? 0.0344
+would Laura work with himself on the sky ? 0.0764
+would Laura work with herself on the sky ? 0.0269
+Roger would not work with herself on the sky . 0.0301
+Roger would not work with himself on the sky . 0.0258
+Laura would not work with himself on the sky . 0.0375
+Laura would not work with herself on the sky . 0.0241
+would that man tell herself about the fuel ? 0.0729
+would that man tell himself about the fuel ? 0.0122
+would Sarah tell himself about the fuel ? 0.0853
+would Sarah tell herself about the fuel ? 0.0442
+that man would not tell herself about the fuel . 0.0427
+that man would not tell himself about the fuel . 0.0214
+Sarah would not tell himself about the fuel . 0.2834
+Sarah would not tell herself about the fuel . 0.0252
+Alexander should not be like herself . 0.0086
+Alexander should not be like himself . 0.0048
+should Donald work with herself on the drop ? 0.1199
+should Donald work with himself on the drop ? 0.0276
+should she work with himself on the drop ? 0.5312
+should she work with herself on the drop ? 0.0068
+Donald did not work with herself on the drop . 0.0294
+Donald did not work with himself on the drop . 0.0280
+she did not work with himself on the drop . 0.1393
+she did not work with herself on the drop . 0.0348
+the man would not record herself . 0.0211
+the man would not record himself . 0.0065
+would Sarah want himself ? 0.3272
+would Sarah want herself ? 0.0846
+Sarah would not want himself . 0.3404
+Sarah would not want herself . 0.0614
+can Philip close herself ? 0.0144
+can Philip close himself ? 0.0056
+Philip can close herself . 0.0172
+Philip can close himself . 0.0134
+will Donald work with herself on the night ? 0.0791
+will Donald work with himself on the night ? 0.0404
+will a woman work with himself on the night ? 0.0947
+will a woman work with herself on the night ? 0.0130
+Donald did not work with herself on the night . 0.0143
+Donald did not work with himself on the night . 0.0104
+a woman did not work with himself on the night . 0.1018
+a woman did not work with herself on the night . 0.0180
+must Mark give herself the drop ? 0.0858
+must Mark give himself the drop ? 0.0307
+must the woman give himself the drop ? 0.0500
+must the woman give herself the drop ? 0.0443
+Mark must not give herself the drop . 0.1036
+Mark must not give himself the drop . 0.0425
+the woman must not give himself the drop . 0.0418
+the woman must not give herself the drop . 0.0374
+he will run to herself . 0.0277
+he will run to himself . 0.0072
+can Donald tell herself about the access ? 0.0328
+can Donald tell himself about the access ? 0.0149
+can Laura tell himself about the access ? 0.0468
+can Laura tell herself about the access ? 0.0167
+Donald can not tell herself about the access . 0.0316
+Donald can not tell himself about the access . 0.0221
+Laura can not tell himself about the access . 0.0215
+Laura can not tell herself about the access . 0.0209
+can that man make herself the bank ? 0.0131
+can that man make himself the bank ? 0.0088
+can Sarah make himself the bank ? 0.0268
+can Sarah make herself the bank ? 0.0195
+that man did not make herself the bank . 0.1541
+that man did not make himself the bank . 0.0200
+Sarah did not make himself the bank . 0.0959
+Sarah did not make herself the bank . 0.0285
+Michael did not record herself . 0.0025
+Michael did not record himself . 0.0021
+Donald would read herself . 0.0493
+Donald would read himself . 0.0206
+the woman would read himself . 0.0858
+the woman would read herself . 0.0081
+should Roger work with herself on the person ? 0.0732
+should Roger work with himself on the person ? 0.0086
+should a woman work with himself on the person ? 0.1322
+should a woman work with herself on the person ? 0.0072
+Roger should work with herself on the person . 0.0183
+Roger should work with himself on the person . 0.0079
+a woman should work with himself on the person . 0.1994
+a woman should work with herself on the person . 0.0142
+can Laura be like himself ? 0.0058
+can Laura be like herself ? 0.0016
+Roger can be like herself . 0.0409
+Roger can be like himself . 0.0055
+Laura can be like himself . 0.1182
+Laura can be like herself . 0.0037
+will Alexander work with herself on the counter ? 0.0187
+will Alexander work with himself on the counter ? 0.0179
+will Sarah work with himself on the counter ? 0.0627
+will Sarah work with herself on the counter ? 0.0160
+Alexander will work with herself on the counter . 0.0131
+Alexander will work with himself on the counter . 0.0043
+Sarah will work with himself on the counter . 0.2140
+Sarah will work with herself on the counter . 0.0155
+should Richard read herself ? 0.0408
+should Richard read himself ? 0.0098
+Richard should not read herself . 0.0203
+Richard should not read himself . 0.0063
+Laura should not read himself . 0.2773
+Laura should not read herself . 0.0049
+must William make herself the person ? 0.0364
+must William make himself the person ? 0.0649
+must that woman make himself the person ? 0.0536
+must that woman make herself the person ? 0.0609
+William must make herself the person . 0.0157
+William must make himself the person . 0.0143
+that woman must make himself the person . 0.1268
+that woman must make herself the person . 0.0140
+should she read himself ? 0.3719
+should she read herself ? 0.0031
+she should not read himself . 0.1044
+she should not read herself . 0.0132
+will Philip give herself the bird ? 0.0537
+will Philip give himself the bird ? 0.0071
+will the woman give himself the bird ? 0.0182
+will the woman give herself the bird ? 0.0059
+Philip will give herself the bird . 0.0271
+Philip will give himself the bird . 0.0080
+the woman will give himself the bird . 0.0324
+the woman will give herself the bird . 0.0108
+should Philip give herself the night ? 0.0094
+should Philip give himself the night ? 0.0026
+should Laura give himself the night ? 0.0155
+should Laura give herself the night ? 0.0029
+Philip did not give herself the night . 0.0063
+Philip did not give himself the night . 0.0049
+Laura did not give himself the night . 0.0444
+Laura did not give herself the night . 0.0096
+that woman should not be like himself . 0.0910
+that woman should not be like herself . 0.0085
+will William make herself the hill ? 0.0504
+will William make himself the hill ? 0.0165
+will she make himself the hill ? 0.2263
+will she make herself the hill ? 0.0110
+William will make herself the hill . 0.0415
+William will make himself the hill . 0.0151
+she will make himself the hill . 0.0384
+she will make herself the hill . 0.0184
+Alexander will record herself . 0.0061
+Alexander will record himself . 0.0027
+could Philip record herself ? 0.0203
+could Philip record himself ? 0.0161
+could the woman record himself ? 0.0151
+could the woman record herself ? 0.0031
+Philip did not record herself . 0.0032
+Philip did not record himself . 0.0016
+will he make herself the memory ? 0.3298
+will he make himself the memory ? 0.0114
+will the woman make himself the memory ? 0.0240
+will the woman make herself the memory ? 0.0170
+he will not make herself the memory . 0.0349
+he will not make himself the memory . 0.0238
+the woman will not make himself the memory . 0.0989
+the woman will not make herself the memory . 0.0335
+will Richard give herself the bet ? 0.0698
+will Richard give himself the bet ? 0.0044
+will Sarah give himself the bet ? 0.0254
+will Sarah give herself the bet ? 0.0044
+Richard will not give herself the bet . 0.0368
+Richard will not give himself the bet . 0.0081
+Sarah will not give himself the bet . 0.0693
+Sarah will not give herself the bet . 0.0083
+will Mark make herself the growth ? 0.6195
+will Mark make himself the growth ? 0.8707
+will the woman make himself the growth ? 0.4730
+will the woman make herself the growth ? 0.6200
+Mark will not make herself the growth . 0.2054
+Mark will not make himself the growth . 0.1880
+the woman will not make himself the growth . 0.3432
+the woman will not make herself the growth . 0.5072
+the woman could be like himself . 0.0595
+the woman could be like herself . 0.0072
+would Donald make herself the rock ? 0.0200
+would Donald make himself the rock ? 0.0205
+would she make himself the rock ? 0.1518
+would she make herself the rock ? 0.0071
+Donald would make herself the rock . 0.0533
+Donald would make himself the rock . 0.0947
+she would make himself the rock . 0.0575
+she would make herself the rock . 0.0228
+can that man make herself the back ? 0.0684
+can that man make himself the back ? 0.0805
+can that woman make himself the back ? 0.1386
+can that woman make herself the back ? 0.1427
+that man can not make herself the back . 0.2252
+that man can not make himself the back . 0.1172
+that woman can not make himself the back . 0.1807
+that woman can not make herself the back . 0.1335
+can the man tell herself about the clock ? 0.0492
+can the man tell himself about the clock ? 0.0027
+can a woman tell himself about the clock ? 0.2122
+can a woman tell herself about the clock ? 0.0040
+the man can not tell herself about the clock . 0.0191
+the man can not tell himself about the clock . 0.0079
+a woman can not tell himself about the clock . 0.0995
+a woman can not tell herself about the clock . 0.0089
+can Donald tell herself about the cabinet ? 0.0403
+can Donald tell himself about the cabinet ? 0.0095
+can a woman tell himself about the cabinet ? 0.2385
+can a woman tell herself about the cabinet ? 0.0121
+Donald can not tell herself about the cabinet . 0.0207
+Donald can not tell himself about the cabinet . 0.0087
+a woman can not tell himself about the cabinet . 0.1159
+a woman can not tell herself about the cabinet . 0.0108
+that man must want herself . 0.0837
+that man must want himself . 0.0076
+should William want herself ? 0.0786
+should William want himself ? 0.0458
+William should want herself . 0.4619
+William should want himself . 0.4483
+will Mark make herself the scale ? 0.0569
+will Mark make himself the scale ? 0.0805
+will she make himself the scale ? 0.2259
+will she make herself the scale ? 0.0159
+Mark will not make herself the scale . 0.1735
+Mark will not make himself the scale . 0.2322
+she will not make himself the scale . 0.1319
+she will not make herself the scale . 0.0377
+must the man make herself the picture ? 0.0949
+must the man make himself the picture ? 0.0658
+must she make himself the picture ? 0.3484
+must she make herself the picture ? 0.0295
+the man must make herself the picture . 0.0452
+the man must make himself the picture . 0.0137
+she must make himself the picture . 0.1282
+she must make herself the picture . 0.0145
+must Alexander work with herself on the growth ? 0.0441
+must Alexander work with himself on the growth ? 0.0634
+must Sarah work with himself on the growth ? 0.0494
+must Sarah work with herself on the growth ? 0.0315
+Alexander must not work with herself on the growth . 0.0588
+Alexander must not work with himself on the growth . 0.0542
+Sarah must not work with himself on the growth . 0.0499
+Sarah must not work with herself on the growth . 0.0373
+Richard did not read herself . 0.0158
+Richard did not read himself . 0.0062
+can the man work with herself on the tradition ? 0.0507
+can the man work with himself on the tradition ? 0.0178
+can that woman work with himself on the tradition ? 0.2729
+can that woman work with herself on the tradition ? 0.0192
+the man can not work with herself on the tradition . 0.0745
+the man can not work with himself on the tradition . 0.0217
+that woman can not work with himself on the tradition . 0.1786
+that woman can not work with herself on the tradition . 0.0285
+Donald must want herself . 0.0617
+Donald must want himself . 0.0463
+a woman must want himself . 0.1497
+a woman must want herself . 0.0077
+will the man be like herself ? 0.0473
+will the man be like himself ? 0.0032
+the man will be like herself . 0.0825
+the man will be like himself . 0.0078
+would Richard work with herself on the game ? 0.0219
+would Richard work with himself on the game ? 0.0202
+would Laura work with himself on the game ? 0.1137
+would Laura work with herself on the game ? 0.0100
+Richard did not work with herself on the game . 0.0785
+Richard did not work with himself on the game . 0.0075
+Laura did not work with himself on the game . 0.0167
+Laura did not work with herself on the game . 0.0072
+William can not record herself . 0.0069
+William can not record himself . 0.0025
+Sarah could not be like himself . 0.0538
+Sarah could not be like herself . 0.0045
+will William run to herself ? 0.0681
+will William run to himself ? 0.0141
+William will run to herself . 0.0905
+William will run to himself . 0.0153
+Laura will run to himself . 0.1793
+Laura will run to herself . 0.0062
+must Philip record herself ? 0.0835
+must Philip record himself ? 0.1098
+Philip must record herself . 0.0025
+Philip must record himself . 0.0019
+should Laura close himself ? 0.1418
+should Laura close herself ? 0.0035
+Laura should close himself . 0.5106
+Laura should close herself . 0.0065
+would the woman run to himself ? 0.1051
+would the woman run to herself ? 0.0055
+William would run to herself . 0.0242
+William would run to himself . 0.0105
+the woman would run to himself . 0.0537
+the woman would run to herself . 0.0068
+would Donald make herself the picture ? 0.0259
+would Donald make himself the picture ? 0.0305
+would Laura make himself the picture ? 0.1180
+would Laura make herself the picture ? 0.0148
+Donald would make herself the picture . 0.0230
+Donald would make himself the picture . 0.0252
+Laura would make himself the picture . 0.0947
+Laura would make herself the picture . 0.0165
+must Donald close herself ? 0.2296
+must Donald close himself ? 0.2090
+Donald must close herself . 0.0350
+Donald must close himself . 0.0123
+a woman must close himself . 0.1019
+a woman must close herself . 0.0095
+should the man run to herself ? 0.1026
+should the man run to himself ? 0.0042
+the man should not run to herself . 0.1028
+the man should not run to himself . 0.0075
+would a man work with herself on the sky ? 0.1217
+would a man work with himself on the sky ? 0.0054
+a man would work with herself on the sky . 0.1621
+a man would work with himself on the sky . 0.0121
+Laura would work with himself on the sky . 0.0562
+Laura would work with herself on the sky . 0.0112
+can a man tell herself about the stadium ? 0.3655
+can a man tell himself about the stadium ? 0.0230
+can that woman tell himself about the stadium ? 0.2412
+can that woman tell herself about the stadium ? 0.0361
+a man can not tell herself about the stadium . 0.1104
+a man can not tell himself about the stadium . 0.0281
+that woman can not tell himself about the stadium . 0.1299
+that woman can not tell herself about the stadium . 0.0568
+should Laura run to himself ? 0.2032
+should Laura run to herself ? 0.0135
+Michael should not run to herself . 0.0102
+Michael should not run to himself . 0.0222
+Laura should not run to himself . 0.1235
+Laura should not run to herself . 0.0068
+must Mark tell herself about the tradition ? 0.0540
+must Mark tell himself about the tradition ? 0.0740
+must the woman tell himself about the tradition ? 0.2402
+must the woman tell herself about the tradition ? 0.0607
+Mark must not tell herself about the tradition . 0.0367
+Mark must not tell himself about the tradition . 0.0139
+the woman must not tell himself about the tradition . 0.0279
+the woman must not tell herself about the tradition . 0.0110
+will that man be like herself ? 0.1369
+will that man be like himself ? 0.0025
+that man will not be like herself . 0.1394
+that man will not be like himself . 0.0081
+can Michael tell herself about the tradition ? 0.0167
+can Michael tell himself about the tradition ? 0.0125
+can Laura tell himself about the tradition ? 0.0521
+can Laura tell herself about the tradition ? 0.0083
+Michael can not tell herself about the tradition . 0.0119
+Michael can not tell himself about the tradition . 0.0131
+Laura can not tell himself about the tradition . 0.0194
+Laura can not tell herself about the tradition . 0.0080
+will that man make herself the cast ? 0.0477
+will that man make himself the cast ? 0.0561
+will a woman make himself the cast ? 0.1448
+will a woman make herself the cast ? 0.0319
+that man will not make herself the cast . 0.1027
+that man will not make himself the cast . 0.0899
+a woman will not make himself the cast . 0.1979
+a woman will not make herself the cast . 0.0691
+will that man work with herself on the counter ? 0.0563
+will that man work with himself on the counter ? 0.0129
+will the woman work with himself on the counter ? 0.0783
+will the woman work with herself on the counter ? 0.0160
+that man will not work with herself on the counter . 0.0905
+that man will not work with himself on the counter . 0.0113
+the woman will not work with himself on the counter . 0.0546
+the woman will not work with herself on the counter . 0.0106
+would Sarah be like himself ? 0.0209
+would Sarah be like herself ? 0.0054
+William would be like herself . 0.0869
+William would be like himself . 0.0056
+Sarah would be like himself . 0.1134
+Sarah would be like herself . 0.0074
+can Mark make herself the bet ? 0.0124
+can Mark make himself the bet ? 0.0053
+can Laura make himself the bet ? 0.0947
+can Laura make herself the bet ? 0.0044
+Mark can not make herself the bet . 0.2855
+Mark can not make himself the bet . 0.0121
+Laura can not make himself the bet . 0.1715
+Laura can not make herself the bet . 0.0112
+can Donald record herself ? 0.0487
+can Donald record himself ? 0.0092
+Donald can record herself . 0.0541
+Donald can record himself . 0.0420
+could she run to himself ? 0.6667
+could she run to herself ? 0.0058
+she could run to himself . 0.0836
+she could run to herself . 0.0129

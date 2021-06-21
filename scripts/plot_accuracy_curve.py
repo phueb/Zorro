@@ -8,12 +8,6 @@ from zorro.io import get_group2model_output_paths
 from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
 EXPERIMENT: str = 'exp3'
-IS_LOCAL = False
-
-if IS_LOCAL:
-    configs.Eval.local_runs = True
-else:
-    configs.Eval.local_runs = False
 
 if EXPERIMENT == 'exp1':
     steps = [i for i in range(0, 280_000, 20_000)]
@@ -65,7 +59,7 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
 
     # print n
     for gn, model_output_paths in group_name2model_output_paths.items():
-        reps = get_reps(model_output_paths)  # TODO not correct
+        reps = get_reps(model_output_paths)
         print(f'{gn:.<64}n={reps:>2}')
 
     # init data

@@ -4,8 +4,8 @@ from pathlib import Path
 class Dirs:
     src = Path(__file__).parent
     root = src.parent
-    runs_remote = Path('/') / 'media' / 'ludwig_data' / 'BabyBERTa' / 'runs'
-    runs_local = root / 'runs'
+    runs = Path('/') / 'media' / 'ludwig_data' / 'BabyBERTa' / 'runs'
+    reference = root / 'reference'
     data = root / 'data'
     sentences = root / 'sentences'
     external_words = data / 'external_words'
@@ -40,7 +40,6 @@ class Eval:
         'possessive_pronoun',  # sometimes both sentences are grammatical
         'verb_in_passive_voice',  # not in BLiMP and redundant with other other "irregular" paradigm
     ]
-    local_runs = False  # use model output stored locally in Zorro/runs/
 
 
 class Figs:

@@ -1,0 +1,4 @@
+architecture: Roberta-base
+data_size: 30B
+framework: huggingface
+corpora: Liu et al. 2019
