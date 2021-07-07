@@ -1,17 +1,16 @@
 from collections import defaultdict
 import numpy as np
 
-from zorro import configs
 from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms
 from zorro.utils import load_group_names, filter_by_step, get_reps, get_legend_label
 from zorro.io import get_group2model_output_paths
 from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
-EXPERIMENT: str = 'exp3'
+EXPERIMENT: str = 'age-order-exp'
 
 if EXPERIMENT == 'exp1':
     steps = [i for i in range(0, 280_000, 20_000)]
-    param_names = [f'param_{i:03}' for i in [1,4]]
+    param_names = [f'param_{i:03}' for i in [1, 4]]
     conditions = ['corpora', 'leave_unmasked_prob']
 
 elif EXPERIMENT == 'exp2':
@@ -33,6 +32,11 @@ elif EXPERIMENT == 'exp4b':
     steps = [i for i in range(0, 280_000, 20_000)]
     param_names = [f'param_{i:03}' for i in []]
     conditions = ['leave_unmasked_prob', ]
+
+elif EXPERIMENT == 'age-order-exp':
+    steps = [i for i in range(0, 900_000, 100_000)]
+    param_names = [f'param_{i:03}' for i in [14, 15]]
+    conditions = ['corpora', 'training_order']
 
 else:
     raise AttributeError('Unknown experiment')
