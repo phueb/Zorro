@@ -34,8 +34,8 @@ elif EXPERIMENT == 'exp4b':
     conditions = ['leave_unmasked_prob', ]
 
 elif EXPERIMENT == 'age-order-exp':
-    steps = [i for i in range(0, 900_000, 100_000)]
-    param_names = [f'param_{i:03}' for i in [14, 15]]
+    steps = [i for i in range(0, 600_000, 100_000)]
+    param_names = [f'param_{i:03}' for i in [16, 17]]
     conditions = ['corpora', 'training_order']
 
 else:

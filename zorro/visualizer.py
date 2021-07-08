@@ -166,7 +166,7 @@ class VisualizerLines(VisualizerBase):
         # plot
         for gn, rep2curve in pd.group_name2rep2curve.items():
             color = f'C{pd.group_names.index(gn)}'
-            curves = np.array([rep2curve[rep] for rep in rep2curve])  # one curve for each replication
+            curves = np.vstack([rep2curve[rep] for rep in rep2curve])  # one curve for each replication
             curves = curves[~(np.isnan(curves))].reshape((len(curves), -1))  # remove nans (step may be too large)
             x = self.x_ticks[:curves.shape[1]]
             y = curves.mean(axis=0)
