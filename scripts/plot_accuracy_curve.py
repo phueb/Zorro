@@ -1,5 +1,6 @@
 from collections import defaultdict
 import numpy as np
+from itertools import count
 
 from zorro.utils import prepare_data_for_plotting, get_phenomena_and_paradigms
 from zorro.utils import load_group_names, filter_by_step, get_reps, get_legend_label
@@ -7,35 +8,32 @@ from zorro.io import get_group2model_output_paths
 from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
 EXPERIMENT: str = 'age-order-exp'
+STEP_SIZE: int = 100_000
 
 if EXPERIMENT == 'exp1':
-    steps = [i for i in range(0, 280_000, 20_000)]
     param_names = [f'param_{i:03}' for i in [1, 4]]
     conditions = ['corpora', 'leave_unmasked_prob']
 
 elif EXPERIMENT == 'exp2':
-    steps = [i for i in range(0, 280_000, 20_000)]
     param_names = [f'param_{i:03}' for i in [1, 2, 3]]
     conditions = ['corpora', ]
 
 elif EXPERIMENT == 'exp3':
-    steps = [i for i in range(0, 280_000, 20_000)]
     param_names = [f'param_{i:03}' for i in [5, 6]]
     conditions = ['corpora', 'load_from_checkpoint']
 
 elif EXPERIMENT == 'exp4a':
-    steps = [i for i in range(0, 900_000, 20_000)]  # data goes to step 960K
+
     param_names = [f'param_{i:03}' for i in []]
     conditions = ['corpora']
 
 elif EXPERIMENT == 'exp4b':
-    steps = [i for i in range(0, 280_000, 20_000)]
+
     param_names = [f'param_{i:03}' for i in []]
     conditions = ['leave_unmasked_prob', ]
 
 elif EXPERIMENT == 'age-order-exp':
-    steps = [i for i in range(0, 600_000, 100_000)]
-    param_names = [f'param_{i:03}' for i in [16, 17]]
+    param_names = [f'param_{i:03}' for i in [14, 15]]
     conditions = ['corpora', 'training_order']
 
 else:
@@ -48,7 +46,7 @@ labels = [get_legend_label(gn, conditions) for gn in group_names]
 phenomena_paradigms = get_phenomena_and_paradigms()
 
 # collects and plots each ParadigmData instance in 1 multi-axis figure
-v = VisualizerLines(phenomena_paradigms=phenomena_paradigms, steps=steps)
+v = VisualizerLines(phenomena_paradigms=phenomena_paradigms, step_size=STEP_SIZE)
 
 # for all paradigms
 for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
@@ -70,12 +68,23 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
     group_name2rep2curve = defaultdict(dict)
     group_name2template2curve = defaultdict(dict)
 
-    for step in steps:
+    step_exists = True
+    steps = []
+    for step in count(0, STEP_SIZE):  # increment step until no model output is found
         print(f'step={step:>12,}')
 
         # filter files by step
         group2model_output_paths_at_step = {g: [fp for fp in fps if filter_by_step(fp, step)]
                                             for g, fps in group_name2model_output_paths.items()}
+
+        # exit loop if no model output files available at this step
+        for group, model_output_paths_at_step in group2model_output_paths_at_step.items():
+            if not model_output_paths_at_step:
+                step_exists = False
+        if not step_exists:
+            break
+        else:
+            steps.append(step)
 
         # calc + collect accuracy
         template2group_name2accuracies = prepare_data_for_plotting(group2model_output_paths_at_step,
@@ -97,6 +106,7 @@ for n, (phenomenon, paradigm) in enumerate(phenomena_paradigms):
                 group_name2template2curve[group_name].setdefault(template, []).append(curve_i)
 
     pd = ParadigmDataLines(
+        steps=steps,
         phenomenon=phenomenon,
         paradigm=paradigm,
         group_names=group_names,

@@ -34,6 +34,7 @@ def make_ax_title(name: str):
 
 @dataclass
 class ParadigmDataLines:
+    steps: List[int]
     phenomenon: str
     paradigm: str
     group_names: List[str]
@@ -93,10 +94,12 @@ class VisualizerBase:
         self.axes = enumerate(ax for ax in self.ax_mat.flatten())
         self.pds = []  # data, one for each axis/paradigm
 
+        self.last_step = None  # will be determined later
+
 
 class VisualizerLines(VisualizerBase):
     def __init__(self,
-                 steps: List[int],
+                 step_size: int,
                  line_width: int = 1,
                  **kwargs
                  ):
@@ -106,11 +109,9 @@ class VisualizerLines(VisualizerBase):
 
         self.line_width = line_width
         self.x_axis_label = 'Training Step'
-        self.x_ticks = steps
+        self.step_size = step_size
 
         self.y_axis_label = f'Accuracy\n+/- {self.confidence * 100}% CI'
-
-        self.last_step = steps[-1]
 
         # score roberta-base output (only once for each paradigm)
         self.ax_kwargs_roberta_base = {'color': 'grey', 'linestyle': ':'}
@@ -139,6 +140,8 @@ class VisualizerLines(VisualizerBase):
 
         self.pds.append(pd)
 
+        self.last_step = pd.steps[-1]
+
         # get next axis
         ax_id, ax = next(self.axes)
 
@@ -156,8 +159,8 @@ class VisualizerLines(VisualizerBase):
         # x-axis
         if ax_id >= (self.num_rows - 1 - 1) * self.num_cols:   # -1 for figure legend, -1 to all axes in row
             ax.set_xlabel(self.x_axis_label, fontsize=configs.Figs.ax_font_size)
-            ax.set_xticks([self.last_step])
-            ax.set_xticklabels([shorten_tick_label(self.last_step)], fontsize=configs.Figs.tick_font_size)
+            ax.set_xticks([pd.steps[-1]])
+            ax.set_xticklabels([shorten_tick_label(pd.steps[-1])], fontsize=configs.Figs.tick_font_size)
         # axis
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
@@ -168,7 +171,7 @@ class VisualizerLines(VisualizerBase):
             color = f'C{pd.group_names.index(gn)}'
             curves = np.vstack([rep2curve[rep] for rep in rep2curve])  # one curve for each replication
             curves = curves[~(np.isnan(curves))].reshape((len(curves), -1))  # remove nans (step may be too large)
-            x = self.x_ticks[:curves.shape[1]]
+            x = pd.steps
             y = curves.mean(axis=0)
             ax.plot(x, y, linewidth=self.line_width, color=color)
 
@@ -200,7 +203,9 @@ class VisualizerLines(VisualizerBase):
 
         # get next axis in multi-axis figure and plot summary there
         ax_id, ax = next(self.axes)
-        self._plot_summary_on_axis(ax, label_y_axis=ax_id % self.ax_mat.shape[1] == 0, use_title=True)
+        self._plot_summary_on_axis(ax,
+                                   label_y_axis=ax_id % self.ax_mat.shape[1] == 0,
+                                   use_title=True)
 
         # remove axis decoration from any remaining axis
         for ax_id, ax in self.axes:
@@ -208,7 +213,9 @@ class VisualizerLines(VisualizerBase):
 
         # also plot summary in standalone figure
         fig_standalone, (ax1, ax2) = plt.subplots(2, figsize=STANDALONE_FIG_SIZE, dpi=300)
-        self._plot_summary_on_axis(ax1, label_y_axis=True, use_title=False)
+        self._plot_summary_on_axis(ax1,
+                                   label_y_axis=True,
+                                   use_title=False)
         ax2.axis('off')
         self._plot_legend(offset_from_bottom=STANDALONE_LEG_OFFSET, fig=fig_standalone)
 
@@ -216,7 +223,8 @@ class VisualizerLines(VisualizerBase):
         self.fig.show()
         fig_standalone.show()
 
-    def _plot_summary_on_axis(self, ax: plt.axis,
+    def _plot_summary_on_axis(self,
+                              ax: plt.axis,
                               label_y_axis: bool,
                               use_title: bool,
                               ):
@@ -266,7 +274,7 @@ class VisualizerLines(VisualizerBase):
             # plot averages for BabyBERTa
             color = f'C{self.pds[0].group_names.index(gn)}'
             y = np.array(curves).mean(axis=0)
-            x = self.x_ticks[:len(y)]
+            x = np.arange(0, self.last_step + self.step_size, self.step_size)
             ax.plot(x, y, linewidth=self.line_width, color=color)
 
             # plot average for RoBERTa-base
