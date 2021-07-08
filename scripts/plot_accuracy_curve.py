@@ -8,7 +8,7 @@ from zorro.io import get_group2model_output_paths
 from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
 EXPERIMENT: str = 'age-order-exp'
-STEP_SIZE: int = 100_000
+STEP_SIZE: int = 20_000
 
 if EXPERIMENT == 'exp1':
     param_names = [f'param_{i:03}' for i in [1, 4]]
@@ -33,7 +33,7 @@ elif EXPERIMENT == 'exp4b':
     conditions = ['leave_unmasked_prob', ]
 
 elif EXPERIMENT == 'age-order-exp':
-    param_names = [f'param_{i:03}' for i in [14, 15]]
+    param_names = [f'param_{i:03}' for i in [12, 13]]
     conditions = ['corpora', 'training_order']
 
 else:

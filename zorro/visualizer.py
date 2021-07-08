@@ -271,10 +271,11 @@ class VisualizerLines(VisualizerBase):
                                         for rep, curves_by_pd in rep2curves_by_pd.items()}
             curves = np.array([rep2curve_avg_across_pds[rep] for rep in rep2curve_avg_across_pds])  # one for each rep
 
-            # plot averages for BabyBERTa
             color = f'C{self.pds[0].group_names.index(gn)}'
-            y = np.array(curves).mean(axis=0)
             x = np.arange(0, self.last_step + self.step_size, self.step_size)
+
+            # plot averages for BabyBERTa
+            y = np.array(curves).mean(axis=0)
             ax.plot(x, y, linewidth=self.line_width, color=color)
 
             # plot average for RoBERTa-base
