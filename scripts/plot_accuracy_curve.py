@@ -1,3 +1,16 @@
+"""
+This script plots accuracy of model performance on Zorro test suite across training.
+
+This script is useful for replicating results reported in Huebner et al. (2021) that introduces BabyBERTa.
+Replication requires access to the shared drive (access provided to lab members only) where model results are saved.
+
+The advantage of this script is that accuracy is plotted for each step,
+making comparison more straightforward compared to using checkpoints for which information about which step they were created is not known.
+Comparing models saved at different steps is not fair.
+
+
+
+"""
 from collections import defaultdict
 import numpy as np
 from itertools import count
@@ -7,7 +20,7 @@ from zorro.utils import load_group_names, filter_by_step, get_reps, get_legend_l
 from zorro.io import get_group2model_output_paths
 from zorro.visualizer import VisualizerLines, ParadigmDataLines
 
-EXPERIMENT: str = 'age-order-exp'
+EXPERIMENT: str = 'exp1'
 STEP_SIZE: int = 20_000
 
 if EXPERIMENT == 'exp1':
