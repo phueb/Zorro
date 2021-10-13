@@ -9,10 +9,10 @@
 ## Update October, 2021
 
 The version of Zorro used to evaluate BabyBERTa in the paper entitled 
-*BabyBERTa: Learning more grammar with small-scale child directed language* published in the proceedings of CONLL2021
+*BabyBERTa: Learning more grammar with small-scale child directed language* published in the proceedings of CoNLL2021
 is out-of-date. This repository contains an updated version with title-cased proper nouns, 
 and different parings of content words. 
-To use the version used by the authors, please refer to the commit tagged "CONLL2021".
+To use the version used by the authors, please refer to the commit tagged "CoNLL2021".
 
 ## About
 
@@ -59,6 +59,12 @@ Because BabyBERTa is trained on lower-cased data, all words in test sentences, e
 2. Using `scripts/chose_legal_words.py`, we:
 - automatically retrieved words tagged with desired POS
 - manually tagged words as legal or illegal
+
+## Development
+
+Currently, information about each sentence's template is saved, but is unused.
+It may be useful to use information about a sentence's template for more in-depth analyses,
+ such as breaking down performance by singular vs. plural noun or verb.
 
 
 ## Advanced
