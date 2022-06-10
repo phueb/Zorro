@@ -8,8 +8,8 @@
 
 ## Update October, 2021
 
-The version of Zorro used to evaluate BabyBERTa in the paper entitled 
-*BabyBERTa: Learning more grammar with small-scale child directed language* published in the proceedings of CoNLL2021
+The version of Zorro used to evaluate BabyBERTa in the paper
+[BabyBERTa: Learning more grammar with small-scale child directed language](https://aclanthology.org/2021.conll-1.49/) published in the proceedings of CoNLL2021
 is out-of-date. This repository contains an updated version with title-cased proper nouns, 
 and different parings of content words. 
 To use the version used by the authors, please refer to the commit tagged "CoNLL2021".
