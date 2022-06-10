@@ -77,7 +77,7 @@ It may be useful to use information about a sentence's template for more in-dept
 
 ### To score predictions made by your models:
 
-Use [UnMasked] to load a custom model from the `huggingface` model hub.
+Use [UnMasked](https://github.com/phueb/UnMasked) to load a custom model from the `huggingface` model hub.
 The evaluation script is located in `UnMasked/scripts/score_model_from_repo.py`
  
 
