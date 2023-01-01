@@ -53,14 +53,14 @@ Because BabyBERTa is trained on lower-cased data, all words in test sentences, e
 
 1. Using `script/tag_and_count_vocab_words.py`, we removed any word that is:
 - not a whole word in original corpus files (it is a sub-word)
-- not in th English dictionary
+- not in the English dictionary
 - a Stanford CoreNLP stop-word
 
 2. Using `scripts/chose_legal_words.py`, we:
 - automatically retrieved words tagged with desired POS
 - manually tagged words as legal or illegal
 
-## Development
+## Potential Improvements
 
 Currently, information about each sentence's template is saved, but is unused.
 It may be useful to use information about a sentence's template for more in-depth analyses,
